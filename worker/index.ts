@@ -46,7 +46,9 @@ const worker = {
       }, allowedWidths);
     }
 
-    return handler.fetch(request, env, ctx);
+    const requestHeaders = new Headers(request.headers);
+    requestHeaders.set("x-tiling-locale", url.pathname === "/fr" || url.pathname.startsWith("/fr/") ? "fr" : "en");
+    return handler.fetch(new Request(request, { headers: requestHeaders }), env, ctx);
   },
 };
 

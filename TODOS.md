@@ -1,6 +1,6 @@
 # Current priorities
 
-- Complete English/French parity for the existing site, including forms, navigation, service/location content and metadata. Current pages are English-only.
+- French route coverage, forms, navigation, metadata and equivalent-page switching implemented October 25. Continue editorial refinement with real project examples in both languages.
 - Connect owner-approved enquiry analytics and review Search Console performance. Existing dataLayer events have no analytics destination.
 - Measure mobile Core Web Vitals with field data; no performance score is claimed by the October 25 audit.
 

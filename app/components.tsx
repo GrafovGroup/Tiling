@@ -2,6 +2,7 @@
 
 import { type AnchorHTMLAttributes, useState } from "react";
 import { usePathname } from "next/navigation";
+import { LanguageSwitch } from "./language-switch";
 import { trackEnquiry } from "./enquiry-events";
 import { business, materials, services } from "./data";
 
@@ -33,6 +34,7 @@ export function Header() {
       </Link>
       <nav className="desktop-nav" aria-label="Main navigation"><Link href="/services">Tile services</Link><Link href="/materials">Tile supply</Link><Link href="/locations">Service areas</Link><Link href="/about">About</Link></nav>
       <div className="header-actions">
+        <LanguageSwitch/>
         <Link className="header-phone" href={`tel:${business.phoneHref}`}>{business.phone}</Link>
         <Link className="header-cta" href="/request-a-quote">Get a quote</Link>
       </div>

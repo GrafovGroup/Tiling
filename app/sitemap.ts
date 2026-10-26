@@ -4,7 +4,7 @@ import type { MetadataRoute } from "next";
 import { areas, business, materials, services } from "./data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
+  const english: MetadataRoute.Sitemap = [
     {url:business.domain,lastModified:dates.home,changeFrequency:"monthly",priority:1},
     {url:`${business.domain}/services`,lastModified:dates.services,changeFrequency:"monthly",priority:.9},
     {url:`${business.domain}/materials`,lastModified:dates.materials,changeFrequency:"monthly",priority:.9},
@@ -23,4 +23,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...areas.map(area=>({url:`${business.domain}/areas/${area.slug}`,lastModified:dates.areas,changeFrequency:"monthly" as const,priority:.8})),
     ...areas.flatMap(area=>services.map(service=>({url:`${business.domain}/areas/${area.slug}/${service.slug}`,lastModified:dates.localServices,changeFrequency:"monthly" as const,priority:.7}))),
   ];
+  return english.flatMap(entry => {
+    const frenchUrl = `${business.domain}/fr${entry.url.slice(business.domain.length)}`;
+    const alternates = { languages: { "en-CA": entry.url, "fr-CA": frenchUrl, "x-default": entry.url } };
+    return [{ ...entry, alternates }, { ...entry, url: frenchUrl, lastModified: "2026-10-25", alternates }];
+  });
 }

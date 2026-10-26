@@ -75,3 +75,14 @@ GitHub Actions runs those validation steps on pushes and pull requests. GitHub i
 Quote submissions retain the same endpoint and field names, with a 20-second confirmation timeout, no automatic retries, a duplicate-submit guard, and explicit provider-success validation. Email delivery was confirmed by the owner during this review. Synthetic form tests do not send real emails.
 
 See `docs/audit-2026-10-25.md` for validation and remaining gaps.
+
+
+## French implementation and mobile header — October 25, 2026
+
+French routes live under `/fr` with the same stable path segments as English. `app/fr/content.ts` contains Canadian French service/material copy. `app/fr/[[...path]]/page.tsx` resolves the supported route families, including every existing local service area and service combination. French pages use adapted French copy and layouts rather than a word-for-word mirror of every English section.
+
+Both languages have reciprocal hreflang metadata, canonical URLs, sitemap entries and an equivalent-page language switcher that retains query/hash context. The Worker sets the HTML document language from the URL. French quote forms retain the production Formspree endpoint and field names, adding `language=fr-CA`; all UI states are localized.
+
+The mobile/tablet header uses one grid through 1100px: logo, language control and menu on the first row; centered click-to-call phone number on a dedicated row of at least 44px. This removes the previous 30px-row/44px-link mismatch.
+
+Validation: build and TypeScript pass; 38 tests cover existing English functionality, 482 French area hubs, all 15 French services, all five materials, representative local service combinations, form context, redirects, missing routes and sitemap parity. Browser viewport resizing is unavailable; real-phone visual confirmation remains a follow-up.
