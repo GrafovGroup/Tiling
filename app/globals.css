@@ -260,3 +260,9 @@ main :is(.service-detail,.local-context,.feature-copy,.material-hero-copy) p+p:n
 @media(min-width:821px) and (max-width:1200px){.french-header .desktop-nav{gap:12px}.french-header .desktop-nav a{font-size:12px;letter-spacing:0}.french-header .brand-logo{width:145px}.french-header{padding-inline:16px;gap:10px}}
 @media(max-width:820px){.fr-grid{grid-template-columns:1fr}.fr-content .inner-hero h1{font-size:clamp(36px,10vw,58px);overflow-wrap:break-word}.fr-content .hero h1{font-size:clamp(44px,12vw,70px)}.fr-content .hero-proof{gap:14px}.fr-content .section-pad{padding-block:52px}}
 .fr-service-image{width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+
+/* Keep optional labels readable in both languages and prevent phone-browser input zoom. */
+.quote-form > label {display:flex;flex-direction:column;gap:8px}
+.quote-form .optional-label {position:static;align-self:flex-start;font-size:12px;line-height:1.4}
+.quote-form input,.quote-form textarea {font-size:16px}
+.form-success a {color:inherit;text-decoration:underline;text-underline-offset:3px}

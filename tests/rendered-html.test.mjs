@@ -51,12 +51,12 @@ test("presents tile inspiration without unfinished copy or invented project clai
 
 test("publishes a Formspree-backed quote intake",async()=>{
   const response=await render("/request-a-quote"); assert.equal(response.status,200); const html=await response.text();
-  for(const field of ["name","email","city","details"]) assert.match(html,new RegExp(`name="${field}"`));
+  for(const field of ["name","email","phone","city","details"]) assert.match(html,new RegExp(`name="${field}"`));
   assert.match(html,/action="https:\/\/formspree\.io\/f\/xdeownaz"/i);
   assert.match(html,/method="POST"/i);
   assert.match(html,/Request a quote/i);
   assert.match(html,/info@tiling\.ca/i);
-  assert.doesNotMatch(html,/name="(?:phone|service|timing|consent)"/);
+  assert.doesNotMatch(html,/name="(?:service|timing|consent)"/);
   assert.match(html,/We’ll use your details to reply about your project/i);
   assert.doesNotMatch(html,/<textarea[^>]*required/);
   assert.doesNotMatch(html,/Prepare quote email|Nothing is sent until you press Send/i);

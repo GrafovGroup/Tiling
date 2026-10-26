@@ -13,7 +13,7 @@
     "lint": "./scripts/run-node.sh node_modules/eslint/bin/eslint.js . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
     "typecheck": "tsc --noEmit",
-    "test:forms": "node --experimental-strip-types --test tests/quote-submission.test.mjs"
+    "test:forms": "node --experimental-strip-types --test tests/quote-submission.test.mjs tests/enquiry-events.test.mjs"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",

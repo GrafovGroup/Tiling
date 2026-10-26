@@ -39,3 +39,16 @@ test('all French local areas and their service links are available',async()=>{
  for(const path of urls){const page=await html(path);for(const service of services)assert.ok(page.includes(`${path}/${service}`),path+'/'+service);assert.match(page,/<html lang="fr-CA"/);}
  for(const area of ['montreal','quebec-city','vancouver','toronto','dysart-et-al','iqaluit'])for(const service of services){const page=await html('/fr/areas/'+area+'/'+service);assert.match(page,/id="local-quote"/);assert.match(page,/name="language" value="fr-CA"/);}
 });
+
+test('callback field stays optional in both languages and retains quote delivery',async()=>{
+ for(const prefix of ['', '/fr']){
+ const page=await html(prefix+'/request-a-quote');
+ const phone=page.match(/<input[^>]*name="phone"[^>]*>/)?.[0];
+ assert.ok(phone);
+ assert.match(phone,/type="tel"/);
+ assert.match(phone,/autoComplete="tel"/i);
+ assert.doesNotMatch(phone,/required/);
+ assert.match(page,/action="https:\/\/formspree.io\/f\/xdeownaz"/);
+ assert.match(page,prefix?/Téléphone pour un rappel/:/Callback number/);
+ }
+});

@@ -62,7 +62,7 @@ export default async function AreaPage({ params }: { params: Params }) {
 
       <section className="area-services section-pad">
         <div className="section-heading">
-          <div><p className="section-kicker">{services.length} service categories</p><h2>Choose a {area.name} tile service.</h2></div>
+          <div><p className="section-kicker">{services.length} service categories</p><h2>Explore tile services in {area.name}.</h2></div>
           <p>Choose the work you need to see installation details and request a quote.</p>
         </div>
         <div className="service-card-grid">{services.map((service) => <Link key={service.slug} href={`/areas/${area.slug}/${service.slug}`}>

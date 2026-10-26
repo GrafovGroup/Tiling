@@ -86,3 +86,12 @@ Both languages have reciprocal hreflang metadata, canonical URLs, sitemap entrie
 The mobile/tablet header uses one grid through 1100px: logo, language control and menu on the first row; centered click-to-call phone number on a dedicated row of at least 44px. This removes the previous 30px-row/44px-link mismatch.
 
 Validation: build and TypeScript pass; 38 tests cover existing English functionality, 482 French area hubs, all 15 French services, all five materials, representative local service combinations, form context, redirects, missing routes and sitemap parity. Browser viewport resizing is unavailable; real-phone visual confirmation remains a follow-up.
+
+## Enquiry improvements — October 25, 2026
+- Optional callback number on all English and French quote forms; no additional required fields.
+- Confirmation provides a clearly labelled email link for project photos/plans. This is an email attachment workflow, not an in-form upload.
+- Project prompts ask for work type, approximate dimensions and timing.
+- Optional labels flow naturally on narrow screens; form inputs use 16px text.
+- Enquiry hooks include language and route-derived service context, exclude query/hash/form data, and cannot interrupt successful submissions if a measurement destination fails.
+- Analytics destination and Search Console access are still outstanding. No analytics account or measurement ID is present in the project.
+- Real project photographs, approved reviews and a reliable response-time promise still require owner input.
