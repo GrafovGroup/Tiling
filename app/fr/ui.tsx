@@ -1,4 +1,5 @@
 "use client";
+import { Logo } from "../logo";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { business } from "../data";
@@ -10,7 +11,7 @@ export function FrenchHeader(){
  const quote='/fr/request-a-quote'+(q.size?'?'+q:'');
  const links=[['/fr/services','Services'],['/fr/materials','Matériaux'],['/fr/locations','Régions desservies'],['/fr/about','À propos']];
  return <><a className="skip-link" href="#main-content">Aller au contenu</a><header className="site-header french-header" onKeyDown={e=>{if(e.key==='Escape')setOpen(false)}}>
- <a className="brand" href="/fr" aria-label="Tiling.ca — accueil"><img className="brand-logo" src="/brand/tiling-herringbone-square-dot.png" alt="Tiling.ca" width="2170" height="573"/></a>
+ <a className="brand" href="/fr" aria-label="Tiling.ca — accueil"><Logo header/></a>
  <nav className="desktop-nav" aria-label="Navigation principale">{links.map(([href,label])=><a key={href} href={href}>{label}</a>)}</nav>
  <div className="header-actions"><LanguageSwitch/><a className="header-phone" href={`tel:${business.phoneHref}`} onClick={()=>trackEnquiry('phone_click')}>{business.phone}</a><a className="header-cta" href={quote}>Soumission</a></div>
  <button className="menu-button" aria-expanded={open} aria-controls="mobile-nav" onClick={()=>setOpen(!open)}><span/><span/><span/><b className="sr-only">Menu</b></button>

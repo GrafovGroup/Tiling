@@ -266,3 +266,11 @@ main :is(.service-detail,.local-context,.feature-copy,.material-hero-copy) p+p:n
 .quote-form .optional-label {position:static;align-self:flex-start;font-size:12px;line-height:1.4}
 .quote-form input,.quote-form textarea {font-size:16px}
 .form-success a {color:inherit;text-decoration:underline;text-underline-offset:3px}
+
+/* Original artwork split at its clear gutter; 50 source pixels add ~4px at header size. */
+.logo-lockup{display:block;position:relative;aspect-ratio:2220/573}
+.footer-brand .logo-lockup{width:180px;max-width:100%}
+.logo-lockup.brand-logo{height:auto}
+.logo-lockup .logo-piece{position:absolute;top:0;display:block;width:97.74774775%;max-width:none;height:100%}
+.logo-lockup .logo-emblem{left:0;clip-path:inset(0 73.73271889% 0 0)}
+.logo-lockup .logo-wordmark{right:0;clip-path:inset(0 0 0 26.26728111%)}

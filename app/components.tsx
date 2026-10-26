@@ -1,4 +1,5 @@
 "use client";
+import { Logo } from "./logo";
 
 import { type AnchorHTMLAttributes, useState } from "react";
 import { usePathname } from "next/navigation";
@@ -30,7 +31,7 @@ export function Header() {
   return (
     <><a className="skip-link" href="#main-content">Skip to content</a><header className="site-header" onKeyDown={event => { if (event.key === "Escape") setOpen(false); }}>
       <Link className="brand" href="/" aria-label="Tiling.ca home">
-        <img className="brand-logo" src="/brand/tiling-herringbone-square-dot.png" alt="Tiling.ca" width="2170" height="573" />
+        <Logo header/>
       </Link>
       <nav className="desktop-nav" aria-label="Main navigation"><Link href="/services">Tile services</Link><Link href="/materials">Tile supply</Link><Link href="/locations">Service areas</Link><Link href="/about">About</Link></nav>
       <div className="header-actions">
@@ -49,7 +50,7 @@ export function Header() {
 }
 
 export function Footer() {
-  return <footer className="footer"><div className="footer-main"><div><Link className="footer-brand" href="/" aria-label="Tiling.ca home"><img src="/brand/tiling-herringbone-square-dot.png" alt="Tiling.ca" width="2170" height="573" /></Link><p>Your tile contractor across Canada. We install, repair and supply tile for homes and businesses.</p><Link className="footer-phone" href={`tel:${business.phoneHref}`}>{business.phone}</Link><Link href={`mailto:${business.email}`}>{business.email}</Link><address>{business.address.street}<br/>{business.address.city}, {business.address.province} {business.address.postalCode}<br/>{business.address.country}</address></div><div><h2><Link href="/services">Services</Link></h2>{services.slice(0,5).map(s=><Link key={s.slug} href={`/services/${s.slug}`}>{s.name}</Link>)}</div><div><h2><Link href="/materials">Tile supply</Link></h2>{materials.map(m=><Link key={m.slug} href={`/materials/${m.slug}`}>{m.name}</Link>)}</div><div><h2>Company</h2><Link href="/about">About Tiling.ca</Link><Link href="/contact">Contact</Link><Link href="/how-it-works">Our process</Link><Link href="/editorial-standards">Editorial standards</Link><Link href="/locations">Service areas</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Website terms</Link></div><div><h2>Start your project</h2><p>Tell us what you are planning and receive a follow-up about scope, materials and availability.</p><Link className="footer-cta" href="/request-a-quote">Request a quote</Link></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Tiling.ca</span><span>Tile installation · supply · Canada</span></div></footer>;
+  return <footer className="footer"><div className="footer-main"><div><Link className="footer-brand" href="/" aria-label="Tiling.ca home"><Logo/></Link><p>Your tile contractor across Canada. We install, repair and supply tile for homes and businesses.</p><Link className="footer-phone" href={`tel:${business.phoneHref}`}>{business.phone}</Link><Link href={`mailto:${business.email}`}>{business.email}</Link><address>{business.address.street}<br/>{business.address.city}, {business.address.province} {business.address.postalCode}<br/>{business.address.country}</address></div><div><h2><Link href="/services">Services</Link></h2>{services.slice(0,5).map(s=><Link key={s.slug} href={`/services/${s.slug}`}>{s.name}</Link>)}</div><div><h2><Link href="/materials">Tile supply</Link></h2>{materials.map(m=><Link key={m.slug} href={`/materials/${m.slug}`}>{m.name}</Link>)}</div><div><h2>Company</h2><Link href="/about">About Tiling.ca</Link><Link href="/contact">Contact</Link><Link href="/how-it-works">Our process</Link><Link href="/editorial-standards">Editorial standards</Link><Link href="/locations">Service areas</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Website terms</Link></div><div><h2>Start your project</h2><p>Tell us what you are planning and receive a follow-up about scope, materials and availability.</p><Link className="footer-cta" href="/request-a-quote">Request a quote</Link></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Tiling.ca</span><span>Tile installation · supply · Canada</span></div></footer>;
 }
 
 export function Breadcrumbs({ items }: { items: { label: string; href?: string }[] }) {
