@@ -200,11 +200,11 @@ test("Community service destinations include local content, canonical URL and di
 });
 
 test("inherits browser-compatible favicons on every route family",async()=>{
-  for(const path of ["/","/areas/airdrie","/areas/airdrie/commercial-tile","/areas/oshawa/kitchen-backsplash","/locations","/locations/ontario","/services","/services/commercial-tile","/materials","/materials/marble-tile","/request-a-quote","/contact","/about","/privacy"]){
+  for(const path of ["/","/fr","/fr/request-a-quote","/fr/services/commercial-tile","/areas/airdrie","/areas/airdrie/commercial-tile","/areas/oshawa/kitchen-backsplash","/locations","/locations/ontario","/services","/services/commercial-tile","/materials","/materials/marble-tile","/request-a-quote","/contact","/about","/privacy"]){
     const response=await render(path);assert.equal(response.status,200);const html=await response.text();
-    for(const asset of ["favicon-v7.ico","favicon-v7-32.png","apple-touch-icon-v7.png"]) assert.ok(html.match(/<head[\s>][\s\S]*?<\/head>/i)?.[0].includes(`href="/${asset}"`),`${path} missing ${asset} in head`);
+    for(const asset of ["favicon-v8.ico","favicon-v8-32.png","apple-touch-icon-v8.png"]) assert.ok(html.match(/<head[\s>][\s\S]*?<\/head>/i)?.[0].includes(`href="/${asset}"`),`${path} missing ${asset} in head`);
   }
-  for(const asset of ["favicon.ico","favicon-v7.ico","favicon-v7-32.png","apple-touch-icon-v7.png"]){assert.ok((await readFile(new URL(`../public/${asset}`,import.meta.url))).length>100);}
+  for(const asset of ["favicon.ico","favicon-v8.ico","favicon-v8-32.png","apple-touch-icon-v8.png"]){assert.ok((await readFile(new URL(`../public/${asset}`,import.meta.url))).length>100);}
 });
 
 test("delivers route metadata in the initial head for visitors and search crawlers", async () => {

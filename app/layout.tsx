@@ -22,10 +22,12 @@ export default async function RootLayout({
   return (
     <html lang={locale}>
       <head>
-        <link rel="icon" href="/favicon-v7.ico" type="image/x-icon" sizes="16x16 32x32 48x48" />
-        <link rel="icon" href="/favicon-v7-32.png" type="image/png" sizes="32x32" />
-        <link rel="shortcut icon" href="/favicon-v7.ico" />
-        <link rel="apple-touch-icon" href="/apple-touch-icon-v7.png" sizes="180x180" />
+        <link rel="icon" href="/favicon-v8.ico" type="image/x-icon" sizes="16x16 32x32 48x48" />
+        <link rel="icon" href="/favicon-v8-32.png" type="image/png" sizes="32x32" />
+        <link rel="icon" href="/favicon-v8-16.png" type="image/png" sizes="16x16" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <link rel="shortcut icon" href="/favicon-v8.ico" />
+        <link rel="apple-touch-icon" href="/apple-touch-icon-v8.png" sizes="180x180" />
       </head>
       <body>{children}</body>
     </html>

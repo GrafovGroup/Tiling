@@ -95,3 +95,7 @@ Validation: build and TypeScript pass; 38 tests cover existing English functiona
 - Enquiry hooks include language and route-derived service context, exclude query/hash/form data, and cannot interrupt successful submissions if a measurement destination fails.
 - Analytics destination and Search Console access are still outstanding. No analytics account or measurement ID is present in the project.
 - Real project photographs, approved reviews and a reliable response-time promise still require owner input.
+
+## Herringbone favicon — October 25, 2026
+Selected option 1: green/orange herringbone emblem on an opaque ivory field, with padding to preserve contrast on light, dark and coloured browser themes. Versioned v8 files replace the old T icon in the shared English/French layout: 16/32/48px ICO, 16/32px PNG, 180px Apple touch icon and 192/512px manifest icons. Default favicon.ico and apple-touch-icon.png fallbacks are also updated. Browser cache refresh timing may vary.
+Artwork isolated with the built-in image tool from the approved five-option board; brief: preserve option 1 geometry, no text, forest green/orange, opaque ivory canvas, generous padding. PNG/ICO exports are resized from that master.
