@@ -39,7 +39,7 @@ const tileIdeas = [
 
 export default function Home() {
   const schema = { "@context": "https://schema.org", "@graph": [
-    { "@type": "Organization", "@id": `${business.domain}/#organization`, name: business.name, url: business.domain, logo: `${business.domain}/brand/tiling-herringbone-square-dot.png`, email: business.email, telephone: business.phoneHref, description: "Tile contractor providing installation, repair and material supply across Canada.", address: { "@type": "PostalAddress", streetAddress: business.address.street, addressLocality: business.address.city, addressRegion: business.address.province, postalCode: business.address.postalCode, addressCountry: "CA" }, areaServed: { "@type": "Country", name: "Canada" }, contactPoint: { "@type": "ContactPoint", contactType: "sales", email: business.email, telephone: business.phoneHref, areaServed: "CA" } },
+    { "@type": "Organization", "@id": `${business.domain}/#organization`, name: business.name, url: business.domain, logo: `${business.domain}/brand/tiling-herringbone-square-dot.png`, email: business.email, telephone: business.phoneHref, description: "Tile contractor providing installation, repair and material supply across Canada.", areaServed: { "@type": "Country", name: "Canada" }, contactPoint: { "@type": "ContactPoint", contactType: "sales", email: business.email, telephone: business.phoneHref, areaServed: "CA" } },
     { "@type": "WebSite", "@id": `${business.domain}/#website`, name: business.name, url: business.domain, inLanguage: "en-CA", publisher: { "@id": `${business.domain}/#organization` } },
   ] };
 

@@ -68,18 +68,16 @@ test("publishes provider trust and process pages",async()=>{
   }
 });
 
-test("publishes the Toronto business address in visible contact details and organization schema",async()=>{
-  for(const path of ["/","/contact"]){
-    const response=await render(path); assert.equal(response.status,200); const html=await response.text();
-    assert.match(html,/18 King Street East, Suite 1400/i);
-    assert.match(html,/Toronto/i);
-    assert.match(html,/Ontario/i);
-    assert.match(html,/M5C 1C4/i);
+test("keeps the mailing address only in privacy policies in both languages",async()=>{
+  for(const path of ["/","/contact","/services","/fr","/fr/contact","/fr/services"]){
+    const response=await render(path);assert.equal(response.status,200);
+    assert.doesNotMatch(await response.text(),/18 King Street East|M5C 1C4/);
   }
-  const response=await render("/"); const html=await response.text();
-  assert.match(html,/"@type":"PostalAddress"/);
-  assert.match(html,/"addressLocality":"Toronto"/);
-  assert.match(html,/"addressCountry":"CA"/);
+  for(const path of ["/privacy","/fr/privacy"]){
+    const response=await render(path);assert.equal(response.status,200);const html=await response.text();
+    assert.match(html,/18 King Street East/);assert.match(html,/M5C 1C4/);
+    assert.doesNotMatch(html.match(/<footer[\s\S]*?<\/footer>/)?.[0]||"",/18 King Street East|M5C 1C4/);
+  }
 });
 
 test("publishes installation and material supply services",async()=>{

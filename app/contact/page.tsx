@@ -16,7 +16,6 @@ export default function ContactPage() {
     <section className="contact-grid section-pad">
       <article><p className="section-kicker">Phone</p><h2><a href={`tel:${business.phoneHref}`}>{business.phone}</a></h2><p>Call to discuss the city, room, approximate size, material and preferred timing.</p></article>
       <article><p className="section-kicker">Email</p><h2><a href={`mailto:${business.email}`}>{business.email}</a></h2><p>Send project details and photographs. Do not email payment-card information.</p></article>
-      <article><p className="section-kicker">Business address</p><h2>{business.address.city}</h2><address>{business.address.street}<br/>{business.address.city}, {business.address.province}<br/>{business.address.country} {business.address.postalCode}</address></article>
       <article><p className="section-kicker">Project intake</p><h2><Link href="/request-a-quote">Quote form</Link></h2><p>Submit the details needed for an initial review and receive a direct follow-up.</p></article>
     </section>
 
