@@ -1,0 +1,65 @@
+[
+  {
+    "key": "restaurant",
+    "placement": "Commercial service page",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-68ce56d9-cc37-42dd-bdaa-c762e5360b74.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca commercial tiling website example, Commercial service page. Scene: A warm contemporary restaurant dining room, natural terracotta hexagonal porcelain floor with clear grout geometry, deep green booth seating, oak tables and brass pendants, no people, diagonal architectural view showing abundant tiled floor. Landscape architectural editorial photograph, realistic materials and construction geometry, professional interior photography, generous visible tiled surfaces. Create a genuinely distinct room and composition. No text, logos, watermarks, collage, before/after, people or claims of completed company work.",
+    "asset": "/commercial/restaurant.webp"
+  },
+  {
+    "key": "hotel",
+    "placement": "Commercial service page",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-2e8ad54b-2c8f-4187-aea7-8b59df3efe92.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca commercial tiling website example, Commercial service page. Scene: An elegant hotel arrival lobby with very large pale limestone-look porcelain floor slabs, bronze metal threshold details, curved dark walnut reception desk and tall glazing, no people, wide low camera showing grout layout. Landscape architectural editorial photograph, realistic materials and construction geometry, professional interior photography, generous visible tiled surfaces. Create a genuinely distinct room and composition. No text, logos, watermarks, collage, before/after, people or claims of completed company work.",
+    "asset": "/commercial/hotel.webp"
+  },
+  {
+    "key": "retail",
+    "placement": "Commercial service page",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-e096365d-791c-43b7-b45e-2176fcdc78b1.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca commercial tiling website example, Commercial service page. Scene: A refined clothing retail store with mid-grey terrazzo-look porcelain tile floor, freestanding slim black garment rails and warm timber shelving, bright balanced lighting, perspective down shop aisle, no logos or text. Landscape architectural editorial photograph, realistic materials and construction geometry, professional interior photography, generous visible tiled surfaces. Create a genuinely distinct room and composition. No text, logos, watermarks, collage, before/after, people or claims of completed company work.",
+    "asset": "/commercial/retail.webp"
+  },
+  {
+    "key": "washroom",
+    "placement": "Commercial service page",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-e2b192ad-04b8-46b4-81f2-b0db2d093f43.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca commercial tiling website example, Commercial service page. Scene: A sophisticated commercial public washroom with dark navy small-format ceramic wall tiles, pale grey porcelain floor tiles, two wall-hung sinks and brass taps, mirrors, no people, orderly rectangular tile joints, architecture photograph. Landscape architectural editorial photograph, realistic materials and construction geometry, professional interior photography, generous visible tiled surfaces. Create a genuinely distinct room and composition. No text, logos, watermarks, collage, before/after, people or claims of completed company work.",
+    "asset": "/commercial/washroom.webp"
+  },
+  {
+    "key": "office",
+    "placement": "Commercial service page",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-4460c0d0-0553-427b-9ac1-df8cb32d3a7a.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca commercial tiling website example, Commercial service page. Scene: A contemporary office reception and lift lobby with beige stone-look large rectangular porcelain tiles laid in an aligned grid, black metal lift doors, soft neutral lounge chair and small indoor tree, no people, natural light and precise tile details. Landscape architectural editorial photograph, realistic materials and construction geometry, professional interior photography, generous visible tiled surfaces. Create a genuinely distinct room and composition. No text, logos, watermarks, collage, before/after, people or claims of completed company work.",
+    "asset": "/commercial/office.webp"
+  },
+  {
+    "key": "kitchen",
+    "placement": "Commercial service page",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-4a4ca93c-3a3a-43c0-a590-d4c255afc848.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca commercial tiling website example, Commercial service page. Scene: A realistic spotless professional restaurant preparation kitchen, rust-red square quarry tile floor with visible grout joints and coved tile skirting, stainless steel benches and sinks, one straight stainless trench drain, white tiled walls, practical industrial lighting, no food or people. Landscape architectural editorial photograph, realistic materials and construction geometry, professional interior photography, generous visible tiled surfaces. Create a genuinely distinct room and composition. No text, logos, watermarks, collage, before/after, people or claims of completed company work.",
+    "asset": "/commercial/kitchen.webp"
+  },
+  {
+    "key": "home-hospitality",
+    "placement": "Homepage commercial examples",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-5431bde6-bf56-4e14-b563-875a407336b4.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca commercial tiling website example, Homepage commercial examples. Scene: Distinct upscale boutique hotel breakfast cafe, cream and black small square porcelain checkerboard floor, burgundy banquette, round marble tables, morning window light, eye-level wide photograph highlighting tile work, no people. Landscape architectural editorial photograph, realistic materials and construction geometry, professional interior photography, generous visible tiled surfaces. Create a genuinely distinct room and composition. No text, logos, watermarks, collage, before/after, people or claims of completed company work.",
+    "asset": "/commercial/home-hospitality.webp"
+  },
+  {
+    "key": "home-business",
+    "placement": "Homepage commercial examples",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-b37be907-7d49-40c0-a19a-c4305d68a682.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca commercial tiling website example, Homepage commercial examples. Scene: Distinct contemporary commercial office reception, charcoal slate-look rectangular porcelain tile floor with long straight grout lines, fluted pale oak reception desk, warm pendant lighting, large windows and minimal furniture, view across floor toward entrance, no people. Landscape architectural editorial photograph, realistic materials and construction geometry, professional interior photography, generous visible tiled surfaces. Create a genuinely distinct room and composition. No text, logos, watermarks, collage, before/after, people or claims of completed company work.",
+    "asset": "/commercial/home-business.webp"
+  },
+  {
+    "key": "home-wet",
+    "placement": "Homepage commercial examples",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-9e6b2122-c03c-49bc-bb21-3507238e435a.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca commercial tiling website example, Homepage commercial examples. Scene: Distinct modern fitness-club changing room, light sage vertical ceramic wall tiles, speckled light-grey small porcelain floor tiles, teak bench and pale ash lockers, view showing dry bench area and tiled shower entrances in background, no people, no signage. Landscape architectural editorial photograph, realistic materials and construction geometry, professional interior photography, generous visible tiled surfaces. Create a genuinely distinct room and composition. No text, logos, watermarks, collage, before/after, people or claims of completed company work.",
+    "asset": "/commercial/home-wet.webp"
+  }
+]

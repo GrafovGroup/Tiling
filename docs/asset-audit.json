@@ -1,0 +1,32 @@
+{
+  "registered_placements": 55,
+  "active_files_compared": 55,
+  "total_local_files_compared": 320,
+  "other_site_files_compared": 253,
+  "unreferenced_tiling_files": [
+    "/Users/grafov/Documents/ChatGPT/What sites were built with this chatgpt account (dimagrafov)_/tiling/public/hero-interior.jpg",
+    "/Users/grafov/Documents/ChatGPT/What sites were built with this chatgpt account (dimagrafov)_/tiling/public/apple-touch-icon.png",
+    "/Users/grafov/Documents/ChatGPT/What sites were built with this chatgpt account (dimagrafov)_/tiling/public/craft-detail.jpg",
+    "/Users/grafov/Documents/ChatGPT/What sites were built with this chatgpt account (dimagrafov)_/tiling/public/apple-touch-icon-v5.png",
+    "/Users/grafov/Documents/ChatGPT/What sites were built with this chatgpt account (dimagrafov)_/tiling/public/og.png",
+    "/Users/grafov/Documents/ChatGPT/What sites were built with this chatgpt account (dimagrafov)_/tiling/public/tile-detail.jpg",
+    "/Users/grafov/Documents/ChatGPT/What sites were built with this chatgpt account (dimagrafov)_/tiling/public/heroes/national-hero.webp",
+    "/Users/grafov/Documents/ChatGPT/What sites were built with this chatgpt account (dimagrafov)_/tiling/public/brand/tiling-herringbone.png",
+    "/Users/grafov/Documents/ChatGPT/What sites were built with this chatgpt account (dimagrafov)_/tiling/public/brand/tile-mark.png",
+    "/Users/grafov/Documents/ChatGPT/What sites were built with this chatgpt account (dimagrafov)_/tiling/public/services/commercial-tile.jpg",
+    "/Users/grafov/Documents/ChatGPT/What sites were built with this chatgpt account (dimagrafov)_/tiling/public/services/kitchen-backsplash.jpg",
+    "/Users/grafov/Documents/ChatGPT/What sites were built with this chatgpt account (dimagrafov)_/tiling/public/services/large-format.jpg"
+  ],
+  "active_or_cross_site_candidates": [],
+  "archived_original_candidates": [],
+  "register_hash_mismatches": [],
+  "missing_registered_files": [],
+  "read_errors": [],
+  "limits": [
+    "Original generated source files excluded: they are source/export variants of registered placements, not independent image placements.",
+    "Accessible other-site image inventories: BarrierRentals.ca, HighDusting.ca and Move.ca. Ferti.ca, Rainy.ca and MetalFabricators.ca folders have no comparable raster inventory.",
+    "Other remote or unexported prior-site inventories are inaccessible and remain unverified.",
+    "Perceptual hash threshold <=8 flags candidates rather than proving duplication; cropping or overlays may evade screening.",
+    "Inventory registration determines active usage; parent checks rendered/code placement consistency."
+  ]
+}

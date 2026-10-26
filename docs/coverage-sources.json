@@ -1,0 +1,257 @@
+{
+  "scope": "Major city hubs and surrounding communities; not a population ranking or claim of offices. Existing Ontario guides retained.",
+  "sources": {
+    "sources": [
+      {
+        "title": "National metropolitan and agglomeration map",
+        "url": "https://www12.statcan.gc.ca/census-recensement/2021/geo/maps-cartes/referencemaps-cartesdereference/sgc-cgt/map-eng.cfm?SGC=01_B&wbdisable=true",
+        "scope": "Selection of western metropolitan hubs and agglomerations."
+      },
+      {
+        "title": "Metro Vancouver member jurisdictions",
+        "url": "https://metrovancouver.org/about-us/member-jurisdictions",
+        "scope": "Metro Vancouver municipalities; North Vancouver and Langley contain distinct city/district or township jurisdictions."
+      },
+      {
+        "title": "Capital Regional District communities",
+        "url": "https://www.crd.ca/your-community/communities",
+        "scope": "Greater Victoria neighbouring municipalities."
+      },
+      {
+        "title": "Central Okanagan communities",
+        "url": "https://www.rdco.com/living-here/",
+        "scope": "Kelowna, West Kelowna, Lake Country and Peachland."
+      },
+      {
+        "title": "Fraser Valley municipalities",
+        "url": "https://www.fvrd.ca/EN/main/about-the-fvrd/member-municipalities.html",
+        "scope": "Abbotsford, Chilliwack, Mission, Kent and Harrison Hot Springs."
+      },
+      {
+        "title": "Alberta regional dashboard",
+        "url": "https://regionaldashboard.alberta.ca/",
+        "scope": "Alberta municipality and regional context."
+      },
+      {
+        "title": "Southern Alberta region",
+        "url": "https://regionaldashboard.alberta.ca/region/customregion/6006/",
+        "scope": "Lethbridge, Medicine Hat and neighbouring municipalities."
+      },
+      {
+        "title": "Airdrie athletic field locations",
+        "url": "https://www.airdrie.ca/index.cfm?serviceID=2100",
+        "scope": "Coopers Crossing, Reunion and Bayside neighbourhood names."
+      },
+      {
+        "title": "Edmonton neighbourhood rename",
+        "url": "https://www.edmonton.ca/city_government/city_organization/naming-committee",
+        "scope": "Wîhkwêntôwin is the current name of former Oliver neighbourhood."
+      },
+      {
+        "title": "Wood Buffalo regional emergency plan",
+        "url": "https://www.rmwb.ca/media/xsbhxldu/vr-3-rmwb-regional-emergency-management-plan-remp-2024.pdf",
+        "scope": "Fort McMurray neighbourhoods and nearby Anzac and Fort McKay."
+      },
+      {
+        "title": "Saskatoon regional planning",
+        "url": "https://www.saskatoon.ca/business-development/planning/growth-plans/regional-planning/saskatoon-north-partnership-growth-p4g",
+        "scope": "Saskatoon, Corman Park, Martensville, Osler and Warman."
+      },
+      {
+        "title": "Regina fire master plan",
+        "url": "https://www.regina.ca/export/sites/Regina.ca/home-property/safety-emergencies/.galleries/pdfs/Fire-Master-Plan.pdf",
+        "scope": "Nearby White City, Emerald Park, Pilot Butte and Balgonie."
+      },
+      {
+        "title": "Manitoba capital area geography",
+        "url": "https://web2.gov.mb.ca/bills/38-3/b035e.php",
+        "scope": "Geographic relationships only; do not imply current administrative membership."
+      },
+      {
+        "title": "Whitehorse neighbourhoods",
+        "url": "https://www.whitehorse.ca/holiday-lights-tour/",
+        "scope": "Riverdale and Porter Creek neighbourhoods."
+      },
+      {
+        "title": "Yellowknife city visitor guide",
+        "url": "https://www.yellowknife.ca/en/exploring-yellowknife/resources/Visitor-Guide/2021/2021-YK-GUIDE-FOR-CITY-YK---BIGGEST-smaller2.pdf",
+        "scope": "Dettah and Ndilǫ neighbouring communities."
+      },
+      {
+        "title": "Iqaluit city planning context",
+        "url": "https://iqaluit.ca/sites/default/files/attachments/720080_-_long-term_cemetery_strategy_-_consultant_rfp.pdf",
+        "scope": "Apex and Astro Hill are Iqaluit neighbourhoods; no nearby independent community is invented."
+      },
+      {
+        "title": "City of Delta communities",
+        "url": "https://www.delta.ca/NorthDelta",
+        "scope": "Ladner, Tsawwassen and North Delta."
+      },
+      {
+        "title": "Saanich local areas",
+        "url": "https://www.saanich.ca/EN/main/community/community-planning/local-area-plans.html?media=standard",
+        "scope": "Gordon Head, Cadboro Bay and Royal Oak neighbourhoods."
+      },
+      {
+        "title": "Saanich official plan context",
+        "url": "https://www.saanich.ca/assets/Community/Documents/Planning/plans/OCP-proposed-2023%20Dec-v2.10_web.pdf",
+        "scope": "Neighbouring municipalities including Victoria, Oak Bay, Central Saanich and View Royal."
+      },
+      {
+        "title": "Spruce Grove municipal census",
+        "url": "https://www.sprucegrove.org/media/2949/2018-census-demographic-report.pdf",
+        "scope": "Greenbury, Harvest Ridge and Deer Park neighbourhoods."
+      },
+      {
+        "title": "Spruce Grove nearby communities",
+        "url": "https://www.sprucegrove.org/community/programs/connection-cultivators",
+        "scope": "Stony Plain and Parkland County described as neighbouring municipalities."
+      },
+      {
+        "title": "Leduc municipal building report",
+        "url": "https://www.leduc.ca/wp-content/uploads/2025/03/2022-Council-Building-Reports.pdf",
+        "scope": "Southfork, Corinthia Park and Black Stone neighbourhoods."
+      },
+      {
+        "title": "Leduc regional setting",
+        "url": "https://www.leduc.ca/wp-content/uploads/2025/04/Leduc-Long-Term-Facility-Master-Plan.pdf",
+        "scope": "Map of nearby Nisku, Beaumont, Devon and Calmar."
+      }
+    ],
+    "notes": [
+      "Planning copy is original, general installation guidance, not evidence of completed work or offices.",
+      "Iqaluit surroundingAreas is intentionally empty: Apex is an internal neighbourhood, and distant Nunavut settlements are not described as nearby.",
+      "Neighbourhood labels include familiar named local districts; lists are illustrative, not administrative boundary assertions."
+    ]
+  },
+  "east": {
+    "checked": "2026-10-11",
+    "sources": [
+      {
+        "title": "Quebec municipal directory",
+        "url": "https://www.quebec.ca/gouvernement/portrait-quebec/repertoire-municipalites",
+        "supports": "Municipality and regional geography reference"
+      },
+      {
+        "title": "Quebec administrative regions",
+        "url": "https://www.quebec.ca/gouvernement/portrait-quebec/geographie-territoire/regions-administratives",
+        "supports": "Province regional framework"
+      },
+      {
+        "title": "Greater Montréal portrait",
+        "url": "https://www.quebec.ca/gouvernement/portrait-quebec/portrait-region-metropolitaine",
+        "supports": "Montréal, Laval and South Shore metropolitan geography"
+      },
+      {
+        "title": "Québec City boroughs",
+        "url": "https://www.ville.quebec.qc.ca/citoyens/arrondissements/saintefoysillerycaprouge/index.aspx",
+        "supports": "Québec City sectors and nearby municipal boundaries"
+      },
+      {
+        "title": "Gatineau sector terminology",
+        "url": "https://www.gatineau.ca/portail/default.aspx?p=guide_marque%2Fnos_normes%2Fnormes_redaction%2Fterminologie%2Fsecteurs",
+        "supports": "Hull Aylmer Buckingham sectors"
+      },
+      {
+        "title": "Saguenay neighbourhoods",
+        "url": "https://ville.saguenay.ca/services-aux-citoyens/transport-et-entretien/entretien-des-routes/deneigement/quartiers-blancs",
+        "supports": "Chicoutimi Jonquière La Baie"
+      },
+      {
+        "title": "Saint-Jean-sur-Richelieu sectors",
+        "url": "https://sjsr.ca/secteurs/",
+        "supports": "Saint-Luc Iberville L’Acadie"
+      },
+      {
+        "title": "Saint-Jérôme portrait",
+        "url": "https://www.vsj.ca/portrait/",
+        "supports": "Bellefeuille Lafontaine Saint-Antoine"
+      },
+      {
+        "title": "Drummondville municipal text",
+        "url": "https://www.drummondville.ca/reglement/8-2/",
+        "supports": "Saint-Nicéphore Saint-Charles-de-Drummond Saint-Joachim-de-Courval"
+      },
+      {
+        "title": "Saint-Hyacinthe municipal history",
+        "url": "https://patrimoine.ville.st-hyacinthe.qc.ca/croissance-et-fusions.php",
+        "supports": "Douville La Providence"
+      },
+      {
+        "title": "Halifax community boundaries",
+        "url": "https://cdn.halifax.ca/sites/default/files/documents/city-hall/regional-council/240806rc1515.pdf",
+        "supports": "Bedford Sackville Dartmouth Hammonds Plains Timberlea"
+      },
+      {
+        "title": "Cape Breton district 12",
+        "url": "https://cbrm.ns.ca/city-hall/councillors/district-12/",
+        "supports": "Sydney Ashby Whitney Pier"
+      },
+      {
+        "title": "New Brunswick overview",
+        "url": "https://www.gnb.ca/en/admin/about-nb/overview.html",
+        "supports": "Major city names"
+      },
+      {
+        "title": "PEI municipalities",
+        "url": "https://www.princeedwardisland.ca/en/information/housing-and-communities/pei-municipalities",
+        "supports": "Charlottetown Summerside and surrounding municipalities"
+      },
+      {
+        "title": "Charlottetown history",
+        "url": "https://www.charlottetown.ca/resident_services/heritage/city_history",
+        "supports": "Sherwood Parkdale city sectors"
+      },
+      {
+        "title": "Summerside official plan",
+        "url": "https://www.summerside.ca/UserFiles/Servers/Server_4499283/File/Official%20Documents%20%26%20Data/Plans%20and%20Strategies/Official%20Land%20Use%20and%20Zoning%20Plan/Official%20Plan.pdf",
+        "supports": "St. Eleanors and Wilmot"
+      },
+      {
+        "title": "St. John’s neighbourhood profiles",
+        "url": "https://www.stjohns.ca/about-st-johns/neighbourhoods/neighbourhood-profiles/",
+        "supports": "Goulds Kilbride Waterford Valley Mundy Pond"
+      },
+      {
+        "title": "Corner Brook municipal-hosted boundary report",
+        "url": "https://www.cornerbrook.com/wp-content/uploads/2016/07/electoral-boundary-commission-final-report_april-28_2015.pdf",
+        "supports": "Curling Humbermouth"
+      },
+      {
+        "title": "Lévis historical districts",
+        "url": "https://www.ville.levis.qc.ca/fileadmin/documents/developpement/Profil-statistique-Levis_web-2019.pdf",
+        "supports": "Lévis Saint-Romuald Saint-Nicolas Charny"
+      },
+      {
+        "title": "Terrebonne municipal amalgamation",
+        "url": "https://terrebonne.ca/fusion-municipale/",
+        "supports": "Lachenaie La Plaine"
+      },
+      {
+        "title": "Repentigny regional municipal initiative",
+        "url": "https://repentigny.ca/actualites-publications/lancement-officiel-de-lobnl-un-toit-pour-tous-mrc-de-lassomption",
+        "supports": "Repentigny Charlemagne L’Assomption regional context"
+      },
+      {
+        "title": "Brossard capital plan and municipality map",
+        "url": "https://brossard.ca/app/uploads/2026/03/PROPOSITION-PTI-2026-2027-2028-vf-R01_20260323.pdf",
+        "supports": "Brossard sectors and adjoining Saint-Lambert Longueuil La Prairie"
+      },
+      {
+        "title": "Blainville municipal history",
+        "url": "https://blainville.ca/fr/ville/portrait-de-blainville/histoire",
+        "supports": "Blainville and surrounding north-shore municipalities"
+      },
+      {
+        "title": "Saint-Eustache regional cycling map",
+        "url": "https://www.saint-eustache.ca/storage/app/media/loisirs-culture-et-vie-communautaire/installations-recreatives/pistes-cyclables/cartes_circuits_velose_m.pdf",
+        "supports": "Saint-Eustache regional geography"
+      }
+    ],
+    "note": "Geography references only. Tile planning copy is original practical guidance, conditional on each property; these sources do not substantiate company offices or previous work. Nearby-community lists use geographic knowledge alongside municipal references; not every community individually documented by a retrieved page."
+  },
+  "ontario": [
+    "https://www.ontario.ca/page/list-ontario-municipalities",
+    "https://www12.statcan.gc.ca/census-recensement/2021/geo/maps-cartes/referencemaps-cartesdereference/sgc-cgt/map-eng.cfm?SGC=01_B"
+  ]
+}

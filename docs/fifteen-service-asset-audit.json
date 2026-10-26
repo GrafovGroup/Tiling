@@ -1,0 +1,12 @@
+{
+  "new_assets": 9,
+  "files_compared": 301,
+  "candidates": [],
+  "read_errors": [],
+  "visual_review": "Nine new images inspected on a contact sheet: distinct subjects and compositions; no duplicate placements.",
+  "limits": [
+    "Accessible local inventories: Tiling.ca, BarrierRentals.ca, HighDusting.ca, Move.ca. Remote or unexported inventories remain unverified.",
+    "Perceptual hashes screen candidates; they do not prove uniqueness.",
+    "City pages reuse authorized primary service imagery under the user exception."
+  ]
+}

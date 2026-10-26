@@ -1,0 +1,2136 @@
+[
+  {
+    "slug": "vancouver",
+    "name": "Vancouver",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Metro Vancouver",
+    "group": "British Columbia",
+    "lead": "Tile installation in Vancouver for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Condo bathrooms and kitchen renovations benefit from an installation plan that accounts for elevator bookings, material storage and building work hours. For detached homes, we establish floor transitions and the condition of existing substrates before setting tile.",
+    "localFactors": [
+      "Confirm strata work rules and loading access",
+      "Plan floor heights at adjoining rooms",
+      "Assess shower waterproofing before selecting finishes"
+    ],
+    "neighbourhoods": [
+      "Kitsilano",
+      "Mount Pleasant",
+      "Yaletown"
+    ],
+    "surroundingAreas": [
+      "Burnaby",
+      "Richmond",
+      "North Vancouver",
+      "West Vancouver"
+    ]
+  },
+  {
+    "slug": "surrey",
+    "name": "Surrey",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Metro Vancouver",
+    "group": "British Columbia",
+    "lead": "Tile installation in Surrey for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "A bathroom refresh, a family kitchen and a commercial entry each need a different tile specification. We plan the room layout, demolition sequence and protection of occupied spaces around your Surrey property.",
+    "localFactors": [
+      "Share whether the property will remain occupied",
+      "Identify any stairs along the delivery route",
+      "Choose entry finishes suited to wet footwear"
+    ],
+    "neighbourhoods": [
+      "Guildford",
+      "Cloverdale",
+      "Newton",
+      "South Surrey"
+    ],
+    "surroundingAreas": [
+      "White Rock",
+      "Delta",
+      "Langley"
+    ]
+  },
+  {
+    "slug": "burnaby",
+    "name": "Burnaby",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Metro Vancouver",
+    "group": "British Columbia",
+    "lead": "Tile installation in Burnaby for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "For Burnaby apartment and townhouse work, installation planning starts with building access and any floor assembly requirements. Larger floor tiles also call for a careful check of surface flatness and transitions.",
+    "localFactors": [
+      "Obtain building requirements for acoustic assemblies",
+      "Reserve permitted delivery and elevator times",
+      "Set the tile grid against doorways and cabinetry"
+    ],
+    "neighbourhoods": [
+      "Metrotown",
+      "Brentwood",
+      "Edmonds"
+    ],
+    "surroundingAreas": [
+      "Vancouver",
+      "New Westminster",
+      "Coquitlam"
+    ]
+  },
+  {
+    "slug": "richmond",
+    "name": "Richmond",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Metro Vancouver",
+    "group": "British Columbia",
+    "lead": "Tile installation in Richmond for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Richmond kitchen, bathroom and entry projects need a clear approach to surface preparation and moisture management. We review the existing floor and wall build-up so the new finish works with doors, cabinets and fixtures.",
+    "localFactors": [
+      "Check existing floor layers before quoting removal",
+      "Plan shower falls and waterproofing details",
+      "Confirm space for protected material storage"
+    ],
+    "neighbourhoods": [
+      "Steveston",
+      "City Centre",
+      "East Cambie"
+    ],
+    "surroundingAreas": [
+      "Vancouver",
+      "Delta",
+      "Burnaby"
+    ]
+  },
+  {
+    "slug": "coquitlam",
+    "name": "Coquitlam",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Metro Vancouver",
+    "group": "British Columbia",
+    "lead": "Tile installation in Coquitlam for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Tile projects in Coquitlam can involve anything from a compact apartment shower to several floors in a house. We organize the work by room, with attention to stairs, drying time and keeping essential facilities accessible.",
+    "localFactors": [
+      "Tell us which bathroom must remain available",
+      "Measure landings and stairs for material handling",
+      "Resolve floor-height changes before installation"
+    ],
+    "neighbourhoods": [
+      "Burquitlam",
+      "Maillardville",
+      "Westwood Plateau"
+    ],
+    "surroundingAreas": [
+      "Port Coquitlam",
+      "Port Moody",
+      "Anmore"
+    ]
+  },
+  {
+    "slug": "langley",
+    "name": "Langley",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Metro Vancouver",
+    "group": "British Columbia",
+    "lead": "Tile installation in Langley for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "We plan tile installations across Langley City and the Township of Langley, including bathrooms, kitchens and utility spaces. Your quote should identify the exact property location and whether new tile meets existing flooring or a new room layout.",
+    "localFactors": [
+      "Specify Langley City or the Township address",
+      "Review mudroom wear and cleaning needs",
+      "Include cabinet and appliance dimensions for kitchens"
+    ],
+    "neighbourhoods": [
+      "Willoughby",
+      "Walnut Grove",
+      "Murrayville"
+    ],
+    "surroundingAreas": [
+      "Surrey",
+      "Abbotsford",
+      "White Rock"
+    ]
+  },
+  {
+    "slug": "abbotsford",
+    "name": "Abbotsford",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Fraser Valley",
+    "group": "British Columbia",
+    "lead": "Tile installation in Abbotsford for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "For Abbotsford homes and commercial interiors, we define removal, preparation and installation as one clear scope. Laundry rooms, entries and showers require particular attention to junctions, fixtures and the underlying surface.",
+    "localFactors": [
+      "Provide photos of existing tile and transitions",
+      "Identify utility connections near the work",
+      "Confirm delivery access for larger tile orders"
+    ],
+    "neighbourhoods": [
+      "Clearbrook",
+      "Abbotsford Centre",
+      "Clayburn"
+    ],
+    "surroundingAreas": [
+      "Mission",
+      "Chilliwack",
+      "Langley"
+    ]
+  },
+  {
+    "slug": "victoria",
+    "name": "Victoria",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Greater Victoria",
+    "group": "British Columbia",
+    "lead": "Tile installation in Victoria for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Victoria renovations often need tile to fit an existing room rather than a blank floor plan. We plan neat transitions, measured setting-out and appropriate wet-area preparation, with building access included in the schedule.",
+    "localFactors": [
+      "Record existing trim and threshold heights",
+      "Confirm parking and unloading arrangements",
+      "Allow for inspection of concealed surfaces after removal"
+    ],
+    "neighbourhoods": [
+      "James Bay",
+      "Fairfield",
+      "Fernwood"
+    ],
+    "surroundingAreas": [
+      "Saanich",
+      "Oak Bay",
+      "Esquimalt",
+      "Langford",
+      "Colwood",
+      "View Royal"
+    ]
+  },
+  {
+    "slug": "nanaimo",
+    "name": "Nanaimo",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Central Vancouver Island",
+    "group": "British Columbia",
+    "lead": "Tile installation in Nanaimo for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "In Nanaimo, a practical tile quote starts with room measurements, access details and a clear choice of finish. We organize delivery and installation together so materials, trim pieces and preparation products are ready for the job.",
+    "localFactors": [
+      "Order matching edge trims with the tile",
+      "Plan delivery before demolition begins",
+      "Choose appropriate traction for entrances and wet floors"
+    ],
+    "neighbourhoods": [
+      "Departure Bay",
+      "Harewood",
+      "Northfield"
+    ],
+    "surroundingAreas": [
+      "Lantzville",
+      "Ladysmith",
+      "Parksville"
+    ]
+  },
+  {
+    "slug": "kelowna",
+    "name": "Kelowna",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Central Okanagan",
+    "group": "British Columbia",
+    "lead": "Tile installation in Kelowna for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Kelowna bathrooms, kitchens and living spaces need tile layouts that work around glazing, cabinetry and changes in floor level. For outdoor areas, we assess the assembly and exposure separately from indoor tile work.",
+    "localFactors": [
+      "Check exterior product suitability where relevant",
+      "Plan movement accommodation for large floor areas",
+      "Confirm door clearance and finished floor heights"
+    ],
+    "neighbourhoods": [
+      "Glenmore",
+      "Rutland",
+      "Lower Mission"
+    ],
+    "surroundingAreas": [
+      "West Kelowna",
+      "Lake Country",
+      "Peachland"
+    ]
+  },
+  {
+    "slug": "kamloops",
+    "name": "Kamloops",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Thompson-Nicola",
+    "group": "British Columbia",
+    "lead": "Tile installation in Kamloops for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Kamloops projects benefit from early decisions about tile dimensions and the limits of removal. We review the supporting surface and access route before setting out bathrooms, kitchen backsplashes or continuous floors.",
+    "localFactors": [
+      "Check whether levelling is needed for large tiles",
+      "Specify which existing finishes will stay",
+      "Confirm access and travel details for outlying properties"
+    ],
+    "neighbourhoods": [
+      "Sahali",
+      "Aberdeen",
+      "Brocklehurst"
+    ],
+    "surroundingAreas": [
+      "Sun Peaks",
+      "Chase",
+      "Logan Lake"
+    ]
+  },
+  {
+    "slug": "prince-george",
+    "name": "Prince George",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Northern British Columbia",
+    "group": "British Columbia",
+    "lead": "Tile installation in Prince George for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "For Prince George interiors, we plan durable entry floors, waterproofed showers and easy-to-clean tiled surfaces around actual use. Delivery timing and heated work conditions are included when scheduling the installation.",
+    "localFactors": [
+      "Keep installation areas within product temperature limits",
+      "Plan entry finishes around snow and wet footwear",
+      "Confirm availability of the full tile order before work"
+    ],
+    "neighbourhoods": [
+      "College Heights",
+      "Hart Highlands",
+      "Crescents"
+    ],
+    "surroundingAreas": [
+      "Vanderhoof",
+      "Hixon"
+    ]
+  },
+  {
+    "slug": "chilliwack",
+    "name": "Chilliwack",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Fraser Valley",
+    "group": "British Columbia",
+    "lead": "Tile installation in Chilliwack for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Chilliwack bathroom and kitchen projects need a clear plan for demolition debris, preparation and room access. We establish tile layout and edge details before installation, including how the new surface meets adjoining finishes.",
+    "localFactors": [
+      "Identify the route for removal and deliveries",
+      "Plan shower niches and valve locations early",
+      "Check adjoining floor thicknesses before choosing tile"
+    ],
+    "neighbourhoods": [
+      "Sardis",
+      "Vedder",
+      "Promontory"
+    ],
+    "surroundingAreas": [
+      "Agassiz",
+      "Harrison Hot Springs",
+      "Abbotsford"
+    ]
+  },
+  {
+    "slug": "north-vancouver",
+    "name": "North Vancouver",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "North Shore",
+    "group": "British Columbia",
+    "lead": "Tile installation in North Vancouver for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "We plan tile work for properties in the City and District of North Vancouver. Hillside access, stairs and occupied interiors are worth documenting early so material handling and room-by-room work are included in the scope.",
+    "localFactors": [
+      "Provide the full City or District address",
+      "Describe steep drives and stair access",
+      "Check wet-area assembly details before tiling"
+    ],
+    "neighbourhoods": [
+      "Lonsdale",
+      "Lynn Valley",
+      "Deep Cove"
+    ],
+    "surroundingAreas": [
+      "West Vancouver",
+      "Vancouver",
+      "Lions Bay"
+    ]
+  },
+  {
+    "slug": "new-westminster",
+    "name": "New Westminster",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Metro Vancouver",
+    "group": "British Columbia",
+    "lead": "Tile installation in New Westminster for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "New Westminster tile renovations can involve compact rooms and shared building access. We plan the sequence around protected common areas, clear floor transitions and the time needed for installation products to cure.",
+    "localFactors": [
+      "Confirm shared hallway protection requirements",
+      "Check building work hours before scheduling",
+      "Measure tight bathroom layouts around fixtures"
+    ],
+    "neighbourhoods": [
+      "Uptown",
+      "Queensborough",
+      "Sapperton"
+    ],
+    "surroundingAreas": [
+      "Burnaby",
+      "Coquitlam",
+      "Surrey"
+    ]
+  },
+  {
+    "slug": "maple-ridge",
+    "name": "Maple Ridge",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Metro Vancouver",
+    "group": "British Columbia",
+    "lead": "Tile installation in Maple Ridge for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "From kitchen backsplashes to full bathroom floors, Maple Ridge projects start with a measured layout and a preparation scope. For homes outside the town centre, delivery access and storage space help us plan the work efficiently.",
+    "localFactors": [
+      "Include driveway and site access details",
+      "Review subfloor condition before setting a tile size",
+      "Plan trim profiles at exposed tile edges"
+    ],
+    "neighbourhoods": [
+      "Albion",
+      "Hammond",
+      "Silver Valley"
+    ],
+    "surroundingAreas": [
+      "Pitt Meadows",
+      "Mission",
+      "Port Coquitlam"
+    ]
+  },
+  {
+    "slug": "calgary",
+    "name": "Calgary",
+    "province": "Alberta",
+    "provinceCode": "AB",
+    "region": "Calgary Region",
+    "group": "Alberta",
+    "lead": "Tile installation in Calgary for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Calgary tile projects need a coordinated plan for floors, showers and adjoining finishes. If you are adding floor heat, we account for the heating system, tile build-up and thermostat location before installation.",
+    "localFactors": [
+      "Confirm heated-floor requirements during quoting",
+      "Plan durable entry finishes for wet and snowy footwear",
+      "Keep the work area heated through curing"
+    ],
+    "neighbourhoods": [
+      "Beltline",
+      "Bowness",
+      "Bridgeland"
+    ],
+    "surroundingAreas": [
+      "Airdrie",
+      "Cochrane",
+      "Chestermere",
+      "Okotoks"
+    ]
+  },
+  {
+    "slug": "edmonton",
+    "name": "Edmonton",
+    "province": "Alberta",
+    "provinceCode": "AB",
+    "region": "Edmonton Region",
+    "group": "Alberta",
+    "lead": "Tile installation in Edmonton for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "For Edmonton renovations, we plan the tile assembly as carefully as the visible finish. Entry floors, shower bases and basement spaces each call for a review of the existing substrate and how moisture is managed.",
+    "localFactors": [
+      "Check basement surfaces before selecting an assembly",
+      "Include floor heat and electrical preparation in the scope",
+      "Allow for suitable indoor curing conditions"
+    ],
+    "neighbourhoods": [
+      "Wîhkwêntôwin",
+      "Strathcona",
+      "Glenora"
+    ],
+    "surroundingAreas": [
+      "St. Albert",
+      "Sherwood Park",
+      "Spruce Grove",
+      "Leduc",
+      "Fort Saskatchewan"
+    ]
+  },
+  {
+    "slug": "red-deer",
+    "name": "Red Deer",
+    "province": "Alberta",
+    "provinceCode": "AB",
+    "region": "Central Alberta",
+    "group": "Alberta",
+    "lead": "Tile installation in Red Deer for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Red Deer bathroom, kitchen and entry work benefits from a schedule that separates removal, preparation and setting. We define room access and protection up front so an occupied home remains manageable during the job.",
+    "localFactors": [
+      "Identify rooms that must remain usable",
+      "Plan debris removal and protected walkways",
+      "Check thresholds before committing to floor tile"
+    ],
+    "neighbourhoods": [
+      "Downtown",
+      "West Park",
+      "Anders Park"
+    ],
+    "surroundingAreas": [
+      "Blackfalds",
+      "Lacombe",
+      "Sylvan Lake",
+      "Penhold"
+    ]
+  },
+  {
+    "slug": "lethbridge",
+    "name": "Lethbridge",
+    "province": "Alberta",
+    "provinceCode": "AB",
+    "region": "Southern Alberta",
+    "group": "Alberta",
+    "lead": "Tile installation in Lethbridge for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "In Lethbridge, we plan tile installations around the room layout, supporting surface and maintenance needs. For open floor plans, setting-out and movement joints deserve attention before the first tile is placed.",
+    "localFactors": [
+      "Review the full floor area and adjoining rooms",
+      "Decide grout width and alignment in advance",
+      "Assess exterior exposure separately for outdoor work"
+    ],
+    "neighbourhoods": [
+      "West Lethbridge",
+      "London Road",
+      "Downtown"
+    ],
+    "surroundingAreas": [
+      "Coaldale",
+      "Coalhurst",
+      "Picture Butte"
+    ]
+  },
+  {
+    "slug": "medicine-hat",
+    "name": "Medicine Hat",
+    "province": "Alberta",
+    "provinceCode": "AB",
+    "region": "Southeastern Alberta",
+    "group": "Alberta",
+    "lead": "Tile installation in Medicine Hat for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Medicine Hat tile projects range from practical laundry floors to carefully detailed shower walls. We clarify which fixtures and finishes remain, then plan preparation and installation around those limits.",
+    "localFactors": [
+      "Mark retained cabinets and fixtures on your photos",
+      "Check floor flatness for longer plank tiles",
+      "Plan movement accommodation near large windows"
+    ],
+    "neighbourhoods": [
+      "Crescent Heights",
+      "South Ridge",
+      "Downtown"
+    ],
+    "surroundingAreas": [
+      "Redcliff",
+      "Dunmore"
+    ]
+  },
+  {
+    "slug": "grande-prairie",
+    "name": "Grande Prairie",
+    "province": "Alberta",
+    "provinceCode": "AB",
+    "region": "Peace Region",
+    "group": "Alberta",
+    "lead": "Tile installation in Grande Prairie for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Grande Prairie projects need materials and site readiness aligned before work begins. We plan tiled entries, bathrooms and kitchens with practical handling, protected storage and reliable heated work conditions.",
+    "localFactors": [
+      "Confirm delivery arrangements for rural addresses",
+      "Store installation materials within stated temperature limits",
+      "Select grout and finishes for expected cleaning and use"
+    ],
+    "neighbourhoods": [
+      "Avondale",
+      "Crystal Lake",
+      "Mission Heights"
+    ],
+    "surroundingAreas": [
+      "Clairmont",
+      "Sexsmith",
+      "Wembley",
+      "Beaverlodge"
+    ]
+  },
+  {
+    "slug": "fort-mcmurray",
+    "name": "Fort McMurray",
+    "province": "Alberta",
+    "provinceCode": "AB",
+    "region": "Wood Buffalo",
+    "group": "Alberta",
+    "lead": "Tile installation in Fort McMurray for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Fort McMurray tile work benefits from a complete material list and a clear installation window. We plan demolition, surface preparation and room access together, with travel and delivery arrangements confirmed for the property.",
+    "localFactors": [
+      "Confirm all tile and trim quantities before delivery",
+      "Identify site access and occupancy requirements",
+      "Include heated indoor storage in winter planning"
+    ],
+    "neighbourhoods": [
+      "Timberlea",
+      "Thickwood",
+      "Waterways"
+    ],
+    "surroundingAreas": [
+      "Anzac",
+      "Fort McKay"
+    ]
+  },
+  {
+    "slug": "airdrie",
+    "name": "Airdrie",
+    "province": "Alberta",
+    "provinceCode": "AB",
+    "region": "Calgary Region",
+    "group": "Alberta",
+    "lead": "Tile installation in Airdrie for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Airdrie bathroom and kitchen work should fit the way the household uses its space. We establish the layout, floor build-up and a practical work sequence before scheduling removal and installation.",
+    "localFactors": [
+      "Tell us which bathrooms will remain in use",
+      "Confirm cabinet installation dates for backsplashes",
+      "Plan transitions to existing wood or vinyl floors"
+    ],
+    "neighbourhoods": [
+      "Bayside",
+      "Coopers Crossing",
+      "Reunion"
+    ],
+    "surroundingAreas": [
+      "Calgary",
+      "Crossfield",
+      "Balzac"
+    ]
+  },
+  {
+    "slug": "st-albert",
+    "name": "St. Albert",
+    "province": "Alberta",
+    "provinceCode": "AB",
+    "region": "Edmonton Region",
+    "group": "Alberta",
+    "lead": "Tile installation in St. Albert for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "In St. Albert, we plan shower, kitchen and entry installations with attention to details that remain visible every day. Tile alignment, edge trims and fixture clearances are resolved alongside the preparation scope.",
+    "localFactors": [
+      "Check tile alignment at windows and cabinets",
+      "Include shower storage and niche dimensions early",
+      "Review entry floor traction and cleaning needs"
+    ],
+    "neighbourhoods": [
+      "Sturgeon Heights",
+      "Lacombe Park",
+      "Erin Ridge"
+    ],
+    "surroundingAreas": [
+      "Edmonton",
+      "Morinville",
+      "Sturgeon County"
+    ]
+  },
+  {
+    "slug": "winnipeg",
+    "name": "Winnipeg",
+    "province": "Manitoba",
+    "provinceCode": "MB",
+    "region": "Winnipeg Region",
+    "group": "Manitoba",
+    "lead": "Tile installation in Winnipeg for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Winnipeg tile renovations require a sound substrate and a clear plan for transitions to existing rooms. For basements and entries, we review moisture conditions and the demands of wet footwear before specifying the assembly.",
+    "localFactors": [
+      "Assess basement moisture before covering the slab",
+      "Plan entry surfaces around water and tracked-in grit",
+      "Confirm removal scope for older floor layers"
+    ],
+    "neighbourhoods": [
+      "St. Boniface",
+      "River Heights",
+      "Transcona"
+    ],
+    "surroundingAreas": [
+      "Headingley",
+      "East St. Paul",
+      "West St. Paul",
+      "Oakbank",
+      "Niverville"
+    ]
+  },
+  {
+    "slug": "brandon",
+    "name": "Brandon",
+    "province": "Manitoba",
+    "provinceCode": "MB",
+    "region": "Westman",
+    "group": "Manitoba",
+    "lead": "Tile installation in Brandon for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Brandon bathroom and kitchen installations start with the condition of the surfaces behind the finish. We define preparation, waterproofing where required and the room sequence so the quote reflects the whole job.",
+    "localFactors": [
+      "Photograph existing surfaces and damaged areas",
+      "Confirm availability of the selected tile batch",
+      "Plan property access for removal and delivery"
+    ],
+    "neighbourhoods": [
+      "Downtown",
+      "Green Acres",
+      "Valleyview"
+    ],
+    "surroundingAreas": [
+      "Shilo",
+      "Souris",
+      "Minnedosa"
+    ]
+  },
+  {
+    "slug": "saskatoon",
+    "name": "Saskatoon",
+    "province": "Saskatchewan",
+    "provinceCode": "SK",
+    "region": "Saskatoon Region",
+    "group": "Saskatchewan",
+    "lead": "Tile installation in Saskatoon for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Saskatoon tile work can combine shower walls, heated floors and entry surfaces in one renovation. We plan each assembly and its connection to adjacent rooms before setting the installation schedule.",
+    "localFactors": [
+      "Identify floor-heating plans at the quoting stage",
+      "Check subfloor stiffness and surface condition",
+      "Provide the exact address for surrounding communities"
+    ],
+    "neighbourhoods": [
+      "Nutana",
+      "Riversdale",
+      "Stonebridge"
+    ],
+    "surroundingAreas": [
+      "Warman",
+      "Martensville",
+      "Osler",
+      "Corman Park"
+    ]
+  },
+  {
+    "slug": "regina",
+    "name": "Regina",
+    "province": "Saskatchewan",
+    "provinceCode": "SK",
+    "region": "Regina Region",
+    "group": "Saskatchewan",
+    "lead": "Tile installation in Regina for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Regina installations begin with the supporting floor or wall, especially where existing finishes show cracks or movement. We review the surface and layout before planning new bathroom, kitchen or entry tile.",
+    "localFactors": [
+      "Flag cracks and previous repairs in your photos",
+      "Plan floor transitions and door clearances",
+      "Keep installation spaces within curing temperature limits"
+    ],
+    "neighbourhoods": [
+      "Cathedral",
+      "Lakeview",
+      "Harbour Landing"
+    ],
+    "surroundingAreas": [
+      "White City",
+      "Emerald Park",
+      "Pilot Butte",
+      "Balgonie"
+    ]
+  },
+  {
+    "slug": "prince-albert",
+    "name": "Prince Albert",
+    "province": "Saskatchewan",
+    "provinceCode": "SK",
+    "region": "Central Saskatchewan",
+    "group": "Saskatchewan",
+    "lead": "Tile installation in Prince Albert for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Prince Albert tile projects need a practical plan for materials, room access and preparation. We define the finish and the work beneath it together, including shower waterproofing and floor levelling where the site requires it.",
+    "localFactors": [
+      "Confirm the full scope of existing finish removal",
+      "Order edge pieces alongside field tile",
+      "Share access details for properties outside the city"
+    ],
+    "neighbourhoods": [
+      "Crescent Heights",
+      "West Hill",
+      "East Hill"
+    ],
+    "surroundingAreas": [
+      "Shellbrook",
+      "Birch Hills"
+    ]
+  },
+  {
+    "slug": "moose-jaw",
+    "name": "Moose Jaw",
+    "province": "Saskatchewan",
+    "provinceCode": "SK",
+    "region": "South-Central Saskatchewan",
+    "group": "Saskatchewan",
+    "lead": "Tile installation in Moose Jaw for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Moose Jaw bathroom and kitchen renovations often need new tile to meet retained finishes neatly. We measure those junctions and review the substrate so trim, thresholds and tile layout are planned as part of the installation.",
+    "localFactors": [
+      "Measure retained trim and threshold heights",
+      "Identify fixtures that will stay in place",
+      "Allow preparation time after old tile is removed"
+    ],
+    "neighbourhoods": [
+      "Sunningdale",
+      "South Hill",
+      "Palliser"
+    ],
+    "surroundingAreas": [
+      "Caronport",
+      "Belle Plaine"
+    ]
+  },
+  {
+    "slug": "whitehorse",
+    "name": "Whitehorse",
+    "province": "Yukon",
+    "provinceCode": "YT",
+    "region": "Southern Yukon",
+    "group": "Yukon",
+    "lead": "Tile installation in Whitehorse for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Whitehorse tile installations need careful material ordering and a suitable indoor work environment. We confirm freight, site access and the installation scope before scheduling bathrooms, kitchens and entry floors.",
+    "localFactors": [
+      "Confirm freight timing and a complete material order",
+      "Provide heated storage and suitable curing conditions",
+      "Include travel details for addresses outside Whitehorse"
+    ],
+    "neighbourhoods": [
+      "Riverdale",
+      "Porter Creek",
+      "Whistle Bend"
+    ],
+    "surroundingAreas": [
+      "Marsh Lake",
+      "Mount Lorne",
+      "Carcross"
+    ]
+  },
+  {
+    "slug": "yellowknife",
+    "name": "Yellowknife",
+    "province": "Northwest Territories",
+    "provinceCode": "NT",
+    "region": "North Slave Region",
+    "group": "Northwest Territories",
+    "lead": "Tile installation in Yellowknife for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Yellowknife projects require a clear plan for deliveries, indoor storage and the time needed for preparation and curing. We review the existing floor or wall assembly and confirm the work schedule against site readiness.",
+    "localFactors": [
+      "Check freight lead times before fixing a start date",
+      "Keep materials and work areas at suitable temperatures",
+      "Provide the full address and building access details"
+    ],
+    "neighbourhoods": [
+      "Old Town",
+      "Frame Lake",
+      "Range Lake"
+    ],
+    "surroundingAreas": [
+      "Dettah",
+      "Ndilǫ"
+    ]
+  },
+  {
+    "slug": "iqaluit",
+    "name": "Iqaluit",
+    "province": "Nunavut",
+    "provinceCode": "NU",
+    "region": "Baffin Region",
+    "group": "Nunavut",
+    "lead": "Tile installation in Iqaluit for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Iqaluit tile projects are planned around freight, site access and the complete material quantities needed for installation. We confirm project feasibility and scheduling for the address, including suitable indoor storage and working conditions.",
+    "localFactors": [
+      "Plan freight and spare tile quantities in advance",
+      "Confirm heated storage and installation conditions",
+      "Provide room measurements and detailed site photos"
+    ],
+    "neighbourhoods": [
+      "Apex",
+      "Astro Hill",
+      "Plateau"
+    ],
+    "surroundingAreas": []
+  },
+  {
+    "slug": "delta",
+    "name": "Delta",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Metro Vancouver",
+    "group": "British Columbia",
+    "lead": "Tile installation in Delta for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Delta tile projects need the exact community and property access included from the start. We plan bathroom, kitchen and entrance installations with attention to wet-area protection, practical cleaning and clear transitions to existing floors.",
+    "localFactors": [
+      "Specify Ladner, Tsawwassen or North Delta in your request",
+      "Identify parking and unloading space at the property",
+      "Review waterproofing details around showers and tubs"
+    ],
+    "neighbourhoods": [
+      "Ladner",
+      "Tsawwassen",
+      "North Delta"
+    ],
+    "surroundingAreas": [
+      "Richmond",
+      "Surrey",
+      "White Rock"
+    ]
+  },
+  {
+    "slug": "saanich",
+    "name": "Saanich",
+    "province": "British Columbia",
+    "provinceCode": "BC",
+    "region": "Greater Victoria",
+    "group": "British Columbia",
+    "lead": "Tile installation in Saanich for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Saanich tile work can involve a compact bathroom refresh or a larger installation spanning several rooms. We confirm the layout, supporting surfaces and access arrangements before planning removal, preparation and setting.",
+    "localFactors": [
+      "Share room dimensions and existing floor photos",
+      "Confirm access for rural properties and long driveways",
+      "Plan changes in floor height around retained doors"
+    ],
+    "neighbourhoods": [
+      "Gordon Head",
+      "Cadboro Bay",
+      "Royal Oak"
+    ],
+    "surroundingAreas": [
+      "Victoria",
+      "Oak Bay",
+      "Central Saanich",
+      "View Royal"
+    ]
+  },
+  {
+    "slug": "spruce-grove",
+    "name": "Spruce Grove",
+    "province": "Alberta",
+    "provinceCode": "AB",
+    "region": "Edmonton Region",
+    "group": "Alberta",
+    "lead": "Tile installation in Spruce Grove for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Spruce Grove kitchens, bathrooms and entry floors need a tile assembly that fits the room and its daily use. We plan demolition limits, floor preparation and curing time together, including how the household will move around the work.",
+    "localFactors": [
+      "Set aside a protected delivery and storage area",
+      "Identify entry routes that must remain available",
+      "Confirm floor-heating plans before preparation begins"
+    ],
+    "neighbourhoods": [
+      "Greenbury",
+      "Harvest Ridge",
+      "Deer Park"
+    ],
+    "surroundingAreas": [
+      "Stony Plain",
+      "Parkland County",
+      "Edmonton"
+    ]
+  },
+  {
+    "slug": "leduc",
+    "name": "Leduc",
+    "province": "Alberta",
+    "provinceCode": "AB",
+    "region": "Edmonton Region",
+    "group": "Alberta",
+    "lead": "Tile installation in Leduc for bathrooms, kitchens, floors and commercial spaces. Work directly with Tiling.ca to plan your project.",
+    "context": "Leduc tile projects benefit from an early decision on tile size, layout and which existing finishes will remain. We review bathrooms, kitchens and commercial spaces for surface preparation, movement accommodation and access before installation.",
+    "localFactors": [
+      "Include the exact address for Leduc County properties",
+      "Confirm transitions to retained flooring and cabinets",
+      "Allow preparation and cure time within the project schedule"
+    ],
+    "neighbourhoods": [
+      "Southfork",
+      "Corinthia Park",
+      "Black Stone"
+    ],
+    "surroundingAreas": [
+      "Nisku",
+      "Beaumont",
+      "Devon",
+      "Calmar"
+    ]
+  },
+  {
+    "slug": "montreal",
+    "name": "Montréal",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Greater Montréal",
+    "group": "Quebec",
+    "lead": "Condo bathrooms, kitchen backsplashes and apartment tile renovations in Montréal.",
+    "context": "For a condo or walk-up renovation, share the floor level, access arrangements and any building work-hour rules before we plan material delivery.",
+    "localFactors": [
+      "Elevator bookings and protected common areas",
+      "Subfloor condition beneath existing finishes",
+      "Tile layouts around compact kitchens and bathrooms"
+    ],
+    "neighbourhoods": [
+      "Le Plateau-Mont-Royal",
+      "Rosemont–La Petite-Patrie",
+      "Verdun"
+    ],
+    "surroundingAreas": [
+      "Westmount",
+      "Mont-Royal",
+      "Dorval",
+      "Pointe-Claire"
+    ]
+  },
+  {
+    "slug": "quebec-city",
+    "name": "Québec City",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Capitale-Nationale",
+    "group": "Quebec",
+    "lead": "Tile installation for Québec City bathrooms, kitchens and entrances.",
+    "context": "Renovating an older interior or joining new tile to existing wood flooring starts with measuring finished floor heights and checking the base beneath the tile.",
+    "localFactors": [
+      "Threshold heights between adjoining rooms",
+      "Floor preparation before large-format tile",
+      "Winter entryway cleaning and slip-conscious finishes"
+    ],
+    "neighbourhoods": [
+      "Sillery",
+      "Cap-Rouge",
+      "Saint-Jean-Baptiste"
+    ],
+    "surroundingAreas": [
+      "Lévis",
+      "L’Ancienne-Lorette",
+      "Saint-Augustin-de-Desmaures"
+    ]
+  },
+  {
+    "slug": "laval",
+    "name": "Laval",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Greater Montréal",
+    "group": "Quebec",
+    "lead": "Bathroom, shower and floor tiling across Laval.",
+    "context": "For a family bathroom renovation, tell us whether another bathroom will remain available so demolition, waterproofing and curing can be planned around daily use.",
+    "localFactors": [
+      "Occupied-home access and dust protection",
+      "Shower niches and waterproofing details",
+      "Transitions at hallways and bedroom doors"
+    ],
+    "neighbourhoods": [
+      "Chomedey",
+      "Sainte-Dorothée",
+      "Vimont"
+    ],
+    "surroundingAreas": [
+      "Boisbriand",
+      "Rosemère",
+      "Lorraine",
+      "Terrebonne"
+    ]
+  },
+  {
+    "slug": "longueuil",
+    "name": "Longueuil",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "South Shore",
+    "group": "Quebec",
+    "lead": "Tile floors, backsplashes and showers for Longueuil and the South Shore.",
+    "context": "A kitchen tile update needs more than a surface measurement: cabinet ends, appliance clearances and the adjoining floor all influence the layout.",
+    "localFactors": [
+      "Appliance removal and replacement clearances",
+      "Backsplash outlet and trim positions",
+      "Protection of occupied rooms during removal"
+    ],
+    "neighbourhoods": [
+      "Vieux-Longueuil",
+      "Saint-Hubert",
+      "Greenfield Park"
+    ],
+    "surroundingAreas": [
+      "Brossard",
+      "Boucherville",
+      "Saint-Lambert",
+      "Saint-Bruno-de-Montarville"
+    ]
+  },
+  {
+    "slug": "gatineau",
+    "name": "Gatineau",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Outaouais",
+    "group": "Quebec",
+    "lead": "Tile installation and bathroom renovations in Gatineau.",
+    "context": "For a shower replacement, send photos of the current enclosure and describe any leaks or loose tile. The installation plan should address the underlying assembly before a new finish is selected.",
+    "localFactors": [
+      "Existing water damage and substrate repairs",
+      "Shower drain location and floor slope",
+      "Access and material handling for the property"
+    ],
+    "neighbourhoods": [
+      "Hull",
+      "Aylmer",
+      "Buckingham"
+    ],
+    "surroundingAreas": [
+      "Chelsea",
+      "Cantley",
+      "Val-des-Monts",
+      "Pontiac"
+    ]
+  },
+  {
+    "slug": "sherbrooke",
+    "name": "Sherbrooke",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Estrie",
+    "group": "Quebec",
+    "lead": "Sherbrooke tile installation for kitchens, bathrooms and commercial interiors.",
+    "context": "If the work involves a rental unit or occupied business, include the changeover date and any access restrictions with your measurements so the work sequence can be scoped.",
+    "localFactors": [
+      "Room-by-room phasing where access must remain open",
+      "Durable grout choices for frequent cleaning",
+      "Subfloor flatness beneath porcelain tile"
+    ],
+    "neighbourhoods": [
+      "Lennoxville",
+      "Fleurimont",
+      "Brompton"
+    ],
+    "surroundingAreas": [
+      "Magog",
+      "Waterville",
+      "Cookshire-Eaton",
+      "Ascot Corner"
+    ]
+  },
+  {
+    "slug": "trois-rivieres",
+    "name": "Trois-Rivières",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Mauricie",
+    "group": "Quebec",
+    "lead": "Tile renovations for Trois-Rivières homes and businesses.",
+    "context": "Replacing a tiled entrance or kitchen floor starts with the removal method and the condition of the exposed base. Include adjoining flooring in your photos so thresholds can be planned.",
+    "localFactors": [
+      "Removal of old tile and adhesive",
+      "Door swing and finished floor clearance",
+      "Entry surfaces exposed to tracked-in water"
+    ],
+    "neighbourhoods": [
+      "Cap-de-la-Madeleine",
+      "Pointe-du-Lac",
+      "Trois-Rivières-Ouest"
+    ],
+    "surroundingAreas": [
+      "Bécancour",
+      "Saint-Maurice",
+      "Champlain",
+      "Yamachiche"
+    ]
+  },
+  {
+    "slug": "saguenay",
+    "name": "Saguenay",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Saguenay–Lac-Saint-Jean",
+    "group": "Quebec",
+    "lead": "Bathroom and floor tile installation across Saguenay.",
+    "context": "For heated tile floors, identify the room size, insulation conditions and existing floor height early. Heating compatibility and the complete tile assembly should be settled before materials are ordered.",
+    "localFactors": [
+      "Heated-floor assembly and finished height",
+      "Material storage in a conditioned space",
+      "Movement joints and perimeter clearances"
+    ],
+    "neighbourhoods": [
+      "Chicoutimi",
+      "Jonquière",
+      "La Baie"
+    ],
+    "surroundingAreas": [
+      "Saint-Honoré",
+      "Saint-Fulgence",
+      "Larouche",
+      "Saint-Ambroise"
+    ]
+  },
+  {
+    "slug": "drummondville",
+    "name": "Drummondville",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Centre-du-Québec",
+    "group": "Quebec",
+    "lead": "Kitchen, bathroom and floor tiling in Drummondville.",
+    "context": "An open-plan floor calls for a layout that works across the entire visible area. Show us doorways, islands and transitions so tile cuts and alignment can be considered together.",
+    "localFactors": [
+      "Continuous layout through connecting rooms",
+      "Flatness checks for larger tile sizes",
+      "Curing time before furniture returns"
+    ],
+    "neighbourhoods": [
+      "Saint-Nicéphore",
+      "Saint-Charles-de-Drummond",
+      "Saint-Joachim-de-Courval"
+    ],
+    "surroundingAreas": [
+      "Saint-Germain-de-Grantham",
+      "Saint-Cyrille-de-Wendover",
+      "Wickham"
+    ]
+  },
+  {
+    "slug": "saint-hyacinthe",
+    "name": "Saint-Hyacinthe",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Montérégie",
+    "group": "Quebec",
+    "lead": "Tile installation for Saint-Hyacinthe bathrooms, kitchens and entryways.",
+    "context": "For a backsplash, measure the full run and photograph windows, outlets and cabinet edges. These details help resolve the starting point, trim and visible cuts before installation.",
+    "localFactors": [
+      "Backsplash terminations at exposed edges",
+      "Outlet placement within the tile pattern",
+      "Wall repairs after an old backsplash is removed"
+    ],
+    "neighbourhoods": [
+      "Douville",
+      "La Providence"
+    ],
+    "surroundingAreas": [
+      "Saint-Damase",
+      "Saint-Dominique",
+      "Saint-Pie"
+    ]
+  },
+  {
+    "slug": "saint-jean-sur-richelieu",
+    "name": "Saint-Jean-sur-Richelieu",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Montérégie",
+    "group": "Quebec",
+    "lead": "Bathroom, shower and tile floor installation in Saint-Jean-sur-Richelieu.",
+    "context": "A bathroom update can combine new tile with retained fixtures, but the edges and connections need to be planned first. Tell us what stays and what will be removed.",
+    "localFactors": [
+      "Connections to existing tubs and vanities",
+      "Waterproofing at corners and penetrations",
+      "Floor height at the bathroom doorway"
+    ],
+    "neighbourhoods": [
+      "Saint-Luc",
+      "Iberville",
+      "L’Acadie"
+    ],
+    "surroundingAreas": [
+      "Chambly",
+      "Carignan",
+      "Mont-Saint-Grégoire",
+      "Sainte-Anne-de-Sabrevois"
+    ]
+  },
+  {
+    "slug": "granby",
+    "name": "Granby",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Estrie",
+    "group": "Quebec",
+    "lead": "Granby tile installation for residential and commercial projects.",
+    "context": "For a porcelain floor, share the tile dimensions as well as room measurements. Larger pieces require closer attention to base flatness, handling space and the position of visible cuts.",
+    "localFactors": [
+      "Flatness and deflection of the existing base",
+      "Space for cutting and material storage",
+      "Alignment at islands and doorway openings"
+    ],
+    "neighbourhoods": [
+      "Centre-ville"
+    ],
+    "surroundingAreas": [
+      "Bromont",
+      "Shefford",
+      "Roxton Pond",
+      "Saint-Alphonse-de-Granby"
+    ]
+  },
+  {
+    "slug": "saint-jerome",
+    "name": "Saint-Jérôme",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Laurentides",
+    "group": "Quebec",
+    "lead": "Shower, backsplash and floor tile installation in Saint-Jérôme.",
+    "context": "When the project extends to an exterior tiled surface, describe exposure, drainage and the existing base. Exterior suitability must be established before choosing tile and installation materials.",
+    "localFactors": [
+      "Weather window for exterior installations",
+      "Drainage and freeze-thaw exposure",
+      "Interior entryway transitions"
+    ],
+    "neighbourhoods": [
+      "Bellefeuille",
+      "Lafontaine",
+      "Saint-Antoine"
+    ],
+    "surroundingAreas": [
+      "Prévost",
+      "Saint-Colomban",
+      "Sainte-Sophie",
+      "Mirabel"
+    ]
+  },
+  {
+    "slug": "halifax",
+    "name": "Halifax",
+    "province": "Nova Scotia",
+    "provinceCode": "NS",
+    "region": "Halifax Regional Municipality",
+    "group": "Nova Scotia",
+    "lead": "Tile installation for Halifax bathrooms, kitchens and commercial spaces.",
+    "context": "Condo and apartment projects need a clear plan for deliveries, debris removal and building access. Include those arrangements alongside the room photos when requesting a quote.",
+    "localFactors": [
+      "Elevator and loading arrangements",
+      "Sound-control requirements specified by the building",
+      "Protection of shared hallways and stairs"
+    ],
+    "neighbourhoods": [
+      "North End",
+      "South End",
+      "Clayton Park"
+    ],
+    "surroundingAreas": [
+      "Dartmouth",
+      "Bedford",
+      "Lower Sackville",
+      "Hammonds Plains",
+      "Timberlea",
+      "Fall River"
+    ]
+  },
+  {
+    "slug": "sydney",
+    "name": "Sydney",
+    "province": "Nova Scotia",
+    "provinceCode": "NS",
+    "region": "Cape Breton",
+    "group": "Nova Scotia",
+    "lead": "Tile installation in Sydney and surrounding Cape Breton communities.",
+    "context": "For a bathroom refresh, include close-up photos of cracked grout or loose tile as well as a full view of the room. The visible damage helps identify what needs further inspection before retiling.",
+    "localFactors": [
+      "Condition of the wall or floor behind loose tile",
+      "Access to the room and debris route",
+      "Waterproofing around bath and shower connections"
+    ],
+    "neighbourhoods": [
+      "Ashby",
+      "Whitney Pier"
+    ],
+    "surroundingAreas": [
+      "Glace Bay",
+      "New Waterford",
+      "North Sydney",
+      "Sydney Mines",
+      "Westmount"
+    ]
+  },
+  {
+    "slug": "truro",
+    "name": "Truro",
+    "province": "Nova Scotia",
+    "provinceCode": "NS",
+    "region": "Colchester County",
+    "group": "Nova Scotia",
+    "lead": "Truro tile installation for kitchens, bathrooms and entrances.",
+    "context": "A utility-room or entryway floor should be planned around appliances, drainage if present and transitions to the rest of the home. Send a rough sketch with the fixed items marked.",
+    "localFactors": [
+      "Clearance beneath washers and appliances",
+      "Water exposure and practical grout selection",
+      "Threshold details at adjoining rooms"
+    ],
+    "neighbourhoods": [
+      "Downtown Truro"
+    ],
+    "surroundingAreas": [
+      "Bible Hill",
+      "Valley",
+      "Salmon River",
+      "Hilden",
+      "Brookfield"
+    ]
+  },
+  {
+    "slug": "moncton",
+    "name": "Moncton",
+    "province": "New Brunswick",
+    "provinceCode": "NB",
+    "region": "Greater Moncton",
+    "group": "New Brunswick",
+    "lead": "Tile installation across Moncton and the surrounding communities.",
+    "context": "For a retail or office tile project, tell us which entrances and facilities must stay accessible. Work areas, curing time and reopening need to be planned as one sequence.",
+    "localFactors": [
+      "Phased access for occupied commercial spaces",
+      "Cleaning needs and expected foot traffic",
+      "Transitions between tiled and resilient flooring"
+    ],
+    "neighbourhoods": [
+      "Downtown Moncton",
+      "Sunny Brae"
+    ],
+    "surroundingAreas": [
+      "Dieppe",
+      "Riverview",
+      "Salisbury",
+      "Memramcook"
+    ]
+  },
+  {
+    "slug": "saint-john",
+    "name": "Saint John",
+    "province": "New Brunswick",
+    "provinceCode": "NB",
+    "region": "Greater Saint John",
+    "group": "New Brunswick",
+    "lead": "Saint John tile installation for bathrooms, kitchens and business interiors.",
+    "context": "In a renovation with existing layers of flooring, the scope becomes clearer after the base is assessed. Photos of thresholds and exposed edges help us prepare for removal and rebuilding.",
+    "localFactors": [
+      "Existing floor layers and disposal access",
+      "Substrate repair before tile is installed",
+      "Finished heights beside original flooring"
+    ],
+    "neighbourhoods": [
+      "Uptown",
+      "Carleton",
+      "Millidgeville"
+    ],
+    "surroundingAreas": [
+      "Rothesay",
+      "Quispamsis",
+      "Grand Bay-Westfield"
+    ]
+  },
+  {
+    "slug": "fredericton",
+    "name": "Fredericton",
+    "province": "New Brunswick",
+    "provinceCode": "NB",
+    "region": "Fredericton region",
+    "group": "New Brunswick",
+    "lead": "Bathroom, kitchen and floor tile installation in Fredericton.",
+    "context": "For a basement bathroom or tiled lower-level floor, explain the current slab condition and any history of moisture. Those details guide the preparation discussion before the finish is selected.",
+    "localFactors": [
+      "Slab moisture and crack assessment",
+      "Drain position for a proposed shower",
+      "Transitions at stairs and adjoining rooms"
+    ],
+    "neighbourhoods": [
+      "Downtown Fredericton",
+      "Devon",
+      "Nashwaaksis"
+    ],
+    "surroundingAreas": [
+      "New Maryland",
+      "Oromocto",
+      "Hanwell",
+      "Lincoln"
+    ]
+  },
+  {
+    "slug": "charlottetown",
+    "name": "Charlottetown",
+    "province": "Prince Edward Island",
+    "provinceCode": "PE",
+    "region": "Queens County",
+    "group": "Prince Edward Island",
+    "lead": "Charlottetown tile installation for homes and commercial interiors.",
+    "context": "A shower renovation should define the opening, glass position and storage needs before tile is ordered. Share your preferred tile size with room dimensions so the layout can be planned.",
+    "localFactors": [
+      "Niche and shelf locations",
+      "Waterproofing at the shower opening",
+      "Lead time and quantities for the selected tile"
+    ],
+    "neighbourhoods": [
+      "Brighton",
+      "Sherwood",
+      "Parkdale"
+    ],
+    "surroundingAreas": [
+      "Stratford",
+      "Cornwall",
+      "Brackley",
+      "Miltonvale Park"
+    ]
+  },
+  {
+    "slug": "summerside",
+    "name": "Summerside",
+    "province": "Prince Edward Island",
+    "provinceCode": "PE",
+    "region": "Prince County",
+    "group": "Prince Edward Island",
+    "lead": "Kitchen, bathroom and floor tiling in Summerside.",
+    "context": "For a renovation outside the city centre, provide the full property location and on-site storage options with your request. Delivery access and material quantities help keep the installation sequence practical.",
+    "localFactors": [
+      "Property access for materials and removal",
+      "Tile quantities and spare material allowance",
+      "Dry storage before installation"
+    ],
+    "neighbourhoods": [
+      "St. Eleanors",
+      "Wilmot"
+    ],
+    "surroundingAreas": [
+      "Kensington",
+      "Miscouche",
+      "Linkletter",
+      "Bedeque"
+    ]
+  },
+  {
+    "slug": "st-johns",
+    "name": "St. John's",
+    "province": "Newfoundland and Labrador",
+    "provinceCode": "NL",
+    "region": "Avalon Peninsula",
+    "group": "Newfoundland and Labrador",
+    "lead": "Tile installation for St. John’s bathrooms, kitchens and entrances.",
+    "context": "A compact bathroom or kitchen benefits from a layout resolved before installation begins. Include door openings, cabinets and fixtures in your measurements so small perimeter cuts can be considered.",
+    "localFactors": [
+      "Tile layout around fixtures and cabinetry",
+      "Entryway finishes for tracked-in moisture",
+      "Delivery and storage arrangements at the property"
+    ],
+    "neighbourhoods": [
+      "Goulds",
+      "Kilbride",
+      "Waterford Valley",
+      "Mundy Pond"
+    ],
+    "surroundingAreas": [
+      "Mount Pearl",
+      "Paradise",
+      "Conception Bay South",
+      "Torbay",
+      "Portugal Cove–St. Philip’s"
+    ]
+  },
+  {
+    "slug": "corner-brook",
+    "name": "Corner Brook",
+    "province": "Newfoundland and Labrador",
+    "provinceCode": "NL",
+    "region": "Humber Valley",
+    "group": "Newfoundland and Labrador",
+    "lead": "Tile floors, showers and backsplashes in Corner Brook and nearby communities.",
+    "context": "For a project with a firm completion date, choose the tile and confirm available quantities early. Include removal, substrate preparation and curing in the schedule rather than allowing only for tile setting.",
+    "localFactors": [
+      "Material availability and delivery planning",
+      "Repairs revealed after old finishes are removed",
+      "Curing time before the room returns to use"
+    ],
+    "neighbourhoods": [
+      "Curling",
+      "Humbermouth"
+    ],
+    "surroundingAreas": [
+      "Massey Drive",
+      "Pasadena",
+      "Steady Brook",
+      "Deer Lake"
+    ]
+  },
+  {
+    "slug": "levis",
+    "name": "Lévis",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Chaudière-Appalaches",
+    "group": "Quebec",
+    "lead": "Tile installation for Lévis bathrooms, entrances and kitchen renovations.",
+    "context": "When an entrance connects several rooms, the starting line affects every visible doorway. Share the dimensions of adjoining spaces so the layout and changes in floor height can be resolved before setting tile.",
+    "localFactors": [
+      "Continuous tile alignment through entrances",
+      "Moisture-resistant detailing at exterior doors",
+      "Clearance beneath doors and built-in storage"
+    ],
+    "neighbourhoods": [
+      "Saint-Romuald",
+      "Saint-Nicolas",
+      "Charny",
+      "Vieux-Lévis"
+    ],
+    "surroundingAreas": [
+      "Saint-Henri",
+      "Saint-Lambert-de-Lauzon",
+      "Saint-Apollinaire",
+      "Beaumont"
+    ]
+  },
+  {
+    "slug": "terrebonne",
+    "name": "Terrebonne",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Lanaudière",
+    "group": "Quebec",
+    "lead": "Shower, backsplash and floor tile installation in Terrebonne.",
+    "context": "For a family bathroom with a tub-to-shower conversion, identify the fixtures that will move and the storage you need. Drain position, the shower opening and niche placement shape the tile plan.",
+    "localFactors": [
+      "Drain and shower-base configuration",
+      "Niche placement within the wall layout",
+      "Access to plumbing before walls are closed"
+    ],
+    "neighbourhoods": [
+      "Lachenaie",
+      "La Plaine",
+      "Vieux-Terrebonne"
+    ],
+    "surroundingAreas": [
+      "Mascouche",
+      "Bois-des-Filion",
+      "Sainte-Anne-des-Plaines",
+      "Charlemagne"
+    ]
+  },
+  {
+    "slug": "repentigny",
+    "name": "Repentigny",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Lanaudière",
+    "group": "Quebec",
+    "lead": "Tile installation and bathroom updates in Repentigny.",
+    "context": "A partial bathroom update should define where new tile meets existing finishes. Show us the tub edge, vanity base and doorway so the quote accounts for these details as well as the main tiled surfaces.",
+    "localFactors": [
+      "Matching finished heights at retained surfaces",
+      "Waterproofing connections beside existing fixtures",
+      "Edge trims where tiled walls stop"
+    ],
+    "neighbourhoods": [
+      "Le Gardeur"
+    ],
+    "surroundingAreas": [
+      "Charlemagne",
+      "L’Assomption",
+      "Saint-Sulpice",
+      "Lavaltrie"
+    ]
+  },
+  {
+    "slug": "brossard",
+    "name": "Brossard",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "South Shore",
+    "group": "Quebec",
+    "lead": "Brossard tile installation for condos, houses and commercial interiors.",
+    "context": "In a condo renovation, the proposed flooring assembly may need to meet building-specific acoustic requirements. Share those requirements and delivery rules when requesting a tile-floor estimate.",
+    "localFactors": [
+      "Building requirements for sound-control layers",
+      "Elevator dimensions for large tile deliveries",
+      "Floor thickness at suite doors and cabinetry"
+    ],
+    "neighbourhoods": [
+      "Secteur C",
+      "Secteur L",
+      "Secteur B",
+      "Secteur S"
+    ],
+    "surroundingAreas": [
+      "Saint-Lambert",
+      "Longueuil",
+      "La Prairie",
+      "Candiac"
+    ]
+  },
+  {
+    "slug": "blainville",
+    "name": "Blainville",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Laurentides",
+    "group": "Quebec",
+    "lead": "Tile floors, showers and kitchen backsplashes in Blainville.",
+    "context": "An ensuite project with a freestanding bath or a walk-in shower benefits from a complete fixture layout before installation. Mark each fixture and glass panel so joints, cuts and waterproofed surfaces line up with the design.",
+    "localFactors": [
+      "Tile setting lines around baths and glass panels",
+      "Slopes within walk-in shower floors",
+      "Movement allowance at walls and changes of plane"
+    ],
+    "neighbourhoods": [
+      "Fontainebleau",
+      "Chambéry"
+    ],
+    "surroundingAreas": [
+      "Sainte-Thérèse",
+      "Rosemère",
+      "Lorraine",
+      "Boisbriand",
+      "Mirabel"
+    ]
+  },
+  {
+    "slug": "saint-eustache",
+    "name": "Saint-Eustache",
+    "province": "Quebec",
+    "provinceCode": "QC",
+    "region": "Laurentides",
+    "group": "Quebec",
+    "lead": "Saint-Eustache tile installation for homes and business premises.",
+    "context": "If cracked tile is the reason for renovation, include photos of the cracks and describe whether they have returned after repair. Replacing the finish should follow an assessment of the underlying floor and movement.",
+    "localFactors": [
+      "Pattern and extent of existing tile cracking",
+      "Subfloor stiffness and preparation requirements",
+      "Movement joints across larger tiled areas"
+    ],
+    "neighbourhoods": [
+      "Vieux-Saint-Eustache"
+    ],
+    "surroundingAreas": [
+      "Deux-Montagnes",
+      "Sainte-Marthe-sur-le-Lac",
+      "Saint-Joseph-du-Lac",
+      "Boisbriand"
+    ]
+  },
+  {
+    "slug": "brantford",
+    "name": "Brantford",
+    "region": "Brant County",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Brantford and surrounding communities.",
+    "context": "Older-house renovations need a check of floor stiffness and existing layers before a new tile assembly is chosen. We plan demolition, dust control and transitions for occupied homes and commercial interiors.",
+    "localFactors": [
+      "Subfloor stiffness and floor buildup",
+      "Access for removal and disposal",
+      "Transitions to existing hardwood"
+    ],
+    "neighbourhoods": [
+      "West Brant",
+      "Eagle Place",
+      "Holmedale"
+    ],
+    "surroundingAreas": [
+      "Paris",
+      "St. George",
+      "Burford",
+      "Brant"
+    ]
+  },
+  {
+    "slug": "belleville",
+    "name": "Belleville",
+    "region": "Bay of Quinte",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Belleville and surrounding communities.",
+    "context": "For an entry floor or bathroom renovation, we confirm the existing surface and any moisture damage before setting a preparation allowance. Material delivery and interior storage are planned for the actual property.",
+    "localFactors": [
+      "Entry moisture and slip resistance",
+      "Shower substrate and waterproofing",
+      "Material staging and waste removal"
+    ],
+    "neighbourhoods": [
+      "Downtown",
+      "East Hill",
+      "Thurlow"
+    ],
+    "surroundingAreas": [
+      "Quinte West",
+      "Prince Edward County",
+      "Stirling-Rawdon",
+      "Tyendinaga"
+    ]
+  },
+  {
+    "slug": "sarnia",
+    "name": "Sarnia",
+    "region": "Lambton County",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Sarnia and surrounding communities.",
+    "context": "A tile floor needs durable edge details at doors, stairs and adjoining rooms. We review these junctions and the condition of the slab or wood subfloor before recommending the installation system.",
+    "localFactors": [
+      "Slab cracks and moisture review",
+      "Door and stair clearances",
+      "Grout and movement joints"
+    ],
+    "neighbourhoods": [
+      "Brights Grove",
+      "Downtown",
+      "Sherwood Village"
+    ],
+    "surroundingAreas": [
+      "Point Edward",
+      "Corunna",
+      "Petrolia",
+      "Plympton-Wyoming"
+    ]
+  },
+  {
+    "slug": "chatham-kent",
+    "name": "Chatham-Kent",
+    "region": "Southwestern Ontario",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Chatham-Kent and surrounding communities.",
+    "context": "Properties across Chatham-Kent can involve different travel and delivery routes. Share the community and full site location so we can plan material quantities, removal and a practical installation sequence.",
+    "localFactors": [
+      "Full property location and delivery route",
+      "Existing floor layers and demolition",
+      "Tile selection and replacement stock"
+    ],
+    "neighbourhoods": [
+      "Chatham",
+      "Wallaceburg",
+      "Blenheim",
+      "Ridgetown"
+    ],
+    "surroundingAreas": [
+      "Lakeshore",
+      "Leamington",
+      "Dutton Dunwich"
+    ]
+  },
+  {
+    "slug": "sault-ste-marie",
+    "name": "Sault Ste. Marie",
+    "region": "Algoma District",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Sault Ste. Marie and surrounding communities.",
+    "context": "Heated interior storage and proper curing conditions matter when tile and setting materials arrive in cold weather. We scope entries, bathrooms and commercial floors around moisture exposure and the property’s operating needs.",
+    "localFactors": [
+      "Protected storage for setting materials",
+      "Wet-boot entry durability",
+      "Cure time before reopening"
+    ],
+    "neighbourhoods": [
+      "Downtown",
+      "Steelton",
+      "West End"
+    ],
+    "surroundingAreas": [
+      "Prince Township",
+      "Echo Bay",
+      "Bruce Mines"
+    ]
+  },
+  {
+    "slug": "north-bay",
+    "name": "North Bay",
+    "region": "Nipissing District",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in North Bay and surrounding communities.",
+    "context": "A renovation near a lake or in a seasonally occupied property needs clear information about heating and access. We confirm the room conditions, substrate and material delivery before scheduling tile work.",
+    "localFactors": [
+      "Interior temperature during installation",
+      "Substrate and moisture assessment",
+      "Property access and delivery timing"
+    ],
+    "neighbourhoods": [
+      "West Ferris",
+      "Widdifield",
+      "Downtown"
+    ],
+    "surroundingAreas": [
+      "Callander",
+      "East Ferris",
+      "Powassan",
+      "Nipissing"
+    ]
+  },
+  {
+    "slug": "cornwall",
+    "name": "Cornwall",
+    "region": "Eastern Ontario",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Cornwall and surrounding communities.",
+    "context": "We plan bathroom and floor renovations around the existing building, from removal of old finishes to the final doorway height. A review of measurements and room photographs helps define the site assessment.",
+    "localFactors": [
+      "Floor height at thresholds",
+      "Wall condition behind old tile",
+      "Material quantities and trim"
+    ],
+    "neighbourhoods": [
+      "Riverdale",
+      "Le Village",
+      "Downtown"
+    ],
+    "surroundingAreas": [
+      "South Stormont",
+      "South Glengarry",
+      "Long Sault",
+      "Alexandria"
+    ]
+  },
+  {
+    "slug": "timmins",
+    "name": "Timmins",
+    "region": "Cochrane District",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Timmins and surrounding communities.",
+    "context": "Longer material lead times and cold-weather storage deserve a place in the installation plan. We confirm the tile selection, spare material allowance and room heating before work starts.",
+    "localFactors": [
+      "Delivery timing and spare tile",
+      "Heated storage and curing",
+      "Entry salt and moisture exposure"
+    ],
+    "neighbourhoods": [
+      "South Porcupine",
+      "Schumacher",
+      "Porcupine"
+    ],
+    "surroundingAreas": [
+      "Iroquois Falls",
+      "Matheson"
+    ]
+  },
+  {
+    "slug": "milton",
+    "name": "Milton",
+    "region": "Halton Region",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Milton and surrounding communities.",
+    "context": "Townhouse and family-home renovations often require a working route around the tile area. We plan staging, temporary access and floor transitions so the scope fits an occupied property.",
+    "localFactors": [
+      "Occupied-home access",
+      "Open-floor layout and control lines",
+      "Heated-floor and threshold elevations"
+    ],
+    "neighbourhoods": [
+      "Old Milton",
+      "Beaty",
+      "Dempsey",
+      "Scott"
+    ],
+    "surroundingAreas": [
+      "Oakville",
+      "Burlington",
+      "Mississauga",
+      "Halton Hills"
+    ]
+  },
+  {
+    "slug": "caledon",
+    "name": "Caledon",
+    "region": "Peel Region",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Caledon and surrounding communities.",
+    "context": "For properties across Caledon, we confirm the delivery address, driveway access and protected storage alongside the tile scope. Large entries and custom showers require layout decisions before material quantities are finalized.",
+    "localFactors": [
+      "Driveway access and material staging",
+      "Large entry floor layout",
+      "Custom shower waterproofing"
+    ],
+    "neighbourhoods": [
+      "Bolton",
+      "Caledon East",
+      "Inglewood",
+      "Alton"
+    ],
+    "surroundingAreas": [
+      "Brampton",
+      "Orangeville",
+      "King",
+      "Halton Hills"
+    ]
+  },
+  {
+    "slug": "clarington",
+    "name": "Clarington",
+    "region": "Durham Region",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Clarington and surrounding communities.",
+    "context": "Whether the work is in Bowmanville, Courtice or another Clarington community, we plan the tile around the actual room dimensions. Doorway elevations, cabinet alignment and the condition under old finishes shape the preparation work.",
+    "localFactors": [
+      "Room dimensions and layout",
+      "Cabinet and doorway transitions",
+      "Demolition and subfloor review"
+    ],
+    "neighbourhoods": [
+      "Bowmanville",
+      "Courtice",
+      "Newcastle",
+      "Orono"
+    ],
+    "surroundingAreas": [
+      "Oshawa",
+      "Port Hope",
+      "Scugog"
+    ]
+  },
+  {
+    "slug": "welland",
+    "name": "Welland",
+    "region": "Niagara Region",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Welland and surrounding communities.",
+    "context": "Bathroom repairs and full floor installations need different investigation before a quote. We check signs of movement or moisture and distinguish a localized tile repair from work that needs substrate replacement.",
+    "localFactors": [
+      "Cause of cracks or loose tile",
+      "Waterproofing behind shower finishes",
+      "Tile matching and repair boundaries"
+    ],
+    "neighbourhoods": [
+      "Dain City",
+      "Downtown",
+      "Cooks Mills"
+    ],
+    "surroundingAreas": [
+      "Pelham",
+      "Port Colborne",
+      "Thorold",
+      "Niagara Falls"
+    ]
+  },
+  {
+    "slug": "stratford",
+    "name": "Stratford",
+    "region": "Perth County",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Stratford and surrounding communities.",
+    "context": "Occupied residential and hospitality renovations need careful timing around access and reopening. We confirm removal, preparation, tile setting and curing as separate steps in the project schedule.",
+    "localFactors": [
+      "Occupied-space protection",
+      "Substrate preparation after removal",
+      "Curing before rooms reopen"
+    ],
+    "neighbourhoods": [
+      "Downtown",
+      "Avon Ward"
+    ],
+    "surroundingAreas": [
+      "St. Marys",
+      "Perth East",
+      "Perth South"
+    ]
+  },
+  {
+    "slug": "woodstock",
+    "name": "Woodstock",
+    "region": "Oxford County",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Woodstock and surrounding communities.",
+    "context": "We assess kitchen walls, bathroom assemblies and floors before choosing materials and preparation methods. A useful scope includes outlet details, exposed edges and transitions as well as the visible tile area.",
+    "localFactors": [
+      "Wall flatness and tile trim",
+      "Floor transitions and doors",
+      "Tile quantities and waste allowance"
+    ],
+    "neighbourhoods": [
+      "Downtown",
+      "Sally Creek"
+    ],
+    "surroundingAreas": [
+      "Ingersoll",
+      "Norwich",
+      "East Zorra-Tavistock",
+      "Blandford-Blenheim"
+    ]
+  },
+  {
+    "slug": "orillia",
+    "name": "Orillia",
+    "region": "Simcoe County",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Orillia and surrounding communities.",
+    "context": "For year-round homes and seasonal properties, we confirm access and indoor conditions before installation. Tile and grout selection should reflect wet entries, bathroom use and the owner’s maintenance expectations.",
+    "localFactors": [
+      "Indoor conditions during curing",
+      "Wet-entry finish selection",
+      "Property access and staging"
+    ],
+    "neighbourhoods": [
+      "Downtown",
+      "West Ridge"
+    ],
+    "surroundingAreas": [
+      "Severn",
+      "Oro-Medonte",
+      "Ramara"
+    ]
+  },
+  {
+    "slug": "st-thomas",
+    "name": "St. Thomas",
+    "region": "Elgin County",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in St. Thomas and surrounding communities.",
+    "context": "Older floor assemblies and newly renovated rooms need preparation matched to the selected tile. We establish floor height, movement accommodation and layout before tile is ordered.",
+    "localFactors": [
+      "Floor assembly and deflection",
+      "Finished height and transitions",
+      "Joint layout and edge treatment"
+    ],
+    "neighbourhoods": [
+      "Downtown",
+      "Lynhurst"
+    ],
+    "surroundingAreas": [
+      "Central Elgin",
+      "Southwold",
+      "Aylmer",
+      "London"
+    ]
+  },
+  {
+    "slug": "pembroke",
+    "name": "Pembroke",
+    "region": "Renfrew County",
+    "group": "Ontario",
+    "province": "Ontario",
+    "provinceCode": "ON",
+    "lead": "Tile installation, repair and supply in Pembroke and surrounding communities.",
+    "context": "We plan tile installations around material delivery, room access and the condition of existing floors and walls. Photos and measurements help us identify the preparation questions to resolve during assessment.",
+    "localFactors": [
+      "Substrate condition",
+      "Material delivery and storage",
+      "Bath and shower waterproofing"
+    ],
+    "neighbourhoods": [
+      "Downtown",
+      "East End"
+    ],
+    "surroundingAreas": [
+      "Petawawa",
+      "Laurentian Valley",
+      "Whitewater Region"
+    ]
+  }
+]

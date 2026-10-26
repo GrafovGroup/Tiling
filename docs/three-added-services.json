@@ -1,0 +1,128 @@
+[
+  {
+    "slug": "heated-tile-floors",
+    "name": "Heated Tile Floors",
+    "key": "heated",
+    "short": "Tile floors planned around underfloor heating, finished heights and comfortable everyday use.",
+    "intro": "We install tile finishes with compatible underfloor heating assemblies for bathrooms, kitchens, entries and living spaces. The scope covers substrate preparation, insulation or uncoupling where specified, tile layout and finished transitions. Heating-system selection, electrical capacity, sensor locations and testing are coordinated before covering the system. Electrical connections and commissioning require appropriately qualified personnel; the tile assembly must follow the selected system\u2019s instructions.",
+    "features": [
+      "Heating-compatible floor preparation",
+      "Electric mat and cable assembly coordination",
+      "Floor sensor and thermostat planning",
+      "Tile and adjacent-floor transitions",
+      "System testing checkpoints before covering",
+      "Curing and first-start scheduling"
+    ],
+    "faq": [
+      {
+        "q": "Can heating be added beneath existing tile?",
+        "a": "A new heated assembly usually requires removing the existing finish or verifying a suitable overlay approach. We assess floor height, substrate condition, doors and electrical requirements before confirming the scope."
+      },
+      {
+        "q": "When can the heating be switched on?",
+        "a": "Only after the specified curing period and the heating manufacturer\u2019s commissioning procedure. Early heating can affect mortar, grout and the installation."
+      }
+    ],
+    "imageAlt": "Ivory porcelain bathroom floor beside a freestanding bathtub",
+    "homeImageAlt": "Terracotta-look porcelain mudroom floor beside timber storage",
+    "propertyCheck": "Confirm floor structure, heating-system compatibility, electrical capacity, insulation and finished elevations.",
+    "accessCheck": "Plan access for system testing, sensor placement and the electrical connection before the floor is covered.",
+    "seasonalCheck": "Maintain suitable curing temperatures without using the new floor heat prematurely; follow the specified first-start procedure.",
+    "failurePoints": [
+      "Heating cables or sensors are damaged or covered without testing",
+      "Floor height and door clearances are overlooked",
+      "Heat is switched on before the setting materials have cured"
+    ],
+    "quoteDetails": [
+      "Room dimensions and heated zones",
+      "Existing floor construction",
+      "Preferred tile and finished height",
+      "Heating product details if selected",
+      "Thermostat position and electrical supply information"
+    ]
+  },
+  {
+    "slug": "pool-spa-tiling",
+    "name": "Swimming Pool & Spa Tiling",
+    "key": "pool",
+    "short": "Mosaic and porcelain finishes for pool interiors, waterlines and spas, using suitable submerged assemblies.",
+    "intro": "Pool and spa tile must work as part of a complete water-retaining assembly. We assess the shell, existing finish, waterproofing interfaces, penetrations and movement joints before selecting tile, mortar and grout rated for the intended immersion and water conditions. Scope can include waterline tile, tiled spa surfaces and pool interiors. Structural repairs, pool equipment and water treatment are assessed separately; filling and returning to service follow the installation products\u2019 curing requirements.",
+    "features": [
+      "Pool waterline tile replacement",
+      "Mosaic pool and spa finishes",
+      "Immersion-rated material selection",
+      "Shell and waterproofing interface review",
+      "Penetration and movement-joint detailing",
+      "Curing and refill planning"
+    ],
+    "faq": [
+      {
+        "q": "Can ordinary bathroom tile be used in a pool?",
+        "a": "Not automatically. Tile, backing, mortar, grout and waterproofing must be suitable for continuous immersion and the pool\u2019s operating conditions. We confirm product suitability for the specific assembly."
+      },
+      {
+        "q": "Can you replace only the waterline tiles?",
+        "a": "Where the shell and surrounding assembly are sound, a limited waterline scope may be possible. We inspect visible defects and interfaces first; concealed damage can change the preparation required."
+      }
+    ],
+    "imageAlt": "Blue mosaic waterline tiles in a bright indoor swimming pool",
+    "homeImageAlt": "Cobalt tiled outdoor pool with a pale porcelain deck",
+    "propertyCheck": "Review shell condition, existing waterproofing, submerged product compatibility and all drains or penetrations.",
+    "accessCheck": "Confirm safe draining arrangements, access to the shell, equipment protection and controlled refill planning.",
+    "seasonalCheck": "Outdoor work needs suitable weather and curing protection; refill timing must follow the complete installation system.",
+    "failurePoints": [
+      "Tile or setting materials are not rated for the intended immersion",
+      "Shell cracks or waterproofing defects are tiled over",
+      "The pool is refilled before the required cure period"
+    ],
+    "quoteDetails": [
+      "Pool or spa dimensions and depth",
+      "Indoor or outdoor location",
+      "Photos of the shell, waterline and damaged areas",
+      "Existing tile and waterproofing information",
+      "Access, draining and preferred return-to-service timing"
+    ]
+  },
+  {
+    "slug": "tile-stairs-steps",
+    "name": "Tile Stair & Step Installation",
+    "key": "stairs",
+    "short": "Tiled treads, risers and landings with careful attention to nosing, traction and consistent finished dimensions.",
+    "intro": "We tile stairs, entrance steps and landings after checking their structure, existing dimensions and surface condition. The layout must maintain consistent finished risers and treads, suitable edge protection and a finish appropriate for foot traffic and exposure. We plan visible cuts, nosing profiles, transitions and handrail interfaces before installation. Changes affecting stair geometry or structure need review against applicable requirements before tile work proceeds.",
+    "features": [
+      "Interior stair treads and risers",
+      "Entrance step and landing tile",
+      "Nosing profiles and edge protection",
+      "Traction and contrast planning",
+      "Consistent finished stair dimensions",
+      "Handrail and adjacent-floor interfaces"
+    ],
+    "faq": [
+      {
+        "q": "Can tile be installed over wooden stairs?",
+        "a": "Only when the stair structure and a compatible assembly provide adequate stability and suitable finished dimensions. Movement, deflection and added height must be assessed first."
+      },
+      {
+        "q": "What finish is suitable for entrance steps?",
+        "a": "The selection depends on wet exposure, local weather, drainage and traffic. We review traction, exterior suitability, edge details and maintenance instead of choosing by appearance alone."
+      }
+    ],
+    "imageAlt": "Light porcelain tiled staircase with a slim black handrail",
+    "homeImageAlt": "Grey porcelain entrance steps with a handrail beside brick walls",
+    "propertyCheck": "Measure existing risers, treads and landings; assess stability, drainage where applicable and the added tile assembly thickness.",
+    "accessCheck": "Plan a safe alternative route and maintain required access while steps are out of service and materials cure.",
+    "seasonalCheck": "Exterior steps require products and curing conditions suited to weather exposure, with protection from frost and rain.",
+    "failurePoints": [
+      "Added tile thickness creates uneven risers",
+      "Edges lack suitable nosing or the finish provides inadequate traction for the exposure",
+      "Stair movement or drainage problems are concealed beneath tile"
+    ],
+    "quoteDetails": [
+      "Number of steps and landing dimensions",
+      "Photos of treads, risers and handrails",
+      "Existing structure and finish",
+      "Indoor or outdoor exposure",
+      "Access needs and preferred tile or nosing"
+    ]
+  }
+]

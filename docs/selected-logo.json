@@ -1,0 +1,14 @@
+{
+  "selection": "First of latest ten, option 36 herringbone",
+  "edit": "Terracotta round dot changed to a square dot; lettering and tile motif preserved",
+  "method": "OpenAI built-in image generation edit; trimmed and exported for web",
+  "asset": "/brand/tiling-herringbone-square-dot.png",
+  "usage": [
+    "Shared header",
+    "Shared footer",
+    "Herringbone mark browser icons"
+  ],
+  "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-d4da47fa-6a86-4df7-ab32-4212bc2dcf57.png",
+  "prompt": "Change only the terracotta round dot between G and C to an axis-aligned square of matching size and colour. Preserve all other logo details and transparent background.",
+  "favicon": "Square outline with a separate inset letter T; favicon-v7.svg and PNG/ICO exports"
+}

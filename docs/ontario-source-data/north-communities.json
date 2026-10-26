@@ -1,0 +1,625 @@
+[
+  {
+    "municipality": "King",
+    "region": "York Region",
+    "communities": [
+      "King City",
+      "Nobleton",
+      "Schomberg",
+      "Ansnorveldt",
+      "Kettleby",
+      "Laskay",
+      "Lloydtown",
+      "Pottageville",
+      "Snowball"
+    ],
+    "sourceUrls": [
+      "https://www.king.ca/your-local-government"
+    ],
+    "planningNote": "For rural addresses, include driveway access and material unloading space; for existing village homes, check floor levels and transitions before choosing tile thickness."
+  },
+  {
+    "municipality": "Georgina",
+    "region": "York Region",
+    "communities": [
+      "Keswick",
+      "Sutton",
+      "Jackson’s Point",
+      "Pefferlaw",
+      "Willow Beach",
+      "Roches Point",
+      "Belhaven"
+    ],
+    "sourceUrls": [
+      "https://www.georgina.ca/downtowns",
+      "https://www.georgina.ca/things-do/parks-and-trails/beaches-facilities-and-parks-directory"
+    ],
+    "planningNote": "For a lakeside or seasonal property, tell us whether the room stays heated through winter so the substrate and installation conditions can be assessed."
+  },
+  {
+    "municipality": "East Gwillimbury",
+    "region": "York Region",
+    "communities": [
+      "Holland Landing",
+      "Sharon",
+      "Queensville",
+      "Mount Albert",
+      "River Drive Park",
+      "Brown Hill"
+    ],
+    "sourceUrls": [
+      "https://www.eastgwillimbury.ca/en/living-in-eg/parks.aspx"
+    ],
+    "planningNote": "For an occupied home or newer addition, identify existing flooring, adjoining floor heights and the rooms that need to remain usable during installation."
+  },
+  {
+    "municipality": "Caledon",
+    "region": "Peel Region",
+    "communities": [
+      "Bolton",
+      "Caledon East",
+      "Alton",
+      "Caledon Village",
+      "Cheltenham",
+      "Inglewood",
+      "Mono Mills",
+      "Palgrave"
+    ],
+    "sourceUrls": [
+      "https://www.caledon.ca/en/living-here/heritage.aspx",
+      "https://www.caledon.ca/en/town-services/resources/Business-Planning--Development/Policy/Official-Plan/April-1-OP-OCnsolidation/OP-Text-and-Maps-ACCESSIBLE.pdf"
+    ],
+    "planningNote": "For a rural renovation, confirm delivery access and indoor material storage; existing village properties may need subfloor repairs assessed after old finishes are removed."
+  },
+  {
+    "municipality": "Halton Hills",
+    "region": "Halton Region",
+    "communities": [
+      "Acton",
+      "Georgetown",
+      "Ashgrove",
+      "Glen Williams",
+      "Hornby",
+      "Limehouse",
+      "Norval",
+      "Stewarttown"
+    ],
+    "sourceUrls": [
+      "https://www.haltonhills.ca/en/explore-and-play/resources/Documents/HaltonHills_Cultural_Master_Plan_FINAL.pdf"
+    ],
+    "planningNote": "For an older village property, photographs of adjoining floors and door clearances help plan transitions; include delivery and parking constraints with the project details."
+  },
+  {
+    "municipality": "Milton",
+    "region": "Halton Region",
+    "communities": [
+      "Campbellville",
+      "Brookville",
+      "Moffat"
+    ],
+    "sourceUrls": [
+      "https://www.milton.ca/en/business-and-development/official-plan.aspx"
+    ],
+    "planningNote": "For rural properties, include the site address and unloading arrangements when requesting tile supply or installation; assess the actual substrate before selecting large-format tile."
+  },
+  {
+    "municipality": "Whitby",
+    "region": "Durham Region",
+    "communities": [
+      "Brooklin"
+    ],
+    "sourceUrls": [
+      "https://www.whitby.ca/explore-and-enjoy/downtowns-whitby-and-brooklin/"
+    ],
+    "planningNote": "For an occupied home renovation, agree on dust protection and access to other rooms; check existing floor build-up before confirming thresholds and tile dimensions."
+  },
+  {
+    "municipality": "Scugog",
+    "region": "Durham Region",
+    "communities": [
+      "Port Perry",
+      "Blackstock",
+      "Caesarea",
+      "Greenbank",
+      "Nestleton",
+      "Seagrave",
+      "View Lake"
+    ],
+    "sourceUrls": [
+      "https://www.scugog.ca/parks-recreation-culture/parks-trails-and-conservation-areas/parks-and-playgrounds/"
+    ],
+    "planningNote": "For lake-area and rural addresses, include year-round access and whether the building is seasonally heated; confirm waterproofing and floor condition before a bathroom renovation."
+  },
+  {
+    "municipality": "Brock",
+    "region": "Durham Region",
+    "communities": [
+      "Beaverton",
+      "Cannington",
+      "Sunderland",
+      "Gamebridge",
+      "Manilla",
+      "Sonya",
+      "Wilfrid"
+    ],
+    "sourceUrls": [
+      "https://www.townshipofbrock.ca/en/building-and-business-development/official-plan.aspx"
+    ],
+    "planningNote": "For a shoreline or rural home, access and heating conditions help plan materials and scheduling; wet entrances need a tile finish suited to expected water and footwear."
+  },
+  {
+    "municipality": "Clarington",
+    "region": "Durham Region",
+    "communities": [
+      "Courtice",
+      "Bowmanville",
+      "Newcastle",
+      "Orono",
+      "Hampton",
+      "Newtonville",
+      "Solina",
+      "Tyrone",
+      "Mitchell Corners",
+      "Leskard",
+      "Enniskillen",
+      "Haydon",
+      "Wilmot Creek",
+      "Kirby",
+      "Enfield",
+      "Maple Grove",
+      "Brownsville"
+    ],
+    "sourceUrls": [
+      "https://weblink.clarington.net/weblink/0/edoc/284905/10152019.pdf"
+    ],
+    "planningNote": "For a rural hamlet address, provide the exact property location and delivery access; for occupied commercial spaces, coordinate working hours and safe reopening after curing."
+  },
+  {
+    "municipality": "New Tecumseth",
+    "region": "Simcoe County",
+    "communities": [
+      "Alliston",
+      "Beeton",
+      "Tottenham"
+    ],
+    "sourceUrls": [
+      "https://www.newtecumseth.ca/"
+    ],
+    "planningNote": "For existing homes, assess subfloor stiffness, floor flatness and adjoining thresholds before confirming a replacement tile floor; share any underfloor heating plans early."
+  },
+  {
+    "municipality": "Bradford West Gwillimbury",
+    "region": "Simcoe County",
+    "communities": [
+      "Bradford",
+      "Bond Head",
+      "Coulson’s Hill",
+      "Deerhurst",
+      "Dunkerron",
+      "Green Valley",
+      "Newton Robinson",
+      "Pinkerton"
+    ],
+    "sourceUrls": [
+      "https://www.townofbwg.com/recreation-culture/history-and-heritage/"
+    ],
+    "planningNote": "For rural properties, confirm site access and indoor material storage; for kitchen replacements, measure cabinet, appliance and adjoining floor clearances before the installation."
+  },
+  {
+    "municipality": "Springwater",
+    "region": "Simcoe County",
+    "communities": [
+      "Anten Mills",
+      "Centre Vespra",
+      "Elmvale",
+      "Hillsdale",
+      "Midhurst",
+      "Minesing",
+      "Phelpston",
+      "Snow Valley",
+      "Orr Lake"
+    ],
+    "sourceUrls": [
+      "https://www.springwater.ca/living-here/maps/",
+      "https://www.springwater.ca/business-development/community-profile/"
+    ],
+    "planningNote": "For a property with a seasonal room, establish the heating conditions before choosing the tile system; entrances require planning for moisture, cleaning and adjacent floor levels."
+  },
+  {
+    "municipality": "Clearview",
+    "region": "Simcoe County",
+    "communities": [
+      "Stayner",
+      "Creemore",
+      "Nottawa",
+      "New Lowell"
+    ],
+    "sourceUrls": [
+      "https://www.clearview.ca/municipal-services/interactive-maps"
+    ],
+    "planningNote": "For an existing village home, the floor beneath the old finish needs inspection before levelling and tile work are priced; include room dimensions and transition photos with the enquiry."
+  },
+  {
+    "municipality": "Mulmur",
+    "region": "Dufferin County",
+    "communities": [
+      "Mansfield",
+      "Honeywood",
+      "Terra Nova",
+      "Violet Hill"
+    ],
+    "sourceUrls": [
+      "https://mulmur.ca/content/build/official-plan/mulmur-township-op-april-17-2024-consolidated.pdf"
+    ],
+    "planningNote": "For rural addresses, confirm driveway access and heated working space before scheduling tile delivery and installation; identify any floor movement or moisture concerns in the enquiry."
+  },
+  {
+    "municipality": "Muskoka Lakes",
+    "region": "Muskoka District",
+    "communities": [
+      "Bala",
+      "Port Carling",
+      "Windermere"
+    ],
+    "sourceUrls": [
+      "https://www.muskokalakes.ca/en/business/community-profile.aspx"
+    ],
+    "planningNote": "For a cottage or seasonal property, indicate road or water access and winter heating; the tile system must suit the actual substrate and exposure conditions."
+  },
+  {
+    "municipality": "Gravenhurst",
+    "region": "Muskoka District",
+    "communities": [
+      "Kilworthy",
+      "Severn Bridge"
+    ],
+    "sourceUrls": [
+      "https://www.gravenhurst.ca/business-directory/",
+      "https://www.gravenhurst.ca/media/2jngxuof/2022-recommended-operating-capital-budget.pdf"
+    ],
+    "planningNote": "For seasonal accommodation, coordinate guest-free work time and curing before reopening; provide access and heating details for lakeside properties."
+  },
+  {
+    "municipality": "Huntsville",
+    "region": "Muskoka District",
+    "communities": [
+      "Port Sydney",
+      "Utterson"
+    ],
+    "sourceUrls": [
+      "https://maps.huntsville.ca/arcgis/rest/services/Public_Map_Services/Huntsville_Public_Map_Parking_Summer/MapServer/6"
+    ],
+    "planningNote": "For cottage projects, delivery routes, indoor storage and seasonal heating affect the installation plan; flag any existing floor flex or uneven thresholds before materials are selected."
+  },
+  {
+    "municipality": "Greater Sudbury",
+    "region": "Greater Sudbury",
+    "communities": [
+      "Azilda",
+      "Capreol",
+      "Chelmsford",
+      "Coniston",
+      "Copper Cliff",
+      "Dowling",
+      "Falconbridge",
+      "Garson",
+      "Hanmer",
+      "Lively",
+      "Naughton",
+      "Onaping",
+      "Levack",
+      "Skead",
+      "Val Caron",
+      "Whitefish",
+      "Blezard Valley",
+      "Val Therese",
+      "Mikkola",
+      "Wanup"
+    ],
+    "sourceUrls": [
+      "https://www.greatersudbury.ca/sites/sudburyen/assets/GSCIP-REPORT-2025.pdf",
+      "https://www.greatersudbury.ca/sites/sudburyen/assets/09092025-ENGLISH-DRAFT4-FALL-WINTER-ACTIVE-LIVING-GUIDE-TL-SN.pdf"
+    ],
+    "planningNote": "Provide the exact community and access details when planning deliveries across Greater Sudbury; entrance tile needs suitable wet-use performance and transitions, while seasonal rooms need their heating conditions assessed."
+  },
+  {
+    "municipality": "Greenstone",
+    "region": "Thunder Bay District",
+    "communities": [
+      "Geraldton",
+      "Longlac",
+      "Beardmore",
+      "Nakina",
+      "Caramat",
+      "Jellicoe",
+      "MacDiarmid"
+    ],
+    "sourceUrls": [
+      "https://www.greenstone.ca/recreation-and-leisure/history/",
+      "https://www.greenstone.ca/en/living-here/Community-Information-Package/Greenstone_CommunityAttractionPkg_WEB_9x9_FIN_ENG.pdf"
+    ],
+    "planningNote": "Greenstone covers a large area, so provide the community and property address for delivery planning; confirm heated indoor storage and suitable room temperatures for installation and curing."
+  },
+  {
+    "municipality": "Temiskaming Shores",
+    "region": "Timiskaming District",
+    "communities": [
+      "Haileybury",
+      "New Liskeard",
+      "Dymond"
+    ],
+    "sourceUrls": [
+      "https://www.temiskamingshores.ca/living-here/real-estate/"
+    ],
+    "planningNote": "For a renovation in an existing home, provide photos of adjoining floor finishes and any cracking so substrate assessment and transitions can be included in the scope."
+  },
+  {
+    "municipality": "French River",
+    "region": "Sudbury District",
+    "communities": [
+      "Monetville",
+      "Noëlville",
+      "Ouellette",
+      "Alban"
+    ],
+    "sourceUrls": [
+      "https://www.frenchriver.ca/?SEC=9A15A114-5902-4091-9CBF-FBF5F701D175"
+    ],
+    "planningNote": "For a seasonal riverside property, identify road or water access and whether the rooms stay heated; waterproofing and tile materials should be selected for the actual use of the space."
+  },
+  {
+    "municipality": "West Nipissing",
+    "region": "Nipissing District",
+    "communities": [
+      "Sturgeon Falls",
+      "Cache Bay",
+      "Field",
+      "Lavigne",
+      "Verner",
+      "River Valley",
+      "Crystal Falls",
+      "Kipling",
+      "Desaulniers",
+      "North Monetville"
+    ],
+    "sourceUrls": [
+      "https://www.westnipissing.ca/culture-recreation/volunteer/",
+      "https://www.westnipissing.ca/town-hall/council/wards/"
+    ],
+    "planningNote": "Include the community and exact address to plan delivery across West Nipissing; for lake-area properties, confirm access and seasonal heating before scheduling materials and installation."
+  },
+  {
+    "municipality": "Markstay-Warren",
+    "region": "Sudbury District",
+    "communities": [
+      "Markstay",
+      "Warren",
+      "Hagar",
+      "Awrey"
+    ],
+    "sourceUrls": [
+      "https://markstay-warren.ca/",
+      "https://markstay-warren.ca/uploads/documents/Meetings/2025/RCM/03-17/AgendaMarch2025ENFR.pdf"
+    ],
+    "planningNote": "For rural homes, indicate unloading space and heated material storage; the existing floor should be checked for flatness and movement before the tile size and installation method are confirmed."
+  },
+  {
+    "municipality": "Kenora",
+    "region": "Kenora District",
+    "communities": [
+      "Keewatin",
+      "Jaffray Melick",
+      "Norman"
+    ],
+    "sourceUrls": [
+      "https://www.kenora.ca/living-here/emergency-services-and-preparedness/fire-services/about-fire-service/",
+      "https://listview.kenora.ca/Files/LOWDC/Shared%20Documents/Reports%20and%20Plans/Age-Friendly%20Reports%20and%20Presentations/2016%20Kenora%20Age-Friendly%20Strategic%20Plan.pdf"
+    ],
+    "planningNote": "For lake properties, establish the delivery route and indoor staging space before ordering heavy tile; identify any rooms without year-round heat so their conditions can be assessed."
+  },
+  {
+    "municipality": "Dryden",
+    "region": "Kenora District",
+    "communities": [
+      "Barclay"
+    ],
+    "sourceUrls": [
+      "https://www.dryden.ca/public-services/dryden-fire-service/about-us/history/"
+    ],
+    "planningNote": "For properties outside the urban core, provide access details and room measurements early; if existing tile has failed, photographs of the damage help scope substrate investigation."
+  },
+  {
+    "municipality": "Oliver Paipoonge",
+    "region": "Thunder Bay District",
+    "communities": [
+      "Kakabeka Falls",
+      "Murillo",
+      "Rosslyn",
+      "Slate River Valley",
+      "Stanley"
+    ],
+    "sourceUrls": [
+      "https://www.oliverpaipoonge.ca/"
+    ],
+    "planningNote": "For a rural renovation, include driveway access and material storage; entrances used with wet or snowy footwear need a suitable tile finish, manageable transitions and a practical cleaning plan."
+  },
+  {
+    "municipality": "Thunder Bay",
+    "region": "Thunder Bay District",
+    "communities": [
+      "Fort William",
+      "Port Arthur",
+      "Westfort",
+      "Current River"
+    ],
+    "sourceUrls": [
+      "https://www.thunderbay.ca/city-hall/history-heritage-and-records/historical-web-exhibits/125-years-of-transit/the-early-years-1890s-1940s/"
+    ],
+    "planningNote": "For an older home, assess the floor assembly and adjoining thresholds before replacing tile; for a commercial entrance, agree on drying and curing time before pedestrian use resumes."
+  },
+  {
+    "municipality": "Red Lake",
+    "region": "Kenora District",
+    "communities": [
+      "Balmertown",
+      "Cochenour",
+      "Madsen",
+      "McKenzie Island",
+      "Starratt-Olsen"
+    ],
+    "sourceUrls": [
+      "https://www.doc.redlake.ca/pdf/finalcommunitycapacitystudy.pdf",
+      "https://www.red-lake.com/recreation-parks-and-culture/history/"
+    ],
+    "planningNote": "For an island or outlying property, confirm transport and handling of tile materials before scheduling; a heated indoor work area and curing conditions need to be established for seasonal rooms."
+  },
+  {
+    "municipality": "Huron Shores",
+    "region": "Algoma District",
+    "communities": [
+      "Iron Bridge",
+      "Little Rapids"
+    ],
+    "sourceUrls": [
+      "https://huronshores.ca/poi-type/historic-structures/"
+    ],
+    "planningNote": "For a rural property, confirm unloading access and room availability; for an existing floor, note any movement, loose tiles or moisture before a repair or replacement scope is set."
+  },
+  {
+    "municipality": "Macdonald, Meredith and Aberdeen Additional",
+    "region": "Algoma District",
+    "communities": [
+      "Echo Bay",
+      "Echo River",
+      "Sylvan Valley"
+    ],
+    "sourceUrls": [
+      "https://www23.statcan.gc.ca/imdb/p3VD.pl?CLV=3&CPV=3557051&CST=01012006&CVD=54084&Function=getVD&MLV=3&TVD=54080",
+      "https://echobay.ca/residents/health-safety/"
+    ],
+    "planningNote": "Provide the exact address for rural deliveries and installation scheduling; identify seasonal heating or access limits before choosing tile materials and planning the work."
+  },
+  {
+    "municipality": "Prince",
+    "region": "Algoma District",
+    "communities": [
+      "Gros Cap"
+    ],
+    "sourceUrls": [
+      "https://www.princetownship.ca/visitors.html",
+      "https://www.princetownship.ca/trails.html"
+    ],
+    "planningNote": "For a lakeside home, identify whether the tiled space is indoors, exposed or seasonally heated; confirm access and substrate conditions before materials are selected."
+  },
+  {
+    "municipality": "Timmins",
+    "region": "Cochrane District",
+    "communities": [
+      "Mountjoy",
+      "Schumacher",
+      "South Porcupine",
+      "Porcupine"
+    ],
+    "sourceUrls": [
+      "https://www.timmins.ca/our_services/building_and_planning/planning"
+    ],
+    "planningNote": "For occupied commercial or residential rooms, plan dust protection and access during the work; entrances require tile and grout choices matched to moisture, footwear and maintenance."
+  },
+  {
+    "municipality": "Vaughan",
+    "region": "York Region",
+    "communities": [
+      "Woodbridge",
+      "Maple",
+      "Kleinburg",
+      "Concord",
+      "Thornhill"
+    ],
+    "sourceUrls": [
+      "https://www.vaughan.ca/explore-vaughan/communities"
+    ],
+    "planningNote": "For a condominium or occupied commercial space, confirm loading access, permitted work hours and any building rules before scheduling; in detached homes, check floor transitions and room access during installation."
+  },
+  {
+    "municipality": "Markham",
+    "region": "York Region",
+    "communities": [
+      "Unionville",
+      "Thornhill",
+      "Markham Village",
+      "Buttonville"
+    ],
+    "sourceUrls": [
+      "https://www.markham.ca/economic-development-business/planning-development-services/zoning-and-development-law-information/heritage-protection/heritage-districts"
+    ],
+    "planningNote": "For a renovation in an older village property, assess the existing floor structure and adjoining finishes before demolition; commercial projects should include access and reopening requirements with the scope."
+  },
+  {
+    "municipality": "Richmond Hill",
+    "region": "York Region",
+    "communities": [
+      "Oak Ridges"
+    ],
+    "sourceUrls": [
+      "https://www.richmondhill.ca/en/shared-content/resources/documents/Richmond-Hill-OP_June-2025_AODA.pdf"
+    ],
+    "planningNote": "For a bathroom or kitchen renovation, share room measurements and photos of adjoining finishes; confirm substrate condition, waterproofing needs and any underfloor heating before selecting the tile system."
+  },
+  {
+    "municipality": "Toronto",
+    "region": "Toronto",
+    "communities": [
+      "Scarborough",
+      "Etobicoke",
+      "North York",
+      "York",
+      "East York"
+    ],
+    "sourceUrls": [
+      "https://www.toronto.ca/city-government/accountability-operations-customer-service/access-city-information-or-records/city-of-toronto-archives/whats-in-the-archives/research-by-topic/resources-on-former-municipalities/",
+      "https://www.toronto.ca/city-government/awards-tributes/tributes/city-of-toronto-symbols/"
+    ],
+    "planningNote": "For apartments and commercial properties, confirm elevator reservations, loading access, work hours and floor-system requirements; for older houses, inspect the substrate and adjacent floor levels before setting the installation scope."
+  },
+  {
+    "municipality": "Uxbridge",
+    "region": "Durham Region",
+    "communities": [
+      "Zephyr",
+      "Sandford",
+      "Udora",
+      "Leaskdale",
+      "Sandy Hook",
+      "Siloam",
+      "Goodwood",
+      "Coppins Corners",
+      "Glen Major",
+      "Glasgow",
+      "Altona"
+    ],
+    "sourceUrls": [
+      "https://discoveruxbridge.ca/about-uxbridge/",
+      "https://www.uxbridge.ca/living-here/new-to-uxbridge",
+      "https://www.uxbridge.ca/doing-business/development-and-planning/zoning"
+    ],
+    "planningNote": "For rural hamlet addresses, provide the exact property location and delivery access; existing homes may need floor levelling or repairs assessed after old finishes are removed."
+  },
+  {
+    "municipality": "Pickering",
+    "region": "Durham Region",
+    "communities": [
+      "Brougham",
+      "Claremont",
+      "Greenwood",
+      "Whitevale",
+      "Cherrywood",
+      "Green River",
+      "Kinsale"
+    ],
+    "sourceUrls": [
+      "https://www.pickering.ca/snowprogram",
+      "https://www.pickering.ca/business-building-development/planning-and-development/heritage-planning/"
+    ],
+    "planningNote": "For a rural or hamlet property, confirm material unloading and indoor storage; share photographs of the existing floor and adjoining thresholds so preparation and transitions can be planned."
+  }
+]

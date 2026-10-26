@@ -1,0 +1,47 @@
+[
+  {
+    "key": "removal-home",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-b13fc3b9-fa61-4de0-a611-0ffddcf42b7f.png",
+    "asset": "/services/home/removal.webp"
+  },
+  {
+    "key": "removal-card",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-926b14f9-f807-4520-91ca-8747efd974a0.png",
+    "asset": "/services/cards/removal.webp"
+  },
+  {
+    "key": "removal-detail",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-f3abf82a-d3c9-4825-851a-0d58ac9772da.png",
+    "asset": "/services/removal.webp"
+  },
+  {
+    "key": "cleaning-home",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-38f95382-e144-4033-ad21-d5dfb9120edf.png",
+    "asset": "/services/home/cleaning.webp"
+  },
+  {
+    "key": "cleaning-card",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-eb3a7fa5-a268-4015-a7e8-85ccb88453da.png",
+    "asset": "/services/cards/cleaning.webp"
+  },
+  {
+    "key": "cleaning-detail",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-4e51ff73-a543-471c-a75b-ac838377df13.png",
+    "asset": "/services/cleaning.webp"
+  },
+  {
+    "key": "rooftop-home",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-f8a8c6db-523c-4379-affc-15295e77f0f4.png",
+    "asset": "/services/home/rooftop.webp"
+  },
+  {
+    "key": "rooftop-card",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-abcd4ff2-014a-4726-909c-689e138e6989.png",
+    "asset": "/services/cards/rooftop.webp"
+  },
+  {
+    "key": "rooftop-detail",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-6ad77034-4cac-4e80-acd1-4e993450c648.png",
+    "asset": "/services/rooftop.webp"
+  }
+]

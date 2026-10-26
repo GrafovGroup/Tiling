@@ -1,0 +1,10 @@
+{
+  "municipalities": 414,
+  "communityEntries": 646,
+  "distinctCommunityNames": 639,
+  "regions": 49,
+  "newMunicipalPages": 368,
+  "municipalitySource": "https://data.ontario.ca/dataset/municipalities",
+  "retrieved": "2026-10-12",
+  "scope": "All 414 lower-/single-tier Ontario municipalities in the official May 2026 list. Named submunicipal communities are a verified selection, not an exhaustive Ontario gazetteer. Municipal coverage includes addresses beyond the named examples. Shared-border communities require exact address confirmation. No local office or branch is implied."
+}

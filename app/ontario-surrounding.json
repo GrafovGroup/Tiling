@@ -1,0 +1,177 @@
+{
+  "newmarket": [
+    "East Gwillimbury",
+    "Bradford West Gwillimbury",
+    "Aurora",
+    "King"
+  ],
+  "aurora": [
+    "Newmarket",
+    "Richmond Hill",
+    "King City",
+    "Whitchurch-Stouffville"
+  ],
+  "richmond-hill": [
+    "Vaughan",
+    "Markham",
+    "Aurora",
+    "King City"
+  ],
+  "north-york": [
+    "Thornhill",
+    "Vaughan",
+    "Scarborough",
+    "Etobicoke"
+  ],
+  "vaughan": [
+    "King",
+    "Richmond Hill",
+    "Brampton",
+    "Toronto"
+  ],
+  "markham": [
+    "Richmond Hill",
+    "Whitchurch-Stouffville",
+    "Pickering",
+    "Toronto"
+  ],
+  "toronto": [
+    "Mississauga",
+    "Vaughan",
+    "Markham",
+    "Pickering"
+  ],
+  "mississauga": [
+    "Brampton",
+    "Oakville",
+    "Milton",
+    "Toronto"
+  ],
+  "brampton": [
+    "Caledon",
+    "Mississauga",
+    "Vaughan",
+    "Halton Hills"
+  ],
+  "oakville": [
+    "Burlington",
+    "Milton",
+    "Mississauga"
+  ],
+  "burlington": [
+    "Oakville",
+    "Hamilton",
+    "Milton"
+  ],
+  "pickering": [
+    "Ajax",
+    "Whitby",
+    "Uxbridge",
+    "Toronto"
+  ],
+  "ajax": [
+    "Pickering",
+    "Whitby",
+    "Oshawa"
+  ],
+  "whitby": [
+    "Ajax",
+    "Oshawa",
+    "Brooklin",
+    "Scugog"
+  ],
+  "oshawa": [
+    "Whitby",
+    "Clarington",
+    "Port Perry"
+  ],
+  "hamilton": [
+    "Burlington",
+    "Grimsby",
+    "Brantford",
+    "Caledonia"
+  ],
+  "niagara-falls": [
+    "Niagara-on-the-Lake",
+    "St. Catharines",
+    "Welland",
+    "Fort Erie"
+  ],
+  "st-catharines": [
+    "Thorold",
+    "Niagara-on-the-Lake",
+    "Lincoln",
+    "Niagara Falls"
+  ],
+  "barrie": [
+    "Innisfil",
+    "Oro-Medonte",
+    "Springwater",
+    "Essa"
+  ],
+  "peterborough": [
+    "Lakefield",
+    "Selwyn",
+    "Cavan Monaghan",
+    "Otonabee-South Monaghan"
+  ],
+  "kitchener": [
+    "Waterloo",
+    "Cambridge",
+    "Wilmot",
+    "Woolwich"
+  ],
+  "waterloo": [
+    "Kitchener",
+    "Elmira",
+    "St. Jacobs",
+    "Wellesley"
+  ],
+  "cambridge": [
+    "Kitchener",
+    "Guelph",
+    "North Dumfries",
+    "Brant"
+  ],
+  "guelph": [
+    "Puslinch",
+    "Guelph/Eramosa",
+    "Fergus",
+    "Cambridge"
+  ],
+  "london": [
+    "St. Thomas",
+    "Strathroy",
+    "Thames Centre",
+    "Middlesex Centre"
+  ],
+  "windsor": [
+    "LaSalle",
+    "Tecumseh",
+    "Lakeshore",
+    "Amherstburg"
+  ],
+  "ottawa": [
+    "Gatineau",
+    "Clarence-Rockland",
+    "Russell",
+    "Carleton Place"
+  ],
+  "kingston": [
+    "Loyalist",
+    "South Frontenac",
+    "Gananoque",
+    "Napanee"
+  ],
+  "greater-sudbury": [
+    "Espanola",
+    "French River",
+    "Markstay-Warren"
+  ],
+  "thunder-bay": [
+    "Oliver Paipoonge",
+    "Shuniah",
+    "Neebing",
+    "Conmee"
+  ]
+}

@@ -1,0 +1,155 @@
+[
+  {
+    "key": "removal",
+    "slug": "tile-removal-surface-preparation",
+    "name": "Tile Removal & Surface Preparation",
+    "short": "Existing tile removal, adhesive removal and substrate preparation for a fresh installation.",
+    "intro": "We remove existing tile and prepare the exposed surface for the next finish. The scope starts with the floor or wall construction, bonded layers, access and the required finished height. We plan dust control, protection, debris handling and suitable patching or flattening before new tile work begins. Concealed damage or materials requiring specialist assessment are identified separately before further work.",
+    "features": [
+      "Floor and wall tile removal",
+      "Adhesive and mortar residue removal",
+      "Work-area protection and dust control",
+      "Debris handling and disposal planning",
+      "Substrate patching and flattening",
+      "Preparation for replacement tile"
+    ],
+    "faq": [
+      {
+        "q": "Can I book tile removal without new installation?",
+        "a": "Yes. We can quote removal and preparation as a separate scope. Tell us the existing tile area, substrate if known, access route and the finish planned next so we can agree on the condition in which the surface will be left."
+      },
+      {
+        "q": "Does removing tile leave a floor ready for new tile?",
+        "a": "Not always. Removal can reveal cracks, loose layers, moisture damage or uneven areas. We assess the exposed substrate and confirm the repairs or preparation needed before the next installation."
+      },
+      {
+        "q": "Does the quote include disposal?",
+        "a": "Debris handling, removal from the property and disposal are identified in the written quote. Building access, elevator bookings, parking and disposal arrangements affect the scope."
+      }
+    ],
+    "scopeHeading": "Prepare a sound surface for the next finish.",
+    "scopeNote": "We agree on protection, removal, debris handling and the required substrate condition before work starts.",
+    "projectSummary": "We plan removal, protection and preparation around the existing surface and the finish you want next.",
+    "imageAlt": "Prepared floor substrate with a straightedge beside remaining dark tiles",
+    "homeImageAlt": "Kitchen renovation with removed terracotta tiles and exposed concrete substrate",
+    "guidance": {
+      "propertyCheck": "Identify the substrate, existing layers and any known moisture, movement or concealed services before choosing removal methods.",
+      "accessCheck": "Plan dust containment, occupied-area protection, debris routes and building access before work starts.",
+      "seasonalCheck": "Maintain suitable conditions for patching and levelling materials, including drying time before the new finish.",
+      "failurePoints": [
+        "Removal damages a substrate intended to remain",
+        "Weak adhesive or loose layers are left beneath the next finish",
+        "Finished heights, moisture or required flatness are not checked"
+      ],
+      "quoteDetails": [
+        "Approximate tile area and photographs",
+        "Floor or wall location and known substrate",
+        "Finish planned after removal",
+        "Access, protection and disposal requirements",
+        "Any known damage or building restrictions"
+      ]
+    }
+  },
+  {
+    "key": "cleaning",
+    "slug": "tile-grout-stone-cleaning-sealing",
+    "name": "Tile, Grout & Stone Cleaning and Sealing",
+    "short": "Deep cleaning and suitable sealing treatments for existing tile, grout and natural stone.",
+    "intro": "We clean existing tiled and stone surfaces using methods matched to the material, finish and type of soiling. Before treatment, we identify the surface and grout, review any previous coating and test a small area where appropriate. Sealing is recommended only for materials that benefit from it. Cleaning and sealing improve care and stain resistance where suitable; they do not repair failed waterproofing, cracks or acid etching.",
+    "features": [
+      "Tile and grout deep cleaning",
+      "Natural stone surface care",
+      "Residue and stain assessment",
+      "Existing sealer or coating review",
+      "Suitable penetrating-sealer application",
+      "Material-specific maintenance guidance"
+    ],
+    "faq": [
+      {
+        "q": "Does every tile or grout need sealing?",
+        "a": "No. Porcelain, glazed tile, epoxy grout and natural stone have different care requirements. We check the product, finish and absorbency before recommending a sealer, following the relevant manufacturer guidance."
+      },
+      {
+        "q": "Is cleaning the same as regrouting?",
+        "a": "No. Cleaning treats dirt and residues on existing sound surfaces. Crumbling, missing or damaged grout may need repair or replacement, which is covered by our tile repair and regrouting service."
+      },
+      {
+        "q": "Will sealing make my shower waterproof?",
+        "a": "No. A suitable sealer can help with stain resistance in absorbent materials, but it does not replace the waterproofing assembly or repair leaks behind the tile."
+      }
+    ],
+    "scopeHeading": "Choose the treatment for your tile and stone.",
+    "scopeNote": "We confirm the surface, treatment, test area and drying or return-to-use requirements before cleaning or sealing.",
+    "projectSummary": "We assess the surface and select a cleaning or sealing treatment suited to its material and condition.",
+    "imageAlt": "Marble lobby floor with a cleaning trolley and floor scrubber at one side",
+    "homeImageAlt": "Tiled entry floor with a compact cleaning machine and microfibre pads",
+    "guidance": {
+      "propertyCheck": "Identify the stone or tile, grout type, finish, existing coatings and whether the concern is dirt, staining, etching or physical damage.",
+      "accessCheck": "Plan furniture movement, water and power access, protection of adjacent finishes and safe access while surfaces are wet.",
+      "seasonalCheck": "Allow ventilation, drying and curing conditions appropriate to the cleaning and sealing products before normal use resumes.",
+      "failurePoints": [
+        "A cleaner is incompatible with the stone or finish",
+        "Sealer is applied to a wet, dirty or unsuitable surface",
+        "Cracks, leaks or etching are mistaken for a cleaning problem"
+      ],
+      "quoteDetails": [
+        "Surface material and grout type if known",
+        "Photographs of the area and specific stains",
+        "Approximate area and indoor or outdoor location",
+        "Previous cleaners, coatings or sealers if known",
+        "Access and preferred return-to-use timing"
+      ]
+    }
+  },
+  {
+    "key": "rooftop",
+    "slug": "rooftop-terrace-pedestal-pavers",
+    "name": "Rooftop Terrace & Pedestal Pavers",
+    "short": "Walkable rooftop terraces with porcelain pavers and raised pedestal systems.",
+    "intro": "We supply and install pavers for suitable rooftop terraces using a specified support system. Raised pedestals can create a level walking surface above a sloping roof while allowing drainage below and access to service points. We review the roof assembly, approved loading, wind exposure, edge restraint, threshold heights and material handling before finalizing the scope. Structural suitability, roof-membrane compatibility and required building approvals must be confirmed for the property.",
+    "features": [
+      "Rooftop porcelain paver supply",
+      "Adjustable pedestal systems",
+      "Paver layout and finished-height planning",
+      "Drainage access and membrane protection",
+      "Perimeter and edge-restraint coordination",
+      "Delivery, lifting and access planning"
+    ],
+    "faq": [
+      {
+        "q": "Are rooftop pavers the same as roofing tiles?",
+        "a": "No. This service creates a walkable terrace above a suitable roof assembly. It does not cover pitched-roof clay or concrete roofing tiles, or replace the roof waterproofing system."
+      },
+      {
+        "q": "Can pedestal pavers be installed on any flat roof?",
+        "a": "No. The roof structure, membrane, loading, wind exposure, drainage, thresholds and edge protection must support the proposed terrace. We confirm the applicable design and building requirements before quoting an installation."
+      },
+      {
+        "q": "Can you supply the pavers and pedestals?",
+        "a": "Yes. We can include suitable pavers and the specified pedestal system in the quote. Quantities, edge details, delivery, unloading and lifting arrangements are agreed for the property."
+      }
+    ],
+    "scopeHeading": "Plan the terrace and its support system together.",
+    "scopeNote": "We confirm the approved assembly, material supply, access, lifting and installation details before work starts.",
+    "projectSummary": "We coordinate paver supply, pedestal layout and installation around the approved rooftop assembly.",
+    "imageAlt": "Grey porcelain rooftop terrace with cedar seating and raised planters",
+    "homeImageAlt": "Cream porcelain rooftop pavers beside planted borders and a glass balustrade",
+    "guidance": {
+      "propertyCheck": "Confirm approved structural loads, roof condition, membrane compatibility, drainage, thresholds and required edge protection.",
+      "accessCheck": "Agree on material lifting, delivery, temporary storage and protection of the roof and occupied spaces below.",
+      "seasonalCheck": "Plan around rooftop wind, rain, snow and safe access; confirm freeze-thaw suitability of the selected pavers and system.",
+      "failurePoints": [
+        "The roof or membrane is assumed suitable without assessment",
+        "Pavers and supports lack the required edge restraint or wind design",
+        "Drains, thresholds or maintenance access are obstructed"
+      ],
+      "quoteDetails": [
+        "Rooftop area, photographs and building height",
+        "Roof assembly or terrace drawings if available",
+        "Paver preference and intended terrace use",
+        "Delivery, lifting and storage access",
+        "Building approvals and target schedule"
+      ]
+    }
+  }
+]

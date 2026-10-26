@@ -1,0 +1,3554 @@
+[
+  {
+    "name": "Addington Highlands",
+    "officialName": "Addington Highlands, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Lennox and Addington",
+    "website": "http://www.addingtonhighlands.ca/"
+  },
+  {
+    "name": "Adelaide-Metcalfe",
+    "officialName": "Adelaide-Metcalfe, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Middlesex",
+    "website": "https://adelaidemetcalfe.on.ca/"
+  },
+  {
+    "name": "Adjala-Tosorontio",
+    "officialName": "Adjala-Tosorontio, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "https://www.adjtos.ca/en/index.aspx"
+  },
+  {
+    "name": "Admaston/Bromley",
+    "officialName": "Admaston/Bromley, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.admastonbromley.com/"
+  },
+  {
+    "name": "Ajax",
+    "officialName": "Ajax, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Durham",
+    "website": "http://www.ajax.ca/en/"
+  },
+  {
+    "name": "Alberton",
+    "officialName": "Alberton, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Rainy River",
+    "website": "http://www.alberton.ca/"
+  },
+  {
+    "name": "Alfred and Plantagenet",
+    "officialName": "Alfred and Plantagenet, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Prescott and Russell",
+    "website": "https://www.alfred-plantagenet.com/en/index.aspx"
+  },
+  {
+    "name": "Algonquin Highlands",
+    "officialName": "Algonquin Highlands, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Haliburton",
+    "website": "http://www.algonquinhighlands.ca/"
+  },
+  {
+    "name": "Alnwick/Haldimand",
+    "officialName": "Alnwick/Haldimand, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Northumberland",
+    "website": "http://www.alnwickhaldimand.ca/"
+  },
+  {
+    "name": "Amaranth",
+    "officialName": "Amaranth, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Dufferin",
+    "website": "http://www.amaranth.ca/en/index.aspx"
+  },
+  {
+    "name": "Amherstburg",
+    "officialName": "Amherstburg, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Essex",
+    "website": "http://www.amherstburg.ca/"
+  },
+  {
+    "name": "Armour",
+    "officialName": "Armour, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.armourtownship.ca/"
+  },
+  {
+    "name": "Armstrong",
+    "officialName": "Armstrong, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.armstrongtownship.com/"
+  },
+  {
+    "name": "Arnprior",
+    "officialName": "Arnprior, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.arnprior.ca/"
+  },
+  {
+    "name": "Arran-Elderslie",
+    "officialName": "Arran-Elderslie, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Bruce",
+    "website": "http://www.arran-elderslie.com/"
+  },
+  {
+    "name": "Ashfield-Colborne-Wawanosh",
+    "officialName": "Ashfield-Colborne-Wawanosh, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Huron",
+    "website": "http://www.acwtownship.ca/"
+  },
+  {
+    "name": "Asphodel-Norwood",
+    "officialName": "Asphodel-Norwood, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Peterborough",
+    "website": "https://www.antownship.ca/en/index.aspx"
+  },
+  {
+    "name": "Assiginack",
+    "officialName": "Assiginack, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Manitoulin",
+    "website": "http://www.assiginack.ca/"
+  },
+  {
+    "name": "Athens",
+    "officialName": "Athens, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Leeds and Grenville",
+    "website": "http://www.athenstownship.ca/"
+  },
+  {
+    "name": "Atikokan",
+    "officialName": "Atikokan, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Rainy River",
+    "website": "http://www.atikokan.ca/siteengine/activepage.asp"
+  },
+  {
+    "name": "Augusta",
+    "officialName": "Augusta, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Leeds and Grenville",
+    "website": "http://www.augusta.ca/"
+  },
+  {
+    "name": "Aurora",
+    "officialName": "Aurora, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "York",
+    "website": "https://www.aurora.ca/en/index.aspx"
+  },
+  {
+    "name": "Aylmer",
+    "officialName": "Aylmer, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Elgin",
+    "website": "http://www.aylmer.ca/"
+  },
+  {
+    "name": "Baldwin",
+    "officialName": "Baldwin, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Sudbury",
+    "website": "https://www.baldwin.ca/"
+  },
+  {
+    "name": "Bancroft",
+    "officialName": "Bancroft, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.bancroft.ca/"
+  },
+  {
+    "name": "Barrie",
+    "officialName": "Barrie, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Simcoe",
+    "website": "http://www.barrie.ca/Pages/default.aspx"
+  },
+  {
+    "name": "Bayham",
+    "officialName": "Bayham, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Elgin",
+    "website": "http://www.bayham.on.ca/siteengine/activepage.asp"
+  },
+  {
+    "name": "Beckwith",
+    "officialName": "Beckwith, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Lanark",
+    "website": "http://www.twp.beckwith.on.ca/"
+  },
+  {
+    "name": "Belleville",
+    "officialName": "Belleville, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Hastings",
+    "website": "http://www.belleville.ca/"
+  },
+  {
+    "name": "Billings",
+    "officialName": "Billings, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Manitoulin",
+    "website": "http://www.billingstwp.ca/"
+  },
+  {
+    "name": "Black River-Matheson",
+    "officialName": "Black River-Matheson, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "https://www.twpbrm.ca/"
+  },
+  {
+    "name": "Blandford-Blenheim",
+    "officialName": "Blandford-Blenheim, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Oxford",
+    "website": "http://www.blandfordblenheim.ca/"
+  },
+  {
+    "name": "Blind River",
+    "officialName": "Blind River, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "https://www.blindriver.ca/"
+  },
+  {
+    "name": "Bluewater",
+    "officialName": "Bluewater, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Huron",
+    "website": "https://www.municipalityofbluewater.ca/"
+  },
+  {
+    "name": "Bonfield",
+    "officialName": "Bonfield, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Nipissing",
+    "website": "https://www.bonfieldtownship.com/"
+  },
+  {
+    "name": "Bonnechere Valley",
+    "officialName": "Bonnechere Valley, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.bonnecherevalleytwp.com/"
+  },
+  {
+    "name": "Bracebridge",
+    "officialName": "Bracebridge, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Muskoka",
+    "website": "http://www.bracebridge.ca/"
+  },
+  {
+    "name": "Bradford West Gwillimbury",
+    "officialName": "Bradford West Gwillimbury, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "https://www.townofbwg.com/"
+  },
+  {
+    "name": "Brampton",
+    "officialName": "Brampton, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Peel",
+    "website": "http://www.brampton.ca/en/pages/welcome.aspx"
+  },
+  {
+    "name": "Brant",
+    "officialName": "Brant, County of",
+    "type": "County of",
+    "tier": "Single Tier",
+    "region": "Brant",
+    "website": "http://www.brant.ca/"
+  },
+  {
+    "name": "Brantford",
+    "officialName": "Brantford, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Brant",
+    "website": "http://www.brantford.ca/Pages/default.aspx"
+  },
+  {
+    "name": "Brethour",
+    "officialName": "Brethour, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": null
+  },
+  {
+    "name": "Brighton",
+    "officialName": "Brighton, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Northumberland",
+    "website": "http://www.brighton.ca/"
+  },
+  {
+    "name": "Brock",
+    "officialName": "Brock, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Durham",
+    "website": "http://townshipofbrock.ca/"
+  },
+  {
+    "name": "Brockton",
+    "officialName": "Brockton, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Bruce",
+    "website": "http://www.brockton.ca/"
+  },
+  {
+    "name": "Brockville",
+    "officialName": "Brockville, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Leeds and Grenville",
+    "website": "http://www.brockville.com/"
+  },
+  {
+    "name": "Brooke-Alvinston",
+    "officialName": "Brooke-Alvinston, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Lambton",
+    "website": "http://brookealvinston.com/home/"
+  },
+  {
+    "name": "Bruce",
+    "officialName": "Bruce, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Bruce",
+    "website": "http://www.brucecounty.on.ca/"
+  },
+  {
+    "name": "Bruce Mines",
+    "officialName": "Bruce Mines, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.brucemines.ca/"
+  },
+  {
+    "name": "Brudenell, Lyndoch and Raglan",
+    "officialName": "Brudenell, Lyndoch and Raglan, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.blrtownship.ca/"
+  },
+  {
+    "name": "Burk\u2019s Falls",
+    "officialName": "Burk\u2019s Falls, Village of",
+    "type": "Village of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.burksfalls.net/"
+  },
+  {
+    "name": "Burlington",
+    "officialName": "Burlington, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Halton",
+    "website": "https://www.burlington.ca/en/index.aspx"
+  },
+  {
+    "name": "Burpee and Mills",
+    "officialName": "Burpee and Mills, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Manitoulin",
+    "website": "http://www.burpeemills.com/"
+  },
+  {
+    "name": "Caledon",
+    "officialName": "Caledon, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Peel",
+    "website": "http://www.town.caledon.on.ca/"
+  },
+  {
+    "name": "Callander",
+    "officialName": "Callander, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://mycallander.ca/"
+  },
+  {
+    "name": "Calvin",
+    "officialName": "Calvin, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Nipissing",
+    "website": "http://www.calvintownship.ca/"
+  },
+  {
+    "name": "Cambridge",
+    "officialName": "Cambridge, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Waterloo",
+    "website": "http://www.cambridge.ca/"
+  },
+  {
+    "name": "Carleton Place",
+    "officialName": "Carleton Place, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Lanark",
+    "website": "http://www.carletonplace.ca/"
+  },
+  {
+    "name": "Carling",
+    "officialName": "Carling, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.carlingtownship.ca/"
+  },
+  {
+    "name": "Carlow/Mayo",
+    "officialName": "Carlow/Mayo, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.carlowmayo.ca/"
+  },
+  {
+    "name": "Casey",
+    "officialName": "Casey, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://Casey.ca"
+  },
+  {
+    "name": "Casselman",
+    "officialName": "Casselman, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Prescott and Russell",
+    "website": "http://www.en.casselman.ca/"
+  },
+  {
+    "name": "Cavan Monaghan",
+    "officialName": "Cavan Monaghan, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Peterborough",
+    "website": "http://www.cavanmonaghan.net/siteengine/activepage.asp"
+  },
+  {
+    "name": "Central Elgin",
+    "officialName": "Central Elgin, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Elgin",
+    "website": "https://www.centralelgin.org/en/index.aspx"
+  },
+  {
+    "name": "Central Frontenac",
+    "officialName": "Central Frontenac, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Frontenac",
+    "website": "http://www.centralfrontenac.com/"
+  },
+  {
+    "name": "Central Huron",
+    "officialName": "Central Huron, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Huron",
+    "website": "http://www.centralhuron.com/"
+  },
+  {
+    "name": "Central Manitoulin",
+    "officialName": "Central Manitoulin, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Manitoulin",
+    "website": "http://www.centralmanitoulin.ca/"
+  },
+  {
+    "name": "Centre Hastings",
+    "officialName": "Centre Hastings, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.centrehastings.com/"
+  },
+  {
+    "name": "Centre Wellington",
+    "officialName": "Centre Wellington, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Wellington",
+    "website": "https://www.centrewellington.ca/en/index.aspx"
+  },
+  {
+    "name": "Chamberlain",
+    "officialName": "Chamberlain, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "https://www.chamberlaintownship.com"
+  },
+  {
+    "name": "Champlain",
+    "officialName": "Champlain, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Prescott and Russell",
+    "website": "http://www.champlain.ca/en/index.aspx"
+  },
+  {
+    "name": "Chapleau",
+    "officialName": "Chapleau, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Sudbury",
+    "website": "https://chapleau.ca/"
+  },
+  {
+    "name": "Chapple",
+    "officialName": "Chapple, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Rainy River",
+    "website": "http://www.chapple.on.ca/"
+  },
+  {
+    "name": "Charlton and Dack",
+    "officialName": "Charlton and Dack, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.charltonanddack.com/"
+  },
+  {
+    "name": "Chatham-Kent",
+    "officialName": "Chatham-Kent, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Chatham-Kent",
+    "website": "http://www.chatham-kent.ca"
+  },
+  {
+    "name": "Chatsworth",
+    "officialName": "Chatsworth, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Grey",
+    "website": "http://www.chatsworth.ca/"
+  },
+  {
+    "name": "Chisholm",
+    "officialName": "Chisholm, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Nipissing",
+    "website": "http://www.chisholm.ca/"
+  },
+  {
+    "name": "Clarence-Rockland",
+    "officialName": "Clarence-Rockland, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Prescott and Russell",
+    "website": "http://www.clarence-rockland.com/"
+  },
+  {
+    "name": "Clarington",
+    "officialName": "Clarington, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Durham",
+    "website": "http://www.clarington.net/"
+  },
+  {
+    "name": "Clearview",
+    "officialName": "Clearview, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "http://www.clearview.ca/"
+  },
+  {
+    "name": "Cobalt",
+    "officialName": "Cobalt, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.cobalt.ca/"
+  },
+  {
+    "name": "Cobourg",
+    "officialName": "Cobourg, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Northumberland",
+    "website": "http://www.cobourg.ca/"
+  },
+  {
+    "name": "Cochrane",
+    "officialName": "Cochrane, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "https://cochraneontario.com/"
+  },
+  {
+    "name": "Cockburn Island",
+    "officialName": "Cockburn Island, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Manitoulin",
+    "website": "https://www.cockburnisland.ca/"
+  },
+  {
+    "name": "Coleman",
+    "officialName": "Coleman, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.colemantownship.ca/"
+  },
+  {
+    "name": "Collingwood",
+    "officialName": "Collingwood, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "http://www.collingwood.ca/"
+  },
+  {
+    "name": "Conmee",
+    "officialName": "Conmee, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.conmee.com/"
+  },
+  {
+    "name": "Cornwall",
+    "officialName": "Cornwall, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Stormont, Dundas and Glengarry",
+    "website": "http://www.cornwall.ca/"
+  },
+  {
+    "name": "Cramahe",
+    "officialName": "Cramahe, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Northumberland",
+    "website": "http://www.visitcramahe.ca/"
+  },
+  {
+    "name": "Dawn-Euphemia",
+    "officialName": "Dawn-Euphemia, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Lambton",
+    "website": "https://dawneuphemia.ca/"
+  },
+  {
+    "name": "Dawson",
+    "officialName": "Dawson, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Rainy River",
+    "website": "https://dawsontownship.weebly.com/"
+  },
+  {
+    "name": "Deep River",
+    "officialName": "Deep River, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.deepriver.ca/"
+  },
+  {
+    "name": "Deseronto",
+    "officialName": "Deseronto, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.deseronto.ca/"
+  },
+  {
+    "name": "Dorion",
+    "officialName": "Dorion, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.doriontownship.ca/"
+  },
+  {
+    "name": "Douro-Dummer",
+    "officialName": "Douro-Dummer, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Peterborough",
+    "website": "http://www.dourodummer.on.ca/"
+  },
+  {
+    "name": "Drummond/North Elmsley",
+    "officialName": "Drummond/North Elmsley, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Lanark",
+    "website": "https://www.dnetownship.ca/"
+  },
+  {
+    "name": "Dryden",
+    "officialName": "Dryden, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Kenora",
+    "website": "http://www.dryden.ca/"
+  },
+  {
+    "name": "Dubreuilville",
+    "officialName": "Dubreuilville, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.dubreuilville.ca/"
+  },
+  {
+    "name": "Dufferin",
+    "officialName": "Dufferin, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Dufferin",
+    "website": "https://www.dufferincounty.ca/"
+  },
+  {
+    "name": "Durham",
+    "officialName": "Durham, Regional Municipality of",
+    "type": "Regional Municipality of",
+    "tier": "Upper Tier",
+    "region": "Durham",
+    "website": "http://www.durham.ca/"
+  },
+  {
+    "name": "Dutton/Dunwich",
+    "officialName": "Dutton/Dunwich, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Elgin",
+    "website": "http://www.duttondunwich.on.ca/"
+  },
+  {
+    "name": "Dysart et al",
+    "officialName": "Dysart et al, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Haliburton",
+    "website": "http://www.dysartetal.ca/"
+  },
+  {
+    "name": "Ear Falls",
+    "officialName": "Ear Falls, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Kenora",
+    "website": "http://www.ear-falls.com/"
+  },
+  {
+    "name": "East Ferris",
+    "officialName": "East Ferris, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Nipissing",
+    "website": "http://eastferris.ca/"
+  },
+  {
+    "name": "East Garafraxa",
+    "officialName": "East Garafraxa, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Dufferin",
+    "website": "https://www.eastgarafraxa.ca/en/index.aspx"
+  },
+  {
+    "name": "East Gwillimbury",
+    "officialName": "East Gwillimbury, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "York",
+    "website": "http://www.eastgwillimbury.ca/"
+  },
+  {
+    "name": "East Hawkesbury",
+    "officialName": "East Hawkesbury, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Prescott and Russell",
+    "website": "http://www.easthawkesbury.ca/"
+  },
+  {
+    "name": "East Zorra-Tavistock",
+    "officialName": "East Zorra-Tavistock, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Oxford",
+    "website": "https://www.ezt.ca/en/index.aspx"
+  },
+  {
+    "name": "Edwardsburgh/Cardinal",
+    "officialName": "Edwardsburgh/Cardinal, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Leeds and Grenville",
+    "website": "http://www.edwardsburghcardinal.ca/"
+  },
+  {
+    "name": "Elgin",
+    "officialName": "Elgin, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Elgin",
+    "website": "www.elgincounty.ca"
+  },
+  {
+    "name": "Elizabethtown-Kitley",
+    "officialName": "Elizabethtown-Kitley, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Leeds and Grenville",
+    "website": "http://www.elizabethtown-kitley.on.ca/"
+  },
+  {
+    "name": "Elliot Lake",
+    "officialName": "Elliot Lake, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.cityofelliotlake.com/"
+  },
+  {
+    "name": "Emo",
+    "officialName": "Emo, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Rainy River",
+    "website": "http://www.twspemo.on.ca/"
+  },
+  {
+    "name": "Englehart",
+    "officialName": "Englehart, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.englehart.ca/"
+  },
+  {
+    "name": "Enniskillen",
+    "officialName": "Enniskillen, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Lambton",
+    "website": "http://www.enniskillen.ca/"
+  },
+  {
+    "name": "Erin",
+    "officialName": "Erin, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Wellington",
+    "website": "http://www.erin.ca/"
+  },
+  {
+    "name": "Espanola",
+    "officialName": "Espanola, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Sudbury",
+    "website": "https://www.espanola.ca/"
+  },
+  {
+    "name": "Essa",
+    "officialName": "Essa, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "http://www.essatownship.on.ca/"
+  },
+  {
+    "name": "Essex",
+    "officialName": "Essex, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Essex",
+    "website": "https://www.countyofessex.ca/en/index.aspx"
+  },
+  {
+    "name": "Essex",
+    "officialName": "Essex, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Essex",
+    "website": "http://www.townofessex.on.ca/"
+  },
+  {
+    "name": "Evanturel",
+    "officialName": "Evanturel, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.evanturel.com/"
+  },
+  {
+    "name": "Faraday",
+    "officialName": "Faraday, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.faraday.ca/"
+  },
+  {
+    "name": "Fauquier-Strickland",
+    "officialName": "Fauquier-Strickland, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "http://www.fauquierstrickland.com/"
+  },
+  {
+    "name": "Fort Erie",
+    "officialName": "Fort Erie, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Niagara",
+    "website": "https://www.forterie.ca/"
+  },
+  {
+    "name": "Fort Frances",
+    "officialName": "Fort Frances, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Rainy River",
+    "website": "http://www.fort-frances.com/"
+  },
+  {
+    "name": "French River",
+    "officialName": "French River, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Sudbury",
+    "website": "http://www.frenchriver.ca/"
+  },
+  {
+    "name": "Front of Yonge",
+    "officialName": "Front of Yonge, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Leeds and Grenville",
+    "website": "https://mallorytown.ca/"
+  },
+  {
+    "name": "Frontenac",
+    "officialName": "Frontenac, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Frontenac",
+    "website": "https://frontenacislands.ca/"
+  },
+  {
+    "name": "Frontenac Islands",
+    "officialName": "Frontenac Islands, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Frontenac",
+    "website": "http://municipality.frontenacislands.on.ca/"
+  },
+  {
+    "name": "Gananoque",
+    "officialName": "Gananoque, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Leeds and Grenville",
+    "website": "http://www.gananoque.ca/"
+  },
+  {
+    "name": "Gauthier",
+    "officialName": "Gauthier, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": null
+  },
+  {
+    "name": "Georgian Bay",
+    "officialName": "Georgian Bay, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Muskoka",
+    "website": "http://www.gbtownship.ca/"
+  },
+  {
+    "name": "Georgian Bluffs",
+    "officialName": "Georgian Bluffs, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Grey",
+    "website": "https://www.georgianbluffs.ca/en/index.aspx"
+  },
+  {
+    "name": "Georgina",
+    "officialName": "Georgina, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "York",
+    "website": "http://www.georgina.ca/"
+  },
+  {
+    "name": "Gillies",
+    "officialName": "Gillies, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.gilliestownship.com/"
+  },
+  {
+    "name": "Goderich",
+    "officialName": "Goderich, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Huron",
+    "website": "http://www.goderich.ca/"
+  },
+  {
+    "name": "Gordon/Barrie Island",
+    "officialName": "Gordon/Barrie Island, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Manitoulin",
+    "website": "https://www.gordonbarrieisland.ca/"
+  },
+  {
+    "name": "Gore Bay",
+    "officialName": "Gore Bay, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Manitoulin",
+    "website": "http://www.gorebay.ca/"
+  },
+  {
+    "name": "Grand Valley",
+    "officialName": "Grand Valley, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Dufferin",
+    "website": "http://www.eastluthergrandvalley.ca/"
+  },
+  {
+    "name": "Gravenhurst",
+    "officialName": "Gravenhurst, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Muskoka",
+    "website": "http://www.gravenhurst.ca/"
+  },
+  {
+    "name": "Greater Madawaska",
+    "officialName": "Greater Madawaska, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.greatermadawaska.com/"
+  },
+  {
+    "name": "Greater Napanee",
+    "officialName": "Greater Napanee, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Lennox and Addington",
+    "website": "https://www.greaternapanee.com/en/index.aspx"
+  },
+  {
+    "name": "Greater Sudbury",
+    "officialName": "Greater Sudbury, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Sudbury",
+    "website": "https://www.greatersudbury.ca/"
+  },
+  {
+    "name": "Greenstone",
+    "officialName": "Greenstone, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.greenstone.ca/"
+  },
+  {
+    "name": "Grey",
+    "officialName": "Grey, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Grey",
+    "website": "http://www.grey.ca/"
+  },
+  {
+    "name": "Grey Highlands",
+    "officialName": "Grey Highlands, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Grey",
+    "website": "http://www.greyhighlands.ca/"
+  },
+  {
+    "name": "Grimsby",
+    "officialName": "Grimsby, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Niagara",
+    "website": "http://www.town.grimsby.on.ca/"
+  },
+  {
+    "name": "Guelph",
+    "officialName": "Guelph, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Wellington",
+    "website": "http://www.guelph.ca/"
+  },
+  {
+    "name": "Guelph/Eramosa",
+    "officialName": "Guelph/Eramosa, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Wellington",
+    "website": "http://www.get.on.ca/"
+  },
+  {
+    "name": "Haldimand County",
+    "officialName": "Haldimand County",
+    "type": "",
+    "tier": "Single Tier",
+    "region": "Haldimand",
+    "website": "http://www.haldimandcounty.on.ca/"
+  },
+  {
+    "name": "Haliburton",
+    "officialName": "Haliburton, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Haliburton",
+    "website": "http://haliburtoncounty.ca/"
+  },
+  {
+    "name": "Halton",
+    "officialName": "Halton, Regional Municipality of",
+    "type": "Regional Municipality of",
+    "tier": "Upper Tier",
+    "region": "Halton",
+    "website": "http://www.halton.ca/"
+  },
+  {
+    "name": "Halton Hills",
+    "officialName": "Halton Hills, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Halton",
+    "website": "http://www.haltonhills.ca/"
+  },
+  {
+    "name": "Hamilton",
+    "officialName": "Hamilton, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Hamilton",
+    "website": "http://www.hamilton.ca/"
+  },
+  {
+    "name": "Hamilton",
+    "officialName": "Hamilton, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Northumberland",
+    "website": "http://www.hamiltontownship.ca/"
+  },
+  {
+    "name": "Hanover",
+    "officialName": "Hanover, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Grey",
+    "website": "http://www.hanover.ca/"
+  },
+  {
+    "name": "Harley",
+    "officialName": "Harley, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.harley.ca/"
+  },
+  {
+    "name": "Harris",
+    "officialName": "Harris, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "https://harristownship.weebly.com/"
+  },
+  {
+    "name": "Hastings",
+    "officialName": "Hastings, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Hastings",
+    "website": "http://www.hastingscounty.com/"
+  },
+  {
+    "name": "Hastings Highlands",
+    "officialName": "Hastings Highlands, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.hastingshighlands.ca/"
+  },
+  {
+    "name": "Havelock-Belmont-Methuen",
+    "officialName": "Havelock-Belmont-Methuen, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Peterborough",
+    "website": "http://www.hbmtwp.ca/"
+  },
+  {
+    "name": "Hawkesbury",
+    "officialName": "Hawkesbury, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Prescott and Russell",
+    "website": "http://www.hawkesbury.ca/en/"
+  },
+  {
+    "name": "Head, Clara and Maria",
+    "officialName": "Head, Clara and Maria, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://townshipsofheadclaramaria.ca/"
+  },
+  {
+    "name": "Hearst",
+    "officialName": "Hearst, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "http://www.hearst.ca/"
+  },
+  {
+    "name": "Highlands East",
+    "officialName": "Highlands East, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Haliburton",
+    "website": "http://www.highlandseast.ca/"
+  },
+  {
+    "name": "Hilliard",
+    "officialName": "Hilliard, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "https://townshipofhilliard.ca/"
+  },
+  {
+    "name": "Hilton",
+    "officialName": "Hilton, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.hiltontownship.ca/"
+  },
+  {
+    "name": "Hilton Beach",
+    "officialName": "Hilton Beach, Village of",
+    "type": "Village of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.hiltonbeach.com/"
+  },
+  {
+    "name": "Hornepayne",
+    "officialName": "Hornepayne, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.townshipofhornepayne.ca/"
+  },
+  {
+    "name": "Horton",
+    "officialName": "Horton, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.hortontownship.ca/"
+  },
+  {
+    "name": "Howick",
+    "officialName": "Howick, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Huron",
+    "website": "https://howick.ca/"
+  },
+  {
+    "name": "Hudson",
+    "officialName": "Hudson, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://Hudson.ca"
+  },
+  {
+    "name": "Huntsville",
+    "officialName": "Huntsville, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Muskoka",
+    "website": "https://www.huntsville.ca/en/index.aspx"
+  },
+  {
+    "name": "Huron",
+    "officialName": "Huron, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Huron",
+    "website": "http://www.huroncounty.ca/"
+  },
+  {
+    "name": "Huron East",
+    "officialName": "Huron East, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Huron",
+    "website": "http://www.huroneast.com/"
+  },
+  {
+    "name": "Huron Shores",
+    "officialName": "Huron Shores, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.huronshores.ca/"
+  },
+  {
+    "name": "Huron-Kinloss",
+    "officialName": "Huron-Kinloss, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Bruce",
+    "website": "http://www.huronkinloss.com/"
+  },
+  {
+    "name": "Ignace",
+    "officialName": "Ignace, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Kenora",
+    "website": "http://town.ignace.on.ca/"
+  },
+  {
+    "name": "Ingersoll",
+    "officialName": "Ingersoll, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Oxford",
+    "website": "http://www.ingersoll.ca/"
+  },
+  {
+    "name": "Innisfil",
+    "officialName": "Innisfil, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "https://innisfil.ca/"
+  },
+  {
+    "name": "Iroquois Falls",
+    "officialName": "Iroquois Falls, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "http://www.iroquoisfalls.com/home"
+  },
+  {
+    "name": "James",
+    "officialName": "James, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.elklake.ca/"
+  },
+  {
+    "name": "Jocelyn",
+    "officialName": "Jocelyn, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "https://jocelyn.ca/"
+  },
+  {
+    "name": "Johnson",
+    "officialName": "Johnson, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "https://johnsontownship.ca/"
+  },
+  {
+    "name": "Joly",
+    "officialName": "Joly, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.townshipofjoly.com/"
+  },
+  {
+    "name": "Kapuskasing",
+    "officialName": "Kapuskasing, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "http://www.kapuskasing.ca/"
+  },
+  {
+    "name": "Kawartha Lakes",
+    "officialName": "Kawartha Lakes, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Kawartha Lakes",
+    "website": "http://www.city.kawarthalakes.on.ca/"
+  },
+  {
+    "name": "Kearney",
+    "officialName": "Kearney, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.townofkearney.com/"
+  },
+  {
+    "name": "Kenora",
+    "officialName": "Kenora, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Kenora",
+    "website": "http://www.kenora.ca/"
+  },
+  {
+    "name": "Kerns",
+    "officialName": "Kerns, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://kerns.ca"
+  },
+  {
+    "name": "Killaloe, Hagarty and Richards",
+    "officialName": "Killaloe, Hagarty and Richards, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.killaloe-hagarty-richards.ca/"
+  },
+  {
+    "name": "Killarney",
+    "officialName": "Killarney, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Sudbury",
+    "website": "http://www.municipalityofkillarney.ca/"
+  },
+  {
+    "name": "Kincardine",
+    "officialName": "Kincardine, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Bruce",
+    "website": "https://www.kincardine.ca/en/index.aspx"
+  },
+  {
+    "name": "King",
+    "officialName": "King, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "York",
+    "website": "http://www.king.ca/"
+  },
+  {
+    "name": "Kingston",
+    "officialName": "Kingston, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Frontenac",
+    "website": "http://www.cityofkingston.ca/"
+  },
+  {
+    "name": "Kingsville",
+    "officialName": "Kingsville, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Essex",
+    "website": "https://www.kingsville.ca/en/index.aspx"
+  },
+  {
+    "name": "Kirkland Lake",
+    "officialName": "Kirkland Lake, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.discoverkl.ca/"
+  },
+  {
+    "name": "Kitchener",
+    "officialName": "Kitchener, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Waterloo",
+    "website": "http://www.kitchener.ca/"
+  },
+  {
+    "name": "La Vallee",
+    "officialName": "La Vallee, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Rainy River",
+    "website": "http://www.lavallee.ca/"
+  },
+  {
+    "name": "LaSalle",
+    "officialName": "LaSalle, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Essex",
+    "website": "http://www.town.lasalle.on.ca/"
+  },
+  {
+    "name": "Laird",
+    "officialName": "Laird, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.lairdtownship.ca/"
+  },
+  {
+    "name": "Lake of Bays",
+    "officialName": "Lake of Bays, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Muskoka",
+    "website": "http://www.lakeofbays.on.ca/"
+  },
+  {
+    "name": "Lake of the Woods",
+    "officialName": "Lake of the Woods, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Rainy River",
+    "website": "http://www.lakeofthewoods.ca/"
+  },
+  {
+    "name": "Lakeshore",
+    "officialName": "Lakeshore, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Essex",
+    "website": "http://www.townoflakeshore.on.ca/"
+  },
+  {
+    "name": "Lambton",
+    "officialName": "Lambton, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Lambton",
+    "website": "http://www.lambtononline.ca/"
+  },
+  {
+    "name": "Lambton Shores",
+    "officialName": "Lambton Shores, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Lambton",
+    "website": "http://www.lambtonshores.ca/"
+  },
+  {
+    "name": "Lanark",
+    "officialName": "Lanark, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Lanark",
+    "website": "https://www.lanarkcounty.ca/en/index.aspx"
+  },
+  {
+    "name": "Lanark Highlands",
+    "officialName": "Lanark Highlands, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Lanark",
+    "website": "http://www.lanarkhighlands.ca/"
+  },
+  {
+    "name": "Larder Lake",
+    "officialName": "Larder Lake, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "https://larderlake.ca/"
+  },
+  {
+    "name": "Latchford",
+    "officialName": "Latchford, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.latchford.ca/"
+  },
+  {
+    "name": "Laurentian Hills",
+    "officialName": "Laurentian Hills, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.laurentianhills.ca/"
+  },
+  {
+    "name": "Laurentian Valley",
+    "officialName": "Laurentian Valley, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.laurentianvalleytwsp.on.ca/"
+  },
+  {
+    "name": "Leamington",
+    "officialName": "Leamington, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Essex",
+    "website": "http://www.leamington.ca/"
+  },
+  {
+    "name": "Leeds and Grenville",
+    "officialName": "Leeds and Grenville, United Counties of",
+    "type": "United Counties of",
+    "tier": "Upper Tier",
+    "region": "Leeds and Grenville",
+    "website": "https://www.leedsgrenville.com/en/index.aspx"
+  },
+  {
+    "name": "Leeds and the Thousand Islands",
+    "officialName": "Leeds and the Thousand Islands, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Leeds and Grenville",
+    "website": "https://www.leeds1000islands.ca/"
+  },
+  {
+    "name": "Lennox and Addington",
+    "officialName": "Lennox and Addington, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Lennox and Addington",
+    "website": "http://www.lennox-addington.on.ca/"
+  },
+  {
+    "name": "Limerick",
+    "officialName": "Limerick, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.township.limerick.on.ca/"
+  },
+  {
+    "name": "Lincoln",
+    "officialName": "Lincoln, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Niagara",
+    "website": "http://www.lincoln.ca/"
+  },
+  {
+    "name": "London",
+    "officialName": "London, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Middlesex",
+    "website": "http://www.london.ca/"
+  },
+  {
+    "name": "Loyalist",
+    "officialName": "Loyalist, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Lennox and Addington",
+    "website": "http://www.loyalist.ca/"
+  },
+  {
+    "name": "Lucan Biddulph",
+    "officialName": "Lucan Biddulph, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Middlesex",
+    "website": "http://www.lucanbiddulph.on.ca/"
+  },
+  {
+    "name": "Macdonald, Meredith and Aberdeen Additional",
+    "officialName": "Macdonald, Meredith and Aberdeen Additional, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.echobay.ca/"
+  },
+  {
+    "name": "Machar",
+    "officialName": "Machar, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.machartownship.net/"
+  },
+  {
+    "name": "Machin",
+    "officialName": "Machin, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Kenora",
+    "website": "http://www.visitmachin.com/"
+  },
+  {
+    "name": "Madawaska Valley",
+    "officialName": "Madawaska Valley, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.madawaskavalley.ca/"
+  },
+  {
+    "name": "Madoc",
+    "officialName": "Madoc, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.madoc.ca/"
+  },
+  {
+    "name": "Magnetawan",
+    "officialName": "Magnetawan, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.magnetawan.com/"
+  },
+  {
+    "name": "Malahide",
+    "officialName": "Malahide, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Elgin",
+    "website": "http://www.malahide.ca/"
+  },
+  {
+    "name": "Manitouwadge",
+    "officialName": "Manitouwadge, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.manitouwadge.ca/"
+  },
+  {
+    "name": "Mapleton",
+    "officialName": "Mapleton, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Wellington",
+    "website": "http://www.mapleton.ca/"
+  },
+  {
+    "name": "Marathon",
+    "officialName": "Marathon, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.marathon.ca/"
+  },
+  {
+    "name": "Markham",
+    "officialName": "Markham, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "York",
+    "website": "http://www.markham.ca/"
+  },
+  {
+    "name": "Markstay-Warren",
+    "officialName": "Markstay-Warren, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Sudbury",
+    "website": "http://www.markstay-warren.ca/"
+  },
+  {
+    "name": "Marmora and Lake",
+    "officialName": "Marmora and Lake, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.marmoraandlake.ca/"
+  },
+  {
+    "name": "Matachewan",
+    "officialName": "Matachewan, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.matachewan.com/"
+  },
+  {
+    "name": "Mattawa",
+    "officialName": "Mattawa, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Nipissing",
+    "website": "http://www.mattawa.ca/"
+  },
+  {
+    "name": "Mattawan",
+    "officialName": "Mattawan, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Nipissing",
+    "website": "https://mattawan.ca/"
+  },
+  {
+    "name": "Mattice-Val C\u00c3\u00b4t\u00c3\u00a9",
+    "officialName": "Mattice-Val C\u00c3\u00b4t\u00c3\u00a9, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "http://www.matticevalcote.ca/"
+  },
+  {
+    "name": "McDougall",
+    "officialName": "McDougall, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.municipalityofmcdougall.com/"
+  },
+  {
+    "name": "McGarry",
+    "officialName": "McGarry, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.mcgarry.ca/"
+  },
+  {
+    "name": "McKellar",
+    "officialName": "McKellar, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "https://www.mckellar.ca/en/index.aspx"
+  },
+  {
+    "name": "McMurrich/Monteith",
+    "officialName": "McMurrich/Monteith, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.mcmurrichmonteith.com/"
+  },
+  {
+    "name": "McNab/Braeside",
+    "officialName": "McNab/Braeside, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://mcnabbraeside.com/"
+  },
+  {
+    "name": "Meaford",
+    "officialName": "Meaford, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Grey",
+    "website": "http://meaford.ca/"
+  },
+  {
+    "name": "Melancthon",
+    "officialName": "Melancthon, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Dufferin",
+    "website": "http://melancthontownship.ca/"
+  },
+  {
+    "name": "Merrickville-Wolford",
+    "officialName": "Merrickville-Wolford, Village of",
+    "type": "Village of",
+    "tier": "Lower Tier",
+    "region": "Leeds and Grenville",
+    "website": "http://www.merrickville-wolford.ca/"
+  },
+  {
+    "name": "Middlesex",
+    "officialName": "Middlesex, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Middlesex",
+    "website": "http://www.middlesex.ca/"
+  },
+  {
+    "name": "Middlesex Centre",
+    "officialName": "Middlesex Centre, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Middlesex",
+    "website": "http://www.middlesexcentre.on.ca/"
+  },
+  {
+    "name": "Midland",
+    "officialName": "Midland, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "http://www.midland.ca/"
+  },
+  {
+    "name": "Milton",
+    "officialName": "Milton, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Halton",
+    "website": "http://www.milton.ca/"
+  },
+  {
+    "name": "Minden Hills",
+    "officialName": "Minden Hills, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Haliburton",
+    "website": "http://www.mindenhills.ca/"
+  },
+  {
+    "name": "Minto",
+    "officialName": "Minto, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Wellington",
+    "website": "http://www.town.minto.on.ca/"
+  },
+  {
+    "name": "Mississauga",
+    "officialName": "Mississauga, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Peel",
+    "website": "http://www.mississauga.ca/"
+  },
+  {
+    "name": "Mississippi Mills",
+    "officialName": "Mississippi Mills, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Lanark",
+    "website": "http://www.mississippimills.ca/"
+  },
+  {
+    "name": "Mono",
+    "officialName": "Mono, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Dufferin",
+    "website": "http://www.townofmono.com/"
+  },
+  {
+    "name": "Montague",
+    "officialName": "Montague, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Lanark",
+    "website": "http://www.township.montague.on.ca/"
+  },
+  {
+    "name": "Moonbeam",
+    "officialName": "Moonbeam, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "http://www.moonbeam.ca/"
+  },
+  {
+    "name": "Moosonee",
+    "officialName": "Moosonee, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "http://www.moosonee.ca/"
+  },
+  {
+    "name": "Morley",
+    "officialName": "Morley, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Rainy River",
+    "website": "http://www.townshipofmorley.ca/"
+  },
+  {
+    "name": "Morris-Turnberry",
+    "officialName": "Morris-Turnberry, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Huron",
+    "website": "https://morristurnberry.ca/"
+  },
+  {
+    "name": "Mulmur",
+    "officialName": "Mulmur, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Dufferin",
+    "website": "http://www.mulmurtownship.ca./"
+  },
+  {
+    "name": "Muskoka",
+    "officialName": "Muskoka, District Municipality of",
+    "type": "District Municipality of",
+    "tier": "Upper Tier",
+    "region": "Muskoka",
+    "website": "http://www.muskoka.on.ca/"
+  },
+  {
+    "name": "Muskoka Lakes",
+    "officialName": "Muskoka Lakes, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Muskoka",
+    "website": "http://www.muskokalakes.ca/"
+  },
+  {
+    "name": "Nairn and Hyman",
+    "officialName": "Nairn and Hyman, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Sudbury",
+    "website": "http://www.nairncentre.ca/"
+  },
+  {
+    "name": "Neebing",
+    "officialName": "Neebing, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.neebing.org/"
+  },
+  {
+    "name": "New Tecumseth",
+    "officialName": "New Tecumseth, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "http://www.town.newtecumseth.on.ca/"
+  },
+  {
+    "name": "Newbury",
+    "officialName": "Newbury, Village of",
+    "type": "Village of",
+    "tier": "Lower Tier",
+    "region": "Middlesex",
+    "website": "http://www.newbury.ca/"
+  },
+  {
+    "name": "Newmarket",
+    "officialName": "Newmarket, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "York",
+    "website": "http://www.newmarket.ca/"
+  },
+  {
+    "name": "Niagara",
+    "officialName": "Niagara, Regional Municipality of",
+    "type": "Regional Municipality of",
+    "tier": "Upper Tier",
+    "region": "Niagara",
+    "website": "http://www.niagararegion.ca/"
+  },
+  {
+    "name": "Niagara Falls",
+    "officialName": "Niagara Falls, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Niagara",
+    "website": "http://www.niagarafalls.ca/"
+  },
+  {
+    "name": "Niagara-on-the-Lake",
+    "officialName": "Niagara-on-the-Lake, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Niagara",
+    "website": "http://www.notl.org/"
+  },
+  {
+    "name": "Nipigon",
+    "officialName": "Nipigon, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.nipigon.net/"
+  },
+  {
+    "name": "Nipissing",
+    "officialName": "Nipissing, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://nipissingtownship.com/"
+  },
+  {
+    "name": "Norfolk County",
+    "officialName": "Norfolk County",
+    "type": "",
+    "tier": "Single Tier",
+    "region": "Norfolk",
+    "website": "https://www.norfolkcounty.ca/"
+  },
+  {
+    "name": "North Algona Wilberforce",
+    "officialName": "North Algona Wilberforce, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.nalgonawil.com/"
+  },
+  {
+    "name": "North Bay",
+    "officialName": "North Bay, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Nipissing",
+    "website": "http://www.cityofnorthbay.ca/"
+  },
+  {
+    "name": "North Dumfries",
+    "officialName": "North Dumfries, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Waterloo",
+    "website": "http://www.northdumfries.ca/"
+  },
+  {
+    "name": "North Dundas",
+    "officialName": "North Dundas, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Stormont, Dundas and Glengarry",
+    "website": "http://www.northdundas.com/"
+  },
+  {
+    "name": "North Frontenac",
+    "officialName": "North Frontenac, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Frontenac",
+    "website": "http://www.northfrontenac.ca/"
+  },
+  {
+    "name": "North Glengarry",
+    "officialName": "North Glengarry, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Stormont, Dundas and Glengarry",
+    "website": "http://www.northglengarry.ca/"
+  },
+  {
+    "name": "North Grenville",
+    "officialName": "North Grenville, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Leeds and Grenville",
+    "website": "http://www.northgrenville.ca/"
+  },
+  {
+    "name": "North Huron",
+    "officialName": "North Huron, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Huron",
+    "website": "http://www.northhuron.ca/"
+  },
+  {
+    "name": "North Kawartha",
+    "officialName": "North Kawartha, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Peterborough",
+    "website": "http://www.northkawartha.on.ca/"
+  },
+  {
+    "name": "North Middlesex",
+    "officialName": "North Middlesex, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Middlesex",
+    "website": "http://www.northmiddlesex.on.ca/"
+  },
+  {
+    "name": "North Perth",
+    "officialName": "North Perth, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Perth",
+    "website": "http://www.northperth.ca/"
+  },
+  {
+    "name": "North Stormont",
+    "officialName": "North Stormont, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Stormont, Dundas and Glengarry",
+    "website": "http://www.northstormont.ca/"
+  },
+  {
+    "name": "Northeastern Manitoulin and The Islands",
+    "officialName": "Northeastern Manitoulin and The Islands, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Manitoulin",
+    "website": "http://www.townofnemi.on.ca/"
+  },
+  {
+    "name": "Northern Bruce Peninsula",
+    "officialName": "Northern Bruce Peninsula, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Bruce",
+    "website": "http://www.northbrucepeninsula.ca/"
+  },
+  {
+    "name": "Northumberland",
+    "officialName": "Northumberland, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Northumberland",
+    "website": "http://northumberland.ca/"
+  },
+  {
+    "name": "Norwich",
+    "officialName": "Norwich, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Oxford",
+    "website": "http://www.twp.norwich.on.ca/"
+  },
+  {
+    "name": "O\u2019Connor",
+    "officialName": "O\u2019Connor, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.oconnortownship.ca/"
+  },
+  {
+    "name": "Oakville",
+    "officialName": "Oakville, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Halton",
+    "website": "http://www.oakville.ca/"
+  },
+  {
+    "name": "Oil Springs",
+    "officialName": "Oil Springs, Village of",
+    "type": "Village of",
+    "tier": "Lower Tier",
+    "region": "Lambton",
+    "website": "http://www.oilsprings.ca/"
+  },
+  {
+    "name": "Oliver Paipoonge",
+    "officialName": "Oliver Paipoonge, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.oliverpaipoonge.on.ca/"
+  },
+  {
+    "name": "Opasatika",
+    "officialName": "Opasatika, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "http://opasatika.net/"
+  },
+  {
+    "name": "Orangeville",
+    "officialName": "Orangeville, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Dufferin",
+    "website": "http://www.orangeville.ca/"
+  },
+  {
+    "name": "Orillia",
+    "officialName": "Orillia, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Simcoe",
+    "website": "http://www.orillia.ca/"
+  },
+  {
+    "name": "Oro-Medonte",
+    "officialName": "Oro-Medonte, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "http://www.oro-medonte.ca/"
+  },
+  {
+    "name": "Oshawa",
+    "officialName": "Oshawa, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Durham",
+    "website": "https://www.oshawa.ca/en/index.aspx"
+  },
+  {
+    "name": "Otonabee-South Monaghan",
+    "officialName": "Otonabee-South Monaghan, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Peterborough",
+    "website": "http://www.osmtownship.ca/"
+  },
+  {
+    "name": "Ottawa",
+    "officialName": "Ottawa, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Ottawa",
+    "website": "http://ottawa.ca/en"
+  },
+  {
+    "name": "Owen Sound",
+    "officialName": "Owen Sound, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Grey",
+    "website": "http://www.owensound.ca/"
+  },
+  {
+    "name": "Oxford",
+    "officialName": "Oxford, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Oxford",
+    "website": "http://www.oxfordcounty.ca/"
+  },
+  {
+    "name": "Papineau-Cameron",
+    "officialName": "Papineau-Cameron, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Nipissing",
+    "website": "http://www.papineaucameron.ca/"
+  },
+  {
+    "name": "Parry Sound",
+    "officialName": "Parry Sound, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.townofparrysound.com/"
+  },
+  {
+    "name": "Peel",
+    "officialName": "Peel, Regional Municipality of",
+    "type": "Regional Municipality of",
+    "tier": "Upper Tier",
+    "region": "Peel",
+    "website": "http://www.peelregion.ca/"
+  },
+  {
+    "name": "Pelee",
+    "officialName": "Pelee, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Essex",
+    "website": "http://www.pelee.org/"
+  },
+  {
+    "name": "Pelham",
+    "officialName": "Pelham, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Niagara",
+    "website": "http://www.pelham.ca/"
+  },
+  {
+    "name": "Pembroke",
+    "officialName": "Pembroke, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Renfrew",
+    "website": "http://www.pembrokeontario.com/"
+  },
+  {
+    "name": "Penetanguishene",
+    "officialName": "Penetanguishene, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "http://www.penetanguishene.ca/"
+  },
+  {
+    "name": "Perry",
+    "officialName": "Perry, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.townshipofperry.ca/"
+  },
+  {
+    "name": "Perth",
+    "officialName": "Perth, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Lanark",
+    "website": "http://www.perth.ca/en/index.aspx"
+  },
+  {
+    "name": "Perth",
+    "officialName": "Perth, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Perth",
+    "website": "http://www.perthcounty.ca/"
+  },
+  {
+    "name": "Perth East",
+    "officialName": "Perth East, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Perth",
+    "website": "https://www.pertheast.ca/en/index.aspx"
+  },
+  {
+    "name": "Perth South",
+    "officialName": "Perth South, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Perth",
+    "website": "http://www.perthsouth.ca/"
+  },
+  {
+    "name": "Petawawa",
+    "officialName": "Petawawa, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.petawawa.ca/"
+  },
+  {
+    "name": "Peterborough",
+    "officialName": "Peterborough, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Peterborough",
+    "website": "http://www.ptbocounty.ca/en/index.aspx"
+  },
+  {
+    "name": "Peterborough",
+    "officialName": "Peterborough, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Peterborough",
+    "website": "http://www.peterborough.ca/"
+  },
+  {
+    "name": "Petrolia",
+    "officialName": "Petrolia, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Lambton",
+    "website": "http://town.petrolia.on.ca/"
+  },
+  {
+    "name": "Pickering",
+    "officialName": "Pickering, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Durham",
+    "website": "https://www.pickering.ca/en/index.aspx"
+  },
+  {
+    "name": "Pickle Lake",
+    "officialName": "Pickle Lake, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Kenora",
+    "website": "http://www.picklelake.ca/"
+  },
+  {
+    "name": "Plummer Additional",
+    "officialName": "Plummer Additional, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "https://plummertownship.ca/"
+  },
+  {
+    "name": "Plympton-Wyoming",
+    "officialName": "Plympton-Wyoming, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Lambton",
+    "website": "http://plympton-wyoming.com/"
+  },
+  {
+    "name": "Point Edward",
+    "officialName": "Point Edward, Village of",
+    "type": "Village of",
+    "tier": "Lower Tier",
+    "region": "Lambton",
+    "website": "http://www.villageofpointedward.com/"
+  },
+  {
+    "name": "Port Colborne",
+    "officialName": "Port Colborne, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Niagara",
+    "website": "http://www.portcolborne.ca/"
+  },
+  {
+    "name": "Port Hope",
+    "officialName": "Port Hope, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Northumberland",
+    "website": "http://www.porthope.ca/"
+  },
+  {
+    "name": "Powassan",
+    "officialName": "Powassan, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.powassan.net/"
+  },
+  {
+    "name": "Prescott",
+    "officialName": "Prescott, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Leeds and Grenville",
+    "website": "http://www.prescott.ca/"
+  },
+  {
+    "name": "Prescott and Russell",
+    "officialName": "Prescott and Russell, United Counties of",
+    "type": "United Counties of",
+    "tier": "Upper Tier",
+    "region": "Prescott and Russell",
+    "website": "http://www.prescott-russell.on.ca/"
+  },
+  {
+    "name": "Prince",
+    "officialName": "Prince, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "https://www.princetownship.ca/"
+  },
+  {
+    "name": "Prince Edward",
+    "officialName": "Prince Edward, County of",
+    "type": "County of",
+    "tier": "Single Tier",
+    "region": "Prince Edward",
+    "website": "http://www.pecounty.on.ca/"
+  },
+  {
+    "name": "Puslinch",
+    "officialName": "Puslinch, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Wellington",
+    "website": "https://puslinch.ca/"
+  },
+  {
+    "name": "Quinte West",
+    "officialName": "Quinte West, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Hastings",
+    "website": "http://www.quintewest.ca/"
+  },
+  {
+    "name": "Rainy River",
+    "officialName": "Rainy River, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Rainy River",
+    "website": "http://www.rainyriver.ca/"
+  },
+  {
+    "name": "Ramara",
+    "officialName": "Ramara, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "http://www.ramara.ca/"
+  },
+  {
+    "name": "Red Lake",
+    "officialName": "Red Lake, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Kenora",
+    "website": "http://www.red-lake.com/"
+  },
+  {
+    "name": "Red Rock",
+    "officialName": "Red Rock, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.redrocktownship.com/"
+  },
+  {
+    "name": "Renfrew",
+    "officialName": "Renfrew, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Renfrew",
+    "website": "http://www.countyofrenfrew.on.ca/"
+  },
+  {
+    "name": "Renfrew",
+    "officialName": "Renfrew, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.renfrewontario.com/"
+  },
+  {
+    "name": "Richmond Hill",
+    "officialName": "Richmond Hill, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "York",
+    "website": "http://www.richmondhill.ca/"
+  },
+  {
+    "name": "Rideau Lakes",
+    "officialName": "Rideau Lakes, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Leeds and Grenville",
+    "website": "http://www.twprideaulakes.on.ca/"
+  },
+  {
+    "name": "Russell",
+    "officialName": "Russell, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Prescott and Russell",
+    "website": "http://www.russell.ca/"
+  },
+  {
+    "name": "Ryerson",
+    "officialName": "Ryerson, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.ryersontownship.ca/"
+  },
+  {
+    "name": "Sables-Spanish Rivers",
+    "officialName": "Sables-Spanish Rivers, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Sudbury",
+    "website": "http://www.sables-spanish.ca/"
+  },
+  {
+    "name": "Sarnia",
+    "officialName": "Sarnia, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Lambton",
+    "website": "http://www.sarnia.ca/"
+  },
+  {
+    "name": "Saugeen Shores",
+    "officialName": "Saugeen Shores, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Bruce",
+    "website": "http://www.saugeenshores.ca/"
+  },
+  {
+    "name": "Sault Ste. Marie",
+    "officialName": "Sault Ste. Marie, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "https://saultstemarie.ca/"
+  },
+  {
+    "name": "Schreiber",
+    "officialName": "Schreiber, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.schreiber.ca/"
+  },
+  {
+    "name": "Scugog",
+    "officialName": "Scugog, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Durham",
+    "website": "https://www.scugog.ca/en/index.aspx"
+  },
+  {
+    "name": "Seguin",
+    "officialName": "Seguin, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.twp.seguin.on.ca/"
+  },
+  {
+    "name": "Selwyn",
+    "officialName": "Selwyn, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Peterborough",
+    "website": "http://www.selwyntownship.ca/en/index.asp"
+  },
+  {
+    "name": "Severn",
+    "officialName": "Severn, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "http://www.townshipofsevern.com/"
+  },
+  {
+    "name": "Shelburne",
+    "officialName": "Shelburne, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Dufferin",
+    "website": "https://www.shelburne.ca/en/index.aspx/"
+  },
+  {
+    "name": "Shuniah",
+    "officialName": "Shuniah, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.shuniah.org/"
+  },
+  {
+    "name": "Simcoe",
+    "officialName": "Simcoe, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Simcoe",
+    "website": "http://www.simcoe.ca/"
+  },
+  {
+    "name": "Sioux Lookout",
+    "officialName": "Sioux Lookout, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Kenora",
+    "website": "http://www.siouxlookout.ca/"
+  },
+  {
+    "name": "Sioux Narrows-Nestor Falls",
+    "officialName": "Sioux Narrows-Nestor Falls, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Kenora",
+    "website": "http://www.siouxnarrows-nestorfalls.ca/"
+  },
+  {
+    "name": "Smiths Falls",
+    "officialName": "Smiths Falls, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Lanark",
+    "website": "http://www.smithsfalls.ca/"
+  },
+  {
+    "name": "Smooth Rock Falls",
+    "officialName": "Smooth Rock Falls, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "http://www.townofsmoothrockfalls.ca/"
+  },
+  {
+    "name": "South Algonquin",
+    "officialName": "South Algonquin, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Nipissing",
+    "website": "https://www.southalgonquin.ca/"
+  },
+  {
+    "name": "South Bruce",
+    "officialName": "South Bruce, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Bruce",
+    "website": "http://www.town.southbruce.on.ca/"
+  },
+  {
+    "name": "South Bruce Peninsula",
+    "officialName": "South Bruce Peninsula, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Bruce",
+    "website": "http://www.southbrucepeninsula.com/"
+  },
+  {
+    "name": "South Dundas",
+    "officialName": "South Dundas, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Stormont, Dundas and Glengarry",
+    "website": "http://www.southdundas.com/"
+  },
+  {
+    "name": "South Frontenac",
+    "officialName": "South Frontenac, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Frontenac",
+    "website": "http://www.township.southfrontenac.on.ca/"
+  },
+  {
+    "name": "South Glengarry",
+    "officialName": "South Glengarry, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Stormont, Dundas and Glengarry",
+    "website": "http://southglengarry.com/"
+  },
+  {
+    "name": "South Huron",
+    "officialName": "South Huron, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Huron",
+    "website": "http://www.southhuron.ca/"
+  },
+  {
+    "name": "South River",
+    "officialName": "South River, Village of",
+    "type": "Village of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.southriverontario.com/"
+  },
+  {
+    "name": "South Stormont",
+    "officialName": "South Stormont, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Stormont, Dundas and Glengarry",
+    "website": "http://southstormont.ca/"
+  },
+  {
+    "name": "South-West Oxford",
+    "officialName": "South-West Oxford, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Oxford",
+    "website": "http://www.swox.org/"
+  },
+  {
+    "name": "Southgate",
+    "officialName": "Southgate, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Grey",
+    "website": "https://www.southgate.ca/en/index.aspx"
+  },
+  {
+    "name": "Southwest Middlesex",
+    "officialName": "Southwest Middlesex, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Middlesex",
+    "website": "http://www.southwestmiddlesex.ca/"
+  },
+  {
+    "name": "Southwold",
+    "officialName": "Southwold, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Elgin",
+    "website": "http://www.twp.southwold.on.ca/"
+  },
+  {
+    "name": "Spanish",
+    "officialName": "Spanish, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.townofspanish.com/"
+  },
+  {
+    "name": "Springwater",
+    "officialName": "Springwater, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "http://www.springwater.ca/"
+  },
+  {
+    "name": "St. Catharines",
+    "officialName": "St. Catharines, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Niagara",
+    "website": "http://www.stcatharines.ca/"
+  },
+  {
+    "name": "St. Clair",
+    "officialName": "St. Clair, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Lambton",
+    "website": "http://www.twp.stclair.on.ca/"
+  },
+  {
+    "name": "St. Joseph",
+    "officialName": "St. Joseph, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.stjosephtownship.com/"
+  },
+  {
+    "name": "St. Marys",
+    "officialName": "St. Marys, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Perth",
+    "website": "http://www.townofstmarys.com/"
+  },
+  {
+    "name": "St. Thomas",
+    "officialName": "St. Thomas, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Elgin",
+    "website": "https://www.stthomas.ca/"
+  },
+  {
+    "name": "St.-Charles",
+    "officialName": "St.-Charles, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Sudbury",
+    "website": "http://www.stcharlesontario.ca/"
+  },
+  {
+    "name": "Stirling-Rawdon",
+    "officialName": "Stirling-Rawdon, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.stirling-rawdon.com/"
+  },
+  {
+    "name": "Stone Mills",
+    "officialName": "Stone Mills, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Lennox and Addington",
+    "website": "http://www.stonemills.com/"
+  },
+  {
+    "name": "Stormont, Dundas and Glengarry",
+    "officialName": "Stormont, Dundas and Glengarry, United Counties of",
+    "type": "United Counties of",
+    "tier": "Upper Tier",
+    "region": "Stormont, Dundas and Glengarry",
+    "website": "http://www.sdg.on.ca/"
+  },
+  {
+    "name": "Stratford",
+    "officialName": "Stratford, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Perth",
+    "website": "https://www.stratford.ca/en/index.aspx"
+  },
+  {
+    "name": "Strathroy-Caradoc",
+    "officialName": "Strathroy-Caradoc, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Middlesex",
+    "website": "http://www.strathroy-caradoc.ca/"
+  },
+  {
+    "name": "Strong",
+    "officialName": "Strong, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.strongtownship.com/"
+  },
+  {
+    "name": "Sundridge",
+    "officialName": "Sundridge, Village of",
+    "type": "Village of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.sundridge.ca/"
+  },
+  {
+    "name": "Tarbutt",
+    "officialName": "Tarbutt, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "https://tarbutt.ca/"
+  },
+  {
+    "name": "Tay",
+    "officialName": "Tay, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "http://www.tay.ca/"
+  },
+  {
+    "name": "Tay Valley",
+    "officialName": "Tay Valley, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Lanark",
+    "website": "http://www.tayvalleytwp.ca/"
+  },
+  {
+    "name": "Tecumseh",
+    "officialName": "Tecumseh, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Essex",
+    "website": "http://www.tecumseh.ca/"
+  },
+  {
+    "name": "Tehkummah",
+    "officialName": "Tehkummah, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Manitoulin",
+    "website": "https://tehkummah.ca/"
+  },
+  {
+    "name": "Temagami",
+    "officialName": "Temagami, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Nipissing",
+    "website": "http://www.temagami.ca/"
+  },
+  {
+    "name": "Temiskaming Shores",
+    "officialName": "Temiskaming Shores, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": "http://www.temiskamingshores.ca/"
+  },
+  {
+    "name": "Terrace Bay",
+    "officialName": "Terrace Bay, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.terracebay.ca/"
+  },
+  {
+    "name": "Thames Centre",
+    "officialName": "Thames Centre, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Middlesex",
+    "website": "http://www.thamescentre.on.ca/"
+  },
+  {
+    "name": "The Archipelago",
+    "officialName": "The Archipelago, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.thearchipelago.on.ca/"
+  },
+  {
+    "name": "The Blue Mountains",
+    "officialName": "The Blue Mountains, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Grey",
+    "website": "http://www.thebluemountains.ca/"
+  },
+  {
+    "name": "The Nation Municipality",
+    "officialName": "The Nation Municipality",
+    "type": "",
+    "tier": "Lower Tier",
+    "region": "Prescott and Russell",
+    "website": "http://www.nationmun.ca/"
+  },
+  {
+    "name": "The North Shore",
+    "officialName": "The North Shore, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.townshipofthenorthshore.ca/"
+  },
+  {
+    "name": "Thessalon",
+    "officialName": "Thessalon, Town of",
+    "type": "Town of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.thessalon.ca/"
+  },
+  {
+    "name": "Thornloe",
+    "officialName": "Thornloe, Village of",
+    "type": "Village of",
+    "tier": "Single Tier",
+    "region": "Timiskaming",
+    "website": null
+  },
+  {
+    "name": "Thorold",
+    "officialName": "Thorold, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Niagara",
+    "website": "http://www.thorold.com/"
+  },
+  {
+    "name": "Thunder Bay",
+    "officialName": "Thunder Bay, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Thunder Bay",
+    "website": "http://www.thunderbay.ca/"
+  },
+  {
+    "name": "Tillsonburg",
+    "officialName": "Tillsonburg, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Oxford",
+    "website": "http://www.town.tillsonburg.on.ca/"
+  },
+  {
+    "name": "Timmins",
+    "officialName": "Timmins, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "http://www.timmins.ca/"
+  },
+  {
+    "name": "Tiny",
+    "officialName": "Tiny, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "https://www.tiny.ca/"
+  },
+  {
+    "name": "Toronto",
+    "officialName": "Toronto, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Toronto",
+    "website": "http://www.toronto.ca/"
+  },
+  {
+    "name": "Trent Hills",
+    "officialName": "Trent Hills, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Northumberland",
+    "website": "http://www.trenthills.ca/"
+  },
+  {
+    "name": "Trent Lakes",
+    "officialName": "Trent Lakes, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Peterborough",
+    "website": "http://www.trentlakes.ca/"
+  },
+  {
+    "name": "Tudor and Cashel",
+    "officialName": "Tudor and Cashel, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.tudorandcashel.com/"
+  },
+  {
+    "name": "Tweed",
+    "officialName": "Tweed, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.tweed.ca/"
+  },
+  {
+    "name": "Tyendinaga",
+    "officialName": "Tyendinaga, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "http://www.tyendinagatownship.com/"
+  },
+  {
+    "name": "Uxbridge",
+    "officialName": "Uxbridge, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Durham",
+    "website": "http://www.town.uxbridge.on.ca/"
+  },
+  {
+    "name": "Val Rita-Harty",
+    "officialName": "Val Rita-Harty, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Cochrane",
+    "website": "http://valharty.ca/en/"
+  },
+  {
+    "name": "Vaughan",
+    "officialName": "Vaughan, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "York",
+    "website": "http://www.city.vaughan.on.ca/"
+  },
+  {
+    "name": "Wainfleet",
+    "officialName": "Wainfleet, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Niagara",
+    "website": "http://www.wainfleet.ca/"
+  },
+  {
+    "name": "Warwick",
+    "officialName": "Warwick, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Lambton",
+    "website": "http://www.warwicktownship.ca/"
+  },
+  {
+    "name": "Wasaga Beach",
+    "officialName": "Wasaga Beach, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Simcoe",
+    "website": "http://www.wasagabeach.com/"
+  },
+  {
+    "name": "Waterloo",
+    "officialName": "Waterloo, Regional Municipality of",
+    "type": "Regional Municipality of",
+    "tier": "Upper Tier",
+    "region": "Waterloo",
+    "website": "http://www.region.waterloo.on.ca/"
+  },
+  {
+    "name": "Waterloo",
+    "officialName": "Waterloo, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Waterloo",
+    "website": "http://www.city.waterloo.on.ca/"
+  },
+  {
+    "name": "Wawa",
+    "officialName": "Wawa, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.wawa.cc/"
+  },
+  {
+    "name": "Welland",
+    "officialName": "Welland, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Niagara",
+    "website": "http://www.welland.ca/"
+  },
+  {
+    "name": "Wellesley",
+    "officialName": "Wellesley, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Waterloo",
+    "website": "https://www.wellesley.ca/en/index.aspx"
+  },
+  {
+    "name": "Wellington",
+    "officialName": "Wellington, County of",
+    "type": "County of",
+    "tier": "Upper Tier",
+    "region": "Wellington",
+    "website": "http://www.wellington.ca/"
+  },
+  {
+    "name": "Wellington North",
+    "officialName": "Wellington North, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Wellington",
+    "website": "http://www.wellington-north.com/"
+  },
+  {
+    "name": "West Elgin",
+    "officialName": "West Elgin, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Elgin",
+    "website": "http://www.westelgin.net/"
+  },
+  {
+    "name": "West Grey",
+    "officialName": "West Grey, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Grey",
+    "website": "http://www.westgrey.com/"
+  },
+  {
+    "name": "West Lincoln",
+    "officialName": "West Lincoln, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Niagara",
+    "website": "http://www.westlincoln.ca/"
+  },
+  {
+    "name": "West Nipissing",
+    "officialName": "West Nipissing, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Nipissing",
+    "website": "http://www.westnipissing.ca/"
+  },
+  {
+    "name": "West Perth",
+    "officialName": "West Perth, Municipality of",
+    "type": "Municipality of",
+    "tier": "Lower Tier",
+    "region": "Perth",
+    "website": "https://www.westperth.com/en/index.aspx"
+  },
+  {
+    "name": "Westport",
+    "officialName": "Westport, Village of",
+    "type": "Village of",
+    "tier": "Lower Tier",
+    "region": "Leeds and Grenville",
+    "website": "http://www.village.westport.on.ca/"
+  },
+  {
+    "name": "Whitby",
+    "officialName": "Whitby, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "Durham",
+    "website": "http://www.whitby.ca/en/"
+  },
+  {
+    "name": "Whitchurch-Stouffville",
+    "officialName": "Whitchurch-Stouffville, Town of",
+    "type": "Town of",
+    "tier": "Lower Tier",
+    "region": "York",
+    "website": "http://www.townofws.com/"
+  },
+  {
+    "name": "White River",
+    "officialName": "White River, Township of",
+    "type": "Township of",
+    "tier": "Single Tier",
+    "region": "Algoma",
+    "website": "http://www.whiteriver.ca/"
+  },
+  {
+    "name": "Whitestone",
+    "officialName": "Whitestone, Municipality of",
+    "type": "Municipality of",
+    "tier": "Single Tier",
+    "region": "Parry Sound",
+    "website": "http://www.whitestone.ca/"
+  },
+  {
+    "name": "Whitewater Region",
+    "officialName": "Whitewater Region, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Renfrew",
+    "website": "http://www.whitewaterregion.ca/"
+  },
+  {
+    "name": "Wilmot",
+    "officialName": "Wilmot, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Waterloo",
+    "website": "http://www.wilmot.ca/"
+  },
+  {
+    "name": "Windsor",
+    "officialName": "Windsor, City of",
+    "type": "City of",
+    "tier": "Single Tier",
+    "region": "Essex",
+    "website": "http://www.citywindsor.ca/"
+  },
+  {
+    "name": "Wollaston",
+    "officialName": "Wollaston, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Hastings",
+    "website": "https://wollaston.ca/"
+  },
+  {
+    "name": "Woodstock",
+    "officialName": "Woodstock, City of",
+    "type": "City of",
+    "tier": "Lower Tier",
+    "region": "Oxford",
+    "website": "https://www.cityofwoodstock.ca/en/index.aspx"
+  },
+  {
+    "name": "Woolwich",
+    "officialName": "Woolwich, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Waterloo",
+    "website": "http://www.woolwich.ca/"
+  },
+  {
+    "name": "York",
+    "officialName": "York, Regional Municipality of",
+    "type": "Regional Municipality of",
+    "tier": "Upper Tier",
+    "region": "York",
+    "website": "http://www.york.ca/"
+  },
+  {
+    "name": "Zorra",
+    "officialName": "Zorra, Township of",
+    "type": "Township of",
+    "tier": "Lower Tier",
+    "region": "Oxford",
+    "website": "http://www.zorra.on.ca/"
+  }
+]

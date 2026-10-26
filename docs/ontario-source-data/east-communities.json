@@ -1,0 +1,373 @@
+[
+  {
+    "municipality": "Ottawa",
+    "region": "Ottawa",
+    "communities": [
+      "Constance Bay",
+      "Fitzroy Harbour",
+      "Carp",
+      "Richmond",
+      "North Gower",
+      "Manotick",
+      "Osgoode",
+      "Greely",
+      "Metcalfe",
+      "Navan",
+      "Cumberland"
+    ],
+    "sourceUrls": [
+      "https://documents.ottawa.ca/sites/default/files/opa150_schedule_h_en.pdf"
+    ],
+    "planningNote": "For a rural address, confirm the village, full civic address and access for tile delivery before scheduling; an Ottawa mailing address alone can cover a wide service area."
+  },
+  {
+    "municipality": "Kawartha Lakes",
+    "region": "Kawartha Lakes",
+    "communities": [
+      "Lindsay",
+      "Bobcaygeon",
+      "Fenelon Falls",
+      "Coboconk",
+      "Omemee",
+      "Woodville",
+      "Little Britain",
+      "Dunsford",
+      "Cambray",
+      "Manilla",
+      "Oakwood",
+      "Seagrave",
+      "Sonya",
+      "Valentia",
+      "Downeyville",
+      "Janetville",
+      "Bethany",
+      "Pontypool",
+      "Reaboro"
+    ],
+    "sourceUrls": [
+      "https://www.kawarthalakes.ca/media/4zcngppp/2020-destination-development-plan.pdf",
+      "https://www.kawarthalakeslibrary.ca/about-us/branch-locations-and-hours/",
+      "https://pub-kawarthalakes.escribemeetings.com/filestream.ashx?DocumentId=86719"
+    ],
+    "planningNote": "For a seasonal property, tell us whether the building stays heated and when water and power are available so the installation and curing schedule can be assessed."
+  },
+  {
+    "municipality": "Prince Edward County",
+    "region": "Prince Edward County",
+    "communities": [
+      "Picton",
+      "Bloomfield",
+      "Wellington",
+      "Rossmore",
+      "Ameliasburgh",
+      "Consecon",
+      "Carrying Place"
+    ],
+    "sourceUrls": [
+      "https://www.thecounty.ca/county_news_notices/county-planning-for-growth-and-development/"
+    ],
+    "planningNote": "If a renovation changes plumbing or involves a designated heritage property, confirm the applicable municipal requirements before tile work is scheduled."
+  },
+  {
+    "municipality": "Trent Hills",
+    "region": "Northumberland County",
+    "communities": [
+      "Campbellford",
+      "Hastings",
+      "Warkworth",
+      "Trent River",
+      "Norham"
+    ],
+    "sourceUrls": [
+      "https://www.trenthills.ca/business-development/planning-and-zoning/zoning/"
+    ],
+    "planningNote": "For a project in a village or rural address, include the community and postal code with room measurements so delivery access and the proposed work can be reviewed."
+  },
+  {
+    "municipality": "Selwyn",
+    "region": "Peterborough County",
+    "communities": [
+      "Bridgenorth",
+      "Lakefield",
+      "Ennismore",
+      "Young’s Point"
+    ],
+    "sourceUrls": [
+      "https://www.selwyntownship.ca/media/2jkcign4/communityprofile_print.pdf",
+      "https://www.selwyntownship.ca/en/business-centre/resources/CIP/Selwyn-Township-CIP-Final.-Oct-15-2020.-Clean.pdf"
+    ],
+    "planningNote": "If the project is in an occupied home or cottage, identify the rooms that must remain usable while tile is installed and curing."
+  },
+  {
+    "municipality": "North Dundas",
+    "region": "Stormont, Dundas and Glengarry",
+    "communities": [
+      "Chesterville",
+      "Winchester",
+      "South Mountain",
+      "Mountain",
+      "Morewood",
+      "Inkerman",
+      "Harmony",
+      "Hallville"
+    ],
+    "sourceUrls": [
+      "https://www.northdundas.com/business-development/maps"
+    ],
+    "planningNote": "Provide the full civic address and village name, especially where the mailing address differs from the project location, to plan site access and material delivery."
+  },
+  {
+    "municipality": "South Dundas",
+    "region": "Stormont, Dundas and Glengarry",
+    "communities": [
+      "Morrisburg",
+      "Iroquois",
+      "Williamsburg"
+    ],
+    "sourceUrls": [
+      "https://www.southdundas.com/residential-services/water-wastewater"
+    ],
+    "planningNote": "If tile work is part of a bathroom renovation, explain whether fixtures or drain locations will move so preparation can be coordinated before installation."
+  },
+  {
+    "municipality": "North Glengarry",
+    "region": "Stormont, Dundas and Glengarry",
+    "communities": [
+      "Alexandria",
+      "Maxville",
+      "Glen Robertson",
+      "Dalkeith",
+      "Dunvegan"
+    ],
+    "sourceUrls": [
+      "https://www.northglengarry.ca/residents/about-north-glengarry/"
+    ],
+    "planningNote": "For repairs, send close photographs of the damaged tile and a wider room photograph so replacement matching and the underlying surface can be assessed."
+  },
+  {
+    "municipality": "Russell",
+    "region": "Prescott and Russell",
+    "communities": [
+      "Embrun",
+      "Russell",
+      "Limoges",
+      "Marionville"
+    ],
+    "sourceUrls": [
+      "https://www.russell.ca/en/build-and-invest/official-plan.aspx"
+    ],
+    "planningNote": "Limoges and Marionville cross municipal boundaries; include the exact address to identify the project location and applicable municipal requirements."
+  },
+  {
+    "municipality": "North Stormont",
+    "region": "Stormont, Dundas and Glengarry",
+    "communities": [
+      "Avonmore",
+      "Berwick",
+      "Crysler",
+      "Finch",
+      "Monkland",
+      "Moose Creek"
+    ],
+    "sourceUrls": [
+      "https://www.northstormont.ca/business-development/planning-development/township-north-stormont-maps"
+    ],
+    "planningNote": "For a rural renovation, confirm unloading space and the route into the room, especially when large-format tile or heavy materials are planned."
+  },
+  {
+    "municipality": "South Stormont",
+    "region": "Stormont, Dundas and Glengarry",
+    "communities": [
+      "Long Sault",
+      "Ingleside",
+      "Newington",
+      "St. Andrews West"
+    ],
+    "sourceUrls": [
+      "https://www.southstormont.ca/en/town-hall/resources/2020-Budget/2020-Water-and-Waste-Water-Presentation.pdf",
+      "https://www.southstormont.ca/your-local-government/by-laws-and-policies/"
+    ],
+    "planningNote": "If an entrance or mudroom is included, discuss slip resistance and the transition to adjoining flooring before selecting tile."
+  },
+  {
+    "municipality": "South Glengarry",
+    "region": "Stormont, Dundas and Glengarry",
+    "communities": [
+      "Lancaster",
+      "Williamstown",
+      "Martintown",
+      "North Lancaster"
+    ],
+    "sourceUrls": [
+      "https://www.southglengarry.com/recreation-tourism/facility-rentals/",
+      "https://www.southglengarry.com/media/u5kbtw0x/2023-01-17-sg-master-plan-reduced-3.pdf"
+    ],
+    "planningNote": "When replacing existing tile, share whether there are cracks, movement or moisture concerns so removal and substrate checks can be included in the scope."
+  },
+  {
+    "municipality": "Clarence-Rockland",
+    "region": "Prescott and Russell",
+    "communities": [
+      "Rockland",
+      "Bourget",
+      "Cheney",
+      "Clarence",
+      "Clarence Creek",
+      "Hammond",
+      "Saint-Pascal-Baylon"
+    ],
+    "sourceUrls": [
+      "https://www.clarence-rockland.com/fr",
+      "https://choisir-choose.clarence-rockland.com/discover-clarence-rockland"
+    ],
+    "planningNote": "Include the village name with the address so the quotation reflects the actual project location within Clarence-Rockland."
+  },
+  {
+    "municipality": "Mississippi Mills",
+    "region": "Lanark County",
+    "communities": [
+      "Almonte",
+      "Appleton",
+      "Blakeney",
+      "Clayton",
+      "Pakenham"
+    ],
+    "sourceUrls": [
+      "https://www.mississippimills.ca/explore-and-play/mississippi-mills-fun-guide/our-villages/"
+    ],
+    "planningNote": "If existing floor framing or a heritage designation affects the renovation, identify that early so tile preparation and any required approvals can be coordinated."
+  },
+  {
+    "municipality": "Greater Madawaska",
+    "region": "Renfrew County",
+    "communities": [
+      "Calabogie",
+      "Griffith",
+      "Matawatchan",
+      "Dacre",
+      "Mount St. Patrick"
+    ],
+    "sourceUrls": [
+      "https://www.greatermadawaska.com/play-and-discover/tourism/things-to-do/"
+    ],
+    "planningNote": "For seasonal or rural properties, confirm road access, on-site heating and utilities before setting installation dates."
+  },
+  {
+    "municipality": "Rideau Lakes",
+    "region": "Leeds and Grenville",
+    "communities": [
+      "Delta",
+      "Chaffey’s Lock",
+      "Newboro",
+      "Lombardy",
+      "Portland",
+      "Elgin",
+      "Jones Falls",
+      "Morton"
+    ],
+    "sourceUrls": [
+      "https://www.rideaulakes.ca/experience/about/discover",
+      "https://www.rideaulakes.ca/component/edocman/maps"
+    ],
+    "planningNote": "For a cottage or waterfront property, tell us whether access includes stairs, narrow lanes or boat transport so handling and scheduling can be assessed."
+  },
+  {
+    "municipality": "North Grenville",
+    "region": "Leeds and Grenville",
+    "communities": [
+      "Kemptville",
+      "Oxford Mills",
+      "Bishops Mills"
+    ],
+    "sourceUrls": [
+      "https://www.northgrenville.ca/images/Projects/WAS%202023%202024/North%20Grenville%20Waterfront%20Access%20Strategy%20-%20Report%20DRAFT%20-%20Jan%2024%202024.pdf"
+    ],
+    "planningNote": "For floor replacement, identify the existing floor covering and adjoining finish heights so transitions and preparation can be included in the quote."
+  },
+  {
+    "municipality": "Loyalist",
+    "region": "Lennox and Addington County",
+    "communities": [
+      "Bath",
+      "Amherstview",
+      "Odessa",
+      "Wilton",
+      "Millhaven"
+    ],
+    "sourceUrls": [
+      "https://www.loyalist.ca/explore-and-play/history-and-heritage/self-guided-tours/"
+    ],
+    "planningNote": "If the project is on Amherst Island, identify the island location at enquiry so ferry access and material transport can be planned."
+  },
+  {
+    "municipality": "South Frontenac",
+    "region": "Frontenac County",
+    "communities": [
+      "Sydenham",
+      "Harrowsmith",
+      "Verona",
+      "Inverary"
+    ],
+    "sourceUrls": [
+      "https://www.southfrontenac.net/media/aa3nv5jt/sf_rec_guide24.pdf"
+    ],
+    "planningNote": "For a rural or seasonal property, include the full address and access details; tile storage and curing conditions should be confirmed before delivery."
+  },
+  {
+    "municipality": "Dysart et al",
+    "region": "Haliburton County",
+    "communities": [
+      "Haliburton",
+      "Donald",
+      "Eagle Lake",
+      "Fort Irwin",
+      "Harcourt",
+      "Kennisis Lake",
+      "West Guilford"
+    ],
+    "sourceUrls": [
+      "https://www.dysartetal.ca/build-and-invest/",
+      "https://www.dysartetal.ca/living-in-our-community/hamlets-of-dysart-et-al/"
+    ],
+    "planningNote": "For a cottage project, disclose seasonal heating and winter access conditions so suitable preparation, delivery and curing times can be assessed."
+  },
+  {
+    "municipality": "Highlands East",
+    "region": "Haliburton County",
+    "communities": [
+      "Cardiff",
+      "Highland Grove",
+      "Wilberforce",
+      "Irondale",
+      "Gooderham"
+    ],
+    "sourceUrls": [
+      "https://www.highlandseast.ca/en/resourcesGeneral/Documents/official-plan_schedule-a_land-use.pdf"
+    ],
+    "planningNote": "If a property is used seasonally, tell us when it is occupied and whether stable indoor temperatures can be maintained during installation and curing."
+  },
+  {
+    "municipality": "Centre Hastings",
+    "region": "Hastings County",
+    "communities": [
+      "Madoc",
+      "Ivanhoe"
+    ],
+    "sourceUrls": [
+      "https://www.centrehastings.com/visit-explore/maps/"
+    ],
+    "planningNote": "For renovation work, provide room dimensions and photographs of the existing surface so demolition, levelling and tile quantities can be reviewed."
+  },
+  {
+    "municipality": "Stirling-Rawdon",
+    "region": "Hastings County",
+    "communities": [
+      "Stirling",
+      "Springbrook"
+    ],
+    "sourceUrls": [
+      "https://www.stirling-rawdon.com/media/qpnn5iam/asset-management-plan.pdf"
+    ],
+    "planningNote": "For an occupied home or business, discuss access and downtime requirements so the tile installation can be divided into practical stages if feasible."
+  }
+]

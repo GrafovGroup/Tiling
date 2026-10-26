@@ -1,0 +1,5 @@
+<svg width="64" height="64" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+  <title>Tiling.ca</title>
+  <rect x="2" y="2" width="60" height="60" fill="#f7f1e7" stroke="#0d2b25" stroke-width="2.5"/>
+  <path d="M11 19H53M32 19V53" fill="none" stroke="#0d2b25" stroke-width="5" stroke-linecap="butt" stroke-linejoin="miter"/>
+</svg>

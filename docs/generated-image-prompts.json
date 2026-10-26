@@ -1,0 +1,110 @@
+[
+  {
+    "key": "bathroom",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-9690811f-5561-404d-8a6c-3d5cecac7b77.png",
+    "prompt": "Photorealistic ivory porcelain walk-in shower, charcoal mosaic floor, brass fixtures, niche, natural light; landscape 1536x1024; no text or logos.",
+    "asset": "/services/home/bathroom.webp",
+    "website": "https://tiling.ca",
+    "provenance": "OpenAI built-in image generation",
+    "placement": "Homepage service card bathroom"
+  },
+  {
+    "key": "floor",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-30ca15bd-5103-4233-a598-217af7ce01d1.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca website image. Homepage floor tile service photo: landscape architectural photograph of a bright Canadian entry hall with a clearly tiled warm grey porcelain floor in a running bond layout, visible narrow grout joints, oak bench, coat storage, daylight from front door. Focus on flat floor installation and doorway transition. Create one distinct original 1536x1024 photograph. Realistic materials and tile geometry. No text, logos, watermark, collage or before/after split. This is service imagery, not a documented company project.",
+    "asset": "/services/home/floor.webp",
+    "website": "https://tiling.ca",
+    "provenance": "OpenAI built-in image generation",
+    "placement": "Homepage service card floor"
+  },
+  {
+    "key": "backsplash",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-be3456e5-15d4-4469-a543-4391f28d95f1.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca website image. Homepage kitchen backsplash service photo: landscape architectural photograph of a kitchen with vertical stacked terracotta ceramic backsplash, pale oak lower cabinets, cream stone counter, precisely aligned grout, brushed nickel wall tap, small vase, side window daylight. Tile occupies majority of frame. Create one distinct original 1536x1024 photograph. Realistic materials and tile geometry. No text, logos, watermark, collage or before/after split. This is service imagery, not a documented company project.",
+    "asset": "/services/home/backsplash.webp",
+    "website": "https://tiling.ca",
+    "provenance": "OpenAI built-in image generation",
+    "placement": "Homepage service card backsplash"
+  },
+  {
+    "key": "large",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-c4020019-1b83-4460-87f6-22aa43557523.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca website image. Homepage large-format tile service photo: landscape architectural photograph of a minimalist double-height living room feature wall clad in three enormous limestone-look porcelain panels with minimal straight joints, one low charcoal hearth, linen chair, soft indirect light. Tile surface clearly central. Distinct from bathroom scenes. Create one distinct original 1536x1024 photograph. Realistic materials and tile geometry. No text, logos, watermark, collage or before/after split. This is service imagery, not a documented company project.",
+    "asset": "/services/home/large.webp",
+    "website": "https://tiling.ca",
+    "provenance": "OpenAI built-in image generation",
+    "placement": "Homepage service card large"
+  },
+  {
+    "key": "repair",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-74afa8a9-1dd7-48d6-907e-f1e3b24c4331.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca website image. Homepage tile repair service photo: landscape documentary close-up of gloved hands using a grout float diagonally across small blue-grey ceramic floor tiles, bucket and sponge partially visible, neat protective tape on baseboard. Correct tool geometry and realistic workmanship, no face. Create one distinct original 1536x1024 photograph. Realistic materials and tile geometry. No text, logos, watermark, collage or before/after split. This is service imagery, not a documented company project.",
+    "asset": "/services/home/repair.webp",
+    "website": "https://tiling.ca",
+    "provenance": "OpenAI built-in image generation",
+    "placement": "Homepage service card repair"
+  },
+  {
+    "key": "commercial",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-3eba1a2a-6787-4737-ba8f-52a3edbb5bd0.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca website image. Homepage commercial tile service photo: landscape architectural photograph of a boutique hotel reception lobby with durable terrazzo-look porcelain floor tiles, clearly visible grid joints, deep green reception counter and soft ceiling light. Broad clean floor in foreground, no people. Create one distinct original 1536x1024 photograph. Realistic materials and tile geometry. No text, logos, watermark, collage or before/after split. This is service imagery, not a documented company project.",
+    "asset": "/services/home/commercial.webp",
+    "website": "https://tiling.ca",
+    "provenance": "OpenAI built-in image generation",
+    "placement": "Homepage service card commercial"
+  },
+  {
+    "key": "supply",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-efb54de9-9490-4a6f-bbac-773f0fdecb3c.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca website image. Homepage tile supply service photo: landscape editorial product photograph of a tile sample consultation table: separate samples of ivory porcelain, green glazed ceramic, charcoal slate and white marble alongside edge trims, grout colour sticks and a rolled measuring tape. Warehouse shelving softly blurred, daylight. Create one distinct original 1536x1024 photograph. Realistic materials and tile geometry. No text, logos, watermark, collage or before/after split. This is service imagery, not a documented company project.",
+    "asset": "/services/home/supply.webp",
+    "website": "https://tiling.ca",
+    "provenance": "OpenAI built-in image generation",
+    "placement": "Homepage service card supply"
+  },
+  {
+    "key": "hero",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-cb73409d-fce4-49d6-b861-749b387c8d4d.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca website image. Homepage wide hero photo: premium architectural photograph of a modern Canadian home entrance with large light stone-look porcelain floor tiles with clearly visible grout grid, stairway with oak treads, plaster walls, one olive tree, opening toward a kitchen. Tile floor occupies lower two thirds. Rich warm daylight from right, darker uncluttered left for headline overlay. Create one distinct original 1536x1024 photograph. Realistic materials and tile geometry. No text, logos, watermark, collage or before/after split. This is service imagery, not a documented company project.",
+    "asset": "/heroes/national-hero.webp",
+    "website": "https://tiling.ca",
+    "provenance": "OpenAI built-in image generation",
+    "placement": "Homepage hero"
+  },
+  {
+    "key": "craft",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-dc214022-5bd1-446d-9b30-45c88d825799.png",
+    "prompt": "Use case: photorealistic-natural. Asset type: Tiling.ca website image. Homepage workmanship feature photo: landscape documentary close-up of an adult tiler's gloved hands setting a rectangular cream porcelain floor tile onto parallel straight mortar ridges in an indoor renovation. Adjacent aligned tiles with spacers, trowel nearby, focus on precise installation. No face, no text. Actual correct tile-setting action, not bricklaying. Create one distinct original 1536x1024 photograph. Realistic materials and tile geometry. No text, logos, watermark, collage or before/after split. This is service imagery, not a documented company project.",
+    "asset": "/heroes/national-craft.webp",
+    "website": "https://tiling.ca",
+    "provenance": "OpenAI built-in image generation",
+    "placement": "Homepage craft"
+  },
+  {
+    "key": "detail-large",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-dd77ef41-62c0-4d0b-9921-d4240c5602e0.png",
+    "prompt": "Use case: photorealistic-natural. Asset: Tiling.ca website. Large-format tile service detail image. Architectural photo of a sophisticated contemporary bathroom wall with full-height pale grey marble-look porcelain slabs, tiny straight joints, floating walnut vanity and freestanding white tub. Emphasize huge tile scale; completely distinct from ivory shower and living room wall. Landscape 1536x1024, one original realistic photograph, no text, watermark or logos, no collage.",
+    "asset": "/services/detail-large-v2.webp",
+    "website": "https://tiling.ca",
+    "provenance": "OpenAI built-in image generation",
+    "placement": "Service detail detail-large"
+  },
+  {
+    "key": "detail-kitchen",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-e3e554ce-f904-49a0-9379-8807b1a48096.png",
+    "prompt": "Use case: photorealistic-natural. Asset: Tiling.ca website. Kitchen backsplash service detail image. Architectural close view of glossy deep teal square ceramic backsplash tiles in a precise grid behind a white quartz counter, stainless range and walnut open shelving. Side lighting reveals glazed texture and grout lines. No food clutter. Landscape 1536x1024, one original realistic photograph, no text, watermark or logos, no collage.",
+    "asset": "/services/detail-kitchen-v2.webp",
+    "website": "https://tiling.ca",
+    "provenance": "OpenAI built-in image generation",
+    "placement": "Service detail detail-kitchen"
+  },
+  {
+    "key": "detail-commercial",
+    "source": "/Users/grafov/.codex/generated_images/01a12d91-7434-7c91-897e-46d76fba1f81/exec-cc43bc8c-1024-4d17-8256-c91eea138cbf.png",
+    "prompt": "Use case: photorealistic-natural. Asset: Tiling.ca website. Commercial tile service detail image. Architectural photograph of a spacious modern office reception with charcoal 60x60 porcelain floor tiles, clearly defined joints, blond wood reception desk and tall windows. Tile floor central, no people, no carpet, no wood flooring. Landscape 1536x1024, one original realistic photograph, no text, watermark or logos, no collage.",
+    "asset": "/services/detail-commercial-v2.webp",
+    "website": "https://tiling.ca",
+    "provenance": "OpenAI built-in image generation",
+    "placement": "Service detail detail-commercial"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "recordCount": 56,
+  "communityCount": 302,
+  "verifiedAt": "2026-10-12",
+  "method": "Official municipal and county websites, official visitor pages and official planning maps. Names only extracted; planning notes are conditional practical advice rather than source claims about properties.",
+  "aliases": {
+    "Stoney Point": [
+      "Pointe-aux-Roches"
+    ],
+    "Deerbrooke": [
+      "Deerbrook"
+    ],
+    "Dyers Bay": [
+      "Dyer’s Bay"
+    ],
+    "St. George": [
+      "St George"
+    ],
+    "Komoka": [
+      "Komoka-Kilworth"
+    ],
+    "Kilworth": [
+      "Komoka-Kilworth"
+    ],
+    "Douglastown": [
+      "Douglasstown"
+    ]
+  },
+  "boundaryCautions": [
+    "McGregor spans Essex and Amherstburg; avoid implying entire community only in Essex.",
+    "Elmwood spans West Grey and Brockton.",
+    "Belgrave, Auburn and Whitechurch include portions in adjacent municipalities; North Huron official plan explicitly states portions.",
+    "Monkton is shared with West Perth; Sebringville spans Perth East and Perth South.",
+    "Wellandport is at the West Lincoln/Wainfleet boundary.",
+    "Grassie is adjacent to Grimsby; use address to resolve municipality.",
+    "Singhampton is near Grey Highlands/Clearview boundary; do not imply every address belongs to Grey Highlands.",
+    "Glendale also occurs in other regions; always retain Niagara-on-the-Lake qualifier.",
+    "Mapleton community in Central Elgin is different from Mapleton Township, Wellington County.",
+    "Durham community in West Grey is different from Durham Region.",
+    "Mount Pleasant, Union, York, Greenfield, Clyde, Princeton and Lakeside need municipality context in titles/slugs.",
+    "Hamilton names include nested former municipalities, villages and settlement areas; Flamborough and Glanbrook overlap smaller community labels and are not exclusive boundaries.",
+    "Cambridge Galt, Preston, Hespeler and Blair are inherited community names within Cambridge, not separate municipal governments.",
+    "Guelph/Eramosa community names are search geography, not claims of exclusive boundaries; Ariss and Eden Mills should be verified against the project address."
+  ],
+  "gaps": [
+    "This is a researched initial list, not a complete gazetteer or every Ontario settlement.",
+    "Essex municipalities beyond Essex and Lakeshore need further community-level research.",
+    "Lambton municipalities beyond Lambton Shores need further community-level research.",
+    "Elgin municipalities beyond Central Elgin need further community-level research.",
+    "Perth South and West Perth need fuller lists.",
+    "Bruce County municipalities beyond Northern Bruce Peninsula and Saugeen Shores need fuller lists.",
+    "Grey County municipalities beyond Grey Highlands, West Grey and Meaford need fuller lists.",
+    "Wellington Puslinch still needs fuller community research.",
+    "Norfolk rural hamlets and additional Niagara hamlets remain."
+  ]
+}

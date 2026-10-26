@@ -1,0 +1,10 @@
+Final expansion update (supersedes initial counts and covered-area gaps below): 39 municipal research groups, 217 community entries. Added northern merged municipalities, Vaughan, Markham, Richmond Hill, Toronto former municipalities, Uxbridge and Pickering. Remaining gaps include an exhaustive northern/unorganized settlement gazetteer and urban neighbourhood inventories. Thornhill has portions in Vaughan and Markham; North Monetville in French River/West Nipissing; Udora spans Georgina/Uxbridge. Exact address determines municipality.
+
+Initial research notes retained for provenance:
+Research scope: 128 community names in 19 municipalities; official municipal sources, 2026-10-12.
+This is a bounded curated set, not an exhaustive inventory of Ontario communities.
+Uncovered in this batch: Northern Ontario beyond Greater Sudbury; Dufferin beyond Mulmur; York beyond King/Georgina/East Gwillimbury; most remaining rural Simcoe; Toronto/Mississauga/Brampton urban neighbourhoods; Uxbridge and Pickering hamlets.
+Boundary caution: View Lake and Severn Bridge can describe settlements near or across municipal boundaries; the record establishes presence within named municipality but must not imply exclusive boundaries. Port Bolster and Dorset omitted to avoid exclusive assignment of shared communities. Brown Hill is likewise near the Georgina/EG boundary; EG official parks page supports the grouping.
+Planning notes are our conditional project advice, not claims extracted from municipal sources or assertions that all local buildings share a defect.
+Greater Sudbury's official 2025 community plan and recreation guide jointly verify the listed communities; not all are separately incorporated towns.
+Clarington's cited 2019 official municipal study contains a spelling 'Burkton', so Burketon was omitted rather than carry typo. Existing urban URLs such as Bowmanville may already be present: deduplicate on normalized name before adding.

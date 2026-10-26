@@ -1,0 +1,14 @@
+import {readFile,writeFile} from 'node:fs/promises';
+const config=JSON.parse(await readFile(new URL('../docs/indexnow-config.json',import.meta.url),'utf8'));
+const keyResponse=await fetch(config.keyLocation,{headers:{"user-agent":"Mozilla/5.0 TilingSiteVerification"}});
+if(!keyResponse.ok||(await keyResponse.text()).trim()!==config.key)throw new Error('Published IndexNow ownership file does not match');
+const sitemapResponse=await fetch(`https://${config.host}/sitemap.xml`,{headers:{"user-agent":"Mozilla/5.0 TilingSiteVerification"}});
+if(!sitemapResponse.ok)throw new Error('Cannot read published sitemap');
+const xml=await sitemapResponse.text();
+const urlList=[...new Set([...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1].replaceAll('&amp;','&')))];
+if(!urlList.length||urlList.length>10000||urlList.some(u=>new URL(u).origin!==`https://${config.host}`))throw new Error('Invalid sitemap URL list');
+const response=await fetch(config.endpoint,{method:'POST',headers:{'content-type':'application/json'},body:JSON.stringify({host:config.host,key:config.key,keyLocation:config.keyLocation,urlList})});
+const receipt={submittedAt:new Date().toISOString(),host:config.host,urlCount:urlList.length,status:response.status,response:await response.text(),meaning:response.status===200?'URLs received; indexing is not guaranteed':response.status===202?'Received; key validation pending':'Submission failed'};
+if(process.argv[2])await writeFile(process.argv[2],JSON.stringify(receipt,null,2)+'\n');
+console.log(JSON.stringify(receipt));
+if(![200,202].includes(response.status))process.exitCode=1;

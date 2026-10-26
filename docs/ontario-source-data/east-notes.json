@@ -1,0 +1,28 @@
+{
+  "coverage": "Bounded verified selection, not an exhaustive gazetteer. 133 communities in 23 municipal groups. Unlisted municipalities and villages are not evidence of unavailable service.",
+  "boundaryNotes": [
+    "Russell source explicitly says only parts of Limoges and Marionville lie in the township. Do not imply exclusive membership; those villages span municipal boundaries.",
+    "Carrying Place spans Prince Edward County and Quinte West. Use a qualified location relationship if modelling only one parent.",
+    "Young\u2019s Point spans Selwyn and Douro-Dummer. Selwyn municipal plan supports its Selwyn portion.",
+    "Dacre is supported by Greater Madawaska municipal tourism postal-area wording. Confirm address for boundary-specific claims.",
+    "Rideau Ferry omitted because it spans municipal boundaries; Westport omitted from Rideau Lakes because it is a separate municipality.",
+    "Burritts Rapids omitted from North Grenville record because it spans the Ottawa boundary.",
+    "Amherst Island is mentioned only in a conditional Loyalist planning note, not treated as a village. Millhaven is supported as the ferry departure location.",
+    "Madoc village belongs to Centre Hastings; do not incorrectly assign it to Madoc township."
+  ],
+  "sourceNotes": [
+    "North Glengarry page misspells Glen Robertson as Glen Roberston. Dataset uses established spelling Glen Robertson.",
+    "South Stormont municipal source abbreviates St Andrews; dataset uses St. Andrews West to distinguish other Ontario places.",
+    "Clarence-Rockland sources use St-Pascal Baylon; dataset uses Saint-Pascal-Baylon. Treat as an alias, not a second town.",
+    "Dysart et al is the common municipal name. The full legal name is the United Townships of Dysart, Dudley, Harcourt, Guilford, Harburn, Bruton, Havelock, Eyre and Clyde.",
+    "Official planning/map sources establish place names and membership only. Conditional tile planning notes are original project scoping guidance, not claims about every building or completed work.",
+    "Some municipal sources are historical approved plans or municipal PDFs; no claim is made that this is a complete current settlement list.",
+    "No geographic source establishes search volume, ranking, business branch presence, licence coverage or guaranteed job availability."
+  ],
+  "knownGaps": [
+    "Not comprehensive for Renfrew, Lanark, Leeds-Grenville, Frontenac, Hastings, Peterborough or Northumberland municipal subdivisions.",
+    "No First Nations reserve/community mapping was attempted; authoritative First Nation sources and access/service confirmation would be needed.",
+    "Formal municipality records elsewhere may already cover a same-name village (e.g. Russell). Deduplicate slugs by both name and parent geography.",
+    "Duplicate names across Ontario require disambiguation, especially Richmond, Wellington, Harmony, Mountain, Elgin, Lancaster, Cardiff and Eagle Lake."
+  ]
+}

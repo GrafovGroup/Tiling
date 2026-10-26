@@ -1,0 +1,875 @@
+[
+  {
+    "municipality": "Essex",
+    "region": "Essex County",
+    "communities": [
+      "Essex Centre",
+      "Harrow",
+      "Colchester",
+      "McGregor"
+    ],
+    "sourceUrls": [
+      "https://www.essex.ca/economic-development/our-community/local-communities/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Lakeshore",
+    "region": "Essex County",
+    "communities": [
+      "Belle River",
+      "Comber",
+      "Deerbrooke",
+      "Emeryville",
+      "Lighthouse Cove",
+      "Puce",
+      "Ruscom",
+      "Maidstone",
+      "Staples",
+      "St. Joachim",
+      "Stoney Point",
+      "Woodslee"
+    ],
+    "sourceUrls": [
+      "https://www.lakeshore.ca/living-here/about-us/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Chatham-Kent",
+    "region": "Chatham-Kent",
+    "communities": [
+      "Chatham",
+      "Wallaceburg",
+      "Dresden",
+      "Bothwell",
+      "Thamesville",
+      "Highgate",
+      "Ridgetown",
+      "Blenheim",
+      "Erie Beach",
+      "Erieau",
+      "Tilbury",
+      "Merlin",
+      "Wheatley"
+    ],
+    "sourceUrls": [
+      "https://www.chatham-kent.ca/localgovernment/Documents/Studies%20and%20Plans/south-kent-accomodations-report.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Lambton Shores",
+    "region": "Lambton County",
+    "communities": [
+      "Arkona",
+      "Forest",
+      "Grand Bend",
+      "Ipperwash",
+      "Port Franks",
+      "Thedford"
+    ],
+    "sourceUrls": [
+      "https://www.lambtonshores.ca/living-here/maps/"
+    ],
+    "planningNote": "For seasonal lakeside properties, confirm that the work space will be heated throughout installation and curing, and agree delivery and access arrangements before work begins."
+  },
+  {
+    "municipality": "North Middlesex",
+    "region": "Middlesex County",
+    "communities": [
+      "Parkhill",
+      "Ailsa Craig"
+    ],
+    "sourceUrls": [
+      "https://www.middlesex.ca/sites/default/files/MiddlesexCommunities.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Lucan Biddulph",
+    "region": "Middlesex County",
+    "communities": [
+      "Lucan"
+    ],
+    "sourceUrls": [
+      "https://www.middlesex.ca/sites/default/files/MiddlesexCommunities.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Thames Centre",
+    "region": "Middlesex County",
+    "communities": [
+      "Thorndale",
+      "Dorchester"
+    ],
+    "sourceUrls": [
+      "https://www.middlesex.ca/sites/default/files/MiddlesexCommunities.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Middlesex Centre",
+    "region": "Middlesex County",
+    "communities": [
+      "Ilderton",
+      "Komoka",
+      "Kilworth",
+      "Delaware"
+    ],
+    "sourceUrls": [
+      "https://www.middlesex.ca/sites/default/files/MiddlesexCommunities.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Strathroy-Caradoc",
+    "region": "Middlesex County",
+    "communities": [
+      "Mount Brydges",
+      "Strathroy"
+    ],
+    "sourceUrls": [
+      "https://www.middlesex.ca/sites/default/files/MiddlesexCommunities.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Southwest Middlesex",
+    "region": "Middlesex County",
+    "communities": [
+      "Glencoe",
+      "Wardsville"
+    ],
+    "sourceUrls": [
+      "https://www.middlesex.ca/sites/default/files/MiddlesexCommunities.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Newbury",
+    "region": "Middlesex County",
+    "communities": [
+      "Newbury"
+    ],
+    "sourceUrls": [
+      "https://www.middlesex.ca/sites/default/files/MiddlesexCommunities.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Adelaide Metcalfe",
+    "region": "Middlesex County",
+    "communities": [
+      "Napier"
+    ],
+    "sourceUrls": [
+      "https://www.visitmiddlesex.ca/plan/community-connections/municipalities"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Central Elgin",
+    "region": "Elgin County",
+    "communities": [
+      "Belmont",
+      "Dexter",
+      "Lawton’s Corners",
+      "Lyndale",
+      "Lynhurst",
+      "Mapleton",
+      "New Sarum",
+      "Norman",
+      "Port Stanley",
+      "Sparta",
+      "Union",
+      "Whites",
+      "Yarmouth Centre"
+    ],
+    "sourceUrls": [
+      "https://www.centralelgin.org/municipal-office-council/about-central-elgin/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Blandford-Blenheim",
+    "region": "Oxford County",
+    "communities": [
+      "Bright",
+      "Drumbo",
+      "Plattsville",
+      "Princeton"
+    ],
+    "sourceUrls": [
+      "https://www.oxfordcounty.ca/services-for-you/planning-and-development/community-profile-and-statistics/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "East Zorra-Tavistock",
+    "region": "Oxford County",
+    "communities": [
+      "Hickson",
+      "Innerkip",
+      "Tavistock"
+    ],
+    "sourceUrls": [
+      "https://www.oxfordcounty.ca/services-for-you/planning-and-development/community-profile-and-statistics/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Norwich",
+    "region": "Oxford County",
+    "communities": [
+      "Burgessville",
+      "Norwich",
+      "Otterville",
+      "Oxford Centre",
+      "Springford"
+    ],
+    "sourceUrls": [
+      "https://www.oxfordcounty.ca/services-for-you/planning-and-development/community-profile-and-statistics/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "South-West Oxford",
+    "region": "Oxford County",
+    "communities": [
+      "Beachville",
+      "Brownsville",
+      "Dereham Centre",
+      "Mount Elgin",
+      "Salford",
+      "Sweaburg"
+    ],
+    "sourceUrls": [
+      "https://www.oxfordcounty.ca/services-for-you/planning-and-development/community-profile-and-statistics/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Zorra",
+    "region": "Oxford County",
+    "communities": [
+      "Embro",
+      "Harrington",
+      "Kintore",
+      "Lakeside",
+      "Thamesford"
+    ],
+    "sourceUrls": [
+      "https://www.oxfordcounty.ca/services-for-you/planning-and-development/community-profile-and-statistics/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Perth East",
+    "region": "Perth County",
+    "communities": [
+      "Milverton",
+      "Shakespeare",
+      "Millbank",
+      "Carthage",
+      "Newton",
+      "Rostock",
+      "Brunner",
+      "Wartburg",
+      "Gads Hill",
+      "Nithburg",
+      "Sebringville",
+      "Sebastopol"
+    ],
+    "sourceUrls": [
+      "https://www.pertheast.ca/about-our-community/history-of-perth-east/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "North Perth",
+    "region": "Perth County",
+    "communities": [
+      "Atwood",
+      "Listowel",
+      "Monkton"
+    ],
+    "sourceUrls": [
+      "https://www.northperth.ca/business-development/maps/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Bluewater",
+    "region": "Huron County",
+    "communities": [
+      "Hensall",
+      "Zurich",
+      "Bayfield"
+    ],
+    "sourceUrls": [
+      "https://www.huroncounty.ca/wp-content/uploads/2026/05/Finding-A-Place-To-Live_2026.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "South Huron",
+    "region": "Huron County",
+    "communities": [
+      "Exeter"
+    ],
+    "sourceUrls": [
+      "https://www.huroncounty.ca/wp-content/uploads/2026/05/Finding-A-Place-To-Live_2026.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Huron East",
+    "region": "Huron County",
+    "communities": [
+      "Seaforth",
+      "Brussels"
+    ],
+    "sourceUrls": [
+      "https://www.huroncounty.ca/wp-content/uploads/2026/05/Finding-A-Place-To-Live_2026.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Central Huron",
+    "region": "Huron County",
+    "communities": [
+      "Clinton"
+    ],
+    "sourceUrls": [
+      "https://www.huroncounty.ca/wp-content/uploads/2026/05/Finding-A-Place-To-Live_2026.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Ashfield-Colborne-Wawanosh",
+    "region": "Huron County",
+    "communities": [
+      "Port Albert",
+      "Dungannon"
+    ],
+    "sourceUrls": [
+      "https://www.huroncounty.ca/wp-content/uploads/2026/05/Finding-A-Place-To-Live_2026.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Morris-Turnberry",
+    "region": "Huron County",
+    "communities": [
+      "Bluevale"
+    ],
+    "sourceUrls": [
+      "https://www.huroncounty.ca/wp-content/uploads/2026/05/Finding-A-Place-To-Live_2026.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Howick",
+    "region": "Huron County",
+    "communities": [
+      "Fordwich",
+      "Gorrie",
+      "Wroxeter"
+    ],
+    "sourceUrls": [
+      "https://www.huroncounty.ca/wp-content/uploads/2026/05/Finding-A-Place-To-Live_2026.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "North Huron",
+    "region": "Huron County",
+    "communities": [
+      "Wingham",
+      "Blyth",
+      "Belgrave",
+      "Hutton Heights",
+      "Auburn",
+      "Whitechurch"
+    ],
+    "sourceUrls": [
+      "https://www.northhuron.ca/en/municipal-government/resources/Documents/NHu%20Consolidated%20OP.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Northern Bruce Peninsula",
+    "region": "Bruce County",
+    "communities": [
+      "Lion's Head",
+      "Tobermory",
+      "Dyers Bay",
+      "Miller Lake",
+      "Stokes Bay",
+      "Pike Bay",
+      "Ferndale",
+      "Barrow Bay"
+    ],
+    "sourceUrls": [
+      "https://www.northbrucepeninsula.ca/community/about-northern-bruce-peninsula/"
+    ],
+    "planningNote": "For a seasonal home, confirm winter access and continuous heat during tile installation and curing; allow room for material storage and staged deliveries."
+  },
+  {
+    "municipality": "Saugeen Shores",
+    "region": "Bruce County",
+    "communities": [
+      "Port Elgin",
+      "Southampton"
+    ],
+    "sourceUrls": [
+      "https://www.saugeenshores.ca/recreation-facilities-and-culture/waterfront-and-beaches/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Grey Highlands",
+    "region": "Grey County",
+    "communities": [
+      "Markdale",
+      "Eugenia",
+      "Ceylon",
+      "Maxwell",
+      "Singhampton",
+      "Priceville",
+      "Kimberley",
+      "Feversham",
+      "Flesherton"
+    ],
+    "sourceUrls": [
+      "https://www.greyhighlands.ca/our-community/about-grey-highlands/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Meaford",
+    "region": "Grey County",
+    "communities": [
+      "Annan",
+      "Leith"
+    ],
+    "sourceUrls": [
+      "https://www.grey.ca/things-do/explore-our-communities"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "West Grey",
+    "region": "Grey County",
+    "communities": [
+      "Neustadt",
+      "Ayton",
+      "Durham",
+      "Elmwood"
+    ],
+    "sourceUrls": [
+      "https://visitgrey.ca/communities"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Centre Wellington",
+    "region": "Wellington County",
+    "communities": [
+      "Fergus",
+      "Elora"
+    ],
+    "sourceUrls": [
+      "https://www.wellington.ca/experience-wellington/discover-our-communities"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Erin",
+    "region": "Wellington County",
+    "communities": [
+      "Erin",
+      "Hillsburgh"
+    ],
+    "sourceUrls": [
+      "https://www.wellington.ca/experience-wellington/discover-our-communities"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Mapleton",
+    "region": "Wellington County",
+    "communities": [
+      "Drayton",
+      "Alma"
+    ],
+    "sourceUrls": [
+      "https://www.wellington.ca/experience-wellington/discover-our-communities"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Minto",
+    "region": "Wellington County",
+    "communities": [
+      "Harriston",
+      "Palmerston",
+      "Clifford"
+    ],
+    "sourceUrls": [
+      "https://www.town.minto.on.ca/residents/recreation-facilities/facilities"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Wellington North",
+    "region": "Wellington County",
+    "communities": [
+      "Arthur",
+      "Mount Forest",
+      "Kenilworth"
+    ],
+    "sourceUrls": [
+      "https://www.wellington-north.com/community/history"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Wilmot",
+    "region": "Waterloo Region",
+    "communities": [
+      "New Hamburg",
+      "Baden",
+      "St. Agatha",
+      "Petersburg",
+      "Mannheim",
+      "New Dundee",
+      "Philipsburg",
+      "Shingletown",
+      "Wilmot Centre",
+      "Haysville",
+      "Luxemburg",
+      "Lisbon",
+      "Sunfish Lake",
+      "Foxboro Green"
+    ],
+    "sourceUrls": [
+      "https://www.wilmot.ca/business-and-development/community-profile/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Woolwich",
+    "region": "Waterloo Region",
+    "communities": [
+      "Elmira",
+      "St. Jacobs",
+      "Breslau"
+    ],
+    "sourceUrls": [
+      "https://www.woolwich.ca/explore-play/about-woolwich/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "North Dumfries",
+    "region": "Waterloo Region",
+    "communities": [
+      "Ayr",
+      "Branchton",
+      "Roseville",
+      "Clyde",
+      "Reidsville",
+      "Greenfield"
+    ],
+    "sourceUrls": [
+      "https://www.northdumfries.ca/living-here/about-north-dumfries/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Wellesley",
+    "region": "Waterloo Region",
+    "communities": [
+      "Hawkesville",
+      "Heidelberg",
+      "Linwood",
+      "St. Clements",
+      "Wellesley"
+    ],
+    "sourceUrls": [
+      "https://www.wellesley.ca/building-and-development/maps/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Brant",
+    "region": "Brant County",
+    "communities": [
+      "Burford",
+      "Burtch",
+      "Onondaga",
+      "Middleport",
+      "Cainsville",
+      "Cathcart",
+      "Muir",
+      "New Durham",
+      "Fairfield Plain",
+      "Falkland",
+      "Glen Morris",
+      "Harrisburg",
+      "Harley",
+      "Kelvin",
+      "Mount Pleasant",
+      "Oakhill",
+      "Paris",
+      "St. George",
+      "Scotland",
+      "Oakland"
+    ],
+    "sourceUrls": [
+      "https://www.brant.ca/council-and-county-administration/communities/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Haldimand County",
+    "region": "Haldimand County",
+    "communities": [
+      "Caledonia",
+      "Canborough",
+      "Cayuga",
+      "Dunnville",
+      "Fisherville",
+      "Hagersville",
+      "Jarvis",
+      "Nanticoke",
+      "Selkirk",
+      "Townsend",
+      "York"
+    ],
+    "sourceUrls": [
+      "https://www.haldimandcounty.ca/recreation-culture-community/parks-and-pavilions/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Norfolk County",
+    "region": "Norfolk County",
+    "communities": [
+      "Port Dover",
+      "Simcoe",
+      "Waterford",
+      "Delhi",
+      "Courtland",
+      "Port Rowan",
+      "St. Williams"
+    ],
+    "sourceUrls": [
+      "https://www.norfolkcounty.ca/home-property-and-neighbourhood/water-and-wastewater/inter-urban-water-supply/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Lincoln",
+    "region": "Niagara Region",
+    "communities": [
+      "Beamsville",
+      "Jordan",
+      "Jordan Station",
+      "Vineland",
+      "Campden",
+      "Tintern"
+    ],
+    "sourceUrls": [
+      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf",
+      "https://www.lincoln.ca/build-invest/planning-and-development/secondary-plans"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "West Lincoln",
+    "region": "Niagara Region",
+    "communities": [
+      "Smithville",
+      "Caistor Centre",
+      "Wellandport",
+      "St. Anns",
+      "Grassie",
+      "Fulton",
+      "Abingdon",
+      "Bismark"
+    ],
+    "sourceUrls": [
+      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf",
+      "https://www.westlincoln.ca/en/recreation-and-leisure/resources/20182019-Recreation-and-Municipal-Guide.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Pelham",
+    "region": "Niagara Region",
+    "communities": [
+      "Fenwick",
+      "Ridgeville",
+      "Fonthill",
+      "North Pelham"
+    ],
+    "sourceUrls": [
+      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Niagara-on-the-Lake",
+    "region": "Niagara Region",
+    "communities": [
+      "Virgil",
+      "Queenston",
+      "St. David’s",
+      "Glendale"
+    ],
+    "sourceUrls": [
+      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Fort Erie",
+    "region": "Niagara Region",
+    "communities": [
+      "Stevensville",
+      "Douglastown",
+      "Snyder",
+      "Bridgeburg",
+      "Ridgeway",
+      "Thunder Bay",
+      "Black Creek",
+      "Crystal Beach"
+    ],
+    "sourceUrls": [
+      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf",
+      "https://www.forterie.ca/build-and-invest/planning-and-development/official-plan/"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Port Colborne",
+    "region": "Niagara Region",
+    "communities": [
+      "Bethel",
+      "Sherkston",
+      "Gasline"
+    ],
+    "sourceUrls": [
+      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf",
+      "https://www.portcolborne.ca/en/business-and-development/official-plan.aspx"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Wainfleet",
+    "region": "Niagara Region",
+    "communities": [
+      "Burnaby",
+      "Winger",
+      "Wainfleet"
+    ],
+    "sourceUrls": [
+      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Thorold",
+    "region": "Niagara Region",
+    "communities": [
+      "Port Robinson",
+      "Thorold South"
+    ],
+    "sourceUrls": [
+      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf"
+    ],
+    "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
+  },
+  {
+    "municipality": "Hamilton",
+    "region": "Hamilton",
+    "communities": [
+      "Ancaster",
+      "Dundas",
+      "Waterdown",
+      "Stoney Creek",
+      "Binbrook",
+      "Mount Hope",
+      "Winona",
+      "Flamborough",
+      "Glanbrook",
+      "Alberton",
+      "Copetown",
+      "Jerseyville",
+      "Carlisle",
+      "Flamborough Centre",
+      "Freelton",
+      "Greensville",
+      "Kirkwall",
+      "Lynden",
+      "Millgrove",
+      "Orkney",
+      "Rockton",
+      "Sheffield",
+      "Strabane",
+      "Troy",
+      "Westover",
+      "Woodburn",
+      "Tapleytown"
+    ],
+    "sourceUrls": [
+      "https://www.hamilton.ca/city-council/data-maps/city-data",
+      "https://www.hamilton.ca/home-neighbourhood/water-wastewater-stormwater/water-treatment-distribution/drinking-water-system",
+      "https://www.hamilton.ca/city-council/council-committee/city-council-members/city-councillors/ward-11",
+      "https://www.hamilton.ca/build-invest-grow/planning-development/official-plan/rural-hamilton-official-plan",
+      "https://www.hamilton.ca/sites/default/files/2022-08/masterplan-recreational-trails2.pdf"
+    ],
+    "planningNote": "For a renovation, confirm the existing floor assembly, delivery access and whether the space remains occupied during work. Rural addresses and older village properties may need a different staging plan from newer subdivisions."
+  },
+  {
+    "municipality": "Cambridge",
+    "region": "Waterloo Region",
+    "communities": [
+      "Galt",
+      "Preston",
+      "Hespeler",
+      "Blair"
+    ],
+    "sourceUrls": [
+      "https://www.cambridge.ca/business-building-development/building-planning/history-heritage/local-history/",
+      "https://www.cambridge.ca/business-building-development/economic-development/core-areas/"
+    ],
+    "planningNote": "If work is in an older building, inspect the subfloor and finished floor heights before selecting tile; for downtown properties, arrange unloading and material storage with the owner."
+  },
+  {
+    "municipality": "Guelph/Eramosa",
+    "region": "Wellington County",
+    "communities": [
+      "Rockwood",
+      "Eden Mills",
+      "Ariss",
+      "Walkerbrae",
+      "Blossom Hill",
+      "Hartfield",
+      "Marden",
+      "Eramosa",
+      "Brucedale",
+      "Everton"
+    ],
+    "sourceUrls": [
+      "https://www.get.on.ca/uploads/UserFiles/files/GET_Trail_Guide_May2013_WEB.pdf",
+      "https://www.get.on.ca/uploads/userfiles/files/2020%20Budget%20Pres.pdf",
+      "https://www.get.on.ca/community-guide/files/assets/basic-html/page38.html"
+    ],
+    "planningNote": "For rural and village addresses, confirm the property location, delivery access and space for dry material storage. Existing floor condition and transitions determine the preparation needed."
+  }
+]
