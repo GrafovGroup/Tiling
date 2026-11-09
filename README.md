@@ -7,6 +7,8 @@ This repository includes published **Sites version 63**, source commit `6d46a942
 - GA4 `G-83XS8KT8EM` remains a Sites runtime setting, with explicit visitor consent, Enhanced Measurement off and confirmed submissions tracked as `generate_lead`. No environment files or credentials are stored in this repository.
 - GitHub Actions validates code; it does not deploy the site. The homepage alternatives remain documentation only. [Source manifest](docs/github-sync-2026-11-08-consolidation.json).
 
+A [rollout checklist for further consolidation](docs/page-consolidation-next-batch.md) is available. It is planning documentation only; further redirects require the pilot checkpoint and a fresh evidence review. Detailed account observations and candidate URL decisions are kept in private working files.
+
 Later updates supersede historical notes below.
 
 ---
