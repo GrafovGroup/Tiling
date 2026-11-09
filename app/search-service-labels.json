@@ -1,0 +1,62 @@
+{
+  "bathroom-shower-tile": {
+    "en": "Bathroom & Shower Tile",
+    "fr": "Carrelage de salle de bain"
+  },
+  "floor-tile-installation": {
+    "en": "Floor Tile Installation",
+    "fr": "Carrelage au sol"
+  },
+  "kitchen-backsplash": {
+    "en": "Kitchen Backsplash",
+    "fr": "Dosseret de cuisine"
+  },
+  "large-format-tile": {
+    "en": "Large-Format Tile",
+    "fr": "Carrelage grand format"
+  },
+  "heated-tile-floors": {
+    "en": "Heated Tile Floors",
+    "fr": "Planchers chauffants carrelés"
+  },
+  "tile-repair-regrouting": {
+    "en": "Tile & Grout Repair",
+    "fr": "Réparation de carreaux et joints"
+  },
+  "commercial-tile": {
+    "en": "Commercial Tile",
+    "fr": "Carrelage commercial"
+  },
+  "outdoor-balcony-tiling": {
+    "en": "Outdoor & Balcony Tile",
+    "fr": "Carrelage extérieur"
+  },
+  "fireplace-feature-wall-tiling": {
+    "en": "Fireplace & Wall Tile",
+    "fr": "Carrelage de foyer et de mur"
+  },
+  "pool-spa-tiling": {
+    "en": "Pool & Spa Tile",
+    "fr": "Carrelage de piscine et spa"
+  },
+  "tile-stairs-steps": {
+    "en": "Tile Stairs & Steps",
+    "fr": "Escaliers en carrelage"
+  },
+  "tile-removal-surface-preparation": {
+    "en": "Tile Removal & Prep",
+    "fr": "Dépose de carrelage"
+  },
+  "tile-grout-stone-cleaning-sealing": {
+    "en": "Tile Cleaning & Sealing",
+    "fr": "Nettoyage et scellement"
+  },
+  "rooftop-terrace-pedestal-pavers": {
+    "en": "Rooftop & Pedestal Pavers",
+    "fr": "Dalles sur plots"
+  },
+  "tile-supply-delivery": {
+    "en": "Tile Supply & Delivery",
+    "fr": "Fourniture de carreaux"
+  }
+}

@@ -21,7 +21,7 @@ test('does not claim success for HTML or unconfirmed JSON', async () => {
 });
 test('network failures keep errors actionable without retrying', async () => {
   let calls = 0;
-  await assert.rejects(submitQuoteRequest('https://example.invalid', form, async () => { calls++; throw new Error('Network unavailable'); }), /Network unavailable/);
+  await assert.rejects(submitQuoteRequest('https://example.invalid', form, async () => { calls++; throw new Error('Network unavailable'); }), /check your connection, or call or email/);
   assert.equal(calls, 1);
 });
 test('timeout releases pending request without an automatic duplicate', async () => {

@@ -106,7 +106,7 @@ test("keeps primary photography distinct with approved reuse on location pages",
   }
 
   const css=await readFile(new URL("../app/globals.css",import.meta.url),"utf8");
-  const hero=css.match(/\.hero-photo\{background-image:url\("([^"]+)"\)\}/)?.[1];
+  const hero=(await (await render("/")).text()).match(/<source[^>]*srcSet="([^"]+)"/)?.[1];
   const feature=css.match(/\.feature-image\{background-image:url\("([^"]+)"\)/)?.[1];
   assert.ok(hero); assert.ok(feature); assert.notEqual(hero,feature,"homepage photography must not repeat");
 });
@@ -259,7 +259,7 @@ test("simplifies sections while retaining services, local destinations and enqui
   assert.doesNotMatch(commercial, /class="launch-cta section-pad"/);
   const material = await (await render('/materials/porcelain-tile')).text();
   assert.doesNotMatch(material, /class="material-intro section-pad"/);
-  assert.match(material, /Product data, stock and site conditions/);
+  assert.match(material, /We confirm products, quantities, available batches, delivery and installation scope in the quote/);
 });
 
 test("offers fifteen services with distinct new scopes, imagery and quote context", async () => {

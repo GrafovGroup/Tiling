@@ -1,2 +1,6 @@
 import { permanentRedirect } from "next/navigation";
-export default function LegacyReviewPage() { permanentRedirect("/how-it-works"); }
+import { legacyDestination, type RouteQuery } from "../legacy-redirects";
+
+export default async function LegacyReviewPage({ searchParams }: { searchParams: Promise<RouteQuery> }) {
+  permanentRedirect(legacyDestination("/contractor-review-process", await searchParams)!);
+}

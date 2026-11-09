@@ -116,7 +116,7 @@
     "type": "Township of",
     "tier": "Lower Tier",
     "region": "Northumberland",
-    "website": "http://www.alnwickhaldimand.ca/",
+    "website": "https://www.ahtwp.ca/",
     "slug": "alnwick-haldimand",
     "regionSlug": "northumberland",
     "communities": [],
@@ -270,7 +270,7 @@
     "type": "Town of",
     "tier": "Single Tier",
     "region": "Rainy River",
-    "website": "http://www.atikokan.ca/siteengine/activepage.asp",
+    "website": "https://atikokan.ca/",
     "slug": "atikokan",
     "regionSlug": "rainy-river",
     "communities": [],
@@ -361,7 +361,7 @@
     "type": "Municipality of",
     "tier": "Lower Tier",
     "region": "Elgin",
-    "website": "http://www.bayham.on.ca/siteengine/activepage.asp",
+    "website": "https://www.bayham.on.ca/",
     "slug": "bayham",
     "regionSlug": "elgin",
     "communities": [],
@@ -768,7 +768,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.townshipofbrock.ca/en/building-and-business-development/official-plan.aspx"
+      "https://www.townshipofbrock.ca/building-and-business-development/planning-and-development/official-plan/"
     ],
     "planningNote": "For a shoreline or rural home, access and heating conditions help plan materials and scheduling; wet entrances need a tile finish suited to expected water and footwear."
   },
@@ -1055,7 +1055,7 @@
     "type": "Township of",
     "tier": "Lower Tier",
     "region": "Peterborough",
-    "website": "http://www.cavanmonaghan.net/siteengine/activepage.asp",
+    "website": "https://www.cavanmonaghan.net/",
     "slug": "cavan-monaghan",
     "regionSlug": "peterborough",
     "communities": [],
@@ -1982,7 +1982,7 @@
     "type": "Township of",
     "tier": "Lower Tier",
     "region": "Leeds and Grenville",
-    "website": "http://www.elizabethtown-kitley.on.ca/",
+    "website": "https://www.ektwp.ca/",
     "slug": "elizabethtown-kitley",
     "regionSlug": "leeds-and-grenville",
     "communities": [],
@@ -2202,7 +2202,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf",
+      "https://www.niagararegion.ca/media/4vllpqr4/2022-niagara-official-plan.pdf#page=338",
       "https://www.forterie.ca/build-and-invest/planning-and-development/official-plan/"
     ],
     "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
@@ -2652,7 +2652,7 @@
     ],
     "sourceUrls": [
       "https://www.greenstone.ca/recreation-and-leisure/history/",
-      "https://www.greenstone.ca/en/living-here/Community-Information-Package/Greenstone_CommunityAttractionPkg_WEB_9x9_FIN_ENG.pdf"
+      "https://www.greenstone.ca/business-and-development/community-profile/"
     ],
     "planningNote": "Greenstone covers a large area, so provide the community and property address for delivery planning; confirm heated indoor storage and suitable room temperatures for installation and curing."
   },
@@ -2896,7 +2896,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.haltonhills.ca/en/explore-and-play/resources/Documents/HaltonHills_Cultural_Master_Plan_FINAL.pdf"
+      "https://www23.statcan.gc.ca/imdb/p3VD.pl?CLV=4&CPV=3524015&CST=01012021&CVD=1341558&Function=getVD&MLV=4&TVD=1346772&adm=0&dis=0"
     ],
     "planningNote": "For an older village property, photographs of adjoining floors and door clearances help plan transitions; include delivery and parking constraints with the project details."
   },
@@ -3168,16 +3168,12 @@
         "id": "wilberforce"
       },
       {
-        "name": "Irondale",
-        "id": "irondale"
-      },
-      {
         "name": "Gooderham",
         "id": "gooderham"
       }
     ],
     "sourceUrls": [
-      "https://www.highlandseast.ca/en/resourcesGeneral/Documents/official-plan_schedule-a_land-use.pdf"
+      "https://www.highlandseast.ca/explore-play/history/"
     ],
     "planningNote": "If a property is used seasonally, tell us when it is occupied and whether stable indoor temperatures can be maintained during installation and curing."
   },
@@ -3495,7 +3491,7 @@
     "type": "City of",
     "tier": "Single Tier",
     "region": "Kawartha Lakes",
-    "website": "http://www.city.kawarthalakes.on.ca/",
+    "website": "https://www.kawarthalakes.ca/",
     "slug": "kawartha-lakes",
     "regionSlug": "kawartha-lakes",
     "communities": [
@@ -4090,7 +4086,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf",
+      "https://www.niagararegion.ca/media/4vllpqr4/2022-niagara-official-plan.pdf#page=338",
       "https://www.lincoln.ca/build-invest/planning-and-development/secondary-plans"
     ],
     "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
@@ -4382,7 +4378,7 @@
     ],
     "sourceUrls": [
       "https://markstay-warren.ca/",
-      "https://markstay-warren.ca/uploads/documents/Meetings/2025/RCM/03-17/AgendaMarch2025ENFR.pdf"
+      "https://markstay-warren.ca/municipal-services/protection-services/"
     ],
     "planningNote": "For rural homes, indicate unloading space and heated material storage; the existing floor should be checked for flatness and movement before the tile size and installation method are confirmed."
   },
@@ -4439,7 +4435,7 @@
     "planningNote": ""
   },
   {
-    "name": "Mattice-Val CÃ´tÃ©",
+    "name": "Mattice-Val Côté",
     "officialName": "Mattice-Val CÃ´tÃ©, Township of",
     "type": "Township of",
     "tier": "Single Tier",
@@ -4483,7 +4479,7 @@
     "type": "Township of",
     "tier": "Single Tier",
     "region": "Parry Sound",
-    "website": "https://www.mckellar.ca/en/index.aspx",
+    "website": "https://www.mckellar.ca/",
     "slug": "mckellar",
     "regionSlug": "parry-sound",
     "communities": [],
@@ -4635,7 +4631,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.milton.ca/en/business-and-development/official-plan.aspx"
+      "https://www.milton.ca/business-development/planning-and-development/official-plan-and-policy/official-plan-studies/official-plan/"
     ],
     "planningNote": "For rural properties, include the site address and unloading arrangements when requesting tile supply or installation; assess the actual substrate before selecting large-format tile."
   },
@@ -4870,7 +4866,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.muskokalakes.ca/en/business/community-profile.aspx"
+      "https://www.muskokalakes.ca/our-community/community-profile/"
     ],
     "planningNote": "For a cottage or seasonal property, indicate road or water access and winter heating; the tile system must suit the actual substrate and exposure conditions."
   },
@@ -4997,7 +4993,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf"
+      "https://www.niagararegion.ca/media/4vllpqr4/2022-niagara-official-plan.pdf#page=338"
     ],
     "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
   },
@@ -5298,7 +5294,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.northhuron.ca/en/municipal-government/resources/Documents/NHu%20Consolidated%20OP.pdf"
+      "https://www.northhuron.ca/media/cg0dvtpm/north-huron-consolidated-op-may-2026.pdf"
     ],
     "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
   },
@@ -5793,7 +5789,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf"
+      "https://www.niagararegion.ca/media/4vllpqr4/2022-niagara-official-plan.pdf#page=338"
     ],
     "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
   },
@@ -5855,7 +5851,7 @@
     "type": "Township of",
     "tier": "Lower Tier",
     "region": "Perth",
-    "website": "https://www.pertheast.ca/en/index.aspx",
+    "website": "https://www.pertheast.ca/",
     "slug": "perth-east",
     "regionSlug": "perth",
     "communities": [
@@ -6086,7 +6082,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf",
+      "https://www.niagararegion.ca/media/4vllpqr4/2022-niagara-official-plan.pdf#page=338",
       "https://www.portcolborne.ca/en/business-and-development/official-plan.aspx"
     ],
     "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
@@ -6374,7 +6370,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.rideaulakes.ca/experience/about/discover",
+      "https://www.rideaulakes.ca/experience-rideau-lakes/our-villages-hamlets",
       "https://www.rideaulakes.ca/component/edocman/maps"
     ],
     "planningNote": "For a cottage or waterfront property, tell us whether access includes stairs, narrow lanes or boat transport so handling and scheduling can be assessed."
@@ -6559,7 +6555,7 @@
     "type": "Township of",
     "tier": "Lower Tier",
     "region": "Peterborough",
-    "website": "http://www.selwyntownship.ca/en/index.asp",
+    "website": "https://www.selwyntownship.ca/",
     "slug": "selwyn",
     "regionSlug": "peterborough",
     "communities": [
@@ -6582,7 +6578,7 @@
     ],
     "sourceUrls": [
       "https://www.selwyntownship.ca/media/2jkcign4/communityprofile_print.pdf",
-      "https://www.selwyntownship.ca/en/business-centre/resources/CIP/Selwyn-Township-CIP-Final.-Oct-15-2020.-Clean.pdf"
+      "https://www.selwyntownship.ca/media/zkepccso/selwyn-township-cip-final-oct-15-2020-clean.pdf"
     ],
     "planningNote": "If the project is in an occupied home or cottage, identify the rooms that must remain usable while tile is installed and curing."
   },
@@ -6592,7 +6588,7 @@
     "type": "Township of",
     "tier": "Lower Tier",
     "region": "Simcoe",
-    "website": "http://www.townshipofsevern.com/",
+    "website": "https://www.severn.ca/",
     "slug": "severn",
     "regionSlug": "simcoe",
     "communities": [],
@@ -6696,7 +6692,7 @@
     "type": "Municipality of",
     "tier": "Lower Tier",
     "region": "Bruce",
-    "website": "http://www.town.southbruce.on.ca/",
+    "website": "https://www.southbruce.ca/",
     "slug": "south-bruce",
     "regionSlug": "bruce",
     "communities": [],
@@ -6870,7 +6866,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.southstormont.ca/en/town-hall/resources/2020-Budget/2020-Water-and-Waste-Water-Presentation.pdf",
+      "https://www.southstormont.ca/fire-emergency-services/fire-services/",
       "https://www.southstormont.ca/your-local-government/by-laws-and-policies/"
     ],
     "planningNote": "If an entrance or mudroom is included, discuss slip resistance and the transition to adjoining flooring before selecting tile."
@@ -7450,7 +7446,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf"
+      "https://www.niagararegion.ca/media/4vllpqr4/2022-niagara-official-plan.pdf#page=338"
     ],
     "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
   },
@@ -7737,7 +7733,7 @@
     "type": "Township of",
     "tier": "Single Tier",
     "region": "Cochrane",
-    "website": "http://valharty.ca/en/",
+    "website": "https://valharty.ca/municipality/",
     "slug": "val-rita-harty",
     "regionSlug": "cochrane",
     "communities": [],
@@ -7800,7 +7796,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf"
+      "https://www.niagararegion.ca/media/4vllpqr4/2022-niagara-official-plan.pdf#page=338"
     ],
     "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
   },
@@ -8018,8 +8014,7 @@
       }
     ],
     "sourceUrls": [
-      "https://www.niagararegion.ca/official-plan/pdf/final/schedule-a.pdf",
-      "https://www.westlincoln.ca/en/recreation-and-leisure/resources/20182019-Recreation-and-Municipal-Guide.pdf"
+      "https://www.niagararegion.ca/media/4vllpqr4/2022-niagara-official-plan.pdf#page=338"
     ],
     "planningNote": "For rural properties, confirm the delivery address, access for tile deliveries, room dimensions and the condition of the existing floor before scheduling."
   },
@@ -8112,7 +8107,7 @@
     "type": "Town of",
     "tier": "Lower Tier",
     "region": "Durham",
-    "website": "http://www.whitby.ca/en/",
+    "website": "https://www.whitby.ca/",
     "slug": "whitby",
     "regionSlug": "durham",
     "communities": [

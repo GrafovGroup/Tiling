@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 export function withSocialMetadata(metadata: Metadata): Metadata {
-  const title = typeof metadata.title === "string" ? metadata.title : undefined;
+  const title = typeof metadata.title === "string" ? metadata.title : metadata.title && "absolute" in metadata.title ? metadata.title.absolute : undefined;
   if (!title) return metadata;
   const description = metadata.description || undefined;
   const canonical = metadata.alternates?.canonical;

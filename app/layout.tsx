@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { headers } from "next/headers";
+import { EnquiryLinks } from "./enquiry-links";
+import { AnalyticsConsent } from "./analytics-consent";
+import { validMeasurementId } from "./analytics-config";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://tiling.ca"),
@@ -18,7 +21,9 @@ export default async function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
-  const locale = (await headers()).get("x-tiling-locale") === "fr" ? "fr-CA" : "en-CA";
+  const requestHeaders = await headers();
+  const locale = requestHeaders.get("x-tiling-locale") === "fr" ? "fr-CA" : "en-CA";
+  const measurementId = requestHeaders.get("x-tiling-ga4");
   return (
     <html lang={locale}>
       <head>
@@ -29,7 +34,7 @@ export default async function RootLayout({
         <link rel="shortcut icon" href="/favicon-v8.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon-v8.png" sizes="180x180" />
       </head>
-      <body>{children}</body>
+      <body>{children}<EnquiryLinks/>{validMeasurementId(measurementId) && <AnalyticsConsent measurementId={measurementId} locale={locale === "fr-CA" ? "fr" : "en"}/>}</body>
     </html>
   );
 }

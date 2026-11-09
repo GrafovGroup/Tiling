@@ -1,0 +1,449 @@
+{
+  "reviewed": "2026-11-08",
+  "scope": "Twelve additional service pricing guides. Published Canadian examples, not a market survey or Tiling.ca rate card.",
+  "sources": {
+    "zelta": {
+      "id": "zelta",
+      "name": "Zelta",
+      "url": "https://zelta.ca/blog/tile-installation-cost-in-2023/",
+      "region": {
+        "en": "Toronto / GTA",
+        "fr": "Toronto / RGT"
+      }
+    },
+    "superior_large": {
+      "id": "superior_large",
+      "name": "Superior Tile Contracting — large-format guide",
+      "url": "https://superiortilecontracting.ca/blog/large-format-tile-cost-vancouver-burnaby-surrey",
+      "region": {
+        "en": "Metro Vancouver",
+        "fr": "Grand Vancouver"
+      }
+    },
+    "superior_commercial": {
+      "id": "superior_commercial",
+      "name": "Superior Tile Contracting — commercial guide",
+      "url": "https://superiortilecontracting.ca/blog/commercial-tile-installation-vancouver-2026",
+      "region": {
+        "en": "Metro Vancouver",
+        "fr": "Grand Vancouver"
+      }
+    },
+    "grand_commercial": {
+      "id": "grand_commercial",
+      "name": "Grand Design Floors",
+      "url": "https://www.granddesignfloors.ca/services/commercial",
+      "region": {
+        "en": "Calgary",
+        "fr": "Calgary"
+      }
+    },
+    "rtst_heating": {
+      "id": "rtst_heating",
+      "name": "RT Home Renovations",
+      "url": "https://rtst.ca/heated-floor-cost-vancouver/",
+      "region": {
+        "en": "Vancouver",
+        "fr": "Vancouver"
+      }
+    },
+    "delson_heating": {
+      "id": "delson_heating",
+      "name": "Delson Air",
+      "url": "https://www.delsonair.ca/journal/heated-bathroom-floors-worth-it/",
+      "region": {
+        "en": "Toronto / GTA",
+        "fr": "Toronto / RGT"
+      }
+    },
+    "nextsite_removal": {
+      "id": "nextsite_removal",
+      "name": "NextSite Demolition",
+      "url": "https://nextsitedemolition.ca/services/floor-removal/",
+      "region": {
+        "en": "Toronto / York Region",
+        "fr": "Toronto / région de York"
+      }
+    },
+    "morina_cost": {
+      "id": "morina_cost",
+      "name": "Morina Brothers Inc.",
+      "url": "https://mbtile.ca/cost/",
+      "region": {
+        "en": "Calgary and surrounding cities",
+        "fr": "Calgary et villes voisines"
+      }
+    },
+    "bgm-repair": {
+      "id": "bgm-repair",
+      "name": "BGM Construction — tile repair guide",
+      "url": "https://bgmconstructionltd.com/how-much-does-tile-repair-cost/",
+      "region": {
+        "en": "Niagara contractor; Canadian planning guide",
+        "fr": "Entrepreneur du Niagara; guide de planification canadien"
+      }
+    },
+    "builders-repair": {
+      "id": "builders-repair",
+      "name": "BuildersOntario / ICFhome — repair pricing",
+      "url": "https://buildersontario.com/tile-lippage-and-grout-problems/",
+      "region": {
+        "en": "Central Ontario",
+        "fr": "Centre de l’Ontario"
+      }
+    },
+    "priority-cleaning": {
+      "id": "priority-cleaning",
+      "name": "Priority One Flooring — cleaning and sealing",
+      "url": "https://priorityoneflooring.com/tile-grout-cleaning-vancouver-bc/",
+      "region": {
+        "en": "Vancouver, BC",
+        "fr": "Vancouver, C.-B."
+      }
+    },
+    "oxygenie-cleaning": {
+      "id": "oxygenie-cleaning",
+      "name": "Oxy-Genie — tile and grout cleaning",
+      "url": "https://www.oxygenie.ca/tile-grout-cleaning-calgary/",
+      "region": {
+        "en": "Calgary, AB",
+        "fr": "Calgary, Alb."
+      }
+    },
+    "shopflooring-tile": {
+      "id": "shopflooring-tile",
+      "name": "shopflooring.ca — Toronto tile catalogue",
+      "url": "https://shopflooring.ca/flooring/tile/toronto",
+      "region": {
+        "en": "Toronto / Ontario stock",
+        "fr": "Toronto / stocks en Ontario"
+      }
+    },
+    "tilesinspired-delivery": {
+      "id": "tilesinspired-delivery",
+      "name": "TilesInspired — shipping policy",
+      "url": "https://tilesinspired.com/pages/shipping-and-delivery",
+      "region": {
+        "en": "Toronto pickup; eligible Canadian delivery areas",
+        "fr": "Ramassage à Toronto; zones canadiennes admissibles"
+      }
+    },
+    "granddesign-stairs": {
+      "id": "granddesign-stairs",
+      "name": "Grand Design Flooring — tile installation",
+      "url": "https://www.granddesignfloors.ca/services/tile",
+      "region": {
+        "en": "Calgary, AB",
+        "fr": "Calgary, Alb."
+      }
+    },
+    "quicktiles-stairs": {
+      "id": "quicktiles-stairs",
+      "name": "QuickTiles R&D — installation price list",
+      "url": "https://www.quicktiles-rd.com/prices/",
+      "region": {
+        "en": "Toronto, ON",
+        "fr": "Toronto, Ont."
+      }
+    },
+    "primeOutdoor": {
+      "id": "primeOutdoor",
+      "name": "Prime Tiling — outdoor patio guide",
+      "url": "https://primetiling.ca/blog/outdoor-patio-tile-installation-ontario",
+      "region": {
+        "en": "Ontario / Toronto area",
+        "fr": "Ontario / région de Toronto"
+      }
+    },
+    "topOutdoor": {
+      "id": "topOutdoor",
+      "name": "Top Tile — outdoor tile",
+      "url": "https://toptile.ca/services/outdoor-tile-hardscapes/",
+      "region": {
+        "en": "Victoria / Vancouver Island",
+        "fr": "Victoria / île de Vancouver"
+      }
+    },
+    "prime": {
+      "id": "prime",
+      "name": "Prime Tiling",
+      "url": "https://primetiling.ca/pricing-guide",
+      "region": {
+        "en": "Toronto / GTA",
+        "fr": "Toronto / RGT"
+      }
+    },
+    "topFireplace": {
+      "id": "topFireplace",
+      "name": "Top Tile — fireplace tiling",
+      "url": "https://toptile.ca/services/fireplace-tiling/",
+      "region": {
+        "en": "Victoria / Vancouver Island",
+        "fr": "Victoria / île de Vancouver"
+      }
+    },
+    "tesseraFireplace": {
+      "id": "tesseraFireplace",
+      "name": "Tessera Tile — fireplace feature walls",
+      "url": "https://tesseratile.ca/fireplace-feature-walls",
+      "region": {
+        "en": "Toronto / GTA",
+        "fr": "Toronto / RGT"
+      }
+    },
+    "ambitionPool": {
+      "id": "ambitionPool",
+      "name": "Piscine Ambition — pool tiling",
+      "url": "https://piscineambition.ca/services/installation-de-carrelage-de-piscine/",
+      "region": {
+        "en": "Quebec / Montréal, Laval and surrounding regions",
+        "fr": "Québec / Montréal, Laval et régions voisines"
+      }
+    },
+    "ceramedPedestals": {
+      "id": "ceramedPedestals",
+      "name": "Ceramed — paver supports",
+      "url": "https://www.ceramed.ca/en/collections/paver-supports",
+      "region": {
+        "en": "Canadian retail",
+        "fr": "Vente au détail au Canada"
+      }
+    },
+    "ceramedPedestalPack": {
+      "id": "ceramedPedestalPack",
+      "name": "Ceramed — Enmon 60–95 mm pedestal pack",
+      "url": "https://www.ceramed.ca/en/products/enmon-pro-series-adjustable-pedestal-60-95-mm-2-36-3-74-pack-of-30-enm-3927",
+      "region": {
+        "en": "Canadian retail",
+        "fr": "Vente au détail au Canada"
+      }
+    },
+    "hdPorcelainPaver": {
+      "id": "hdPorcelainPaver",
+      "name": "Home Depot Canada — MSI porcelain paver",
+      "url": "https://www.homedepot.ca/product/msi-stone-ulc-eclipse-quartz-white-24-inch-x-24-inch-x-20mm-matte-porcelain-paver-4-sq-ft-case/1001837804",
+      "region": {
+        "en": "Canadian retail",
+        "fr": "Vente au détail au Canada"
+      }
+    }
+  },
+  "evidence": [
+    {
+      "sourceId": "zelta",
+      "url": "https://zelta.ca/blog/tile-installation-cost-in-2023/",
+      "service": "large-format-tile",
+      "exactRange": "Large-format table: labour $15–$25/sq.ft., materials $10–$25/sq.ft., installed $25–$50/sq.ft.",
+      "scope": "CAD explicitly; Toronto; heading Tile Installation Cost 2026 at a Glance",
+      "notes": "Opened November 8, 2026. Kept the table’s specific large-format range; did not substitute its combined large-format/mosaic/complex-pattern $25–$70 FAQ span."
+    },
+    {
+      "sourceId": "superior_large",
+      "url": "https://superiortilecontracting.ca/blog/large-format-tile-cost-vancouver-burnaby-surrey",
+      "service": "large-format-tile",
+      "exactRange": "24×48 porcelain installed $18–$28/sq.ft.; 60×120 or 63×126 slab installed $42–$65/sq.ft.",
+      "scope": "Metro Vancouver pricing snapshot, June 2, 2026",
+      "notes": "Prep/freight/edges discussed separately. Source does not explicitly identify tax treatment. Do not reproduce its unsupported or inconsistent technical/standards assertions."
+    },
+    {
+      "sourceId": "superior_commercial",
+      "url": "https://superiortilecontracting.ca/blog/commercial-tile-installation-vancouver-2026",
+      "service": "commercial-tile",
+      "exactRange": "12×24 supply-and-install $14–$28/sq.ft.; 24×48 supply-and-install $22–$38/sq.ft.; add 8–12% after-hours/weekends.",
+      "scope": "Metro Vancouver tenant improvement example, around 2,500 sq.ft.; June 2, 2026",
+      "notes": "Scope details and tax require confirmation. Numerical commercial examples only; do not copy the article’s legal/code/certification claims."
+    },
+    {
+      "sourceId": "grand_commercial",
+      "url": "https://www.granddesignfloors.ca/services/commercial",
+      "service": "commercial-tile",
+      "exactRange": "Install Floor $8 per sq.ft.; Minimum Charge $500 and up.",
+      "scope": "TILE INSTALLATION section on commercial service page; Calgary",
+      "notes": "Page says prices are basic installation subject to scope. Material supply and tax not stated; avoid labelling it all-in."
+    },
+    {
+      "sourceId": "grand_commercial",
+      "url": "https://www.granddesignfloors.ca/services/commercial",
+      "service": "tile-removal-surface-preparation",
+      "exactRange": "Remove, Hammer and Grind Floor $6 per sq.ft.",
+      "scope": "TILE INSTALLATION on commercial service page",
+      "notes": "Disposal and taxes not specified; scope to confirm. Also lists stairs incl. subfloor $125/stair, sent to parent for other research group."
+    },
+    {
+      "sourceId": "rtst_heating",
+      "url": "https://rtst.ca/heated-floor-cost-vancouver/",
+      "service": "heated-tile-floors",
+      "exactRange": "$1,500–$3,000 installed for a 40-square-foot bathroom; cable alone $8–$15/sq.ft.",
+      "scope": "Heating cable, thermostat, electrician and labour; tile and demolition explicitly separate",
+      "notes": "Article November 4, 2026. Web tool cache miss; directly fetched current HTML successfully with urllib on November 8. Local text capture rtst-heating.txt. No operating-cost or technical claims reused."
+    },
+    {
+      "sourceId": "delson_heating",
+      "url": "https://www.delsonair.ca/journal/heated-bathroom-floors-worth-it/",
+      "service": "heated-tile-floors",
+      "exactRange": "Total installed typical GTA bathroom roughly $1,200–$3,000; mat/cable $300–$900, thermostat $150–$300, electrical $250–$600, install labour within tile job $400–$1,200.",
+      "scope": "Electric system, typical small-to-mid bathroom; precise heated area and finish-tile scope unspecified",
+      "notes": "Directly fetched current HTML successfully after web tool cache miss. Local text capture delson-heating.txt. We do not present this as a whole finished-floor price or add component maxima to the quoted total."
+    },
+    {
+      "sourceId": "nextsite_removal",
+      "url": "https://nextsitedemolition.ca/services/floor-removal/",
+      "service": "tile-removal-surface-preparation",
+      "exactRange": "Ceramic/porcelain floor removal $3–$6/sq.ft.; subfloor removal add $1–$2/sq.ft.",
+      "scope": "Toronto/York; dust controls, hauling, scraping and swept clean described in included scope",
+      "notes": "Tax not stated; new finish, major repairs and levelling separate."
+    },
+    {
+      "sourceId": "morina_cost",
+      "url": "https://mbtile.ca/cost/",
+      "service": "tile-removal-surface-preparation",
+      "exactRange": "Floor/surface prep $3.50–$5/sq.ft., basis levelling.",
+      "scope": "CAD, small sample of 72 approved quotes Sep 2025–Mar 2026, Calgary and nearby cities",
+      "notes": "Historical approved quotes rather than current price list. Do not infer this includes removal or taxes."
+    },
+    {
+      "sourceId": "bgm-repair",
+      "url": "https://bgmconstructionltd.com/how-much-does-tile-repair-cost/",
+      "service": "tile-repair-regrouting",
+      "exactRange": "Single tile $300–$600 with homeowner spare; shower regrout $450–$900; floor regrout $5–$9/sq ft (CAD).",
+      "scope": "Professional repair benchmarks, not DIY and not new installation.",
+      "notes": "Reviewed 2026-11-08. Tax not specified. Shower includes existing walls/floor grout and corner resealing. Source's worked three-tile example differs from its table: not reused. Do not reuse its suggestion that grout constitutes waterproofing."
+    },
+    {
+      "sourceId": "builders-repair",
+      "url": "https://buildersontario.com/tile-lippage-and-grout-problems/",
+      "service": "tile-repair-regrouting",
+      "exactRange": "Bathroom-floor regrouting $4–$6/sq ft, $900 minimum, before HST.",
+      "scope": "Central Ontario repair guide by builder site connected to ICFhome; page states rates checked October 2026.",
+      "notes": "Primary builder-authored planning guide, not an accepted contractor quote. Canadian dollars inferred from local Ontario pricing and HST context. Regrout minimum must remain adjacent to rate."
+    },
+    {
+      "sourceId": "priority-cleaning",
+      "url": "https://priorityoneflooring.com/tile-grout-cleaning-vancouver-bc/",
+      "service": "tile-grout-stone-cleaning-sealing",
+      "exactRange": "CAD $1.50–$3.50/sq ft tile/grout deep cleaning; $0.75–$1.50/sq ft clear grout sealing.",
+      "scope": "Cleaning plus optional suitable sealing, separate scope for colour sealer, regrout and restoration.",
+      "notes": "Reviewed 2026-11-08. Quote confirms minimum and tax; page does not say rate is tax-inclusive. Do not apply automatically to stone polishing."
+    },
+    {
+      "sourceId": "oxygenie-cleaning",
+      "url": "https://www.oxygenie.ca/tile-grout-cleaning-calgary/",
+      "service": "tile-grout-stone-cleaning-sealing",
+      "exactRange": "$0.50–$3.00/sq ft standard tile-floor cleaning; $150–$200 typical minimum visit.",
+      "scope": "Calgary provider's own standard-floor pricing; sealing extra.",
+      "notes": "Reviewed 2026-11-08. Canadian-dollar interpretation from Calgary Canadian service page; tax unspecified. Pricing table appears near page lines 83–94."
+    },
+    {
+      "sourceId": "shopflooring-tile",
+      "url": "https://shopflooring.ca/flooring/tile/toronto",
+      "service": "tile-supply-delivery",
+      "exactRange": "Davenport 12×24 $3.80/sq ft; Majesto 24×24 $5.90/sq ft; Nord 2×2 $13.45/sq ft; Nord 2-inch hexagon $20.95/sq ft.",
+      "scope": "Selected porcelain product-only retail examples, explicitly before tax and live postcode freight.",
+      "notes": "Reviewed 2026-11-08. Canadian retail prices; source explicitly adds Ontario HST at checkout. Sold in boxes; installation/setting products not included. Range is selected products only, not full catalogue/industry average."
+    },
+    {
+      "sourceId": "tilesinspired-delivery",
+      "url": "https://tilesinspired.com/pages/shipping-and-delivery",
+      "service": "tile-supply-delivery",
+      "exactRange": "CAD $99.99 for postal M/L; $129.99 G/H/J/K/N; $169.99 other eligible postal codes excluding territories.",
+      "scope": "Full-order delivery policy, not sample delivery and not tile purchase; most locations qualify; Toronto pickup free.",
+      "notes": "Reviewed 2026-11-08. Pallet freight curbside. Checkout/postcode verification required and tax extra at checkout. Never combine this freight policy with shopflooring product examples as though one order."
+    },
+    {
+      "sourceId": "granddesign-stairs",
+      "url": "https://www.granddesignfloors.ca/services/tile",
+      "service": "tile-stairs-steps",
+      "exactRange": "$125/stair (Sub Floor included); tile section minimum $500 and up.",
+      "scope": "Specifically TILE INSTALLATION section, separate from hardwood/laminate stair lists.",
+      "notes": "Reviewed 2026-11-08. Calgary address on same page. CAD inferred from Canadian contractor location; tax not specified. Point price, not range. Tile purchase/nosings not itemized."
+    },
+    {
+      "sourceId": "quicktiles-stairs",
+      "url": "https://www.quicktiles-rd.com/prices/",
+      "service": "tile-stairs-steps",
+      "exactRange": "CAD $30/sq ft labour + $5/sq ft material = $35/sq ft total for 'Tiling on countertops and stairs'.",
+      "scope": "Shared countertop/stair category, preliminary site-assessed pricing; material content not itemized.",
+      "notes": "Reviewed 2026-11-08. Toronto location verified on https://www.quicktiles-rd.com/contacts/. Tax unspecified. Do not claim complete tile supply or exterior assembly. Per-square-foot point cannot form per-step range with Grand Design."
+    },
+    {
+      "sourceId": "primeOutdoor",
+      "url": "https://primetiling.ca/blog/outdoor-patio-tile-installation-ontario",
+      "service": "outdoor-balcony-tiling",
+      "exactRange": "CAD $25–$51/sq.ft. total installed on existing slab; $37–$71/sq.ft. new slab + tile",
+      "scope": "Outdoor patio tile; table sums porcelain, membrane, thinset, labour, grout/sealant; new-slab row includes slab allowance",
+      "notes": "Ontario guide published February 20, 2026. Existing slab does not establish elevated-balcony price. Taxes not stated. 200 sqft arithmetic gives $5,000–$10,200."
+    },
+    {
+      "sourceId": "topOutdoor",
+      "url": "https://toptile.ca/services/outdoor-tile-hardscapes/",
+      "service": "outdoor-balcony-tiling",
+      "exactRange": "CAD $12–$20/sq.ft. labour for patios",
+      "scope": "Labour only, with base preparation and tile size affecting rate; steps/complex designs more",
+      "notes": "Primary contractor in Victoria/Vancouver Island. Do not describe as complete installed or balcony waterproofing rate."
+    },
+    {
+      "sourceId": "prime",
+      "url": "https://primetiling.ca/pricing-guide",
+      "service": "fireplace-feature-wall-tiling",
+      "exactRange": "CAD $1,500–$4,000/project Fireplace Surround",
+      "scope": "Specialty table; note includes professional labour, mid-range tile, standard preparation",
+      "notes": "Dimensions not stated. Tax not stated. No appliance/gas/electrical scope inferred."
+    },
+    {
+      "sourceId": "topFireplace",
+      "url": "https://toptile.ca/services/fireplace-tiling/",
+      "service": "fireplace-feature-wall-tiling",
+      "exactRange": "CAD $600–$1,500 labour, standard surround",
+      "scope": "Labour only; feature wall said to cost more without separate numerical range",
+      "notes": "Primary Victoria/Vancouver Island contractor. Materials excluded from numerical labour comparison."
+    },
+    {
+      "sourceId": "tesseraFireplace",
+      "url": "https://tesseratile.ca/fireplace-feature-walls",
+      "service": "fireplace-feature-wall-tiling",
+      "exactRange": "CAD $3,500–$11,200+ fireplace surround installation project",
+      "scope": "Reference range from simple to complex; size/tile/detailing affect scope",
+      "notes": "Not itemized for material allowance, tax or preparation. Final site measurement required. Do not use ambiguous separate $25.50–$42/sq.ft. rate."
+    },
+    {
+      "sourceId": "ambitionPool",
+      "url": "https://piscineambition.ca/services/installation-de-carrelage-de-piscine/",
+      "service": "pool-spa-tiling",
+      "exactRange": "CAD $8,000–$20,000 for installation de carrelage pour une piscine",
+      "scope": "Concrete-pool tiling service page; price depends on tile type and area",
+      "notes": "Single Quebec contractor benchmark. Source does not state pool size, full interior vs waterline coverage, material inclusion, preparation, shell repairs, waterproofing or taxes in pricing FAQ. No spa-specific figure. Search-indexed primary page verified; direct English open returned 403."
+    },
+    {
+      "sourceId": "ceramedPedestals",
+      "url": "https://www.ceramed.ca/en/collections/paver-supports",
+      "service": "rooftop-terrace-pedestal-pavers",
+      "exactRange": "CAD $223.75 (29–42mm), $257.40 (42–60mm), $296.35 (60–95mm), $379.50 (95–185mm), each per pack of 30 Pro Series supports",
+      "scope": "Selected pedestal component retail range only; no pavers/installation",
+      "notes": "Tax/shipping extra at checkout on product page. Derived per-unit range $223.75/30≈$7.46 to $379.50/30=$12.65. Do not imply a whole installed-roof range. Omitted lower $210.55/30 (20–29mm) listing because owner review found it sold out. Availability of all models must be confirmed when ordering."
+    },
+    {
+      "sourceId": "ceramedPedestalPack",
+      "url": "https://www.ceramed.ca/en/products/enmon-pro-series-adjustable-pedestal-60-95-mm-2-36-3-74-pack-of-30-enm-3927",
+      "service": "rooftop-terrace-pedestal-pavers",
+      "exactRange": "CAD $296.35 per pack of 30, Enmon Pro 60–95mm",
+      "scope": "Specific material-only pedestal pack",
+      "notes": "Product page explicitly says taxes/shipping calculated at checkout. Not an installed rate."
+    },
+    {
+      "sourceId": "hdPorcelainPaver",
+      "url": "https://www.homedepot.ca/product/msi-stone-ulc-eclipse-quartz-white-24-inch-x-24-inch-x-20mm-matte-porcelain-paver-4-sq-ft-case/1001837804",
+      "service": "rooftop-terrace-pedestal-pavers",
+      "exactRange": "CAD $31.92 per 4sqft case for MSI Eclipse Quartz White 24x24in x20mm",
+      "scope": "Paver material only; derived $7.98/sqft",
+      "notes": "Verified primary product page structured price is CAD31.92; stale search previously showed23.92, do not use. Roof/pedestal compatibility not established by this price. Tax/delivery require confirmation. 50 cases for 200sqft before waste =1596."
+    },
+    {
+      "sourceId": "prime",
+      "url": "https://primetiling.ca/pricing-guide",
+      "service": "heated-tile-floors",
+      "exactRange": "Heated Floor System + Tile: Starting From $4,000; Premium Range $10,000+",
+      "scope": "Specialty installation table. Note includes professional labour, mid-range tile materials, standard preparation. Project area not stated.",
+      "notes": "Reviewed 2026-11-08. Keep separate from small-bathroom heating-only examples. Electrical scope, demolition, taxes and actual size must be confirmed."
+    }
+  ]
+}

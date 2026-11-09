@@ -1,0 +1,2004 @@
+{
+  "sources": {
+    "zelta": {
+      "id": "zelta",
+      "name": "Zelta",
+      "url": "https://zelta.ca/blog/tile-installation-cost-in-2023/",
+      "region": {
+        "en": "Toronto / GTA",
+        "fr": "Toronto / RGT"
+      }
+    },
+    "superior_large": {
+      "id": "superior_large",
+      "name": "Superior Tile Contracting — large-format guide",
+      "url": "https://superiortilecontracting.ca/blog/large-format-tile-cost-vancouver-burnaby-surrey",
+      "region": {
+        "en": "Metro Vancouver",
+        "fr": "Grand Vancouver"
+      }
+    },
+    "superior_commercial": {
+      "id": "superior_commercial",
+      "name": "Superior Tile Contracting — commercial guide",
+      "url": "https://superiortilecontracting.ca/blog/commercial-tile-installation-vancouver-2026",
+      "region": {
+        "en": "Metro Vancouver",
+        "fr": "Grand Vancouver"
+      }
+    },
+    "grand_commercial": {
+      "id": "grand_commercial",
+      "name": "Grand Design Floors",
+      "url": "https://www.granddesignfloors.ca/services/commercial",
+      "region": {
+        "en": "Calgary",
+        "fr": "Calgary"
+      }
+    },
+    "rtst_heating": {
+      "id": "rtst_heating",
+      "name": "RT Home Renovations",
+      "url": "https://rtst.ca/heated-floor-cost-vancouver/",
+      "region": {
+        "en": "Vancouver",
+        "fr": "Vancouver"
+      }
+    },
+    "delson_heating": {
+      "id": "delson_heating",
+      "name": "Delson Air",
+      "url": "https://www.delsonair.ca/journal/heated-bathroom-floors-worth-it/",
+      "region": {
+        "en": "Toronto / GTA",
+        "fr": "Toronto / RGT"
+      }
+    },
+    "nextsite_removal": {
+      "id": "nextsite_removal",
+      "name": "NextSite Demolition",
+      "url": "https://nextsitedemolition.ca/services/floor-removal/",
+      "region": {
+        "en": "Toronto / York Region",
+        "fr": "Toronto / région de York"
+      }
+    },
+    "morina_cost": {
+      "id": "morina_cost",
+      "name": "Morina Brothers Inc.",
+      "url": "https://mbtile.ca/cost/",
+      "region": {
+        "en": "Calgary and surrounding cities",
+        "fr": "Calgary et villes voisines"
+      }
+    },
+    "bgm-repair": {
+      "id": "bgm-repair",
+      "name": "BGM Construction — tile repair guide",
+      "url": "https://bgmconstructionltd.com/how-much-does-tile-repair-cost/",
+      "region": {
+        "en": "Niagara contractor; Canadian planning guide",
+        "fr": "Entrepreneur du Niagara; guide de planification canadien"
+      }
+    },
+    "builders-repair": {
+      "id": "builders-repair",
+      "name": "BuildersOntario / ICFhome — repair pricing",
+      "url": "https://buildersontario.com/tile-lippage-and-grout-problems/",
+      "region": {
+        "en": "Central Ontario",
+        "fr": "Centre de l’Ontario"
+      }
+    },
+    "priority-cleaning": {
+      "id": "priority-cleaning",
+      "name": "Priority One Flooring — cleaning and sealing",
+      "url": "https://priorityoneflooring.com/tile-grout-cleaning-vancouver-bc/",
+      "region": {
+        "en": "Vancouver, BC",
+        "fr": "Vancouver, C.-B."
+      }
+    },
+    "oxygenie-cleaning": {
+      "id": "oxygenie-cleaning",
+      "name": "Oxy-Genie — tile and grout cleaning",
+      "url": "https://www.oxygenie.ca/tile-grout-cleaning-calgary/",
+      "region": {
+        "en": "Calgary, AB",
+        "fr": "Calgary, Alb."
+      }
+    },
+    "shopflooring-tile": {
+      "id": "shopflooring-tile",
+      "name": "shopflooring.ca — Toronto tile catalogue",
+      "url": "https://shopflooring.ca/flooring/tile/toronto",
+      "region": {
+        "en": "Toronto / Ontario stock",
+        "fr": "Toronto / stocks en Ontario"
+      }
+    },
+    "tilesinspired-delivery": {
+      "id": "tilesinspired-delivery",
+      "name": "TilesInspired — shipping policy",
+      "url": "https://tilesinspired.com/pages/shipping-and-delivery",
+      "region": {
+        "en": "Toronto pickup; eligible Canadian delivery areas",
+        "fr": "Ramassage à Toronto; zones canadiennes admissibles"
+      }
+    },
+    "granddesign-stairs": {
+      "id": "granddesign-stairs",
+      "name": "Grand Design Flooring — tile installation",
+      "url": "https://www.granddesignfloors.ca/services/tile",
+      "region": {
+        "en": "Calgary, AB",
+        "fr": "Calgary, Alb."
+      }
+    },
+    "quicktiles-stairs": {
+      "id": "quicktiles-stairs",
+      "name": "QuickTiles R&D — installation price list",
+      "url": "https://www.quicktiles-rd.com/prices/",
+      "region": {
+        "en": "Toronto, ON",
+        "fr": "Toronto, Ont."
+      }
+    },
+    "primeOutdoor": {
+      "id": "primeOutdoor",
+      "name": "Prime Tiling — outdoor patio guide",
+      "url": "https://primetiling.ca/blog/outdoor-patio-tile-installation-ontario",
+      "region": {
+        "en": "Ontario / Toronto area",
+        "fr": "Ontario / région de Toronto"
+      }
+    },
+    "topOutdoor": {
+      "id": "topOutdoor",
+      "name": "Top Tile — outdoor tile",
+      "url": "https://toptile.ca/services/outdoor-tile-hardscapes/",
+      "region": {
+        "en": "Victoria / Vancouver Island",
+        "fr": "Victoria / île de Vancouver"
+      }
+    },
+    "prime": {
+      "id": "prime",
+      "name": "Prime Tiling",
+      "url": "https://primetiling.ca/pricing-guide",
+      "region": {
+        "en": "Toronto / GTA",
+        "fr": "Toronto / RGT"
+      }
+    },
+    "topFireplace": {
+      "id": "topFireplace",
+      "name": "Top Tile — fireplace tiling",
+      "url": "https://toptile.ca/services/fireplace-tiling/",
+      "region": {
+        "en": "Victoria / Vancouver Island",
+        "fr": "Victoria / île de Vancouver"
+      }
+    },
+    "tesseraFireplace": {
+      "id": "tesseraFireplace",
+      "name": "Tessera Tile — fireplace feature walls",
+      "url": "https://tesseratile.ca/fireplace-feature-walls",
+      "region": {
+        "en": "Toronto / GTA",
+        "fr": "Toronto / RGT"
+      }
+    },
+    "ambitionPool": {
+      "id": "ambitionPool",
+      "name": "Piscine Ambition — pool tiling",
+      "url": "https://piscineambition.ca/services/installation-de-carrelage-de-piscine/",
+      "region": {
+        "en": "Quebec / Montréal, Laval and surrounding regions",
+        "fr": "Québec / Montréal, Laval et régions voisines"
+      }
+    },
+    "ceramedPedestals": {
+      "id": "ceramedPedestals",
+      "name": "Ceramed — paver supports",
+      "url": "https://www.ceramed.ca/en/collections/paver-supports",
+      "region": {
+        "en": "Canadian retail",
+        "fr": "Vente au détail au Canada"
+      }
+    },
+    "ceramedPedestalPack": {
+      "id": "ceramedPedestalPack",
+      "name": "Ceramed — Enmon 60–95 mm pedestal pack",
+      "url": "https://www.ceramed.ca/en/products/enmon-pro-series-adjustable-pedestal-60-95-mm-2-36-3-74-pack-of-30-enm-3927",
+      "region": {
+        "en": "Canadian retail",
+        "fr": "Vente au détail au Canada"
+      }
+    },
+    "hdPorcelainPaver": {
+      "id": "hdPorcelainPaver",
+      "name": "Home Depot Canada — MSI porcelain paver",
+      "url": "https://www.homedepot.ca/product/msi-stone-ulc-eclipse-quartz-white-24-inch-x-24-inch-x-20mm-matte-porcelain-paver-4-sq-ft-case/1001837804",
+      "region": {
+        "en": "Canadian retail",
+        "fr": "Vente au détail au Canada"
+      }
+    }
+  },
+  "guides": [
+    {
+      "slug": "large-format-tile-cost",
+      "service": "large-format-tile",
+      "title": {
+        "en": "Large-format tile installation cost",
+        "fr": "Coût de pose de carreaux grand format"
+      },
+      "description": {
+        "en": "Compare Canadian large-format tile and porcelain-panel price examples, with handling, preparation and edge-work scope.",
+        "fr": "Comparez des exemples canadiens de prix pour grands carreaux et panneaux de porcelaine, avec manutention, préparation et finitions."
+      },
+      "range": {
+        "en": "$18–$65 / sq. ft. installed",
+        "fr": "18–65 $ / pi² avec pose"
+      },
+      "summary": {
+        "en": "Published Toronto and Vancouver examples span $18–$65 per square foot across different large-tile and porcelain-panel formats. This is a comparison of products and scopes, not one national rate. Check the exact dimensions, finish, surface preparation and edge details before applying a benchmark.",
+        "fr": "Des exemples publiés à Toronto et Vancouver vont de 18 à 65 $ le pied carré selon les formats de grands carreaux et panneaux de porcelaine. Il s’agit de produits et portées différents, pas d’un tarif national unique. Vérifiez dimensions, fini, préparation et bordures avant d’utiliser un repère."
+      },
+      "benchmarks": [
+        {
+          "source": "zelta",
+          "scope": {
+            "en": "Large-format tile, material and labour",
+            "fr": "Grand format, matériaux et main-d’œuvre"
+          },
+          "range": {
+            "en": "$25–$50 / sq. ft.",
+            "fr": "25–50 $ / pi²"
+          },
+          "includes": {
+            "en": "Published installed range; source separates $15–$25 labour and $10–$25 materials. Confirm preparation, trim, removal and HST.",
+            "fr": "Fourchette posée publiée; la source distingue 15–25 $ de main-d’œuvre et 10–25 $ de matériaux. Confirmez préparation, profilés, dépose et TVH."
+          }
+        },
+        {
+          "source": "superior_large",
+          "scope": {
+            "en": "24 × 48 in. porcelain, installed",
+            "fr": "Porcelaine de 24 × 48 po, avec pose"
+          },
+          "range": {
+            "en": "$18–$28 / sq. ft.",
+            "fr": "18–28 $ / pi²"
+          },
+          "includes": {
+            "en": "Format-specific installed example. The source discusses preparation, access and edge work separately; confirm what is included and tax.",
+            "fr": "Exemple posé propre au format. La source traite séparément préparation, accès et bordures; confirmez inclusions et taxes."
+          }
+        },
+        {
+          "source": "superior_large",
+          "scope": {
+            "en": "60 × 120 or 63 × 126 in. porcelain panels",
+            "fr": "Panneaux de porcelaine de 60 × 120 ou 63 × 126 po"
+          },
+          "range": {
+            "en": "$42–$65 / sq. ft. installed",
+            "fr": "42–65 $ / pi² avec pose"
+          },
+          "includes": {
+            "en": "A panel-installation benchmark, not the price of smaller floor tile. Confirm fabrication, specialist handling, freight, preparation and tax.",
+            "fr": "Repère de pose de panneaux, différent des petits carreaux de plancher. Confirmez fabrication, manutention spécialisée, transport, préparation et taxes."
+          }
+        }
+      ],
+      "factors": [
+        {
+          "title": {
+            "en": "Exact format and application",
+            "fr": "Format exact et application"
+          },
+          "text": {
+            "en": "A 24 × 48 in. floor tile and a room-height porcelain panel require different handling and cutting plans. Send the product code, thickness, wall or floor application and layout before comparing prices.",
+            "fr": "Un carreau de plancher de 24 × 48 po et un panneau pleine hauteur demandent des plans de manutention et de coupe différents. Envoyez code produit, épaisseur, usage mural ou au sol et disposition avant de comparer."
+          }
+        },
+        {
+          "title": {
+            "en": "Preparation before delivery",
+            "fr": "Préparation avant livraison"
+          },
+          "text": {
+            "en": "Record the existing substrate, cracks, flatness concerns and finished heights. Agree on any levelling, repair or membrane work before the large pieces arrive; tile size alone does not establish that the support is suitable.",
+            "fr": "Relevez support existant, fissures, défauts de planéité et hauteurs finies. Convenez du ragréage, des réparations ou membranes avant la livraison; le format ne détermine pas la compatibilité du support."
+          }
+        },
+        {
+          "title": {
+            "en": "Edges, openings and carrying route",
+            "fr": "Bordures, ouvertures et trajet"
+          },
+          "text": {
+            "en": "Show outlets, niches, corners, exposed edges and doorways. Confirm whether shop cutting, mitres, lifting equipment, extra handlers or protected storage are included. A simple area calculation misses these details.",
+            "fr": "Montrez prises, niches, angles, bords exposés et portes. Confirmez coupes en atelier, onglets, levage, personnel supplémentaire et stockage protégé. Un simple calcul de surface omet ces détails."
+          }
+        }
+      ],
+      "example": {
+        "title": {
+          "en": "Example: 200 sq. ft. in 24 × 48 in. porcelain",
+          "fr": "Exemple : 200 pi² en porcelaine de 24 × 48 po"
+        },
+        "text": {
+          "en": "At the cited Vancouver installed benchmark, 200 × $18–$28 gives $3,600–$5,600. This illustrates that specific tile format. List tax, removal, preparation, delivery and special edges separately unless the written quote includes them; do not apply it to full-height panels.",
+          "fr": "Au repère posé de Vancouver cité, 200 × 18–28 $ donne 3 600 à 5 600 $. Ce calcul illustre ce format précis. Détaillez taxes, dépose, préparation, livraison et bordures spéciales sauf inclusion écrite; ne l’appliquez pas aux panneaux pleine hauteur."
+        }
+      },
+      "checklist": [
+        {
+          "en": "Product code, dimensions, thickness and wall or floor use",
+          "fr": "Code produit, dimensions, épaisseur et usage mural ou au sol"
+        },
+        {
+          "en": "Measured surfaces, layout, openings and edge treatments",
+          "fr": "Surfaces mesurées, disposition, ouvertures et finitions des bords"
+        },
+        {
+          "en": "Substrate assessment, repairs, levelling and membranes",
+          "fr": "Évaluation du support, réparations, ragréage et membranes"
+        },
+        {
+          "en": "Handling route, fabrication, freight, minimum charge and taxes",
+          "fr": "Trajet, fabrication, transport, frais minimaux et taxes"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Does a bigger tile always cost less to install?",
+            "fr": "Un grand carreau coûte-t-il toujours moins cher à poser?"
+          },
+          "answer": {
+            "en": "Fewer joints can reduce some work, but handling, substrate preparation, cuts and edges can add substantial time. Compare the actual format and room layout rather than the number of pieces.",
+            "fr": "Moins de joints peut réduire une partie du travail, mais manutention, préparation, coupes et bordures peuvent en ajouter. Comparez format réel et disposition plutôt que nombre de pièces."
+          }
+        },
+        {
+          "question": {
+            "en": "Are porcelain panels included in an ordinary large-format rate?",
+            "fr": "Un tarif grand format courant comprend-il les panneaux de porcelaine?"
+          },
+          "answer": {
+            "en": "Not automatically. Panels may need a separate handling and fabrication plan. Ask the quote to name the panel size and all associated work instead of using a general tile rate.",
+            "fr": "Pas automatiquement. Les panneaux peuvent exiger un plan distinct de manutention et fabrication. Faites préciser leur format et tous les travaux associés plutôt qu’un tarif général de carrelage."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "heated-tile-floor-cost",
+      "service": "heated-tile-floors",
+      "title": {
+        "en": "Heated tile floor cost in Canada",
+        "fr": "Coût d’un plancher carrelé chauffant au Canada"
+      },
+      "description": {
+        "en": "Compare published electric floor-heating project ranges, cable costs and the separate tile, preparation and electrical scope.",
+        "fr": "Comparez des fourchettes publiées pour le chauffage électrique au sol, les câbles et les portées distinctes de carrelage, préparation et électricité."
+      },
+      "range": {
+        "en": "$1,200–$3,000 / bathroom heating system",
+        "fr": "1 200–3 000 $ / système de chauffage de salle de bain"
+      },
+      "summary": {
+        "en": "GTA and Vancouver contractors publish electric bathroom-heating examples of roughly $1,200–$3,000. These are heating-system examples, not a guaranteed total for a newly tiled bathroom. Room size, circuit work and the tile scope differ; the Vancouver 40 sq. ft. example explicitly excludes tile and demolition. A separate GTA heating-and-tile project example starts at $4,000 and reaches $10,000+ for premium work, with no room size stated.",
+        "fr": "Des entrepreneurs de la RGT et de Vancouver publient des exemples de chauffage électrique de salle de bain autour de 1 200 à 3 000 $. Ce sont des repères de chauffage, pas un total garanti pour une salle de bain nouvellement carrelée. Surface, circuit et portée diffèrent; l’exemple de Vancouver de 40 pi² exclut explicitement carreaux et démolition. Un autre exemple de la RGT, chauffage et carrelage compris, commence à 4 000 $ et atteint 10 000 $ et plus en gamme supérieure, sans surface précisée."
+      },
+      "benchmarks": [
+        {
+          "source": "rtst_heating",
+          "scope": {
+            "en": "Heating system for a 40 sq. ft. bathroom",
+            "fr": "Chauffage d’une salle de bain de 40 pi²"
+          },
+          "range": {
+            "en": "$1,500–$3,000 installed",
+            "fr": "1 500–3 000 $ avec installation"
+          },
+          "includes": {
+            "en": "Cable, thermostat, electrician and labour. Tile and demolition separate; confirm substrate preparation and taxes.",
+            "fr": "Câble, thermostat, électricien et main-d’œuvre. Carrelage et démolition séparés; confirmez préparation du support et taxes."
+          }
+        },
+        {
+          "source": "delson_heating",
+          "scope": {
+            "en": "Electric heating in a typical small-to-mid GTA bathroom",
+            "fr": "Chauffage électrique d’une salle de bain petite à moyenne dans la RGT"
+          },
+          "range": {
+            "en": "$1,200–$3,000 installed",
+            "fr": "1 200–3 000 $ avec installation"
+          },
+          "includes": {
+            "en": "Heating cost breakdown includes mat/cable, thermostat, electrical work and installation labour within a tile job. Confirm tile finish, preparation, exact heated area and taxes.",
+            "fr": "Ventilation des coûts : trame ou câble, thermostat, électricité et installation dans le cadre d’un chantier de carrelage. Confirmez finition, préparation, surface chauffée et taxes."
+          }
+        },
+        {
+          "source": "prime",
+          "scope": {
+            "en": "Heating system plus tile; project area unspecified",
+            "fr": "Chauffage et carrelage; surface du projet non précisée"
+          },
+          "range": {
+            "en": "From $4,000; premium $10,000+ / project",
+            "fr": "Dès 4 000 $; gamme supérieure 10 000 $ et plus / projet"
+          },
+          "includes": {
+            "en": "Published package includes labour, mid-range tile materials and standard preparation. Confirm heated area, electrical scope, demolition and taxes; do not compare directly with heating-only figures.",
+            "fr": "Forfait publié comprenant main-d’œuvre, carreaux de gamme intermédiaire et préparation courante. Confirmez surface chauffée, électricité, dépose et taxes; ne comparez pas directement au chauffage seul."
+          }
+        },
+        {
+          "source": "rtst_heating",
+          "scope": {
+            "en": "Heating cable only",
+            "fr": "Câble chauffant seulement"
+          },
+          "range": {
+            "en": "$8–$15 / sq. ft.",
+            "fr": "8–15 $ / pi²"
+          },
+          "includes": {
+            "en": "Component price, not an installed floor. Controls, connection, labour, floor preparation and tile are not included in this cable-only figure.",
+            "fr": "Prix de composant, pas de plancher installé. Commandes, raccordement, main-d’œuvre, préparation et carreaux ne sont pas compris dans ce prix du câble seul."
+          }
+        }
+      ],
+      "factors": [
+        {
+          "title": {
+            "en": "Heated area versus room area",
+            "fr": "Surface chauffée et surface de la pièce"
+          },
+          "text": {
+            "en": "Draw the open area to be heated and mark fixed fixtures and cabinets. Select the system for the actual layout and manufacturer’s rules. The tile area and heated area may differ, so use the correct quantity for each quote item.",
+            "fr": "Dessinez la zone à chauffer et les équipements et armoires fixes. Choisissez le système selon le plan et les règles du fabricant. Les surfaces carrelée et chauffée peuvent différer; utilisez la bonne quantité pour chaque poste."
+          }
+        },
+        {
+          "title": {
+            "en": "Electrical and control work",
+            "fr": "Électricité et commandes"
+          },
+          "text": {
+            "en": "Identify the thermostat location and available electrical information. Ask who supplies and connects the controls, verifies the circuit and handles required permits or inspections. Existing wiring and access affect this scope.",
+            "fr": "Indiquez emplacement du thermostat et renseignements électriques disponibles. Précisez qui fournit et raccorde les commandes, vérifie le circuit et gère permis ou inspections requis. Câblage existant et accès modifient cette portée."
+          }
+        },
+        {
+          "title": {
+            "en": "The complete floor build-up",
+            "fr": "L’assemblage complet du plancher"
+          },
+          "text": {
+            "en": "Include support preparation, compatible membrane or insulation, heating installation, testing and finished tile height. Specify who documents tests and when the system may first be switched on under the selected products’ instructions.",
+            "fr": "Incluez préparation, membrane ou isolation compatible, chauffage, essais et hauteur finie. Précisez qui consigne les essais et quand le système peut être mis en marche selon les produits choisis."
+          }
+        }
+      ],
+      "example": {
+        "title": {
+          "en": "Example: separate the heating from the tile",
+          "fr": "Exemple : séparer chauffage et carrelage"
+        },
+        "text": {
+          "en": "For the cited 40 sq. ft. Vancouver bathroom, the heating-system example is $1,500–$3,000. Add only the tile, removal, preparation and tax items actually excluded from the quote. Do not add a second thermostat or electrician allowance when already included, and do not scale this small-room total directly to a whole house.",
+          "fr": "Pour la salle de bain de 40 pi² citée à Vancouver, le repère de chauffage est de 1 500 à 3 000 $. Ajoutez uniquement les postes de carrelage, dépose, préparation et taxes réellement exclus. Ne recomptez pas thermostat ou électricien déjà inclus et n’extrapolez pas ce petit projet à toute une maison."
+        }
+      },
+      "checklist": [
+        {
+          "en": "Room plan, open heated area and chosen heating system",
+          "fr": "Plan, surface libre chauffée et système choisi"
+        },
+        {
+          "en": "Tile selection, existing support and finished floor heights",
+          "fr": "Carreaux, support existant et hauteurs finies"
+        },
+        {
+          "en": "Thermostat, electrical connection, tests and permit responsibilities",
+          "fr": "Thermostat, raccordement, essais et responsabilités de permis"
+        },
+        {
+          "en": "Separate heating, tile, removal, preparation and tax items",
+          "fr": "Postes distincts de chauffage, carrelage, dépose, préparation et taxes"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Does the heating price include the finished tile floor?",
+            "fr": "Le prix du chauffage comprend-il le plancher carrelé fini?"
+          },
+          "answer": {
+            "en": "Not necessarily. One source above explicitly excludes tile and demolition. Have the quote identify heating components, electrical work, tile supply, tile installation and preparation separately.",
+            "fr": "Pas nécessairement. Une source ci-dessus exclut explicitement carrelage et démolition. Faites détailler composants chauffants, électricité, fourniture, pose et préparation."
+          }
+        },
+        {
+          "question": {
+            "en": "Can I use these figures for hydronic heating?",
+            "fr": "Ces chiffres conviennent-ils au chauffage hydronique?"
+          },
+          "answer": {
+            "en": "No. These benchmarks concern electric bathroom-floor heating. Water-based systems involve different equipment and connections and need a separate design and quotation.",
+            "fr": "Non. Ces repères concernent le chauffage électrique au sol d’une salle de bain. Les systèmes à eau utilisent d’autres équipements et raccordements et nécessitent conception et soumission distinctes."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "commercial-tile-cost",
+      "service": "commercial-tile",
+      "title": {
+        "en": "Commercial tile installation cost",
+        "fr": "Coût de pose de carrelage commercial"
+      },
+      "description": {
+        "en": "Published commercial tile benchmarks for standard and large-format porcelain, with clear supply, installation and operating-site scope.",
+        "fr": "Repères publiés pour le carrelage commercial courant et grand format, avec fourniture, installation et contraintes d’un site occupé."
+      },
+      "range": {
+        "en": "$14–$38 / sq. ft. supply and install",
+        "fr": "14–38 $ / pi², fourniture et pose"
+      },
+      "summary": {
+        "en": "A Metro Vancouver contractor publishes $14–$28 per square foot for standard commercial porcelain and $22–$38 for 24 × 48 in. porcelain, supplied and installed. A Calgary basic-installation listing is shown separately. These are regional commercial examples; after-hours work, specialist specifications and preparation must be reconciled in the written scope.",
+        "fr": "Un entrepreneur du Grand Vancouver publie 14–28 $ le pied carré pour la porcelaine commerciale courante et 22–38 $ pour le format de 24 × 48 po, fourniture et pose. Un tarif de pose de base à Calgary figure séparément. Ce sont des exemples régionaux; horaires décalés, spécifications et préparation doivent être conciliés dans la portée écrite."
+      },
+      "benchmarks": [
+        {
+          "source": "superior_commercial",
+          "scope": {
+            "en": "Standard 12 × 24 in. commercial porcelain",
+            "fr": "Porcelaine commerciale courante de 12 × 24 po"
+          },
+          "range": {
+            "en": "$14–$28 / sq. ft.",
+            "fr": "14–28 $ / pi²"
+          },
+          "includes": {
+            "en": "Supply and install in a guide based on an approximately 2,500 sq. ft. tenant-improvement project. After-hours/weekend work adds a premium; confirm preparation, membranes, disposal and taxes.",
+            "fr": "Fourniture et pose dans un guide fondé sur un aménagement locatif d’environ 2 500 pi². Horaires décalés ou fins de semaine en supplément; confirmez préparation, membranes, évacuation et taxes."
+          }
+        },
+        {
+          "source": "superior_commercial",
+          "scope": {
+            "en": "24 × 48 in. commercial porcelain",
+            "fr": "Porcelaine commerciale de 24 × 48 po"
+          },
+          "range": {
+            "en": "$22–$38 / sq. ft.",
+            "fr": "22–38 $ / pi²"
+          },
+          "includes": {
+            "en": "Supply and install. Exact specification and operating-site constraints matter; do not assume wet-area preparation, coved bases or special grout are included.",
+            "fr": "Fourniture et pose. Spécifications et contraintes d’exploitation comptent; ne présumez pas l’inclusion de préparation humide, plinthes à gorge ou coulis spécial."
+          }
+        },
+        {
+          "source": "grand_commercial",
+          "scope": {
+            "en": "Basic floor-tile installation listing",
+            "fr": "Tarif de pose de base au sol"
+          },
+          "range": {
+            "en": "$8 / sq. ft.; $500+ minimum",
+            "fr": "8 $ / pi²; minimum de 500 $ et plus"
+          },
+          "includes": {
+            "en": "Basic installation on the contractor’s commercial page, subject to scope. Not identified as a tile-supply package; confirm materials and taxes before comparing with supply-and-install figures.",
+            "fr": "Pose de base sur la page commerciale de l’entrepreneur, selon la portée. Aucun forfait de fourniture n’est précisé; confirmez matériaux et taxes avant de comparer à fourniture et pose."
+          }
+        }
+      ],
+      "factors": [
+        {
+          "title": {
+            "en": "Define the actual use",
+            "fr": "Définir l’usage réel"
+          },
+          "text": {
+            "en": "Distinguish public floors, service kitchens, washrooms and wall features. Provide the required products, cleaning routine and expected traffic. A decorative tile allowance does not define a complete commercial assembly.",
+            "fr": "Distinguez planchers publics, cuisines de service, toilettes et murs décoratifs. Fournissez produits prescrits, entretien prévu et circulation attendue. Une allocation décorative ne définit pas un assemblage commercial complet."
+          }
+        },
+        {
+          "title": {
+            "en": "Work around business operations",
+            "fr": "Composer avec l’exploitation"
+          },
+          "text": {
+            "en": "Specify working hours, phases, delivery windows and areas that must remain accessible. Price protection, repeated mobilization and reopening after curing instead of assuming an uninterrupted empty-site installation.",
+            "fr": "Précisez horaires, phases, livraisons et zones à maintenir accessibles. Chiffrez protection, mobilisations répétées et réouverture après cure plutôt qu’une pose continue sur site vide."
+          }
+        },
+        {
+          "title": {
+            "en": "Separate preparation and finishing",
+            "fr": "Séparer préparation et finition"
+          },
+          "text": {
+            "en": "List substrate repair, moisture assessment, membranes, drains, base details, grout and transitions. Identify responsibility for approvals and coordination with other trades. Different inclusions can outweigh a small difference in the tile-setting rate.",
+            "fr": "Détaillez réparation, évaluation d’humidité, membranes, drains, plinthes, coulis et raccords. Précisez responsabilités d’autorisation et coordination. Les inclusions peuvent peser plus qu’un faible écart de tarif de pose."
+          }
+        }
+      ],
+      "example": {
+        "title": {
+          "en": "Example: 2,500 sq. ft. of standard commercial porcelain",
+          "fr": "Exemple : 2 500 pi² de porcelaine commerciale courante"
+        },
+        "text": {
+          "en": "At the project scale described in the Vancouver source, 2,500 sq. ft. at $14–$28 calculates to $35,000–$70,000 for supply and installation. This is an area illustration, not a bid. Reconcile the actual tile, preparation, phasing, after-hours work, disposal and taxes before comparing project totals.",
+          "fr": "À l’échelle du projet décrit par la source de Vancouver, 2 500 pi² à 14–28 $ donnent 35 000–70 000 $ en fourniture et pose. Il s’agit d’un calcul de surface, pas d’une offre. Conciliez carreaux, préparation, phases, horaires, évacuation et taxes avant de comparer les totaux."
+        }
+      },
+      "checklist": [
+        {
+          "en": "Measured floor and wall areas with approved product specifications",
+          "fr": "Surfaces mesurées au sol et aux murs avec produits approuvés"
+        },
+        {
+          "en": "Operating hours, access, phasing and target reopening dates",
+          "fr": "Horaires d’exploitation, accès, phases et réouverture visée"
+        },
+        {
+          "en": "Preparation, membranes, grout, base details and transitions",
+          "fr": "Préparation, membranes, coulis, plinthes et raccords"
+        },
+        {
+          "en": "Supply, labour, mobilization, disposal, exclusions and taxes",
+          "fr": "Fourniture, main-d’œuvre, mobilisation, évacuation, exclusions et taxes"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Can a residential tile rate be used for a commercial project?",
+            "fr": "Peut-on utiliser un tarif résidentiel pour un chantier commercial?"
+          },
+          "answer": {
+            "en": "Only when the actual scope is comparable. Operating hours, traffic, required materials, protection and phasing can change the work substantially. Request a commercial proposal based on the premises.",
+            "fr": "Seulement si les portées sont comparables. Horaires, circulation, matériaux prescrits, protection et phases peuvent modifier fortement le travail. Demandez une proposition commerciale adaptée aux locaux."
+          }
+        },
+        {
+          "question": {
+            "en": "Does more floor area guarantee a lower unit price?",
+            "fr": "Une plus grande surface garantit-elle un tarif unitaire inférieur?"
+          },
+          "answer": {
+            "en": "No. Open access and a repeated layout may improve efficiency, while occupied phases, detailed cuts and tight work windows can offset it. Compare the complete schedule and scope rather than area alone.",
+            "fr": "Non. Accès ouvert et disposition répétitive peuvent améliorer l’efficacité, mais phases occupées, coupes détaillées et horaires serrés peuvent annuler ce gain. Comparez calendrier et portée, pas seulement surface."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "tile-removal-preparation-cost",
+      "service": "tile-removal-surface-preparation",
+      "title": {
+        "en": "Tile removal and surface preparation cost",
+        "fr": "Coût de dépose du carrelage et de préparation"
+      },
+      "description": {
+        "en": "Compare published tile-removal prices and separate levelling benchmarks, including debris handling, access and substrate scope.",
+        "fr": "Comparez des prix publiés de dépose et des repères distincts de ragréage, avec évacuation, accès et état du support."
+      },
+      "range": {
+        "en": "$3–$6 / sq. ft. for tile removal",
+        "fr": "3–6 $ / pi² pour la dépose"
+      },
+      "summary": {
+        "en": "A Toronto and York Region demolition contractor publishes $3–$6 per square foot for ceramic or porcelain removal. Preparation is a separate decision: Calgary contractor data lists $3.50–$5 per square foot for levelling. These different scopes should not be treated as one all-inclusive replacement price.",
+        "fr": "Un entrepreneur de démolition de Toronto et de York publie 3–6 $ le pied carré pour la dépose de céramique ou porcelaine. La préparation est distincte : des données d’un entrepreneur de Calgary indiquent 3,50–5 $ pour le ragréage. Ces portées ne constituent pas un prix de remplacement tout compris."
+      },
+      "benchmarks": [
+        {
+          "source": "nextsite_removal",
+          "scope": {
+            "en": "Ceramic or porcelain floor removal",
+            "fr": "Dépose de sol en céramique ou porcelaine"
+          },
+          "range": {
+            "en": "$3–$6 / sq. ft.",
+            "fr": "3–6 $ / pi²"
+          },
+          "includes": {
+            "en": "Source describes dust control, debris hauling and scraping/sweeping. Subfloor removal is an extra item; repairs, levelling and new flooring need separate scope. Confirm tax.",
+            "fr": "La source décrit maîtrise des poussières, évacuation et grattage/balayage. Dépose du sous-plancher en supplément; réparations, ragréage et revêtement neuf à définir séparément. Confirmez les taxes."
+          }
+        },
+        {
+          "source": "morina_cost",
+          "scope": {
+            "en": "Floor / surface preparation: levelling",
+            "fr": "Préparation du sol ou de la surface : ragréage"
+          },
+          "range": {
+            "en": "$3.50–$5 / sq. ft.",
+            "fr": "3,50–5 $ / pi²"
+          },
+          "includes": {
+            "en": "CAD range from the contractor’s small 2025–2026 approved-quote sample. Historical levelling benchmark, not a current fixed price or a demolition allowance; confirm depth, products and taxes.",
+            "fr": "Fourchette en dollars canadiens tirée du petit échantillon de soumissions approuvées de 2025–2026. Repère historique de ragréage, pas tarif fixe actuel ni allocation de dépose; confirmez épaisseur, produits et taxes."
+          }
+        },
+        {
+          "source": "grand_commercial",
+          "scope": {
+            "en": "Remove, hammer and grind a tile floor",
+            "fr": "Dépose, burinage et meulage d’un sol carrelé"
+          },
+          "range": {
+            "en": "$6 / sq. ft.",
+            "fr": "6 $ / pi²"
+          },
+          "includes": {
+            "en": "Published basic-service listing, subject to project scope. Confirm debris disposal, finish standard, minimum charge and tax; grinding is not automatically a complete levelling or repair service.",
+            "fr": "Tarif de service de base publié, selon le projet. Confirmez évacuation, état de finition, minimum et taxes; le meulage ne constitue pas automatiquement un ragréage ou une réparation complète."
+          }
+        }
+      ],
+      "factors": [
+        {
+          "title": {
+            "en": "What must come up",
+            "fr": "Ce qui doit être retiré"
+          },
+          "text": {
+            "en": "Identify tile, mortar, underlayment and any layers intended to remain. Share photographs and the next proposed finish. Removing a thin tile layer and removing a thick bonded assembly can require very different effort.",
+            "fr": "Identifiez carreaux, mortier, sous-couches et couches à conserver. Joignez photos et finition suivante. Une fine couche de carreaux et un assemblage épais collé peuvent exiger des efforts très différents."
+          }
+        },
+        {
+          "title": {
+            "en": "Access and containment",
+            "fr": "Accès et confinement"
+          },
+          "text": {
+            "en": "Describe occupied rooms, stairs, lift bookings, parking and the debris route. Clarify who provides protection, waste containers, hauling and disposal. A small area can still require a full setup and minimum visit charge.",
+            "fr": "Décrivez pièces occupées, escaliers, réservations d’ascenseur, stationnement et trajet des débris. Précisez protection, conteneurs, transport et évacuation. Une petite surface peut quand même exiger une installation complète et un minimum."
+          }
+        },
+        {
+          "title": {
+            "en": "Condition after removal",
+            "fr": "État après la dépose"
+          },
+          "text": {
+            "en": "Agree on how exposed damage, residue, moisture or unevenness will be assessed and priced. Distinguish a scraped-clean handover from a surface ready for the chosen tile. Record approval steps for additional preparation before it starts.",
+            "fr": "Convenez de l’évaluation et du chiffrage des dommages, résidus, humidité ou irrégularités découverts. Distinguez support gratté et support prêt pour les carreaux choisis. Précisez l’approbation des travaux supplémentaires avant leur début."
+          }
+        }
+      ],
+      "example": {
+        "title": {
+          "en": "Example: removing 200 sq. ft. of tile",
+          "fr": "Exemple : dépose de 200 pi² de carrelage"
+        },
+        "text": {
+          "en": "At the Toronto/York removal benchmark, 200 × $3–$6 gives $600–$1,200 for the stated removal scope. Confirm disposal and minimum charges, then price any exposed-support repairs or levelling separately. Do not add a preparation allowance automatically if the same work is already included.",
+          "fr": "Au repère Toronto/York, 200 × 3–6 $ donne 600 à 1 200 $ pour la dépose définie. Confirmez évacuation et minimums, puis chiffrez séparément réparations ou ragréage du support exposé. N’ajoutez pas automatiquement une allocation pour des travaux déjà inclus."
+        }
+      },
+      "checklist": [
+        {
+          "en": "Measured area, floor or wall location and known existing layers",
+          "fr": "Surface mesurée, sol ou mur et couches existantes connues"
+        },
+        {
+          "en": "Layers to retain, planned new finish and required handover condition",
+          "fr": "Couches à conserver, finition prévue et état requis à la remise"
+        },
+        {
+          "en": "Dust protection, debris route, containers and disposal responsibility",
+          "fr": "Protection contre la poussière, trajet, conteneurs et évacuation"
+        },
+        {
+          "en": "Repair/levelling allowances, change approval, minimum charge and taxes",
+          "fr": "Allocations de réparation/ragréage, approbation des changements, minimum et taxes"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Does tile removal include a tile-ready surface?",
+            "fr": "La dépose comprend-elle un support prêt à carreler?"
+          },
+          "answer": {
+            "en": "Not always. Removal and cleanup may leave repairs, flatness correction or moisture work still to do. State the required handover condition and the next flooring system in the quote.",
+            "fr": "Pas toujours. Après dépose et nettoyage, réparations, correction de planéité ou traitement d’humidité peuvent rester nécessaires. Précisez l’état de remise et le prochain revêtement dans la soumission."
+          }
+        },
+        {
+          "question": {
+            "en": "Can the preparation price be fixed before demolition?",
+            "fr": "Peut-on fixer le prix de préparation avant démolition?"
+          },
+          "answer": {
+            "en": "Some visible work can be scoped in advance, but concealed conditions may need an allowance or a later assessment. Agree on how extra work is documented, priced and approved before it proceeds.",
+            "fr": "Certains travaux visibles peuvent être définis à l’avance, mais les conditions cachées peuvent exiger une allocation ou une évaluation ultérieure. Convenez de la documentation, du prix et de l’approbation des suppléments."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "tile-repair-regrouting-cost",
+      "service": "tile-repair-regrouting",
+      "title": {
+        "en": "Tile repair and regrouting cost in Canada",
+        "fr": "Coût de réparation du carrelage et de réfection du coulis au Canada"
+      },
+      "description": {
+        "en": "Published Ontario repair and regrouting ranges, including spare-tile replacement, shower grout and floor-project minimums.",
+        "fr": "Fourchettes ontariennes de réparation et de réfection du coulis : remplacement de carreaux, douche et frais minimaux."
+      },
+      "range": {
+        "en": "$4–$9 / sq. ft. for floor regrouting",
+        "fr": "4–9 $ / pi² pour refaire le coulis de plancher"
+      },
+      "summary": {
+        "en": "Selected Ontario sources place floor regrouting at $4–$9 per square foot, with a $900 minimum in one guide. Tile replacement and shower regrouting use different project scopes. These CAD benchmarks describe existing-tile repairs; they are not prices for a new tiled floor or a complete shower rebuild.",
+        "fr": "Des sources ontariennes situent la réfection du coulis de plancher entre 4 et 9 $ le pied carré, avec un minimum de 900 $ dans un guide. Remplacement de carreaux et réfection de douche ont des portées distinctes. Ces repères en dollars canadiens concernent les réparations, et non un nouveau plancher ou une reconstruction de douche."
+      },
+      "benchmarks": [
+        {
+          "source": "bgm-repair",
+          "scope": {
+            "en": "One cracked tile; homeowner supplies a matching spare",
+            "fr": "Un carreau fissuré; carreau de remplacement fourni par le client"
+          },
+          "range": {
+            "en": "$300–$600 / repair",
+            "fr": "300–600 $ / réparation"
+          },
+          "includes": {
+            "en": "Published professional repair range. Confirm visit count, surrounding damage and tax.",
+            "fr": "Fourchette de réparation professionnelle. Confirmez visites, dommages adjacents et taxes."
+          }
+        },
+        {
+          "source": "bgm-repair",
+          "scope": {
+            "en": "Full shower regrouting",
+            "fr": "Réfection complète du coulis de douche"
+          },
+          "range": {
+            "en": "$450–$900 / shower",
+            "fr": "450–900 $ / douche"
+          },
+          "includes": {
+            "en": "Existing grout replacement on walls and floor, with corner resealing. Waterproofing repairs are separate; tax unspecified.",
+            "fr": "Remplacement du coulis des murs et du sol, avec reprise des joints d’angle. Réparation d’étanchéité distincte; taxes non précisées."
+          }
+        },
+        {
+          "source": "bgm-repair",
+          "scope": {
+            "en": "Floor regrouting",
+            "fr": "Réfection du coulis de plancher"
+          },
+          "range": {
+            "en": "$5–$9 / sq. ft.",
+            "fr": "5–9 $ / pi²"
+          },
+          "includes": {
+            "en": "Published professional regrouting benchmark. Confirm minimum, grout type and tax.",
+            "fr": "Repère de réfection professionnelle du coulis. Confirmez minimum, type de coulis et taxes."
+          }
+        },
+        {
+          "source": "builders-repair",
+          "scope": {
+            "en": "Bathroom-floor regrouting",
+            "fr": "Réfection du coulis d’un plancher de salle de bain"
+          },
+          "range": {
+            "en": "$4–$6 / sq. ft.; $900 minimum",
+            "fr": "4–6 $ / pi²; minimum de 900 $"
+          },
+          "includes": {
+            "en": "Central Ontario planning prices, before HST; the project minimum overrides a smaller area calculation.",
+            "fr": "Prix indicatifs du centre de l’Ontario, avant TVH; le minimum prévaut sur un calcul de surface inférieur."
+          }
+        }
+      ],
+      "factors": [
+        {
+          "title": {
+            "en": "Count the joints and damaged tiles",
+            "fr": "Compter les joints et les carreaux abîmés"
+          },
+          "text": {
+            "en": "Photograph the whole area and close-ups. A small-mosaic floor has many more grout joints than the same area of large tile. Ask whether the price covers all joints or only named damaged sections.",
+            "fr": "Photographiez l’ensemble et les détails. À surface égale, une mosaïque compte bien plus de joints que de grands carreaux. Précisez si le prix couvre tous les joints ou seulement certaines zones."
+          }
+        },
+        {
+          "title": {
+            "en": "Confirm the matching material",
+            "fr": "Confirmer les matériaux de remplacement"
+          },
+          "text": {
+            "en": "List spare tiles, grout brand and colour if known. Ask who sources replacements and approves the visual match before removal starts. An unavailable tile can change the repair boundary.",
+            "fr": "Indiquez les carreaux conservés ainsi que la marque et la couleur du coulis, si connues. Précisez qui trouve les remplacements et approuve leur apparence avant la dépose. Un produit introuvable peut élargir la réparation."
+          }
+        },
+        {
+          "title": {
+            "en": "Separate the cause from the finish",
+            "fr": "Distinguer la cause de la finition"
+          },
+          "text": {
+            "en": "Ask the installer to assess movement, loose tile and recurring dampness before pricing a cosmetic repair. Define how concealed damage will be documented, quoted and approved if the area is opened.",
+            "fr": "Demandez une évaluation des mouvements, carreaux décollés et traces d’humidité récurrentes avant une réparation esthétique. Prévoyez comment documenter, chiffrer et approuver les dommages cachés découverts à l’ouverture."
+          }
+        }
+      ],
+      "example": {
+        "title": {
+          "en": "Example: why the minimum matters on 100 sq. ft.",
+          "fr": "Exemple : l’effet du minimum sur 100 pi²"
+        },
+        "text": {
+          "en": "At the Central Ontario $4–$6 rate, 100 sq. ft. calculates to $400–$600. That source also specifies a $900 minimum, so its example would start at $900 before HST, subject to the actual scope. A square-foot calculation alone would miss this difference; this is not a Tiling.ca quote.",
+          "fr": "Au tarif de 4–6 $ du centre de l’Ontario, 100 pi² donnent 400–600 $. La même source impose un minimum de 900 $ : cet exemple commencerait donc à 900 $ avant TVH, selon la portée réelle. Le seul calcul de surface omettrait cette différence; il ne s’agit pas d’une soumission de Tiling.ca."
+        }
+      },
+      "checklist": [
+        {
+          "en": "Photos, affected surface area and number of damaged tiles",
+          "fr": "Photos, surface touchée et nombre de carreaux endommagés"
+        },
+        {
+          "en": "Available spare tiles and proposed grout or flexible-joint products",
+          "fr": "Carreaux de réserve et produits proposés pour le coulis ou les joints souples"
+        },
+        {
+          "en": "Removal depth, repair limits, protection and disposal",
+          "fr": "Profondeur de dépose, limites des réparations, protection et évacuation"
+        },
+        {
+          "en": "Minimum charge, return visits, concealed-damage allowance and taxes",
+          "fr": "Minimum, visites supplémentaires, traitement des dommages cachés et taxes"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Is cleaning the same service as regrouting?",
+            "fr": "Le nettoyage équivaut-il à refaire le coulis?"
+          },
+          "answer": {
+            "en": "No. Cleaning treats the existing surface; regrouting removes and replaces grout. Ask which joints need replacement and which can remain, then compare quotes using that same marked-up scope.",
+            "fr": "Non. Le nettoyage traite la surface existante; la réfection retire et remplace le coulis. Faites identifier les joints à remplacer et ceux à conserver, puis comparez les soumissions sur cette même portée."
+          }
+        },
+        {
+          "question": {
+            "en": "Does this cover a leaking shower?",
+            "fr": "Ces prix couvrent-ils une douche qui fuit?"
+          },
+          "answer": {
+            "en": "A regrouting allowance does not establish the cost of repairing the shower’s waterproofing. Have the leak investigated and request a separate repair scope before assuming a surface repair will resolve it.",
+            "fr": "Un budget de coulis ne détermine pas le coût de réparation du système d’étanchéité. Faites examiner la fuite et demandez une portée distincte avant de supposer qu’une intervention de surface la corrigera."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "tile-cleaning-sealing-cost",
+      "service": "tile-grout-stone-cleaning-sealing",
+      "title": {
+        "en": "Tile, grout and stone cleaning and sealing cost",
+        "fr": "Coût du nettoyage et du scellement du carrelage, du coulis et de la pierre"
+      },
+      "description": {
+        "en": "Compare Canadian tile-cleaning and grout-sealing ranges, minimum visits and the separate scope of natural-stone restoration.",
+        "fr": "Comparez les prix canadiens de nettoyage et de scellement, les frais minimaux et la portée distincte de la restauration de pierre."
+      },
+      "range": {
+        "en": "$0.50–$3.50 / sq. ft. for tile and grout cleaning",
+        "fr": "0,50–3,50 $ / pi² pour nettoyer carrelage et coulis"
+      },
+      "summary": {
+        "en": "Calgary and Vancouver providers publish tile-and-grout cleaning examples spanning $0.50–$3.50 per square foot. Sealing is an additional service where suitable, and small-job minimums matter. The figures are CAD planning benchmarks; natural-stone polishing, etch removal and repairs require their own assessment.",
+        "fr": "Des fournisseurs de Calgary et de Vancouver publient des exemples de nettoyage du carrelage et du coulis entre 0,50 et 3,50 $ le pied carré. Le scellement s’ajoute lorsqu’il convient, et les frais minimaux comptent. Ces repères sont en dollars canadiens; polissage, marques d’attaque chimique et réparations de pierre nécessitent une évaluation distincte."
+      },
+      "benchmarks": [
+        {
+          "source": "oxygenie-cleaning",
+          "scope": {
+            "en": "Standard tile-floor cleaning",
+            "fr": "Nettoyage courant d’un plancher carrelé"
+          },
+          "range": {
+            "en": "$0.50–$3.00 / sq. ft.",
+            "fr": "0,50–3,00 $ / pi²"
+          },
+          "includes": {
+            "en": "Calgary provider lists a typical $150–$200 minimum visit. Sealing is extra; confirm tax and the measured area.",
+            "fr": "Le fournisseur de Calgary indique généralement 150–200 $ minimum par visite. Scellement en supplément; confirmez taxes et surface."
+          }
+        },
+        {
+          "source": "priority-cleaning",
+          "scope": {
+            "en": "Tile and grout deep cleaning",
+            "fr": "Nettoyage en profondeur du carrelage et du coulis"
+          },
+          "range": {
+            "en": "$1.50–$3.50 / sq. ft.",
+            "fr": "1,50–3,50 $ / pi²"
+          },
+          "includes": {
+            "en": "Vancouver CAD planning range. Quote must confirm minimums and taxes; detailed shower areas may be priced by project.",
+            "fr": "Fourchette indicative en dollars canadiens à Vancouver. Minimum et taxes à confirmer; douche détaillée parfois chiffrée par projet."
+          }
+        },
+        {
+          "source": "priority-cleaning",
+          "scope": {
+            "en": "Clear grout sealer, additional to cleaning",
+            "fr": "Scellant transparent pour coulis, en supplément du nettoyage"
+          },
+          "range": {
+            "en": "$0.75–$1.50 / sq. ft.",
+            "fr": "0,75–1,50 $ / pi²"
+          },
+          "includes": {
+            "en": "For compatible grout and suitable preparation. Colour sealing and repair are quoted separately; confirm tax.",
+            "fr": "Pour un coulis compatible et une préparation adaptée. Scellement coloré et réparations distincts; confirmez les taxes."
+          }
+        }
+      ],
+      "factors": [
+        {
+          "title": {
+            "en": "Identify what needs to change",
+            "fr": "Préciser le résultat recherché"
+          },
+          "text": {
+            "en": "Send close-ups of residue, dark joints and worn areas. Ask for a small test when appearance is uncertain, and agree which marks are expected to improve before approving a whole-area treatment.",
+            "fr": "Envoyez des gros plans des résidus, joints foncés et zones usées. Demandez un essai lorsque le résultat est incertain et convenez des marques susceptibles de s’améliorer avant un traitement complet."
+          }
+        },
+        {
+          "title": {
+            "en": "Name the surface and treatment",
+            "fr": "Nommer le matériau et le traitement"
+          },
+          "text": {
+            "en": "Provide the tile or stone name and any previous sealer if known. Request separate lines for cleaning, clear sealing, colour treatment and polishing so a low cleaning price cannot hide a different scope.",
+            "fr": "Indiquez le carreau ou la pierre et l’ancien scellant, si connus. Demandez des postes distincts pour nettoyage, scellement transparent, traitement coloré et polissage afin de comparer la même portée."
+          }
+        },
+        {
+          "title": {
+            "en": "Plan access and return to use",
+            "fr": "Prévoir l’accès et la remise en service"
+          },
+          "text": {
+            "en": "List furniture, appliances, stairs and building work hours. Confirm who clears the space, how water and equipment reach it, and the product-specific drying period before normal use resumes.",
+            "fr": "Détaillez mobilier, appareils, escaliers et horaires de l’immeuble. Confirmez qui libère les lieux, l’accès à l’eau et aux équipements, ainsi que le séchage requis avant la remise en service."
+          }
+        }
+      ],
+      "example": {
+        "title": {
+          "en": "Example: cleaning and optional sealing on 200 sq. ft.",
+          "fr": "Exemple : nettoyage et scellement facultatif de 200 pi²"
+        },
+        "text": {
+          "en": "Using the Vancouver benchmarks, 200 sq. ft. of cleaning calculates to $300–$700. Suitable clear grout sealing adds $150–$300, giving $450–$1,000 for those two lines. Confirm minimums, tax and any preparation separately. Stone restoration is outside this illustration, which is not a Tiling.ca quote.",
+          "fr": "Selon les repères de Vancouver, nettoyer 200 pi² donne 300–700 $. Un scellement transparent adapté ajoute 150–300 $, soit 450–1 000 $ pour ces deux postes. Confirmez minimum, taxes et préparation séparément. La restauration de pierre est exclue; cet exemple n’est pas une soumission de Tiling.ca."
+        }
+      },
+      "checklist": [
+        {
+          "en": "Tile or stone identification, area and photographs of the concern",
+          "fr": "Identification du carreau ou de la pierre, surface et photos du problème"
+        },
+        {
+          "en": "Previous cleaners, coatings or sealers if known",
+          "fr": "Nettoyants, revêtements ou scellants antérieurs, si connus"
+        },
+        {
+          "en": "Separate cleaning, sealing, restoration and repair line items",
+          "fr": "Postes distincts pour nettoyage, scellement, restauration et réparations"
+        },
+        {
+          "en": "Furniture handling, minimum visit, drying time and tax",
+          "fr": "Déplacement du mobilier, minimum par visite, séchage et taxes"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Can I use a tile-cleaning rate to budget marble polishing?",
+            "fr": "Le tarif de nettoyage du carrelage convient-il au polissage du marbre?"
+          },
+          "answer": {
+            "en": "Do not assume the scopes are equivalent. Ask whether the concern is removable residue or a change to the stone finish, and request an itemized restoration proposal when polishing or honing is needed.",
+            "fr": "Ne présumez pas que les portées sont équivalentes. Faites distinguer les résidus amovibles d’une altération de la finition, puis demandez une proposition de restauration détaillée si un polissage ou un adoucissage est requis."
+          }
+        },
+        {
+          "question": {
+            "en": "Does the cleaning price include sealing?",
+            "fr": "Le nettoyage comprend-il le scellement?"
+          },
+          "answer": {
+            "en": "The cited providers price sealing separately. Ask whether the actual grout or stone needs it, which product is proposed and how the area will be measured. Do not add a sealer allowance automatically to every tile surface.",
+            "fr": "Les fournisseurs cités chiffrent le scellement séparément. Demandez si le coulis ou la pierre en a besoin, quel produit est proposé et comment la surface sera mesurée. N’ajoutez pas automatiquement un scellant à chaque surface carrelée."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "tile-supply-delivery-cost",
+      "service": "tile-supply-delivery",
+      "title": {
+        "en": "Tile supply and delivery cost in Canada",
+        "fr": "Coût de fourniture et de livraison de carreaux au Canada"
+      },
+      "description": {
+        "en": "Canadian tile-only retail examples and a separate published delivery policy, with box quantities, freight and tax clearly distinguished.",
+        "fr": "Exemples canadiens de prix de carreaux seuls et politique de livraison distincte : boîtes, transport et taxes."
+      },
+      "range": {
+        "en": "$3.80–$20.95 / sq. ft. for selected tile products",
+        "fr": "3,80–20,95 $ / pi² pour une sélection de carreaux"
+      },
+      "summary": {
+        "en": "Selected products in an Ontario retailer’s catalogue range from $3.80–$20.95 per square foot, before tax and freight. These are product examples across porcelain and mosaics, not an installed-price range or a national average. A second retailer’s delivery policy illustrates why postal code and drop-off terms belong on a separate line.",
+        "fr": "Des produits choisis dans le catalogue d’un détaillant ontarien vont de 3,80 à 20,95 $ le pied carré, avant taxes et transport. Ce sont des exemples de porcelaine et de mosaïques, non une fourchette avec pose ni une moyenne nationale. La politique d’un autre détaillant illustre l’importance de chiffrer séparément code postal et modalités de livraison."
+      },
+      "benchmarks": [
+        {
+          "source": "shopflooring-tile",
+          "scope": {
+            "en": "Selected porcelain field tiles",
+            "fr": "Sélection de carreaux de porcelaine courants"
+          },
+          "range": {
+            "en": "$3.80–$5.90 / sq. ft.; tile only",
+            "fr": "3,80–5,90 $ / pi²; carreaux seuls"
+          },
+          "includes": {
+            "en": "Davenport 12 × 24 and Majesto 24 × 24 catalogue examples. Before tax and freight; installation and setting supplies excluded.",
+            "fr": "Exemples Davenport 12 × 24 et Majesto 24 × 24. Avant taxes et transport; pose et fournitures de pose exclues."
+          }
+        },
+        {
+          "source": "shopflooring-tile",
+          "scope": {
+            "en": "Selected porcelain mosaics",
+            "fr": "Sélection de mosaïques de porcelaine"
+          },
+          "range": {
+            "en": "$13.45–$20.95 / sq. ft.; tile only",
+            "fr": "13,45–20,95 $ / pi²; carreaux seuls"
+          },
+          "includes": {
+            "en": "Nord 2 × 2 and 2-inch hexagon examples. Compare coverage per box; tax and freight extra.",
+            "fr": "Exemples Nord 2 × 2 et hexagones de 2 pouces. Comparez la couverture par boîte; taxes et transport en sus."
+          }
+        },
+        {
+          "source": "tilesinspired-delivery",
+          "scope": {
+            "en": "Eligible Canadian full-order delivery",
+            "fr": "Livraison admissible au Canada, commandes complètes"
+          },
+          "range": {
+            "en": "$99.99–$169.99 / order; delivery only",
+            "fr": "99,99–169,99 $ / commande; livraison seule"
+          },
+          "includes": {
+            "en": "CAD policy: M/L postal prefixes $99.99; G/H/J/K/N $129.99; other eligible codes $169.99, excluding territories. Confirm checkout and taxes. Pallet freight is curbside; Toronto pickup is free.",
+            "fr": "Politique en dollars canadiens : préfixes M/L 99,99 $; G/H/J/K/N 129,99 $; autres codes admissibles 169,99 $, territoires exclus. Confirmez paiement et taxes. Palettes déposées en bordure; ramassage gratuit à Toronto."
+          }
+        }
+      ],
+      "factors": [
+        {
+          "title": {
+            "en": "Order boxes, not just room area",
+            "fr": "Commander des boîtes, pas seulement une surface"
+          },
+          "text": {
+            "en": "Ask the installer for the required quantity including the agreed cutting and spare-tile allowance. Then round to the supplier’s sale unit. A price per square foot does not mean every quantity can be purchased exactly.",
+            "fr": "Faites confirmer la quantité requise, avec la réserve convenue pour coupes et réparations. Arrondissez ensuite selon l’unité de vente. Un tarif au pied carré ne garantit pas l’achat d’une quantité exacte."
+          }
+        },
+        {
+          "title": {
+            "en": "Define the delivery destination",
+            "fr": "Définir le lieu de livraison"
+          },
+          "text": {
+            "en": "Give the complete postal code, driveway conditions and unloading point. Ask whether the quote covers curbside, indoor carry, stairs or a scheduled receiving window, and who moves boxes from the drop-off to the work area.",
+            "fr": "Fournissez code postal complet, état de l’accès et point de déchargement. Précisez bordure de rue, manutention intérieure, escaliers et plage de réception, ainsi que le responsable du transport jusqu’au chantier."
+          }
+        },
+        {
+          "title": {
+            "en": "Compare the complete order",
+            "fr": "Comparer la commande complète"
+          },
+          "text": {
+            "en": "List trims, mortar, grout, membranes and samples separately from tile. Confirm stock, lot consistency, special-order conditions and return rules before ordering; changes to quantity can affect both product and freight charges.",
+            "fr": "Détaillez profilés, mortier, coulis, membranes et échantillons séparément. Confirmez stock, uniformité du lot, conditions des commandes spéciales et retours; une modification de quantité peut changer matériaux et transport."
+          }
+        }
+      ],
+      "example": {
+        "title": {
+          "en": "Example: a 200 sq. ft. tile purchase",
+          "fr": "Exemple : achat de carreaux pour 200 pi²"
+        },
+        "text": {
+          "en": "If an installer specifies 220 sq. ft. for a 200 sq. ft. room, the selected $3.80–$5.90 porcelain examples calculate to $836–$1,298 for tile before box rounding. The extra 20 sq. ft. is an illustration, not a universal waste rule. Add the same supplier’s actual freight, tax and supplies; do not apply another retailer’s shipping policy to this order.",
+          "fr": "Si le carreleur prévoit 220 pi² pour une pièce de 200 pi², les exemples de porcelaine à 3,80–5,90 $ donnent 836–1 298 $ de carreaux avant l’arrondissement aux boîtes. Les 20 pi² supplémentaires illustrent le calcul, sans constituer une règle universelle. Ajoutez transport réel du même fournisseur, taxes et fournitures; la politique d’un autre détaillant ne s’applique pas à cette commande."
+        }
+      },
+      "checklist": [
+        {
+          "en": "Product SKU, finish, sale unit and coverage per box",
+          "fr": "Code produit, fini, unité de vente et couverture par boîte"
+        },
+        {
+          "en": "Installer-approved quantity and cutting/spare allowance",
+          "fr": "Quantité approuvée par le carreleur et réserve pour coupes et réparations"
+        },
+        {
+          "en": "Separate tile, setting supplies, freight, handling and tax totals",
+          "fr": "Totaux distincts : carreaux, fournitures, transport, manutention et taxes"
+        },
+        {
+          "en": "Stock, delivery location, receiving responsibility and return terms",
+          "fr": "Stock, lieu de livraison, responsable de la réception et conditions de retour"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Are these Tiling.ca supply or shipping prices?",
+            "fr": "S’agit-il des tarifs de fourniture ou de livraison de Tiling.ca?"
+          },
+          "answer": {
+            "en": "No. They are published third-party examples for planning. Request the selected product, quantity and delivery address together so the actual supply proposal can confirm its own prices and terms.",
+            "fr": "Non. Ce sont des exemples publiés par des tiers pour la planification. Fournissez produit, quantité et adresse de livraison ensemble afin que la proposition réelle confirme ses propres prix et conditions."
+          }
+        },
+        {
+          "question": {
+            "en": "Does delivery include carrying tile upstairs?",
+            "fr": "La livraison comprend-elle la montée des carreaux à l’étage?"
+          },
+          "answer": {
+            "en": "The cited pallet-freight policy specifies curbside delivery. Indoor carrying, stairs, elevator bookings and storage must be confirmed with the supplier or separately arranged. Ask for the exact handover point in writing.",
+            "fr": "La politique de transport sur palette citée prévoit une livraison en bordure. Transport intérieur, escaliers, réservation d’ascenseur et entreposage sont à confirmer ou à organiser séparément. Faites préciser le point de remise par écrit."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "tile-stairs-cost",
+      "service": "tile-stairs-steps",
+      "title": {
+        "en": "Tile stairs and steps cost in Canada",
+        "fr": "Coût du carrelage des escaliers et des marches au Canada"
+      },
+      "description": {
+        "en": "Published tile-stair examples from Calgary and Toronto, with per-step and per-area pricing kept separate and material allowances explained.",
+        "fr": "Exemples de carrelage d’escalier à Calgary et Toronto, avec tarifs par marche et par surface distincts et allocations de matériaux."
+      },
+      "range": {
+        "en": "Published examples: $125 / stair or $35 / sq. ft.",
+        "fr": "Exemples publiés : 125 $ / marche ou 35 $ / pi²"
+      },
+      "summary": {
+        "en": "Two Canadian tile contractors publish useful stair examples: $125 per stair including subfloor in Calgary, and $35 per square foot for countertop/stair tiling in Toronto. These are different units and scopes, not the ends of a market range. Both need a written scope before comparison; exterior steps require a separate project assessment.",
+        "fr": "Deux entrepreneurs canadiens publient des repères utiles : 125 $ par marche, sous-plancher compris, à Calgary, et 35 $ le pied carré pour comptoirs et escaliers à Toronto. Ces unités et portées diffèrent; elles ne forment pas une fourchette de marché. Une portée écrite est nécessaire; les marches extérieures demandent une évaluation distincte."
+      },
+      "benchmarks": [
+        {
+          "source": "granddesign-stairs",
+          "scope": {
+            "en": "Tile installation on stairs",
+            "fr": "Pose de carrelage sur escalier"
+          },
+          "range": {
+            "en": "$125 / stair",
+            "fr": "125 $ / marche"
+          },
+          "includes": {
+            "en": "Calgary tile-installation list includes subfloor; minimum tile charge $500+. Tile purchase, nosings, demolition and tax are not itemized.",
+            "fr": "La liste de pose de Calgary inclut le sous-plancher; minimum carrelage 500 $ et plus. Achat des carreaux, nez de marche, dépose et taxes non détaillés."
+          }
+        },
+        {
+          "source": "quicktiles-stairs",
+          "scope": {
+            "en": "Countertop and stair tiling category",
+            "fr": "Catégorie carrelage de comptoirs et d’escaliers"
+          },
+          "range": {
+            "en": "$35 / sq. ft. total",
+            "fr": "35 $ / pi² au total"
+          },
+          "includes": {
+            "en": "Toronto preliminary CAD list: $30 labour plus $5 materials. The materials line is not detailed; confirm tile allowance, nosings, preparation and tax.",
+            "fr": "Liste indicative de Toronto en dollars canadiens : 30 $ de main-d’œuvre et 5 $ de matériaux. Matériaux non détaillés; confirmez carreaux, nez de marche, préparation et taxes."
+          }
+        }
+      ],
+      "factors": [
+        {
+          "title": {
+            "en": "Measure treads, risers and landings",
+            "fr": "Mesurer marches, contremarches et paliers"
+          },
+          "text": {
+            "en": "Record stair count, width, tread depth and riser height. Identify curved steps, exposed sides and landings separately. A per-step price needs the same surfaces included before it can be compared with an area price.",
+            "fr": "Relevez nombre de marches, largeur, profondeur et hauteur des contremarches. Détaillez marches courbes, côtés exposés et paliers. Un tarif par marche doit couvrir les mêmes surfaces qu’un tarif par surface."
+          }
+        },
+        {
+          "title": {
+            "en": "Specify the edge detail",
+            "fr": "Préciser la finition des bordures"
+          },
+          "text": {
+            "en": "Ask for the proposed nosing or edge profile, tile thickness and treatment of exposed ends. Confirm whether fabrication, specialty trim and extra cuts are included. These details are easy to overlook in a square-foot allowance.",
+            "fr": "Faites préciser nez de marche ou profilé, épaisseur du carreau et finition des extrémités. Confirmez fabrication, profilés spéciaux et coupes supplémentaires. Ces détails peuvent manquer dans un budget au pied carré."
+          }
+        },
+        {
+          "title": {
+            "en": "Assess the existing stair assembly",
+            "fr": "Évaluer l’escalier existant"
+          },
+          "text": {
+            "en": "Describe the current covering, substrate and indoor or outdoor exposure. Request any removal, repair and weather-exposure preparation as separate items. Adding a finish also requires the installer to review the resulting stair geometry.",
+            "fr": "Décrivez revêtement, support et exposition intérieure ou extérieure. Faites détailler dépose, réparations et préparation aux intempéries. Le carreleur doit aussi examiner les dimensions finales après ajout du revêtement."
+          }
+        }
+      ],
+      "example": {
+        "title": {
+          "en": "Example: translate the measurement, then compare scope",
+          "fr": "Exemple : convertir les mesures, puis comparer la portée"
+        },
+        "text": {
+          "en": "For 12 identical steps, each 3 ft wide with a 1 ft tread and 0.5 ft riser, the tread-and-riser area is 12 × 3 × 1.5 = 54 sq. ft. The published examples calculate to 12 × $125 = $1,500 or 54 × $35 = $1,890. They are not equivalent quotes: confirm subfloor, tile, nosings, landings and tax. These calculations are not Tiling.ca estimates.",
+          "fr": "Pour 12 marches de 3 pi de large, avec giron de 1 pi et contremarche de 0,5 pi, la surface est de 12 × 3 × 1,5 = 54 pi². Les repères donnent 12 × 125 $ = 1 500 $ ou 54 × 35 $ = 1 890 $. Ces soumissions ne sont pas équivalentes : confirmez sous-plancher, carreaux, nez, paliers et taxes. Ces calculs ne sont pas des estimations de Tiling.ca."
+        }
+      },
+      "checklist": [
+        {
+          "en": "Stair count and dimensions, landings, exposed sides and photos",
+          "fr": "Nombre et dimensions des marches, paliers, côtés exposés et photos"
+        },
+        {
+          "en": "Tile selection, nosing profile and finished stair measurements",
+          "fr": "Choix du carreau, profilé de nez et dimensions finales"
+        },
+        {
+          "en": "Removal, substrate repair and indoor/outdoor preparation",
+          "fr": "Dépose, réparations du support et préparation intérieure ou extérieure"
+        },
+        {
+          "en": "Exactly what each per-step or per-area price includes, plus minimum and tax",
+          "fr": "Inclusions exactes du prix par marche ou par surface, minimum et taxes"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Why is there no single tile-stair price range?",
+            "fr": "Pourquoi n’y a-t-il pas une seule fourchette pour les escaliers carrelés?"
+          },
+          "answer": {
+            "en": "The verified Canadian examples use different units and material descriptions. Presenting them as one range would obscure those differences. A measured stair schedule and itemized scope let contractors price the same work.",
+            "fr": "Les exemples canadiens vérifiés utilisent des unités et des descriptions de matériaux différentes. Les réunir en une seule fourchette masquerait ces écarts. Un relevé des marches et une portée détaillée permettent de chiffrer les mêmes travaux."
+          }
+        },
+        {
+          "question": {
+            "en": "Can I apply these examples to outdoor concrete steps?",
+            "fr": "Ces exemples s’appliquent-ils aux marches extérieures en béton?"
+          },
+          "answer": {
+            "en": "Do not assume that they cover exterior work. Provide photos and the exposure conditions, and request a proposal that identifies the tile, substrate, drainage and edge system for that location. Concrete reconstruction is a separate scope.",
+            "fr": "Ne présumez pas qu’ils couvrent l’extérieur. Fournissez photos et conditions d’exposition, puis demandez une proposition précisant carreaux, support, drainage et bordures adaptés au lieu. La reconstruction du béton est une portée distincte."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "outdoor-balcony-tiling-cost",
+      "service": "outdoor-balcony-tiling",
+      "title": {
+        "en": "Outdoor and balcony tiling cost",
+        "fr": "Coût du carrelage extérieur et de balcon"
+      },
+      "description": {
+        "en": "Compare Canadian outdoor tile pricing for an existing patio slab, a new slab and installation labour, with separate scope notes for balconies.",
+        "fr": "Comparez les prix canadiens du carrelage extérieur sur dalle existante ou neuve et de la main-d’œuvre, avec les particularités des balcons."
+      },
+      "range": {
+        "en": "$25–$51 / sq. ft. on an existing patio slab",
+        "fr": "25–51 $ / pi² sur dalle de patio existante"
+      },
+      "summary": {
+        "en": "An Ontario contractor publishes $25–$51 per square foot for outdoor tile installed on an existing slab. A Victoria contractor separately lists patio labour at $12–$20 per square foot. These scopes differ. Elevated balconies need their own assessment of the structure, drainage, waterproofing and access; a ground-level patio rate is not a complete balcony budget.",
+        "fr": "Un entrepreneur ontarien publie un prix de 25 à 51 $ le pied carré pour du carrelage extérieur posé sur dalle existante. Un entrepreneur de Victoria indique séparément 12 à 20 $ le pied carré pour la main-d’œuvre de patio. Ces portées diffèrent. Un balcon surélevé exige une évaluation distincte de la structure, du drainage, de l’étanchéité et de l’accès."
+      },
+      "benchmarks": [
+        {
+          "source": "primeOutdoor",
+          "scope": {
+            "en": "Outdoor tile on an existing concrete slab",
+            "fr": "Carrelage extérieur sur dalle de béton existante"
+          },
+          "range": {
+            "en": "$25–$51 / sq. ft.",
+            "fr": "25–51 $ / pi²"
+          },
+          "includes": {
+            "en": "Published installed range includes porcelain, crack-isolation membrane, setting materials, grout and labour. Confirm slab repairs, edge details and taxes.",
+            "fr": "Fourchette publiée avec porcelaine, membrane antifissure, matériaux de pose, coulis et main-d’œuvre. Confirmez réparations de dalle, bordures et taxes."
+          }
+        },
+        {
+          "source": "primeOutdoor",
+          "scope": {
+            "en": "New concrete slab plus outdoor tile",
+            "fr": "Nouvelle dalle de béton et carrelage extérieur"
+          },
+          "range": {
+            "en": "$37–$71 / sq. ft.",
+            "fr": "37–71 $ / pi²"
+          },
+          "includes": {
+            "en": "Adds the source’s new-slab allowance to its tile assembly. This is a patio example; balcony construction and structural work are not priced.",
+            "fr": "Ajoute l’allocation de dalle neuve de la source à son assemblage carrelé. Exemple de patio; construction de balcon et travaux structuraux non chiffrés."
+          }
+        },
+        {
+          "source": "topOutdoor",
+          "scope": {
+            "en": "Patio installation labour",
+            "fr": "Main-d’œuvre de pose sur patio"
+          },
+          "range": {
+            "en": "$12–$20 / sq. ft.",
+            "fr": "12–20 $ / pi²"
+          },
+          "includes": {
+            "en": "Labour only; the source says base preparation and tile size affect the rate. Steps and complex designs cost more. Confirm materials, repairs and tax separately.",
+            "fr": "Main-d’œuvre seulement; selon la source, préparation de la base et format influencent le tarif. Marches et motifs complexes coûtent davantage. Confirmez matériaux, réparations et taxes séparément."
+          }
+        }
+      ],
+      "factors": [
+        {
+          "title": {
+            "en": "What supports the tile",
+            "fr": "Le support du carrelage"
+          },
+          "text": {
+            "en": "Identify an existing slab, a new patio or a balcony over occupied space. Cracks, movement, deteriorated concrete and drainage conditions need a defined repair scope before comparing finish prices.",
+            "fr": "Précisez s’il s’agit d’une dalle existante, d’un nouveau patio ou d’un balcon au-dessus d’un espace occupé. Fissures, mouvements, béton dégradé et drainage doivent faire l’objet d’une portée de réparation avant la comparaison des prix."
+          }
+        },
+        {
+          "title": {
+            "en": "Exposure and edge details",
+            "fr": "Exposition et finitions périphériques"
+          },
+          "text": {
+            "en": "Provide the actual tile and proposed assembly for exterior suitability review. Door thresholds, drains, movement joints, steps and exposed edges add work beyond the flat area.",
+            "fr": "Fournissez le carreau choisi et l’assemblage proposé pour vérifier leur aptitude à l’extérieur. Seuils, drains, joints de mouvement, marches et bords exposés ajoutent des travaux au-delà de la surface plane."
+          }
+        },
+        {
+          "title": {
+            "en": "Balcony access and building coordination",
+            "fr": "Accès au balcon et coordination de l’immeuble"
+          },
+          "text": {
+            "en": "A condo balcony may require building approval, a defined membrane protection method and scheduled material deliveries. Include lifting, elevator use, protection and disposal in the project scope.",
+            "fr": "Un balcon de copropriété peut nécessiter l’accord de l’immeuble, une méthode définie de protection de la membrane et des livraisons planifiées. Intégrez levage, ascenseur, protection et évacuation à la portée du projet."
+          }
+        }
+      ],
+      "example": {
+        "title": {
+          "en": "Example: a 200 sq. ft. patio on an existing slab",
+          "fr": "Exemple : patio de 200 pi² sur dalle existante"
+        },
+        "text": {
+          "en": "200 × $25–$51 gives $5,000–$10,200 using the Ontario existing-slab benchmark. Confirm that the slab is suitable and that the quote includes the same assembly. New concrete, repairs and balcony-specific work change the scope; taxes are not identified in the cited table. This is an illustration, not a Tiling.ca quote.",
+          "fr": "200 × 25–51 $ donne 5 000 à 10 200 $ selon le repère ontarien sur dalle existante. Vérifiez l’état de la dalle et l’équivalence de l’assemblage compris. Béton neuf, réparations et travaux propres aux balcons modifient la portée; les taxes ne sont pas précisées dans le tableau cité. Exemple indicatif, et non soumission de Tiling.ca."
+        }
+      },
+      "checklist": [
+        {
+          "en": "Dimensions, elevation, current surface and photographs of drains and thresholds",
+          "fr": "Dimensions, hauteur, surface actuelle et photos des drains et seuils"
+        },
+        {
+          "en": "Exterior tile product and the proposed membrane and setting system",
+          "fr": "Produit de carrelage extérieur, membrane et système de pose proposés"
+        },
+        {
+          "en": "Slab repairs, slope work, removal, steps and edge finishing itemized",
+          "fr": "Réparations de dalle, correction de pente, dépose, marches et bordures détaillées"
+        },
+        {
+          "en": "Building approvals, access, lifting, disposal, weather scheduling and taxes",
+          "fr": "Autorisations de l’immeuble, accès, levage, évacuation, calendrier météo et taxes"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Can I use this patio range for a condo balcony?",
+            "fr": "Puis-je appliquer cette fourchette à un balcon de copropriété?"
+          },
+          "answer": {
+            "en": "Use it only as a finish-cost comparison. A balcony can involve a different structural and waterproofing assembly, access restrictions and building approvals. Obtain a balcony-specific written scope before budgeting the total.",
+            "fr": "Utilisez-la seulement comme repère de finition. Un balcon peut comporter une structure et une étanchéité différentes, des restrictions d’accès et des autorisations. Obtenez une portée écrite propre au balcon avant d’établir le budget total."
+          }
+        },
+        {
+          "question": {
+            "en": "Does the installed price include a new concrete slab?",
+            "fr": "Le prix avec pose comprend-il une dalle de béton neuve?"
+          },
+          "answer": {
+            "en": "The $25–$51 range is for an existing slab. The same source publishes $37–$71 per square foot with a new slab. Repairs, site constraints and the final assembly still need confirmation.",
+            "fr": "La fourchette de 25 à 51 $ concerne une dalle existante. La même source publie 37 à 71 $ le pied carré avec une dalle neuve. Réparations, contraintes du terrain et assemblage final restent à confirmer."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "fireplace-feature-wall-tiling-cost",
+      "service": "fireplace-feature-wall-tiling",
+      "title": {
+        "en": "Fireplace surround and feature-wall tiling cost",
+        "fr": "Coût du carrelage de foyer et de mur décoratif"
+      },
+      "description": {
+        "en": "Compare Canadian fireplace-surround project prices, labour-only examples and larger feature-wall scopes before requesting a quote.",
+        "fr": "Comparez les prix canadiens d’entourages de foyer, les repères de main-d’œuvre et les portées de grands murs décoratifs avant une soumission."
+      },
+      "range": {
+        "en": "$1,500–$4,000 / standard surround example",
+        "fr": "1 500–4 000 $ / exemple d’entourage courant"
+      },
+      "summary": {
+        "en": "Prime Tiling publishes a $1,500–$4,000 fireplace-surround example with mid-range tile and standard preparation. Other Canadian contractors describe labour-only surrounds and more elaborate fireplace projects separately. A floor-to-ceiling feature wall, wrapped corners or slab-like porcelain can exceed the standard-surround allowance.",
+        "fr": "Prime Tiling publie un exemple d’entourage de foyer de 1 500 à 4 000 $, avec carreaux de gamme intermédiaire et préparation courante. D’autres entrepreneurs canadiens présentent séparément la main-d’œuvre et des projets plus élaborés. Un mur jusqu’au plafond, des angles enveloppants ou de grands panneaux de porcelaine peuvent dépasser ce repère."
+      },
+      "benchmarks": [
+        {
+          "source": "prime",
+          "scope": {
+            "en": "Fireplace surround project",
+            "fr": "Projet d’entourage de foyer"
+          },
+          "range": {
+            "en": "$1,500–$4,000 / project",
+            "fr": "1 500–4 000 $ / projet"
+          },
+          "includes": {
+            "en": "The guide states professional labour, mid-range tile and standard preparation are included. Confirm dimensions, demolition, hearth and tax treatment.",
+            "fr": "Le guide indique main-d’œuvre professionnelle, carreaux de gamme intermédiaire et préparation courante compris. Confirmez dimensions, dépose, âtre et taxes."
+          }
+        },
+        {
+          "source": "topFireplace",
+          "scope": {
+            "en": "Standard fireplace-surround labour",
+            "fr": "Main-d’œuvre d’un entourage de foyer courant"
+          },
+          "range": {
+            "en": "$600–$1,500 / project",
+            "fr": "600–1 500 $ / projet"
+          },
+          "includes": {
+            "en": "Labour only. Full feature walls are described as costing more without a published numeric range. Tile supply and other work need separate confirmation.",
+            "fr": "Main-d’œuvre seulement. La source indique que les murs complets coûtent davantage sans les chiffrer. Fourniture de carreaux et autres travaux à confirmer séparément."
+          }
+        },
+        {
+          "source": "tesseraFireplace",
+          "scope": {
+            "en": "Fireplace projects from simple to elaborate",
+            "fr": "Projets de foyer simples à élaborés"
+          },
+          "range": {
+            "en": "$3,500–$11,200+ / project",
+            "fr": "3 500–11 200 $ et plus / projet"
+          },
+          "includes": {
+            "en": "Reference project range varies with size, material and detailing. Exact material allowance, preparation and taxes are not itemized; confirm these in a measured quote.",
+            "fr": "Fourchette indicative selon dimensions, matériaux et détails. Allocation exacte de matériaux, préparation et taxes non détaillées; à confirmer dans une soumission après mesurage."
+          }
+        }
+      ],
+      "factors": [
+        {
+          "title": {
+            "en": "Surround, hearth or full wall",
+            "fr": "Entourage, âtre ou mur complet"
+          },
+          "text": {
+            "en": "Measure each face and show the height, returns and hearth. A small surround and a ceiling-height wall can share the same tile but require very different quantities, cuts and access.",
+            "fr": "Mesurez chaque face et indiquez hauteur, retours et âtre. Un petit entourage et un mur jusqu’au plafond peuvent employer le même carreau tout en exigeant des quantités, coupes et accès très différents."
+          }
+        },
+        {
+          "title": {
+            "en": "Corners and pattern alignment",
+            "fr": "Angles et alignement du motif"
+          },
+          "text": {
+            "en": "Mitred corners, uninterrupted veining, bookmatched panels and recessed features affect fabrication and handling. Share the chosen product and a drawing so the finish is included in the quote.",
+            "fr": "Angles à onglet, continuité des veines, panneaux en livre ouvert et éléments encastrés influencent fabrication et manutention. Fournissez le produit et un croquis pour inclure la finition dans la soumission."
+          }
+        },
+        {
+          "title": {
+            "en": "Appliance requirements and backing",
+            "fr": "Exigences de l’appareil et support"
+          },
+          "text": {
+            "en": "Give the installer the fireplace model and installation documentation. Substrate changes, removal and coordination with the fireplace installer need separate line items; the tile price does not establish appliance clearances.",
+            "fr": "Transmettez le modèle du foyer et sa documentation de pose. Modification du support, dépose et coordination avec l’installateur du foyer doivent être détaillées; le prix du carrelage ne détermine pas les dégagements de l’appareil."
+          }
+        }
+      ],
+      "example": {
+        "title": {
+          "en": "Example: compare the same surround scope",
+          "fr": "Exemple : comparer la même portée d’entourage"
+        },
+        "text": {
+          "en": "A $600–$1,500 labour allowance and a $1,500–$4,000 package are not competing totals until tile, setting supplies, preparation and finishing are aligned. Ask both bidders to price the same surround dimensions, hearth and edge detail. A fireplace appliance, gas work or electrical changes require their own scope.",
+          "fr": "Une allocation de main-d’œuvre de 600 à 1 500 $ et un forfait de 1 500 à 4 000 $ ne sont comparables qu’après harmonisation des carreaux, fournitures, préparation et finitions. Demandez les mêmes dimensions, âtre et bordures. Appareil de foyer, travaux de gaz et modifications électriques exigent leur propre portée."
+        }
+      },
+      "checklist": [
+        {
+          "en": "Fireplace model, installation documentation and current-wall photographs",
+          "fr": "Modèle du foyer, documentation d’installation et photos du mur actuel"
+        },
+        {
+          "en": "Surround, hearth, wall height and return dimensions",
+          "fr": "Dimensions de l’entourage, de l’âtre, de la hauteur du mur et des retours"
+        },
+        {
+          "en": "Tile selection, vein direction, panel layout and corner finish",
+          "fr": "Choix de carreaux, sens des veines, disposition des panneaux et finition des angles"
+        },
+        {
+          "en": "Removal, backing, tile supply, appliance work, access and taxes itemized",
+          "fr": "Dépose, support, carreaux, travaux sur l’appareil, accès et taxes détaillés"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Does fireplace tiling include a new fireplace?",
+            "fr": "Le carrelage de foyer comprend-il un nouveau foyer?"
+          },
+          "answer": {
+            "en": "The benchmarks concern the tile surround or feature wall. Confirm separately any appliance purchase, venting, gas work, electrical work, mantel or framing changes.",
+            "fr": "Les repères concernent l’entourage carrelé ou le mur décoratif. Confirmez séparément achat de l’appareil, évacuation, gaz, électricité, manteau et modifications de charpente."
+          }
+        },
+        {
+          "question": {
+            "en": "Why does a large feature wall cost more than a surround?",
+            "fr": "Pourquoi un grand mur décoratif coûte-t-il plus cher qu’un entourage?"
+          },
+          "answer": {
+            "en": "It adds surface area and may add difficult handling, high-level access, wrapped corners and pattern matching. The cited labour-only surround price does not cover an unspecified full-wall installation.",
+            "fr": "Il augmente la surface et peut ajouter manutention difficile, accès en hauteur, retours d’angle et raccords de motifs. Le repère de main-d’œuvre d’entourage ne couvre pas un mur complet de dimensions indéterminées."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "pool-spa-tiling-cost",
+      "service": "pool-spa-tiling",
+      "title": {
+        "en": "Pool and spa tiling cost: scope and published pricing",
+        "fr": "Coût du carrelage de piscine et de spa : portée et prix publiés"
+      },
+      "description": {
+        "en": "Review a published Quebec pool-tiling range and the scope questions that matter for concrete pools, waterline repairs and spas.",
+        "fr": "Consultez une fourchette québécoise de carrelage de piscine et les questions à préciser pour bassins en béton, lignes d’eau et spas."
+      },
+      "range": {
+        "en": "$8,000–$20,000 / published pool-tiling example",
+        "fr": "8 000–20 000 $ / exemple publié de carrelage de piscine"
+      },
+      "summary": {
+        "en": "Piscine Ambition publishes $8,000–$20,000 for pool tile installation, depending on tile choice and area. This is one Quebec contractor’s reference, with no stated pool size or distinction between full-interior and waterline coverage. It is not a national average or a verified spa range. Pool and spa work needs a measured, assembly-specific quote.",
+        "fr": "Piscine Ambition publie de 8 000 à 20 000 $ pour la pose de carrelage de piscine selon le carreau et la surface. Ce repère d’un seul entrepreneur québécois ne précise ni dimensions ni couverture complète ou ligne d’eau. Ce n’est ni une moyenne nationale ni une fourchette vérifiée pour spa. Une soumission mesurée et propre à l’assemblage est nécessaire."
+      },
+      "benchmarks": [
+        {
+          "source": "ambitionPool",
+          "scope": {
+            "en": "Pool tile installation; area and coverage unspecified",
+            "fr": "Pose de carrelage de piscine; surface et couverture non précisées"
+          },
+          "range": {
+            "en": "$8,000–$20,000 / project",
+            "fr": "8 000–20 000 $ / projet"
+          },
+          "includes": {
+            "en": "Published on a concrete-pool tiling service page. The pricing FAQ does not itemize tile supply, shell repairs, waterproofing, draining, refilling or tax. No separate spa or waterline rate is stated.",
+            "fr": "Publié sur une page de carrelage de piscines en béton. La FAQ de prix ne détaille ni carreaux, réparations du bassin, étanchéité, vidange, remplissage ni taxes. Aucun tarif distinct pour spa ou ligne d’eau."
+          }
+        }
+      ],
+      "factors": [
+        {
+          "title": {
+            "en": "Define exactly which surfaces are tiled",
+            "fr": "Définir précisément les surfaces carrelées"
+          },
+          "text": {
+            "en": "Separate the waterline band, walls, floor, steps, benches and spa surfaces. Pool dimensions alone do not describe the tile area, and a repair patch cannot be priced from an unspecified full-project allowance.",
+            "fr": "Distinguez bande de ligne d’eau, murs, fond, marches, bancs et surfaces du spa. Les dimensions du bassin ne suffisent pas à décrire la surface carrelée; une réparation locale ne se chiffre pas à partir d’un forfait de portée indéterminée."
+          }
+        },
+        {
+          "title": {
+            "en": "Condition of the concrete and existing finish",
+            "fr": "État du béton et de la finition existante"
+          },
+          "text": {
+            "en": "Document loose tiles, cracks, previous coatings and any known leaks. Define removal, shell repairs and the specified waterproofing or setting assembly before selecting a finish-only allowance.",
+            "fr": "Documentez carreaux décollés, fissures, anciens revêtements et fuites connues. Définissez dépose, réparations du bassin et assemblage d’étanchéité ou de pose avant de retenir une allocation de finition seule."
+          }
+        },
+        {
+          "title": {
+            "en": "Tile system and return to service",
+            "fr": "Système de carrelage et remise en service"
+          },
+          "text": {
+            "en": "Have the installer confirm that tile, mortar and grout suit the intended submerged use. Include access, draining, disposal, curing requirements and refilling responsibilities in the schedule and price.",
+            "fr": "Faites confirmer l’aptitude des carreaux, du mortier et du coulis à l’immersion prévue. Précisez accès, vidange, évacuation, exigences de cure et responsabilités de remplissage dans le calendrier et le prix."
+          }
+        }
+      ],
+      "example": {
+        "title": {
+          "en": "Example: a waterline repair versus pool resurfacing",
+          "fr": "Exemple : ligne d’eau ou réfection du bassin"
+        },
+        "text": {
+          "en": "A quote for a narrow waterline band and a quote for walls, floor and steps cover different quantities and preparation. The cited $8,000–$20,000 range does not identify which of these scopes it represents, so it cannot establish a per-square-foot or per-linear-foot rate. Compare drawings, measured areas and included repairs before comparing totals.",
+          "fr": "Une soumission pour une bande de ligne d’eau et une autre pour murs, fond et marches couvrent des quantités et préparations différentes. La fourchette citée de 8 000 à 20 000 $ ne précise pas laquelle de ces portées elle représente; elle ne permet donc pas de calculer un tarif au pied carré ou linéaire. Comparez plans, surfaces et réparations comprises avant les totaux."
+        }
+      },
+      "checklist": [
+        {
+          "en": "Pool or spa type, dimensions, depth and exact surfaces to tile",
+          "fr": "Type de piscine ou de spa, dimensions, profondeur et surfaces exactes à carreler"
+        },
+        {
+          "en": "Photographs of the finish, cracks, loose areas, steps and fittings",
+          "fr": "Photos de la finition, fissures, zones décollées, marches et raccords"
+        },
+        {
+          "en": "Removal, shell repairs, waterproofing, tile, mortar and grout scope",
+          "fr": "Portée de dépose, réparations du bassin, étanchéité, carreaux, mortier et coulis"
+        },
+        {
+          "en": "Draining, curing, refilling, equipment work, disposal and taxes",
+          "fr": "Vidange, cure, remplissage, travaux d’équipement, évacuation et taxes"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Can I use this range for a spa or a waterline-only job?",
+            "fr": "Puis-je appliquer cette fourchette à un spa ou à la ligne d’eau seulement?"
+          },
+          "answer": {
+            "en": "The source does not publish either scope separately. Use a quote based on the actual surfaces and assembly; do not scale the pool-project figure to a smaller spa or waterline band.",
+            "fr": "La source ne publie pas ces portées séparément. Demandez une soumission selon les surfaces et l’assemblage réels; n’appliquez pas proportionnellement le montant de piscine à un spa ou à une bande de ligne d’eau."
+          }
+        },
+        {
+          "question": {
+            "en": "Is this the cost of building a pool?",
+            "fr": "S’agit-il du coût de construction d’une piscine?"
+          },
+          "answer": {
+            "en": "No. The source prices tile installation. Pool construction, equipment, structural repairs and surrounding decking are separate scopes unless explicitly included in the written quote.",
+            "fr": "Non. La source chiffre la pose de carrelage. Construction du bassin, équipements, réparations structurales et terrasse périphérique constituent des portées distinctes, sauf inclusion explicite dans la soumission."
+          }
+        }
+      ]
+    },
+    {
+      "slug": "rooftop-terrace-pedestal-paver-cost",
+      "service": "rooftop-terrace-pedestal-pavers",
+      "title": {
+        "en": "Rooftop pedestal paver cost: materials and quote planning",
+        "fr": "Coût des dalles sur plots en toit-terrasse : matériaux et soumission"
+      },
+      "description": {
+        "en": "Compare published Canadian pedestal-pack and porcelain-paver prices, with clear material-only examples and rooftop installation cost factors.",
+        "fr": "Comparez les prix canadiens publiés de lots de plots et de dalles de porcelaine, avec exemples de matériaux seuls et facteurs propres à la pose en toiture."
+      },
+      "range": {
+        "en": "$223.75–$379.50 / 30 pedestals, materials only",
+        "fr": "223,75–379,50 $ / 30 plots, matériaux seuls"
+      },
+      "summary": {
+        "en": "Selected Enmon Pro Series pedestal packs at Ceramed span $223.75–$379.50 for 30 supports across listed heights of 29–185 mm. This is a Canadian retail component range, not an installed terrace price; confirm current stock. Pavers, labour, roof protection, design, restraint details and lifting are separate. Public component prices do not establish a complete rooftop budget.",
+        "fr": "Certains lots Enmon Pro Series chez Ceramed coûtent de 223,75 à 379,50 $ pour 30 plots, selon des hauteurs de 29 à 185 mm. Il s’agit de composants au détail au Canada, et non d’une terrasse posée; confirmez les stocks. Dalles, main-d’œuvre, protection de toiture, conception, retenue et levage sont distincts. Ces prix ne constituent pas un budget complet de toit-terrasse."
+      },
+      "benchmarks": [
+        {
+          "source": "ceramedPedestals",
+          "scope": {
+            "en": "Selected Pro Series packs, heights 29–185 mm",
+            "fr": "Certains lots Pro Series, hauteurs de 29 à 185 mm"
+          },
+          "range": {
+            "en": "$223.75–$379.50 / 30 supports",
+            "fr": "223,75–379,50 $ / 30 supports"
+          },
+          "includes": {
+            "en": "Pedestals only; prices vary by height. Equivalent to about $7.46–$12.65 each by division. Taxes and shipping extra; no pavers or installation. Confirm availability before ordering.",
+            "fr": "Plots seulement; prix selon la hauteur. Équivalent d’environ 7,46 à 12,65 $ chacun par division. Taxes et livraison en sus; dalles et pose exclues. Confirmez la disponibilité avant commande."
+          }
+        },
+        {
+          "source": "ceramedPedestalPack",
+          "scope": {
+            "en": "Pro Series 60–95 mm, specific pack example",
+            "fr": "Pro Series 60–95 mm, exemple de lot précis"
+          },
+          "range": {
+            "en": "$296.35 / 30 supports",
+            "fr": "296,35 $ / 30 supports"
+          },
+          "includes": {
+            "en": "Retail price for this selected height range. Support quantity, accessories and compatibility depend on the approved layout and system. Taxes and shipping extra.",
+            "fr": "Prix au détail pour cette plage de hauteur. Nombre de supports, accessoires et compatibilité selon disposition et système approuvés. Taxes et livraison en sus."
+          }
+        },
+        {
+          "source": "hdPorcelainPaver",
+          "scope": {
+            "en": "MSI 24 × 24 in., 20 mm porcelain paver",
+            "fr": "Dalle MSI de 24 × 24 po, porcelaine de 20 mm"
+          },
+          "range": {
+            "en": "$31.92 / 4 sq. ft. case",
+            "fr": "31,92 $ / boîte de 4 pi²"
+          },
+          "includes": {
+            "en": "Canadian retail material example, equivalent to $7.98 per square foot. No pedestals, labour, waste or delivery allowance. Roof/system suitability and taxes require confirmation.",
+            "fr": "Exemple de matériau au détail au Canada, soit 7,98 $ le pied carré. Plots, main-d’œuvre, pertes et livraison non compris. Aptitude à la toiture et au système, ainsi que taxes, à confirmer."
+          }
+        }
+      ],
+      "factors": [
+        {
+          "title": {
+            "en": "Roof assembly and building review",
+            "fr": "Toiture et examen de l’immeuble"
+          },
+          "text": {
+            "en": "Define the existing roof condition, load limits, drainage and thresholds before specifying the terrace finish. Obtain the building and design reviews required for the project, and separate any roof repairs from the paver work.",
+            "fr": "Définissez état de la toiture, limites de charge, drainage et seuils avant de choisir la finition. Obtenez les examens de l’immeuble et de conception requis, puis distinguez les réparations de toiture de la pose des dalles."
+          }
+        },
+        {
+          "title": {
+            "en": "Support layout and perimeter details",
+            "fr": "Disposition des supports et détails périphériques"
+          },
+          "text": {
+            "en": "The support count depends on paver size, the manufacturer’s layout, height changes and required intermediate supports. Edge and wind restraint, slope correction and protection pads may add components beyond the base pedestal price.",
+            "fr": "Le nombre de supports dépend du format, de la disposition du fabricant, des variations de hauteur et des appuis intermédiaires requis. Retenue périphérique et au vent, correction de pente et patins de protection peuvent ajouter des composants au prix du plot de base."
+          }
+        },
+        {
+          "title": {
+            "en": "Getting materials onto the roof",
+            "fr": "Acheminer les matériaux en toiture"
+          },
+          "text": {
+            "en": "Delivery to the building is different from moving materials to the roof. Include hoisting or elevator time, staging limits, cuts, spare pavers and protection of the existing membrane in the contractor’s scope.",
+            "fr": "La livraison à l’immeuble diffère de l’acheminement en toiture. Incluez levage ou ascenseur, limites d’entreposage, coupes, dalles de réserve et protection de la membrane existante dans la portée de l’entrepreneur."
+          }
+        }
+      ],
+      "example": {
+        "title": {
+          "en": "Example: pavers only for 200 sq. ft.",
+          "fr": "Exemple : dalles seules pour 200 pi²"
+        },
+        "text": {
+          "en": "At 4 sq. ft. per case, 200 sq. ft. requires 50 cases before cuts and spare stock. 50 × $31.92 = $1,596 for the cited pavers alone, before applicable taxes and delivery. This is not an installed roof estimate. Price supports from the approved layout, then add compatible accessories, roof work, labour, lifting and other project requirements.",
+          "fr": "À 4 pi² par boîte, 200 pi² nécessitent 50 boîtes avant les coupes et la réserve. 50 × 31,92 $ = 1 596 $ pour les dalles citées seules, avant taxes applicables et livraison. Ce n’est pas une estimation de toiture posée. Chiffrez les supports selon le plan approuvé, puis accessoires compatibles, travaux de toiture, main-d’œuvre, levage et autres exigences."
+        }
+      },
+      "checklist": [
+        {
+          "en": "Roof plan, existing membrane, drainage, thresholds and building requirements",
+          "fr": "Plan de toiture, membrane existante, drainage, seuils et exigences de l’immeuble"
+        },
+        {
+          "en": "Approved paver and pedestal system, height range and support layout",
+          "fr": "Système approuvé de dalles et plots, plage de hauteur et disposition des supports"
+        },
+        {
+          "en": "Protection pads, slope correction, perimeter and wind-restraint details",
+          "fr": "Patins de protection, correction de pente, détails périphériques et retenue au vent"
+        },
+        {
+          "en": "Design, roof repairs, lifting, labour, waste, delivery and taxes itemized",
+          "fr": "Conception, réparations de toiture, levage, main-d’œuvre, pertes, livraison et taxes détaillés"
+        }
+      ],
+      "faq": [
+        {
+          "question": {
+            "en": "Can the pedestal pack price be converted directly to a terrace price per square foot?",
+            "fr": "Peut-on convertir directement le prix des plots en prix de terrasse au pied carré?"
+          },
+          "answer": {
+            "en": "No. Supports may be shared at corners or added where the system requires them. Height, paver dimensions, edge details and the approved support layout determine quantities. The pack price excludes the rest of the assembly and installation.",
+            "fr": "Non. Des supports peuvent être partagés aux angles ou ajoutés selon les exigences du système. Hauteur, dimensions, bordures et disposition approuvée déterminent les quantités. Le lot exclut le reste de l’assemblage et la pose."
+          }
+        },
+        {
+          "question": {
+            "en": "Does a pedestal terrace quote include roof waterproofing?",
+            "fr": "Une soumission de terrasse sur plots comprend-elle l’étanchéité de toiture?"
+          },
+          "answer": {
+            "en": "Only if explicitly included. Existing membrane assessment, repairs or replacement and protection details should have a separate written scope. The material examples above do not establish an installed rooftop price.",
+            "fr": "Seulement si elle est explicitement comprise. Évaluation de la membrane, réparations ou remplacement et protection doivent avoir une portée écrite distincte. Les exemples de matériaux ci-dessus n’établissent pas un prix de toit-terrasse posé."
+          }
+        }
+      ]
+    }
+  ]
+}

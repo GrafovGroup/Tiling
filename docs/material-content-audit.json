@@ -1,0 +1,227 @@
+{
+  "reviewed": "2026-11-08",
+  "purpose": "Original material-selection guides informed by competitor content gaps, with technical facts checked against manufacturer and trade sources. Public content does not establish ranking causation.",
+  "findings": [
+    {
+      "source": "Zelta Floor & Design",
+      "url": "https://zelta.ca/tile-installation/",
+      "observedPattern": "Separates porcelain, ceramic and other material categories, then links selection and cost guidance into a visible installation process.",
+      "appliedTo": [
+        "porcelain-tile",
+        "ceramic-tile"
+      ],
+      "limitation": "Used only for information architecture and selection topics. Public page content does not establish why it ranks; no brand stock, showroom or guarantees transferred."
+    },
+    {
+      "source": "Prime Tiling",
+      "url": "https://primetiling.ca/services/kitchen-backsplash",
+      "observedPattern": "Connects tile choices, pattern options and the intended surface with service navigation.",
+      "appliedTo": [
+        "ceramic-tile"
+      ],
+      "limitation": "No countertop offering, ratings, credentials or project claims adopted. Tiling.ca material pages remain editorial guides rather than product inventories."
+    },
+    {
+      "source": "Daltile — floor tile selection",
+      "url": "https://www.daltile.com/how-to/how-to-choose-the-right-tile/floor-tile",
+      "observedPattern": "Defines ceramic as a broad clay-based category and porcelain as a denser subtype; distinguishes intended use and finish considerations.",
+      "appliedTo": [
+        "porcelain-tile",
+        "ceramic-tile"
+      ],
+      "limitation": "Avoided promotional universal best/durability claims and all numerical friction/size thresholds. Exact product approval governs suitability."
+    },
+    {
+      "source": "Daltile — ceramic versus porcelain",
+      "url": "https://www.daltile.com/tile-therapy/articles/ceramic-vs-porcelain-tile-whats-the-difference",
+      "observedPattern": "Explains the material relationship and differences useful when comparing product choices.",
+      "appliedTo": [
+        "porcelain-tile",
+        "ceramic-tile"
+      ],
+      "limitation": "No claim that all products in either category share the same approved uses, performance or price."
+    },
+    {
+      "source": "Daltile — wall tile selection",
+      "url": "https://www.daltile.com/how-to/how-to-choose-the-right-tile/wall-tile",
+      "observedPattern": "Uses application-specific selection for backsplashes and shower walls and refers customers to each product’s suitability information.",
+      "appliedTo": [
+        "ceramic-tile"
+      ],
+      "limitation": "Did not reuse sweeping waterproof, resale-value or same-day installation claims; wet-wall suitability remains conditional and separate from waterproofing."
+    },
+    {
+      "source": "Daltile — porcelain and ceramic care",
+      "url": "https://www.daltile.com/how-to/how-to-care-for-and-maintain-tile/how-to-care-for-and-maintain-ceramic-and-porcelain-tile",
+      "observedPattern": "Care varies for surface types; guidance includes residue removal, small-area testing and specific protective-treatment advice for some polished porcelain.",
+      "appliedTo": [
+        "porcelain-tile"
+      ],
+      "limitation": "Daltile’s polished-porcelain guidance differs from broad no-sealer wording at other manufacturers. Draft directs readers to the exact product and separates grout; no universal no-sealer rule."
+    },
+    {
+      "source": "Marazzi — care and maintenance",
+      "url": "https://www.marazziusa.com/style-and-design/resources/care-and-maintenance",
+      "observedPattern": "Distinguishes tile surfaces, routine dirt removal, compatible cleaners and grout considerations.",
+      "appliedTo": [
+        "ceramic-tile",
+        "porcelain-tile"
+      ],
+      "limitation": "Manufacturer-specific instructions are not extended to every decorative finish. No acid-cleaning recipe, blanket sealer recommendation or treatment frequency copied."
+    },
+    {
+      "source": "Crossville — rectified and calibrated porcelain",
+      "url": "https://www.crossville.com/tile-tech/understanding-the-difference-between-rectified-and-calibrated-porcelain-tile/",
+      "observedPattern": "Explains mechanical edge finishing and dimensional consistency of rectified tile while still specifying grout joints.",
+      "appliedTo": [
+        "porcelain-tile"
+      ],
+      "limitation": "No manufacturer-specific joint-width figure copied; layout and joints remain dependent on exact product and installation requirements."
+    },
+    {
+      "source": "Ceramic Tile Education Foundation — homeowner guide",
+      "url": "https://www.ceramictilefoundation.org/homeowners-guide-to-hiring-qualified-tile-installer",
+      "observedPattern": "Recommends seeing multiple pieces, approving variation and mockups, and confirming compatibility through product data sheets.",
+      "appliedTo": [
+        "porcelain-tile",
+        "ceramic-tile"
+      ],
+      "limitation": "No certification implication, numerical installation standard or legal recommendation adopted. Original customer checklist addresses selection decisions."
+    },
+    {
+      "source": "Daltile — handmade tile design",
+      "url": "https://www.daltile.com/tile-therapy/articles/the-rise-of-handmade-tiles-in-modern-design",
+      "observedPattern": "Shows intentional variation in handmade and handmade-look decorative tile.",
+      "appliedTo": [
+        "ceramic-tile"
+      ],
+      "limitation": "A style label is not evidence that any delivered defect is acceptable; draft advises comparing real pieces with approved samples before installation."
+    },
+    {
+      "source": "Schluter — shower waterproofing",
+      "url": "https://www.schluter.com/schluter-us/en_US/blog-waterproofing-membrane-for-a-shower",
+      "observedPattern": "Distinguishes tile and grout finishes from the shower’s waterproofing system.",
+      "appliedTo": [
+        "porcelain-tile",
+        "ceramic-tile"
+      ],
+      "limitation": "General assembly distinction only; no named-brand installation offering or universal system specified."
+    },
+    {
+      "source": "Prime Tiling — natural marble versus marble-look porcelain",
+      "url": "https://primetiling.ca/blog/marble-vs-porcelain-tile-toronto-luxury",
+      "observedPattern": "A dedicated material comparison answers a real selection decision. Original Tiling.ca copy separates natural stone from manufactured stone-look finishes and makes care, sample review and intended use explicit.",
+      "appliedTo": [
+        "marble-tile",
+        "natural-stone-tile",
+        "granite-tile"
+      ],
+      "limitation": "Checked 2026-11-08. Used the comparison structure only, not claims of value, lifespan, relative luxury, price or blanket durability. No ranking causation inferred."
+    },
+    {
+      "source": "Zelta — tile installation material categories",
+      "url": "https://zelta.ca/tile-installation/",
+      "observedPattern": "Material-specific sections and room-selection FAQs make it easier to move from a material name to an installation decision. Tiling.ca content now links potential applications to its existing service and pricing pages.",
+      "appliedTo": [
+        "marble-tile",
+        "natural-stone-tile",
+        "granite-tile"
+      ],
+      "limitation": "Checked 2026-11-08. Competitor performance generalizations and universally suitable room/material claims were not adopted."
+    },
+    {
+      "source": "22FLOORING — tile installation",
+      "url": "https://22flooring.ca/tile-installation/",
+      "observedPattern": "Natural stone is distinguished from standard tile pricing, with the stone and substrate reviewed together. This informed explicit product/application details and quantity/installation questions instead of presenting a single generic stone package.",
+      "appliedTo": [
+        "natural-stone-tile",
+        "granite-tile"
+      ],
+      "limitation": "Checked 2026-11-08. Competitor prices, inventory, in-home samples, free measures and scheduling promises are not Tiling.ca offerings and were not copied."
+    },
+    {
+      "source": "Natural Stone Institute — Care & Cleaning of Natural Stone",
+      "url": "https://www.naturalstoneinstitute.org/consumers/care/",
+      "observedPattern": "Primary trade guidance supports stone identification, neutral cleaning, abrasive-grit control, product-specific sealing and the limit that sealing improves resistance rather than making stone stain-proof.",
+      "appliedTo": [
+        "granite-tile",
+        "natural-stone-tile"
+      ],
+      "limitation": "Checked 2026-11-08. Generic care does not establish the suitability, sealing need or maintenance interval of an individual supplied product. No chemical recipes or restoration procedures reproduced."
+    },
+    {
+      "source": "LATICRETE — Stone and Tile Care Guide",
+      "url": "https://cdn-global.laticrete.com/-/media/project/laticrete-international/australia/product-documents/tds/tds-1262-1117.pdf?hash=E91F46AFA97CD27EE067227E8DD058C8&rev=4037fd90c6e24aeeab281834bd293674",
+      "observedPattern": "Manufacturer guidance distinguishes acid etching from staining and explains that sealing cannot stop acid etching. Supports marble care boundaries without promising polishing or restoration.",
+      "appliedTo": [
+        "marble-tile"
+      ],
+      "limitation": "Read 2026-11-08; this is an older regional technical sheet. Only stable general care distinctions used. No named product endorsement, availability or application specification inferred; current selected-product instructions govern."
+    },
+    {
+      "source": "Daltile — Natural Stone Care & Maintenance",
+      "url": "https://www.daltile.com/how-to/how-to-care-for-and-maintain-tile/how-to-care-for-and-maintain-natural-stone",
+      "observedPattern": "Manufacturer recommends neutral stone-compatible cleaning and makes acid sensitivity, treatment effects and refinishing distinct issues. Supports material-specific care and checking a treatment’s appearance before use.",
+      "appliedTo": [
+        "marble-tile",
+        "natural-stone-tile"
+      ],
+      "limitation": "Checked 2026-11-08. Did not generalize Daltile’s blanket sealing advice or suggested interval to every stone. No product catalogue, brand supply or restoration service promise added."
+    },
+    {
+      "source": "Natural Stone Institute / Use Natural Stone — Travertine",
+      "url": "https://usenaturalstone.org/travertine-watching-stones-form-real-time/",
+      "observedPattern": "Explains travertine’s porous texture and the choice of filled versus unfilled surfaces. Used to prompt confirmation of filling, finish and maintenance in the stone selection.",
+      "appliedTo": [
+        "natural-stone-tile"
+      ],
+      "limitation": "Checked 2026-11-08. No universal use approval, hardness threshold or sealing frequency inferred."
+    },
+    {
+      "source": "Natural Stone Institute / Use Natural Stone — Slate",
+      "url": "https://usenaturalstone.org/slate-from-the-ocean-floor-to-your-floor/",
+      "observedPattern": "Explains the slightly irregular cleft surface commonly seen in slate tile. Supports reviewing texture and representative pieces rather than treating all slate as a uniform smooth finish.",
+      "appliedTo": [
+        "natural-stone-tile"
+      ],
+      "limitation": "Checked 2026-11-08. Promotional durability, low-maintenance and other blanket claims were not adopted; wet/exterior suitability remains product-specific."
+    },
+    {
+      "source": "Natural Stone Institute / Use Natural Stone — Selecting the Ideal Stone Finish",
+      "url": "https://usenaturalstone.org/selecting-the-ideal-stone-finish/",
+      "observedPattern": "Distinguishes reflective polished, matte honed and textured stone finishes. Supports viewing the actual finish and colour under intended lighting.",
+      "appliedTo": [
+        "marble-tile",
+        "granite-tile"
+      ],
+      "limitation": "Checked 2026-11-08. No universal traction or exterior approval is assigned to a finish name. Countertop examples are not represented as Tiling.ca countertop services."
+    },
+    {
+      "source": "Natural Stone Institute / Use Natural Stone — A Scientific Guide to Shopping for Natural Stone",
+      "url": "https://usenaturalstone.org/scientific-guide-shopping-stone/",
+      "observedPattern": "Primary trade publication explains acid sensitivity of marble, limestone and travertine compared with typical granite. Supports a concrete care comparison while preserving product-specific limits and avoiding immunity claims.",
+      "appliedTo": [
+        "marble-tile",
+        "natural-stone-tile",
+        "granite-tile"
+      ],
+      "limitation": "Checked 2026-11-08. No destructive sample-testing instructions, numerical properties or refinishing promises reproduced. General classification does not verify a particular supplied product."
+    },
+    {
+      "source": "Natural Stone Institute / Use Natural Stone — Limestone",
+      "url": "https://usenaturalstone.org/limestone-tropical-seabed-brings-us-practical-stone/",
+      "observedPattern": "Primary geological overview describes limestone variation, including fossil detail. Used only to prompt examination of the actual pieces rather than promise a uniform appearance.",
+      "appliedTo": [
+        "natural-stone-tile"
+      ],
+      "limitation": "Checked 2026-11-08. Named quarry products, structural properties and exterior suitability are not generalized to all limestone tile."
+    }
+  ],
+  "implementation": [
+    "Five bilingual material guides and comparison hub",
+    "Exact-product use/finish/care distinctions; marble and granite correctly treated as natural stone",
+    "Relevant service/pricing links; general benchmarks not presented as material-specific prices",
+    "Validated material, service and city context in primary quote journeys",
+    "Article and visible FAQ schema, not inventory/Product/Offer claims"
+  ]
+}

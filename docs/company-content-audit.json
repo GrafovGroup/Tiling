@@ -1,0 +1,43 @@
+{
+  "reviewed": "2026-11-08",
+  "purpose": "Make About explain the working relationship and How It Works explain the enquiry, scope, readiness and completion process. Apply equivalent EN/FR content without transferring competitor credentials or claims.",
+  "sources": [
+    {
+      "name": "Zelta About",
+      "url": "https://zelta.ca/about/",
+      "observation": "Separates preliminary budgeting, measurements, material discussion and a detailed quote.",
+      "applied": "Enquiry versus agreed scope, quote checklist and preparation guidance."
+    },
+    {
+      "name": "Prime Tiling About",
+      "url": "https://primetiling.ca/about",
+      "observation": "Explains material estimates, deliveries and coordination.",
+      "applied": "Concrete responsibilities and installation/repair/supply/commercial paths."
+    },
+    {
+      "name": "22FLOORING About and process",
+      "url": "https://22flooring.ca/about-us/",
+      "observation": "Separates selection, booking, installation and completion.",
+      "applied": "Five consistent stages in EN/FR; readiness and handover details."
+    },
+    {
+      "name": "Superior Tile Contracting process",
+      "url": "https://superiortilecontracting.ca/",
+      "observation": "Makes pricing components, work stages and completion visible.",
+      "applied": "Scope components and product-specific first-use/care questions."
+    }
+  ],
+  "inferences": [
+    "Change documentation, pricing and approval questions are original practical guidance, not attributed as verified competitor policies."
+  ],
+  "claimBoundaries": [
+    "Public competitor pages identify content patterns, not ranking causation.",
+    "No owner biography, founding date, team size, certification, insurance, rating, testimonial, project-count or warranty promise is added.",
+    "Any project-specific written warranty terms are items to clarify in an agreement, not a blanket Tiling.ca warranty.",
+    "Keep existing direct-contractor positioning, contact details and Formspree endpoint.",
+    "Local pages describe service areas rather than offices.",
+    "Photographs and plans are sent by email after enquiry; no file-upload capability is claimed.",
+    "Pricing references remain third-party planning benchmarks, not business rates."
+  ],
+  "implementation": "Shared company-data.ts and company-content.tsx, localized routes/metadata, matching visible FAQ schema, one existing QuoteForm per page, current sitemap dates and links to services, materials, location pages and pricing guides."
+}

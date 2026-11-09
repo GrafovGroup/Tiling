@@ -1,0 +1,52 @@
+{
+  "table": "98-10-0041-01",
+  "year": 2021,
+  "retrieved": "2026-11-08",
+  "download": "https://www150.statcan.gc.ca/n1/tbl/csv/98100041-eng.zip",
+  "sha256": "4015cbd307d28751ea4309e1a611cbb932e62d2b8bcf23b736181bf09ae87293",
+  "locations": 482,
+  "suppressed": [
+    "cockburn-island"
+  ],
+  "reviewedMappings": {
+    "hamilton": [
+      "2021A00053525005"
+    ],
+    "hamilton-township": [
+      "2021A00053514019"
+    ],
+    "mattice-val-ca-ta": [
+      "2021A00053556077"
+    ],
+    "tarbutt": [
+      "2021A00053557014"
+    ],
+    "the-nation-municipality": [
+      "2021A00053502025"
+    ],
+    "quebec-city": [
+      "2021A00052423027"
+    ],
+    "moncton": [
+      "2021A00051307022"
+    ],
+    "north-york": [
+      "2021A00053520005"
+    ],
+    "langley": [
+      "2021A00055915001",
+      "2021A00055915002"
+    ],
+    "north-vancouver": [
+      "2021A00055915046",
+      "2021A00055915051"
+    ],
+    "fort-mcmurray": [
+      "2021A00054816037"
+    ],
+    "sydney": [
+      "2021A00051217030"
+    ]
+  },
+  "method": "Exact normalized municipality name and province, plus reviewed exceptions. Counts for Langley and North Vancouver sum two CSDs; wider Toronto, Wood Buffalo and Cape Breton references are labelled in the UI. 2021 boundaries; published counts are rounded. These data do not establish building condition, tenure, service availability or local pricing."
+}

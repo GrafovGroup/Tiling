@@ -1,9 +1,6 @@
-import { withSocialMetadata } from "../seo";
-import type { Metadata } from "next";
-import { redirect } from "next/navigation";
+import { permanentRedirect } from "next/navigation";
+import { legacyDestination, type RouteQuery } from "../legacy-redirects";
 
-export const metadata: Metadata = withSocialMetadata({ robots: { index: false, follow: true } });
-
-export default function LegacyRequestPage() {
-  redirect("/request-a-quote");
+export default async function LegacyRequestPage({ searchParams }: { searchParams: Promise<RouteQuery> }) {
+  permanentRedirect(legacyDestination("/request-a-match", await searchParams)!);
 }

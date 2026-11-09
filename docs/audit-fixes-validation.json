@@ -1,0 +1,71 @@
+{
+  "date": "2026-11-08",
+  "scope": [
+    "Mobile image delivery",
+    "Button and text contrast",
+    "Broken external reference links",
+    "English and French 404 recovery pages"
+  ],
+  "automatedTests": {
+    "renderedAndRouting": 83,
+    "formAndEnquiryUnits": 8,
+    "failed": 0
+  },
+  "browserChecks": {
+    "pagesAndViewports": 28,
+    "viewports": [
+      390,
+      1440
+    ],
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "accessibilityRuns": 14,
+    "accessibilityViolations": 0,
+    "horizontalOverflow": 0,
+    "brokenImages": 0,
+    "uncaughtPageErrors": 0
+  },
+  "references": {
+    "brokenUrlsReplaced": 26,
+    "uniqueReplacementUrls": 25,
+    "affectedPagesChecked": 704,
+    "replacementHttpStatus": 200,
+    "geographicCorrection": "Removed Irondale from Highlands East; official sources locate it in Minden Hills."
+  },
+  "assets": {
+    "logoBytesBefore": 465867,
+    "logoBytesAfter": 32042,
+    "heroBytesBefore": 152000,
+    "heroAvifBytesAfter": 39980,
+    "heroWebpFallbackBytesAfter": 68370,
+    "responsiveServiceVariants": 30
+  },
+  "notFound": {
+    "verifiedUnknownRoutes": 12,
+    "languages": [
+      "en",
+      "fr"
+    ],
+    "status": 404,
+    "robots": "noindex, follow",
+    "recoveryLinks": [
+      "home",
+      "services",
+      "locations",
+      "contact",
+      "request-a-quote",
+      "phone",
+      "email"
+    ]
+  },
+  "checks": [
+    "Production build passed",
+    "TypeScript passed",
+    "git diff --check passed",
+    "Visual review of mobile homepage and French 404 passed"
+  ],
+  "quoteDelivery": "Existing provider and validation preserved; automated tests did not send real enquiries.",
+  "performance": "Live after-publication measurements will be recorded outside the repository, alongside the baseline."
+}

@@ -1,6 +1,6 @@
-import { withSocialMetadata } from "../seo";
-import type { Metadata } from "next";
-import { redirect } from "next/navigation";
+import { permanentRedirect } from "next/navigation";
+import { legacyDestination, type RouteQuery } from "../legacy-redirects";
 
-export const metadata:Metadata=withSocialMetadata({robots:{index:false,follow:true}});
-export default function AreasPage(){redirect("/locations")}
+export default async function AreasPage({ searchParams }: { searchParams: Promise<RouteQuery> }) {
+  permanentRedirect(legacyDestination("/areas", await searchParams)!);
+}

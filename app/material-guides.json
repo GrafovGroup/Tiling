@@ -1,0 +1,992 @@
+[
+  {
+    "slug": "marble-tile",
+    "metaTitle": {
+      "en": "Marble Tile: Finishes, Applications & Care",
+      "fr": "Carreaux de marbre : finis, usages et entretien"
+    },
+    "metaDescription": {
+      "en": "Compare honed and polished marble, natural variation, bathroom and feature-wall uses, sealing and care before planning tile supply or installation.",
+      "fr": "Comparez marbre poli ou adouci, variations, usages en salle de bain ou sur mur décoratif, scellement et entretien avant de planifier fourniture et pose."
+    },
+    "category": {
+      "en": "Natural stone",
+      "fr": "Pierre naturelle"
+    },
+    "intro": {
+      "en": "Marble is natural stone with variation in colour, veining and surface character from piece to piece. Choosing it means considering how that variation will be arranged and how the finish will age in use. Compare the actual stone, finish and care requirements with the intended room before deciding on a format or placing an order.",
+      "fr": "Le marbre est une pierre naturelle dont couleur, veinures et aspect varient d’une pièce à l’autre. Le choisir demande de prévoir cette répartition et l’évolution du fini à l’usage. Comparez pierre réelle, finition et entretien avec la pièce prévue avant de retenir un format ou de passer commande."
+    },
+    "selectionHeading": {
+      "en": "Choose the finish, variation and layout together.",
+      "fr": "Choisir ensemble fini, variations et disposition."
+    },
+    "choices": [
+      {
+        "title": {
+          "en": "Polished or honed finish",
+          "fr": "Fini poli ou adouci"
+        },
+        "text": {
+          "en": "Polished marble reflects light; honed marble has a more matte appearance. Look at both under the room’s lighting. Honing does not remove marble’s sensitivity to acids, and a finish name alone does not establish suitability for a wet floor.",
+          "fr": "Le marbre poli reflète la lumière; le fini adouci présente un aspect plus mat. Comparez-les sous l’éclairage de la pièce. L’adoucissage n’élimine pas la sensibilité aux acides, et le nom du fini ne suffit pas à valider un plancher mouillé."
+        }
+      },
+      {
+        "title": {
+          "en": "Veins and the full colour range",
+          "fr": "Veinures et gamme de nuances"
+        },
+        "text": {
+          "en": "A small sample cannot show every vein or colour change. Review representative pieces and agree on the range you accept, then discuss blending and focal points. Record any particular layout expectations before installation rather than expecting identical pieces throughout.",
+          "fr": "Un petit échantillon ne montre pas toutes les veinures ou nuances. Examinez plusieurs pièces représentatives et convenez des variations acceptées, puis de leur répartition. Précisez les attentes de disposition avant la pose plutôt que de prévoir des pièces toutes identiques."
+        }
+      },
+      {
+        "title": {
+          "en": "Field tile, mosaics and edges",
+          "fr": "Carreaux, mosaïques et arêtes"
+        },
+        "text": {
+          "en": "Confirm the format, thickness and exposed-edge treatment with the installer. Mosaics and larger pieces create different joint patterns and cutting needs. For wet applications, include the backing and installation products in the suitability review, not only the visible stone.",
+          "fr": "Confirmez format, épaisseur et finition des arêtes avec le carreleur. Mosaïques et grandes pièces impliquent joints et coupes différents. En zone humide, l’examen de compatibilité doit aussi porter sur le support des mosaïques et les produits de pose."
+        }
+      }
+    ],
+    "applications": [
+      {
+        "title": {
+          "en": "Bathroom walls and selected floors",
+          "fr": "Murs et certains planchers de salle de bain"
+        },
+        "text": {
+          "en": "Marble can be considered where the exact stone, finish and assembly suit the bathroom. Specify wall and floor areas separately, including drainage, waterproofing, visible edges and cleaning expectations before approving the selection.",
+          "fr": "Le marbre peut être envisagé si pierre, fini et assemblage conviennent. Distinguez murs et planchers; précisez drainage, étanchéité, arêtes et entretien avant d’approuver le choix."
+        },
+        "service": "bathroom-shower-tile"
+      },
+      {
+        "title": {
+          "en": "Fireplace and feature surfaces",
+          "fr": "Foyers et surfaces décoratives"
+        },
+        "text": {
+          "en": "Veining can become part of the composition around a fireplace or across a feature wall. Confirm backing, weight, corners and appliance requirements where relevant; this material choice does not include appliance work.",
+          "fr": "Les veinures participent à la composition d’un foyer ou d’un mur décoratif. Confirmez support, poids, angles et exigences de l’appareil, le cas échéant; le choix de pierre n’inclut pas les travaux sur l’appareil."
+        },
+        "service": "fireplace-feature-wall-tiling"
+      },
+      {
+        "title": {
+          "en": "Backsplashes and decorative accents",
+          "fr": "Dosserets et accents décoratifs"
+        },
+        "text": {
+          "en": "A marble backsplash needs a realistic plan for cooking splashes and cleaning. Compare the desired appearance with care expectations, and decide how outlets, corners, trim and grout will meet the surrounding surfaces.",
+          "fr": "Un dosseret de marbre demande de prévoir éclaboussures et entretien. Comparez l’apparence souhaitée aux contraintes de nettoyage, puis définissez prises, angles, profilés et raccords aux surfaces voisines."
+        },
+        "service": "kitchen-backsplash"
+      }
+    ],
+    "care": {
+      "title": {
+        "en": "Protect against stains without confusing them with etching.",
+        "fr": "Distinguer protection contre les taches et attaque acide."
+      },
+      "text": {
+        "en": "Use a cleaner approved for the stone and any treatment, following its directions. Blot spills promptly and keep abrasive grit off floors. Acidic products such as vinegar can mark marble’s finish. An appropriate sealer may reduce absorption, but it cannot prevent acid etching. Identify a dull mark or stain before choosing a treatment; cleaning and sealing are not resurfacing.",
+        "fr": "Utilisez un nettoyant approuvé pour la pierre et son traitement, selon la notice. Épongez rapidement les liquides et retirez les particules abrasives. Le vinaigre peut attaquer le fini. Un scellant adapté peut limiter l’absorption, sans prévenir l’attaque acide. Identifiez marque terne ou tache avant de choisir un traitement; nettoyage et scellement ne sont pas un resurfaçage."
+      }
+    },
+    "orderChecklist": [
+      {
+        "en": "Exact marble name, finish, dimensions, thickness and intended application",
+        "fr": "Nom exact du marbre, fini, dimensions, épaisseur et usage prévu"
+      },
+      {
+        "en": "Representative variation range and agreed vein or pattern layout",
+        "fr": "Variations représentatives et disposition convenue des veinures ou motifs"
+      },
+      {
+        "en": "Measured quantity, cutting allowance, trim and replacement stock",
+        "fr": "Quantité mesurée, marge de coupe, profilés et réserve de remplacement"
+      },
+      {
+        "en": "Compatible installation products, proposed sealer and written care instructions",
+        "fr": "Produits de pose compatibles, scellant proposé et consignes d’entretien écrites"
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Does sealing make marble stain-proof or etch-proof?",
+          "fr": "Le scellement rend-il le marbre insensible aux taches ou aux acides?"
+        },
+        "a": {
+          "en": "No. Sealing can help limit staining in a suitable stone, but it is not a guarantee against spills and does not stop acid etching. Confirm the proposed product, whether the marble needs it and how it should be maintained with the supplier.",
+          "fr": "Non. Un scellement adapté peut limiter les taches, sans garantir une protection totale ni arrêter l’attaque acide. Confirmez avec le fournisseur le produit proposé, son utilité pour ce marbre et les conditions de son entretien."
+        }
+      },
+      {
+        "q": {
+          "en": "Can the same marble be used on shower walls and floors?",
+          "fr": "Peut-on utiliser le même marbre sur les murs et le sol d’une douche?"
+        },
+        "a": {
+          "en": "Do not assume that approval for one surface covers the other. The floor adds underfoot, drainage and layout considerations. Review the exact stone, finish and backing for each location, together with the waterproofing and setting system and the expected cleaning routine.",
+          "fr": "L’acceptation sur un mur ne vaut pas automatiquement pour le sol. Celui-ci ajoute des exigences de circulation, drainage et disposition. Examinez pierre, fini et support pour chaque emplacement, avec étanchéité, système de pose et nettoyage prévu."
+        }
+      },
+      {
+        "q": {
+          "en": "Will honed marble always be easier to live with?",
+          "fr": "Le marbre adouci est-il toujours plus facile à vivre?"
+        },
+        "a": {
+          "en": "A matte finish changes how light and surface marks are seen, but it does not remove the stone’s maintenance needs. Compare samples, the room’s use and the marks you are comfortable seeing over time. Avoid treating honed as a promise of stain or slip resistance.",
+          "fr": "Un fini mat change la perception de la lumière et des marques, sans supprimer l’entretien. Comparez échantillons, usage de la pièce et évolution acceptable à vos yeux. Le terme adouci ne garantit ni résistance aux taches ni adhérence."
+        }
+      },
+      {
+        "q": {
+          "en": "How should marble quantities and spare pieces be planned?",
+          "fr": "Comment prévoir quantités et carreaux de réserve?"
+        },
+        "a": {
+          "en": "Ask for quantities based on the actual layout, cuts and agreed variation selection. Include trims and a discussed replacement allowance, then confirm the supplier’s sale unit. Retain product and batch information; a later order may not reproduce the original visual range.",
+          "fr": "Faites calculer les quantités selon disposition, coupes et variations retenues. Ajoutez profilés et réserve convenue, puis confirmez l’unité de vente. Conservez références et lot; une commande ultérieure peut présenter des nuances différentes."
+        }
+      }
+    ],
+    "relatedServices": [
+      "bathroom-shower-tile",
+      "fireplace-feature-wall-tiling",
+      "tile-grout-stone-cleaning-sealing",
+      "tile-supply-delivery"
+    ],
+    "pricingServices": [
+      "bathroom-shower-tile",
+      "fireplace-feature-wall-tiling",
+      "kitchen-backsplash",
+      "tile-supply-delivery"
+    ],
+    "comparisons": [
+      {
+        "material": "porcelain-tile",
+        "text": {
+          "en": "Marble-look porcelain is a manufactured alternative with its own pattern repetition, finish and product ratings. Compare actual samples and care requirements; a marble appearance does not mean the product is natural marble.",
+          "fr": "La porcelaine imitation marbre est un produit fabriqué, avec répétitions de motif, fini et classements propres. Comparez échantillons et entretien; un aspect marbré ne signifie pas qu’il s’agit de marbre naturel."
+        }
+      },
+      {
+        "material": "granite-tile",
+        "text": {
+          "en": "Marble’s veining and sensitivity to household acids differ from typical granite’s mineral grain and greater acid resistance. Both need product-specific care; choose from actual samples and expected use rather than the material name alone.",
+          "fr": "Les veinures et la sensibilité du marbre aux acides domestiques diffèrent du grain minéral et de la résistance généralement supérieure du granit à ces acides. Les deux nécessitent un entretien adapté; choisissez selon échantillons et usage réel."
+        }
+      }
+    ],
+    "references": [
+      {
+        "name": "Daltile — Natural Stone Care & Maintenance",
+        "url": "https://www.daltile.com/how-to/how-to-care-for-and-maintain-tile/how-to-care-for-and-maintain-natural-stone"
+      },
+      {
+        "name": "Natural Stone Institute — Selecting the Ideal Stone Finish",
+        "url": "https://usenaturalstone.org/selecting-the-ideal-stone-finish/"
+      }
+    ]
+  },
+  {
+    "slug": "porcelain-tile",
+    "metaTitle": {
+      "en": "Porcelain Tile: Finishes, Uses & Selection Guide",
+      "fr": "Carreaux de porcelaine : finis, usages et sélection"
+    },
+    "metaDescription": {
+      "en": "Choose porcelain tile by finish, format and intended use. Compare ceramic and marble, plan care and quantities, and explore Tiling.ca services and cost guides.",
+      "fr": "Choisissez la porcelaine selon le fini, le format et l’usage. Comparez céramique et marbre, préparez entretien et quantités, puis consultez les services et prix."
+    },
+    "category": {
+      "en": "Porcelain ceramic tile",
+      "fr": "Carreaux céramiques de porcelaine"
+    },
+    "intro": {
+      "en": "Porcelain is a type of ceramic tile with low water absorption. It comes in glazed, unglazed, polished and textured finishes, with designs ranging from quiet solids to stone and wood effects. Choose by the exact product’s intended application, finish and dimensions: the word porcelain alone does not establish suitability for a wet floor, an outdoor terrace or a particular installation system.",
+      "fr": "La porcelaine est un type de carreau céramique à faible absorption d’eau. Elle existe avec des finis émaillés, non émaillés, polis ou texturés, dans des couleurs unies ou des effets de pierre et de bois. Choisissez selon l’usage prévu, le fini et les dimensions du produit exact : le mot porcelaine ne garantit pas son adéquation à un sol mouillé, à une terrasse ou à un système de pose."
+    },
+    "selectionHeading": {
+      "en": "Choose the finish, format and visible pattern together.",
+      "fr": "Choisir ensemble fini, format et motif visible."
+    },
+    "choices": [
+      {
+        "title": {
+          "en": "Matte, polished or textured",
+          "fr": "Mat, poli ou texturé"
+        },
+        "text": {
+          "en": "Compare samples under the room’s lighting and review the manufacturer’s intended uses. A matte appearance is not proof of traction. Texture, water exposure and the cleaning routine should inform the floor choice alongside gloss and colour.",
+          "fr": "Comparez les échantillons sous l’éclairage de la pièce et vérifiez les usages prévus par le fabricant. Un aspect mat ne prouve pas l’adhérence. Texture, exposition à l’eau et entretien orientent le choix au sol autant que brillance et couleur."
+        }
+      },
+      {
+        "title": {
+          "en": "Mosaic, field tile or large panel",
+          "fr": "Mosaïque, carreau courant ou grand panneau"
+        },
+        "text": {
+          "en": "Check the actual dimensions, thickness and edge type before planning quantities. Large pieces change handling, cutting and substrate preparation; small pieces change joint coverage and pattern detail. Confirm that the chosen format works at drains, doors and exposed edges.",
+          "fr": "Vérifiez dimensions réelles, épaisseur et type de bord avant de prévoir les quantités. Les grandes pièces modifient manutention, coupe et préparation; les petites modifient surface des joints et détails du motif. Confirmez le format aux drains, portes et bords visibles."
+        }
+      },
+      {
+        "title": {
+          "en": "Stone looks and repeating faces",
+          "fr": "Effets de pierre et faces répétées"
+        },
+        "text": {
+          "en": "Review several pieces or the manufacturer’s face range to understand the overall effect. A stone-look porcelain uses a manufactured design; vein direction and repeats still need planning. Agree on the visible layout rather than choosing from one small sample.",
+          "fr": "Examinez plusieurs pièces ou les faces proposées pour comprendre l’effet d’ensemble. Une porcelaine imitation pierre porte un motif fabriqué; veines et répétitions restent à planifier. Convenez de la disposition visible plutôt que de choisir sur un seul petit échantillon."
+        }
+      }
+    ],
+    "applications": [
+      {
+        "title": {
+          "en": "Interior floors and heated floors",
+          "fr": "Planchers intérieurs et chauffants"
+        },
+        "text": {
+          "en": "Select a floor-rated product for the room’s traffic and moisture conditions. For a heated floor, coordinate the selected tile with the heating assembly, preparation and finished transitions before ordering.",
+          "fr": "Choisissez un produit prévu au sol selon circulation et humidité. Pour un plancher chauffant, coordonnez carreaux, chauffage, préparation et transitions finies avant de commander."
+        },
+        "service": "floor-tile-installation"
+      },
+      {
+        "title": {
+          "en": "Showers and bathroom walls",
+          "fr": "Douches et murs de salle de bain"
+        },
+        "text": {
+          "en": "Confirm the product and format for each wall or floor surface. Porcelain’s low absorption does not replace shower waterproofing; drainage, joints and the complete assembly still need a defined installation plan.",
+          "fr": "Confirmez produit et format pour chaque mur ou sol. La faible absorption de la porcelaine ne remplace pas l’étanchéité de douche; drainage, joints et assemblage nécessitent un plan de pose complet."
+        },
+        "service": "bathroom-shower-tile"
+      },
+      {
+        "title": {
+          "en": "Outdoor patios and balconies",
+          "fr": "Patios et balcons extérieurs"
+        },
+        "text": {
+          "en": "Use only products approved for the actual exterior exposure and application. Review freeze-thaw conditions, wet traction, drainage and the complete support assembly. Interior porcelain and pedestal-rated pavers are not automatically interchangeable.",
+          "fr": "Retenez uniquement des produits approuvés pour l’exposition et l’usage extérieurs réels. Examinez gel-dégel, adhérence mouillée, drainage et support complet. Porcelaine intérieure et dalles pour plots ne sont pas automatiquement interchangeables."
+        },
+        "service": "outdoor-balcony-tiling"
+      }
+    ],
+    "care": {
+      "title": {
+        "en": "Care for the finish and the grout separately.",
+        "fr": "Entretenir séparément le fini et le coulis."
+      },
+      "text": {
+        "en": "Remove loose grit before washing, clean spills promptly and use products approved for the tile and grout. Rinse away cleaner residue. Polished, textured and unglazed finishes can have different instructions. Before applying a sealer or grout release, check the exact product’s care sheet; do not infer the treatment from the word porcelain.",
+        "fr": "Retirez les grains libres avant de laver, nettoyez rapidement les déversements et utilisez des produits compatibles avec carreaux et coulis. Rincez les résidus. Finis polis, texturés et non émaillés peuvent avoir des consignes différentes. Avant un scellant ou une protection avant jointoiement, vérifiez la fiche du produit exact, sans déduire le traitement du mot porcelaine."
+      }
+    },
+    "orderChecklist": [
+      {
+        "en": "Product reference, intended uses, finish, actual dimensions and thickness.",
+        "fr": "Référence, usages prévus, fini, dimensions réelles et épaisseur du produit."
+      },
+      {
+        "en": "A sample range showing faces, shade variation and the proposed grout.",
+        "fr": "Des échantillons montrant faces, variations de teinte et coulis proposé."
+      },
+      {
+        "en": "Installer-confirmed quantity, cuts, spare pieces and rounding to full boxes.",
+        "fr": "Quantité confirmée par le carreleur, découpes, rechanges et arrondi aux boîtes complètes."
+      },
+      {
+        "en": "Matching trims, lot details, delivery arrangements and product-specific care instructions.",
+        "fr": "Profilés coordonnés, détails du lot, livraison et entretien propre au produit."
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Is porcelain different from ceramic tile?",
+          "fr": "La porcelaine est-elle différente de la céramique?"
+        },
+        "a": {
+          "en": "Porcelain belongs to the ceramic tile family. In shopping categories, ceramic often means non-porcelain ceramic, while porcelain identifies a low-absorption type. Compare the actual product’s permitted uses and finish rather than treating either label as a universal quality ranking.",
+          "fr": "La porcelaine fait partie de la famille des carreaux céramiques. Dans les catalogues, céramique désigne souvent les produits non porcelainés; porcelaine désigne un type peu absorbant. Comparez usages autorisés et fini, sans transformer ces appellations en classement universel de qualité."
+        }
+      },
+      {
+        "q": {
+          "en": "Can every porcelain tile be used outdoors?",
+          "fr": "Toute porcelaine convient-elle à l’extérieur?"
+        },
+        "a": {
+          "en": "No. Verify the manufacturer’s approval for the location and exposure, including the chosen finish. The installation also needs an appropriate support, drainage and movement plan. A tile marketed for an indoor floor is not automatically a suitable balcony or terrace product.",
+          "fr": "Non. Vérifiez l’approbation du fabricant pour l’emplacement, l’exposition et le fini choisi. La pose exige aussi support, drainage et joints adaptés. Un produit commercialisé pour un sol intérieur n’est pas automatiquement approprié à un balcon ou une terrasse."
+        }
+      },
+      {
+        "q": {
+          "en": "Does porcelain tile need sealing?",
+          "fr": "Faut-il sceller les carreaux de porcelaine?"
+        },
+        "a": {
+          "en": "Many porcelain surfaces do not require sealing, but recommendations vary by product and finish. Certain polished products may have specific protective-treatment instructions. Check the manufacturer’s guidance before treatment and assess grout separately; a blanket sealer application can leave an unwanted surface film.",
+          "fr": "De nombreuses surfaces de porcelaine ne nécessitent pas de scellant, mais les recommandations varient selon le produit et le fini. Certains produits polis ont des consignes particulières. Vérifiez-les et évaluez le coulis séparément; un traitement systématique peut laisser un film indésirable."
+        }
+      },
+      {
+        "q": {
+          "en": "Can rectified porcelain be installed without grout joints?",
+          "fr": "Peut-on poser une porcelaine rectifiée sans joints?"
+        },
+        "a": {
+          "en": "No. Rectified edges improve dimensional consistency, but they do not eliminate joints. The joint layout must account for the actual product, tile variation, pattern and installation requirements. Agree on a sample layout and grout choice before finalizing the intended appearance.",
+          "fr": "Non. Les bords rectifiés améliorent la régularité des dimensions sans supprimer les joints. Leur disposition dépend du produit, des variations, du motif et des exigences de pose. Convenez d’un essai de calepinage et du coulis avant de finaliser l’apparence."
+        }
+      }
+    ],
+    "relatedServices": [
+      "tile-supply-delivery",
+      "floor-tile-installation",
+      "large-format-tile",
+      "heated-tile-floors"
+    ],
+    "pricingServices": [
+      "tile-supply-delivery",
+      "floor-tile-installation",
+      "bathroom-shower-tile",
+      "outdoor-balcony-tiling"
+    ],
+    "comparisons": [
+      {
+        "material": "ceramic-tile",
+        "text": {
+          "en": "Non-porcelain ceramic offers many wall colours and decorative formats. Porcelain’s lower absorption can be useful in demanding applications, but both choices still require the correct product rating, finish and installation scope.",
+          "fr": "La céramique non porcelainée propose de nombreuses couleurs murales et formes décoratives. La faible absorption de la porcelaine peut servir les usages exigeants; les deux exigent toutefois classement, fini et portée de pose appropriés."
+        }
+      },
+      {
+        "material": "marble-tile",
+        "text": {
+          "en": "Marble is quarried stone with natural variation and stone-specific care. Marble-look porcelain provides a manufactured interpretation of that appearance. Compare actual samples, pattern repeats, edge details and maintenance expectations before choosing.",
+          "fr": "Le marbre est une pierre extraite aux variations naturelles et à l’entretien spécifique. La porcelaine imitation marbre en propose une interprétation fabriquée. Comparez échantillons, répétitions, bordures et attentes d’entretien avant de choisir."
+        }
+      }
+    ],
+    "references": [
+      {
+        "name": "Daltile — choosing floor tile",
+        "url": "https://www.daltile.com/how-to/how-to-choose-the-right-tile/floor-tile"
+      },
+      {
+        "name": "Daltile — ceramic and porcelain care",
+        "url": "https://www.daltile.com/how-to/how-to-care-for-and-maintain-tile/how-to-care-for-and-maintain-ceramic-and-porcelain-tile"
+      }
+    ]
+  },
+  {
+    "slug": "ceramic-tile",
+    "metaTitle": {
+      "en": "Ceramic Tile: Wall Finishes, Floor Ratings & Care",
+      "fr": "Carreaux de céramique : usages, finis et entretien"
+    },
+    "metaDescription": {
+      "en": "Explore ceramic tile for backsplashes, bathroom walls and suitable floors. Compare finishes, trim, product ratings and care before your Tiling.ca project.",
+      "fr": "Explorez la céramique pour dosserets, murs et sols appropriés. Comparez finis, profilés, usages autorisés et entretien avant votre projet avec Tiling.ca."
+    },
+    "category": {
+      "en": "Non-porcelain ceramic tile",
+      "fr": "Carreaux céramiques non porcelainés"
+    },
+    "intro": {
+      "en": "Ceramic is a broad family of clay-based tiles that also includes porcelain. This guide focuses on non-porcelain ceramic: colour-rich wall tile, decorative shapes and products made for specified floor uses. Glaze, texture and dimensional variation create different effects. Choose the exact product for the intended surface; a ceramic wall tile is not automatically suitable for foot traffic, a shower floor or exterior weather.",
+      "fr": "La céramique est une grande famille de carreaux à base d’argile qui comprend aussi la porcelaine. Ce guide vise la céramique non porcelainée : carreaux muraux colorés, formes décoratives et produits destinés à certains sols. Émail, texture et variations de dimensions créent des effets distincts. Choisissez le produit selon la surface : un carreau mural ne convient pas automatiquement au passage, au sol d’une douche ou aux intempéries."
+    },
+    "selectionHeading": {
+      "en": "Plan the glaze, pattern and exposed edges.",
+      "fr": "Prévoir l’émail, le motif et les bords visibles."
+    },
+    "choices": [
+      {
+        "title": {
+          "en": "Gloss, matte and decorative surfaces",
+          "fr": "Surfaces brillantes, mates et décoratives"
+        },
+        "text": {
+          "en": "View the finish in the room’s light and consider how easily the shape can be cleaned. Decorative relief, crackle effects and metallic accents may have their own use and care restrictions. Confirm those details for the selected product before ordering.",
+          "fr": "Observez le fini sous l’éclairage de la pièce et évaluez le nettoyage de la forme. Reliefs, effets craquelés et accents métalliques peuvent avoir leurs propres restrictions d’usage et d’entretien. Confirmez-les pour le produit choisi avant la commande."
+        }
+      },
+      {
+        "title": {
+          "en": "Uniform or handmade-look variation",
+          "fr": "Régularité ou variation d’aspect artisanal"
+        },
+        "text": {
+          "en": "Inspect several pieces to see the intended range of colour, edge shape and surface texture. Handmade-look variation may be deliberate, but it still needs an approved layout. Grout colour and joint spacing affect how the variation reads across the wall.",
+          "fr": "Examinez plusieurs pièces pour voir la gamme de couleurs, de bords et de textures. La variation d’aspect artisanal peut être voulue, mais nécessite un calepinage approuvé. Couleur du coulis et espacement des joints influencent son effet sur le mur."
+        }
+      },
+      {
+        "title": {
+          "en": "Shapes, trim and outside corners",
+          "fr": "Formes, profilés et coins extérieurs"
+        },
+        "text": {
+          "en": "Check how a rectangular, hexagonal or mosaic pattern meets outlets, windows and cabinet ends. Confirm whether the collection has suitable finished edges or needs a separate profile. Plan these pieces and cuts alongside the field tile, not after delivery.",
+          "fr": "Vérifiez les raccords d’un motif rectangulaire, hexagonal ou en mosaïque aux prises, fenêtres et armoires. Confirmez les pièces à bord fini ou les profilés nécessaires. Prévoyez ces éléments et les coupes avec les carreaux courants, avant la livraison."
+        }
+      }
+    ],
+    "applications": [
+      {
+        "title": {
+          "en": "Kitchen and vanity backsplashes",
+          "fr": "Dosserets de cuisine et de meuble-lavabo"
+        },
+        "text": {
+          "en": "A ceramic wall product can offer useful colour and pattern choices when approved for the exposure. Check cleaning instructions and any restrictions near appliances, then plan joints, outlets and visible edges.",
+          "fr": "Un produit mural en céramique peut offrir couleurs et motifs s’il convient à l’exposition. Vérifiez entretien et restrictions près des appareils, puis planifiez joints, prises et bords visibles."
+        },
+        "service": "kitchen-backsplash"
+      },
+      {
+        "title": {
+          "en": "Bathroom and shower walls",
+          "fr": "Murs de salle de bain et de douche"
+        },
+        "text": {
+          "en": "Use a product listed for the intended wet-wall application. Glaze appearance alone does not confirm suitability. The shower still needs an appropriate waterproofing assembly, compatible setting products and details around openings.",
+          "fr": "Utilisez un produit prévu pour l’usage mural humide concerné. L’apparence de l’émail ne suffit pas. La douche exige toujours une étanchéité appropriée, des produits de pose compatibles et des détails aux ouvertures."
+        },
+        "service": "bathroom-shower-tile"
+      },
+      {
+        "title": {
+          "en": "Selected interior floors",
+          "fr": "Certains planchers intérieurs"
+        },
+        "text": {
+          "en": "Some ceramic products are designed for floors; others are wall-only. Match the exact product to traffic, moisture and maintenance requirements. Confirm both the finished surface and the supporting assembly before using a wall collection underfoot.",
+          "fr": "Certaines céramiques sont prévues au sol; d’autres uniquement au mur. Adaptez le produit à la circulation, à l’humidité et à l’entretien. Confirmez surface finie et support avant de poser au sol une collection murale."
+        },
+        "service": "floor-tile-installation"
+      }
+    ],
+    "care": {
+      "title": {
+        "en": "Protect the glaze while keeping joints clean.",
+        "fr": "Préserver l’émail et nettoyer les joints."
+      },
+      "text": {
+        "en": "Remove loose dirt and wipe spills promptly. Use a cleaner and tools approved for the tile finish and grout, then rinse away residue. Avoid treating every decorative glaze the same way. Confirm special instructions before using abrasive pads, acidic cleaners or sealers, and test any unfamiliar treatment in an inconspicuous area.",
+        "fr": "Retirez la saleté libre et essuyez rapidement les déversements. Utilisez nettoyant et outils approuvés pour le fini et le coulis, puis rincez les résidus. Les émaux décoratifs ne se traitent pas tous pareil. Vérifiez les consignes avant abrasifs, nettoyants acides ou scellants; testez un traitement inconnu dans un endroit discret."
+      }
+    },
+    "orderChecklist": [
+      {
+        "en": "Exact product and manufacturer-approved wall, floor, wet-area or exterior uses.",
+        "fr": "Produit exact et usages muraux, au sol, humides ou extérieurs approuvés."
+      },
+      {
+        "en": "Several sample pieces showing glaze, texture, edges and shade variation.",
+        "fr": "Plusieurs échantillons montrant émail, texture, bords et variations de teinte."
+      },
+      {
+        "en": "Layout, grout choice, matching trim and cuts around outlets or fittings.",
+        "fr": "Calepinage, coulis, profilés coordonnés et coupes aux prises ou accessoires."
+      },
+      {
+        "en": "Measured coverage, cutting and spare allowance, box quantities and delivery details.",
+        "fr": "Surface mesurée, marge de coupe et de rechange, quantités par boîte et livraison."
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Can ceramic wall tile be used on a floor?",
+          "fr": "Peut-on poser un carreau mural en céramique au sol?"
+        },
+        "a": {
+          "en": "Only if that exact product is also approved for the intended floor application. Wall-only tile should not be treated as floor tile because it looks similar. Check the manufacturer’s use information for traffic and exposure before purchasing or arranging installation.",
+          "fr": "Seulement si ce produit exact est également approuvé pour le sol prévu. Un carreau réservé au mur ne devient pas un carreau de sol par sa ressemblance. Vérifiez les usages indiqués selon circulation et exposition avant l’achat ou la pose."
+        }
+      },
+      {
+        "q": {
+          "en": "Is ceramic tile suitable for a shower wall?",
+          "fr": "La céramique convient-elle aux murs d’une douche?"
+        },
+        "a": {
+          "en": "Many ceramic products are suitable when the manufacturer lists that use. Decorative finishes can have different restrictions, so check the selected product. Tile and grout are the finish; the support, waterproofing, joints and connections must form a compatible shower assembly.",
+          "fr": "De nombreux produits conviennent lorsque le fabricant prévoit cet usage. Les finis décoratifs peuvent avoir d’autres restrictions : vérifiez le produit choisi. Carreaux et coulis constituent la finition; support, étanchéité, joints et raccords doivent former un assemblage compatible."
+        }
+      },
+      {
+        "q": {
+          "en": "Does glazed ceramic tile need a sealer?",
+          "fr": "Faut-il sceller une céramique émaillée?"
+        },
+        "a": {
+          "en": "Many glazed ceramic surfaces do not need a tile sealer. Grout and some specialty finishes have separate requirements. Follow the exact product’s instructions before adding treatment; a sealer is not a substitute for cleaning or for the waterproofing behind a shower.",
+          "fr": "De nombreuses surfaces émaillées ne nécessitent pas de scellant pour carreaux. Le coulis et certains finis spécialisés ont leurs propres exigences. Suivez les instructions exactes avant traitement; le scellant ne remplace ni nettoyage ni étanchéité derrière une douche."
+        }
+      },
+      {
+        "q": {
+          "en": "Are uneven edges in handmade-look tile a defect?",
+          "fr": "Les bords irréguliers d’un carreau d’aspect artisanal sont-ils un défaut?"
+        },
+        "a": {
+          "en": "They may be an intended part of the design, but compare the delivered pieces with the approved sample and product description. Review several pieces before installation. Agree on layout and joint appearance, and raise unexpected chips or variation before the tiles are set.",
+          "fr": "Ils peuvent faire partie du dessin, mais comparez les pièces livrées à l’échantillon approuvé et à la description. Examinez-en plusieurs avant la pose. Convenez du calepinage et des joints, et signalez éclats ou variations inattendus avant l’installation."
+        }
+      }
+    ],
+    "relatedServices": [
+      "tile-supply-delivery",
+      "kitchen-backsplash",
+      "bathroom-shower-tile",
+      "floor-tile-installation"
+    ],
+    "pricingServices": [
+      "tile-supply-delivery",
+      "kitchen-backsplash",
+      "bathroom-shower-tile",
+      "floor-tile-installation"
+    ],
+    "comparisons": [
+      {
+        "material": "porcelain-tile",
+        "text": {
+          "en": "Porcelain is the low-absorption branch of the ceramic family. Non-porcelain ceramic can suit decorative walls and specified floors; porcelain offers other format and exposure options. Compare approved uses and complete project requirements.",
+          "fr": "La porcelaine est la branche peu absorbante de la céramique. La céramique non porcelainée peut convenir aux murs décoratifs et à certains sols; la porcelaine propose d’autres formats et expositions. Comparez usages approuvés et projet complet."
+        }
+      },
+      {
+        "material": "natural-stone-tile",
+        "text": {
+          "en": "Ceramic offers manufactured glazes and repeatable designs. Limestone, travertine and slate bring natural mineral and texture variation with stone-specific selection and care. Compare real samples, thickness, edge details and maintenance before deciding.",
+          "fr": "La céramique propose émaux fabriqués et motifs répétables. Calcaire, travertin et ardoise apportent des variations minérales et texturales naturelles avec choix et entretien spécifiques. Comparez échantillons, épaisseur, bordures et entretien avant de décider."
+        }
+      }
+    ],
+    "references": [
+      {
+        "name": "Daltile — choosing wall tile",
+        "url": "https://www.daltile.com/how-to/how-to-choose-the-right-tile/wall-tile"
+      },
+      {
+        "name": "Marazzi — tile care and maintenance",
+        "url": "https://www.marazziusa.com/style-and-design/resources/care-and-maintenance"
+      }
+    ]
+  },
+  {
+    "slug": "natural-stone-tile",
+    "metaTitle": {
+      "en": "Natural Stone Tile: Limestone, Travertine & Slate",
+      "fr": "Pierre naturelle : calcaire, travertin et ardoise"
+    },
+    "metaDescription": {
+      "en": "Compare limestone, travertine and slate tile by finish, texture, use and care. Plan product selection, quantities and installation with Tiling.ca.",
+      "fr": "Comparez calcaire, travertin et ardoise selon fini, texture, usage et entretien. Planifiez sélection, quantités et pose de pierre naturelle avec Tiling.ca."
+    },
+    "category": {
+      "en": "Natural stone: limestone, travertine and slate",
+      "fr": "Pierre naturelle : calcaire, travertin et ardoise"
+    },
+    "intro": {
+      "en": "Natural stone is a family of materials, not a single performance category. This guide focuses on limestone, travertine and slate; marble and granite are also natural stone and have separate guides. Choose by the actual stone, finish, thickness and intended use. A similar colour does not establish the same maintenance needs or suitability for floors, showers or exterior surfaces.",
+      "fr": "La pierre naturelle désigne une famille de matériaux, pas une performance unique. Ce guide porte sur le calcaire, le travertin et l’ardoise; marbre et granit sont aussi des pierres naturelles, traitées séparément. Choisissez selon pierre, fini, épaisseur et usage réels. Une couleur similaire ne garantit pas le même entretien ni la même compatibilité avec plancher, douche ou extérieur."
+    },
+    "selectionHeading": {
+      "en": "Identify the stone before choosing its texture.",
+      "fr": "Identifier la pierre avant de choisir sa texture."
+    },
+    "choices": [
+      {
+        "title": {
+          "en": "Limestone",
+          "fr": "Calcaire"
+        },
+        "text": {
+          "en": "Limestone can have quiet colour variation or visible fossil detail. Review the actual pieces, finish and recommended use. Ask about absorption and acid-sensitive care before choosing it for a floor, bathroom or feature surface.",
+          "fr": "Le calcaire peut présenter des nuances discrètes ou des fossiles visibles. Examinez pièces réelles, fini et usages recommandés. Renseignez-vous sur l’absorption et l’entretien face aux acides avant de choisir plancher, salle de bain ou surface décorative."
+        }
+      },
+      {
+        "title": {
+          "en": "Filled or unfilled travertine",
+          "fr": "Travertin rempli ou non rempli"
+        },
+        "text": {
+          "en": "Travertine can have visible pores that are left open or filled for a smoother surface. Confirm which finish is supplied, what the filling is and how it is maintained. Review representative pieces rather than assuming every surface will look equally uniform.",
+          "fr": "Le travertin peut présenter des pores laissés ouverts ou remplis pour obtenir une surface plus lisse. Confirmez finition fournie, nature du remplissage et entretien. Examinez des pièces représentatives sans présumer une surface parfaitement uniforme."
+        }
+      },
+      {
+        "title": {
+          "en": "Slate texture and thickness",
+          "fr": "Texture et épaisseur de l’ardoise"
+        },
+        "text": {
+          "en": "Slate may have a naturally cleft, uneven texture, while other finishes look smoother. Compare thickness and surface variation across actual pieces. Discuss cleaning, joint layout and transitions; a textured appearance alone does not prove suitability for every wet or outdoor location.",
+          "fr": "L’ardoise peut présenter une texture naturellement clivée et irrégulière; d’autres finitions sont plus lisses. Comparez épaisseurs et variations sur plusieurs pièces. Discutez entretien, joints et transitions; l’aspect texturé ne valide pas tous les usages humides ou extérieurs."
+        }
+      }
+    ],
+    "applications": [
+      {
+        "title": {
+          "en": "Entries and interior floors",
+          "fr": "Entrées et planchers intérieurs"
+        },
+        "text": {
+          "en": "Choose a floor-rated product and finish for the expected traffic, tracked-in grit and moisture. Review the support, thickness differences and adjoining floor heights before committing to the stone or a patterned layout.",
+          "fr": "Choisissez un produit et un fini adaptés à la circulation, aux particules et à l’humidité transportées. Examinez support, différences d’épaisseur et niveaux voisins avant de retenir pierre et disposition."
+        },
+        "service": "floor-tile-installation"
+      },
+      {
+        "title": {
+          "en": "Feature walls and fireplace surrounds",
+          "fr": "Murs décoratifs et entourages de foyer"
+        },
+        "text": {
+          "en": "Natural variation can become a focal point on a wall. Confirm the exact finish, backing, weight and exposed edges; fireplace applications also need coordination with the appliance requirements before approving the assembly.",
+          "fr": "Les variations naturelles peuvent animer un mur. Confirmez fini, support, poids et arêtes; près d’un foyer, l’assemblage doit aussi être coordonné avec les exigences de l’appareil."
+        },
+        "service": "fireplace-feature-wall-tiling"
+      },
+      {
+        "title": {
+          "en": "Bathroom accents and selected wet areas",
+          "fr": "Accents de salle de bain et zones humides adaptées"
+        },
+        "text": {
+          "en": "A stone approved for a dry wall is not automatically suitable for a shower. Review the actual product, any backing or filling, the proposed assembly and the cleaning expectations for each bathroom surface.",
+          "fr": "Une pierre admise sur mur sec ne convient pas automatiquement à une douche. Examinez produit, support ou remplissage, assemblage et entretien pour chaque surface de salle de bain."
+        },
+        "service": "bathroom-shower-tile"
+      }
+    ],
+    "care": {
+      "title": {
+        "en": "Match cleaning and treatment to the specific stone.",
+        "fr": "Adapter nettoyage et traitement à la pierre précise."
+      },
+      "text": {
+        "en": "Use a stone-compatible neutral cleaner at the dilution recommended by its manufacturer. The stone, finish and previous treatment all matter; an ordinary bathroom or limescale cleaner may be unsuitable. Clear grit and spills promptly. If sealing is recommended, confirm the product and test its effect on appearance. There is no single treatment or resealing calendar for every natural stone.",
+        "fr": "Utilisez un nettoyant neutre compatible avec la pierre, à la dilution prescrite. Pierre, fini et traitement antérieur comptent; un nettoyant courant pour salle de bain ou calcaire peut être inadapté. Retirez rapidement particules et liquides. Si un scellement est recommandé, confirmez le produit et testez son effet visuel. Il n’existe pas de traitement ni de calendrier unique pour toutes les pierres."
+      }
+    },
+    "orderChecklist": [
+      {
+        "en": "Stone name, supplier reference, finish and product-specific use guidance",
+        "fr": "Nom de la pierre, référence fournisseur, fini et usages admis"
+      },
+      {
+        "en": "Thickness, texture, filling and representative colour variation",
+        "fr": "Épaisseur, texture, remplissage et variations de couleur représentatives"
+      },
+      {
+        "en": "Layout, cuts, trims, sale units and agreed replacement allowance",
+        "fr": "Disposition, coupes, profilés, unités de vente et réserve convenue"
+      },
+      {
+        "en": "Setting-system compatibility, treatment history and written care requirements",
+        "fr": "Compatibilité du système de pose, traitements antérieurs et entretien écrit"
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Are marble and granite different from natural stone?",
+          "fr": "Le marbre et le granit sont-ils distincts de la pierre naturelle?"
+        },
+        "a": {
+          "en": "They are both natural stone. Separate names help explain different choices; they are not mutually exclusive categories. Use this guide for limestone, travertine and slate, then review the marble or granite guide when that is the actual material being considered.",
+          "fr": "Ce sont deux pierres naturelles. Les noms distincts expliquent des choix différents, sans former des catégories exclusives. Consultez ici calcaire, travertin et ardoise, puis le guide du marbre ou du granit si c’est la matière envisagée."
+        }
+      },
+      {
+        "q": {
+          "en": "Can the same stone continue from indoors to an outdoor patio?",
+          "fr": "La même pierre peut-elle se prolonger de l’intérieur au patio?"
+        },
+        "a": {
+          "en": "Only if the exact product and finish are suitable for both applications and each assembly is properly specified. Outdoor exposure, drainage and weather change the decision. Ask for the supplier’s guidance for the particular stone instead of relying on a similar-looking indoor installation.",
+          "fr": "Seulement si produit et fini conviennent aux deux usages et si chaque assemblage est défini. Exposition, drainage et météo modifient le choix. Demandez l’avis du fournisseur pour cette pierre précise, sans vous fier à une pose intérieure d’aspect similaire."
+        }
+      },
+      {
+        "q": {
+          "en": "Does a textured stone surface guarantee good grip?",
+          "fr": "Une pierre texturée garantit-elle une bonne adhérence?"
+        },
+        "a": {
+          "en": "No finish label guarantees performance in every setting. Review the actual product information alongside water, contaminants, footwear and cleaning conditions. The chosen surface must suit its intended use; a dry showroom sample cannot by itself establish how a wet entrance will perform.",
+          "fr": "Aucun nom de finition ne garantit la performance partout. Examinez les données du produit avec eau, contaminants, chaussures et entretien prévus. La surface doit convenir à son usage; un échantillon sec ne suffit pas à évaluer une entrée mouillée."
+        }
+      },
+      {
+        "q": {
+          "en": "What if the delivered stone differs from the sample?",
+          "fr": "Que faire si la pierre livrée diffère de l’échantillon?"
+        },
+        "a": {
+          "en": "Natural variation is expected, but its acceptable range should be discussed before ordering. Review the delivery before installation and raise unexpected colour, thickness or finish differences with the supplier. Keep packaging and product references, and settle any selection issue before the pieces are set.",
+          "fr": "Les variations sont attendues, mais leur ampleur acceptable doit être convenue avant commande. Examinez la livraison avant pose et signalez au fournisseur les écarts inattendus de couleur, épaisseur ou fini. Conservez emballages et références, puis réglez la sélection avant installation."
+        }
+      }
+    ],
+    "relatedServices": [
+      "floor-tile-installation",
+      "fireplace-feature-wall-tiling",
+      "tile-grout-stone-cleaning-sealing",
+      "tile-supply-delivery"
+    ],
+    "pricingServices": [
+      "floor-tile-installation",
+      "fireplace-feature-wall-tiling",
+      "bathroom-shower-tile",
+      "tile-supply-delivery"
+    ],
+    "comparisons": [
+      {
+        "material": "marble-tile",
+        "text": {
+          "en": "Limestone and travertine share acid-sensitive care concerns with marble, while texture and filling can differ. The marble guide focuses on vein layout and polished or honed finishes; compare the actual stones before choosing.",
+          "fr": "Calcaire et travertin partagent avec le marbre une sensibilité aux acides, mais texture et remplissage peuvent différer. Le guide du marbre traite veinures et finis poli ou adouci; comparez les pierres réelles avant de choisir."
+        }
+      },
+      {
+        "material": "porcelain-tile",
+        "text": {
+          "en": "Stone-look porcelain offers a manufactured interpretation of stone. Compare pattern repetition, edge details, finish ratings and care with the actual natural product; similar photographs can hide meaningful differences in the supplied material.",
+          "fr": "La porcelaine imitation pierre en donne une interprétation fabriquée. Comparez répétitions, arêtes, caractéristiques du fini et entretien au produit naturel; des photos similaires peuvent masquer des différences importantes entre les matériaux fournis."
+        }
+      }
+    ],
+    "references": [
+      {
+        "name": "Natural Stone Institute — Care & Cleaning of Natural Stone",
+        "url": "https://www.naturalstoneinstitute.org/consumers/care/"
+      },
+      {
+        "name": "Natural Stone Institute — Travertine: Watching Stones Form in Real-Time",
+        "url": "https://usenaturalstone.org/travertine-watching-stones-form-real-time/"
+      }
+    ]
+  },
+  {
+    "slug": "granite-tile",
+    "metaTitle": {
+      "en": "Granite Tile: Finishes, Floor Uses & Care",
+      "fr": "Carreaux de granit : finis, usages et entretien"
+    },
+    "metaDescription": {
+      "en": "Compare granite tile finishes, mineral variation, floor and stair uses, sealing and care. Plan material supply and a suitable installation with Tiling.ca.",
+      "fr": "Comparez finis du granit, variations, usages au sol et sur escalier, scellement et entretien. Planifiez fourniture et pose adaptée avec Tiling.ca."
+    },
+    "category": {
+      "en": "Natural stone",
+      "fr": "Pierre naturelle"
+    },
+    "intro": {
+      "en": "Granite tile brings natural mineral grain and colour movement to floors, stairs and feature surfaces. Its reputation for durability does not replace product selection: the finish, thickness, traffic and surrounding construction still matter. Review representative pieces and the intended use before approving the order, then coordinate support preparation, transitions and maintenance for the actual tile.",
+      "fr": "Le granit apporte grain minéral et nuances naturelles aux planchers, escaliers et surfaces décoratives. Sa réputation de résistance ne remplace pas le choix du produit : fini, épaisseur, circulation et construction restent essentiels. Examinez plusieurs pièces et l’usage prévu avant la commande, puis coordonnez support, transitions et entretien du carreau retenu."
+    },
+    "selectionHeading": {
+      "en": "Look beyond the granite colour name.",
+      "fr": "Aller au-delà du nom de couleur du granit."
+    },
+    "choices": [
+      {
+        "title": {
+          "en": "Polished, honed or textured",
+          "fr": "Poli, adouci ou texturé"
+        },
+        "text": {
+          "en": "Polished and matte or textured finishes change reflection and the appearance of mineral patterns. Compare samples in the intended lighting and ask which applications the exact finish supports. A rougher appearance is not a substitute for product-specific suitability information.",
+          "fr": "Les finis poli, mat ou texturé modifient reflets et lecture des minéraux. Comparez des échantillons sous l’éclairage prévu et demandez les usages admis pour le fini exact. Une apparence rugueuse ne remplace pas les données de compatibilité du produit."
+        }
+      },
+      {
+        "title": {
+          "en": "Grain, movement and batch variation",
+          "fr": "Grain, mouvements et variations de lot"
+        },
+        "text": {
+          "en": "Granite products may show fine grain, larger crystals or more directional movement. Review the range across representative pieces and agree how it will be distributed. Keep the supplier reference and batch information, particularly when matching adjoining areas or retaining replacement pieces.",
+          "fr": "Les granits peuvent présenter grain fin, gros cristaux ou mouvements plus orientés. Examinez plusieurs pièces et convenez de leur répartition. Conservez référence et lot, surtout pour raccorder des zones voisines ou garder des pièces de remplacement."
+        }
+      },
+      {
+        "title": {
+          "en": "Thickness and visible edge details",
+          "fr": "Épaisseur et arêtes visibles"
+        },
+        "text": {
+          "en": "Confirm the tile thickness and how it meets doors, adjacent flooring, treads and exposed wall edges. The installation quote should name preparation and finishing details. A stone’s strength does not eliminate the need for a suitable support and planned transitions.",
+          "fr": "Confirmez épaisseur et raccords aux portes, planchers voisins, marches et arêtes murales. La soumission doit nommer préparation et finitions. La résistance d’une pierre ne supprime pas la nécessité d’un support adapté et de transitions prévues."
+        }
+      }
+    ],
+    "applications": [
+      {
+        "title": {
+          "en": "Interior floors and entrances",
+          "fr": "Planchers intérieurs et entrées"
+        },
+        "text": {
+          "en": "Granite may suit a floor where the product and finish match the traffic and expected moisture. Consider winter grit, cleaning and neighbouring surfaces together; approval for a dry interior does not automatically cover an exposed entrance.",
+          "fr": "Le granit peut convenir si produit et fini répondent à la circulation et à l’humidité. Considérez particules hivernales, entretien et surfaces voisines; un usage intérieur sec ne valide pas automatiquement une entrée exposée."
+        },
+        "service": "floor-tile-installation"
+      },
+      {
+        "title": {
+          "en": "Treads, risers and landings",
+          "fr": "Marches, contremarches et paliers"
+        },
+        "text": {
+          "en": "For tiled stairs, confirm the specific finish, edge treatment and resulting dimensions with the installer. Measure treads, risers and landings separately. Structural suitability and outdoor exposure, where relevant, need review before the material order.",
+          "fr": "Pour un escalier carrelé, confirmez fini, arêtes et dimensions finales avec le carreleur. Mesurez séparément marches, contremarches et paliers. Structure et exposition extérieure éventuelle doivent être examinées avant commande."
+        },
+        "service": "tile-stairs-steps"
+      },
+      {
+        "title": {
+          "en": "Hearths and feature walls",
+          "fr": "Âtres et murs décoratifs"
+        },
+        "text": {
+          "en": "Granite can be considered for a compatible feature-wall or hearth assembly. Review the actual weight, backing, cuts and corners. Any fireplace installation must also follow its own appliance requirements; the stone alone does not establish suitability.",
+          "fr": "Le granit peut être envisagé sur un mur décoratif ou un âtre compatible. Examinez poids, support, coupes et angles. Un foyer doit aussi respecter ses propres exigences; la pierre seule ne permet pas de valider l’assemblage."
+        },
+        "service": "fireplace-feature-wall-tiling"
+      }
+    ],
+    "care": {
+      "title": {
+        "en": "Keep care specific to the granite and finish.",
+        "fr": "Adapter l’entretien au granit et à son fini."
+      },
+      "text": {
+        "en": "Remove abrasive grit and use a neutral cleaner suitable for the stone and any existing treatment. Clean spills promptly and follow dilution and rinsing instructions. Do not assume that granite tolerates every acidic or abrasive cleaner. Sealing needs vary; check the supplier’s guidance for the actual product rather than applying a fixed schedule to all granite.",
+        "fr": "Retirez les particules abrasives et utilisez un nettoyant neutre adapté à la pierre et à son traitement. Nettoyez rapidement les liquides selon les consignes de dilution et rinçage. Le granit ne tolère pas forcément tout nettoyant acide ou abrasif. Le besoin de scellement varie; suivez les indications du produit précis plutôt qu’un calendrier universel."
+      }
+    },
+    "orderChecklist": [
+      {
+        "en": "Exact granite reference, finish, dimensions, thickness and intended use",
+        "fr": "Référence exacte du granit, fini, dimensions, épaisseur et usage"
+      },
+      {
+        "en": "Representative grain and colour range, layout and replacement allowance",
+        "fr": "Grain et nuances représentatifs, disposition et réserve"
+      },
+      {
+        "en": "Thresholds, stair dimensions, edge profiles and adjoining finishes",
+        "fr": "Seuils, dimensions d’escalier, profilés et finitions voisines"
+      },
+      {
+        "en": "Installation-system requirements and supplier care or sealing guidance",
+        "fr": "Exigences du système de pose et consignes d’entretien ou de scellement"
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Does every granite tile need a sealer?",
+          "fr": "Tous les carreaux de granit nécessitent-ils un scellant?"
+        },
+        "a": {
+          "en": "No universal rule covers every granite and finish. Consult the stone supplier and proposed sealer manufacturer about whether treatment is useful and compatible. If it is specified, follow its application and maintenance directions; sealing is not a guarantee against all staining.",
+          "fr": "Aucune règle unique ne couvre tous les granits et finis. Consultez fournisseur de pierre et fabricant du scellant sur son utilité et sa compatibilité. S’il est prévu, respectez application et entretien; le scellement ne garantit pas une protection contre toute tache."
+        }
+      },
+      {
+        "q": {
+          "en": "Is polished granite a good choice for a wet entrance?",
+          "fr": "Le granit poli convient-il à une entrée mouillée?"
+        },
+        "a": {
+          "en": "Do not decide from gloss or colour alone. Review the exact product’s suitability, the expected water and grit, cleaning and the entrance layout. An indoor wall sample or dry showroom display does not establish performance for a floor exposed to wet footwear.",
+          "fr": "Ne décidez pas selon brillance ou couleur seulement. Examinez produit, eau et particules prévues, entretien et configuration. Un échantillon mural ou un présentoir sec ne démontre pas le comportement d’un plancher soumis aux chaussures mouillées."
+        }
+      },
+      {
+        "q": {
+          "en": "Can granite tile still be scratched, stained or chipped?",
+          "fr": "Le granit peut-il tout de même se rayer, se tacher ou s’ébrécher?"
+        },
+        "a": {
+          "en": "Yes; durable does not mean immune to damage. The particular stone, finish, exposure and edge details influence what may occur. Protect the installation during other work, maintain it with suitable products and have damage assessed before assuming ordinary cleaning or sealing will correct it.",
+          "fr": "Oui; résistance ne signifie pas absence de dommages. Pierre, fini, exposition et arêtes influencent les risques. Protégez la pose pendant d’autres travaux, utilisez des produits adaptés et faites examiner les dommages avant de supposer qu’un nettoyage ou scellement suffira."
+        }
+      },
+      {
+        "q": {
+          "en": "Can the same granite tile be used on both a floor and a wall?",
+          "fr": "Peut-on utiliser le même granit au sol et au mur?"
+        },
+        "a": {
+          "en": "It may be possible when the exact product and each installation assembly suit the location. A floor needs a finish appropriate to its use, while a wall introduces backing, weight and edge considerations. Confirm both applications rather than transferring approval from one to the other.",
+          "fr": "Cela peut être possible si produit et assemblages conviennent. Le plancher exige un fini adapté à l’usage; le mur ajoute des questions de support, poids et arêtes. Confirmez les deux applications sans transférer automatiquement l’acceptation de l’une à l’autre."
+        }
+      }
+    ],
+    "relatedServices": [
+      "floor-tile-installation",
+      "tile-stairs-steps",
+      "fireplace-feature-wall-tiling",
+      "tile-supply-delivery"
+    ],
+    "pricingServices": [
+      "floor-tile-installation",
+      "tile-stairs-steps",
+      "fireplace-feature-wall-tiling",
+      "tile-supply-delivery"
+    ],
+    "comparisons": [
+      {
+        "material": "marble-tile",
+        "text": {
+          "en": "Marble is more sensitive to household acids than typical granite, so its care requirements deserve attention in splash-prone areas. Compare actual samples and maintenance expectations; granite still needs a suitable finish and should not receive arbitrary harsh cleaners.",
+          "fr": "Le marbre est plus sensible aux acides domestiques que le granit typique; son entretien compte dans les zones éclaboussées. Comparez échantillons et entretien prévu; le granit exige aussi un fini adapté et ne tolère pas n’importe quel nettoyant puissant."
+        }
+      },
+      {
+        "material": "porcelain-tile",
+        "text": {
+          "en": "Granite is quarried stone; stone-look porcelain is manufactured. Compare representative variation, available sizes, edges and care requirements as well as appearance. Each option still needs a product and installation assembly suitable for the intended use.",
+          "fr": "Le granit est une pierre extraite; la porcelaine imitation pierre est fabriquée. Comparez variations, formats, arêtes et entretien autant que l’apparence. Chaque option exige un produit et un assemblage adaptés à l’usage prévu."
+        }
+      }
+    ],
+    "references": [
+      {
+        "name": "Natural Stone Institute — Care & Cleaning of Natural Stone",
+        "url": "https://www.naturalstoneinstitute.org/consumers/care/"
+      },
+      {
+        "name": "Natural Stone Institute — A Scientific Guide to Shopping for Natural Stone",
+        "url": "https://usenaturalstone.org/scientific-guide-shopping-stone/"
+      }
+    ]
+  }
+]

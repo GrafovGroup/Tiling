@@ -17,3 +17,15 @@ test('a broken measurement destination cannot interrupt quote success', () => {
   try { assert.doesNotThrow(() => trackEnquiry('generate_lead')); }
   finally { delete globalThis.window; }
 });
+
+test('configured analytics receives only event context, and destination errors remain non-blocking', () => {
+  const calls=[];
+  globalThis.window={location:{pathname:'/fr/request-a-quote',search:'?email=private@example.com',hash:'#private'},tilingAnalytics:(...args)=>calls.push(args)};
+  try {
+    trackEnquiry('generate_lead','Kitchen Backsplash');
+    assert.deepEqual(calls,[['generate_lead',{page_path:'/fr/request-a-quote',language:'fr-CA',service:'Kitchen Backsplash'}]]);
+    window.tilingAnalytics=()=>{throw new Error('Analytics blocked');};
+    assert.doesNotThrow(()=>trackEnquiry('generate_lead'));
+    assert.doesNotMatch(JSON.stringify(window.dataLayer),/private@example|#private/);
+  } finally {delete globalThis.window;}
+});

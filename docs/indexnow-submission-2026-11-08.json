@@ -1,0 +1,25 @@
+{
+  "submittedAt": "2026-11-09T00:04:25.002Z",
+  "host": "tiling.ca",
+  "urlCount": 15618,
+  "batchCount": 2,
+  "acceptedUrlCount": 15618,
+  "complete": true,
+  "results": [
+    {
+      "batch": 1,
+      "urlCount": 10000,
+      "status": 200,
+      "response": "",
+      "accepted": true
+    },
+    {
+      "batch": 2,
+      "urlCount": 5618,
+      "status": 200,
+      "response": "",
+      "accepted": true
+    }
+  ],
+  "meaning": "URLs received; a 202 batch still requires key validation. Indexing is not guaranteed."
+}

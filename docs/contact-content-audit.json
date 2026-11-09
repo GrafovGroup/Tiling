@@ -1,0 +1,69 @@
+{
+  "reviewed": "2026-11-08",
+  "pages": [
+    "/contact",
+    "/request-a-quote",
+    "/fr/contact",
+    "/fr/request-a-quote"
+  ],
+  "sources": [
+    {
+      "url": "https://primetiling.ca/contact",
+      "applied": "Prominent phone/email/form choices; practical project guidance."
+    },
+    {
+      "url": "https://zelta.ca/contact-us/",
+      "applied": "Project-specific preparation details, kept optional in the existing note field."
+    },
+    {
+      "url": "https://22flooring.ca/contact-us/",
+      "applied": "Inline contact form and clear direct-contact alternatives."
+    },
+    {
+      "url": "https://superiortilecontracting.ca/contact",
+      "applied": "Visible enquiry path and concise explanation of the next steps."
+    }
+  ],
+  "changes": [
+    "One form on each English/French contact and quote page.",
+    "Name/email/city remain the only required fields.",
+    "Validated city/service/material context retained; invalid and repeated values ignored.",
+    "Service-specific optional note tips and related pricing/service/material/local links.",
+    "Photo instructions before submission; existing email workflow.",
+    "Success/error focus, manual restart focus and preserved error values.",
+    "Distinct metadata, page entities, matching FAQs and sitemap dates."
+  ],
+  "claimBoundaries": [
+    "No ranking promises or causal ranking claims.",
+    "No invented hours, response-time, reviews, credentials, guarantees or office locations.",
+    "No new fields required, file-upload claims or automatic retries.",
+    "Industry guides are benchmarks; project price and availability require confirmation."
+  ],
+  "delivery": "Existing Formspree endpoint and data contract preserved. Browser submissions are intercepted; no real enquiries are sent during QA.",
+  "validation": {
+    "build": "passed",
+    "typecheck": "passed",
+    "renderedTests": 79,
+    "submissionAndPrivacyUnitTests": 8,
+    "browserPageViewportChecks": 12,
+    "browserWidths": [
+      390,
+      768,
+      1440
+    ],
+    "interceptedSubmissions": 6,
+    "browserErrors": 0,
+    "checkedInteractions": [
+      "Native required-field validation",
+      "Keyboard-operated project guidance",
+      "Contact form anchor focus",
+      "Success and error focus",
+      "Error preserves entered values",
+      "Duplicate in-flight submission guard",
+      "Send another request resets and focuses name",
+      "Context survives contact/quote navigation",
+      "City remains editable"
+    ],
+    "visualReview": "English/French mobile and desktop, form guidance, error and success states reviewed."
+  }
+}

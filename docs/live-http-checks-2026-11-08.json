@@ -1,0 +1,121 @@
+[
+  {
+    "url": "https://tiling.ca/",
+    "status": 200,
+    "location": null,
+    "title": "Tile Installation &amp; Tile Supply across Canada | Tiling.ca",
+    "descriptionLength": 158,
+    "measurementIdPresent": true,
+    "consentPresent": true,
+    "googleScriptAutoload": false
+  },
+  {
+    "url": "https://www.tiling.ca/areas?service=floor&service=wall",
+    "status": 308,
+    "location": "https://tiling.ca/locations?service=floor&service=wall",
+    "measurementIdPresent": false,
+    "consentPresent": false,
+    "googleScriptAutoload": false
+  },
+  {
+    "url": "http://tiling.ca/",
+    "status": 302,
+    "location": "https://tiling.ca/",
+    "title": "302 Found",
+    "measurementIdPresent": false,
+    "consentPresent": false,
+    "googleScriptAutoload": false
+  },
+  {
+    "url": "https://tiling.ca/request-a-match?utm_source=audit",
+    "status": 308,
+    "location": "/request-a-quote?utm_source=audit",
+    "measurementIdPresent": false,
+    "consentPresent": false,
+    "googleScriptAutoload": false
+  },
+  {
+    "url": "https://tiling.ca/fr/request-a-match?utm_source=audit",
+    "status": 308,
+    "location": "/fr/request-a-quote?utm_source=audit",
+    "measurementIdPresent": false,
+    "consentPresent": false,
+    "googleScriptAutoload": false
+  },
+  {
+    "url": "https://tiling.ca/for-contractors",
+    "status": 308,
+    "location": "/about",
+    "measurementIdPresent": false,
+    "consentPresent": false,
+    "googleScriptAutoload": false
+  },
+  {
+    "url": "https://tiling.ca/fr/contractor-review-process",
+    "status": 308,
+    "location": "/fr/how-it-works",
+    "measurementIdPresent": false,
+    "consentPresent": false,
+    "googleScriptAutoload": false
+  },
+  {
+    "url": "https://tiling.ca/request-a-quote",
+    "status": 200,
+    "location": null,
+    "title": "Request a Free Tile Quote | Tiling.ca",
+    "descriptionLength": 155,
+    "measurementIdPresent": true,
+    "consentPresent": true,
+    "googleScriptAutoload": false
+  },
+  {
+    "url": "https://tiling.ca/fr/request-a-quote",
+    "status": 200,
+    "location": null,
+    "title": "Soumission pour vos travaux de carrelage | Tiling.ca",
+    "descriptionLength": 148,
+    "measurementIdPresent": true,
+    "consentPresent": true,
+    "googleScriptAutoload": false
+  },
+  {
+    "url": "https://tiling.ca/contact",
+    "status": 200,
+    "location": null,
+    "title": "Contact Us for Tile Projects &amp; Quotes | Tiling.ca",
+    "descriptionLength": 142,
+    "measurementIdPresent": true,
+    "consentPresent": true,
+    "googleScriptAutoload": false
+  },
+  {
+    "url": "https://tiling.ca/fr/contact",
+    "status": 200,
+    "location": null,
+    "title": "Nous joindre pour un projet de carrelage | Tiling.ca",
+    "descriptionLength": 131,
+    "measurementIdPresent": true,
+    "consentPresent": true,
+    "googleScriptAutoload": false
+  },
+  {
+    "url": "https://tiling.ca/nonexistent-audit-page",
+    "status": 404,
+    "location": null,
+    "title": "Page not found | Tiling.ca",
+    "descriptionLength": 130,
+    "measurementIdPresent": true,
+    "consentPresent": true,
+    "googleScriptAutoload": false
+  },
+  {
+    "url": "https://tiling.ca/fr/nonexistent-audit-page",
+    "status": 404,
+    "location": null,
+    "title": "Page introuvable | Tiling.ca",
+    "descriptionLength": 130,
+    "measurementIdPresent": true,
+    "consentPresent": true,
+    "googleScriptAutoload": false
+  }
+]

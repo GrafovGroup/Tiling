@@ -1,0 +1,93 @@
+{
+  "date": "2026-11-08",
+  "version": 62,
+  "projectId": "appgprj_6a8dfa16669c81918729ca65c39bbe32",
+  "versionId": "appgprj_6a8dfa16669c81918729ca65c39bbe32~appgver_a4740c32389c819181dc032676b00f0d",
+  "commit": "35ebba574a0822df1b82eafc683c56b275e45f1b",
+  "deploymentId": "appgdep_6af10f49f0c48191a35c7e012a9eeb27",
+  "deploymentStatus": "succeeded",
+  "liveUrl": "https://tiling.ca",
+  "nativeUrl": "https://tiling-canada.dimagrafov.chatgpt.site",
+  "analytics": {
+    "accountId": "213675022",
+    "propertyId": "563208066",
+    "streamId": "16300192496",
+    "measurementId": "G-83XS8KT8EM",
+    "timeZone": "America/Toronto",
+    "currency": "CAD",
+    "enhancedMeasurement": false,
+    "consent": "explicit opt-in",
+    "keyEvent": "generate_lead",
+    "keyEventCounting": "once per event",
+    "keyEventValue": null,
+    "realtimeVerified": [
+      "page_view",
+      "quote_start",
+      "quote_click"
+    ],
+    "realEnquirySubmitted": false,
+    "pageViewCorrection": {
+      "version": 62,
+      "verification": "One fresh visit to /about produced one view in Realtime after automatic page views were disabled globally and in stream configuration.",
+      "testTrafficNote": "Earlier setup visits produced two views each on contact and quote pages before the correction. These are synthetic setup traffic."
+    }
+  },
+  "validation": {
+    "build": "pass",
+    "typescript": "pass",
+    "renderedTests": 86,
+    "unitTests": 12,
+    "metadataPages": 15618,
+    "uniqueTitles": 15618,
+    "uniqueDescriptions": 15618,
+    "metadataCanonicalAndLanguageFailures": 0,
+    "bilingualMockedFormFlows": "success, rejection, network error, duplicate prevention",
+    "formAccessibilityViolations": 0,
+    "liveLegacyAndWwwRedirects": 308,
+    "englishAndFrenchMissingPages": 404,
+    "followupRenderedTests": 8
+  },
+  "searchConsole": {
+    "observedOn": "2026-11-08",
+    "selectedRange": "3 months",
+    "chartRange": "September 3–November 6, 2026",
+    "clicks": 83,
+    "impressionsDisplay": "12.4K",
+    "ctr": "0.7%",
+    "averagePosition": 36.6,
+    "indexedPages": 2635,
+    "notIndexedPages": 6440,
+    "indexingReportUpdated": "2026-10-22",
+    "reasons": {
+      "discoveredNotIndexed": 6110,
+      "alternateWithCanonical": 292,
+      "duplicateWithoutCanonical": 22,
+      "crawledNotIndexed": 13,
+      "redirect": 2,
+      "noindex": 1
+    },
+    "noindexExample": "https://tiling.ca/request-a-match",
+    "noindexFix": "308 to current quote form, Google validation started November 8",
+    "sitemapResubmitted": true,
+    "sitemapUiStatus": "Success",
+    "sitemapDiscoveredBeforeReprocessing": 15586
+  },
+  "indexnow": {
+    "urlCount": 15618,
+    "batches": [
+      10000,
+      5618
+    ],
+    "statuses": [
+      200,
+      200
+    ],
+    "meaning": "Received; indexing is not guaranteed"
+  },
+  "remaining": [
+    "Hosting edge still upgrades HTTP to HTTPS with 302 before the application; available Sites tools expose no redirect-status setting.",
+    "Google indexing review/reprocessing is pending; no evidence justifies removing location pages en masse.",
+    "Owner-approved project photos, case studies, team details, credentials, warranty terms and reviews remain needed.",
+    "Current Bing reporting baseline has not been refreshed."
+  ]
+}

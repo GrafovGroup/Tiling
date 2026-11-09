@@ -1,16 +1,30 @@
 "use client";
 
-import { useRef, useState, type FormEvent } from "react";
+import { useEffect, useId, useRef, useState, type FormEvent } from "react";
 import { trackEnquiry } from "./enquiry-events";
 import { business } from "./data";
 import { submitQuoteRequest } from "./submit-quote";
 
-export function QuoteForm({ compact = false, defaultCity = "", serviceName = "", locale = "en" }: { compact?: boolean; defaultCity?: string; serviceName?: string; locale?: "en" | "fr" }) {
+export function QuoteForm({ compact = false, defaultCity = "", serviceName = "", materialName = "", locale = "en", guidance }: { compact?: boolean; defaultCity?: string; serviceName?: string; materialName?: string; locale?: "en" | "fr"; guidance?: { hints: string[]; placeholder: string } }) {
   const fr = locale === "fr";
   const [status, setStatus] = useState<"idle" | "submitting" | "succeeded" | "failed">("idle");
   const [error, setError] = useState("");
   const started = useRef(false);
   const inFlight = useRef(false);
+  const successHeading = useRef<HTMLHeadingElement>(null);
+  const errorMessage = useRef<HTMLParagraphElement>(null);
+  const nameInput = useRef<HTMLInputElement>(null);
+  const focusNameOnReset = useRef(false);
+  const helpId = useId();
+
+  useEffect(() => {
+    if (status === "succeeded") successHeading.current?.focus();
+    if (status === "failed") errorMessage.current?.focus();
+    if (status === "idle" && focusNameOnReset.current) {
+      focusNameOnReset.current = false;
+      nameInput.current?.focus();
+    }
+  }, [status]);
 
   async function submitQuote(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -39,26 +53,29 @@ export function QuoteForm({ compact = false, defaultCity = "", serviceName = "",
   }
 
   if (status === "succeeded") return <div className="form-success" role="status" aria-live="polite">
-    <b>{fr ? "Merci. Nous avons reçu votre demande." : "Thank you. Your request has been received."}</b>
+    <h2 className="form-status-title" ref={successHeading} tabIndex={-1}>{fr ? "Merci. Nous avons reçu votre demande." : "Thank you. Your request has been received."}</h2>
     <p>{fr ? "Nous examinerons les détails du projet et vous répondrons aux coordonnées fournies." : "We will review the project details and follow up using the contact information you provided."}</p>
     <p>{fr ? "Vous avez des photos ou des plans? Envoyez-les par courriel en indiquant le même nom et la même ville que dans votre demande." : "Have photos or plans? Email them using the same name and city as your quote request."}</p>
     <p><a href={`mailto:${business.email}?subject=${encodeURIComponent(fr ? "Photos de mon projet de carrelage" : "Photos for my tile project")}`}>{fr ? "Envoyer des photos par courriel" : "Email project photos"}</a></p>
-    <button type="button" onClick={() => { started.current = false; setStatus("idle"); }}>{fr ? "ENVOYER UNE AUTRE DEMANDE" : "SEND ANOTHER REQUEST"}</button>
+    <button type="button" onClick={() => { started.current = false; focusNameOnReset.current = true; setStatus("idle"); }}>{fr ? "ENVOYER UNE AUTRE DEMANDE" : "SEND ANOTHER REQUEST"}</button>
   </div>;
 
-  return <form className={`quote-form ${compact ? "quote-form-compact" : ""}`} action={business.formspreeEndpoint} method="POST" aria-busy={status === "submitting"} onSubmit={submitQuote} onFocus={() => {
-    if (!started.current) { started.current = true; trackEnquiry("quote_start", serviceName); }
+  return <form className={`quote-form ${compact ? "quote-form-compact" : ""}`} action={business.formspreeEndpoint} method="POST" aria-busy={status === "submitting"} onSubmit={submitQuote} onFocus={(event) => {
+    if (!started.current && event.target.matches('input:not([type="hidden"]):not([name="_gotcha"]), textarea')) { started.current = true; trackEnquiry("quote_start", serviceName); }
   }}>
     <label className="quote-honeypot" aria-hidden="true">{fr ? "Laissez ce champ vide" : "Leave this field empty"}<input name="_gotcha" tabIndex={-1} autoComplete="off" /></label>
     <input type="hidden" name="language" value={fr ? "fr-CA" : "en-CA"}/><input type="hidden" name="_subject" value={fr ? "Nouvelle demande de soumission Tiling.ca" : "New Tiling.ca quote request"} />
+    {guidance && <p className="full quote-required-note">{fr ? "Seuls le nom, le courriel et la ville sont obligatoires. Les autres renseignements sont facultatifs." : "Only your name, email and city are required. Everything else is optional."}</p>}
     {serviceName && <input type="hidden" name="service" value={serviceName} />}
+    {materialName && <><input type="hidden" name="material" value={materialName}/><p className="full quote-material-context">{fr ? "Votre matériau : " : "Your material: "}<strong>{materialName}</strong></p></>}
     {serviceName && <p className="full quote-service-context">{fr ? "Votre service : " : "Your service: "}<strong>{serviceName}</strong></p>}
-    <label>{fr ? "Nom" : "Name"}<input name="name" autoComplete="name" maxLength={100} required /></label>
+    <label>{fr ? "Nom" : "Name"}<input ref={nameInput} name="name" autoComplete="name" maxLength={100} required /></label>
     <label>{fr ? "Courriel" : "Email"}<input name="email" type="email" autoComplete="email" maxLength={254} required /></label>
     <label className="full">{fr ? "Téléphone pour un rappel " : "Callback number "}<span className="optional-label">{fr ? "Facultatif" : "Optional"}</span><input name="phone" type="tel" inputMode="tel" autoComplete="tel" maxLength={40} /></label>
     <label className="full">{fr ? "Ville" : "City"}<input name="city" defaultValue={defaultCity} maxLength={120} autoComplete="address-level2" placeholder={fr ? "Où se trouve votre projet?" : "Where is your project?"} required /></label>
-    <label className="full">{fr ? "Description du projet " : "Project note "}<span className="optional-label">{fr ? "Facultatif" : "Optional"}</span><textarea name="details" maxLength={5000} rows={3} placeholder={fr ? "Type de travaux, dimensions approximatives et échéancier souhaité." : "Type of work, approximate dimensions and preferred timing."} /></label>
-    {status === "failed" && <p className="form-error" role="alert">{error} {fr ? "Vous pouvez aussi écrire à " : "You can also email "}<a href={`mailto:${business.email}`}>{business.email}</a>.</p>}
+    <label className="full">{fr ? "Description du projet " : "Project note "}<span className="optional-label">{fr ? "Facultatif" : "Optional"}</span><textarea name="details" maxLength={5000} rows={3} aria-describedby={guidance ? helpId : undefined} placeholder={guidance?.placeholder || (fr ? "Type de travaux, dimensions approximatives et échéancier souhaité." : "Type of work, approximate dimensions and preferred timing.")} /></label>
+    {guidance && <div className="full quote-guidance"><p id={helpId}>{fr ? "Indiquez ce que vous savez; les estimations suffisent pour commencer." : "Share what you know; estimates are fine to start."}</p><details><summary>{fr ? "Les détails utiles pour votre projet" : "Helpful details for your project"}</summary><ul>{guidance.hints.map(hint => <li key={hint}>{hint}</li>)}</ul></details><p>{fr ? "Des photos ou des plans? " : "Have photos or plans? "}<a href={`mailto:${business.email}?subject=${encodeURIComponent(fr ? "Photos de mon projet de carrelage" : "Photos for my tile project")}`}>{fr ? "Envoyez-les par courriel" : "Email them to us"}</a>{fr ? " avec le même nom et la même ville." : " with the same name and city."}</p></div>}
+    {status === "failed" && <p className="form-error" role="alert" ref={errorMessage} tabIndex={-1}>{error} {fr ? "Appelez le " : "Call "}<a href={`tel:${business.phoneHref}`}>{business.phone}</a>{fr ? " ou écrivez à " : " or email "}<a href={`mailto:${business.email}`}>{business.email}</a>.</p>}
     <button className="button button-primary" type="submit" disabled={status === "submitting"}>{status === "submitting" ? (fr ? "Envoi en cours…" : "Sending…") : (fr ? "Demander une soumission" : "Request a quote")}</button>
     <small className="full">{fr ? "Nous utiliserons vos renseignements pour répondre à votre demande. " : "We’ll use your details to reply about your project. "}<a href={fr ? "/fr/privacy" : "/privacy"}>{fr ? "Confidentialité" : "Privacy policy"}</a></small>
   </form>;

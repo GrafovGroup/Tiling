@@ -9,11 +9,11 @@
     "dev": "WRANGLER_LOG_PATH=.wrangler/wrangler.log ./scripts/run-node.sh node_modules/vinext/dist/cli.js dev",
     "build": "WRANGLER_LOG_PATH=.wrangler/wrangler.log ./scripts/run-node.sh node_modules/vinext/dist/cli.js build",
     "start": "WRANGLER_LOG_PATH=.wrangler/wrangler.log ./scripts/run-node.sh node_modules/vinext/dist/cli.js start",
-    "test": "./scripts/run-node.sh node_modules/vinext/dist/cli.js build && ./scripts/run-node.sh --test tests/rendered-html.test.mjs tests/french.test.mjs",
+    "test": "./scripts/run-node.sh node_modules/vinext/dist/cli.js build && ./scripts/run-node.sh --test tests/rendered-html.test.mjs tests/french.test.mjs tests/pricing-locations.test.mjs tests/location-rollout.test.mjs tests/pricing-expansion.test.mjs tests/service-expansion.test.mjs tests/material-expansion.test.mjs tests/home-expansion.test.mjs tests/company-expansion.test.mjs tests/enquiry-expansion.test.mjs tests/audit-fixes.test.mjs tests/remaining-seo.test.mjs",
     "lint": "./scripts/run-node.sh node_modules/eslint/bin/eslint.js . --ignore-pattern dist --ignore-pattern .next",
     "db:generate": "drizzle-kit generate",
     "typecheck": "tsc --noEmit",
-    "test:forms": "node --experimental-strip-types --test tests/quote-submission.test.mjs tests/enquiry-events.test.mjs"
+    "test:forms": "node --experimental-strip-types --test tests/quote-submission.test.mjs tests/enquiry-events.test.mjs tests/indexnow-batches.test.mjs"
   },
   "dependencies": {
     "drizzle-orm": "0.45.2",

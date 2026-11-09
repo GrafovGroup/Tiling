@@ -1,0 +1,164 @@
+{
+  "reviewed": "2026-11-08",
+  "purpose": "Service content gaps observed on primary competitor pages. Patterns inform original Tiling.ca copy; no ranking causation is claimed.",
+  "primaryCompetitors": [
+    "Prime Tiling",
+    "Zelta",
+    "22FLOORING",
+    "Gabbatha",
+    "Superior Tile Contracting"
+  ],
+  "findings": [
+    {
+      "competitor": "Prime Tiling",
+      "url": "https://primetiling.ca/services/bathroom-tiling",
+      "observedPattern": "Dedicated bathroom scope, an explicit work sequence, relevant service-area links and project imagery make the service easier to assess.",
+      "appliedTo": [
+        "bathroom-shower-tile"
+      ],
+      "limitation": "Public content review only; no ranking, traffic, project-authenticity or credential verification. Tiling.ca copy does not reproduce their guarantees or project claims."
+    },
+    {
+      "competitor": "Prime Tiling",
+      "url": "https://primetiling.ca/services/floor-tiling",
+      "observedPattern": "Floor-specific feature list and process section answer what is included and what happens next.",
+      "appliedTo": [
+        "floor-tile-installation",
+        "heated-tile-floors"
+      ],
+      "limitation": "Their generic stage labels informed information architecture only. Heating details are framed as system-specific planning; no adoption of competitor timeframes or performance claims."
+    },
+    {
+      "competitor": "Prime Tiling",
+      "url": "https://primetiling.ca/services/kitchen-backsplash",
+      "observedPattern": "Names design choices and offers adjacent service navigation and a visible enquiry route.",
+      "appliedTo": [
+        "kitchen-backsplash"
+      ],
+      "limitation": "Countertop work is a competitor offering and is not added to Tiling.ca. Copy focuses on existing backsplash service and clear adjacent-trade boundaries."
+    },
+    {
+      "competitor": "Prime Tiling",
+      "url": "https://primetiling.ca/services/large-format-slabs",
+      "observedPattern": "A dedicated panel page addresses handling, material format and related services rather than treating panels as an ordinary floor finish.",
+      "appliedTo": [
+        "large-format-tile"
+      ],
+      "limitation": "No competitor maximum panel dimensions, equipment ownership, credentials or guaranteed outcomes transferred to Tiling.ca."
+    },
+    {
+      "competitor": "Zelta Floor & Design",
+      "url": "https://zelta.ca/tile-installation/",
+      "observedPattern": "Material categories, a clear assessment-to-handover sequence and links to selection/cost guidance help users compare the work.",
+      "appliedTo": [
+        "floor-tile-installation",
+        "bathroom-shower-tile",
+        "kitchen-backsplash",
+        "large-format-tile",
+        "heated-tile-floors"
+      ],
+      "limitation": "Content architecture is useful; public content does not prove ranking causation. Brand-specific benefits, warranties and site-inspection promises are not adopted."
+    },
+    {
+      "competitor": "Technical cross-check: Schluter",
+      "url": "https://www.schluter.com/schluter-us/en_US/blog-waterproofing-membrane-for-a-shower",
+      "observedPattern": "Manufacturer distinguishes tile/grout finish from the waterproofing assembly.",
+      "appliedTo": [
+        "bathroom-shower-tile"
+      ],
+      "limitation": "Supports general scope explanation only. No statement that Tiling.ca installs this brand or follows one universal assembly."
+    },
+    {
+      "competitor": "Technical cross-check: Schluter",
+      "url": "https://assets.schluter.com/asset/570120892212/document_8dhlaon4k93nb3dhcmucri1212/ditra-heat-installation-handbook.pdf?content-disposition=inline",
+      "observedPattern": "Official heating handbook specifies product-dependent layout restrictions and test documentation, and recommends photographing the layout for future work.",
+      "appliedTo": [
+        "heated-tile-floors"
+      ],
+      "limitation": "No numeric layout rule, electrical procedure or brand-installation claim reused. Customer copy asks for the chosen system’s instructions and responsibilities."
+    },
+    {
+      "competitor": "22FLOORING",
+      "url": "https://22flooring.ca/tile-installation/",
+      "observedPattern": "Explains substrate and levelling decisions before ordering, customer-supplied versus contractor-supplied tile, staged preparation and clearly identified setting materials. Includes task-specific FAQs and project examples.",
+      "appliedTo": [
+        "tile-removal-surface-preparation",
+        "tile-supply-delivery",
+        "tile-stairs-steps"
+      ],
+      "limitation": "Reviewed 2026-11-08 through search-index retrieval and the existing same-session capture after direct web fetch cache misses. Adopted decision structure only; no copying of fixed prices, free measures, included removal, stock promises, warranties or project evidence. No rank causation established."
+    },
+    {
+      "competitor": "Zelta Floor & Design",
+      "url": "https://zelta.ca/tile-installation/",
+      "observedPattern": "Uses in-page navigation and an assessment-to-material-selection-to-installation sequence, with a visible service scope and customer questions. This exposes decisions that a short feature list leaves unresolved.",
+      "appliedTo": [
+        "tile-repair-regrouting",
+        "tile-removal-surface-preparation",
+        "tile-supply-delivery",
+        "tile-stairs-steps"
+      ],
+      "limitation": "Reviewed 2026-11-08. Tiling.ca copy uses its existing service scope and does not adopt Zelta certifications, financing, showroom, guarantees or specialist staircase-construction services. No measured ranking claim."
+    },
+    {
+      "competitor": "Oxy-Genie",
+      "url": "https://www.oxygenie.ca/tile-grout-cleaning-calgary/",
+      "observedPattern": "Separates assessment, cleaning stages and after-care, explains when sealing is an additional decision, and distinguishes removable residue from lasting surface damage.",
+      "appliedTo": [
+        "tile-grout-stone-cleaning-sealing",
+        "tile-repair-regrouting"
+      ],
+      "limitation": "Reviewed 2026-11-08 as supplemental specialist research. Added treatment decisions and realistic result expectations only; no equipment, pressure, chemical safety, health, restoration-service or outcome claims imported."
+    },
+    {
+      "competitor": "Gabbatha",
+      "url": "https://gabbatha.ca/services",
+      "observedPattern": "The first-party service overview connects sourcing, deliveries, installation and finishing responsibility, and names commercial sectors. This makes the service boundary and logistics easier to understand.",
+      "appliedTo": [
+        "commercial-tile",
+        "rooftop-terrace-pedestal-pavers"
+      ],
+      "limitation": "Reviewed 2026-11-08 by a direct read of the public first-party page after the web reader failed. This establishes visible content patterns, not ranking causation or Tiling.ca credentials, sectors beyond its offering, or delivery guarantees."
+    },
+    {
+      "competitor": "Superior Tile Contracting",
+      "url": "https://superiortilecontracting.ca/services/outdoor-paving",
+      "observedPattern": "The service page separates outdoor applications, materials, installation stages and related articles. Tiling.ca can answer comparable planning questions while keeping bonded tile distinct from a raised rooftop assembly.",
+      "appliedTo": [
+        "outdoor-balcony-tiling",
+        "rooftop-terrace-pedestal-pavers"
+      ],
+      "limitation": "Reviewed 2026-11-08. Competitor performance, code, lifetime, brand, warranty and numerical installation assertions were not adopted. Driveway paving, excavation and snow-melt were not added as Tiling.ca services."
+    },
+    {
+      "competitor": "Superior Tile Contracting",
+      "url": "https://superiortilecontracting.ca/",
+      "observedPattern": "The home page describes assessment, itemized scope, preparation, installation, final review and care as a sequence, alongside commercial applications. This suggests making project decisions and trade responsibilities visible on each service page.",
+      "appliedTo": [
+        "commercial-tile",
+        "fireplace-feature-wall-tiling",
+        "pool-spa-tiling"
+      ],
+      "limitation": "Reviewed 2026-11-08. Only the customer-information pattern informed original copy. Tiling.ca does not inherit competitor certifications, staff counts, fixed schedules, warranty terms or installation methods. Pool and fireplace scopes come from Tiling.ca’s existing verified offerings; no competitor ranking attribution."
+    }
+  ],
+  "implementation": {
+    "nationalPages": 15,
+    "languages": [
+      "en-CA",
+      "fr-CA"
+    ],
+    "topics": [
+      "Project options and applications",
+      "Preparation and work stages",
+      "Scope boundaries and quote checklist",
+      "Three additional service-specific FAQs",
+      "Relevant materials, services and pricing links"
+    ],
+    "limits": [
+      "No new services, certifications, warranties, customer reviews or completed projects inferred from competitor pages.",
+      "No promised installation or curing time; confirm selected products and site conditions.",
+      "Local service pages link the detailed guide; localized planning and price context are preserved."
+    ]
+  }
+}

@@ -69,7 +69,7 @@
     "type": "Township of",
     "tier": "Lower Tier",
     "region": "Northumberland",
-    "website": "http://www.alnwickhaldimand.ca/"
+    "website": "https://www.ahtwp.ca/"
   },
   {
     "name": "Amaranth",
@@ -157,7 +157,7 @@
     "type": "Town of",
     "tier": "Single Tier",
     "region": "Rainy River",
-    "website": "http://www.atikokan.ca/siteengine/activepage.asp"
+    "website": "https://atikokan.ca/"
   },
   {
     "name": "Augusta",
@@ -213,7 +213,7 @@
     "type": "Municipality of",
     "tier": "Lower Tier",
     "region": "Elgin",
-    "website": "http://www.bayham.on.ca/siteengine/activepage.asp"
+    "website": "https://www.bayham.on.ca/"
   },
   {
     "name": "Beckwith",
@@ -400,8 +400,8 @@
     "website": "http://www.blrtownship.ca/"
   },
   {
-    "name": "Burk\u2019s Falls",
-    "officialName": "Burk\u2019s Falls, Village of",
+    "name": "Burk’s Falls",
+    "officialName": "Burk’s Falls, Village of",
     "type": "Village of",
     "tier": "Single Tier",
     "region": "Parry Sound",
@@ -501,7 +501,7 @@
     "type": "Township of",
     "tier": "Lower Tier",
     "region": "Peterborough",
-    "website": "http://www.cavanmonaghan.net/siteengine/activepage.asp"
+    "website": "https://www.cavanmonaghan.net/"
   },
   {
     "name": "Central Elgin",
@@ -885,7 +885,7 @@
     "type": "Township of",
     "tier": "Lower Tier",
     "region": "Leeds and Grenville",
-    "website": "http://www.elizabethtown-kitley.on.ca/"
+    "website": "https://www.ektwp.ca/"
   },
   {
     "name": "Elliot Lake",
@@ -1493,7 +1493,7 @@
     "type": "City of",
     "tier": "Single Tier",
     "region": "Kawartha Lakes",
-    "website": "http://www.city.kawarthalakes.on.ca/"
+    "website": "https://www.kawarthalakes.ca/"
   },
   {
     "name": "Kearney",
@@ -1896,8 +1896,8 @@
     "website": "https://mattawan.ca/"
   },
   {
-    "name": "Mattice-Val C\u00c3\u00b4t\u00c3\u00a9",
-    "officialName": "Mattice-Val C\u00c3\u00b4t\u00c3\u00a9, Township of",
+    "name": "Mattice-Val CÃ´tÃ©",
+    "officialName": "Mattice-Val CÃ´tÃ©, Township of",
     "type": "Township of",
     "tier": "Single Tier",
     "region": "Cochrane",
@@ -1925,7 +1925,7 @@
     "type": "Township of",
     "tier": "Single Tier",
     "region": "Parry Sound",
-    "website": "https://www.mckellar.ca/en/index.aspx"
+    "website": "https://www.mckellar.ca/"
   },
   {
     "name": "McMurrich/Monteith",
@@ -2320,8 +2320,8 @@
     "website": "http://www.twp.norwich.on.ca/"
   },
   {
-    "name": "O\u2019Connor",
-    "officialName": "O\u2019Connor, Township of",
+    "name": "O’Connor",
+    "officialName": "O’Connor, Township of",
     "type": "Township of",
     "tier": "Single Tier",
     "region": "Thunder Bay",
@@ -2509,7 +2509,7 @@
     "type": "Township of",
     "tier": "Lower Tier",
     "region": "Perth",
-    "website": "https://www.pertheast.ca/en/index.aspx"
+    "website": "https://www.pertheast.ca/"
   },
   {
     "name": "Perth South",
@@ -2805,7 +2805,7 @@
     "type": "Township of",
     "tier": "Lower Tier",
     "region": "Peterborough",
-    "website": "http://www.selwyntownship.ca/en/index.asp"
+    "website": "https://www.selwyntownship.ca/"
   },
   {
     "name": "Severn",
@@ -2813,7 +2813,7 @@
     "type": "Township of",
     "tier": "Lower Tier",
     "region": "Simcoe",
-    "website": "http://www.townshipofsevern.com/"
+    "website": "https://www.severn.ca/"
   },
   {
     "name": "Shelburne",
@@ -2885,7 +2885,7 @@
     "type": "Municipality of",
     "tier": "Lower Tier",
     "region": "Bruce",
-    "website": "http://www.town.southbruce.on.ca/"
+    "website": "https://www.southbruce.ca/"
   },
   {
     "name": "South Bruce Peninsula",
@@ -3317,7 +3317,7 @@
     "type": "Township of",
     "tier": "Single Tier",
     "region": "Cochrane",
-    "website": "http://valharty.ca/en/"
+    "website": "https://valharty.ca/municipality/"
   },
   {
     "name": "Vaughan",
@@ -3461,7 +3461,7 @@
     "type": "Town of",
     "tier": "Lower Tier",
     "region": "Durham",
-    "website": "http://www.whitby.ca/en/"
+    "website": "https://www.whitby.ca/"
   },
   {
     "name": "Whitchurch-Stouffville",

@@ -1,0 +1,9168 @@
+{
+  "addington-highlands": {
+    "geographies": [
+      {
+        "dguid": "2021A00053511035",
+        "name": "Addington Highlands"
+      }
+    ],
+    "counts": {
+      "total": 1120,
+      "detached": 1045,
+      "semi": 20,
+      "row": 15,
+      "duplex": 5,
+      "lowrise": 20,
+      "highrise": 0,
+      "other": 5,
+      "movable": 15
+    }
+  },
+  "adelaide-metcalfe": {
+    "geographies": [
+      {
+        "dguid": "2021A00053539047",
+        "name": "Adelaide-Metcalfe"
+      }
+    ],
+    "counts": {
+      "total": 1015,
+      "detached": 995,
+      "semi": 10,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "adjala-tosorontio": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543003",
+        "name": "Adjala-Tosorontio"
+      }
+    ],
+    "counts": {
+      "total": 3835,
+      "detached": 3710,
+      "semi": 20,
+      "row": 0,
+      "duplex": 70,
+      "lowrise": 30,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "admaston-bromley": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547043",
+        "name": "Admaston/Bromley"
+      }
+    ],
+    "counts": {
+      "total": 1135,
+      "detached": 1110,
+      "semi": 5,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "ajax": {
+    "geographies": [
+      {
+        "dguid": "2021A00053518005",
+        "name": "Ajax"
+      }
+    ],
+    "counts": {
+      "total": 39490,
+      "detached": 25560,
+      "semi": 2260,
+      "row": 6025,
+      "duplex": 1385,
+      "lowrise": 1605,
+      "highrise": 2640,
+      "other": 15,
+      "movable": 5
+    }
+  },
+  "alberton": {
+    "geographies": [
+      {
+        "dguid": "2021A00053559011",
+        "name": "Alberton"
+      }
+    ],
+    "counts": {
+      "total": 340,
+      "detached": 325,
+      "semi": 0,
+      "row": 5,
+      "duplex": 0,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "alfred-and-plantagenet": {
+    "geographies": [
+      {
+        "dguid": "2021A00053502023",
+        "name": "Alfred and Plantagenet"
+      }
+    ],
+    "counts": {
+      "total": 4080,
+      "detached": 3025,
+      "semi": 430,
+      "row": 85,
+      "duplex": 90,
+      "lowrise": 385,
+      "highrise": 0,
+      "other": 20,
+      "movable": 45
+    }
+  },
+  "algonquin-highlands": {
+    "geographies": [
+      {
+        "dguid": "2021A00053546018",
+        "name": "Algonquin Highlands"
+      }
+    ],
+    "counts": {
+      "total": 1270,
+      "detached": 1235,
+      "semi": 5,
+      "row": 0,
+      "duplex": 10,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 10,
+      "movable": 5
+    }
+  },
+  "alnwick-haldimand": {
+    "geographies": [
+      {
+        "dguid": "2021A00053514024",
+        "name": "Alnwick/Haldimand"
+      }
+    ],
+    "counts": {
+      "total": 2820,
+      "detached": 2720,
+      "semi": 15,
+      "row": 5,
+      "duplex": 10,
+      "lowrise": 55,
+      "highrise": 5,
+      "other": 5,
+      "movable": 10
+    }
+  },
+  "amaranth": {
+    "geographies": [
+      {
+        "dguid": "2021A00053522008",
+        "name": "Amaranth"
+      }
+    ],
+    "counts": {
+      "total": 1375,
+      "detached": 1340,
+      "semi": 5,
+      "row": 0,
+      "duplex": 20,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "amherstburg": {
+    "geographies": [
+      {
+        "dguid": "2021A00053537028",
+        "name": "Amherstburg"
+      }
+    ],
+    "counts": {
+      "total": 9195,
+      "detached": 7635,
+      "semi": 285,
+      "row": 370,
+      "duplex": 90,
+      "lowrise": 475,
+      "highrise": 335,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "armour": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549019",
+        "name": "Armour"
+      }
+    ],
+    "counts": {
+      "total": 670,
+      "detached": 640,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "armstrong": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554036",
+        "name": "Armstrong"
+      }
+    ],
+    "counts": {
+      "total": 505,
+      "detached": 385,
+      "semi": 20,
+      "row": 20,
+      "duplex": 10,
+      "lowrise": 55,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "arnprior": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547002",
+        "name": "Arnprior"
+      }
+    ],
+    "counts": {
+      "total": 4305,
+      "detached": 2225,
+      "semi": 450,
+      "row": 550,
+      "duplex": 90,
+      "lowrise": 910,
+      "highrise": 55,
+      "other": 0,
+      "movable": 20
+    }
+  },
+  "arran-elderslie": {
+    "geographies": [
+      {
+        "dguid": "2021A00053541043",
+        "name": "Arran-Elderslie"
+      }
+    ],
+    "counts": {
+      "total": 2785,
+      "detached": 2340,
+      "semi": 55,
+      "row": 130,
+      "duplex": 15,
+      "lowrise": 185,
+      "highrise": 0,
+      "other": 50,
+      "movable": 5
+    }
+  },
+  "ashfield-colborne-wawanosh": {
+    "geographies": [
+      {
+        "dguid": "2021A00053540063",
+        "name": "Ashfield-Colborne-Wawanosh"
+      }
+    ],
+    "counts": {
+      "total": 2360,
+      "detached": 2080,
+      "semi": 25,
+      "row": 5,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 235
+    }
+  },
+  "asphodel-norwood": {
+    "geographies": [
+      {
+        "dguid": "2021A00053515003",
+        "name": "Asphodel-Norwood"
+      }
+    ],
+    "counts": {
+      "total": 1820,
+      "detached": 1665,
+      "semi": 45,
+      "row": 0,
+      "duplex": 10,
+      "lowrise": 95,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "assiginack": {
+    "geographies": [
+      {
+        "dguid": "2021A00053551011",
+        "name": "Assiginack"
+      }
+    ],
+    "counts": {
+      "total": 450,
+      "detached": 420,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 30,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "athens": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507042",
+        "name": "Athens"
+      }
+    ],
+    "counts": {
+      "total": 1215,
+      "detached": 1150,
+      "semi": 20,
+      "row": 15,
+      "duplex": 5,
+      "lowrise": 20,
+      "highrise": 0,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "atikokan": {
+    "geographies": [
+      {
+        "dguid": "2021A00053559001",
+        "name": "Atikokan"
+      }
+    ],
+    "counts": {
+      "total": 1260,
+      "detached": 1155,
+      "semi": 0,
+      "row": 0,
+      "duplex": 20,
+      "lowrise": 80,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "augusta": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507006",
+        "name": "Augusta"
+      }
+    ],
+    "counts": {
+      "total": 2950,
+      "detached": 2795,
+      "semi": 45,
+      "row": 25,
+      "duplex": 10,
+      "lowrise": 55,
+      "highrise": 0,
+      "other": 10,
+      "movable": 25
+    }
+  },
+  "aurora": {
+    "geographies": [
+      {
+        "dguid": "2021A00053519046",
+        "name": "Aurora"
+      }
+    ],
+    "counts": {
+      "total": 21505,
+      "detached": 12980,
+      "semi": 1490,
+      "row": 3615,
+      "duplex": 670,
+      "lowrise": 1535,
+      "highrise": 1210,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "aylmer": {
+    "geographies": [
+      {
+        "dguid": "2021A00053534011",
+        "name": "Aylmer"
+      }
+    ],
+    "counts": {
+      "total": 3070,
+      "detached": 2025,
+      "semi": 150,
+      "row": 205,
+      "duplex": 80,
+      "lowrise": 520,
+      "highrise": 45,
+      "other": 35,
+      "movable": 0
+    }
+  },
+  "baldwin": {
+    "geographies": [
+      {
+        "dguid": "2021A00053552028",
+        "name": "Baldwin"
+      }
+    ],
+    "counts": {
+      "total": 235,
+      "detached": 230,
+      "semi": 0,
+      "row": 5,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "bancroft": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512061",
+        "name": "Bancroft"
+      }
+    ],
+    "counts": {
+      "total": 1805,
+      "detached": 1300,
+      "semi": 20,
+      "row": 70,
+      "duplex": 45,
+      "lowrise": 345,
+      "highrise": 0,
+      "other": 0,
+      "movable": 20
+    }
+  },
+  "barrie": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543042",
+        "name": "Barrie"
+      }
+    ],
+    "counts": {
+      "total": 55315,
+      "detached": 32210,
+      "semi": 2355,
+      "row": 6330,
+      "duplex": 3710,
+      "lowrise": 6405,
+      "highrise": 4245,
+      "other": 30,
+      "movable": 30
+    }
+  },
+  "bayham": {
+    "geographies": [
+      {
+        "dguid": "2021A00053534005",
+        "name": "Bayham"
+      }
+    ],
+    "counts": {
+      "total": 2260,
+      "detached": 2005,
+      "semi": 45,
+      "row": 20,
+      "duplex": 20,
+      "lowrise": 50,
+      "highrise": 0,
+      "other": 5,
+      "movable": 125
+    }
+  },
+  "beckwith": {
+    "geographies": [
+      {
+        "dguid": "2021A00053509024",
+        "name": "Beckwith"
+      }
+    ],
+    "counts": {
+      "total": 3375,
+      "detached": 3185,
+      "semi": 15,
+      "row": 5,
+      "duplex": 5,
+      "lowrise": 15,
+      "highrise": 0,
+      "other": 5,
+      "movable": 140
+    }
+  },
+  "belleville": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512005",
+        "name": "Belleville"
+      }
+    ],
+    "counts": {
+      "total": 23535,
+      "detached": 13975,
+      "semi": 710,
+      "row": 1800,
+      "duplex": 675,
+      "lowrise": 4140,
+      "highrise": 2120,
+      "other": 105,
+      "movable": 15
+    }
+  },
+  "billings": {
+    "geographies": [
+      {
+        "dguid": "2021A00053551021",
+        "name": "Billings"
+      }
+    ],
+    "counts": {
+      "total": 345,
+      "detached": 330,
+      "semi": 5,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "black-river-matheson": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556014",
+        "name": "Black River-Matheson"
+      }
+    ],
+    "counts": {
+      "total": 1080,
+      "detached": 950,
+      "semi": 15,
+      "row": 5,
+      "duplex": 5,
+      "lowrise": 65,
+      "highrise": 5,
+      "other": 10,
+      "movable": 25
+    }
+  },
+  "blandford-blenheim": {
+    "geographies": [
+      {
+        "dguid": "2021A00053532045",
+        "name": "Blandford-Blenheim"
+      }
+    ],
+    "counts": {
+      "total": 2780,
+      "detached": 2505,
+      "semi": 70,
+      "row": 5,
+      "duplex": 25,
+      "lowrise": 125,
+      "highrise": 0,
+      "other": 5,
+      "movable": 45
+    }
+  },
+  "blind-river": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557038",
+        "name": "Blind River"
+      }
+    ],
+    "counts": {
+      "total": 1600,
+      "detached": 1245,
+      "semi": 75,
+      "row": 10,
+      "duplex": 80,
+      "lowrise": 170,
+      "highrise": 0,
+      "other": 0,
+      "movable": 20
+    }
+  },
+  "bluewater": {
+    "geographies": [
+      {
+        "dguid": "2021A00053540010",
+        "name": "Bluewater"
+      }
+    ],
+    "counts": {
+      "total": 3300,
+      "detached": 2730,
+      "semi": 30,
+      "row": 155,
+      "duplex": 25,
+      "lowrise": 225,
+      "highrise": 0,
+      "other": 10,
+      "movable": 140
+    }
+  },
+  "bonfield": {
+    "geographies": [
+      {
+        "dguid": "2021A00053548027",
+        "name": "Bonfield"
+      }
+    ],
+    "counts": {
+      "total": 890,
+      "detached": 830,
+      "semi": 0,
+      "row": 0,
+      "duplex": 10,
+      "lowrise": 40,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "bonnechere-valley": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547035",
+        "name": "Bonnechere Valley"
+      }
+    ],
+    "counts": {
+      "total": 1740,
+      "detached": 1570,
+      "semi": 25,
+      "row": 0,
+      "duplex": 25,
+      "lowrise": 105,
+      "highrise": 5,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "bracebridge": {
+    "geographies": [
+      {
+        "dguid": "2021A00053544018",
+        "name": "Bracebridge"
+      }
+    ],
+    "counts": {
+      "total": 7230,
+      "detached": 5475,
+      "semi": 215,
+      "row": 400,
+      "duplex": 215,
+      "lowrise": 710,
+      "highrise": 125,
+      "other": 90,
+      "movable": 5
+    }
+  },
+  "bradford-west-gwillimbury": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543014",
+        "name": "Bradford West Gwillimbury"
+      }
+    ],
+    "counts": {
+      "total": 13415,
+      "detached": 10025,
+      "semi": 940,
+      "row": 695,
+      "duplex": 835,
+      "lowrise": 635,
+      "highrise": 255,
+      "other": 30,
+      "movable": 5
+    }
+  },
+  "brampton": {
+    "geographies": [
+      {
+        "dguid": "2021A00053521010",
+        "name": "Brampton"
+      }
+    ],
+    "counts": {
+      "total": 182470,
+      "detached": 96020,
+      "semi": 24750,
+      "row": 23050,
+      "duplex": 11960,
+      "lowrise": 8050,
+      "highrise": 18585,
+      "other": 30,
+      "movable": 20
+    }
+  },
+  "brant": {
+    "geographies": [
+      {
+        "dguid": "2021A00053529005",
+        "name": "Brant"
+      }
+    ],
+    "counts": {
+      "total": 14330,
+      "detached": 11595,
+      "semi": 955,
+      "row": 770,
+      "duplex": 195,
+      "lowrise": 655,
+      "highrise": 70,
+      "other": 25,
+      "movable": 60
+    }
+  },
+  "brantford": {
+    "geographies": [
+      {
+        "dguid": "2021A00053529006",
+        "name": "Brantford"
+      }
+    ],
+    "counts": {
+      "total": 41670,
+      "detached": 25240,
+      "semi": 1945,
+      "row": 3960,
+      "duplex": 1585,
+      "lowrise": 4375,
+      "highrise": 4475,
+      "other": 80,
+      "movable": 15
+    }
+  },
+  "brethour": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554032",
+        "name": "Brethour"
+      }
+    ],
+    "counts": {
+      "total": 35,
+      "detached": 35,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "brighton": {
+    "geographies": [
+      {
+        "dguid": "2021A00053514004",
+        "name": "Brighton"
+      }
+    ],
+    "counts": {
+      "total": 5010,
+      "detached": 4415,
+      "semi": 100,
+      "row": 105,
+      "duplex": 90,
+      "lowrise": 215,
+      "highrise": 30,
+      "other": 10,
+      "movable": 50
+    }
+  },
+  "brock": {
+    "geographies": [
+      {
+        "dguid": "2021A00053518039",
+        "name": "Brock"
+      }
+    ],
+    "counts": {
+      "total": 4790,
+      "detached": 4150,
+      "semi": 75,
+      "row": 115,
+      "duplex": 25,
+      "lowrise": 410,
+      "highrise": 0,
+      "other": 10,
+      "movable": 5
+    }
+  },
+  "brockton": {
+    "geographies": [
+      {
+        "dguid": "2021A00053541032",
+        "name": "Brockton"
+      }
+    ],
+    "counts": {
+      "total": 4030,
+      "detached": 3100,
+      "semi": 100,
+      "row": 210,
+      "duplex": 75,
+      "lowrise": 420,
+      "highrise": 0,
+      "other": 15,
+      "movable": 110
+    }
+  },
+  "brockville": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507015",
+        "name": "Brockville"
+      }
+    ],
+    "counts": {
+      "total": 10645,
+      "detached": 5055,
+      "semi": 960,
+      "row": 825,
+      "duplex": 90,
+      "lowrise": 2950,
+      "highrise": 685,
+      "other": 85,
+      "movable": 0
+    }
+  },
+  "brooke-alvinston": {
+    "geographies": [
+      {
+        "dguid": "2021A00053538015",
+        "name": "Brooke-Alvinston"
+      }
+    ],
+    "counts": {
+      "total": 915,
+      "detached": 845,
+      "semi": 0,
+      "row": 15,
+      "duplex": 5,
+      "lowrise": 45,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "bruce-mines": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557021",
+        "name": "Bruce Mines"
+      }
+    ],
+    "counts": {
+      "total": 260,
+      "detached": 240,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 20,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "brudenell-lyndoch-and-raglan": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547020",
+        "name": "Brudenell, Lyndoch and Raglan"
+      }
+    ],
+    "counts": {
+      "total": 695,
+      "detached": 660,
+      "semi": 5,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 20,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "burks-falls": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549022",
+        "name": "Burk's Falls"
+      }
+    ],
+    "counts": {
+      "total": 465,
+      "detached": 290,
+      "semi": 5,
+      "row": 5,
+      "duplex": 20,
+      "lowrise": 125,
+      "highrise": 0,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "burlington": {
+    "geographies": [
+      {
+        "dguid": "2021A00053524002",
+        "name": "Burlington"
+      }
+    ],
+    "counts": {
+      "total": 73180,
+      "detached": 36795,
+      "semi": 3090,
+      "row": 13730,
+      "duplex": 705,
+      "lowrise": 5915,
+      "highrise": 12835,
+      "other": 100,
+      "movable": 10
+    }
+  },
+  "burpee-and-mills": {
+    "geographies": [
+      {
+        "dguid": "2021A00053551028",
+        "name": "Burpee and Mills"
+      }
+    ],
+    "counts": {
+      "total": 170,
+      "detached": 160,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "caledon": {
+    "geographies": [
+      {
+        "dguid": "2021A00053521024",
+        "name": "Caledon"
+      }
+    ],
+    "counts": {
+      "total": 23695,
+      "detached": 19120,
+      "semi": 1650,
+      "row": 1825,
+      "duplex": 330,
+      "lowrise": 485,
+      "highrise": 260,
+      "other": 15,
+      "movable": 15
+    }
+  },
+  "callander": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549066",
+        "name": "Callander"
+      }
+    ],
+    "counts": {
+      "total": 1640,
+      "detached": 1415,
+      "semi": 30,
+      "row": 45,
+      "duplex": 30,
+      "lowrise": 90,
+      "highrise": 0,
+      "other": 0,
+      "movable": 30
+    }
+  },
+  "calvin": {
+    "geographies": [
+      {
+        "dguid": "2021A00053548022",
+        "name": "Calvin"
+      }
+    ],
+    "counts": {
+      "total": 225,
+      "detached": 225,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "cambridge": {
+    "geographies": [
+      {
+        "dguid": "2021A00053530010",
+        "name": "Cambridge"
+      }
+    ],
+    "counts": {
+      "total": 51270,
+      "detached": 29105,
+      "semi": 3735,
+      "row": 6320,
+      "duplex": 1735,
+      "lowrise": 7165,
+      "highrise": 3015,
+      "other": 165,
+      "movable": 25
+    }
+  },
+  "carleton-place": {
+    "geographies": [
+      {
+        "dguid": "2021A00053509028",
+        "name": "Carleton Place"
+      }
+    ],
+    "counts": {
+      "total": 5210,
+      "detached": 2775,
+      "semi": 625,
+      "row": 765,
+      "duplex": 15,
+      "lowrise": 975,
+      "highrise": 0,
+      "other": 35,
+      "movable": 20
+    }
+  },
+  "carling": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549036",
+        "name": "Carling"
+      }
+    ],
+    "counts": {
+      "total": 695,
+      "detached": 675,
+      "semi": 15,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "carlow-mayo": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512065",
+        "name": "Carlow/Mayo"
+      }
+    ],
+    "counts": {
+      "total": 420,
+      "detached": 405,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "casey": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554029",
+        "name": "Casey"
+      }
+    ],
+    "counts": {
+      "total": 130,
+      "detached": 125,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "casselman": {
+    "geographies": [
+      {
+        "dguid": "2021A00053502044",
+        "name": "Casselman"
+      }
+    ],
+    "counts": {
+      "total": 1575,
+      "detached": 1050,
+      "semi": 95,
+      "row": 75,
+      "duplex": 160,
+      "lowrise": 190,
+      "highrise": 5,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "cavan-monaghan": {
+    "geographies": [
+      {
+        "dguid": "2021A00053515013",
+        "name": "Cavan Monaghan"
+      }
+    ],
+    "counts": {
+      "total": 3555,
+      "detached": 3365,
+      "semi": 25,
+      "row": 35,
+      "duplex": 15,
+      "lowrise": 110,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "central-elgin": {
+    "geographies": [
+      {
+        "dguid": "2021A00053534020",
+        "name": "Central Elgin"
+      }
+    ],
+    "counts": {
+      "total": 5460,
+      "detached": 5050,
+      "semi": 50,
+      "row": 125,
+      "duplex": 45,
+      "lowrise": 165,
+      "highrise": 0,
+      "other": 10,
+      "movable": 5
+    }
+  },
+  "central-frontenac": {
+    "geographies": [
+      {
+        "dguid": "2021A00053510035",
+        "name": "Central Frontenac"
+      }
+    ],
+    "counts": {
+      "total": 2180,
+      "detached": 2090,
+      "semi": 15,
+      "row": 10,
+      "duplex": 15,
+      "lowrise": 15,
+      "highrise": 0,
+      "other": 5,
+      "movable": 30
+    }
+  },
+  "central-huron": {
+    "geographies": [
+      {
+        "dguid": "2021A00053540025",
+        "name": "Central Huron"
+      }
+    ],
+    "counts": {
+      "total": 3265,
+      "detached": 2600,
+      "semi": 75,
+      "row": 40,
+      "duplex": 20,
+      "lowrise": 280,
+      "highrise": 0,
+      "other": 5,
+      "movable": 250
+    }
+  },
+  "central-manitoulin": {
+    "geographies": [
+      {
+        "dguid": "2021A00053551006",
+        "name": "Central Manitoulin"
+      }
+    ],
+    "counts": {
+      "total": 1050,
+      "detached": 940,
+      "semi": 0,
+      "row": 40,
+      "duplex": 10,
+      "lowrise": 55,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "centre-hastings": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512026",
+        "name": "Centre Hastings"
+      }
+    ],
+    "counts": {
+      "total": 1935,
+      "detached": 1630,
+      "semi": 60,
+      "row": 40,
+      "duplex": 35,
+      "lowrise": 170,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "centre-wellington": {
+    "geographies": [
+      {
+        "dguid": "2021A00053523025",
+        "name": "Centre Wellington"
+      }
+    ],
+    "counts": {
+      "total": 11975,
+      "detached": 8685,
+      "semi": 570,
+      "row": 740,
+      "duplex": 180,
+      "lowrise": 1570,
+      "highrise": 110,
+      "other": 15,
+      "movable": 100
+    }
+  },
+  "chamberlain": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554054",
+        "name": "Chamberlain"
+      }
+    ],
+    "counts": {
+      "total": 135,
+      "detached": 130,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "champlain": {
+    "geographies": [
+      {
+        "dguid": "2021A00053502010",
+        "name": "Champlain"
+      }
+    ],
+    "counts": {
+      "total": 3750,
+      "detached": 3090,
+      "semi": 180,
+      "row": 25,
+      "duplex": 100,
+      "lowrise": 340,
+      "highrise": 0,
+      "other": 10,
+      "movable": 15
+    }
+  },
+  "chapleau": {
+    "geographies": [
+      {
+        "dguid": "2021A00053552092",
+        "name": "Chapleau"
+      }
+    ],
+    "counts": {
+      "total": 865,
+      "detached": 625,
+      "semi": 30,
+      "row": 40,
+      "duplex": 65,
+      "lowrise": 85,
+      "highrise": 0,
+      "other": 5,
+      "movable": 15
+    }
+  },
+  "chapple": {
+    "geographies": [
+      {
+        "dguid": "2021A00053559024",
+        "name": "Chapple"
+      }
+    ],
+    "counts": {
+      "total": 265,
+      "detached": 235,
+      "semi": 10,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 5,
+      "movable": 15
+    }
+  },
+  "charlton-and-dack": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554044",
+        "name": "Charlton and Dack"
+      }
+    ],
+    "counts": {
+      "total": 260,
+      "detached": 255,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "chatham-kent": {
+    "geographies": [
+      {
+        "dguid": "2021A00053536020",
+        "name": "Chatham-Kent"
+      }
+    ],
+    "counts": {
+      "total": 44025,
+      "detached": 33450,
+      "semi": 1445,
+      "row": 1535,
+      "duplex": 730,
+      "lowrise": 5075,
+      "highrise": 1535,
+      "other": 80,
+      "movable": 170
+    }
+  },
+  "chatsworth": {
+    "geographies": [
+      {
+        "dguid": "2021A00053542037",
+        "name": "Chatsworth"
+      }
+    ],
+    "counts": {
+      "total": 2700,
+      "detached": 2555,
+      "semi": 35,
+      "row": 0,
+      "duplex": 20,
+      "lowrise": 65,
+      "highrise": 5,
+      "other": 0,
+      "movable": 20
+    }
+  },
+  "chisholm": {
+    "geographies": [
+      {
+        "dguid": "2021A00053548031",
+        "name": "Chisholm"
+      }
+    ],
+    "counts": {
+      "total": 505,
+      "detached": 495,
+      "semi": 5,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "clarence-rockland": {
+    "geographies": [
+      {
+        "dguid": "2021A00053502036",
+        "name": "Clarence-Rockland"
+      }
+    ],
+    "counts": {
+      "total": 10095,
+      "detached": 7520,
+      "semi": 385,
+      "row": 560,
+      "duplex": 410,
+      "lowrise": 1035,
+      "highrise": 65,
+      "other": 15,
+      "movable": 105
+    }
+  },
+  "clarington": {
+    "geographies": [
+      {
+        "dguid": "2021A00053518017",
+        "name": "Clarington"
+      }
+    ],
+    "counts": {
+      "total": 35950,
+      "detached": 27945,
+      "semi": 1075,
+      "row": 3120,
+      "duplex": 905,
+      "lowrise": 2285,
+      "highrise": 520,
+      "other": 35,
+      "movable": 65
+    }
+  },
+  "clearview": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543005",
+        "name": "Clearview"
+      }
+    ],
+    "counts": {
+      "total": 5570,
+      "detached": 5005,
+      "semi": 70,
+      "row": 205,
+      "duplex": 35,
+      "lowrise": 230,
+      "highrise": 0,
+      "other": 15,
+      "movable": 5
+    }
+  },
+  "cobalt": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554008",
+        "name": "Cobalt"
+      }
+    ],
+    "counts": {
+      "total": 455,
+      "detached": 345,
+      "semi": 0,
+      "row": 5,
+      "duplex": 35,
+      "lowrise": 55,
+      "highrise": 0,
+      "other": 0,
+      "movable": 20
+    }
+  },
+  "cobourg": {
+    "geographies": [
+      {
+        "dguid": "2021A00053514021",
+        "name": "Cobourg"
+      }
+    ],
+    "counts": {
+      "total": 9130,
+      "detached": 5255,
+      "semi": 410,
+      "row": 1125,
+      "duplex": 170,
+      "lowrise": 1785,
+      "highrise": 365,
+      "other": 30,
+      "movable": 0
+    }
+  },
+  "cochrane": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556042",
+        "name": "Cochrane"
+      }
+    ],
+    "counts": {
+      "total": 2315,
+      "detached": 1540,
+      "semi": 175,
+      "row": 30,
+      "duplex": 45,
+      "lowrise": 385,
+      "highrise": 0,
+      "other": 0,
+      "movable": 145
+    }
+  },
+  "cockburn-island": {
+    "geographies": [
+      {
+        "dguid": "2021A00053551034",
+        "name": "Cockburn Island"
+      }
+    ],
+    "counts": {
+      "total": null,
+      "detached": null,
+      "semi": null,
+      "row": null,
+      "duplex": null,
+      "lowrise": null,
+      "highrise": null,
+      "other": null,
+      "movable": null
+    }
+  },
+  "coleman": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554001",
+        "name": "Coleman"
+      }
+    ],
+    "counts": {
+      "total": 235,
+      "detached": 230,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "collingwood": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543031",
+        "name": "Collingwood"
+      }
+    ],
+    "counts": {
+      "total": 11175,
+      "detached": 6300,
+      "semi": 750,
+      "row": 1385,
+      "duplex": 250,
+      "lowrise": 2010,
+      "highrise": 450,
+      "other": 25,
+      "movable": 0
+    }
+  },
+  "conmee": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558019",
+        "name": "Conmee"
+      }
+    ],
+    "counts": {
+      "total": 295,
+      "detached": 290,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "cornwall": {
+    "geographies": [
+      {
+        "dguid": "2021A00053501012",
+        "name": "Cornwall"
+      }
+    ],
+    "counts": {
+      "total": 21385,
+      "detached": 10485,
+      "semi": 2190,
+      "row": 1180,
+      "duplex": 1775,
+      "lowrise": 4445,
+      "highrise": 1145,
+      "other": 115,
+      "movable": 50
+    }
+  },
+  "cramahe": {
+    "geographies": [
+      {
+        "dguid": "2021A00053514014",
+        "name": "Cramahe"
+      }
+    ],
+    "counts": {
+      "total": 2605,
+      "detached": 2360,
+      "semi": 45,
+      "row": 5,
+      "duplex": 25,
+      "lowrise": 155,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "dawn-euphemia": {
+    "geographies": [
+      {
+        "dguid": "2021A00053538007",
+        "name": "Dawn-Euphemia"
+      }
+    ],
+    "counts": {
+      "total": 765,
+      "detached": 745,
+      "semi": 0,
+      "row": 5,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "dawson": {
+    "geographies": [
+      {
+        "dguid": "2021A00053559040",
+        "name": "Dawson"
+      }
+    ],
+    "counts": {
+      "total": 190,
+      "detached": 185,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "deep-river": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547096",
+        "name": "Deep River"
+      }
+    ],
+    "counts": {
+      "total": 1865,
+      "detached": 1395,
+      "semi": 210,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 250,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "deseronto": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512002",
+        "name": "Deseronto"
+      }
+    ],
+    "counts": {
+      "total": 720,
+      "detached": 530,
+      "semi": 40,
+      "row": 35,
+      "duplex": 30,
+      "lowrise": 80,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "dorion": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558034",
+        "name": "Dorion"
+      }
+    ],
+    "counts": {
+      "total": 160,
+      "detached": 155,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "douro-dummer": {
+    "geographies": [
+      {
+        "dguid": "2021A00053515023",
+        "name": "Douro-Dummer"
+      }
+    ],
+    "counts": {
+      "total": 2925,
+      "detached": 2870,
+      "semi": 15,
+      "row": 0,
+      "duplex": 20,
+      "lowrise": 10,
+      "highrise": 5,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "drummond-north-elmsley": {
+    "geographies": [
+      {
+        "dguid": "2021A00053509010",
+        "name": "Drummond/North Elmsley"
+      }
+    ],
+    "counts": {
+      "total": 3290,
+      "detached": 3075,
+      "semi": 10,
+      "row": 15,
+      "duplex": 15,
+      "lowrise": 35,
+      "highrise": 0,
+      "other": 0,
+      "movable": 130
+    }
+  },
+  "dryden": {
+    "geographies": [
+      {
+        "dguid": "2021A00053560027",
+        "name": "Dryden"
+      }
+    ],
+    "counts": {
+      "total": 3315,
+      "detached": 2540,
+      "semi": 135,
+      "row": 65,
+      "duplex": 50,
+      "lowrise": 470,
+      "highrise": 0,
+      "other": 15,
+      "movable": 40
+    }
+  },
+  "dubreuilville": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557079",
+        "name": "Dubreuilville"
+      }
+    ],
+    "counts": {
+      "total": 250,
+      "detached": 195,
+      "semi": 40,
+      "row": 10,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "dutton-dunwich": {
+    "geographies": [
+      {
+        "dguid": "2021A00053534030",
+        "name": "Dutton/Dunwich"
+      }
+    ],
+    "counts": {
+      "total": 1600,
+      "detached": 1440,
+      "semi": 15,
+      "row": 10,
+      "duplex": 65,
+      "lowrise": 55,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "dysart-et-al": {
+    "geographies": [
+      {
+        "dguid": "2021A00053546024",
+        "name": "Dysart et al"
+      }
+    ],
+    "counts": {
+      "total": 3340,
+      "detached": 3005,
+      "semi": 15,
+      "row": 30,
+      "duplex": 15,
+      "lowrise": 275,
+      "highrise": 5,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "ear-falls": {
+    "geographies": [
+      {
+        "dguid": "2021A00053560032",
+        "name": "Ear Falls"
+      }
+    ],
+    "counts": {
+      "total": 400,
+      "detached": 255,
+      "semi": 40,
+      "row": 15,
+      "duplex": 10,
+      "lowrise": 25,
+      "highrise": 0,
+      "other": 5,
+      "movable": 60
+    }
+  },
+  "east-ferris": {
+    "geographies": [
+      {
+        "dguid": "2021A00053548034",
+        "name": "East Ferris"
+      }
+    ],
+    "counts": {
+      "total": 1890,
+      "detached": 1805,
+      "semi": 15,
+      "row": 30,
+      "duplex": 20,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "east-garafraxa": {
+    "geographies": [
+      {
+        "dguid": "2021A00053522001",
+        "name": "East Garafraxa"
+      }
+    ],
+    "counts": {
+      "total": 900,
+      "detached": 890,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "east-gwillimbury": {
+    "geographies": [
+      {
+        "dguid": "2021A00053519054",
+        "name": "East Gwillimbury"
+      }
+    ],
+    "counts": {
+      "total": 11450,
+      "detached": 9290,
+      "semi": 400,
+      "row": 1110,
+      "duplex": 340,
+      "lowrise": 285,
+      "highrise": 0,
+      "other": 15,
+      "movable": 5
+    }
+  },
+  "east-hawkesbury": {
+    "geographies": [
+      {
+        "dguid": "2021A00053502001",
+        "name": "East Hawkesbury"
+      }
+    ],
+    "counts": {
+      "total": 1425,
+      "detached": 1310,
+      "semi": 25,
+      "row": 0,
+      "duplex": 15,
+      "lowrise": 25,
+      "highrise": 0,
+      "other": 0,
+      "movable": 55
+    }
+  },
+  "east-zorra-tavistock": {
+    "geographies": [
+      {
+        "dguid": "2021A00053532038",
+        "name": "East Zorra-Tavistock"
+      }
+    ],
+    "counts": {
+      "total": 2975,
+      "detached": 2440,
+      "semi": 95,
+      "row": 0,
+      "duplex": 30,
+      "lowrise": 315,
+      "highrise": 20,
+      "other": 5,
+      "movable": 70
+    }
+  },
+  "edwardsburgh-cardinal": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507004",
+        "name": "Edwardsburgh/Cardinal"
+      }
+    ],
+    "counts": {
+      "total": 3140,
+      "detached": 2605,
+      "semi": 115,
+      "row": 45,
+      "duplex": 30,
+      "lowrise": 265,
+      "highrise": 60,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "elizabethtown-kitley": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507014",
+        "name": "Elizabethtown-Kitley"
+      }
+    ],
+    "counts": {
+      "total": 3790,
+      "detached": 3595,
+      "semi": 35,
+      "row": 25,
+      "duplex": 30,
+      "lowrise": 60,
+      "highrise": 0,
+      "other": 10,
+      "movable": 35
+    }
+  },
+  "elliot-lake": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557041",
+        "name": "Elliot Lake"
+      }
+    ],
+    "counts": {
+      "total": 5840,
+      "detached": 2625,
+      "semi": 1100,
+      "row": 605,
+      "duplex": 50,
+      "lowrise": 880,
+      "highrise": 580,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "emo": {
+    "geographies": [
+      {
+        "dguid": "2021A00053559019",
+        "name": "Emo"
+      }
+    ],
+    "counts": {
+      "total": 470,
+      "detached": 425,
+      "semi": 10,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 20,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "englehart": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554052",
+        "name": "Englehart"
+      }
+    ],
+    "counts": {
+      "total": 685,
+      "detached": 495,
+      "semi": 10,
+      "row": 20,
+      "duplex": 15,
+      "lowrise": 135,
+      "highrise": 0,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "enniskillen": {
+    "geographies": [
+      {
+        "dguid": "2021A00053538016",
+        "name": "Enniskillen"
+      }
+    ],
+    "counts": {
+      "total": 1040,
+      "detached": 990,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 50,
+      "highrise": 0,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "erin": {
+    "geographies": [
+      {
+        "dguid": "2021A00053523017",
+        "name": "Erin"
+      }
+    ],
+    "counts": {
+      "total": 4220,
+      "detached": 3860,
+      "semi": 30,
+      "row": 0,
+      "duplex": 50,
+      "lowrise": 120,
+      "highrise": 0,
+      "other": 55,
+      "movable": 105
+    }
+  },
+  "espanola": {
+    "geographies": [
+      {
+        "dguid": "2021A00053552026",
+        "name": "Espanola"
+      }
+    ],
+    "counts": {
+      "total": 2305,
+      "detached": 1860,
+      "semi": 80,
+      "row": 65,
+      "duplex": 60,
+      "lowrise": 240,
+      "highrise": 0,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "essa": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543021",
+        "name": "Essa"
+      }
+    ],
+    "counts": {
+      "total": 7950,
+      "detached": 6110,
+      "semi": 800,
+      "row": 470,
+      "duplex": 155,
+      "lowrise": 225,
+      "highrise": 55,
+      "other": 15,
+      "movable": 120
+    }
+  },
+  "essex": {
+    "geographies": [
+      {
+        "dguid": "2021A00053537016",
+        "name": "Essex"
+      }
+    ],
+    "counts": {
+      "total": 8390,
+      "detached": 7100,
+      "semi": 60,
+      "row": 295,
+      "duplex": 80,
+      "lowrise": 375,
+      "highrise": 60,
+      "other": 5,
+      "movable": 420
+    }
+  },
+  "evanturel": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554049",
+        "name": "Evanturel"
+      }
+    ],
+    "counts": {
+      "total": 195,
+      "detached": 175,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "faraday": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512058",
+        "name": "Faraday"
+      }
+    ],
+    "counts": {
+      "total": 755,
+      "detached": 695,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 10,
+      "movable": 35
+    }
+  },
+  "fauquier-strickland": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556052",
+        "name": "Fauquier-Strickland"
+      }
+    ],
+    "counts": {
+      "total": 230,
+      "detached": 205,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 25,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "fort-erie": {
+    "geographies": [
+      {
+        "dguid": "2021A00053526003",
+        "name": "Fort Erie"
+      }
+    ],
+    "counts": {
+      "total": 14080,
+      "detached": 11625,
+      "semi": 295,
+      "row": 345,
+      "duplex": 475,
+      "lowrise": 1000,
+      "highrise": 310,
+      "other": 40,
+      "movable": 5
+    }
+  },
+  "fort-frances": {
+    "geographies": [
+      {
+        "dguid": "2021A00053559012",
+        "name": "Fort Frances"
+      }
+    ],
+    "counts": {
+      "total": 3450,
+      "detached": 2660,
+      "semi": 55,
+      "row": 115,
+      "duplex": 30,
+      "lowrise": 530,
+      "highrise": 0,
+      "other": 35,
+      "movable": 30
+    }
+  },
+  "french-river": {
+    "geographies": [
+      {
+        "dguid": "2021A00053552001",
+        "name": "French River"
+      }
+    ],
+    "counts": {
+      "total": 1370,
+      "detached": 1215,
+      "semi": 10,
+      "row": 0,
+      "duplex": 45,
+      "lowrise": 75,
+      "highrise": 0,
+      "other": 0,
+      "movable": 15
+    }
+  },
+  "front-of-yonge": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507017",
+        "name": "Front of Yonge"
+      }
+    ],
+    "counts": {
+      "total": 1075,
+      "detached": 1030,
+      "semi": 5,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 30,
+      "highrise": 0,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "frontenac-islands": {
+    "geographies": [
+      {
+        "dguid": "2021A00053510005",
+        "name": "Frontenac Islands"
+      }
+    ],
+    "counts": {
+      "total": 905,
+      "detached": 885,
+      "semi": 5,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "gananoque": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507024",
+        "name": "Gananoque"
+      }
+    ],
+    "counts": {
+      "total": 2560,
+      "detached": 1355,
+      "semi": 225,
+      "row": 145,
+      "duplex": 65,
+      "lowrise": 655,
+      "highrise": 115,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "gauthier": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554066",
+        "name": "Gauthier"
+      }
+    ],
+    "counts": {
+      "total": 65,
+      "detached": 65,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "georgian-bay": {
+    "geographies": [
+      {
+        "dguid": "2021A00053544065",
+        "name": "Georgian Bay"
+      }
+    ],
+    "counts": {
+      "total": 1660,
+      "detached": 1525,
+      "semi": 20,
+      "row": 70,
+      "duplex": 5,
+      "lowrise": 35,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "georgian-bluffs": {
+    "geographies": [
+      {
+        "dguid": "2021A00053542053",
+        "name": "Georgian Bluffs"
+      }
+    ],
+    "counts": {
+      "total": 4495,
+      "detached": 4180,
+      "semi": 20,
+      "row": 55,
+      "duplex": 35,
+      "lowrise": 70,
+      "highrise": 0,
+      "other": 10,
+      "movable": 135
+    }
+  },
+  "georgina": {
+    "geographies": [
+      {
+        "dguid": "2021A00053519070",
+        "name": "Georgina"
+      }
+    ],
+    "counts": {
+      "total": 17895,
+      "detached": 14845,
+      "semi": 460,
+      "row": 785,
+      "duplex": 570,
+      "lowrise": 985,
+      "highrise": 105,
+      "other": 50,
+      "movable": 95
+    }
+  },
+  "gillies": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558012",
+        "name": "Gillies"
+      }
+    ],
+    "counts": {
+      "total": 185,
+      "detached": 170,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 15
+    }
+  },
+  "goderich": {
+    "geographies": [
+      {
+        "dguid": "2021A00053540028",
+        "name": "Goderich"
+      }
+    ],
+    "counts": {
+      "total": 3670,
+      "detached": 2400,
+      "semi": 170,
+      "row": 175,
+      "duplex": 90,
+      "lowrise": 790,
+      "highrise": 0,
+      "other": 25,
+      "movable": 20
+    }
+  },
+  "gordon-barrie-island": {
+    "geographies": [
+      {
+        "dguid": "2021A00053551027",
+        "name": "Gordon/Barrie Island"
+      }
+    ],
+    "counts": {
+      "total": 295,
+      "detached": 295,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "gore-bay": {
+    "geographies": [
+      {
+        "dguid": "2021A00053551026",
+        "name": "Gore Bay"
+      }
+    ],
+    "counts": {
+      "total": 380,
+      "detached": 280,
+      "semi": 5,
+      "row": 5,
+      "duplex": 30,
+      "lowrise": 60,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "grand-valley": {
+    "geographies": [
+      {
+        "dguid": "2021A00053522010",
+        "name": "Grand Valley"
+      }
+    ],
+    "counts": {
+      "total": 1400,
+      "detached": 1230,
+      "semi": 10,
+      "row": 40,
+      "duplex": 5,
+      "lowrise": 115,
+      "highrise": 0,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "gravenhurst": {
+    "geographies": [
+      {
+        "dguid": "2021A00053544002",
+        "name": "Gravenhurst"
+      }
+    ],
+    "counts": {
+      "total": 5495,
+      "detached": 4310,
+      "semi": 75,
+      "row": 180,
+      "duplex": 70,
+      "lowrise": 585,
+      "highrise": 70,
+      "other": 30,
+      "movable": 180
+    }
+  },
+  "greater-madawaska": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547008",
+        "name": "Greater Madawaska"
+      }
+    ],
+    "counts": {
+      "total": 1340,
+      "detached": 1315,
+      "semi": 5,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "greater-napanee": {
+    "geographies": [
+      {
+        "dguid": "2021A00053511015",
+        "name": "Greater Napanee"
+      }
+    ],
+    "counts": {
+      "total": 6870,
+      "detached": 5060,
+      "semi": 285,
+      "row": 265,
+      "duplex": 50,
+      "lowrise": 1175,
+      "highrise": 5,
+      "other": 15,
+      "movable": 15
+    }
+  },
+  "greater-sudbury": {
+    "geographies": [
+      {
+        "dguid": "2021A00053553005",
+        "name": "Greater Sudbury"
+      }
+    ],
+    "counts": {
+      "total": 71475,
+      "detached": 43325,
+      "semi": 3275,
+      "row": 2915,
+      "duplex": 4470,
+      "lowrise": 12045,
+      "highrise": 4785,
+      "other": 130,
+      "movable": 525
+    }
+  },
+  "greenstone": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558075",
+        "name": "Greenstone"
+      }
+    ],
+    "counts": {
+      "total": 1920,
+      "detached": 1680,
+      "semi": 30,
+      "row": 45,
+      "duplex": 25,
+      "lowrise": 140,
+      "highrise": 0,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "grey-highlands": {
+    "geographies": [
+      {
+        "dguid": "2021A00053542015",
+        "name": "Grey Highlands"
+      }
+    ],
+    "counts": {
+      "total": 4090,
+      "detached": 3805,
+      "semi": 25,
+      "row": 75,
+      "duplex": 25,
+      "lowrise": 155,
+      "highrise": 5,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "grimsby": {
+    "geographies": [
+      {
+        "dguid": "2021A00053526065",
+        "name": "Grimsby"
+      }
+    ],
+    "counts": {
+      "total": 11395,
+      "detached": 7345,
+      "semi": 255,
+      "row": 2600,
+      "duplex": 210,
+      "lowrise": 600,
+      "highrise": 345,
+      "other": 40,
+      "movable": 0
+    }
+  },
+  "guelph": {
+    "geographies": [
+      {
+        "dguid": "2021A00053523008",
+        "name": "Guelph"
+      }
+    ],
+    "counts": {
+      "total": 56480,
+      "detached": 27450,
+      "semi": 2530,
+      "row": 8605,
+      "duplex": 3620,
+      "lowrise": 7710,
+      "highrise": 6510,
+      "other": 45,
+      "movable": 0
+    }
+  },
+  "guelph-eramosa": {
+    "geographies": [
+      {
+        "dguid": "2021A00053523009",
+        "name": "Guelph/Eramosa"
+      }
+    ],
+    "counts": {
+      "total": 4840,
+      "detached": 4195,
+      "semi": 60,
+      "row": 315,
+      "duplex": 75,
+      "lowrise": 150,
+      "highrise": 0,
+      "other": 10,
+      "movable": 35
+    }
+  },
+  "haldimand-county": {
+    "geographies": [
+      {
+        "dguid": "2021A00053528018",
+        "name": "Haldimand County"
+      }
+    ],
+    "counts": {
+      "total": 18720,
+      "detached": 15785,
+      "semi": 565,
+      "row": 665,
+      "duplex": 360,
+      "lowrise": 1205,
+      "highrise": 50,
+      "other": 10,
+      "movable": 70
+    }
+  },
+  "halton-hills": {
+    "geographies": [
+      {
+        "dguid": "2021A00053524015",
+        "name": "Halton Hills"
+      }
+    ],
+    "counts": {
+      "total": 21825,
+      "detached": 15945,
+      "semi": 905,
+      "row": 2000,
+      "duplex": 545,
+      "lowrise": 1525,
+      "highrise": 880,
+      "other": 20,
+      "movable": 10
+    }
+  },
+  "hamilton": {
+    "geographies": [
+      {
+        "dguid": "2021A00053525005",
+        "name": "Hamilton"
+      }
+    ],
+    "counts": {
+      "total": 222805,
+      "detached": 125130,
+      "semi": 6765,
+      "row": 27455,
+      "duplex": 7380,
+      "lowrise": 19045,
+      "highrise": 36465,
+      "other": 415,
+      "movable": 150
+    }
+  },
+  "hamilton-township": {
+    "geographies": [
+      {
+        "dguid": "2021A00053514019",
+        "name": "Hamilton"
+      }
+    ],
+    "counts": {
+      "total": 4280,
+      "detached": 4055,
+      "semi": 20,
+      "row": 15,
+      "duplex": 30,
+      "lowrise": 40,
+      "highrise": 0,
+      "other": 5,
+      "movable": 120
+    }
+  },
+  "hanover": {
+    "geographies": [
+      {
+        "dguid": "2021A00053542029",
+        "name": "Hanover"
+      }
+    ],
+    "counts": {
+      "total": 3445,
+      "detached": 2205,
+      "semi": 115,
+      "row": 260,
+      "duplex": 145,
+      "lowrise": 580,
+      "highrise": 130,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "harley": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554026",
+        "name": "Harley"
+      }
+    ],
+    "counts": {
+      "total": 185,
+      "detached": 180,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "harris": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554014",
+        "name": "Harris"
+      }
+    ],
+    "counts": {
+      "total": 205,
+      "detached": 200,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "hastings-highlands": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512076",
+        "name": "Hastings Highlands"
+      }
+    ],
+    "counts": {
+      "total": 2010,
+      "detached": 1950,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 15,
+      "highrise": 5,
+      "other": 5,
+      "movable": 25
+    }
+  },
+  "havelock-belmont-methuen": {
+    "geographies": [
+      {
+        "dguid": "2021A00053515030",
+        "name": "Havelock-Belmont-Methuen"
+      }
+    ],
+    "counts": {
+      "total": 2235,
+      "detached": 2095,
+      "semi": 15,
+      "row": 5,
+      "duplex": 40,
+      "lowrise": 70,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "hawkesbury": {
+    "geographies": [
+      {
+        "dguid": "2021A00053502008",
+        "name": "Hawkesbury"
+      }
+    ],
+    "counts": {
+      "total": 5080,
+      "detached": 1815,
+      "semi": 685,
+      "row": 265,
+      "duplex": 810,
+      "lowrise": 1470,
+      "highrise": 0,
+      "other": 30,
+      "movable": 0
+    }
+  },
+  "head-clara-and-maria": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547098",
+        "name": "Head, Clara and Maria"
+      }
+    ],
+    "counts": {
+      "total": 120,
+      "detached": 110,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "hearst": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556076",
+        "name": "Hearst"
+      }
+    ],
+    "counts": {
+      "total": 2255,
+      "detached": 1340,
+      "semi": 90,
+      "row": 120,
+      "duplex": 160,
+      "lowrise": 500,
+      "highrise": 5,
+      "other": 5,
+      "movable": 40
+    }
+  },
+  "highlands-east": {
+    "geographies": [
+      {
+        "dguid": "2021A00053546005",
+        "name": "Highlands East"
+      }
+    ],
+    "counts": {
+      "total": 1875,
+      "detached": 1820,
+      "semi": 0,
+      "row": 10,
+      "duplex": 10,
+      "lowrise": 15,
+      "highrise": 0,
+      "other": 10,
+      "movable": 10
+    }
+  },
+  "hilliard": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554034",
+        "name": "Hilliard"
+      }
+    ],
+    "counts": {
+      "total": 90,
+      "detached": 90,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "hilton": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557004",
+        "name": "Hilton"
+      }
+    ],
+    "counts": {
+      "total": 160,
+      "detached": 160,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "hilton-beach": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557006",
+        "name": "Hilton Beach"
+      }
+    ],
+    "counts": {
+      "total": 100,
+      "detached": 80,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 20,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "hornepayne": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557096",
+        "name": "Hornepayne"
+      }
+    ],
+    "counts": {
+      "total": 435,
+      "detached": 380,
+      "semi": 5,
+      "row": 0,
+      "duplex": 10,
+      "lowrise": 40,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "horton": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547046",
+        "name": "Horton"
+      }
+    ],
+    "counts": {
+      "total": 1290,
+      "detached": 1145,
+      "semi": 5,
+      "row": 0,
+      "duplex": 10,
+      "lowrise": 45,
+      "highrise": 0,
+      "other": 5,
+      "movable": 80
+    }
+  },
+  "howick": {
+    "geographies": [
+      {
+        "dguid": "2021A00053540046",
+        "name": "Howick"
+      }
+    ],
+    "counts": {
+      "total": 1340,
+      "detached": 1195,
+      "semi": 45,
+      "row": 40,
+      "duplex": 0,
+      "lowrise": 45,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "hudson": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554021",
+        "name": "Hudson"
+      }
+    ],
+    "counts": {
+      "total": 210,
+      "detached": 205,
+      "semi": 5,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "huntsville": {
+    "geographies": [
+      {
+        "dguid": "2021A00053544042",
+        "name": "Huntsville"
+      }
+    ],
+    "counts": {
+      "total": 8815,
+      "detached": 7055,
+      "semi": 90,
+      "row": 170,
+      "duplex": 320,
+      "lowrise": 1015,
+      "highrise": 75,
+      "other": 55,
+      "movable": 40
+    }
+  },
+  "huron-east": {
+    "geographies": [
+      {
+        "dguid": "2021A00053540040",
+        "name": "Huron East"
+      }
+    ],
+    "counts": {
+      "total": 3705,
+      "detached": 3150,
+      "semi": 95,
+      "row": 100,
+      "duplex": 15,
+      "lowrise": 315,
+      "highrise": 0,
+      "other": 0,
+      "movable": 40
+    }
+  },
+  "huron-shores": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557035",
+        "name": "Huron Shores"
+      }
+    ],
+    "counts": {
+      "total": 835,
+      "detached": 790,
+      "semi": 5,
+      "row": 5,
+      "duplex": 5,
+      "lowrise": 15,
+      "highrise": 0,
+      "other": 10,
+      "movable": 5
+    }
+  },
+  "huron-kinloss": {
+    "geographies": [
+      {
+        "dguid": "2021A00053541015",
+        "name": "Huron-Kinloss"
+      }
+    ],
+    "counts": {
+      "total": 3025,
+      "detached": 2750,
+      "semi": 45,
+      "row": 45,
+      "duplex": 5,
+      "lowrise": 170,
+      "highrise": 0,
+      "other": 5,
+      "movable": 10
+    }
+  },
+  "ignace": {
+    "geographies": [
+      {
+        "dguid": "2021A00053560001",
+        "name": "Ignace"
+      }
+    ],
+    "counts": {
+      "total": 550,
+      "detached": 515,
+      "semi": 15,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 15,
+      "highrise": 0,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "ingersoll": {
+    "geographies": [
+      {
+        "dguid": "2021A00053532018",
+        "name": "Ingersoll"
+      }
+    ],
+    "counts": {
+      "total": 5465,
+      "detached": 3895,
+      "semi": 405,
+      "row": 385,
+      "duplex": 80,
+      "lowrise": 625,
+      "highrise": 65,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "innisfil": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543017",
+        "name": "Innisfil"
+      }
+    ],
+    "counts": {
+      "total": 15710,
+      "detached": 14205,
+      "semi": 80,
+      "row": 655,
+      "duplex": 340,
+      "lowrise": 225,
+      "highrise": 185,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "iroquois-falls": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556031",
+        "name": "Iroquois Falls"
+      }
+    ],
+    "counts": {
+      "total": 1980,
+      "detached": 1505,
+      "semi": 135,
+      "row": 50,
+      "duplex": 80,
+      "lowrise": 195,
+      "highrise": 5,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "james": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554042",
+        "name": "James"
+      }
+    ],
+    "counts": {
+      "total": 180,
+      "detached": 160,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 20,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "jocelyn": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557001",
+        "name": "Jocelyn"
+      }
+    ],
+    "counts": {
+      "total": 175,
+      "detached": 175,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "johnson": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557016",
+        "name": "Johnson"
+      }
+    ],
+    "counts": {
+      "total": 270,
+      "detached": 270,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "joly": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549051",
+        "name": "Joly"
+      }
+    ],
+    "counts": {
+      "total": 130,
+      "detached": 125,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "kapuskasing": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556066",
+        "name": "Kapuskasing"
+      }
+    ],
+    "counts": {
+      "total": 3790,
+      "detached": 2355,
+      "semi": 155,
+      "row": 55,
+      "duplex": 195,
+      "lowrise": 920,
+      "highrise": 100,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "kawartha-lakes": {
+    "geographies": [
+      {
+        "dguid": "2021A00053516010",
+        "name": "Kawartha Lakes"
+      }
+    ],
+    "counts": {
+      "total": 32710,
+      "detached": 27395,
+      "semi": 555,
+      "row": 650,
+      "duplex": 840,
+      "lowrise": 2220,
+      "highrise": 730,
+      "other": 80,
+      "movable": 230
+    }
+  },
+  "kearney": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549018",
+        "name": "Kearney"
+      }
+    ],
+    "counts": {
+      "total": 460,
+      "detached": 440,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "kenora": {
+    "geographies": [
+      {
+        "dguid": "2021A00053560010",
+        "name": "Kenora"
+      }
+    ],
+    "counts": {
+      "total": 6510,
+      "detached": 5020,
+      "semi": 175,
+      "row": 85,
+      "duplex": 245,
+      "lowrise": 715,
+      "highrise": 160,
+      "other": 20,
+      "movable": 90
+    }
+  },
+  "kerns": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554024",
+        "name": "Kerns"
+      }
+    ],
+    "counts": {
+      "total": 120,
+      "detached": 120,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "killaloe-hagarty-and-richards": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547033",
+        "name": "Killaloe, Hagarty and Richards"
+      }
+    ],
+    "counts": {
+      "total": 1095,
+      "detached": 1045,
+      "semi": 5,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 35,
+      "highrise": 0,
+      "other": 5,
+      "movable": 10
+    }
+  },
+  "killarney": {
+    "geographies": [
+      {
+        "dguid": "2021A00053552036",
+        "name": "Killarney"
+      }
+    ],
+    "counts": {
+      "total": 195,
+      "detached": 190,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "kincardine": {
+    "geographies": [
+      {
+        "dguid": "2021A00053541024",
+        "name": "Kincardine"
+      }
+    ],
+    "counts": {
+      "total": 5160,
+      "detached": 4140,
+      "semi": 140,
+      "row": 365,
+      "duplex": 60,
+      "lowrise": 415,
+      "highrise": 0,
+      "other": 35,
+      "movable": 5
+    }
+  },
+  "king": {
+    "geographies": [
+      {
+        "dguid": "2021A00053519049",
+        "name": "King"
+      }
+    ],
+    "counts": {
+      "total": 8965,
+      "detached": 7815,
+      "semi": 150,
+      "row": 370,
+      "duplex": 95,
+      "lowrise": 255,
+      "highrise": 265,
+      "other": 10,
+      "movable": 10
+    }
+  },
+  "kingston": {
+    "geographies": [
+      {
+        "dguid": "2021A00053510010",
+        "name": "Kingston"
+      }
+    ],
+    "counts": {
+      "total": 57835,
+      "detached": 27785,
+      "semi": 4260,
+      "row": 4005,
+      "duplex": 2330,
+      "lowrise": 9410,
+      "highrise": 9740,
+      "other": 115,
+      "movable": 195
+    }
+  },
+  "kingsville": {
+    "geographies": [
+      {
+        "dguid": "2021A00053537013",
+        "name": "Kingsville"
+      }
+    ],
+    "counts": {
+      "total": 8285,
+      "detached": 6880,
+      "semi": 325,
+      "row": 525,
+      "duplex": 70,
+      "lowrise": 425,
+      "highrise": 0,
+      "other": 5,
+      "movable": 45
+    }
+  },
+  "kirkland-lake": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554068",
+        "name": "Kirkland Lake"
+      }
+    ],
+    "counts": {
+      "total": 3775,
+      "detached": 2375,
+      "semi": 70,
+      "row": 105,
+      "duplex": 165,
+      "lowrise": 925,
+      "highrise": 110,
+      "other": 15,
+      "movable": 10
+    }
+  },
+  "kitchener": {
+    "geographies": [
+      {
+        "dguid": "2021A00053530013",
+        "name": "Kitchener"
+      }
+    ],
+    "counts": {
+      "total": 99815,
+      "detached": 47410,
+      "semi": 5420,
+      "row": 12895,
+      "duplex": 3185,
+      "lowrise": 15475,
+      "highrise": 15325,
+      "other": 90,
+      "movable": 15
+    }
+  },
+  "la-vallee": {
+    "geographies": [
+      {
+        "dguid": "2021A00053559016",
+        "name": "La Vallee"
+      }
+    ],
+    "counts": {
+      "total": 320,
+      "detached": 305,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 5,
+      "movable": 15
+    }
+  },
+  "lasalle": {
+    "geographies": [
+      {
+        "dguid": "2021A00053537034",
+        "name": "LaSalle"
+      }
+    ],
+    "counts": {
+      "total": 11645,
+      "detached": 9820,
+      "semi": 875,
+      "row": 190,
+      "duplex": 50,
+      "lowrise": 485,
+      "highrise": 215,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "laird": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557011",
+        "name": "Laird"
+      }
+    ],
+    "counts": {
+      "total": 470,
+      "detached": 470,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "lake-of-bays": {
+    "geographies": [
+      {
+        "dguid": "2021A00053544027",
+        "name": "Lake of Bays"
+      }
+    ],
+    "counts": {
+      "total": 1760,
+      "detached": 1705,
+      "semi": 5,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 30,
+      "highrise": 0,
+      "other": 0,
+      "movable": 15
+    }
+  },
+  "lake-of-the-woods": {
+    "geographies": [
+      {
+        "dguid": "2021A00053559047",
+        "name": "Lake of the Woods"
+      }
+    ],
+    "counts": {
+      "total": 140,
+      "detached": 125,
+      "semi": 5,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 5,
+      "movable": 10
+    }
+  },
+  "lakeshore": {
+    "geographies": [
+      {
+        "dguid": "2021A00053537064",
+        "name": "Lakeshore"
+      }
+    ],
+    "counts": {
+      "total": 14385,
+      "detached": 13235,
+      "semi": 215,
+      "row": 375,
+      "duplex": 60,
+      "lowrise": 240,
+      "highrise": 0,
+      "other": 10,
+      "movable": 260
+    }
+  },
+  "lambton-shores": {
+    "geographies": [
+      {
+        "dguid": "2021A00053538040",
+        "name": "Lambton Shores"
+      }
+    ],
+    "counts": {
+      "total": 5305,
+      "detached": 4445,
+      "semi": 65,
+      "row": 170,
+      "duplex": 40,
+      "lowrise": 455,
+      "highrise": 15,
+      "other": 50,
+      "movable": 65
+    }
+  },
+  "lanark-highlands": {
+    "geographies": [
+      {
+        "dguid": "2021A00053509039",
+        "name": "Lanark Highlands"
+      }
+    ],
+    "counts": {
+      "total": 2495,
+      "detached": 2335,
+      "semi": 25,
+      "row": 5,
+      "duplex": 10,
+      "lowrise": 65,
+      "highrise": 0,
+      "other": 0,
+      "movable": 55
+    }
+  },
+  "larder-lake": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554062",
+        "name": "Larder Lake"
+      }
+    ],
+    "counts": {
+      "total": 350,
+      "detached": 300,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 50,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "latchford": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554006",
+        "name": "Latchford"
+      }
+    ],
+    "counts": {
+      "total": 170,
+      "detached": 165,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "laurentian-hills": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547090",
+        "name": "Laurentian Hills"
+      }
+    ],
+    "counts": {
+      "total": 1250,
+      "detached": 1160,
+      "semi": 5,
+      "row": 5,
+      "duplex": 10,
+      "lowrise": 15,
+      "highrise": 0,
+      "other": 5,
+      "movable": 50
+    }
+  },
+  "laurentian-valley": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547075",
+        "name": "Laurentian Valley"
+      }
+    ],
+    "counts": {
+      "total": 3715,
+      "detached": 3460,
+      "semi": 80,
+      "row": 10,
+      "duplex": 15,
+      "lowrise": 145,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "leamington": {
+    "geographies": [
+      {
+        "dguid": "2021A00053537003",
+        "name": "Leamington"
+      }
+    ],
+    "counts": {
+      "total": 10550,
+      "detached": 6815,
+      "semi": 875,
+      "row": 800,
+      "duplex": 290,
+      "lowrise": 1015,
+      "highrise": 740,
+      "other": 15,
+      "movable": 5
+    }
+  },
+  "leeds-and-the-thousand-islands": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507021",
+        "name": "Leeds and the Thousand Islands"
+      }
+    ],
+    "counts": {
+      "total": 3990,
+      "detached": 3750,
+      "semi": 30,
+      "row": 5,
+      "duplex": 20,
+      "lowrise": 55,
+      "highrise": 0,
+      "other": 10,
+      "movable": 120
+    }
+  },
+  "limerick": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512051",
+        "name": "Limerick"
+      }
+    ],
+    "counts": {
+      "total": 205,
+      "detached": 200,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "lincoln": {
+    "geographies": [
+      {
+        "dguid": "2021A00053526057",
+        "name": "Lincoln"
+      }
+    ],
+    "counts": {
+      "total": 9555,
+      "detached": 6670,
+      "semi": 680,
+      "row": 1360,
+      "duplex": 120,
+      "lowrise": 600,
+      "highrise": 65,
+      "other": 50,
+      "movable": 10
+    }
+  },
+  "london": {
+    "geographies": [
+      {
+        "dguid": "2021A00053539036",
+        "name": "London"
+      }
+    ],
+    "counts": {
+      "total": 174660,
+      "detached": 85280,
+      "semi": 5935,
+      "row": 23305,
+      "duplex": 4470,
+      "lowrise": 17800,
+      "highrise": 37545,
+      "other": 160,
+      "movable": 160
+    }
+  },
+  "loyalist": {
+    "geographies": [
+      {
+        "dguid": "2021A00053511005",
+        "name": "Loyalist"
+      }
+    ],
+    "counts": {
+      "total": 6830,
+      "detached": 5350,
+      "semi": 275,
+      "row": 590,
+      "duplex": 35,
+      "lowrise": 380,
+      "highrise": 135,
+      "other": 10,
+      "movable": 50
+    }
+  },
+  "lucan-biddulph": {
+    "geographies": [
+      {
+        "dguid": "2021A00053539060",
+        "name": "Lucan Biddulph"
+      }
+    ],
+    "counts": {
+      "total": 2115,
+      "detached": 1845,
+      "semi": 55,
+      "row": 35,
+      "duplex": 30,
+      "lowrise": 130,
+      "highrise": 5,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "macdonald-meredith-and-aberdeen-additional": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557051",
+        "name": "Macdonald, Meredith and Aberdeen Additional"
+      }
+    ],
+    "counts": {
+      "total": 605,
+      "detached": 580,
+      "semi": 0,
+      "row": 0,
+      "duplex": 15,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "machar": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549054",
+        "name": "Machar"
+      }
+    ],
+    "counts": {
+      "total": 460,
+      "detached": 445,
+      "semi": 5,
+      "row": 5,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "machin": {
+    "geographies": [
+      {
+        "dguid": "2021A00053560021",
+        "name": "Machin"
+      }
+    ],
+    "counts": {
+      "total": 455,
+      "detached": 420,
+      "semi": 10,
+      "row": 5,
+      "duplex": 0,
+      "lowrise": 20,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "madawaska-valley": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547030",
+        "name": "Madawaska Valley"
+      }
+    ],
+    "counts": {
+      "total": 1715,
+      "detached": 1575,
+      "semi": 15,
+      "row": 10,
+      "duplex": 15,
+      "lowrise": 85,
+      "highrise": 0,
+      "other": 0,
+      "movable": 15
+    }
+  },
+  "madoc": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512036",
+        "name": "Madoc"
+      }
+    ],
+    "counts": {
+      "total": 870,
+      "detached": 850,
+      "semi": 5,
+      "row": 5,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "magnetawan": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549043",
+        "name": "Magnetawan"
+      }
+    ],
+    "counts": {
+      "total": 825,
+      "detached": 795,
+      "semi": 5,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 20,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "malahide": {
+    "geographies": [
+      {
+        "dguid": "2021A00053534010",
+        "name": "Malahide"
+      }
+    ],
+    "counts": {
+      "total": 3015,
+      "detached": 2830,
+      "semi": 25,
+      "row": 5,
+      "duplex": 5,
+      "lowrise": 30,
+      "highrise": 5,
+      "other": 10,
+      "movable": 100
+    }
+  },
+  "manitouwadge": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558066",
+        "name": "Manitouwadge"
+      }
+    ],
+    "counts": {
+      "total": 920,
+      "detached": 800,
+      "semi": 40,
+      "row": 40,
+      "duplex": 15,
+      "lowrise": 30,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "mapleton": {
+    "geographies": [
+      {
+        "dguid": "2021A00053523033",
+        "name": "Mapleton"
+      }
+    ],
+    "counts": {
+      "total": 3245,
+      "detached": 2840,
+      "semi": 155,
+      "row": 35,
+      "duplex": 10,
+      "lowrise": 130,
+      "highrise": 0,
+      "other": 50,
+      "movable": 15
+    }
+  },
+  "marathon": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558059",
+        "name": "Marathon"
+      }
+    ],
+    "counts": {
+      "total": 1410,
+      "detached": 1045,
+      "semi": 10,
+      "row": 55,
+      "duplex": 0,
+      "lowrise": 220,
+      "highrise": 0,
+      "other": 0,
+      "movable": 75
+    }
+  },
+  "markham": {
+    "geographies": [
+      {
+        "dguid": "2021A00053519036",
+        "name": "Markham"
+      }
+    ],
+    "counts": {
+      "total": 110870,
+      "detached": 62275,
+      "semi": 6985,
+      "row": 15985,
+      "duplex": 6070,
+      "lowrise": 1905,
+      "highrise": 17635,
+      "other": 10,
+      "movable": 5
+    }
+  },
+  "markstay-warren": {
+    "geographies": [
+      {
+        "dguid": "2021A00053552013",
+        "name": "Markstay-Warren"
+      }
+    ],
+    "counts": {
+      "total": 1110,
+      "detached": 1000,
+      "semi": 0,
+      "row": 5,
+      "duplex": 10,
+      "lowrise": 45,
+      "highrise": 10,
+      "other": 5,
+      "movable": 35
+    }
+  },
+  "marmora-and-lake": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512046",
+        "name": "Marmora and Lake"
+      }
+    ],
+    "counts": {
+      "total": 1890,
+      "detached": 1645,
+      "semi": 70,
+      "row": 10,
+      "duplex": 15,
+      "lowrise": 135,
+      "highrise": 0,
+      "other": 10,
+      "movable": 10
+    }
+  },
+  "matachewan": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554056",
+        "name": "Matachewan"
+      }
+    ],
+    "counts": {
+      "total": 135,
+      "detached": 130,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "mattawa": {
+    "geographies": [
+      {
+        "dguid": "2021A00053548021",
+        "name": "Mattawa"
+      }
+    ],
+    "counts": {
+      "total": 855,
+      "detached": 595,
+      "semi": 10,
+      "row": 45,
+      "duplex": 25,
+      "lowrise": 180,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "mattawan": {
+    "geographies": [
+      {
+        "dguid": "2021A00053548019",
+        "name": "Mattawan"
+      }
+    ],
+    "counts": {
+      "total": 70,
+      "detached": 70,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "mattice-val-ca-ta": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556077",
+        "name": "Mattice-Val Côté"
+      }
+    ],
+    "counts": {
+      "total": 240,
+      "detached": 225,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "mcdougall": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549031",
+        "name": "McDougall"
+      }
+    ],
+    "counts": {
+      "total": 1155,
+      "detached": 1120,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 30,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "mcgarry": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554058",
+        "name": "McGarry"
+      }
+    ],
+    "counts": {
+      "total": 290,
+      "detached": 275,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 15,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "mckellar": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549028",
+        "name": "McKellar"
+      }
+    ],
+    "counts": {
+      "total": 695,
+      "detached": 690,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "mcmurrich-monteith": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549012",
+        "name": "McMurrich/Monteith"
+      }
+    ],
+    "counts": {
+      "total": 410,
+      "detached": 400,
+      "semi": 0,
+      "row": 5,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "mcnab-braeside": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547003",
+        "name": "McNab/Braeside"
+      }
+    ],
+    "counts": {
+      "total": 3035,
+      "detached": 2870,
+      "semi": 15,
+      "row": 10,
+      "duplex": 10,
+      "lowrise": 40,
+      "highrise": 0,
+      "other": 10,
+      "movable": 80
+    }
+  },
+  "meaford": {
+    "geographies": [
+      {
+        "dguid": "2021A00053542047",
+        "name": "Meaford"
+      }
+    ],
+    "counts": {
+      "total": 5035,
+      "detached": 4090,
+      "semi": 65,
+      "row": 315,
+      "duplex": 45,
+      "lowrise": 510,
+      "highrise": 5,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "melancthon": {
+    "geographies": [
+      {
+        "dguid": "2021A00053522019",
+        "name": "Melancthon"
+      }
+    ],
+    "counts": {
+      "total": 1035,
+      "detached": 1000,
+      "semi": 15,
+      "row": 10,
+      "duplex": 5,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "merrickville-wolford": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507052",
+        "name": "Merrickville-Wolford"
+      }
+    ],
+    "counts": {
+      "total": 1290,
+      "detached": 1155,
+      "semi": 20,
+      "row": 0,
+      "duplex": 20,
+      "lowrise": 75,
+      "highrise": 0,
+      "other": 15,
+      "movable": 0
+    }
+  },
+  "middlesex-centre": {
+    "geographies": [
+      {
+        "dguid": "2021A00053539033",
+        "name": "Middlesex Centre"
+      }
+    ],
+    "counts": {
+      "total": 6695,
+      "detached": 6065,
+      "semi": 100,
+      "row": 215,
+      "duplex": 20,
+      "lowrise": 150,
+      "highrise": 0,
+      "other": 5,
+      "movable": 130
+    }
+  },
+  "midland": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543074",
+        "name": "Midland"
+      }
+    ],
+    "counts": {
+      "total": 7850,
+      "detached": 5100,
+      "semi": 285,
+      "row": 430,
+      "duplex": 465,
+      "lowrise": 950,
+      "highrise": 535,
+      "other": 80,
+      "movable": 5
+    }
+  },
+  "milton": {
+    "geographies": [
+      {
+        "dguid": "2021A00053524009",
+        "name": "Milton"
+      }
+    ],
+    "counts": {
+      "total": 40035,
+      "detached": 22715,
+      "semi": 3755,
+      "row": 9135,
+      "duplex": 295,
+      "lowrise": 1920,
+      "highrise": 2185,
+      "other": 15,
+      "movable": 15
+    }
+  },
+  "minden-hills": {
+    "geographies": [
+      {
+        "dguid": "2021A00053546015",
+        "name": "Minden Hills"
+      }
+    ],
+    "counts": {
+      "total": 3230,
+      "detached": 3000,
+      "semi": 15,
+      "row": 35,
+      "duplex": 15,
+      "lowrise": 145,
+      "highrise": 0,
+      "other": 5,
+      "movable": 10
+    }
+  },
+  "minto": {
+    "geographies": [
+      {
+        "dguid": "2021A00053523043",
+        "name": "Minto"
+      }
+    ],
+    "counts": {
+      "total": 3415,
+      "detached": 2675,
+      "semi": 120,
+      "row": 110,
+      "duplex": 35,
+      "lowrise": 385,
+      "highrise": 0,
+      "other": 10,
+      "movable": 80
+    }
+  },
+  "mississauga": {
+    "geographies": [
+      {
+        "dguid": "2021A00053521005",
+        "name": "Mississauga"
+      }
+    ],
+    "counts": {
+      "total": 244575,
+      "detached": 90665,
+      "semi": 26855,
+      "row": 34455,
+      "duplex": 7895,
+      "lowrise": 17545,
+      "highrise": 66830,
+      "other": 80,
+      "movable": 255
+    }
+  },
+  "mississippi-mills": {
+    "geographies": [
+      {
+        "dguid": "2021A00053509030",
+        "name": "Mississippi Mills"
+      }
+    ],
+    "counts": {
+      "total": 6040,
+      "detached": 4660,
+      "semi": 280,
+      "row": 485,
+      "duplex": 75,
+      "lowrise": 395,
+      "highrise": 140,
+      "other": 5,
+      "movable": 10
+    }
+  },
+  "mono": {
+    "geographies": [
+      {
+        "dguid": "2021A00053522012",
+        "name": "Mono"
+      }
+    ],
+    "counts": {
+      "total": 3130,
+      "detached": 3065,
+      "semi": 5,
+      "row": 0,
+      "duplex": 45,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "montague": {
+    "geographies": [
+      {
+        "dguid": "2021A00053509001",
+        "name": "Montague"
+      }
+    ],
+    "counts": {
+      "total": 1500,
+      "detached": 1450,
+      "semi": 30,
+      "row": 5,
+      "duplex": 5,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "moonbeam": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556056",
+        "name": "Moonbeam"
+      }
+    ],
+    "counts": {
+      "total": 525,
+      "detached": 515,
+      "semi": 5,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "moosonee": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556106",
+        "name": "Moosonee"
+      }
+    ],
+    "counts": {
+      "total": 485,
+      "detached": 335,
+      "semi": 80,
+      "row": 5,
+      "duplex": 35,
+      "lowrise": 30,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "morley": {
+    "geographies": [
+      {
+        "dguid": "2021A00053559031",
+        "name": "Morley"
+      }
+    ],
+    "counts": {
+      "total": 185,
+      "detached": 180,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "morris-turnberry": {
+    "geographies": [
+      {
+        "dguid": "2021A00053540050",
+        "name": "Morris-Turnberry"
+      }
+    ],
+    "counts": {
+      "total": 1195,
+      "detached": 1160,
+      "semi": 5,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 15,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "mulmur": {
+    "geographies": [
+      {
+        "dguid": "2021A00053522016",
+        "name": "Mulmur"
+      }
+    ],
+    "counts": {
+      "total": 1390,
+      "detached": 1360,
+      "semi": 5,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "muskoka-lakes": {
+    "geographies": [
+      {
+        "dguid": "2021A00053544053",
+        "name": "Muskoka Lakes"
+      }
+    ],
+    "counts": {
+      "total": 3530,
+      "detached": 3420,
+      "semi": 15,
+      "row": 15,
+      "duplex": 45,
+      "lowrise": 20,
+      "highrise": 5,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "nairn-and-hyman": {
+    "geographies": [
+      {
+        "dguid": "2021A00053552031",
+        "name": "Nairn and Hyman"
+      }
+    ],
+    "counts": {
+      "total": 165,
+      "detached": 135,
+      "semi": 0,
+      "row": 0,
+      "duplex": 10,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "neebing": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558001",
+        "name": "Neebing"
+      }
+    ],
+    "counts": {
+      "total": 945,
+      "detached": 925,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 15
+    }
+  },
+  "new-tecumseth": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543007",
+        "name": "New Tecumseth"
+      }
+    ],
+    "counts": {
+      "total": 15855,
+      "detached": 11230,
+      "semi": 1110,
+      "row": 1445,
+      "duplex": 520,
+      "lowrise": 1385,
+      "highrise": 75,
+      "other": 35,
+      "movable": 55
+    }
+  },
+  "newbury": {
+    "geographies": [
+      {
+        "dguid": "2021A00053539002",
+        "name": "Newbury"
+      }
+    ],
+    "counts": {
+      "total": 185,
+      "detached": 160,
+      "semi": 10,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "newmarket": {
+    "geographies": [
+      {
+        "dguid": "2021A00053519048",
+        "name": "Newmarket"
+      }
+    ],
+    "counts": {
+      "total": 30300,
+      "detached": 18115,
+      "semi": 2255,
+      "row": 3880,
+      "duplex": 1995,
+      "lowrise": 2360,
+      "highrise": 1510,
+      "other": 175,
+      "movable": 5
+    }
+  },
+  "niagara-falls": {
+    "geographies": [
+      {
+        "dguid": "2021A00053526043",
+        "name": "Niagara Falls"
+      }
+    ],
+    "counts": {
+      "total": 37790,
+      "detached": 24990,
+      "semi": 2070,
+      "row": 2820,
+      "duplex": 1265,
+      "lowrise": 4980,
+      "highrise": 1590,
+      "other": 55,
+      "movable": 20
+    }
+  },
+  "niagara-on-the-lake": {
+    "geographies": [
+      {
+        "dguid": "2021A00053526047",
+        "name": "Niagara-on-the-Lake"
+      }
+    ],
+    "counts": {
+      "total": 7855,
+      "detached": 6225,
+      "semi": 440,
+      "row": 720,
+      "duplex": 35,
+      "lowrise": 410,
+      "highrise": 5,
+      "other": 5,
+      "movable": 15
+    }
+  },
+  "nipigon": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558044",
+        "name": "Nipigon"
+      }
+    ],
+    "counts": {
+      "total": 665,
+      "detached": 625,
+      "semi": 0,
+      "row": 0,
+      "duplex": 10,
+      "lowrise": 15,
+      "highrise": 0,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "nipissing": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549071",
+        "name": "Nipissing"
+      }
+    ],
+    "counts": {
+      "total": 750,
+      "detached": 740,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "norfolk-county": {
+    "geographies": [
+      {
+        "dguid": "2021A00053528052",
+        "name": "Norfolk County"
+      }
+    ],
+    "counts": {
+      "total": 27595,
+      "detached": 22815,
+      "semi": 770,
+      "row": 945,
+      "duplex": 570,
+      "lowrise": 1890,
+      "highrise": 385,
+      "other": 90,
+      "movable": 130
+    }
+  },
+  "north-algona-wilberforce": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547070",
+        "name": "North Algona Wilberforce"
+      }
+    ],
+    "counts": {
+      "total": 1300,
+      "detached": 1270,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "north-bay": {
+    "geographies": [
+      {
+        "dguid": "2021A00053548044",
+        "name": "North Bay"
+      }
+    ],
+    "counts": {
+      "total": 23465,
+      "detached": 11445,
+      "semi": 2130,
+      "row": 2030,
+      "duplex": 1560,
+      "lowrise": 4100,
+      "highrise": 2080,
+      "other": 65,
+      "movable": 60
+    }
+  },
+  "north-dumfries": {
+    "geographies": [
+      {
+        "dguid": "2021A00053530004",
+        "name": "North Dumfries"
+      }
+    ],
+    "counts": {
+      "total": 3690,
+      "detached": 3050,
+      "semi": 190,
+      "row": 200,
+      "duplex": 50,
+      "lowrise": 190,
+      "highrise": 5,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "north-dundas": {
+    "geographies": [
+      {
+        "dguid": "2021A00053501030",
+        "name": "North Dundas"
+      }
+    ],
+    "counts": {
+      "total": 4535,
+      "detached": 3850,
+      "semi": 110,
+      "row": 55,
+      "duplex": 80,
+      "lowrise": 380,
+      "highrise": 0,
+      "other": 15,
+      "movable": 50
+    }
+  },
+  "north-frontenac": {
+    "geographies": [
+      {
+        "dguid": "2021A00053510045",
+        "name": "North Frontenac"
+      }
+    ],
+    "counts": {
+      "total": 1130,
+      "detached": 1105,
+      "semi": 5,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 20
+    }
+  },
+  "north-glengarry": {
+    "geographies": [
+      {
+        "dguid": "2021A00053501050",
+        "name": "North Glengarry"
+      }
+    ],
+    "counts": {
+      "total": 4425,
+      "detached": 3485,
+      "semi": 140,
+      "row": 65,
+      "duplex": 130,
+      "lowrise": 460,
+      "highrise": 5,
+      "other": 20,
+      "movable": 115
+    }
+  },
+  "north-grenville": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507065",
+        "name": "North Grenville"
+      }
+    ],
+    "counts": {
+      "total": 7040,
+      "detached": 5785,
+      "semi": 315,
+      "row": 370,
+      "duplex": 85,
+      "lowrise": 425,
+      "highrise": 0,
+      "other": 10,
+      "movable": 40
+    }
+  },
+  "north-huron": {
+    "geographies": [
+      {
+        "dguid": "2021A00053540055",
+        "name": "North Huron"
+      }
+    ],
+    "counts": {
+      "total": 2160,
+      "detached": 1630,
+      "semi": 55,
+      "row": 115,
+      "duplex": 30,
+      "lowrise": 310,
+      "highrise": 0,
+      "other": 15,
+      "movable": 0
+    }
+  },
+  "north-kawartha": {
+    "geographies": [
+      {
+        "dguid": "2021A00053515037",
+        "name": "North Kawartha"
+      }
+    ],
+    "counts": {
+      "total": 1365,
+      "detached": 1300,
+      "semi": 5,
+      "row": 15,
+      "duplex": 5,
+      "lowrise": 40,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "north-middlesex": {
+    "geographies": [
+      {
+        "dguid": "2021A00053539041",
+        "name": "North Middlesex"
+      }
+    ],
+    "counts": {
+      "total": 2395,
+      "detached": 2170,
+      "semi": 20,
+      "row": 5,
+      "duplex": 10,
+      "lowrise": 180,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "north-perth": {
+    "geographies": [
+      {
+        "dguid": "2021A00053531040",
+        "name": "North Perth"
+      }
+    ],
+    "counts": {
+      "total": 5960,
+      "detached": 4185,
+      "semi": 260,
+      "row": 320,
+      "duplex": 100,
+      "lowrise": 955,
+      "highrise": 0,
+      "other": 10,
+      "movable": 130
+    }
+  },
+  "north-stormont": {
+    "geographies": [
+      {
+        "dguid": "2021A00053501042",
+        "name": "North Stormont"
+      }
+    ],
+    "counts": {
+      "total": 2855,
+      "detached": 2515,
+      "semi": 95,
+      "row": 30,
+      "duplex": 25,
+      "lowrise": 175,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "northeastern-manitoulin-and-the-islands": {
+    "geographies": [
+      {
+        "dguid": "2021A00053551017",
+        "name": "Northeastern Manitoulin and the Islands"
+      }
+    ],
+    "counts": {
+      "total": 1205,
+      "detached": 1060,
+      "semi": 20,
+      "row": 10,
+      "duplex": 20,
+      "lowrise": 75,
+      "highrise": 0,
+      "other": 10,
+      "movable": 5
+    }
+  },
+  "northern-bruce-peninsula": {
+    "geographies": [
+      {
+        "dguid": "2021A00053541069",
+        "name": "Northern Bruce Peninsula"
+      }
+    ],
+    "counts": {
+      "total": 2205,
+      "detached": 2070,
+      "semi": 10,
+      "row": 50,
+      "duplex": 5,
+      "lowrise": 55,
+      "highrise": 0,
+      "other": 15,
+      "movable": 10
+    }
+  },
+  "norwich": {
+    "geographies": [
+      {
+        "dguid": "2021A00053532002",
+        "name": "Norwich"
+      }
+    ],
+    "counts": {
+      "total": 3760,
+      "detached": 3450,
+      "semi": 55,
+      "row": 65,
+      "duplex": 40,
+      "lowrise": 120,
+      "highrise": 0,
+      "other": 5,
+      "movable": 30
+    }
+  },
+  "oconnor": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558016",
+        "name": "O'Connor"
+      }
+    ],
+    "counts": {
+      "total": 270,
+      "detached": 270,
+      "semi": 5,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "oakville": {
+    "geographies": [
+      {
+        "dguid": "2021A00053524001",
+        "name": "Oakville"
+      }
+    ],
+    "counts": {
+      "total": 73560,
+      "detached": 43130,
+      "semi": 3315,
+      "row": 12470,
+      "duplex": 950,
+      "lowrise": 4680,
+      "highrise": 8960,
+      "other": 55,
+      "movable": 0
+    }
+  },
+  "oil-springs": {
+    "geographies": [
+      {
+        "dguid": "2021A00053538018",
+        "name": "Oil Springs"
+      }
+    ],
+    "counts": {
+      "total": 270,
+      "detached": 255,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "oliver-paipoonge": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558011",
+        "name": "Oliver Paipoonge"
+      }
+    ],
+    "counts": {
+      "total": 2325,
+      "detached": 2145,
+      "semi": 15,
+      "row": 45,
+      "duplex": 10,
+      "lowrise": 50,
+      "highrise": 0,
+      "other": 0,
+      "movable": 60
+    }
+  },
+  "opasatika": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556073",
+        "name": "Opasatika"
+      }
+    ],
+    "counts": {
+      "total": 100,
+      "detached": 95,
+      "semi": 5,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "orangeville": {
+    "geographies": [
+      {
+        "dguid": "2021A00053522014",
+        "name": "Orangeville"
+      }
+    ],
+    "counts": {
+      "total": 11060,
+      "detached": 6600,
+      "semi": 1260,
+      "row": 1240,
+      "duplex": 140,
+      "lowrise": 1230,
+      "highrise": 565,
+      "other": 15,
+      "movable": 10
+    }
+  },
+  "orillia": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543052",
+        "name": "Orillia"
+      }
+    ],
+    "counts": {
+      "total": 14425,
+      "detached": 8035,
+      "semi": 360,
+      "row": 1245,
+      "duplex": 905,
+      "lowrise": 2760,
+      "highrise": 920,
+      "other": 30,
+      "movable": 170
+    }
+  },
+  "oro-medonte": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543023",
+        "name": "Oro-Medonte"
+      }
+    ],
+    "counts": {
+      "total": 8635,
+      "detached": 8345,
+      "semi": 25,
+      "row": 30,
+      "duplex": 70,
+      "lowrise": 140,
+      "highrise": 5,
+      "other": 20,
+      "movable": 10
+    }
+  },
+  "oshawa": {
+    "geographies": [
+      {
+        "dguid": "2021A00053518013",
+        "name": "Oshawa"
+      }
+    ],
+    "counts": {
+      "total": 66635,
+      "detached": 37000,
+      "semi": 5325,
+      "row": 6445,
+      "duplex": 3650,
+      "lowrise": 6475,
+      "highrise": 7585,
+      "other": 140,
+      "movable": 5
+    }
+  },
+  "otonabee-south-monaghan": {
+    "geographies": [
+      {
+        "dguid": "2021A00053515005",
+        "name": "Otonabee-South Monaghan"
+      }
+    ],
+    "counts": {
+      "total": 2730,
+      "detached": 2440,
+      "semi": 15,
+      "row": 40,
+      "duplex": 25,
+      "lowrise": 50,
+      "highrise": 0,
+      "other": 5,
+      "movable": 150
+    }
+  },
+  "ottawa": {
+    "geographies": [
+      {
+        "dguid": "2021A00053506008",
+        "name": "Ottawa"
+      }
+    ],
+    "counts": {
+      "total": 407255,
+      "detached": 169760,
+      "semi": 21680,
+      "row": 87045,
+      "duplex": 7595,
+      "lowrise": 43025,
+      "highrise": 76895,
+      "other": 460,
+      "movable": 800
+    }
+  },
+  "owen-sound": {
+    "geographies": [
+      {
+        "dguid": "2021A00053542059",
+        "name": "Owen Sound"
+      }
+    ],
+    "counts": {
+      "total": 9895,
+      "detached": 5060,
+      "semi": 415,
+      "row": 675,
+      "duplex": 260,
+      "lowrise": 2700,
+      "highrise": 730,
+      "other": 20,
+      "movable": 35
+    }
+  },
+  "papineau-cameron": {
+    "geographies": [
+      {
+        "dguid": "2021A00053548013",
+        "name": "Papineau-Cameron"
+      }
+    ],
+    "counts": {
+      "total": 405,
+      "detached": 400,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "parry-sound": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549032",
+        "name": "Parry Sound"
+      }
+    ],
+    "counts": {
+      "total": 3195,
+      "detached": 1715,
+      "semi": 125,
+      "row": 40,
+      "duplex": 175,
+      "lowrise": 865,
+      "highrise": 195,
+      "other": 80,
+      "movable": 0
+    }
+  },
+  "pelee": {
+    "geographies": [
+      {
+        "dguid": "2021A00053537001",
+        "name": "Pelee"
+      }
+    ],
+    "counts": {
+      "total": 120,
+      "detached": 120,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "pelham": {
+    "geographies": [
+      {
+        "dguid": "2021A00053526028",
+        "name": "Pelham"
+      }
+    ],
+    "counts": {
+      "total": 6960,
+      "detached": 5760,
+      "semi": 95,
+      "row": 470,
+      "duplex": 60,
+      "lowrise": 430,
+      "highrise": 130,
+      "other": 15,
+      "movable": 5
+    }
+  },
+  "pembroke": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547064",
+        "name": "Pembroke"
+      }
+    ],
+    "counts": {
+      "total": 6545,
+      "detached": 3780,
+      "semi": 510,
+      "row": 300,
+      "duplex": 230,
+      "lowrise": 1690,
+      "highrise": 0,
+      "other": 25,
+      "movable": 5
+    }
+  },
+  "penetanguishene": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543072",
+        "name": "Penetanguishene"
+      }
+    ],
+    "counts": {
+      "total": 3975,
+      "detached": 2705,
+      "semi": 185,
+      "row": 105,
+      "duplex": 305,
+      "lowrise": 675,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "perry": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549014",
+        "name": "Perry"
+      }
+    ],
+    "counts": {
+      "total": 1145,
+      "detached": 1030,
+      "semi": 5,
+      "row": 15,
+      "duplex": 20,
+      "lowrise": 50,
+      "highrise": 0,
+      "other": 0,
+      "movable": 25
+    }
+  },
+  "perth": {
+    "geographies": [
+      {
+        "dguid": "2021A00053509021",
+        "name": "Perth"
+      }
+    ],
+    "counts": {
+      "total": 3270,
+      "detached": 1655,
+      "semi": 300,
+      "row": 155,
+      "duplex": 20,
+      "lowrise": 1035,
+      "highrise": 70,
+      "other": 30,
+      "movable": 0
+    }
+  },
+  "perth-east": {
+    "geographies": [
+      {
+        "dguid": "2021A00053531030",
+        "name": "Perth East"
+      }
+    ],
+    "counts": {
+      "total": 4110,
+      "detached": 3625,
+      "semi": 115,
+      "row": 65,
+      "duplex": 30,
+      "lowrise": 160,
+      "highrise": 0,
+      "other": 15,
+      "movable": 100
+    }
+  },
+  "perth-south": {
+    "geographies": [
+      {
+        "dguid": "2021A00053531013",
+        "name": "Perth South"
+      }
+    ],
+    "counts": {
+      "total": 1395,
+      "detached": 1350,
+      "semi": 5,
+      "row": 5,
+      "duplex": 5,
+      "lowrise": 25,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "petawawa": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547076",
+        "name": "Petawawa"
+      }
+    ],
+    "counts": {
+      "total": 6765,
+      "detached": 4760,
+      "semi": 455,
+      "row": 840,
+      "duplex": 45,
+      "lowrise": 635,
+      "highrise": 0,
+      "other": 15,
+      "movable": 5
+    }
+  },
+  "peterborough": {
+    "geographies": [
+      {
+        "dguid": "2021A00053515014",
+        "name": "Peterborough"
+      }
+    ],
+    "counts": {
+      "total": 35975,
+      "detached": 20560,
+      "semi": 775,
+      "row": 3005,
+      "duplex": 2605,
+      "lowrise": 6395,
+      "highrise": 2585,
+      "other": 50,
+      "movable": 0
+    }
+  },
+  "petrolia": {
+    "geographies": [
+      {
+        "dguid": "2021A00053538019",
+        "name": "Petrolia"
+      }
+    ],
+    "counts": {
+      "total": 2460,
+      "detached": 2025,
+      "semi": 60,
+      "row": 70,
+      "duplex": 45,
+      "lowrise": 210,
+      "highrise": 0,
+      "other": 55,
+      "movable": 0
+    }
+  },
+  "pickering": {
+    "geographies": [
+      {
+        "dguid": "2021A00053518001",
+        "name": "Pickering"
+      }
+    ],
+    "counts": {
+      "total": 33425,
+      "detached": 19910,
+      "semi": 2515,
+      "row": 4980,
+      "duplex": 1825,
+      "lowrise": 1105,
+      "highrise": 3055,
+      "other": 15,
+      "movable": 25
+    }
+  },
+  "pickle-lake": {
+    "geographies": [
+      {
+        "dguid": "2021A00053560049",
+        "name": "Pickle Lake"
+      }
+    ],
+    "counts": {
+      "total": 155,
+      "detached": 80,
+      "semi": 25,
+      "row": 10,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 30,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "plummer-additional": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557019",
+        "name": "Plummer Additional"
+      }
+    ],
+    "counts": {
+      "total": 325,
+      "detached": 325,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "plympton-wyoming": {
+    "geographies": [
+      {
+        "dguid": "2021A00053538035",
+        "name": "Plympton-Wyoming"
+      }
+    ],
+    "counts": {
+      "total": 3170,
+      "detached": 2970,
+      "semi": 5,
+      "row": 55,
+      "duplex": 10,
+      "lowrise": 130,
+      "highrise": 0,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "point-edward": {
+    "geographies": [
+      {
+        "dguid": "2021A00053538031",
+        "name": "Point Edward"
+      }
+    ],
+    "counts": {
+      "total": 940,
+      "detached": 720,
+      "semi": 5,
+      "row": 10,
+      "duplex": 15,
+      "lowrise": 185,
+      "highrise": 0,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "port-colborne": {
+    "geographies": [
+      {
+        "dguid": "2021A00053526011",
+        "name": "Port Colborne"
+      }
+    ],
+    "counts": {
+      "total": 8710,
+      "detached": 6140,
+      "semi": 155,
+      "row": 170,
+      "duplex": 515,
+      "lowrise": 1085,
+      "highrise": 190,
+      "other": 95,
+      "movable": 365
+    }
+  },
+  "port-hope": {
+    "geographies": [
+      {
+        "dguid": "2021A00053514020",
+        "name": "Port Hope"
+      }
+    ],
+    "counts": {
+      "total": 7320,
+      "detached": 5285,
+      "semi": 270,
+      "row": 430,
+      "duplex": 90,
+      "lowrise": 770,
+      "highrise": 450,
+      "other": 15,
+      "movable": 5
+    }
+  },
+  "powassan": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549060",
+        "name": "Powassan"
+      }
+    ],
+    "counts": {
+      "total": 1320,
+      "detached": 1190,
+      "semi": 20,
+      "row": 10,
+      "duplex": 35,
+      "lowrise": 55,
+      "highrise": 5,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "prescott": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507008",
+        "name": "Prescott"
+      }
+    ],
+    "counts": {
+      "total": 1890,
+      "detached": 1090,
+      "semi": 225,
+      "row": 70,
+      "duplex": 120,
+      "lowrise": 345,
+      "highrise": 5,
+      "other": 40,
+      "movable": 0
+    }
+  },
+  "prince": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557066",
+        "name": "Prince"
+      }
+    ],
+    "counts": {
+      "total": 390,
+      "detached": 390,
+      "semi": 5,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "prince-edward-county": {
+    "geographies": [
+      {
+        "dguid": "2021A00053513020",
+        "name": "Prince Edward County"
+      }
+    ],
+    "counts": {
+      "total": 11330,
+      "detached": 9755,
+      "semi": 235,
+      "row": 330,
+      "duplex": 55,
+      "lowrise": 775,
+      "highrise": 15,
+      "other": 50,
+      "movable": 120
+    }
+  },
+  "puslinch": {
+    "geographies": [
+      {
+        "dguid": "2021A00053523001",
+        "name": "Puslinch"
+      }
+    ],
+    "counts": {
+      "total": 2855,
+      "detached": 2685,
+      "semi": 10,
+      "row": 15,
+      "duplex": 25,
+      "lowrise": 95,
+      "highrise": 0,
+      "other": 10,
+      "movable": 30
+    }
+  },
+  "quinte-west": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512015",
+        "name": "Quinte West"
+      }
+    ],
+    "counts": {
+      "total": 19060,
+      "detached": 14500,
+      "semi": 855,
+      "row": 425,
+      "duplex": 320,
+      "lowrise": 2020,
+      "highrise": 510,
+      "other": 50,
+      "movable": 370
+    }
+  },
+  "rainy-river": {
+    "geographies": [
+      {
+        "dguid": "2021A00053559042",
+        "name": "Rainy River"
+      }
+    ],
+    "counts": {
+      "total": 365,
+      "detached": 305,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 45,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "ramara": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543019",
+        "name": "Ramara"
+      }
+    ],
+    "counts": {
+      "total": 4405,
+      "detached": 4025,
+      "semi": 10,
+      "row": 270,
+      "duplex": 20,
+      "lowrise": 25,
+      "highrise": 0,
+      "other": 50,
+      "movable": 5
+    }
+  },
+  "red-lake": {
+    "geographies": [
+      {
+        "dguid": "2021A00053560042",
+        "name": "Red Lake"
+      }
+    ],
+    "counts": {
+      "total": 1705,
+      "detached": 1385,
+      "semi": 30,
+      "row": 65,
+      "duplex": 20,
+      "lowrise": 155,
+      "highrise": 0,
+      "other": 5,
+      "movable": 40
+    }
+  },
+  "red-rock": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558041",
+        "name": "Red Rock"
+      }
+    ],
+    "counts": {
+      "total": 405,
+      "detached": 335,
+      "semi": 35,
+      "row": 10,
+      "duplex": 0,
+      "lowrise": 15,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "renfrew": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547048",
+        "name": "Renfrew"
+      }
+    ],
+    "counts": {
+      "total": 3955,
+      "detached": 2460,
+      "semi": 240,
+      "row": 325,
+      "duplex": 105,
+      "lowrise": 795,
+      "highrise": 0,
+      "other": 25,
+      "movable": 0
+    }
+  },
+  "richmond-hill": {
+    "geographies": [
+      {
+        "dguid": "2021A00053519038",
+        "name": "Richmond Hill"
+      }
+    ],
+    "counts": {
+      "total": 69315,
+      "detached": 39295,
+      "semi": 2665,
+      "row": 10510,
+      "duplex": 2135,
+      "lowrise": 1700,
+      "highrise": 12960,
+      "other": 55,
+      "movable": 0
+    }
+  },
+  "rideau-lakes": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507040",
+        "name": "Rideau Lakes"
+      }
+    ],
+    "counts": {
+      "total": 4700,
+      "detached": 4315,
+      "semi": 45,
+      "row": 30,
+      "duplex": 20,
+      "lowrise": 90,
+      "highrise": 0,
+      "other": 5,
+      "movable": 185
+    }
+  },
+  "russell": {
+    "geographies": [
+      {
+        "dguid": "2021A00053502048",
+        "name": "Russell"
+      }
+    ],
+    "counts": {
+      "total": 7225,
+      "detached": 5705,
+      "semi": 500,
+      "row": 130,
+      "duplex": 140,
+      "lowrise": 715,
+      "highrise": 5,
+      "other": 30,
+      "movable": 5
+    }
+  },
+  "ryerson": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549024",
+        "name": "Ryerson"
+      }
+    ],
+    "counts": {
+      "total": 345,
+      "detached": 335,
+      "semi": 10,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "sables-spanish-rivers": {
+    "geographies": [
+      {
+        "dguid": "2021A00053552023",
+        "name": "Sables-Spanish Rivers"
+      }
+    ],
+    "counts": {
+      "total": 1385,
+      "detached": 1310,
+      "semi": 0,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 55,
+      "highrise": 0,
+      "other": 5,
+      "movable": 10
+    }
+  },
+  "sarnia": {
+    "geographies": [
+      {
+        "dguid": "2021A00053538030",
+        "name": "Sarnia"
+      }
+    ],
+    "counts": {
+      "total": 32185,
+      "detached": 21690,
+      "semi": 1315,
+      "row": 1760,
+      "duplex": 770,
+      "lowrise": 2615,
+      "highrise": 3940,
+      "other": 60,
+      "movable": 40
+    }
+  },
+  "saugeen-shores": {
+    "geographies": [
+      {
+        "dguid": "2021A00053541045",
+        "name": "Saugeen Shores"
+      }
+    ],
+    "counts": {
+      "total": 6905,
+      "detached": 5165,
+      "semi": 340,
+      "row": 460,
+      "duplex": 65,
+      "lowrise": 815,
+      "highrise": 0,
+      "other": 5,
+      "movable": 55
+    }
+  },
+  "sault-ste-marie": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557061",
+        "name": "Sault Ste. Marie"
+      }
+    ],
+    "counts": {
+      "total": 32530,
+      "detached": 21150,
+      "semi": 1805,
+      "row": 945,
+      "duplex": 1425,
+      "lowrise": 4970,
+      "highrise": 2060,
+      "other": 95,
+      "movable": 80
+    }
+  },
+  "schreiber": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558051",
+        "name": "Schreiber"
+      }
+    ],
+    "counts": {
+      "total": 515,
+      "detached": 440,
+      "semi": 15,
+      "row": 0,
+      "duplex": 10,
+      "lowrise": 50,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "scugog": {
+    "geographies": [
+      {
+        "dguid": "2021A00053518020",
+        "name": "Scugog"
+      }
+    ],
+    "counts": {
+      "total": 8240,
+      "detached": 7365,
+      "semi": 150,
+      "row": 75,
+      "duplex": 135,
+      "lowrise": 445,
+      "highrise": 45,
+      "other": 15,
+      "movable": 10
+    }
+  },
+  "seguin": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549003",
+        "name": "Seguin"
+      }
+    ],
+    "counts": {
+      "total": 2140,
+      "detached": 2065,
+      "semi": 15,
+      "row": 20,
+      "duplex": 10,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "selwyn": {
+    "geographies": [
+      {
+        "dguid": "2021A00053515015",
+        "name": "Selwyn"
+      }
+    ],
+    "counts": {
+      "total": 7480,
+      "detached": 6990,
+      "semi": 40,
+      "row": 95,
+      "duplex": 95,
+      "lowrise": 215,
+      "highrise": 0,
+      "other": 40,
+      "movable": 5
+    }
+  },
+  "severn": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543015",
+        "name": "Severn"
+      }
+    ],
+    "counts": {
+      "total": 5800,
+      "detached": 5235,
+      "semi": 30,
+      "row": 60,
+      "duplex": 100,
+      "lowrise": 200,
+      "highrise": 0,
+      "other": 5,
+      "movable": 175
+    }
+  },
+  "shelburne": {
+    "geographies": [
+      {
+        "dguid": "2021A00053522021",
+        "name": "Shelburne"
+      }
+    ],
+    "counts": {
+      "total": 3025,
+      "detached": 2205,
+      "semi": 155,
+      "row": 225,
+      "duplex": 75,
+      "lowrise": 355,
+      "highrise": 0,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "shuniah": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558028",
+        "name": "Shuniah"
+      }
+    ],
+    "counts": {
+      "total": 1425,
+      "detached": 1385,
+      "semi": 5,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 5,
+      "movable": 35
+    }
+  },
+  "sioux-lookout": {
+    "geographies": [
+      {
+        "dguid": "2021A00053560034",
+        "name": "Sioux Lookout"
+      }
+    ],
+    "counts": {
+      "total": 2340,
+      "detached": 1595,
+      "semi": 135,
+      "row": 80,
+      "duplex": 170,
+      "lowrise": 260,
+      "highrise": 5,
+      "other": 0,
+      "movable": 105
+    }
+  },
+  "sioux-narrows-nestor-falls": {
+    "geographies": [
+      {
+        "dguid": "2021A00053560008",
+        "name": "Sioux Narrows-Nestor Falls"
+      }
+    ],
+    "counts": {
+      "total": 330,
+      "detached": 325,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "smiths-falls": {
+    "geographies": [
+      {
+        "dguid": "2021A00053509004",
+        "name": "Smiths Falls"
+      }
+    ],
+    "counts": {
+      "total": 4310,
+      "detached": 2280,
+      "semi": 585,
+      "row": 150,
+      "duplex": 110,
+      "lowrise": 1110,
+      "highrise": 50,
+      "other": 25,
+      "movable": 0
+    }
+  },
+  "smooth-rock-falls": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556048",
+        "name": "Smooth Rock Falls"
+      }
+    ],
+    "counts": {
+      "total": 580,
+      "detached": 495,
+      "semi": 35,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 25,
+      "highrise": 0,
+      "other": 0,
+      "movable": 15
+    }
+  },
+  "south-algonquin": {
+    "geographies": [
+      {
+        "dguid": "2021A00053548001",
+        "name": "South Algonquin"
+      }
+    ],
+    "counts": {
+      "total": 525,
+      "detached": 510,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 5,
+      "movable": 15
+    }
+  },
+  "south-bruce": {
+    "geographies": [
+      {
+        "dguid": "2021A00053541004",
+        "name": "South Bruce"
+      }
+    ],
+    "counts": {
+      "total": 2280,
+      "detached": 2005,
+      "semi": 10,
+      "row": 65,
+      "duplex": 30,
+      "lowrise": 130,
+      "highrise": 0,
+      "other": 10,
+      "movable": 25
+    }
+  },
+  "south-bruce-peninsula": {
+    "geographies": [
+      {
+        "dguid": "2021A00053541055",
+        "name": "South Bruce Peninsula"
+      }
+    ],
+    "counts": {
+      "total": 4145,
+      "detached": 3695,
+      "semi": 20,
+      "row": 65,
+      "duplex": 90,
+      "lowrise": 245,
+      "highrise": 0,
+      "other": 25,
+      "movable": 10
+    }
+  },
+  "south-dundas": {
+    "geographies": [
+      {
+        "dguid": "2021A00053501020",
+        "name": "South Dundas"
+      }
+    ],
+    "counts": {
+      "total": 4650,
+      "detached": 3725,
+      "semi": 325,
+      "row": 210,
+      "duplex": 40,
+      "lowrise": 250,
+      "highrise": 30,
+      "other": 15,
+      "movable": 55
+    }
+  },
+  "south-frontenac": {
+    "geographies": [
+      {
+        "dguid": "2021A00053510020",
+        "name": "South Frontenac"
+      }
+    ],
+    "counts": {
+      "total": 7935,
+      "detached": 7645,
+      "semi": 45,
+      "row": 10,
+      "duplex": 30,
+      "lowrise": 125,
+      "highrise": 0,
+      "other": 15,
+      "movable": 70
+    }
+  },
+  "south-glengarry": {
+    "geographies": [
+      {
+        "dguid": "2021A00053501005",
+        "name": "South Glengarry"
+      }
+    ],
+    "counts": {
+      "total": 5430,
+      "detached": 5055,
+      "semi": 105,
+      "row": 35,
+      "duplex": 65,
+      "lowrise": 105,
+      "highrise": 0,
+      "other": 20,
+      "movable": 40
+    }
+  },
+  "south-huron": {
+    "geographies": [
+      {
+        "dguid": "2021A00053540005",
+        "name": "South Huron"
+      }
+    ],
+    "counts": {
+      "total": 4340,
+      "detached": 3390,
+      "semi": 120,
+      "row": 320,
+      "duplex": 30,
+      "lowrise": 420,
+      "highrise": 0,
+      "other": 20,
+      "movable": 35
+    }
+  },
+  "south-river": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549056",
+        "name": "South River"
+      }
+    ],
+    "counts": {
+      "total": 480,
+      "detached": 395,
+      "semi": 15,
+      "row": 15,
+      "duplex": 15,
+      "lowrise": 40,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "south-stormont": {
+    "geographies": [
+      {
+        "dguid": "2021A00053501011",
+        "name": "South Stormont"
+      }
+    ],
+    "counts": {
+      "total": 5410,
+      "detached": 4915,
+      "semi": 80,
+      "row": 95,
+      "duplex": 30,
+      "lowrise": 220,
+      "highrise": 5,
+      "other": 5,
+      "movable": 65
+    }
+  },
+  "south-west-oxford": {
+    "geographies": [
+      {
+        "dguid": "2021A00053532012",
+        "name": "South-West Oxford"
+      }
+    ],
+    "counts": {
+      "total": 2615,
+      "detached": 2480,
+      "semi": 25,
+      "row": 25,
+      "duplex": 25,
+      "lowrise": 15,
+      "highrise": 0,
+      "other": 10,
+      "movable": 40
+    }
+  },
+  "southgate": {
+    "geographies": [
+      {
+        "dguid": "2021A00053542005",
+        "name": "Southgate"
+      }
+    ],
+    "counts": {
+      "total": 3020,
+      "detached": 2755,
+      "semi": 20,
+      "row": 0,
+      "duplex": 10,
+      "lowrise": 125,
+      "highrise": 0,
+      "other": 5,
+      "movable": 105
+    }
+  },
+  "southwest-middlesex": {
+    "geographies": [
+      {
+        "dguid": "2021A00053539005",
+        "name": "Southwest Middlesex"
+      }
+    ],
+    "counts": {
+      "total": 2405,
+      "detached": 2090,
+      "semi": 55,
+      "row": 50,
+      "duplex": 20,
+      "lowrise": 185,
+      "highrise": 0,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "southwold": {
+    "geographies": [
+      {
+        "dguid": "2021A00053534024",
+        "name": "Southwold"
+      }
+    ],
+    "counts": {
+      "total": 1710,
+      "detached": 1680,
+      "semi": 5,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "spanish": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557039",
+        "name": "Spanish"
+      }
+    ],
+    "counts": {
+      "total": 320,
+      "detached": 290,
+      "semi": 0,
+      "row": 0,
+      "duplex": 20,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "springwater": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543009",
+        "name": "Springwater"
+      }
+    ],
+    "counts": {
+      "total": 7515,
+      "detached": 6980,
+      "semi": 35,
+      "row": 35,
+      "duplex": 125,
+      "lowrise": 270,
+      "highrise": 0,
+      "other": 30,
+      "movable": 45
+    }
+  },
+  "st-catharines": {
+    "geographies": [
+      {
+        "dguid": "2021A00053526053",
+        "name": "St. Catharines"
+      }
+    ],
+    "counts": {
+      "total": 58905,
+      "detached": 32725,
+      "semi": 3425,
+      "row": 5010,
+      "duplex": 2500,
+      "lowrise": 8460,
+      "highrise": 6500,
+      "other": 185,
+      "movable": 100
+    }
+  },
+  "st-clair": {
+    "geographies": [
+      {
+        "dguid": "2021A00053538003",
+        "name": "St. Clair"
+      }
+    ],
+    "counts": {
+      "total": 6020,
+      "detached": 5370,
+      "semi": 20,
+      "row": 325,
+      "duplex": 10,
+      "lowrise": 245,
+      "highrise": 40,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "st-joseph": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557008",
+        "name": "St. Joseph"
+      }
+    ],
+    "counts": {
+      "total": 610,
+      "detached": 575,
+      "semi": 0,
+      "row": 20,
+      "duplex": 5,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "st-marys": {
+    "geographies": [
+      {
+        "dguid": "2021A00053531016",
+        "name": "St. Marys"
+      }
+    ],
+    "counts": {
+      "total": 3130,
+      "detached": 2180,
+      "semi": 300,
+      "row": 190,
+      "duplex": 50,
+      "lowrise": 370,
+      "highrise": 30,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "st-thomas": {
+    "geographies": [
+      {
+        "dguid": "2021A00053534021",
+        "name": "St. Thomas"
+      }
+    ],
+    "counts": {
+      "total": 18060,
+      "detached": 11710,
+      "semi": 1335,
+      "row": 725,
+      "duplex": 595,
+      "lowrise": 2900,
+      "highrise": 775,
+      "other": 15,
+      "movable": 5
+    }
+  },
+  "st-charles": {
+    "geographies": [
+      {
+        "dguid": "2021A00053552004",
+        "name": "St.-Charles"
+      }
+    ],
+    "counts": {
+      "total": 620,
+      "detached": 555,
+      "semi": 10,
+      "row": 5,
+      "duplex": 5,
+      "lowrise": 35,
+      "highrise": 0,
+      "other": 5,
+      "movable": 15
+    }
+  },
+  "stirling-rawdon": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512020",
+        "name": "Stirling-Rawdon"
+      }
+    ],
+    "counts": {
+      "total": 1970,
+      "detached": 1710,
+      "semi": 30,
+      "row": 20,
+      "duplex": 40,
+      "lowrise": 160,
+      "highrise": 0,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "stone-mills": {
+    "geographies": [
+      {
+        "dguid": "2021A00053511030",
+        "name": "Stone Mills"
+      }
+    ],
+    "counts": {
+      "total": 3070,
+      "detached": 2935,
+      "semi": 30,
+      "row": 5,
+      "duplex": 15,
+      "lowrise": 65,
+      "highrise": 0,
+      "other": 10,
+      "movable": 5
+    }
+  },
+  "stratford": {
+    "geographies": [
+      {
+        "dguid": "2021A00053531011",
+        "name": "Stratford"
+      }
+    ],
+    "counts": {
+      "total": 14745,
+      "detached": 7805,
+      "semi": 1535,
+      "row": 940,
+      "duplex": 670,
+      "lowrise": 2950,
+      "highrise": 820,
+      "other": 30,
+      "movable": 0
+    }
+  },
+  "strathroy-caradoc": {
+    "geographies": [
+      {
+        "dguid": "2021A00053539015",
+        "name": "Strathroy-Caradoc"
+      }
+    ],
+    "counts": {
+      "total": 9450,
+      "detached": 6870,
+      "semi": 650,
+      "row": 370,
+      "duplex": 85,
+      "lowrise": 1260,
+      "highrise": 0,
+      "other": 25,
+      "movable": 190
+    }
+  },
+  "strong": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549046",
+        "name": "Strong"
+      }
+    ],
+    "counts": {
+      "total": 660,
+      "detached": 625,
+      "semi": 15,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "sundridge": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549048",
+        "name": "Sundridge"
+      }
+    ],
+    "counts": {
+      "total": 435,
+      "detached": 395,
+      "semi": 5,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 35,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "tarbutt": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557014",
+        "name": "Tarbutt and Tarbutt Additional"
+      }
+    ],
+    "counts": {
+      "total": 235,
+      "detached": 235,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "tay": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543071",
+        "name": "Tay"
+      }
+    ],
+    "counts": {
+      "total": 4535,
+      "detached": 4180,
+      "semi": 50,
+      "row": 55,
+      "duplex": 60,
+      "lowrise": 125,
+      "highrise": 0,
+      "other": 5,
+      "movable": 55
+    }
+  },
+  "tay-valley": {
+    "geographies": [
+      {
+        "dguid": "2021A00053509015",
+        "name": "Tay Valley"
+      }
+    ],
+    "counts": {
+      "total": 2420,
+      "detached": 2355,
+      "semi": 10,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 30,
+      "highrise": 0,
+      "other": 5,
+      "movable": 15
+    }
+  },
+  "tecumseh": {
+    "geographies": [
+      {
+        "dguid": "2021A00053537048",
+        "name": "Tecumseh"
+      }
+    ],
+    "counts": {
+      "total": 8945,
+      "detached": 7255,
+      "semi": 495,
+      "row": 475,
+      "duplex": 70,
+      "lowrise": 140,
+      "highrise": 515,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "tehkummah": {
+    "geographies": [
+      {
+        "dguid": "2021A00053551001",
+        "name": "Tehkummah"
+      }
+    ],
+    "counts": {
+      "total": 225,
+      "detached": 210,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "temagami": {
+    "geographies": [
+      {
+        "dguid": "2021A00053548069",
+        "name": "Temagami"
+      }
+    ],
+    "counts": {
+      "total": 430,
+      "detached": 345,
+      "semi": 5,
+      "row": 0,
+      "duplex": 20,
+      "lowrise": 20,
+      "highrise": 0,
+      "other": 0,
+      "movable": 40
+    }
+  },
+  "temiskaming-shores": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554020",
+        "name": "Temiskaming Shores"
+      }
+    ],
+    "counts": {
+      "total": 4260,
+      "detached": 3345,
+      "semi": 75,
+      "row": 30,
+      "duplex": 140,
+      "lowrise": 590,
+      "highrise": 45,
+      "other": 25,
+      "movable": 15
+    }
+  },
+  "terrace-bay": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558054",
+        "name": "Terrace Bay"
+      }
+    ],
+    "counts": {
+      "total": 715,
+      "detached": 615,
+      "semi": 10,
+      "row": 10,
+      "duplex": 0,
+      "lowrise": 70,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "thames-centre": {
+    "geographies": [
+      {
+        "dguid": "2021A00053539027",
+        "name": "Thames Centre"
+      }
+    ],
+    "counts": {
+      "total": 5185,
+      "detached": 4610,
+      "semi": 120,
+      "row": 120,
+      "duplex": 20,
+      "lowrise": 195,
+      "highrise": 15,
+      "other": 15,
+      "movable": 95
+    }
+  },
+  "the-archipelago": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549005",
+        "name": "The Archipelago"
+      }
+    ],
+    "counts": {
+      "total": 500,
+      "detached": 490,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 5,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "the-blue-mountains": {
+    "geographies": [
+      {
+        "dguid": "2021A00053542045",
+        "name": "The Blue Mountains"
+      }
+    ],
+    "counts": {
+      "total": 4345,
+      "detached": 3480,
+      "semi": 35,
+      "row": 450,
+      "duplex": 25,
+      "lowrise": 295,
+      "highrise": 30,
+      "other": 5,
+      "movable": 20
+    }
+  },
+  "the-nation-municipality": {
+    "geographies": [
+      {
+        "dguid": "2021A00053502025",
+        "name": "The Nation"
+      }
+    ],
+    "counts": {
+      "total": 5105,
+      "detached": 4245,
+      "semi": 235,
+      "row": 80,
+      "duplex": 105,
+      "lowrise": 405,
+      "highrise": 0,
+      "other": 5,
+      "movable": 25
+    }
+  },
+  "the-north-shore": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557040",
+        "name": "The North Shore"
+      }
+    ],
+    "counts": {
+      "total": 245,
+      "detached": 235,
+      "semi": 0,
+      "row": 0,
+      "duplex": 10,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "thessalon": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557028",
+        "name": "Thessalon"
+      }
+    ],
+    "counts": {
+      "total": 560,
+      "detached": 455,
+      "semi": 10,
+      "row": 5,
+      "duplex": 30,
+      "lowrise": 60,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "thornloe": {
+    "geographies": [
+      {
+        "dguid": "2021A00053554038",
+        "name": "Thornloe"
+      }
+    ],
+    "counts": {
+      "total": 45,
+      "detached": 35,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "thorold": {
+    "geographies": [
+      {
+        "dguid": "2021A00053526037",
+        "name": "Thorold"
+      }
+    ],
+    "counts": {
+      "total": 9095,
+      "detached": 6290,
+      "semi": 815,
+      "row": 445,
+      "duplex": 340,
+      "lowrise": 1035,
+      "highrise": 165,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "thunder-bay": {
+    "geographies": [
+      {
+        "dguid": "2021A00053558004",
+        "name": "Thunder Bay"
+      }
+    ],
+    "counts": {
+      "total": 48405,
+      "detached": 31685,
+      "semi": 2075,
+      "row": 1445,
+      "duplex": 2425,
+      "lowrise": 7865,
+      "highrise": 2575,
+      "other": 115,
+      "movable": 215
+    }
+  },
+  "tillsonburg": {
+    "geographies": [
+      {
+        "dguid": "2021A00053532004",
+        "name": "Tillsonburg"
+      }
+    ],
+    "counts": {
+      "total": 8230,
+      "detached": 5575,
+      "semi": 285,
+      "row": 495,
+      "duplex": 205,
+      "lowrise": 1135,
+      "highrise": 495,
+      "other": 25,
+      "movable": 10
+    }
+  },
+  "timmins": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556027",
+        "name": "Timmins"
+      }
+    ],
+    "counts": {
+      "total": 17885,
+      "detached": 11650,
+      "semi": 1185,
+      "row": 605,
+      "duplex": 1100,
+      "lowrise": 2480,
+      "highrise": 510,
+      "other": 85,
+      "movable": 265
+    }
+  },
+  "tiny": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543068",
+        "name": "Tiny"
+      }
+    ],
+    "counts": {
+      "total": 5435,
+      "detached": 5290,
+      "semi": 15,
+      "row": 5,
+      "duplex": 45,
+      "lowrise": 60,
+      "highrise": 10,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "toronto": {
+    "geographies": [
+      {
+        "dguid": "2021A00053520005",
+        "name": "Toronto"
+      }
+    ],
+    "counts": {
+      "total": 1160895,
+      "detached": 270490,
+      "semi": 71955,
+      "row": 62910,
+      "duplex": 47815,
+      "lowrise": 162245,
+      "highrise": 542625,
+      "other": 2770,
+      "movable": 80
+    }
+  },
+  "trent-hills": {
+    "geographies": [
+      {
+        "dguid": "2021A00053514045",
+        "name": "Trent Hills"
+      }
+    ],
+    "counts": {
+      "total": 5900,
+      "detached": 5215,
+      "semi": 65,
+      "row": 120,
+      "duplex": 90,
+      "lowrise": 365,
+      "highrise": 5,
+      "other": 15,
+      "movable": 25
+    }
+  },
+  "trent-lakes": {
+    "geographies": [
+      {
+        "dguid": "2021A00053515044",
+        "name": "Trent Lakes"
+      }
+    ],
+    "counts": {
+      "total": 2955,
+      "detached": 2910,
+      "semi": 5,
+      "row": 0,
+      "duplex": 15,
+      "lowrise": 10,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "tudor-and-cashel": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512048",
+        "name": "Tudor and Cashel"
+      }
+    ],
+    "counts": {
+      "total": 350,
+      "detached": 330,
+      "semi": 5,
+      "row": 0,
+      "duplex": 5,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "tweed": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512030",
+        "name": "Tweed"
+      }
+    ],
+    "counts": {
+      "total": 2595,
+      "detached": 2290,
+      "semi": 60,
+      "row": 20,
+      "duplex": 25,
+      "lowrise": 165,
+      "highrise": 0,
+      "other": 15,
+      "movable": 15
+    }
+  },
+  "tyendinaga": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512001",
+        "name": "Tyendinaga"
+      }
+    ],
+    "counts": {
+      "total": 1650,
+      "detached": 1595,
+      "semi": 10,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 30,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "uxbridge": {
+    "geographies": [
+      {
+        "dguid": "2021A00053518029",
+        "name": "Uxbridge"
+      }
+    ],
+    "counts": {
+      "total": 8005,
+      "detached": 6520,
+      "semi": 120,
+      "row": 390,
+      "duplex": 150,
+      "lowrise": 675,
+      "highrise": 135,
+      "other": 15,
+      "movable": 5
+    }
+  },
+  "val-rita-harty": {
+    "geographies": [
+      {
+        "dguid": "2021A00053556070",
+        "name": "Val Rita-Harty"
+      }
+    ],
+    "counts": {
+      "total": 325,
+      "detached": 285,
+      "semi": 5,
+      "row": 15,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 0,
+      "movable": 20
+    }
+  },
+  "vaughan": {
+    "geographies": [
+      {
+        "dguid": "2021A00053519028",
+        "name": "Vaughan"
+      }
+    ],
+    "counts": {
+      "total": 103915,
+      "detached": 64995,
+      "semi": 7960,
+      "row": 11410,
+      "duplex": 3490,
+      "lowrise": 2260,
+      "highrise": 13755,
+      "other": 30,
+      "movable": 10
+    }
+  },
+  "wainfleet": {
+    "geographies": [
+      {
+        "dguid": "2021A00053526014",
+        "name": "Wainfleet"
+      }
+    ],
+    "counts": {
+      "total": 2615,
+      "detached": 2505,
+      "semi": 20,
+      "row": 0,
+      "duplex": 10,
+      "lowrise": 30,
+      "highrise": 0,
+      "other": 15,
+      "movable": 40
+    }
+  },
+  "warwick": {
+    "geographies": [
+      {
+        "dguid": "2021A00053538043",
+        "name": "Warwick"
+      }
+    ],
+    "counts": {
+      "total": 1355,
+      "detached": 1205,
+      "semi": 15,
+      "row": 40,
+      "duplex": 10,
+      "lowrise": 70,
+      "highrise": 0,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "wasaga-beach": {
+    "geographies": [
+      {
+        "dguid": "2021A00053543064",
+        "name": "Wasaga Beach"
+      }
+    ],
+    "counts": {
+      "total": 10810,
+      "detached": 8930,
+      "semi": 255,
+      "row": 910,
+      "duplex": 140,
+      "lowrise": 510,
+      "highrise": 0,
+      "other": 25,
+      "movable": 35
+    }
+  },
+  "waterloo": {
+    "geographies": [
+      {
+        "dguid": "2021A00053530016",
+        "name": "Waterloo"
+      }
+    ],
+    "counts": {
+      "total": 47040,
+      "detached": 23145,
+      "semi": 2120,
+      "row": 5375,
+      "duplex": 1010,
+      "lowrise": 4940,
+      "highrise": 10335,
+      "other": 15,
+      "movable": 95
+    }
+  },
+  "wawa": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557076",
+        "name": "Wawa"
+      }
+    ],
+    "counts": {
+      "total": 1210,
+      "detached": 990,
+      "semi": 20,
+      "row": 40,
+      "duplex": 5,
+      "lowrise": 135,
+      "highrise": 0,
+      "other": 0,
+      "movable": 20
+    }
+  },
+  "welland": {
+    "geographies": [
+      {
+        "dguid": "2021A00053526032",
+        "name": "Welland"
+      }
+    ],
+    "counts": {
+      "total": 23655,
+      "detached": 15270,
+      "semi": 1680,
+      "row": 1055,
+      "duplex": 1100,
+      "lowrise": 2960,
+      "highrise": 1475,
+      "other": 115,
+      "movable": 5
+    }
+  },
+  "wellesley": {
+    "geographies": [
+      {
+        "dguid": "2021A00053530027",
+        "name": "Wellesley"
+      }
+    ],
+    "counts": {
+      "total": 3365,
+      "detached": 2845,
+      "semi": 325,
+      "row": 40,
+      "duplex": 35,
+      "lowrise": 110,
+      "highrise": 0,
+      "other": 0,
+      "movable": 5
+    }
+  },
+  "wellington-north": {
+    "geographies": [
+      {
+        "dguid": "2021A00053523050",
+        "name": "Wellington North"
+      }
+    ],
+    "counts": {
+      "total": 4795,
+      "detached": 3590,
+      "semi": 150,
+      "row": 230,
+      "duplex": 35,
+      "lowrise": 745,
+      "highrise": 0,
+      "other": 25,
+      "movable": 15
+    }
+  },
+  "west-elgin": {
+    "geographies": [
+      {
+        "dguid": "2021A00053534042",
+        "name": "West Elgin"
+      }
+    ],
+    "counts": {
+      "total": 2105,
+      "detached": 1915,
+      "semi": 15,
+      "row": 0,
+      "duplex": 30,
+      "lowrise": 135,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "west-grey": {
+    "geographies": [
+      {
+        "dguid": "2021A00053542004",
+        "name": "West Grey"
+      }
+    ],
+    "counts": {
+      "total": 5285,
+      "detached": 4640,
+      "semi": 60,
+      "row": 100,
+      "duplex": 65,
+      "lowrise": 290,
+      "highrise": 0,
+      "other": 20,
+      "movable": 100
+    }
+  },
+  "west-lincoln": {
+    "geographies": [
+      {
+        "dguid": "2021A00053526021",
+        "name": "West Lincoln"
+      }
+    ],
+    "counts": {
+      "total": 5295,
+      "detached": 4430,
+      "semi": 270,
+      "row": 415,
+      "duplex": 30,
+      "lowrise": 135,
+      "highrise": 0,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "west-nipissing": {
+    "geographies": [
+      {
+        "dguid": "2021A00053548055",
+        "name": "West Nipissing"
+      }
+    ],
+    "counts": {
+      "total": 6410,
+      "detached": 4755,
+      "semi": 215,
+      "row": 105,
+      "duplex": 355,
+      "lowrise": 900,
+      "highrise": 0,
+      "other": 40,
+      "movable": 50
+    }
+  },
+  "west-perth": {
+    "geographies": [
+      {
+        "dguid": "2021A00053531025",
+        "name": "West Perth"
+      }
+    ],
+    "counts": {
+      "total": 3430,
+      "detached": 3015,
+      "semi": 75,
+      "row": 70,
+      "duplex": 25,
+      "lowrise": 240,
+      "highrise": 5,
+      "other": 0,
+      "movable": 10
+    }
+  },
+  "westport": {
+    "geographies": [
+      {
+        "dguid": "2021A00053507033",
+        "name": "Westport"
+      }
+    ],
+    "counts": {
+      "total": 330,
+      "detached": 215,
+      "semi": 15,
+      "row": 25,
+      "duplex": 15,
+      "lowrise": 60,
+      "highrise": 0,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "whitby": {
+    "geographies": [
+      {
+        "dguid": "2021A00053518009",
+        "name": "Whitby"
+      }
+    ],
+    "counts": {
+      "total": 46460,
+      "detached": 32300,
+      "semi": 1385,
+      "row": 6135,
+      "duplex": 870,
+      "lowrise": 2440,
+      "highrise": 3305,
+      "other": 20,
+      "movable": 10
+    }
+  },
+  "whitchurch-stouffville": {
+    "geographies": [
+      {
+        "dguid": "2021A00053519044",
+        "name": "Whitchurch-Stouffville"
+      }
+    ],
+    "counts": {
+      "total": 16710,
+      "detached": 12420,
+      "semi": 830,
+      "row": 1810,
+      "duplex": 450,
+      "lowrise": 945,
+      "highrise": 255,
+      "other": 10,
+      "movable": 0
+    }
+  },
+  "white-river": {
+    "geographies": [
+      {
+        "dguid": "2021A00053557091",
+        "name": "White River"
+      }
+    ],
+    "counts": {
+      "total": 270,
+      "detached": 185,
+      "semi": 35,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 50,
+      "highrise": 0,
+      "other": 0,
+      "movable": 0
+    }
+  },
+  "whitestone": {
+    "geographies": [
+      {
+        "dguid": "2021A00053549039",
+        "name": "Whitestone"
+      }
+    ],
+    "counts": {
+      "total": 550,
+      "detached": 535,
+      "semi": 0,
+      "row": 0,
+      "duplex": 0,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 5,
+      "movable": 10
+    }
+  },
+  "whitewater-region": {
+    "geographies": [
+      {
+        "dguid": "2021A00053547056",
+        "name": "Whitewater Region"
+      }
+    ],
+    "counts": {
+      "total": 2910,
+      "detached": 2665,
+      "semi": 15,
+      "row": 45,
+      "duplex": 40,
+      "lowrise": 95,
+      "highrise": 0,
+      "other": 10,
+      "movable": 40
+    }
+  },
+  "wilmot": {
+    "geographies": [
+      {
+        "dguid": "2021A00053530020",
+        "name": "Wilmot"
+      }
+    ],
+    "counts": {
+      "total": 7890,
+      "detached": 6250,
+      "semi": 680,
+      "row": 255,
+      "duplex": 130,
+      "lowrise": 550,
+      "highrise": 0,
+      "other": 15,
+      "movable": 15
+    }
+  },
+  "windsor": {
+    "geographies": [
+      {
+        "dguid": "2021A00053537039",
+        "name": "Windsor"
+      }
+    ],
+    "counts": {
+      "total": 94270,
+      "detached": 56620,
+      "semi": 4370,
+      "row": 6205,
+      "duplex": 3960,
+      "lowrise": 10750,
+      "highrise": 12250,
+      "other": 105,
+      "movable": 10
+    }
+  },
+  "wollaston": {
+    "geographies": [
+      {
+        "dguid": "2021A00053512054",
+        "name": "Wollaston"
+      }
+    ],
+    "counts": {
+      "total": 350,
+      "detached": 335,
+      "semi": 5,
+      "row": 5,
+      "duplex": 5,
+      "lowrise": 0,
+      "highrise": 0,
+      "other": 5,
+      "movable": 5
+    }
+  },
+  "woodstock": {
+    "geographies": [
+      {
+        "dguid": "2021A00053532042",
+        "name": "Woodstock"
+      }
+    ],
+    "counts": {
+      "total": 18885,
+      "detached": 10855,
+      "semi": 1455,
+      "row": 2200,
+      "duplex": 390,
+      "lowrise": 2285,
+      "highrise": 1680,
+      "other": 25,
+      "movable": 0
+    }
+  },
+  "woolwich": {
+    "geographies": [
+      {
+        "dguid": "2021A00053530035",
+        "name": "Woolwich"
+      }
+    ],
+    "counts": {
+      "total": 9355,
+      "detached": 7095,
+      "semi": 770,
+      "row": 535,
+      "duplex": 125,
+      "lowrise": 725,
+      "highrise": 0,
+      "other": 20,
+      "movable": 90
+    }
+  },
+  "zorra": {
+    "geographies": [
+      {
+        "dguid": "2021A00053532027",
+        "name": "Zorra"
+      }
+    ],
+    "counts": {
+      "total": 3160,
+      "detached": 2960,
+      "semi": 15,
+      "row": 10,
+      "duplex": 15,
+      "lowrise": 95,
+      "highrise": 0,
+      "other": 0,
+      "movable": 75
+    }
+  },
+  "north-york": {
+    "geographies": [
+      {
+        "dguid": "2021A00053520005",
+        "name": "Toronto"
+      }
+    ],
+    "counts": {
+      "total": 1160895,
+      "detached": 270490,
+      "semi": 71955,
+      "row": 62910,
+      "duplex": 47815,
+      "lowrise": 162245,
+      "highrise": 542625,
+      "other": 2770,
+      "movable": 80
+    }
+  },
+  "vancouver": {
+    "geographies": [
+      {
+        "dguid": "2021A00055915022",
+        "name": "Vancouver"
+      }
+    ],
+    "counts": {
+      "total": 305335,
+      "detached": 44755,
+      "semi": 4805,
+      "row": 10820,
+      "duplex": 54305,
+      "lowrise": 95120,
+      "highrise": 94820,
+      "other": 700,
+      "movable": 20
+    }
+  },
+  "surrey": {
+    "geographies": [
+      {
+        "dguid": "2021A00055915004",
+        "name": "Surrey"
+      }
+    ],
+    "counts": {
+      "total": 185675,
+      "detached": 60895,
+      "semi": 3795,
+      "row": 30930,
+      "duplex": 42540,
+      "lowrise": 37465,
+      "highrise": 8830,
+      "other": 155,
+      "movable": 1055
+    }
+  },
+  "burnaby": {
+    "geographies": [
+      {
+        "dguid": "2021A00055915025",
+        "name": "Burnaby"
+      }
+    ],
+    "counts": {
+      "total": 101135,
+      "detached": 19080,
+      "semi": 2880,
+      "row": 8775,
+      "duplex": 16655,
+      "lowrise": 23835,
+      "highrise": 29715,
+      "other": 200,
+      "movable": 0
+    }
+  },
+  "richmond": {
+    "geographies": [
+      {
+        "dguid": "2021A00055915015",
+        "name": "Richmond"
+      }
+    ],
+    "counts": {
+      "total": 81080,
+      "detached": 24435,
+      "semi": 1585,
+      "row": 15950,
+      "duplex": 4985,
+      "lowrise": 18585,
+      "highrise": 15470,
+      "other": 20,
+      "movable": 50
+    }
+  },
+  "coquitlam": {
+    "geographies": [
+      {
+        "dguid": "2021A00055915034",
+        "name": "Coquitlam"
+      }
+    ],
+    "counts": {
+      "total": 55950,
+      "detached": 19700,
+      "semi": 1635,
+      "row": 5505,
+      "duplex": 8590,
+      "lowrise": 11860,
+      "highrise": 8375,
+      "other": 35,
+      "movable": 255
+    }
+  },
+  "langley": {
+    "geographies": [
+      {
+        "dguid": "2021A00055915001",
+        "name": "Langley"
+      },
+      {
+        "dguid": "2021A00055915002",
+        "name": "Langley"
+      }
+    ],
+    "counts": {
+      "total": 59520,
+      "detached": 25015,
+      "semi": 1320,
+      "row": 11300,
+      "duplex": 7450,
+      "lowrise": 10870,
+      "highrise": 1530,
+      "other": 70,
+      "movable": 1970
+    }
+  },
+  "abbotsford": {
+    "geographies": [
+      {
+        "dguid": "2021A00055909052",
+        "name": "Abbotsford"
+      }
+    ],
+    "counts": {
+      "total": 53235,
+      "detached": 19770,
+      "semi": 1425,
+      "row": 4800,
+      "duplex": 11395,
+      "lowrise": 14430,
+      "highrise": 1075,
+      "other": 40,
+      "movable": 285
+    }
+  },
+  "victoria": {
+    "geographies": [
+      {
+        "dguid": "2021A00055917034",
+        "name": "Victoria"
+      }
+    ],
+    "counts": {
+      "total": 49220,
+      "detached": 6685,
+      "semi": 1145,
+      "row": 2300,
+      "duplex": 4455,
+      "lowrise": 23515,
+      "highrise": 11005,
+      "other": 85,
+      "movable": 35
+    }
+  },
+  "nanaimo": {
+    "geographies": [
+      {
+        "dguid": "2021A00055921007",
+        "name": "Nanaimo"
+      }
+    ],
+    "counts": {
+      "total": 43165,
+      "detached": 22215,
+      "semi": 2145,
+      "row": 1970,
+      "duplex": 6045,
+      "lowrise": 8240,
+      "highrise": 1390,
+      "other": 85,
+      "movable": 1085
+    }
+  },
+  "kelowna": {
+    "geographies": [
+      {
+        "dguid": "2021A00055935010",
+        "name": "Kelowna"
+      }
+    ],
+    "counts": {
+      "total": 62210,
+      "detached": 26435,
+      "semi": 3040,
+      "row": 4940,
+      "duplex": 6645,
+      "lowrise": 17810,
+      "highrise": 2405,
+      "other": 120,
+      "movable": 810
+    }
+  },
+  "kamloops": {
+    "geographies": [
+      {
+        "dguid": "2021A00055933042",
+        "name": "Kamloops"
+      }
+    ],
+    "counts": {
+      "total": 39915,
+      "detached": 20080,
+      "semi": 3065,
+      "row": 3880,
+      "duplex": 3835,
+      "lowrise": 6585,
+      "highrise": 850,
+      "other": 80,
+      "movable": 1535
+    }
+  },
+  "prince-george": {
+    "geographies": [
+      {
+        "dguid": "2021A00055953023",
+        "name": "Prince George"
+      }
+    ],
+    "counts": {
+      "total": 31795,
+      "detached": 18470,
+      "semi": 1290,
+      "row": 1845,
+      "duplex": 2475,
+      "lowrise": 4740,
+      "highrise": 570,
+      "other": 25,
+      "movable": 2375
+    }
+  },
+  "chilliwack": {
+    "geographies": [
+      {
+        "dguid": "2021A00055909020",
+        "name": "Chilliwack"
+      }
+    ],
+    "counts": {
+      "total": 35755,
+      "detached": 19290,
+      "semi": 1440,
+      "row": 5470,
+      "duplex": 1670,
+      "lowrise": 7175,
+      "highrise": 265,
+      "other": 35,
+      "movable": 420
+    }
+  },
+  "north-vancouver": {
+    "geographies": [
+      {
+        "dguid": "2021A00055915046",
+        "name": "North Vancouver"
+      },
+      {
+        "dguid": "2021A00055915051",
+        "name": "North Vancouver"
+      }
+    ],
+    "counts": {
+      "total": 59995,
+      "detached": 19020,
+      "semi": 1440,
+      "row": 5040,
+      "duplex": 8950,
+      "lowrise": 14845,
+      "highrise": 10650,
+      "other": 25,
+      "movable": 10
+    }
+  },
+  "new-westminster": {
+    "geographies": [
+      {
+        "dguid": "2021A00055915029",
+        "name": "New Westminster"
+      }
+    ],
+    "counts": {
+      "total": 36100,
+      "detached": 5000,
+      "semi": 220,
+      "row": 2060,
+      "duplex": 3670,
+      "lowrise": 12565,
+      "highrise": 12525,
+      "other": 45,
+      "movable": 30
+    }
+  },
+  "maple-ridge": {
+    "geographies": [
+      {
+        "dguid": "2021A00055915075",
+        "name": "Maple Ridge"
+      }
+    ],
+    "counts": {
+      "total": 33105,
+      "detached": 17410,
+      "semi": 950,
+      "row": 4405,
+      "duplex": 4375,
+      "lowrise": 4760,
+      "highrise": 1005,
+      "other": 10,
+      "movable": 190
+    }
+  },
+  "calgary": {
+    "geographies": [
+      {
+        "dguid": "2021A00054806016",
+        "name": "Calgary"
+      }
+    ],
+    "counts": {
+      "total": 502300,
+      "detached": 276055,
+      "semi": 31660,
+      "row": 48860,
+      "duplex": 21165,
+      "lowrise": 81875,
+      "highrise": 40700,
+      "other": 200,
+      "movable": 1790
+    }
+  },
+  "edmonton": {
+    "geographies": [
+      {
+        "dguid": "2021A00054811061",
+        "name": "Edmonton"
+      }
+    ],
+    "counts": {
+      "total": 396405,
+      "detached": 196535,
+      "semi": 28145,
+      "row": 38855,
+      "duplex": 10150,
+      "lowrise": 91245,
+      "highrise": 29405,
+      "other": 90,
+      "movable": 1970
+    }
+  },
+  "red-deer": {
+    "geographies": [
+      {
+        "dguid": "2021A00054808011",
+        "name": "Red Deer"
+      }
+    ],
+    "counts": {
+      "total": 40515,
+      "detached": 21515,
+      "semi": 3275,
+      "row": 4075,
+      "duplex": 1480,
+      "lowrise": 8495,
+      "highrise": 590,
+      "other": 30,
+      "movable": 1045
+    }
+  },
+  "lethbridge": {
+    "geographies": [
+      {
+        "dguid": "2021A00054802012",
+        "name": "Lethbridge"
+      }
+    ],
+    "counts": {
+      "total": 40225,
+      "detached": 25185,
+      "semi": 2490,
+      "row": 2465,
+      "duplex": 3040,
+      "lowrise": 5440,
+      "highrise": 820,
+      "other": 15,
+      "movable": 765
+    }
+  },
+  "medicine-hat": {
+    "geographies": [
+      {
+        "dguid": "2021A00054801006",
+        "name": "Medicine Hat"
+      }
+    ],
+    "counts": {
+      "total": 27215,
+      "detached": 17250,
+      "semi": 1550,
+      "row": 1725,
+      "duplex": 485,
+      "lowrise": 5100,
+      "highrise": 230,
+      "other": 25,
+      "movable": 860
+    }
+  },
+  "grande-prairie": {
+    "geographies": [
+      {
+        "dguid": "2021A00054819012",
+        "name": "Grande Prairie"
+      }
+    ],
+    "counts": {
+      "total": 24815,
+      "detached": 15280,
+      "semi": 1760,
+      "row": 1085,
+      "duplex": 1105,
+      "lowrise": 4580,
+      "highrise": 160,
+      "other": 5,
+      "movable": 835
+    }
+  },
+  "fort-mcmurray": {
+    "geographies": [
+      {
+        "dguid": "2021A00054816037",
+        "name": "Wood Buffalo"
+      }
+    ],
+    "counts": {
+      "total": 25935,
+      "detached": 12480,
+      "semi": 1225,
+      "row": 2745,
+      "duplex": 470,
+      "lowrise": 5645,
+      "highrise": 845,
+      "other": 5,
+      "movable": 2515
+    }
+  },
+  "airdrie": {
+    "geographies": [
+      {
+        "dguid": "2021A00054806021",
+        "name": "Airdrie"
+      }
+    ],
+    "counts": {
+      "total": 26300,
+      "detached": 17210,
+      "semi": 1610,
+      "row": 3830,
+      "duplex": 95,
+      "lowrise": 3260,
+      "highrise": 45,
+      "other": 75,
+      "movable": 175
+    }
+  },
+  "st-albert": {
+    "geographies": [
+      {
+        "dguid": "2021A00054811062",
+        "name": "St. Albert"
+      }
+    ],
+    "counts": {
+      "total": 25940,
+      "detached": 18265,
+      "semi": 1805,
+      "row": 1870,
+      "duplex": 185,
+      "lowrise": 3470,
+      "highrise": 295,
+      "other": 0,
+      "movable": 60
+    }
+  },
+  "winnipeg": {
+    "geographies": [
+      {
+        "dguid": "2021A00054611040",
+        "name": "Winnipeg"
+      }
+    ],
+    "counts": {
+      "total": 300430,
+      "detached": 172765,
+      "semi": 12010,
+      "row": 11705,
+      "duplex": 5515,
+      "lowrise": 56430,
+      "highrise": 41055,
+      "other": 285,
+      "movable": 670
+    }
+  },
+  "brandon": {
+    "geographies": [
+      {
+        "dguid": "2021A00054607062",
+        "name": "Brandon"
+      }
+    ],
+    "counts": {
+      "total": 21205,
+      "detached": 11050,
+      "semi": 915,
+      "row": 1600,
+      "duplex": 530,
+      "lowrise": 5215,
+      "highrise": 725,
+      "other": 35,
+      "movable": 1140
+    }
+  },
+  "saskatoon": {
+    "geographies": [
+      {
+        "dguid": "2021A00054711066",
+        "name": "Saskatoon"
+      }
+    ],
+    "counts": {
+      "total": 107050,
+      "detached": 58315,
+      "semi": 3980,
+      "row": 7440,
+      "duplex": 6550,
+      "lowrise": 25640,
+      "highrise": 4720,
+      "other": 40,
+      "movable": 380
+    }
+  },
+  "regina": {
+    "geographies": [
+      {
+        "dguid": "2021A00054706027",
+        "name": "Regina"
+      }
+    ],
+    "counts": {
+      "total": 92130,
+      "detached": 58120,
+      "semi": 2630,
+      "row": 6025,
+      "duplex": 2210,
+      "lowrise": 18560,
+      "highrise": 4395,
+      "other": 30,
+      "movable": 165
+    }
+  },
+  "prince-albert": {
+    "geographies": [
+      {
+        "dguid": "2021A00054715066",
+        "name": "Prince Albert"
+      }
+    ],
+    "counts": {
+      "total": 14310,
+      "detached": 9245,
+      "semi": 485,
+      "row": 490,
+      "duplex": 310,
+      "lowrise": 3145,
+      "highrise": 625,
+      "other": 10,
+      "movable": 5
+    }
+  },
+  "moose-jaw": {
+    "geographies": [
+      {
+        "dguid": "2021A00054707039",
+        "name": "Moose Jaw"
+      }
+    ],
+    "counts": {
+      "total": 14720,
+      "detached": 10400,
+      "semi": 340,
+      "row": 405,
+      "duplex": 360,
+      "lowrise": 2240,
+      "highrise": 640,
+      "other": 75,
+      "movable": 260
+    }
+  },
+  "whitehorse": {
+    "geographies": [
+      {
+        "dguid": "2021A00056001009",
+        "name": "Whitehorse"
+      }
+    ],
+    "counts": {
+      "total": 11440,
+      "detached": 5530,
+      "semi": 1030,
+      "row": 1150,
+      "duplex": 645,
+      "lowrise": 1825,
+      "highrise": 55,
+      "other": 65,
+      "movable": 1125
+    }
+  },
+  "yellowknife": {
+    "geographies": [
+      {
+        "dguid": "2021A00056106023",
+        "name": "Yellowknife"
+      }
+    ],
+    "counts": {
+      "total": 7520,
+      "detached": 3330,
+      "semi": 195,
+      "row": 885,
+      "duplex": 305,
+      "lowrise": 1940,
+      "highrise": 295,
+      "other": 20,
+      "movable": 545
+    }
+  },
+  "iqaluit": {
+    "geographies": [
+      {
+        "dguid": "2021A00056204003",
+        "name": "Iqaluit"
+      }
+    ],
+    "counts": {
+      "total": 2705,
+      "detached": 690,
+      "semi": 210,
+      "row": 655,
+      "duplex": 15,
+      "lowrise": 1040,
+      "highrise": 100,
+      "other": 5,
+      "movable": 0
+    }
+  },
+  "delta": {
+    "geographies": [
+      {
+        "dguid": "2021A00055915011",
+        "name": "Delta"
+      }
+    ],
+    "counts": {
+      "total": 38060,
+      "detached": 21135,
+      "semi": 1120,
+      "row": 2115,
+      "duplex": 7320,
+      "lowrise": 5550,
+      "highrise": 630,
+      "other": 30,
+      "movable": 165
+    }
+  },
+  "saanich": {
+    "geographies": [
+      {
+        "dguid": "2021A00055917021",
+        "name": "Saanich"
+      }
+    ],
+    "counts": {
+      "total": 48045,
+      "detached": 22380,
+      "semi": 1205,
+      "row": 3660,
+      "duplex": 10345,
+      "lowrise": 9755,
+      "highrise": 630,
+      "other": 65,
+      "movable": 15
+    }
+  },
+  "spruce-grove": {
+    "geographies": [
+      {
+        "dguid": "2021A00054811049",
+        "name": "Spruce Grove"
+      }
+    ],
+    "counts": {
+      "total": 14275,
+      "detached": 9040,
+      "semi": 1815,
+      "row": 830,
+      "duplex": 60,
+      "lowrise": 2115,
+      "highrise": 70,
+      "other": 5,
+      "movable": 330
+    }
+  },
+  "leduc": {
+    "geographies": [
+      {
+        "dguid": "2021A00054811016",
+        "name": "Leduc"
+      }
+    ],
+    "counts": {
+      "total": 12965,
+      "detached": 8190,
+      "semi": 1135,
+      "row": 1115,
+      "duplex": 160,
+      "lowrise": 1585,
+      "highrise": 415,
+      "other": 5,
+      "movable": 350
+    }
+  },
+  "montreal": {
+    "geographies": [
+      {
+        "dguid": "2021A00052466023",
+        "name": "Montréal"
+      }
+    ],
+    "counts": {
+      "total": 816335,
+      "detached": 58065,
+      "semi": 25740,
+      "row": 26170,
+      "duplex": 107570,
+      "lowrise": 464415,
+      "highrise": 130615,
+      "other": 3350,
+      "movable": 410
+    }
+  },
+  "quebec-city": {
+    "geographies": [
+      {
+        "dguid": "2021A00052423027",
+        "name": "Québec"
+      }
+    ],
+    "counts": {
+      "total": 265710,
+      "detached": 80880,
+      "semi": 14015,
+      "row": 6940,
+      "duplex": 17105,
+      "lowrise": 120780,
+      "highrise": 23525,
+      "other": 1075,
+      "movable": 1385
+    }
+  },
+  "laval": {
+    "geographies": [
+      {
+        "dguid": "2021A00052465005",
+        "name": "Laval"
+      }
+    ],
+    "counts": {
+      "total": 169785,
+      "detached": 76010,
+      "semi": 15265,
+      "row": 4950,
+      "duplex": 4895,
+      "lowrise": 51730,
+      "highrise": 16575,
+      "other": 310,
+      "movable": 55
+    }
+  },
+  "longueuil": {
+    "geographies": [
+      {
+        "dguid": "2021A00052458227",
+        "name": "Longueuil"
+      }
+    ],
+    "counts": {
+      "total": 113085,
+      "detached": 36095,
+      "semi": 5790,
+      "row": 3485,
+      "duplex": 6210,
+      "lowrise": 55550,
+      "highrise": 4845,
+      "other": 555,
+      "movable": 555
+    }
+  },
+  "gatineau": {
+    "geographies": [
+      {
+        "dguid": "2021A00052481017",
+        "name": "Gatineau"
+      }
+    ],
+    "counts": {
+      "total": 126475,
+      "detached": 46215,
+      "semi": 18050,
+      "row": 8230,
+      "duplex": 7215,
+      "lowrise": 39380,
+      "highrise": 6980,
+      "other": 205,
+      "movable": 200
+    }
+  },
+  "sherbrooke": {
+    "geographies": [
+      {
+        "dguid": "2021A00052443027",
+        "name": "Sherbrooke"
+      }
+    ],
+    "counts": {
+      "total": 80475,
+      "detached": 29730,
+      "semi": 4115,
+      "row": 2385,
+      "duplex": 4530,
+      "lowrise": 36655,
+      "highrise": 2445,
+      "other": 190,
+      "movable": 420
+    }
+  },
+  "trois-rivieres": {
+    "geographies": [
+      {
+        "dguid": "2021A00052437067",
+        "name": "Trois-Rivières"
+      }
+    ],
+    "counts": {
+      "total": 66820,
+      "detached": 27845,
+      "semi": 4765,
+      "row": 1795,
+      "duplex": 4910,
+      "lowrise": 25895,
+      "highrise": 1115,
+      "other": 305,
+      "movable": 190
+    }
+  },
+  "saguenay": {
+    "geographies": [
+      {
+        "dguid": "2021A00052494068",
+        "name": "Saguenay"
+      }
+    ],
+    "counts": {
+      "total": 67525,
+      "detached": 32445,
+      "semi": 5305,
+      "row": 1615,
+      "duplex": 9015,
+      "lowrise": 17435,
+      "highrise": 1050,
+      "other": 220,
+      "movable": 425
+    }
+  },
+  "drummondville": {
+    "geographies": [
+      {
+        "dguid": "2021A00052449058",
+        "name": "Drummondville"
+      }
+    ],
+    "counts": {
+      "total": 36725,
+      "detached": 16950,
+      "semi": 2085,
+      "row": 800,
+      "duplex": 3210,
+      "lowrise": 12845,
+      "highrise": 485,
+      "other": 140,
+      "movable": 215
+    }
+  },
+  "saint-hyacinthe": {
+    "geographies": [
+      {
+        "dguid": "2021A00052454048",
+        "name": "Saint-Hyacinthe"
+      }
+    ],
+    "counts": {
+      "total": 26870,
+      "detached": 9230,
+      "semi": 1540,
+      "row": 645,
+      "duplex": 2270,
+      "lowrise": 12780,
+      "highrise": 140,
+      "other": 200,
+      "movable": 65
+    }
+  },
+  "saint-jean-sur-richelieu": {
+    "geographies": [
+      {
+        "dguid": "2021A00052456083",
+        "name": "Saint-Jean-sur-Richelieu"
+      }
+    ],
+    "counts": {
+      "total": 42915,
+      "detached": 21495,
+      "semi": 1395,
+      "row": 935,
+      "duplex": 1960,
+      "lowrise": 15780,
+      "highrise": 160,
+      "other": 475,
+      "movable": 710
+    }
+  },
+  "granby": {
+    "geographies": [
+      {
+        "dguid": "2021A00052447017",
+        "name": "Granby"
+      }
+    ],
+    "counts": {
+      "total": 31850,
+      "detached": 12365,
+      "semi": 2510,
+      "row": 490,
+      "duplex": 2260,
+      "lowrise": 12765,
+      "highrise": 515,
+      "other": 465,
+      "movable": 485
+    }
+  },
+  "saint-jerome": {
+    "geographies": [
+      {
+        "dguid": "2021A00052475017",
+        "name": "Saint-Jérôme"
+      }
+    ],
+    "counts": {
+      "total": 37370,
+      "detached": 13900,
+      "semi": 1560,
+      "row": 650,
+      "duplex": 4155,
+      "lowrise": 15525,
+      "highrise": 1340,
+      "other": 225,
+      "movable": 15
+    }
+  },
+  "halifax": {
+    "geographies": [
+      {
+        "dguid": "2021A00051209034",
+        "name": "Halifax"
+      }
+    ],
+    "counts": {
+      "total": 190510,
+      "detached": 90830,
+      "semi": 12485,
+      "row": 7395,
+      "duplex": 6545,
+      "lowrise": 40470,
+      "highrise": 28320,
+      "other": 205,
+      "movable": 4265
+    }
+  },
+  "sydney": {
+    "geographies": [
+      {
+        "dguid": "2021A00051217030",
+        "name": "Cape Breton"
+      }
+    ],
+    "counts": {
+      "total": 42315,
+      "detached": 31100,
+      "semi": 2815,
+      "row": 705,
+      "duplex": 1805,
+      "lowrise": 4460,
+      "highrise": 215,
+      "other": 60,
+      "movable": 1155
+    }
+  },
+  "truro": {
+    "geographies": [
+      {
+        "dguid": "2021A00051210006",
+        "name": "Truro"
+      }
+    ],
+    "counts": {
+      "total": 6350,
+      "detached": 2585,
+      "semi": 235,
+      "row": 55,
+      "duplex": 675,
+      "lowrise": 2660,
+      "highrise": 0,
+      "other": 35,
+      "movable": 100
+    }
+  },
+  "moncton": {
+    "geographies": [
+      {
+        "dguid": "2021A00051307022",
+        "name": "Moncton"
+      }
+    ],
+    "counts": {
+      "total": 35115,
+      "detached": 14765,
+      "semi": 4380,
+      "row": 805,
+      "duplex": 2330,
+      "lowrise": 10595,
+      "highrise": 1130,
+      "other": 85,
+      "movable": 1030
+    }
+  },
+  "saint-john": {
+    "geographies": [
+      {
+        "dguid": "2021A00051301006",
+        "name": "Saint John"
+      }
+    ],
+    "counts": {
+      "total": 31825,
+      "detached": 12750,
+      "semi": 1035,
+      "row": 1935,
+      "duplex": 3170,
+      "lowrise": 9960,
+      "highrise": 2150,
+      "other": 115,
+      "movable": 715
+    }
+  },
+  "fredericton": {
+    "geographies": [
+      {
+        "dguid": "2021A00051310032",
+        "name": "Fredericton"
+      }
+    ],
+    "counts": {
+      "total": 28480,
+      "detached": 12455,
+      "semi": 785,
+      "row": 1245,
+      "duplex": 2375,
+      "lowrise": 9930,
+      "highrise": 415,
+      "other": 170,
+      "movable": 1095
+    }
+  },
+  "charlottetown": {
+    "geographies": [
+      {
+        "dguid": "2021A00051102075",
+        "name": "Charlottetown"
+      }
+    ],
+    "counts": {
+      "total": 17185,
+      "detached": 7485,
+      "semi": 1555,
+      "row": 565,
+      "duplex": 555,
+      "lowrise": 6700,
+      "highrise": 45,
+      "other": 25,
+      "movable": 255
+    }
+  },
+  "summerside": {
+    "geographies": [
+      {
+        "dguid": "2021A00051103025",
+        "name": "Summerside"
+      }
+    ],
+    "counts": {
+      "total": 7095,
+      "detached": 3480,
+      "semi": 730,
+      "row": 755,
+      "duplex": 250,
+      "lowrise": 1355,
+      "highrise": 35,
+      "other": 10,
+      "movable": 475
+    }
+  },
+  "st-johns": {
+    "geographies": [
+      {
+        "dguid": "2021A00051001519",
+        "name": "St. John's"
+      }
+    ],
+    "counts": {
+      "total": 49300,
+      "detached": 20865,
+      "semi": 3095,
+      "row": 5120,
+      "duplex": 12890,
+      "lowrise": 6550,
+      "highrise": 535,
+      "other": 115,
+      "movable": 120
+    }
+  },
+  "corner-brook": {
+    "geographies": [
+      {
+        "dguid": "2021A00051005018",
+        "name": "Corner Brook"
+      }
+    ],
+    "counts": {
+      "total": 8865,
+      "detached": 5475,
+      "semi": 395,
+      "row": 350,
+      "duplex": 1570,
+      "lowrise": 1020,
+      "highrise": 0,
+      "other": 60,
+      "movable": 5
+    }
+  },
+  "levis": {
+    "geographies": [
+      {
+        "dguid": "2021A00052425213",
+        "name": "Lévis"
+      }
+    ],
+    "counts": {
+      "total": 65755,
+      "detached": 34575,
+      "semi": 4870,
+      "row": 1575,
+      "duplex": 3285,
+      "lowrise": 18745,
+      "highrise": 1820,
+      "other": 115,
+      "movable": 765
+    }
+  },
+  "terrebonne": {
+    "geographies": [
+      {
+        "dguid": "2021A00052464008",
+        "name": "Terrebonne"
+      }
+    ],
+    "counts": {
+      "total": 45250,
+      "detached": 28110,
+      "semi": 2835,
+      "row": 860,
+      "duplex": 2280,
+      "lowrise": 9535,
+      "highrise": 1190,
+      "other": 70,
+      "movable": 370
+    }
+  },
+  "repentigny": {
+    "geographies": [
+      {
+        "dguid": "2021A00052460013",
+        "name": "Repentigny"
+      }
+    ],
+    "counts": {
+      "total": 34170,
+      "detached": 20420,
+      "semi": 2255,
+      "row": 635,
+      "duplex": 570,
+      "lowrise": 9085,
+      "highrise": 1150,
+      "other": 50,
+      "movable": 5
+    }
+  },
+  "brossard": {
+    "geographies": [
+      {
+        "dguid": "2021A00052458007",
+        "name": "Brossard"
+      }
+    ],
+    "counts": {
+      "total": 35885,
+      "detached": 13920,
+      "semi": 3570,
+      "row": 2155,
+      "duplex": 645,
+      "lowrise": 12325,
+      "highrise": 3250,
+      "other": 15,
+      "movable": 5
+    }
+  },
+  "blainville": {
+    "geographies": [
+      {
+        "dguid": "2021A00052473015",
+        "name": "Blainville"
+      }
+    ],
+    "counts": {
+      "total": 22425,
+      "detached": 14400,
+      "semi": 1200,
+      "row": 285,
+      "duplex": 1470,
+      "lowrise": 4685,
+      "highrise": 280,
+      "other": 15,
+      "movable": 85
+    }
+  },
+  "saint-eustache": {
+    "geographies": [
+      {
+        "dguid": "2021A00052472005",
+        "name": "Saint-Eustache"
+      }
+    ],
+    "counts": {
+      "total": 18955,
+      "detached": 10125,
+      "semi": 1405,
+      "row": 210,
+      "duplex": 675,
+      "lowrise": 6190,
+      "highrise": 320,
+      "other": 30,
+      "movable": 5
+    }
+  }
+}

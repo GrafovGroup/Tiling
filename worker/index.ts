@@ -1,10 +1,13 @@
 /** Cloudflare Worker entry point for the vinext-starter template. */
 import { handleImageOptimization, DEFAULT_DEVICE_SIZES, DEFAULT_IMAGE_SIZES } from "vinext/server/image-optimization";
 import handler from "vinext/server/app-router-entry";
+import { canonicalRedirect } from "../app/legacy-redirects";
+import { validMeasurementId } from "../app/analytics-config";
 
 interface Env {
   ASSETS: Fetcher;
   DB?: D1Database;
+  GA4_MEASUREMENT_ID?: string;
   IMAGES: {
     input(stream: ReadableStream): {
       transform(options: Record<string, unknown>): {
@@ -28,6 +31,8 @@ interface ExecutionContext {
 const worker = {
   async fetch(request: Request, env: Env | undefined, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
+    const destination = canonicalRedirect(url);
+    if (destination) return new Response(null, { status: 308, headers: { location: destination.origin === url.origin ? destination.pathname + destination.search : destination.href } });
 
     if (url.pathname === "/api/quotes") return Response.json(
       { ok: false, code: "INTAKE_CLOSED", message: "This endpoint has been retired. Please use the quote form at /request-a-quote." },
@@ -47,6 +52,8 @@ const worker = {
     }
 
     const requestHeaders = new Headers(request.headers);
+    requestHeaders.delete("x-tiling-ga4");
+    if (validMeasurementId(env?.GA4_MEASUREMENT_ID)) requestHeaders.set("x-tiling-ga4", env.GA4_MEASUREMENT_ID);
     requestHeaders.set("x-tiling-locale", url.pathname === "/fr" || url.pathname.startsWith("/fr/") ? "fr" : "en");
     return handler.fetch(new Request(request, { headers: requestHeaders }), env, ctx);
   },

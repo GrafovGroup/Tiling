@@ -4,8 +4,7 @@ import { Logo } from "./logo";
 import { type AnchorHTMLAttributes, useState } from "react";
 import { usePathname } from "next/navigation";
 import { LanguageSwitch } from "./language-switch";
-import { trackEnquiry } from "./enquiry-events";
-import { business, materials, services } from "./data";
+import { business, getMaterial, materials, services } from "./data";
 
 export function Link({ href, children, ...props }: AnchorHTMLAttributes<HTMLAnchorElement> & { href: string }) {
   const pathname = usePathname();
@@ -16,12 +15,10 @@ export function Link({ href, children, ...props }: AnchorHTMLAttributes<HTMLAnch
     if (parts[1] === "areas" && parts[2]) query.set("area", parts[2]);
     if (parts[1] === "areas" && parts[3]) query.set("service", parts[3]);
     if (parts[1] === "services" && parts[2]) query.set("service", parts[2]);
+    if (parts[1] === "materials") { query.set("service", "tile-supply-delivery"); if (parts[2] && getMaterial(parts[2])) query.set("material", parts[2]); }
     if (query.size) destination += `?${query}`;
   }
-  return <a {...props} href={destination} onClick={(event) => {
-    if (href.startsWith("tel:")) trackEnquiry("phone_click");
-    props.onClick?.(event);
-  }}>{children}</a>;
+  return <a {...props} href={destination}>{children}</a>;
 }
 
 export function Header() {
@@ -33,7 +30,7 @@ export function Header() {
       <Link className="brand" href="/" aria-label="Tiling.ca home">
         <Logo header/>
       </Link>
-      <nav className="desktop-nav" aria-label="Main navigation"><Link href="/services">Tile services</Link><Link href="/materials">Tile supply</Link><Link href="/locations">Service areas</Link><Link href="/about">About</Link></nav>
+      <nav className="desktop-nav" aria-label="Main navigation"><Link href="/services">Tile services</Link><Link href="/materials">Tile supply</Link><Link href="/locations">Service areas</Link><Link href="/pricing">Pricing</Link><Link href="/about">About</Link></nav>
       <div className="header-actions">
         <LanguageSwitch/>
         <Link className="header-phone" href={`tel:${business.phoneHref}`}>{business.phone}</Link>
@@ -41,7 +38,7 @@ export function Header() {
       </div>
       <button className="menu-button" aria-expanded={open} aria-controls="mobile-nav" onClick={() => setOpen(!open)}><span /><span /><span /><b className="sr-only">Menu</b></button>
       <nav id="mobile-nav" className={`mobile-nav ${open ? "open" : ""}`} aria-label="Mobile navigation">
-        <Link onClick={() => setOpen(false)} href="/services">Tile services</Link><Link onClick={() => setOpen(false)} href="/materials">Tile supply</Link><Link onClick={() => setOpen(false)} href="/locations">Service areas</Link><Link onClick={() => setOpen(false)} href="/about">About</Link><Link onClick={() => setOpen(false)} href="/how-it-works">Our process</Link><Link onClick={() => setOpen(false)} href="/request-a-quote">Get a quote</Link>
+        <Link onClick={() => setOpen(false)} href="/services">Tile services</Link><Link onClick={() => setOpen(false)} href="/materials">Tile supply</Link><Link onClick={() => setOpen(false)} href="/locations">Service areas</Link><Link onClick={() => setOpen(false)} href="/pricing">Pricing guides</Link><Link onClick={() => setOpen(false)} href="/about">About</Link><Link onClick={() => setOpen(false)} href="/how-it-works">Our process</Link><Link onClick={() => setOpen(false)} href="/request-a-quote">Get a quote</Link>
       </nav>
     </header>
     {pathname !== "/request-a-quote" && <nav className="mobile-enquiry-bar" aria-label="Quick contact"><Link href={`tel:${business.phoneHref}`}>CALL US</Link><Link href={localService ? "#local-quote" : "/request-a-quote"}>GET A QUOTE</Link></nav>}
@@ -50,7 +47,7 @@ export function Header() {
 }
 
 export function Footer() {
-  return <footer className="footer"><div className="footer-main"><div><Link className="footer-brand" href="/" aria-label="Tiling.ca home"><Logo/></Link><p>Your tile contractor across Canada. We install, repair and supply tile for homes and businesses.</p><Link className="footer-phone" href={`tel:${business.phoneHref}`}>{business.phone}</Link><Link href={`mailto:${business.email}`}>{business.email}</Link></div><div><h2><Link href="/services">Services</Link></h2>{services.slice(0,5).map(s=><Link key={s.slug} href={`/services/${s.slug}`}>{s.name}</Link>)}</div><div><h2><Link href="/materials">Tile supply</Link></h2>{materials.map(m=><Link key={m.slug} href={`/materials/${m.slug}`}>{m.name}</Link>)}</div><div><h2>Company</h2><Link href="/about">About Tiling.ca</Link><Link href="/contact">Contact</Link><Link href="/how-it-works">Our process</Link><Link href="/editorial-standards">Editorial standards</Link><Link href="/locations">Service areas</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Website terms</Link></div><div><h2>Start your project</h2><p>Tell us what you are planning and receive a follow-up about scope, materials and availability.</p><Link className="footer-cta" href="/request-a-quote">Request a quote</Link></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Tiling.ca</span><span>Tile installation · supply · Canada</span></div></footer>;
+  return <footer className="footer"><div className="footer-main"><div><Link className="footer-brand" href="/" aria-label="Tiling.ca home"><Logo/></Link><p>Your tile contractor across Canada. We install, repair and supply tile for homes and businesses.</p><Link className="footer-phone" href={`tel:${business.phoneHref}`}>{business.phone}</Link><Link href={`mailto:${business.email}`}>{business.email}</Link></div><div><h2><Link href="/services">Services</Link></h2>{services.slice(0,5).map(s=><Link key={s.slug} href={`/services/${s.slug}`}>{s.name}</Link>)}</div><div><h2><Link href="/materials">Tile supply</Link></h2>{materials.map(m=><Link key={m.slug} href={`/materials/${m.slug}`}>{m.name}</Link>)}</div><div><h2>Company</h2><Link href="/about">About Tiling.ca</Link><Link href="/contact">Contact</Link><Link href="/how-it-works">Our process</Link><Link href="/pricing">Pricing guides</Link><Link href="/editorial-standards">Editorial standards</Link><Link href="/locations">Service areas</Link><Link href="/privacy">Privacy</Link><Link href="/terms">Website terms</Link></div><div><h2>Start your project</h2><p>Tell us what you are planning and receive a follow-up about scope, materials and availability.</p><Link className="footer-cta" href="/request-a-quote">Request a quote</Link></div></div><div className="footer-bottom"><span>© {new Date().getFullYear()} Tiling.ca</span><span>Tile installation · supply · Canada</span></div></footer>;
 }
 
 export function Breadcrumbs({ items }: { items: { label: string; href?: string }[] }) {

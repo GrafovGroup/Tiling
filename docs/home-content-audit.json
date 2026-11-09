@@ -1,0 +1,32 @@
+{
+  "reviewed": "2026-11-08",
+  "purpose": "Improve homepage discovery of existing Tiling.ca guides and enquiry routes in English and French. Public competitor content is not evidence of ranking causation.",
+  "findings": [
+    {
+      "source": "Zelta",
+      "url": "https://zelta.ca/",
+      "observation": "Homepage makes services, products and cost planning visible.",
+      "applied": "Four early planning routes; three source-scoped pricing previews and the complete pricing library."
+    },
+    {
+      "source": "Prime Tiling",
+      "url": "https://primetiling.ca/",
+      "observation": "Coverage and enquiry stages are explicit.",
+      "applied": "City/community search linking genuine area pages, property-specific scheduling language, and a three-step project explanation."
+    },
+    {
+      "source": "22FLOORING",
+      "url": "https://22flooring.ca/",
+      "observation": "Selection and responsibilities such as removal, delivery and disposal are connected to installation.",
+      "applied": "Material guidance, existing preparation/supply services, a practical enquiry checklist and targeted inspiration links."
+    }
+  ],
+  "guardrails": [
+    "Preserve contractor positioning and the existing quote endpoint.",
+    "Industry ranges remain third-party CAD examples with region and scope notes, not Tiling.ca rates.",
+    "Inspiration images are labelled and do not claim completed customer projects.",
+    "No invented reviews, certifications, warranties, offices, products in stock or response times.",
+    "All 15 service routes, five material guides and prior location/pricing improvements remain accessible."
+  ],
+  "searchBehavior": "Accent-insensitive city, province, region and community matching. Exact city names sort first. Six homepage matches link to local pages; the full directory preserves the search. No-match state retains direct enquiry and directory access."
+}

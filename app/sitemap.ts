@@ -1,3 +1,4 @@
+import { pricingGuides, pricingReviewed } from "./pricing-data";
 import dates from "./content-dates.json";
 import { ontarioRegions } from "./ontario-data";
 import type { MetadataRoute } from "next";
@@ -5,6 +6,8 @@ import { areas, business, materials, services } from "./data";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const english: MetadataRoute.Sitemap = [
+    {url:business.domain + "/pricing",lastModified:pricingReviewed,changeFrequency:"monthly",priority:.8},
+    ...pricingGuides.map(guide=>({url:business.domain + "/pricing/" + guide.slug,lastModified:pricingReviewed,changeFrequency:"monthly" as const,priority:.8})),
     {url:business.domain,lastModified:dates.home,changeFrequency:"monthly",priority:1},
     {url:`${business.domain}/services`,lastModified:dates.services,changeFrequency:"monthly",priority:.9},
     {url:`${business.domain}/materials`,lastModified:dates.materials,changeFrequency:"monthly",priority:.9},
@@ -26,6 +29,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
   return english.flatMap(entry => {
     const frenchUrl = `${business.domain}/fr${entry.url.slice(business.domain.length)}`;
     const alternates = { languages: { "en-CA": entry.url, "fr-CA": frenchUrl, "x-default": entry.url } };
-    return [{ ...entry, alternates }, { ...entry, url: frenchUrl, lastModified: "2026-10-25", alternates }];
+    return [{ ...entry, alternates }, { ...entry, url: frenchUrl, lastModified: entry.url === business.domain || entry.url.endsWith("/about") || entry.url.endsWith("/how-it-works") || entry.url.endsWith("/privacy") || entry.url.endsWith("/contact") || entry.url.endsWith("/request-a-quote") || entry.url.includes("/materials") ? entry.lastModified : entry.url.includes("/pricing") || entry.url.includes("/areas/") || entry.url.includes("/services/") ? pricingReviewed : "2026-10-25", alternates }];
   });
 }

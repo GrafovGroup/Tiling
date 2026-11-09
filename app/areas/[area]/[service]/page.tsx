@@ -1,4 +1,8 @@
+import { ServiceReference } from "../../../service-content";
+import { LocalProjectBrief } from "../../../local-project-brief";
+import { PricingLinks } from "../../../pricing-content";
 import { withSocialMetadata } from "../../../seo";
+import { localSnippet, searchTitle } from "../../../search-snippets";
 import { AreaCoverage } from "../../../area-coverage";
 import { CommunityCoverage } from "../../../community-coverage";
 import { QuoteForm } from "../../../quote-form";
@@ -20,12 +24,11 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const service = getService(route.service);
   if (!area || !service) return withSocialMetadata({});
 
-  const title = `${service.name} in ${area.name}, ${area.province}`;
-  const description = `Request ${service.name.toLowerCase()} in ${area.name}. We provide tile installation and supply directly to homes and businesses.`;
+  const { title, description } = localSnippet(area, service.slug, "en");
   const canonical = `${business.domain}/areas/${area.slug}/${service.slug}`;
 
   return withSocialMetadata({
-    title,
+    title: searchTitle(title),
     description,
     alternates: { canonical },
     robots: { index: true, follow: true },
@@ -59,7 +62,7 @@ export default async function LocalServicePage({ params }: { params: Params }) {
       {
         "@type": "WebPage", "@id": `${url}#webpage`, url, name: `${service.name} in ${area.name}`,
         description: `Professional ${service.name.toLowerCase()} in ${area.name}, ${area.province}.`,
-        dateModified: "2026-10-11", author: { "@id": `${business.domain}/#organization` },
+        dateModified: "2026-11-08", author: { "@id": `${business.domain}/#organization` },
         reviewedBy: { "@id": `${business.domain}/#organization` }, mainEntity: { "@id": `${url}#service` },
       },
       {
@@ -99,23 +102,26 @@ export default async function LocalServicePage({ params }: { params: Params }) {
           <p>{area.context}</p><p className="provider-note">{service.scopeNote || "We carry out your tile work to the agreed scope. We confirm materials, preparation, pricing and scheduling with you before installation begins."}</p>
           {service.slug === "commercial-tile" && <p><Link className="text-link" href="/services/commercial-tile#commercial-applications">EXPLORE RESTAURANT, HOTEL, RETAIL &amp; WORKPLACE TILING →</Link></p>}
           <ul className="check-list">{service.features.map((item) => <li key={item}>{item}</li>)}</ul>
+          <ServiceReference slug={service.slug} areaSlug={area.slug}/>
         </div>
       </section>
 
       <section id="local-quote" className="quote-section"><div className="quote-copy"><p className="section-kicker">YOUR LOCAL PROJECT</p><h2>Let’s plan your {area.name} project.</h2><p>We’ll follow up about your {service.name.toLowerCase()} request. Add your village or community name if it differs from the municipality shown.</p><Link className="text-link" href={`/areas/${area.slug}`}>ALL {area.name} SERVICES →</Link></div><QuoteForm defaultCity={area.name} serviceName={service.name}/></section>
 
+      <LocalProjectBrief areaSlug={area.slug} service={service.slug}/>
+      <PricingLinks area={area.slug} service={service.slug}/>
       <details className="planning-details"><summary>PLANNING, PREPARATION &amp; QUOTE DETAILS</summary><div>
 
 
       <section className="local-depth section-pad">
         <div className="section-heading">
           <div><p className="section-kicker">A project-specific local brief</p><h2>What should be checked before {service.name.toLowerCase()} in {area.name}?</h2></div>
-          <p>{guidance.focus} The notes below combine that service requirement with the property and access conditions commonly raised in {area.name}; the actual site still controls the final method.</p>
+          <p>{guidance.focus} Confirm these items against the actual property in {area.name}; they are planning questions, not findings from a site inspection.</p>
         </div>
         <div className="planning-grid">
-          <article><span>01</span><h3>Property and substrate</h3><p><strong>{area.localFactors[0]}.</strong> {guidance.propertyCheck}</p></article>
-          <article><span>02</span><h3>Access and sequence</h3><p><strong>{area.localFactors[1]}.</strong> {guidance.accessCheck}</p></article>
-          <article><span>03</span><h3>{area.province} project conditions</h3><p><strong>{area.localFactors[2]}.</strong> {guidance.seasonalCheck}</p></article>
+          <article><span>01</span><h3>Property and substrate</h3><p>{guidance.propertyCheck}</p></article>
+          <article><span>02</span><h3>Access and sequence</h3><p>{guidance.accessCheck}</p></article>
+          <article><span>03</span><h3>{area.province} project conditions</h3><p>{guidance.seasonalCheck}</p></article>
         </div>
       </section>
 
@@ -134,7 +140,7 @@ export default async function LocalServicePage({ params }: { params: Params }) {
         </div>
       </section>
 
-      <div className="page-review" aria-label="Content responsibility"><span>Published and reviewed by Tiling.ca</span><span>Updated October 11, 2026</span><Link href="/editorial-standards">How we review content →</Link></div>
+      <div className="page-review" aria-label="Content responsibility"><span>Published and reviewed by Tiling.ca</span><span>Updated November 8, 2026</span><Link href="/editorial-standards">How we review content →</Link></div>
       </div></details>
 
       <CommunityCoverage areaSlug={area.slug} serviceSlug={service.slug}/>

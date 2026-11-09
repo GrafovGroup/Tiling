@@ -1,4 +1,7 @@
+import { LocalProjectBrief } from "../../local-project-brief";
+import { PricingLinks } from "../../pricing-content";
 import { withSocialMetadata } from "../../seo";
+import { localSnippet, searchTitle } from "../../search-snippets";
 import { AreaCoverage } from "../../area-coverage";
 import { CommunityCoverage } from "../../community-coverage";
 import type { Metadata } from "next";
@@ -17,11 +20,10 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   const area = getArea(slug);
   if (!area) return withSocialMetadata({});
 
-  const title = `Tile Installation & Supply in ${area.name}`;
-  const description = `Request tile installation, repair or material supply in ${area.name}, ${area.province}. Serving ${area.surroundingAreas.slice(0,3).join(", ") || area.name} and nearby communities. Explore services and request your quote.`;
+  const { title, description } = localSnippet(area, undefined, "en");
   const canonical = `${business.domain}/areas/${slug}`;
   return withSocialMetadata({
-    title,
+    title: searchTitle(title),
     description,
     alternates: { canonical },
     robots: { index: true, follow: true },
@@ -55,11 +57,12 @@ export default async function AreaPage({ params }: { params: Params }) {
         <p className="eyebrow">{area.region} · Tile services</p>
         <h1>Tile installation and supply in {area.name}</h1>
         <p>We install, repair and supply tile for homes and businesses in {area.name}. Work directly with Tiling.ca from the first assessment through preparation, installation and finishing.</p>
-        <Link className="button button-primary" href="/request-a-quote">Request a quote</Link>
+        <Link className="button button-primary" href={`/request-a-quote?area=${area.slug}`}>Request a quote</Link>
       </section>
 
 
 
+      <LocalProjectBrief areaSlug={area.slug}/>
       <section className="area-services section-pad">
         <div className="section-heading">
           <div><p className="section-kicker">{services.length} service categories</p><h2>Explore tile services in {area.name}.</h2></div>
@@ -86,6 +89,7 @@ export default async function AreaPage({ params }: { params: Params }) {
         </aside>
       </section>
 
+      <PricingLinks area={area.slug}/>
       <CommunityCoverage areaSlug={area.slug}/>
       <AreaCoverage areaSlug={area.slug}/>
 
@@ -93,7 +97,7 @@ export default async function AreaPage({ params }: { params: Params }) {
         <p className="section-kicker">Start a {area.name} project</p>
         <h2>Request installation, repair or tile supply.</h2>
         <p>Send the location, room, approximate size, material ideas and preferred timing. Tiling.ca will follow up about scope and current availability.</p>
-        <div><Link className="button button-primary" href="/request-a-quote">Request a quote</Link><Link className="text-link" href="/locations">See all service areas →</Link></div>
+        <div><Link className="button button-primary" href={`/request-a-quote?area=${area.slug}`}>Request a quote</Link><Link className="text-link" href="/locations">See all service areas →</Link></div>
       </section>
     </main>
     <Footer />

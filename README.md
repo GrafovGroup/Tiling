@@ -1,5 +1,15 @@
 # Tiling.ca — Canada-wide tile contractor
 
+## Current snapshot — November 8, 2026
+
+This repository includes the source of published **Sites version 62**, commit `35ebba574a0822df1b82eafc683c56b275e45f1b`, plus the separate unpublished homepage concepts. Later dated sections supersede historical descriptions and outstanding-item notes below.
+
+- The live site includes the bilingual location, service, material, pricing, homepage, company and enquiry improvements; optimized images; permanent legacy/www redirects; English/French 404 pages; and the latest SEO and form fixes.
+- GA4 `G-83XS8KT8EM` is configured as the Sites runtime variable `GA4_MEASUREMENT_ID`. Enhanced Measurement is off. Visitor consent controls loading, and confirmed submissions use the `generate_lead` key event. Runtime secrets and environment files are not stored here.
+- Build and TypeScript checks passed, along with 86 rendered/routing tests and 12 unit tests. Live page views, quote starts and quote clicks were verified. See [measurement notes](docs/search-and-enquiry-measurement.md) and [validation record](docs/remaining-audit-validation.json).
+- [Three homepage alternatives](docs/designs/homepage-alternatives-2026-11-08/README.md) are design references only. The existing homepage remains the production design. No alternative has been approved or published.
+- GitHub Actions validates pushes; it does not deploy to Sites. Source provenance and hashes are recorded in [the sync manifest](docs/github-sync-2026-11-08.json).
+
 Tiling.ca provides tile installation, repairs and material supply directly to residential and commercial customers across Canada. The owner requested this positioning on October 11, 2026. Customer-facing content must not describe a referral, matching or independent-contractor network.
 
 ## Run and verify
@@ -99,3 +109,71 @@ Validation: build and TypeScript pass; 38 tests cover existing English functiona
 ## Herringbone favicon — October 25, 2026
 Selected option 1: green/orange herringbone emblem on an opaque ivory field, with padding to preserve contrast on light, dark and coloured browser themes. Versioned v8 files replace the old T icon in the shared English/French layout: 16/32/48px ICO, 16/32px PNG, 180px Apple touch icon and 192/512px manifest icons. Default favicon.ico and apple-touch-icon.png fallbacks are also updated. Browser cache refresh timing may vary.
 Artwork isolated with the built-in image tool from the approved five-option board; brief: preserve option 1 geometry, no text, forest green/orange, opaque ivory canvas, generous padding. PNG/ICO exports are resized from that master.
+
+
+## Pricing guides and location quality — November 8, 2026
+
+- `/pricing` now groups 15 service guides, including the original floor, shower and backsplash guides. French equivalents use the same stable path segments under `/fr`.
+- `app/pricing-data.ts` records published third-party ranges, source URLs, regions, scope and the actual review date. These are industry planning examples, not Tiling.ca rates, quotes or a measured national average. Labour-only figures remain separate from material-and-installation packages; unspecified inclusions and taxes must be confirmed.
+- Update the source observations and review date together. Do not roll the date forward without rechecking the linked sources. No `Offer` or product-price schema is emitted for these editorial comparisons.
+- `app/local-project-brief.tsx` adds distinct, bilingual planning scenarios for Toronto and Mississauga, plus service-specific notes for floors, showers and backsplashes. They are conditional planning guidance, not completed-project claims.
+- Relevant local and national service pages link to the guides. City context is validated and retained when a customer moves from a local page to a guide and then requests a quote.
+- Service-page geographic link walls now use 13 province/territory directory links. Community names and anchors remain, with a concise enquiry link instead of repeating all 15 services for every community. City hubs retain all service links; all existing routes, canonicals, hreflang pairs and sitemap entries remain available.
+- There is no bulk removal, redirect, canonical consolidation or `noindex` change without Search Console evidence. Analytics access, verified customer work and approved first-party price data remain outstanding.
+- New rendered-route tests cover bilingual guide metadata, source disclosures, valid quote context, unknown routes, sitemap entries and location navigation. Form delivery remains unchanged; no synthetic enquiry is sent to the live inbox.
+
+
+## Nationwide local planning rollout — November 8, 2026
+
+All 482 location hubs and all 15 city/service route families now render local planning content in English and French. The original Toronto and Mississauga briefs remain; other locations use `city-project-planning.tsx` with local community/access context and the municipality-specific housing record in `local-housing.json`. The housing evidence is a dated 2021 snapshot, not a claim about current building condition or local prices. Practical preparation questions are selected for the main published dwelling categories. Commercial, pool, exterior and rooftop pages do not infer property suitability from residential census counts.
+
+The source is Statistics Canada table 98-10-0041-01, downloaded November 8, 2026. `scripts/import-local-housing.py` reproduces the checked-in subset from the official English ZIP; `docs/local-housing-audit.json` records the checksum, matching rules and reviewed exceptions. Exact names are matched within the province; ambiguous municipality names have explicit mappings. Langley and North Vancouver combine their two municipalities, while the wider Toronto / Wood Buffalo / Cape Breton references are labelled for North York / Fort McMurray / Sydney. Suppressed Cockburn Island counts remain unavailable. Displayed counts are rounded and use 2021 boundaries, including where later boundary changes occurred. They do not distinguish rental from condominium tenure. No geographic facts are fetched at runtime.
+
+Each hub features the three original guides and exposes the twelve additional service guides as crawlable links in an expandable list. Every national and city/service page links its own guide. Legacy comparison-guide URLs remain valid and retain their scope notes. Guide links preserve validated city and service context through to the quote form. Canonicals stay query-free. All existing paths remain, including the historical Mattice-Val Côté URL whose display-name encoding was corrected. No company branches, completed projects, local rates or permit rules were invented.
+
+Validation: `tests/location-rollout.test.mjs` checks every hub in both languages, all service families across representative cities, geographic exceptions, suppression, guide scope, and validated quote context. Existing route, metadata and form suites remain in place.
+
+
+## Remaining service pricing guides — November 8, 2026
+
+- Twelve new bilingual guides complete coverage of all 15 services: large-format tile, heated floors, commercial work, removal/preparation, repair/regrouting, cleaning/sealing, supply/delivery, stairs, outdoor/balconies, fireplaces/feature walls, pools/spas and rooftop pedestal pavers.
+- `app/pricing-expansion.json` contains reviewed bilingual copy and source records; `docs/pricing-source-audit.json` records the exact source pricing and scope checks. The pricing hub groups all 15 guides into four categories. Each article links three relevant related guides.
+- Third-party benchmarks distinguish installed work, labour, materials and shipping. Small-job minimums and unknown inclusions are visible. Heating-only examples are separate from heating-and-tile packages. Stair examples use different units and are not combined into a market range. Rooftop examples cover components only; a complete installed rooftop price is not established. Pool coverage is explicitly limited to one Quebec contractor’s unspecified-size example, not a verified spa range.
+- All 482 city hubs and all service families inherit the guide links in English and French. Valid city/service context continues to the quote form; canonical URLs remain query-free. Sources and Article citations are visible, with no Offer schema or invented local rates.
+- `tests/pricing-expansion.test.mjs` verifies complete service coverage, all added bilingual routes, source disclosures, index/sitemap discovery, direct service links and quote context. The location suite checks all city hubs. Form submission behavior is unchanged.
+
+
+## Service-page content expansion — November 8, 2026
+
+All 15 national service pages now share `app/service-content.tsx` in English and French, with original service-specific copy in `app/service-guides.json`. The pages add three project options, three planning stages, a concrete quote checklist, scope boundaries and three additional FAQs, retaining existing service FAQs. Each page links its own pricing guide, three related services and relevant material pages. Province navigation remains compact; French service pages lead to the existing searchable directory.
+
+`docs/service-content-audit.json` records competitor observations and technical cross-checks. The improvements use clearer choices, scope and preparation; competitor credentials, project claims, guarantees and extra services are not adopted. Service imagery remains illustrative. No search ranking improvement is guaranteed.
+
+The shared template supplies unique metadata, connected WebPage/Service entities, visible FAQ content and matching FAQ schema. Service-specific quote links and the inline form keep the requested service selected. Commercial application anchors and its existing enquiry anchor are preserved. Local service pages retain their city content and link to the expanded national guide; existing route, canonical, language and pricing behavior stays intact.
+
+`tests/service-expansion.test.mjs` checks all 30 service routes, metadata and schema, selected-service enquiry context, FAQ visibility, navigation anchors and valid internal resource links. It also checks the local-to-national guide links. No real enquiry is submitted during validation.
+
+
+## Material-selection guides — November 8, 2026
+
+All five material pages and the comparison hub now share bilingual layouts in `app/material-content.tsx`, with original selection, application, care, ordering and FAQ copy in `app/material-guides.json`. Marble and granite are explicitly part of natural stone, while porcelain is part of the ceramic family. The broader stone guide focuses on limestone, travertine and slate. Manufacturer and trade references support material guidance; competitor observations are retained in `docs/material-content-audit.json` without attributing ranking causes or adopting unverified offerings.
+
+Material pages link relevant services and cost guides. Pricing references remain scoped industry benchmarks, not prices for a selected stone or tile product. A validated material selection is carried through the primary material/service/pricing/quote paths along with service and city context. `QuoteForm` adds an optional visible material label and hidden material field to the existing submission; no endpoint, delivery, retry or success behavior changes. Unknown and repeated query values are ignored.
+
+Guides have unique metadata, current sitemap dates, Article schema and four visible FAQs with matching schema. They are editorial material guides, not an inventory catalogue: no Product, Offer, stock or SKU claims are added. Existing CSS surface illustrations remain labelled as illustrations.
+
+`tests/material-expansion.test.mjs` verifies all ten guide routes, bilingual comparison hubs, source/FAQ markup, internal links, quote context, validation and sitemap dates. Browser QA covers desktop/mobile layouts and a locally intercepted form submission; no real enquiry is sent.
+
+
+### Homepage planning update — November 8, 2026
+
+The English and French homepages share `home-content.tsx` and the bilingual copy in `home-data.ts`. Four early planning routes lead to services, materials, pricing and locations. Six service cards lead the page; nine additional service cards remain in an accessible native disclosure. The homepage also includes scoped third-party pricing examples, all five material guides, a city/community finder, labelled inspiration with contextual service/material/pricing/quote links, a three-step process, one enquiry form and matching visible/schema FAQs.
+
+`home-locations.tsx` searches existing areas without inventing offices or service availability. Exact city matches are prioritized, accents are normalized, and the full location directories preserve a bounded `q` parameter while retaining canonical URLs. Existing form submission behavior and recipient endpoint are unchanged. `tests/home-expansion.test.mjs` checks destination resolution, bilingual navigation, metadata, FAQ parity, search handoff and quote context. Competitor observations and claim boundaries are recorded in `docs/home-content-audit.json`.
+
+
+### About and process update — November 8, 2026
+
+`company-content.tsx` and `company-data.ts` provide the English and French About and How It Works pages. About explains the direct working relationship, material decisions, responsibilities and coverage. The process uses five shared stages with written-scope and readiness checklists, service-specific paths, change and handover questions, contextual guide links and one existing quote form per page. No unverified company biography, credentials, reviews or warranty promise is added.
+
+The original hero assets, contact details and Formspree delivery remain in use. Page-specific metadata, AboutPage/WebPage entities, breadcrumbs, matching FAQ schema and sitemap dates are updated. `tests/company-expansion.test.mjs` checks all resource destinations and section anchors, locale parity, metadata, forms, scope and stage availability. Source observations and claim boundaries are recorded in `docs/company-content-audit.json`.

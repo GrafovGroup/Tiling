@@ -31,7 +31,9 @@ for m in municipalities:
     used.add(place_slug)
     names=list(dict.fromkeys(r['communities'] if r else []))
     names=[n for n in names if norm(n)!=norm(name)]
-    result.append({**m,'name':name,'slug':place_slug,'regionSlug':slug(m['region']),
+    # Preserve the source identifier and established URL; repair the public label.
+    display_name = 'Mattice-Val Côté' if name == 'Mattice-Val CÃ´tÃ©' else name
+    result.append({**m,'name':display_name,'slug':place_slug,'regionSlug':slug(m['region']),
       'communities':[{'name':n,'id':slug(n)} for n in names],
       'sourceUrls':r['sourceUrls'] if r else [],
       'planningNote':r['planningNote'] if r else ''})
