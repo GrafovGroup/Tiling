@@ -1,3 +1,4 @@
+import { localServiceHref } from "./local-service-publication";
 import { areas, business, getArea, getService, getMaterial, materials } from "./data";
 import { FAQ, Link, StructuredData } from "./components";
 import { CommercialExamples } from "./commercial-examples";
@@ -36,7 +37,7 @@ export function ServiceLanding({ slug, locale = "en", areaSlug, materialSlug }: 
   return <>
     <section className="inner-hero service-hero">
       <p className="eyebrow">{fr ? "TILING.CA · SERVICES DE CARRELAGE AU CANADA" : "TILING.CA · TILE SERVICES ACROSS CANADA"}</p>
-      <h1>{copy.name}</h1><p>{copy.short}</p>{area && <p className="service-context">{fr ? "Votre projet : " : "Your project: "}<a href={`${prefix}/areas/${area.slug}/${slug}`}>{area.name} →</a></p>}
+      <h1>{copy.name}</h1><p>{copy.short}</p>{area && <p className="service-context">{fr ? "Votre projet : " : "Your project: "}<a href={localServiceHref(area.slug,slug,locale)}>{area.name} →</a></p>}
       {material && <p className="material-context">{fr ? "Matériau envisagé : " : "Material being considered: "}{materialName}</p>}
       <div className="service-hero-actions"><Link className="button button-primary" href={quoteHref}>{fr ? "Demander une soumission" : "Request a quote"}</Link><a className="service-price-link" href={`${prefix}/pricing/${pricing.slug}?${quoteParams}`}>{fr ? "Consulter les repères de prix →" : "Explore pricing and cost factors →"}</a></div>
     </section>

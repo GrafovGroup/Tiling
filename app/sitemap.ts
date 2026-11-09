@@ -1,3 +1,4 @@
+import { hasLocalServicePage } from "./local-service-publication";
 import { pricingGuides, pricingReviewed } from "./pricing-data";
 import dates from "./content-dates.json";
 import { ontarioRegions } from "./ontario-data";
@@ -24,7 +25,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...services.map(service=>({url:`${business.domain}/services/${service.slug}`,lastModified:dates.services,changeFrequency:"monthly" as const,priority:.8})),
     ...materials.map(material=>({url:`${business.domain}/materials/${material.slug}`,lastModified:dates.materials,changeFrequency:"monthly" as const,priority:.8})),
     ...areas.map(area=>({url:`${business.domain}/areas/${area.slug}`,lastModified:dates.areas,changeFrequency:"monthly" as const,priority:.8})),
-    ...areas.flatMap(area=>services.map(service=>({url:`${business.domain}/areas/${area.slug}/${service.slug}`,lastModified:dates.localServices,changeFrequency:"monthly" as const,priority:.7}))),
+    ...areas.flatMap(area=>services.filter(service=>hasLocalServicePage(area.slug,service.slug)).map(service=>({url:`${business.domain}/areas/${area.slug}/${service.slug}`,lastModified:dates.localServices,changeFrequency:"monthly" as const,priority:.7}))),
   ];
   return english.flatMap(entry => {
     const frenchUrl = `${business.domain}/fr${entry.url.slice(business.domain.length)}`;

@@ -1,0 +1,38 @@
+{
+  "reviewDate": "2026-11-08",
+  "baselineVersion": 62,
+  "baselineSitemapUrls": 15618,
+  "sitemapUrls": 15452,
+  "retiredUrls": 166,
+  "locations": 8,
+  "languages": [
+    "en-CA",
+    "fr-CA"
+  ],
+  "typecheck": "pass",
+  "productionBuild": "pass",
+  "renderedTests": 91,
+  "unitTests": 12,
+  "testNote": "89 rendered tests passed initially; two legacy assertions were updated for consolidation, and all 31 tests in the affected suites then passed. GitHub CI runs the complete suite again.",
+  "routeAudit": {
+    "pages": 15452,
+    "retired": 166,
+    "checked": 15452,
+    "uniqueTitles": 15452,
+    "uniqueDescriptions": 15452,
+    "failures": []
+  },
+  "browser": {
+    "desktop": "pass",
+    "mobileWidths": [
+      390,
+      320
+    ],
+    "horizontalOverflow": false,
+    "frenchQuoteContext": "city and service retained",
+    "directoryFilter": "seven direct hub sections and one retained local page for pool service",
+    "consoleErrors": 0,
+    "realEnquiriesSubmitted": false
+  },
+  "homepageAlternatives": "unpublished and unchanged"
+}

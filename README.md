@@ -1,14 +1,23 @@
+# GitHub production snapshot
+
+This repository includes published **Sites version 63**, source commit `6d46a942a10f7d796b04a7496c1eec03fdc94914`, and the separate [unpublished homepage concepts](docs/designs/homepage-alternatives-2026-11-08/README.md).
+
+- The first consolidation pilot reduces the sitemap from 15,618 to 15,452 URLs. All reported pilot city/service search activity is protected in both languages. [Decision and monitoring plan](docs/page-consolidation.md) · [Complete URL inventory](docs/page-consolidation-inventory.csv) · [Validation](docs/page-consolidation-validation.json).
+- Prior content, pricing, accessibility, image optimization, redirect, 404 and enquiry improvements are retained.
+- GA4 `G-83XS8KT8EM` remains a Sites runtime setting, with explicit visitor consent, Enhanced Measurement off and confirmed submissions tracked as `generate_lead`. No environment files or credentials are stored in this repository.
+- GitHub Actions validates code; it does not deploy the site. The homepage alternatives remain documentation only. [Source manifest](docs/github-sync-2026-11-08-consolidation.json).
+
+Later updates supersede historical notes below.
+
+---
+
+# Current consolidation update
+
+The first reviewed location-page consolidation merges 166 URLs into their existing city hubs, preserves all reported pilot search activity in both languages, and reduces the sitemap to 15,452 URLs. New city/service combinations require explicit publication review. See the [decision and monitoring plan](docs/page-consolidation.md) and [complete keep/merge inventory](docs/page-consolidation-inventory.csv). The three alternative homepage designs remain unpublished.
+
+---
+
 # Tiling.ca — Canada-wide tile contractor
-
-## Current snapshot — November 8, 2026
-
-This repository includes the source of published **Sites version 62**, commit `35ebba574a0822df1b82eafc683c56b275e45f1b`, plus the separate unpublished homepage concepts. Later dated sections supersede historical descriptions and outstanding-item notes below.
-
-- The live site includes the bilingual location, service, material, pricing, homepage, company and enquiry improvements; optimized images; permanent legacy/www redirects; English/French 404 pages; and the latest SEO and form fixes.
-- GA4 `G-83XS8KT8EM` is configured as the Sites runtime variable `GA4_MEASUREMENT_ID`. Enhanced Measurement is off. Visitor consent controls loading, and confirmed submissions use the `generate_lead` key event. Runtime secrets and environment files are not stored here.
-- Build and TypeScript checks passed, along with 86 rendered/routing tests and 12 unit tests. Live page views, quote starts and quote clicks were verified. See [measurement notes](docs/search-and-enquiry-measurement.md) and [validation record](docs/remaining-audit-validation.json).
-- [Three homepage alternatives](docs/designs/homepage-alternatives-2026-11-08/README.md) are design references only. The existing homepage remains the production design. No alternative has been approved or published.
-- GitHub Actions validates pushes; it does not deploy to Sites. Source provenance and hashes are recorded in [the sync manifest](docs/github-sync-2026-11-08.json).
 
 Tiling.ca provides tile installation, repairs and material supply directly to residential and commercial customers across Canada. The owner requested this positioning on October 11, 2026. Customer-facing content must not describe a referral, matching or independent-contractor network.
 

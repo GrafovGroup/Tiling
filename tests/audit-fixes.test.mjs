@@ -3,7 +3,7 @@ import test from 'node:test';
 import fs from 'node:fs';
 import worker from '../dist/server/index.js';
 const env={ASSETS:{fetch:async()=>new Response('Not found',{status:404})}},ctx={waitUntil(){},passThroughOnException(){}};
-async function render(path){const response=await worker.fetch(new Request('https://tiling.ca'+path,{headers:{accept:'text/html','user-agent':'Googlebot'}}),env,ctx);return {status:response.status,body:await response.text()};}
+async function render(path){const response=await worker.fetch(new Request('https://tiling.ca'+path,{headers:{accept:'text/html','user-agent':'Googlebot'}}),env,ctx);return {status:response.status,body:await response.text(),location:response.headers.get('location')};}
 
 test('unknown routes retain 404 status and offer localized recovery links and quote access',async()=>{
  for(const prefix of ['','/fr'])for(const route of ['/audit-unknown','/services/unknown','/materials/unknown','/areas/unknown','/areas/toronto/unknown','/locations/ontario/unknown']){
@@ -18,7 +18,7 @@ test('unknown routes retain 404 status and offer localized recovery links and qu
 test('every previously affected page renders without any of the 26 broken source URLs',async()=>{
  const audit=JSON.parse(fs.readFileSync(new URL('../docs/reference-link-repairs.json',import.meta.url),'utf8'));assert.equal(audit.replacements.length,26);
  for(const replacement of audit.replacements)assert.equal(replacement.httpVerification.getStatus,200,replacement.replacementUrl);
- for(const url of audit.affectedPages){const {status,body}=await render(new URL(url).pathname);assert.equal(status,200,url);const decoded=body.replaceAll('&amp;','&');for(const item of audit.replacements)assert.ok(!decoded.includes('href="'+item.oldUrl+'"'),url+' -> '+item.oldUrl);}
+ for(const url of audit.affectedPages){let result=await render(new URL(url).pathname);if(result.status===308){const target=new URL(result.location,url);assert.equal(target.origin,'https://tiling.ca');result=await render(target.pathname+target.search);}const {status,body}=result;assert.equal(status,200,url);const decoded=body.replaceAll('&amp;','&');for(const item of audit.replacements)assert.ok(!decoded.includes('href="'+item.oldUrl+'"'),url+' -> '+item.oldUrl);}
 });
 
 test('replacement references retain their meaning and correct unsupported locality attribution',async()=>{

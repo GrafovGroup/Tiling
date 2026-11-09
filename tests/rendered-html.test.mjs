@@ -9,6 +9,8 @@ const ontarioMunicipalities=JSON.parse(await readFile(new URL("../app/ontario-co
 const allAreaSlugs=[...new Set([...citySlugs,...ontarioMunicipalities.map(item=>item.slug)])];
 const serviceSlugs=["bathroom-shower-tile","floor-tile-installation","kitchen-backsplash","large-format-tile","tile-repair-regrouting","commercial-tile","tile-supply-delivery","outdoor-balcony-tiling","fireplace-feature-wall-tiling","heated-tile-floors","pool-spa-tiling","tile-stairs-steps","tile-removal-surface-preparation","tile-grout-stone-cleaning-sealing","rooftop-terrace-pedestal-pavers"];
 
+const publication=JSON.parse(await readFile(new URL("../app/local-service-publication.json",import.meta.url),"utf8"));
+const merged=(area,service)=>publication.mergedServices[area]?.includes(service);
 const {default:worker}=await import(new URL("../dist/server/index.js",import.meta.url).href);
 async function requestWorker(path, init={headers:{accept:"text/html"}}) {
   return worker.fetch(new Request(`http://localhost${path}`,init),{ASSETS:{fetch:async()=>new Response("Not found",{status:404})}},{waitUntil(){},passThroughOnException(){}});
@@ -145,7 +147,7 @@ test("sitemap contains current commercial pages and excludes legacy flows",async
     assert.match(xml,new RegExp(`https://tiling\\.ca/areas/${city}<`));
     assert.match(xml,new RegExp(`https://tiling\\.ca/areas/${city}/tile-supply-delivery`));
   }
-  assert.equal((xml.match(/<loc>https:\/\/tiling\.ca\/areas\/[a-z-]+\/[a-z-]+<\/loc>/g)??[]).length,allAreaSlugs.length*serviceSlugs.length);
+  assert.equal((xml.match(/<loc>https:\/\/tiling\.ca\/areas\/[a-z-]+\/[a-z-]+<\/loc>/g)??[]).length,allAreaSlugs.length*serviceSlugs.length-83);
   assert.doesNotMatch(xml,/request-a-match|for-contractors|contractor-review-process/);
 });
 
@@ -168,7 +170,7 @@ test("Ontario covers the official local-municipality roster without duplicate ro
   assert.equal(new Set(ontarioMunicipalities.map(item=>item.slug)).size,414);
   for(const item of official)assert.ok(ontarioMunicipalities.some(m=>m.officialName===item.officialName),item.officialName);
   const xml=await (await requestWorker("/sitemap.xml")).text();
-  for(const item of ontarioMunicipalities)for(const service of serviceSlugs)assert.ok(xml.includes(`https://tiling.ca/areas/${item.slug}/${service}</loc>`),`${item.slug}/${service}`);
+  for(const item of ontarioMunicipalities)for(const service of serviceSlugs)assert.equal(xml.includes(`https://tiling.ca/areas/${item.slug}/${service}</loc>`),!merged(item.slug,service),`${item.slug}/${service}`);
   for(const slug of new Set(ontarioMunicipalities.map(item=>item.regionSlug)))assert.ok(xml.includes(`https://tiling.ca/locations/ontario/${slug}</loc>`));
 });
 
@@ -176,7 +178,7 @@ test("Ontario town pages expose every service and verified community destination
   for(const item of ontarioMunicipalities){
     const response=await render(`/areas/${item.slug}`);assert.equal(response.status,200,item.slug);const html=await response.text();
     assert.ok(html.includes(`/locations/ontario/${item.regionSlug}`),item.slug);
-    for(const service of serviceSlugs)assert.ok(html.includes(`/areas/${item.slug}/${service}`),`${item.slug}/${service}`);
+    for(const service of serviceSlugs)assert.ok(html.includes(merged(item.slug,service)?`/areas/${item.slug}#service-${service}`:`/areas/${item.slug}/${service}`),`${item.slug}/${service}`);
     for(const community of item.communities)assert.ok(html.includes(`id="community-${community.id}"`),`${item.slug}:${community.name}`);
     assert.doesNotMatch(html,/independent contractor|Ontario pilot|matching is not open/i);
   }

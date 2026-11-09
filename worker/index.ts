@@ -32,7 +32,7 @@ const worker = {
   async fetch(request: Request, env: Env | undefined, ctx: ExecutionContext): Promise<Response> {
     const url = new URL(request.url);
     const destination = canonicalRedirect(url);
-    if (destination) return new Response(null, { status: 308, headers: { location: destination.origin === url.origin ? destination.pathname + destination.search : destination.href } });
+    if (destination) return new Response(null, { status: 308, headers: { location: destination.origin === url.origin ? destination.pathname + destination.search + destination.hash : destination.href } });
 
     if (url.pathname === "/api/quotes") return Response.json(
       { ok: false, code: "INTAKE_CLOSED", message: "This endpoint has been retired. Please use the quote form at /request-a-quote." },

@@ -1,3 +1,4 @@
+import { localServiceHref } from "./local-service-publication";
 import { Link } from "./components";
 import { areas, getArea, getRelatedAreas } from "./data";
 
@@ -12,7 +13,7 @@ export function AreaCoverage({ areaSlug, serviceSlug }: { areaSlug: string; serv
     {area.neighbourhoods.length > 0 && <div className="coverage-group"><h3>In {area.name}</h3><div className="coverage-tags">{area.neighbourhoods.map(name => <span key={name}>{name}</span>)}</div></div>}
     <div className="coverage-group"><h3>Nearby service areas</h3><div className="coverage-tags">{nearby.map(name => {
       const destination = areas.find(item => item.name === name && item.slug !== area.slug && item.province === area.province);
-      return destination ? <Link key={name} href={`/areas/${destination.slug}${serviceSlug ? `/${serviceSlug}` : ""}`}>{name} →</Link> : <span key={name}>{name}</span>;
+      return destination ? <Link key={name} href={serviceSlug ? localServiceHref(destination.slug,serviceSlug) : `/areas/${destination.slug}`}>{name} →</Link> : <span key={name}>{name}</span>;
     })}</div></div>
     <Link className="text-link" href="/locations">ALL SERVICE AREAS →</Link>
   </section>;

@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import { hasLocalServicePage, localServiceHref } from "./local-service-publication";
 import { municipalities, ontarioRegions } from "./ontario-data";
 import { services } from "./data";
 import { Link } from "./components";
@@ -13,7 +14,7 @@ export function OntarioDirectory({regionSlug}:{regionSlug?:string}) {
     const places=[{name:item.name,id:""},...item.communities];
     return places.filter(place=>needle ? normalize(`${place.name} ${item.name} ${item.region}`).includes(needle) : !place.id)
       .map(place=>({key:`${item.slug}:${place.id}`,name:place.name,municipality:item.name,region:item.region,regionSlug:item.regionSlug,
-        href:`/areas/${item.slug}${service?`/${service}`:""}${place.id?`#community-${place.id}`:""}`}));
+        href:service ? localServiceHref(item.slug,service)+(place.id&&hasLocalServicePage(item.slug,service)?`#community-${place.id}`:"") : `/areas/${item.slug}${place.id?`#community-${place.id}`:""}`}));
   }).sort((a,b)=>{
     const exactA=normalize(a.name)===needle, exactB=normalize(b.name)===needle;
     return Number(exactB)-Number(exactA) || a.name.localeCompare(b.name) || a.municipality.localeCompare(b.municipality);

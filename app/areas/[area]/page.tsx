@@ -1,3 +1,7 @@
+import { ConsolidatedLocalServices, LocalServiceMenu } from "../../consolidated-local-services";
+import { hasLocalServicePage, localServiceHref } from "../../local-service-publication";
+import { QuoteForm } from "../../quote-form";
+import type { RouteQuery } from "../../legacy-redirects";
 import { LocalProjectBrief } from "../../local-project-brief";
 import { PricingLinks } from "../../pricing-content";
 import { withSocialMetadata } from "../../seo";
@@ -6,7 +10,7 @@ import { AreaCoverage } from "../../area-coverage";
 import { CommunityCoverage } from "../../community-coverage";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { areas, business, getArea, services } from "../../data";
+import { areas, business, getArea, getService, services } from "../../data";
 import { Breadcrumbs, Footer, Header, Link, StructuredData } from "../../components";
 
 type Params = Promise<{ area: string }>;
@@ -31,10 +35,14 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   });
 }
 
-export default async function AreaPage({ params }: { params: Params }) {
+export default async function AreaPage({ params, searchParams }: { params: Params; searchParams: Promise<RouteQuery> }) {
   const { area: slug } = await params;
   const area = getArea(slug);
   if (!area) notFound();
+
+  const query = await searchParams;
+  const selectedService = typeof query.service === "string" ? getService(query.service) : undefined;
+  const hasConsolidatedServices = services.some(service => !hasLocalServicePage(area.slug, service.slug));
 
   const url = `${business.domain}/areas/${area.slug}`;
   const pageSchema = {
@@ -63,19 +71,21 @@ export default async function AreaPage({ params }: { params: Params }) {
 
 
       <LocalProjectBrief areaSlug={area.slug}/>
+      {hasConsolidatedServices && <section className="quote-section" id="local-quote"><div className="quote-copy"><p className="section-kicker">Your local project</p><h2>Let’s plan your {area.name} project.</h2><p>Send the room, approximate dimensions, access details and timing. We’ll confirm the scope and availability for your property.</p></div><QuoteForm defaultCity={area.name} serviceName={selectedService?.name}/></section>}
       <section className="area-services section-pad">
         <div className="section-heading">
           <div><p className="section-kicker">{services.length} service categories</p><h2>Explore tile services in {area.name}.</h2></div>
           <p>Choose the work you need to see installation details and request a quote.</p>
         </div>
-        <div className="service-card-grid">{services.map((service) => <Link key={service.slug} href={`/areas/${area.slug}/${service.slug}`}>
+        {hasConsolidatedServices ? <LocalServiceMenu areaSlug={area.slug}/> : <div className="service-card-grid">{services.map((service) => <Link key={service.slug} href={localServiceHref(area.slug,service.slug)}>
           <img className="location-service-card-photo" src={service.homeImage} alt={service.homeImageAlt} width="1536" height="1024" loading="lazy"/>
           <span>{service.name}</span>
           <p>{service.short}</p>
           <b>View {area.name} service →</b>
-        </Link>)}</div>
+        </Link>)}</div>}
       </section>
 
+      <ConsolidatedLocalServices areaSlug={area.slug}/>
       <section className="local-context section-pad">
         <div>
           <p className="section-kicker">Local planning context</p>

@@ -1,3 +1,5 @@
+import { hasLocalServicePage, localServiceHref } from "../../../local-service-publication";
+import { localServiceRedirect, type RouteQuery } from "../../../legacy-redirects";
 import { ServiceReference } from "../../../service-content";
 import { LocalProjectBrief } from "../../../local-project-brief";
 import { PricingLinks } from "../../../pricing-content";
@@ -7,7 +9,7 @@ import { AreaCoverage } from "../../../area-coverage";
 import { CommunityCoverage } from "../../../community-coverage";
 import { QuoteForm } from "../../../quote-form";
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import { areas, business, getArea, getService, services } from "../../../data";
 import { Breadcrumbs, FAQ, Footer, Header, Link, StructuredData } from "../../../components";
 import { getLocalServiceGuidance } from "../../../local-guidance";
@@ -15,7 +17,7 @@ import { getLocalServiceGuidance } from "../../../local-guidance";
 type Params = Promise<{ area: string; service: string }>;
 
 export function generateStaticParams() {
-  return areas.flatMap((area) => services.map((service) => ({ area: area.slug, service: service.slug })));
+  return areas.flatMap((area) => services.filter(service=>hasLocalServicePage(area.slug,service.slug)).map((service) => ({ area: area.slug, service: service.slug })));
 }
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
@@ -36,11 +38,14 @@ export async function generateMetadata({ params }: { params: Params }): Promise<
   });
 }
 
-export default async function LocalServicePage({ params }: { params: Params }) {
+export default async function LocalServicePage({ params, searchParams }: { params: Params; searchParams: Promise<RouteQuery> }) {
   const route = await params;
   const area = getArea(route.area);
   const service = getService(route.service);
   if (!area || !service) notFound();
+
+  const moved = localServiceRedirect(`/areas/${area.slug}/${service.slug}`, await searchParams);
+  if (moved) permanentRedirect(moved);
 
   const url = `${business.domain}/areas/${area.slug}/${service.slug}`;
   const otherServices = services.filter((item) => item.slug !== service.slug);
@@ -157,7 +162,7 @@ export default async function LocalServicePage({ params }: { params: Params }) {
       <section className="other-services section-pad">
         <p className="section-kicker">More guides for {area.name}</p>
         <h2>Explore another tile project.</h2>
-        <div>{otherServices.map((item) => <Link key={item.slug} href={`/areas/${area.slug}/${item.slug}`}>{item.name}<span>{area.name} guide →</span></Link>)}</div>
+        <div>{otherServices.map((item) => <Link key={item.slug} href={localServiceHref(area.slug,item.slug)}>{item.name}<span>{area.name} guide →</span></Link>)}</div>
       </section>
 
 
