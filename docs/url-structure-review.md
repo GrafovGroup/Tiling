@@ -24,12 +24,16 @@ The same mapping applies under `/fr`. Ottawa and all regions covering multiple m
 
 - Canonical production origin: `https://tiling.ca`; lowercase registered content paths, no trailing slash except `/`.
 - English content uses `/services/`, `/materials/`, `/pricing/`, `/areas/` and `/locations/`. French equivalents keep the existing `/fr` prefix. Established descriptive slugs are preserved.
-- Recognized uppercase, repeated-slash, trailing-slash and percent-encoded unreserved-character aliases return one **308** to their final destination, combined with HTTP/www, historical-route and consolidation redirects.
+- Recognized uppercase, repeated-slash, trailing-slash and percent-encoded unreserved-character aliases return one **308** to their final destination, combined with www, historical-route and consolidation redirects. The Worker also normalizes HTTP, but the production hosting edge upgrades HTTP before the Worker receives it.
 - Reserved encodings, unknown services/locations, extra segments, assets and API paths are not silently reinterpreted as content aliases. Unknown content retains a genuine 404. The retired quote API remains 410.
 - Repeated query values, marketing parameters and project context survive redirects. A retired local-service route selects its original service. Query variants use the clean page's canonical and language URLs.
 - Region cards, breadcrumbs, structured data and sitemaps link directly to surviving URLs. A municipality no longer links to its own retired region alias as a parent.
 - React navigation responses with `text/x-component` content type receive `X-Robots-Tag: noindex`; HTML stays indexable and navigation payloads remain usable.
 - Native Sites hosting remains reachable with custom-domain canonical metadata. Robots.txt allows crawling of redirects and canonical signals.
+
+## Hosting limitation
+
+Live HTTP requests receive a hosting-edge **302** to HTTPS before application routing. For a noncanonical path or www alias, the application then returns its permanent 308 to the final URL. The available Sites tools do not expose that edge redirect policy. Changing the first hop to a permanent redirect requires a hosting-provider setting; the application cannot replace a response generated before it runs. All sitemap entries, canonical/language metadata and internal links already use final HTTPS URLs. HTTPS aliases and consolidation redirects were verified in one hop.
 
 ## Verification
 

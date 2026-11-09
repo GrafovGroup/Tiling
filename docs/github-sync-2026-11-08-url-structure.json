@@ -1,5 +1,5 @@
 {
-  "source_commit": "176ec577f2d53982d413e1cb2e48c4b8d453bddf",
+  "source_commit": "d5dd711f3912788e3f89bc35db2b370e81fd1e12",
   "production_url": "https://tiling.ca",
   "files": [
     {
@@ -735,7 +735,7 @@
     {
       "path": "docs/url-structure-review.md",
       "mode": "100644",
-      "sha": "32dab63159c1db988a867652b87a4f6d3dfe328f"
+      "sha": "cf7cbec62d8ccdfa1a3778914fdecf0b9a087c78"
     },
     {
       "path": "docs/url-structure-validation.json",
@@ -1723,5 +1723,5 @@
       "sha": "3243f0d79a5fdf1aa49dbd02b02db7845bb2cbbe"
     }
   ],
-  "version": 68
+  "version": 69
 }
