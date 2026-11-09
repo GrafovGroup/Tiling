@@ -1,3 +1,4 @@
+import { planningContext } from "./planning-calculations";
 import { getArea, getMaterial, getService } from "./data";
 import { getServiceGuide } from "./service-guide-data";
 import type { Locale } from "./pricing-data";
@@ -11,7 +12,7 @@ export const enquiryMeta = {
     fr: { title: "Nous joindre pour un projet de carrelage", description: "Appelez, écrivez ou décrivez votre projet à Tiling.ca : pose, réparation, nettoyage, fourniture et livraison de carreaux au Canada." },
   },
   "request-a-quote": {
-    en: { title: "Request a Free Tile Quote", description: "Start your Tiling.ca quote with your name, email and project city. Add optional project notes or email photos to discuss scope, materials and availability." },
+    en: { title: "Request a Free Tile Quote", description: "Start your Tiling.ca quote with your name, email and project city. Add optional project notes, photos or plans to discuss scope, materials and availability." },
     fr: { title: "Soumission pour vos travaux de carrelage", description: "Indiquez votre nom, votre courriel et la ville du projet. Ajoutez des détails ou envoyez des photos pour discuter des travaux et des disponibilités." },
   },
 };
@@ -25,6 +26,8 @@ export function enquiryContext(query: EnquiryQuery = {}) {
   if (area) params.set("area", area.slug);
   if (service) params.set("service", service.slug);
   if (material) params.set("material", material.slug);
+  const plan = planningContext(query, "en");
+  if (plan) { params.set("calc_area", String(plan.areaSqFt)); params.set("calc_waste", String(plan.waste)); params.set("calc_unit", plan.unit); }
   return { area, material, service, suffix: params.size ? "?" + params.toString() : "" };
 }
 
@@ -54,7 +57,7 @@ export function enquiryFaq(page: EnquiryPage, locale: Locale) {
   const fr = locale === "fr";
   return [
     { q: fr ? "Puis-je vous joindre avant d’avoir choisi les carreaux?" : "Can I get in touch before choosing tile?", a: fr ? "Oui. Indiquez la ville et les travaux envisagés, même si les dimensions, le produit ou les dates restent à préciser. Nous pourrons discuter des renseignements nécessaires pour la suite." : "Yes. Tell us the project city and the work you have in mind, even if dimensions, products or dates are still undecided. We can discuss the information needed for the next step." },
-    { q: fr ? "Comment envoyer des photos ou des plans?" : "How do I send photos or plans?", a: fr ? "Envoyez-les à info@tiling.ca en indiquant le même nom et la même ville que dans le formulaire. Une vue d’ensemble et des gros plans des zones concernées aident à expliquer le projet. Les photos ne remplacent pas une évaluation sur place lorsqu’elle est nécessaire." : "Email them to info@tiling.ca using the same name and city as your form submission. An overall view and close-ups of the areas involved help explain the project. Photos do not replace a site assessment when one is needed." },
+    { q: fr ? "Comment envoyer des photos ou des plans?" : "How do I send photos or plans?", a: fr ? "Joignez jusqu’à 5 photos ou plans PDF au formulaire (5 Mo chacun, 10 Mo au total), ou envoyez-les à info@tiling.ca avec le même nom et la même ville. Une vue d’ensemble et des gros plans des zones concernées aident à expliquer le projet. Les photos ne remplacent pas une évaluation sur place lorsqu’elle est nécessaire." : "Attach up to 5 photos or PDF plans to the form (5 MB each, 10 MB total), or email them to info@tiling.ca using the same name and city as your form submission. An overall view and close-ups of the areas involved help explain the project. Photos do not replace a site assessment when one is needed." },
     page === "contact" ?
       { q: fr ? "Pouvez-vous examiner un projet dans ma ville?" : "Can you review a project in my city?", a: fr ? "Nous examinons les demandes de pose, de réparation et de fourniture partout au Canada. Indiquez la ville : l’adresse, l’accès, les déplacements ou la livraison et les disponibilités sont confirmés pour chaque projet." : "We review installation, repair and supply enquiries across Canada. Include your city: the exact address, access, travel or delivery, and availability are confirmed for each project." } :
       { q: fr ? "La demande réserve-t-elle une date ou un prix?" : "Does submitting reserve a date or a price?", a: fr ? "Non. La demande ouvre la discussion. La portée, les matériaux, le prix et les dates doivent être confirmés pour votre projet. Les guides de prix présentent des repères de l’industrie, pas une soumission de Tiling.ca." : "The request starts a conversation. Scope, materials, price and dates need to be confirmed for your project. Pricing guides provide industry benchmarks, not a Tiling.ca quote." },

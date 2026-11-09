@@ -1,3 +1,4 @@
+import { formValue } from './form-values.mjs';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import worker from '../dist/server/index.js';
@@ -43,7 +44,7 @@ test('each trust page has one usable enquiry form and FAQ answers matching its s
   const page=await html(prefix+'/'+slug),body=main(page),forms=[...body.matchAll(/<form[\s\S]*?<\/form>/g)];assert.equal(forms.length,1);
   const form=forms[0][0];assert.ok(form.includes('action="https://formspree.io/f/xdeownaz"'));assert.ok(form.includes('method="POST"'));assert.ok(form.includes('name="language" value="'+(prefix?'fr-CA':'en-CA')+'"'));
   for(const field of ['name','email','city'])assert.match(form.match(new RegExp('<input[^>]*name="'+field+'"[^>]*>'))?.[0]||'',/\brequired(?:=|\s|>)/);
-  const phone=form.match(/<input[^>]*name="phone"[^>]*>/)[0];assert.ok(!phone.includes('required'));assert.ok(!form.includes('type="file"'));
+  const phone=form.match(/<input[^>]*name="phone"[^>]*>/)[0];assert.ok(!phone.includes('required'));assert.ok(form.includes('type="file"'));
   assert.ok(body.includes('href="#project-enquiry"'));assert.ok(body.includes('id="project-enquiry"'));
   const faq=schemas(page).filter(item=>item['@type']==='FAQPage');assert.equal(faq.length,1);assert.equal(faq[0].mainEntity.length,slug==='about'?4:5);
   for(const question of faq[0].mainEntity){assert.ok(decode(body).includes(question.name));assert.ok(decode(body).includes(question.acceptedAnswer.text));}

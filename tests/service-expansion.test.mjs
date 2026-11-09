@@ -1,3 +1,4 @@
+import { formValue } from './form-values.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -36,7 +37,7 @@ test('service enquiry buttons, inline forms and pricing guides retain the select
   assert.equal((page.match(/<form[ >]/g)||[]).length,1,path);
   const form=page.match(/<form[\s\S]*?<\/form>/)?.[0];
   assert.ok(form.includes('action="https://formspree.io/f/xdeownaz"'),path);
-  assert.match(form,/name="service" value="[^"]+"/);
+  assert.ok(formValue(form,'service'));
   assert.ok(form.includes('name="language" value="'+(prefix?'fr-CA':'en-CA')+'"'));
   assert.ok(page.match(/<section class="inner-hero service-hero">[\s\S]*?<\/section>/)?.[0].includes(`href="${prefix}/request-a-quote?service=${guide.slug}"`),path);
   const priceLinks=[...page.matchAll(/class="pricing-card" href="([^"]+)"/g)].map(m=>m[1]);
@@ -44,7 +45,7 @@ test('service enquiry buttons, inline forms and pricing guides retain the select
   const pricePage=await html(decode(priceLinks[0]));
   assert.ok(pricePage.includes(`${prefix}/request-a-quote?service=${guide.slug}`));
   const quotePage=await html(`${prefix}/request-a-quote?service=${guide.slug}`);
-  assert.match(quotePage,/name="service" value="[^"]+"/);
+  assert.ok(formValue(quotePage,'service'));
  }
 });
 

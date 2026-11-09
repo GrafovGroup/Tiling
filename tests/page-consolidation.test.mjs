@@ -1,3 +1,4 @@
+import { formValue } from './form-values.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
@@ -34,7 +35,7 @@ test('all 166 retired URLs redirect once to matching language, city, service sec
   assert.ok(head.includes(`rel="canonical" href="https://tiling.ca${prefix}/areas/${area}"`));
   assert.ok(head.includes(`href="https://tiling.ca/areas/${area}"`));
   assert.ok(head.includes(`href="https://tiling.ca/fr/areas/${area}"`));
-  assert.match(selected,/<input[^>]*name="service"[^>]*value="[^"]+"/);
+  assert.ok(formValue(selected,'service'));
   assert.match(selected,/<input[^>]*name="city"[^>]*value="[^"]+"/);
   assert.equal((selected.match(/<form /g)||[]).length,1);
   assert.doesNotMatch(selected, /class="location-service-card-photo"/);

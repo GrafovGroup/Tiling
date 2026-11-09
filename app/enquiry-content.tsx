@@ -1,6 +1,7 @@
 import { business } from "./data";
 import { frenchMaterials, frenchServices } from "./fr/content";
 import { FAQ, Link, StructuredData } from "./components";
+import { planningContext } from "./planning-calculations";
 import { QuoteForm } from "./quote-form";
 import { guidesForService, type Locale } from "./pricing-data";
 import { enquiryContext, enquiryFaq, enquiryGuidance, enquiryMeta, enquiryReviewed, type EnquiryPage, type EnquiryQuery } from "./enquiry-data";
@@ -33,7 +34,7 @@ export function EnquiryContent({ page, locale = "en", query = {} }: { page: Enqu
     <section className="enquiry-layout" aria-label={fr ? "Votre demande de projet" : "Your project enquiry"}>
       <div className="enquiry-form-panel" id="project-enquiry-form" tabIndex={-1}>
         {contact && <h2>{fr ? "Les premiers détails de votre projet." : "Start with your project details."}</h2>}
-        <QuoteForm locale={locale} defaultCity={area?.name} serviceName={serviceName} materialName={materialName} guidance={enquiryGuidance(locale, service?.slug)}/>
+        <QuoteForm projectOptions initialDetails={planningContext(query, locale)?.summary} locale={locale} defaultCity={area?.name} serviceName={serviceName} materialName={materialName} guidance={enquiryGuidance(locale, service?.slug)}/>
       </div>
       <aside className="enquiry-aside">
         <div><p className="section-kicker">{fr ? "Après votre demande" : "After your enquiry"}</p><h2>{fr ? "La suite, en trois étapes." : "What happens next."}</h2>

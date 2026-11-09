@@ -1,3 +1,4 @@
+import { formValue } from './form-values.mjs';
 const publication=JSON.parse(await readFile(new URL("../app/local-service-publication.json",import.meta.url),"utf8"));
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -20,11 +21,11 @@ test('French route families render localized content and reciprocal language met
 });
 test('all fifteen French services and five materials have content and quote forms',async()=>{
  for(const service of services){const s=await html('/fr/services/'+service);assert.match(s,/Questions fréquentes/);assert.match(s,/name="language" value="fr-CA"/);assert.match(s,/action="https:\/\/formspree.io\/f\/xdeownaz"/);assert.match(s,/Demander une soumission/);}
- for(const material of ['marble-tile','porcelain-tile','ceramic-tile','natural-stone-tile','granite-tile']){const s=await html('/fr/materials/'+material);assert.match(s,/Avant de commander/);assert.match(s,/name="material" value="[^"]+"/);assert.match(s,/name="service" value="Fourniture et livraison de carreaux"/);assert.match(s,/name="language" value="fr-CA"/);}
+ for(const material of ['marble-tile','porcelain-tile','ceramic-tile','natural-stone-tile','granite-tile']){const s=await html('/fr/materials/'+material);assert.match(s,/Avant de commander/);assert.match(s,/name="material" value="[^"]+"/);assert.equal(formValue(s,'service'),'Fourniture et livraison de carreaux');assert.match(s,/name="language" value="fr-CA"/);}
 });
 test('French quote context validates area and service inputs',async()=>{
- const good=await html('/fr/request-a-quote?area=montreal&service=kitchen-backsplash');assert.match(good,/name="city"[^>]*value="Montréal"/);assert.match(good,/name="service" value="Dosseret de cuisine"/);assert.match(good,/>Courriel</);assert.match(good,/href="\/fr\/privacy"/);
- const bad=await html('/fr/request-a-quote?area=unknown&service=unknown');assert.doesNotMatch(bad,/name="service"/);assert.match(bad,/name="city"[^>]*value=""/);
+ const good=await html('/fr/request-a-quote?area=montreal&service=kitchen-backsplash');assert.match(good,/name="city"[^>]*value="Montréal"/);assert.equal(formValue(good,'service'),'Dosseret de cuisine');assert.match(good,/>Courriel</);assert.match(good,/href="\/fr\/privacy"/);
+ const bad=await html('/fr/request-a-quote?area=unknown&service=unknown');assert.equal(formValue(bad,'service'),'');assert.match(bad,/name="city"[^>]*value=""/);
 });
 test('French unknown routes return 404 and historical URLs redirect',async()=>{
  for(const path of ['/fr/unknown','/fr/services/unknown','/fr/materials/unknown','/fr/areas/unknown','/fr/areas/toronto/unknown','/fr/locations/ontario/unknown'])assert.equal((await request(path)).status,404,path);

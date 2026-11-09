@@ -54,7 +54,7 @@ export function ServiceLanding({ slug, locale = "en", areaSlug, materialSlug }: 
     <div id="service-pricing" className="service-anchor"><PricingLinks locale={locale} service={slug} area={area?.slug} material={material?.slug}/></div>
     <section className="quote-section service-quote" id={quoteId}>
       <div className="quote-copy"><p className="section-kicker">{fr ? "Votre projet" : "Your project"}</p><h2>{fr ? "Les détails qui préparent une bonne soumission." : "The details behind a useful quote."}</h2><p>{fr ? "Indiquez la ville et les travaux souhaités. Pour préciser le projet, préparez aussi :" : "Start with the city and the work you need. These details help us define your project:"}</p><ul>{guide.quoteChecklist.map(item => <li key={item.en}>{item[locale]}</li>)}</ul><p className="service-scope-note">{guide.scopeNote[locale]}</p></div>
-      <QuoteForm locale={locale} serviceName={copy.name} defaultCity={area?.name} materialName={materialName}/>
+      <QuoteForm projectOptions locale={locale} serviceName={copy.name} defaultCity={area?.name} materialName={materialName}/>
     </section>
     <section className="faq-section section-pad" id="service-faq"><div><p className="section-kicker">{fr ? "Questions fréquentes" : "Common questions"}</p><h2>{fr ? "Préciser votre projet." : "Get the details clear."}</h2><p>{fr ? "Préparez vos choix, puis confirmez les produits et les conditions réelles du chantier dans votre soumission." : "Use these answers to plan your choices, then confirm the selected products and actual site conditions in your quote."}</p></div><FAQ items={questions}/></section>
     <section className="service-resources section-pad" aria-label={fr ? "Services et matériaux connexes" : "Related services and materials"}>

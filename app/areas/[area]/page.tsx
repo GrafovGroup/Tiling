@@ -71,7 +71,7 @@ export default async function AreaPage({ params, searchParams }: { params: Param
 
 
       <LocalProjectBrief areaSlug={area.slug}/>
-      {hasConsolidatedServices && <section className="quote-section" id="local-quote"><div className="quote-copy"><p className="section-kicker">Your local project</p><h2>Let’s plan your {area.name} project.</h2><p>Send the room, approximate dimensions, access details and timing. We’ll confirm the scope and availability for your property.</p></div><QuoteForm defaultCity={area.name} serviceName={selectedService?.name}/></section>}
+      {hasConsolidatedServices && <section className="quote-section" id="local-quote"><div className="quote-copy"><p className="section-kicker">Your local project</p><h2>Let’s plan your {area.name} project.</h2><p>Send the room, approximate dimensions, access details and timing. We’ll confirm the scope and availability for your property.</p></div><QuoteForm projectOptions defaultCity={area.name} serviceName={selectedService?.name}/></section>}
       <section className="area-services section-pad">
         <div className="section-heading">
           <div><p className="section-kicker">{services.length} service categories</p><h2>Explore tile services in {area.name}.</h2></div>

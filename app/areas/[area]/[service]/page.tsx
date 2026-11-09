@@ -111,7 +111,7 @@ export default async function LocalServicePage({ params, searchParams }: { param
         </div>
       </section>
 
-      <section id="local-quote" className="quote-section"><div className="quote-copy"><p className="section-kicker">YOUR LOCAL PROJECT</p><h2>Let’s plan your {area.name} project.</h2><p>We’ll follow up about your {service.name.toLowerCase()} request. Add your village or community name if it differs from the municipality shown.</p><Link className="text-link" href={`/areas/${area.slug}`}>ALL {area.name} SERVICES →</Link></div><QuoteForm defaultCity={area.name} serviceName={service.name}/></section>
+      <section id="local-quote" className="quote-section"><div className="quote-copy"><p className="section-kicker">YOUR LOCAL PROJECT</p><h2>Let’s plan your {area.name} project.</h2><p>We’ll follow up about your {service.name.toLowerCase()} request. Add your village or community name if it differs from the municipality shown.</p><Link className="text-link" href={`/areas/${area.slug}`}>ALL {area.name} SERVICES →</Link></div><QuoteForm projectOptions defaultCity={area.name} serviceName={service.name}/></section>
 
       <LocalProjectBrief areaSlug={area.slug} service={service.slug}/>
       <PricingLinks area={area.slug} service={service.slug}/>

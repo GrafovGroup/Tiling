@@ -1,3 +1,4 @@
+import { formValue } from './form-values.mjs';
 import assert from "node:assert/strict";
 import {readFile} from "node:fs/promises";
 import test from "node:test";
@@ -58,7 +59,7 @@ test("publishes a Formspree-backed quote intake",async()=>{
   assert.match(html,/method="POST"/i);
   assert.match(html,/Request a quote/i);
   assert.match(html,/info@tiling\.ca/i);
-  assert.doesNotMatch(html,/name="(?:service|timing|consent)"/);
+  assert.match(html,/<select[^>]*name="service"/);assert.match(html,/<select[^>]*name="timing"/);assert.doesNotMatch(html,/name="consent"/);
   assert.match(html,/We’ll use your details to reply about your project/i);
   assert.doesNotMatch(html,/<textarea[^>]*required/);
   assert.doesNotMatch(html,/Prepare quote email|Nothing is sent until you press Send/i);
@@ -224,9 +225,9 @@ test("delivers route metadata in the initial head for visitors and search crawle
 test("retains valid city and service context without accepting arbitrary quote values", async () => {
   const html = await (await render("/request-a-quote?area=oshawa&service=kitchen-backsplash")).text();
   assert.match(html, /name="city"[^>]*value="Oshawa"/);
-  assert.match(html, /name="service"[^>]*value="Kitchen Backsplash"/);
+  assert.equal(formValue(html,'service'),'Kitchen Backsplash');
   const invalid = await (await render("/request-a-quote?area=unknown-place&service=unknown-service")).text();
-  assert.doesNotMatch(invalid, /name="service"/);
+  assert.equal(formValue(invalid,'service'),'');
   assert.match(invalid, /name="city"[^>]*value=""/);
 });
 
@@ -284,7 +285,7 @@ test("offers fifteen services with distinct new scopes, imagery and quote contex
     assert.ok(local.includes('name="city"')); assert.ok(local.includes('id="local-quote"'));
     const quote = await (await render(`/request-a-quote?area=oshawa&service=${slug}`)).text();
     assert.match(quote, /name="city"[^>]*value="Oshawa"/);
-    assert.ok(quote.includes(`name="service" value="${name}"`));
+    assert.equal(formValue(quote,'service'),name.replaceAll('&amp;','&'));
   }
 });
 

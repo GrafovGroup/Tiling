@@ -1,3 +1,4 @@
+import { formValue } from './form-values.mjs';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import worker from '../dist/server/index.js';
@@ -23,7 +24,7 @@ test('contact and quote pages have one concise, localized enquiry form and accur
   assert.ok(form.includes('action="https://formspree.io/f/xdeownaz"'));assert.ok(form.includes('name="language" value="'+(prefix?'fr-CA':'en-CA')+'"'));
   const fields=[...form.matchAll(/<(?:input|textarea)[^>]*>/g)].map(m=>m[0]);
   assert.deepEqual(fields.filter(s=>/\brequired(?:=|\s|>)/.test(s)).map(s=>s.match(/name="([^"]+)"/)[1]),['name','email','city']);
-  assert.ok(!form.includes('type="file"'));assert.ok(!form.match(/name="(?:service|timing|budget|consent)"/));
+  assert.ok(form.includes('type="file"'));assert.ok(form.includes('name="timing"'));assert.equal(formValue(form,'service'),'');assert.ok(!form.match(/name="(?:budget|consent)"/));
   assert.ok(body.includes('href="tel:+18335738453"'));assert.ok(body.includes('href="mailto:info@tiling.ca"'));
   assert.ok(form.includes(prefix?'Les détails utiles pour votre projet':'Helpful details for your project'));
   assert.ok(form.includes(prefix?'avec le même nom et la même ville':'with the same name and city'));
@@ -36,7 +37,7 @@ test('contact and quote pages have one concise, localized enquiry form and accur
 test('validated project context survives contact/quote navigation and resource links',async()=>{
  for(const prefix of ['','/fr'])for(const slug of ['contact','request-a-quote']){
   const path=prefix+'/'+slug+'?area=oshawa&service=kitchen-backsplash&material=porcelain-tile',body=main(await html(path));
-  assert.match(body,/name="city"[^>]*value="Oshawa"/);assert.match(body,/name="service" value="[^"]+"/);assert.match(body,/name="material" value="[^"]+"/);
+  assert.match(body,/name="city"[^>]*value="Oshawa"/);assert.ok(formValue(body,'service'));assert.match(body,/name="material" value="[^"]+"/);
   const other=slug==='contact'?'request-a-quote':'contact';assert.ok(decode(body).includes('href="'+prefix+'/'+other+'?area=oshawa&service=kitchen-backsplash&material=porcelain-tile"'));
   const links=new Set([...body.matchAll(/href="([^"]+)"/g)].map(m=>decode(m[1])));
   for(const href of links){
@@ -51,9 +52,9 @@ test('validated project context survives contact/quote navigation and resource l
 test('invalid and repeated query values cannot inject enquiry fields or navigation context',async()=>{
  for(const prefix of ['','/fr'])for(const slug of ['contact','request-a-quote']){
   for(const query of ['?area=unknown&service=unknown&material=unknown','?area=oshawa&area=toronto&service=kitchen-backsplash&service=commercial-tile&material=porcelain-tile&material=marble-tile']){
-   const body=main(await html(prefix+'/'+slug+query));assert.match(body,/name="city"[^>]*value=""/);assert.doesNotMatch(body,/name="(?:service|material)"/);assert.doesNotMatch(body,/href="[^\"]*unknown/);
+   const body=main(await html(prefix+'/'+slug+query));assert.match(body,/name="city"[^>]*value=""/);assert.equal(formValue(body,'service'),'');assert.doesNotMatch(body,/name="material"/);assert.doesNotMatch(body,/href="[^\"]*unknown/);
   }
-  const supply=main(await html(prefix+'/'+slug+'?material=porcelain-tile'));assert.match(supply,/name="service" value="[^"]+"/);assert.ok(supply.includes(prefix?'quantité et besoins de livraison':'quantity and delivery needs'));
+  const supply=main(await html(prefix+'/'+slug+'?material=porcelain-tile'));assert.ok(formValue(supply,'service'));assert.ok(supply.includes(prefix?'quantité et besoins de livraison':'quantity and delivery needs'));
  }
 });
 

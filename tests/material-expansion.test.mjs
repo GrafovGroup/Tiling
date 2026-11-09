@@ -1,3 +1,4 @@
+import { formValue } from './form-values.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
@@ -8,7 +9,7 @@ async function html(path){const response=await worker.fetch(new Request('https:/
 const decode=s=>s.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#x27;',"'");
 const links=page=>[...page.matchAll(/href="([^"]+)"/g)].map(m=>decode(m[1]));
 const jsonld=page=>[...page.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].map(m=>JSON.parse(m[1]));
-const field=(page,name)=>decode(page.match(new RegExp('name="'+name+'"[^>]*value="([^"]*)"'))?.[1]||'');
+const field=formValue;
 function section(page,name){const result=page.match(new RegExp('<section class="'+name+' section-pad"[\\s\\S]*?<\\/section>'))?.[0];assert.ok(result,name);return result;}
 
 test('all five material guides have distinct bilingual metadata, accessible sections and editorial schema',async()=>{

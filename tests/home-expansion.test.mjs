@@ -1,3 +1,4 @@
+import { formValue } from './form-values.mjs';
 import assert from 'node:assert/strict';
 import test from 'node:test';
 import worker from '../dist/server/index.js';
@@ -61,6 +62,6 @@ test('inspiration links carry the selected service and material into a usable qu
   assert.equal(new Set([...ideas.matchAll(/\/projects\/concept-[^" ]+\.jpg/g)].map(m=>m[0])).size,3);
   assert.equal((ideas.match(/<figcaption>/g)||[]).length,3);
   const links=[...ideas.matchAll(/href="([^\"]*\/request-a-quote\?[^\"]+)"/g)].map(m=>decode(m[1]));assert.equal(links.length,3);
-  for(const link of links){const page=await html(link);assert.match(page,/name="service" value="[^\"]+"/);assert.match(page,/name="material" value="[^\"]+"/);}
+  for(const link of links){const page=await html(link);assert.ok(formValue(page,'service'));assert.match(page,/name="material" value="[^\"]+"/);}
  }
 });

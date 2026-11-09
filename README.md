@@ -1,7 +1,8 @@
 # GitHub production snapshot
 
-This repository includes published **Sites version 63**, source commit `6d46a942a10f7d796b04a7496c1eec03fdc94914`, and the separate [unpublished homepage concepts](docs/designs/homepage-alternatives-2026-11-08/README.md).
+This repository includes published **Sites version 64**, source commit `0a94d870c07aad1584cea236b6e303e9ece9c8aa`, and the separate [unpublished homepage concepts](docs/designs/homepage-alternatives-2026-11-08/README.md).
 
+- Inner-page quote forms now offer optional service/timing selections and photo/plan attachments. Twelve bilingual pricing guides include quantity calculators, and the floor guide includes source-specific budget calculations. The current homepage remains unchanged. [Implementation and validation](docs/quote-and-calculator-update.md).
 - The first consolidation pilot reduces the sitemap from 15,618 to 15,452 URLs. All reported pilot city/service search activity is protected in both languages. [Decision and monitoring plan](docs/page-consolidation.md) · [Complete URL inventory](docs/page-consolidation-inventory.csv) · [Validation](docs/page-consolidation-validation.json).
 - Prior content, pricing, accessibility, image optimization, redirect, 404 and enquiry improvements are retained.
 - GA4 `G-83XS8KT8EM` remains a Sites runtime setting, with explicit visitor consent, Enhanced Measurement off and confirmed submissions tracked as `generate_lead`. No environment files or credentials are stored in this repository.
