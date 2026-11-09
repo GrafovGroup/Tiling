@@ -1,22 +1,22 @@
 # GitHub production snapshot
 
-This repository includes published **Sites version 64**, source commit `0a94d870c07aad1584cea236b6e303e9ece9c8aa`, and the separate [unpublished homepage concepts](docs/designs/homepage-alternatives-2026-11-08/README.md).
+This repository includes published **Sites version 65**, source commit `e379aad804ae030d4f0e9be35004e0c9748a4f27`, and the separate [unpublished homepage concepts](docs/designs/homepage-alternatives-2026-11-08/README.md).
 
 - Inner-page quote forms now offer optional service/timing selections and photo/plan attachments. Twelve bilingual pricing guides include quantity calculators, and the floor guide includes source-specific budget calculations. The current homepage remains unchanged. [Implementation and validation](docs/quote-and-calculator-update.md).
-- The first consolidation pilot reduces the sitemap from 15,618 to 15,452 URLs. All reported pilot city/service search activity is protected in both languages. [Decision and monitoring plan](docs/page-consolidation.md) · [Complete URL inventory](docs/page-consolidation-inventory.csv) · [Validation](docs/page-consolidation-validation.json).
+- The Huron follow-up consolidates another 196 bilingual URLs into existing municipality hubs. The sitemap now contains 15,256 URLs; 362 URLs have been consolidated across both batches. [Huron rollout](docs/huron-consolidation.md) · [Redirect mapping](docs/huron-consolidation-urls.csv) · [Validation](docs/huron-consolidation-validation.json).
 - Prior content, pricing, accessibility, image optimization, redirect, 404 and enquiry improvements are retained.
 - GA4 `G-83XS8KT8EM` remains a Sites runtime setting, with explicit visitor consent, Enhanced Measurement off and confirmed submissions tracked as `generate_lead`. No environment files or credentials are stored in this repository.
-- GitHub Actions validates code; it does not deploy the site. The homepage alternatives remain documentation only. [Source manifest](docs/github-sync-2026-11-08-consolidation.json).
+- GitHub Actions validates code; it does not deploy the site. The homepage alternatives remain documentation only. [Source manifest](docs/github-sync-2026-11-08-huron.json).
 
-A [rollout checklist for further consolidation](docs/page-consolidation-next-batch.md) is available. It is planning documentation only; further redirects require the pilot checkpoint and a fresh evidence review. Detailed account observations and candidate URL decisions are kept in private working files.
+A [rollout checklist for further consolidation](docs/page-consolidation-next-batch.md) is available. It is planning documentation only; the Huron batch is now active, while later regions require fresh evidence review. Detailed account observations and candidate URL decisions are kept in private working files.
 
 Later updates supersede historical notes below.
 
 ---
 
-# Current consolidation update
+# Initial consolidation update (historical)
 
-The first reviewed location-page consolidation merges 166 URLs into their existing city hubs, preserves all reported pilot search activity in both languages, and reduces the sitemap to 15,452 URLs. New city/service combinations require explicit publication review. See the [decision and monitoring plan](docs/page-consolidation.md) and [complete keep/merge inventory](docs/page-consolidation-inventory.csv). The three alternative homepage designs remain unpublished.
+The first reviewed location-page consolidation merged 166 URLs into their existing city hubs, preserved all reported pilot search activity in both languages, and reduced the sitemap to 15,452 URLs. New city/service combinations require explicit publication review. See the [decision and monitoring plan](docs/page-consolidation.md) and [complete keep/merge inventory](docs/page-consolidation-inventory.csv). The three alternative homepage designs remain unpublished.
 
 ---
 

@@ -148,7 +148,7 @@ test("sitemap contains current commercial pages and excludes legacy flows",async
     assert.match(xml,new RegExp(`https://tiling\\.ca/areas/${city}<`));
     assert.match(xml,new RegExp(`https://tiling\\.ca/areas/${city}/tile-supply-delivery`));
   }
-  assert.equal((xml.match(/<loc>https:\/\/tiling\.ca\/areas\/[a-z-]+\/[a-z-]+<\/loc>/g)??[]).length,allAreaSlugs.length*serviceSlugs.length-83);
+  assert.equal((xml.match(/<loc>https:\/\/tiling\.ca\/areas\/[a-z-]+\/[a-z-]+<\/loc>/g)??[]).length,allAreaSlugs.length*serviceSlugs.length-181);
   assert.doesNotMatch(xml,/request-a-match|for-contractors|contractor-review-process/);
 });
 

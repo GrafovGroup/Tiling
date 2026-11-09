@@ -1,0 +1,2005 @@
+{
+  "date": "2026-11-08",
+  "publishedSitesVersion": 65,
+  "sourceCommit": "e379aad804ae030d4f0e9be35004e0c9748a4f27",
+  "sourceTree": "111bab71d1d0ddf283d0f2cf23802ea3ded1e2f0",
+  "sourceFileCount": 332,
+  "sourceFiles": [
+    {
+      "path": ".github/workflows/verify.yml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa88776fa81cbd4416d73391d674c149f3e1a1ad"
+    },
+    {
+      "path": ".gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3748870ac8df0b4dd6883124fbbd87f68a766877"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94ae74c9b618f3be1be006e2c18ea317f15f7697"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "32009000b6742deb1cfcf23c3344d8a2e319ce45"
+    },
+    {
+      "path": "TODOS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea26d557038d6ce49f1882f1903e9ce7686af327"
+    },
+    {
+      "path": "app/about/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a43d48fa42750a759fba3390e53742fe0944e23d"
+    },
+    {
+      "path": "app/analytics-config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f060eac6ca5a051242233f411a8339d0801c9b0"
+    },
+    {
+      "path": "app/analytics-consent.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0cbbda562d0d81a0a07c12369c7a8d518ebe1b6"
+    },
+    {
+      "path": "app/area-coverage.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8e0360de0c88e9ac8dc095040054fc743d444a9"
+    },
+    {
+      "path": "app/area-data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90df6382b8f5c0195caa82fd961cadb235fb7571"
+    },
+    {
+      "path": "app/areas/[area]/[service]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d40a7e3124bbcb5db2ab7966539a196ce9c12d61"
+    },
+    {
+      "path": "app/areas/[area]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df591a1bed331afb491b07d7f0d1bc3757450c39"
+    },
+    {
+      "path": "app/areas/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99ffa9a7678136430aa5ccbb00313cc749bbbeef"
+    },
+    {
+      "path": "app/chatgpt-auth.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0ae2ed9a9771b5fc36a06af554a05c18b2a13b3"
+    },
+    {
+      "path": "app/city-project-planning.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c57cd74c8c29627382ecd6f413bc7889bcfac9d5"
+    },
+    {
+      "path": "app/commercial-examples.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0eca990ca2da630945afc2b8bdaa992c08579226"
+    },
+    {
+      "path": "app/community-coverage.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ad6389788a5fceecdb8c4ac007a589e67befe65"
+    },
+    {
+      "path": "app/company-content.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4af8681fc109b44718ffcd47c298b65a29014e4"
+    },
+    {
+      "path": "app/company-data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "31b63a407335d158780b32d23496c41cb31347f7"
+    },
+    {
+      "path": "app/components.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b29918207748155037565e1bff181cde792f67c"
+    },
+    {
+      "path": "app/consolidated-local-services.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0920feeab43f75fcaca8d6ea8eac6959a9f4b12a"
+    },
+    {
+      "path": "app/contact/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "362fc45d2dc2461c7f647d5cdf2905318a1b0d93"
+    },
+    {
+      "path": "app/content-dates.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5d3103768e4539c2322b5b63d37348c4f782238"
+    },
+    {
+      "path": "app/contractor-review-process/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6dca6b9e48a35634828dc0380ccead0f9fce8bb5"
+    },
+    {
+      "path": "app/data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd6b7f89496940bc34399c65b7a5e0fce8e222d3"
+    },
+    {
+      "path": "app/editorial-standards/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b76815393c759a0b47efc06673e87abfaaa340a"
+    },
+    {
+      "path": "app/enquiry-content.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fcd5a2176669eff56ff55015463384831f43fa3f"
+    },
+    {
+      "path": "app/enquiry-data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1975d1590efcf57cc18be39c06f4b90f25ab2353"
+    },
+    {
+      "path": "app/enquiry-events.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34bddbc462f5106abb980b69a6739c5a67a12142"
+    },
+    {
+      "path": "app/enquiry-links.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e42baa28b47cba012630e021cc27471c8adfcf7"
+    },
+    {
+      "path": "app/for-contractors/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "70e7a8539730b1a4f0d43cd7fec4f1484f191c98"
+    },
+    {
+      "path": "app/fr/[[...path]]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9016f193a3711bd3e1857030df3fa95dcc0a6766"
+    },
+    {
+      "path": "app/fr/content.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "420c46624cc03ae8352df440f1ea8a5b6a18df09"
+    },
+    {
+      "path": "app/fr/not-found.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d34802f9e6b90d1f5d494bb7c2d05326b6c6074"
+    },
+    {
+      "path": "app/fr/ui.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "99a84253c55f46ba5168124a3d428a2f713aa9ee"
+    },
+    {
+      "path": "app/globals.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db8d663177bd2b9b8564886d9acd13ae74e38aae"
+    },
+    {
+      "path": "app/home-content.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22b6c01ec0e62948f549d5db7ba87d86afc98739"
+    },
+    {
+      "path": "app/home-data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0dda075054c9ebbf3a406f92e29e7ef8964ea57"
+    },
+    {
+      "path": "app/home-locations.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0599182a114b3ccccb40e3706f1d70a2b51a923a"
+    },
+    {
+      "path": "app/how-it-works/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6155fc9bb9ea19428d1068e23a7ea6ba97d0e1d"
+    },
+    {
+      "path": "app/language-switch.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd2b9ea2c9024502dd2a87adb7a2247ffafd740a"
+    },
+    {
+      "path": "app/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b809223ee925fd0fd57f4f9e1ac22ed877b4fbf5"
+    },
+    {
+      "path": "app/legacy-redirects.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e67e1cc5a00edb4a6f27647974adb3597d14318"
+    },
+    {
+      "path": "app/local-guidance.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ba233a36de3d705cb924c2315ab848fa66c2924"
+    },
+    {
+      "path": "app/local-housing.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7acc73f8e7c0f7656f6d8b3d759235d227469f6"
+    },
+    {
+      "path": "app/local-project-brief.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d74b9a9ec302cf423a6ba9f1ee59ba66cee31ff"
+    },
+    {
+      "path": "app/local-service-publication.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50a4bc5644a8adba3ff4a50fd85068510bf3efd3"
+    },
+    {
+      "path": "app/local-service-publication.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8e17a40d5333528eef63dd4f24e38a319de915"
+    },
+    {
+      "path": "app/location-directory.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "29809e5500bb06a7ff14aed005329b20f7a74c19"
+    },
+    {
+      "path": "app/location-search-data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54fc334963ae024ff39b0a10a5650e99c3afdbd1"
+    },
+    {
+      "path": "app/locations/ontario/[region]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "803a6e8e4cb6b1bb3edf0fa198b6bdbcdb202ea8"
+    },
+    {
+      "path": "app/locations/ontario/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "592827bcdb1a94fc9b1de8465e840fe8fe486870"
+    },
+    {
+      "path": "app/locations/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecd9ed5bcb86b1b8dbe587aea6d38ccdd55377fa"
+    },
+    {
+      "path": "app/logo.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d64270df986eb2a0d9c4f68b23d723127348aa53"
+    },
+    {
+      "path": "app/material-content.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "237d192a5e5c737d455a58e7edd0f04c2130e8a4"
+    },
+    {
+      "path": "app/material-guide-data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e175cedeb6ddf83c31b9db8023f4efda98dd065"
+    },
+    {
+      "path": "app/material-guides.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b200b98fd570ce71b9d9db127dc2794daa07bb17"
+    },
+    {
+      "path": "app/materials/[material]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a028fa992ba8b748c339ff448268a9f185d4feb"
+    },
+    {
+      "path": "app/materials/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ab468702c3f069af3654c7443e075fd32e9e39dc"
+    },
+    {
+      "path": "app/national-areas.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "260f14426d0a0500b5631033d5301de6531d8778"
+    },
+    {
+      "path": "app/not-found-content.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90268a122107f829b485897c2997ac26c7435110"
+    },
+    {
+      "path": "app/not-found.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "87e58bf3f52991a4f0d1531d5f3137f9af9226fb"
+    },
+    {
+      "path": "app/ontario-coverage.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7dd6124874572d521b419bb0d7312e2ba8004a3f"
+    },
+    {
+      "path": "app/ontario-data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85aef4a057495354e33f03ed03fa17c992847f3d"
+    },
+    {
+      "path": "app/ontario-directory.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57eb4fb0651c0afad6827782f83ba48014d30502"
+    },
+    {
+      "path": "app/ontario-surrounding.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5684cfc5b09a3ba0463d3d4f8b6191d7518fa23"
+    },
+    {
+      "path": "app/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fcdd08a4b2d3c727f96df02772acaf394411a8e"
+    },
+    {
+      "path": "app/planning-calculations.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec347f5488849fd13a97a7cd04fb61427351d4ea"
+    },
+    {
+      "path": "app/pricing-calculator.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "993833db9d7258cb8dc39e6d7bbd0e6d805fa1b4"
+    },
+    {
+      "path": "app/pricing-content.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f4e8c5dbd926437741e1cf7646afacb7e0f3c41"
+    },
+    {
+      "path": "app/pricing-data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f7ea1f96dc8bdfa310ba13a87d1b18cb350d96f"
+    },
+    {
+      "path": "app/pricing-expansion.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3886b3ffde87b416391d01c1e176317e26c6d35"
+    },
+    {
+      "path": "app/pricing/[guide]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f56b2a2f151f0dceecad3d3177d3dfcac7d1d935"
+    },
+    {
+      "path": "app/pricing/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a2740dead3d80522ba335b2c00b0a4e2793c5348"
+    },
+    {
+      "path": "app/privacy/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50da9a8827c4e0583fbdb1e5db2ddba82b08f2c5"
+    },
+    {
+      "path": "app/quote-attachments.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8fa47968baaff51c8c47682ab579cb0153bb678"
+    },
+    {
+      "path": "app/quote-form.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e5300c05fbe0f32cbc86dd573e3e89ffd6e7fa75"
+    },
+    {
+      "path": "app/quote-services.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f6d034fda6741db01d45274dc693db23cb53c46b"
+    },
+    {
+      "path": "app/request-a-match/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaed1c3c4f0baad8f12be6118e7b133326b543b1"
+    },
+    {
+      "path": "app/request-a-quote/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "86b45d96abcb049be897c4821559d297fad20faf"
+    },
+    {
+      "path": "app/robots.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd67e32480c35991f820449ddca01ada1c3cf76e"
+    },
+    {
+      "path": "app/search-service-labels.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "985fbc49fe57b3bff582afadc296ae39917e7aae"
+    },
+    {
+      "path": "app/search-snippets.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c4d2f65cf81d3c705ace6a38c67278265bdcc611"
+    },
+    {
+      "path": "app/seo.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ca86c47966fb87baddd2f7ce744b52cd73ee4d1"
+    },
+    {
+      "path": "app/service-content.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "844a6120739769567a21dab2e153a4c3a7bb66e2"
+    },
+    {
+      "path": "app/service-guide-data.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf7e3f7f97175a457f625976418e33ddb27e5e9c"
+    },
+    {
+      "path": "app/service-guides.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "136cf173df3766bfed40714b962975c68fdfe8a6"
+    },
+    {
+      "path": "app/services/[service]/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d1778f5613708cef82ddfbe9994e6a9ceedc8c1"
+    },
+    {
+      "path": "app/services/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a8794c78c9eecf8361e962fbc6dcdde05a342d7"
+    },
+    {
+      "path": "app/sitemap.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c1de95a2c9b97ccf64830af67a18973bda8c1f9"
+    },
+    {
+      "path": "app/submit-quote.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "234a9dc9c79df2e2d0c49fda75f39ef4509b9d7c"
+    },
+    {
+      "path": "app/terms/page.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5c023c6458d8f502dc0524cd90ac5e3367006b1"
+    },
+    {
+      "path": "db/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f32250e7f6b5cd95bf6f7ce2a41916636af73c51"
+    },
+    {
+      "path": "db/schema.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ead37f8420bc3524df2b6069613f1cd58b0e32c3"
+    },
+    {
+      "path": "docs/asset-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41333e46f3d35117d9e4b60a7891e4507828d71a"
+    },
+    {
+      "path": "docs/asset-usage-register.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3e6ca1a337743e49e54a2157e0800e2e4c73d24"
+    },
+    {
+      "path": "docs/audit-2026-10-25.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5dda82cbfec24c97220c1222caf05f00590f34c"
+    },
+    {
+      "path": "docs/audit-fixes-validation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af32f1cbbae0c55413e809df41c2e78c9cc9d0f6"
+    },
+    {
+      "path": "docs/commercial-image-prompts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9c0d13bb69eb722e5e4f997aa449b5cd38bd297"
+    },
+    {
+      "path": "docs/company-content-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0d8db5a88163efd1ca1975b2b8c2a2edd15784b"
+    },
+    {
+      "path": "docs/contact-content-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26b3849adf3a844dbd15c057918d581a87b10c6d"
+    },
+    {
+      "path": "docs/coverage-sources.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0ce10df1d139302432c49acf719910ffb2b4dec2"
+    },
+    {
+      "path": "docs/designs/canada-wide-contractor-matching-ceo-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e61586fb54f5daa78aa38c6a1ab628649e7c333a"
+    },
+    {
+      "path": "docs/designs/canada-wide-contractor-matching.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d84fcde191931965f642e3f920c755af6642b9c"
+    },
+    {
+      "path": "docs/fifteen-service-additions.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2d3f40011007e407708833851947c306051d450"
+    },
+    {
+      "path": "docs/fifteen-service-asset-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9ddead4e74cc1a841cd88ee488d72b22faf9c80b"
+    },
+    {
+      "path": "docs/fifteen-service-images.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "764fec1ef1f9bca7d39f4dd63c90def05b8f6098"
+    },
+    {
+      "path": "docs/generated-image-prompts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "098ee4eb55fd87111b3db898c7cc4b7d4604826b"
+    },
+    {
+      "path": "docs/home-content-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "967724859e70c5c3bc926d9669083b2df44dc243"
+    },
+    {
+      "path": "docs/homepage-hero-prompt.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1303eb557e5c34d57f2c1dbbb3c61bfa3f756541"
+    },
+    {
+      "path": "docs/huron-consolidation-urls.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6ebf6b4c59bac9133f7e8101b34c2714e429825f"
+    },
+    {
+      "path": "docs/huron-consolidation-validation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05121ce954a5122b840cbfcd051568867f4dd12e"
+    },
+    {
+      "path": "docs/huron-consolidation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa8915c01c74d7f0026d92eda368121df9ed630a"
+    },
+    {
+      "path": "docs/indexnow-config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f0aadc1307945edbfb091db48762f4c019e89e8"
+    },
+    {
+      "path": "docs/local-housing-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9729d11a505ad4677733456bc1174d980d6205d"
+    },
+    {
+      "path": "docs/material-content-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d9ee6cc18e0ea1e34f71d7ac8fda0491abd3957"
+    },
+    {
+      "path": "docs/mobile-asset-optimization.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "28a38ed45d32024e716afb9fb8f2a0f0651e3288"
+    },
+    {
+      "path": "docs/niche-service-prompts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bafca8b387e48d633cb4f8ba3df648d49e1e756"
+    },
+    {
+      "path": "docs/ontario-coverage-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "04b076c2f0ce45290d39a4012a746f0ecfc14f90"
+    },
+    {
+      "path": "docs/ontario-source-data/east-communities.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7a8b84fa14b1eff721585ef7333f5a7b71c3e47"
+    },
+    {
+      "path": "docs/ontario-source-data/east-notes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1aba998fd9bc15f7f0e755c2131d38de20f2d687"
+    },
+    {
+      "path": "docs/ontario-source-data/municipalities-2026-05-26.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a8b63d9569ceba71878b4de527f4ef717fbf521d"
+    },
+    {
+      "path": "docs/ontario-source-data/municipalities.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cbd6dbbacb4c02d56d22cf64bab007203fb8522"
+    },
+    {
+      "path": "docs/ontario-source-data/north-communities.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe08923cca3e9ed87fafeb62878bab57c4efe0a8"
+    },
+    {
+      "path": "docs/ontario-source-data/north-notes.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aae2d13fb69bf318c82b0b273410704f62904d99"
+    },
+    {
+      "path": "docs/ontario-source-data/west-communities.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a5988c1a0b348ff0b861b5b849395ccbcd605340"
+    },
+    {
+      "path": "docs/ontario-source-data/west-notes.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41270b94d8416d25a1a6e0a679112c4b9f164056"
+    },
+    {
+      "path": "docs/page-consolidation-inventory.csv",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "afab3c7142b4eb56b0641185ffc776e69e8c32e3"
+    },
+    {
+      "path": "docs/page-consolidation-validation.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc53b6594faa5db3536797a89b1fc9270d69e572"
+    },
+    {
+      "path": "docs/page-consolidation.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a7580eb8b6192d40ed2cf7865bf5f7cff2f9f01"
+    },
+    {
+      "path": "docs/pricing-source-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5e22098cdfd26ff996ae66051a4408a581a2232"
+    },
+    {
+      "path": "docs/quote-and-calculator-update.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1db0049f8791ab944348468161a36496a0095e1"
+    },
+    {
+      "path": "docs/reference-link-repairs.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07f8f3299294d699975806bf6992bbf9da1df9f5"
+    },
+    {
+      "path": "docs/search-and-enquiry-measurement.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0536f3d07fad7893a0d78f5ddf48b7cf7cc54346"
+    },
+    {
+      "path": "docs/section-review.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3fa5b295d25280c7f1daf49be3f61653c22efa3"
+    },
+    {
+      "path": "docs/selected-logo.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5198c90a25bbc6e0bdbdc1a1755f08641fc4150"
+    },
+    {
+      "path": "docs/service-content-audit.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91d88bcc0ce8607908097fd7c7229d275a89e054"
+    },
+    {
+      "path": "docs/three-added-services.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8a915476569fe5540633227d9a219b42dd21979"
+    },
+    {
+      "path": "docs/twelve-service-prompts.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94d0b5eb93aa97ec4399273ea95bc151e69ca55b"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2b2f34376984744343453838ce66658ad9d9b6a"
+    },
+    {
+      "path": "drizzle/0000_lowly_gorilla_man.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a05a18cdfa0842f6f240e09c98bc632af3df013c"
+    },
+    {
+      "path": "drizzle/meta/0000_snapshot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3fb7700f5b9350e3d54969b061b6f2312a1c6aa9"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "749d541bcf98328dc3f8c0d270faf7511471425f"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14f59ddb28ce6dd1ffe058e39abf7d09dbef1bcd"
+    },
+    {
+      "path": "examples/d1/app/api/notes/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07f8318c3c290d68163e95aa3e170ad92a235f27"
+    },
+    {
+      "path": "examples/d1/db/schema.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bb0c157110799b9b53c767517e0d192b7201f2e"
+    },
+    {
+      "path": "next-env.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c986d49faa6a311fc28b5c66f6b7155975007920"
+    },
+    {
+      "path": "next.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64d0ef1b3e1bf842655d15e81b175874eeb4b4ca"
+    },
+    {
+      "path": "package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eef8b1a68c4a63855ba93fc5a9493fa69793178f"
+    },
+    {
+      "path": "package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a552c987d4e6cab51f1f0a1afef51ee1240b4ad6"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61e36849cf7cfa9f1f71b4a3964a4953e3e243d3"
+    },
+    {
+      "path": "public/76a54090dd582422f1742185a80a865a.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "69fdc481e1f56e6c58db6aed80e06ccc21b50a9a"
+    },
+    {
+      "path": "public/apple-touch-icon-v5.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "697ecbeabf30ffd5bfbb809b6fbc8fa766bc38a4"
+    },
+    {
+      "path": "public/apple-touch-icon-v6.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dcf62559ce4590849f5e29e210d2bec788ede767"
+    },
+    {
+      "path": "public/apple-touch-icon-v7.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b94e35276187f9f1b2b58563585b979501cf78da"
+    },
+    {
+      "path": "public/apple-touch-icon-v8.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33a295c4ba4e04aed9642c03359fbe399c2f3438"
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "33a295c4ba4e04aed9642c03359fbe399c2f3438"
+    },
+    {
+      "path": "public/brand/tile-mark.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef87ab46ba6e824cf99ac42944e115753dc61626"
+    },
+    {
+      "path": "public/brand/tiling-herringbone-display.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe48b12dbdb79837ca74b2a0ffb06f74a404c269"
+    },
+    {
+      "path": "public/brand/tiling-herringbone-square-dot.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36209950523bc033cbff1faad41fe8473b7f8bbc"
+    },
+    {
+      "path": "public/brand/tiling-herringbone.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "343a88ccf0ef16b0d2bac942eb6fa31e808d3c72"
+    },
+    {
+      "path": "public/commercial/home-business.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fed5c4f07c46d301c0e2ab7e5121783f765f18d"
+    },
+    {
+      "path": "public/commercial/home-hospitality.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7cd7287faa83c68038152f2ca387c7326503a39"
+    },
+    {
+      "path": "public/commercial/home-wet.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a7ef776413e3bc6833a1cc294ed095ebe08eeed"
+    },
+    {
+      "path": "public/commercial/hotel.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "896556ae1ad6ba636348082d5b95e63748e856bf"
+    },
+    {
+      "path": "public/commercial/kitchen.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6516e5d1df3d56e4441431ec69b6819be670828c"
+    },
+    {
+      "path": "public/commercial/office.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "777f4c88a008a80c4c49f11eb2a041ac9270df0b"
+    },
+    {
+      "path": "public/commercial/restaurant.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bd6e480279825912d93a2338f140962a75be373"
+    },
+    {
+      "path": "public/commercial/retail.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f2871ea14f089af6c6a07f511099990d3f3634a"
+    },
+    {
+      "path": "public/commercial/washroom.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "663c0451de2480c3b9ab0b4daae672ffb4c7a01d"
+    },
+    {
+      "path": "public/craft-detail.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "41bbeb13cb922a95352025c7e979fb13f79f8513"
+    },
+    {
+      "path": "public/favicon-v2.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "773c2409f7e4f48018537db94d07b4ea6aaa3f0d"
+    },
+    {
+      "path": "public/favicon-v3-16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0dc53e8b3cb0018753ba51ca64f724ae6221e3b"
+    },
+    {
+      "path": "public/favicon-v3-32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b0df3494bd17cc96c734c22987e802c6489d3c4"
+    },
+    {
+      "path": "public/favicon-v3-48.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d4174824dcbe9a697bb3894943ca6da4def4bb5e"
+    },
+    {
+      "path": "public/favicon-v3.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9210705012d197b83512d316db4efad74e3771fd"
+    },
+    {
+      "path": "public/favicon-v3.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eab3090b8e9764ecb7268a53e5c44dc31cb1cf1"
+    },
+    {
+      "path": "public/favicon-v4-32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "834f0ba240ed2deced54c60e7c15faef0033a523"
+    },
+    {
+      "path": "public/favicon-v4.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4dcf983ade7a2b1d3c218a5da0e213c93f8bc151"
+    },
+    {
+      "path": "public/favicon-v4.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c71280cc5e64e59265bcc3ac8b69dfae43169494"
+    },
+    {
+      "path": "public/favicon-v5-16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c257629965791e62fd1d4836ef4d3e46976100ab"
+    },
+    {
+      "path": "public/favicon-v5-32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0168d9717cc147b74c7b5de506e40e8f0dcdb58"
+    },
+    {
+      "path": "public/favicon-v5-48.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07c145bb7971ddab42e09d5523ddd7e92605d5cd"
+    },
+    {
+      "path": "public/favicon-v5.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4bfe3b9df17e7eec5d37c63fa12b23ea80d5154e"
+    },
+    {
+      "path": "public/favicon-v6-16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39b0909f4b3ccf8f10b8c9b17833cab3fbd70329"
+    },
+    {
+      "path": "public/favicon-v6-32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9c374697261f18af241fa795612dd6fc43d5a10"
+    },
+    {
+      "path": "public/favicon-v6-48.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "028704a170cc3585dde44d94e2057edd43076217"
+    },
+    {
+      "path": "public/favicon-v6.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c841f64fac661e1d10ffea1515df381615f422ba"
+    },
+    {
+      "path": "public/favicon-v6.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8d645396165828a4bd854720c5a1dde83472917"
+    },
+    {
+      "path": "public/favicon-v7-16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df2e4be07f9c438ec707db5ed8cca6f252fdd23c"
+    },
+    {
+      "path": "public/favicon-v7-32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d5e7ede0fa4977925230514d84e6e2a2d6071d7"
+    },
+    {
+      "path": "public/favicon-v7-48.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "db0d41e647e354b844d6284f5f1df1803f8e0aed"
+    },
+    {
+      "path": "public/favicon-v7.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a9c86e7120f6683435160e65b9a31af7c9982ff"
+    },
+    {
+      "path": "public/favicon-v7.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8764ba18abfb8cb74ba70f9bcd0ce8a6d2ff4e4a"
+    },
+    {
+      "path": "public/favicon-v8-16.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "608ad3de7fcabba46abf471aae7a3e6cb549d818"
+    },
+    {
+      "path": "public/favicon-v8-192.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f99c080e108ea67eeef5a725918b6c6e8b8a91c6"
+    },
+    {
+      "path": "public/favicon-v8-32.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "76acf9ae7e9965fac42e5bd62624960dc8592144"
+    },
+    {
+      "path": "public/favicon-v8-48.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e114045d3007567f7e722adf0f780c2e16029997"
+    },
+    {
+      "path": "public/favicon-v8-512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53f9a9415eef790e2c4e373b913adb7efb2ca020"
+    },
+    {
+      "path": "public/favicon-v8.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ccfbd22420ed5b39939e2375cded3824a7548c3"
+    },
+    {
+      "path": "public/favicon.ico",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5ccfbd22420ed5b39939e2375cded3824a7548c3"
+    },
+    {
+      "path": "public/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8764ba18abfb8cb74ba70f9bcd0ce8a6d2ff4e4a"
+    },
+    {
+      "path": "public/file.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16fe3d3a3ab9bd42e1616ec00066faba7e4aabe0"
+    },
+    {
+      "path": "public/fonts/cormorant-garamond-latin.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c0c6df016579e0202e90dc52f96d7d2ddba01fa"
+    },
+    {
+      "path": "public/fonts/manrope-latin.woff2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9d7abb17d323bff647995a94222b92b26a0fc93d"
+    },
+    {
+      "path": "public/globe.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c7215fe0f2634ae9f51d15dacc09184f5343941a"
+    },
+    {
+      "path": "public/hero-interior.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61905107557309b8c5a3d5c55ae432f3a28a63dd"
+    },
+    {
+      "path": "public/heroes/about-hero.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5f0dd2ccb26b243f8195a013fbdbb5a5a0f72ad0"
+    },
+    {
+      "path": "public/heroes/commercial-atrium-optimized.avif",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f526b9959f761112b37b9b237d975b788fa11cf6"
+    },
+    {
+      "path": "public/heroes/commercial-atrium-optimized.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c5b174c2022c4653f2f72bdf79c4217b12cfe600"
+    },
+    {
+      "path": "public/heroes/commercial-atrium.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d922cec932118dd8049985dedc4035ae7807e2a"
+    },
+    {
+      "path": "public/heroes/how-it-works-hero.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2bac0ed8b9edaf871d4b8f00495ccb947e258bac"
+    },
+    {
+      "path": "public/heroes/locations-hero.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba42895650da942cef9f7b851556c935b4e9b227"
+    },
+    {
+      "path": "public/heroes/materials-hero.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fe67bad13badba5beb80c02f0023ebb739662c8"
+    },
+    {
+      "path": "public/heroes/national-craft.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c355abdb3275b7a7ee6133da451f8d5e48bd904"
+    },
+    {
+      "path": "public/heroes/national-hero.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e2ebde516284d4e299ac468a0d728d3fce039f2"
+    },
+    {
+      "path": "public/og-canada-v2.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e95d09bc1dae7b10ded98392ffda6bd2ee9c5e98"
+    },
+    {
+      "path": "public/og.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccb13d9bbb86227341713f198496ab989151fa4d"
+    },
+    {
+      "path": "public/projects/concept-aurora-entry-floor.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37dfb4f524038454093fc6d7b6360a4c3079e868"
+    },
+    {
+      "path": "public/projects/concept-newmarket-kitchen-backsplash.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "82f78f8750d08053498fa787775431772d7944a7"
+    },
+    {
+      "path": "public/projects/concept-toronto-condo-bathroom.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8241469505e7c4db1c508721c40ce4561606ee53"
+    },
+    {
+      "path": "public/services/bathroom-shower.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b244d8258ce3581bae168105919b050d8f570b37"
+    },
+    {
+      "path": "public/services/cards/bathroom-shower-card.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "26c612ec1b59a5e6fd4f093fd36d229b9d983877"
+    },
+    {
+      "path": "public/services/cards/cleaning.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9f4f1691acb9a1867c6878cbbbc6309b6c5b4ea"
+    },
+    {
+      "path": "public/services/cards/commercial-tile-card.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eadbb0a21283a483ce3c918e0761d97e7f39cacb"
+    },
+    {
+      "path": "public/services/cards/fireplace.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48a6c16385f16c4ee353c022e96fe884a2781646"
+    },
+    {
+      "path": "public/services/cards/floor-tile-installation-card.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48941cb8a5449dd18a6aa4de0ec6b5e27350ca8c"
+    },
+    {
+      "path": "public/services/cards/heated.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "78e2d29a5343f9a5a97455a0a00c07329cc6faeb"
+    },
+    {
+      "path": "public/services/cards/kitchen-backsplash-card.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c0ce25ca4cb97a7583ede968ec633ddf6821e83"
+    },
+    {
+      "path": "public/services/cards/large-format-card.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc433588e6635201c0d2d89e52225dc2e4519847"
+    },
+    {
+      "path": "public/services/cards/outdoor.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "869b50bdc81f8e4714a09d2135bd4d833ddca864"
+    },
+    {
+      "path": "public/services/cards/pool.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "847c6743d1dba5db99173c6a571745c3281f99eb"
+    },
+    {
+      "path": "public/services/cards/removal.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dd0d930891a9cc54a3d33416f9f9b213c794069b"
+    },
+    {
+      "path": "public/services/cards/rooftop.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83578dca78d6ab29ae7a2a8b34c7a477cd960a65"
+    },
+    {
+      "path": "public/services/cards/stairs.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e8431a24a7a03c2c99ffb0c0e1bb79dda89e4cb9"
+    },
+    {
+      "path": "public/services/cards/tile-repair-regrouting-card.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae34c4294514ddbe1b946fceabb70f4c9851060e"
+    },
+    {
+      "path": "public/services/cards/tile-supply-delivery-card.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f577b668edba83b4089fbb89c970946b66a7bbc2"
+    },
+    {
+      "path": "public/services/cleaning.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92247810f3831eda1696265b9f789d3af1554f10"
+    },
+    {
+      "path": "public/services/commercial-tile.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ca2573ff745579821db65d41e4868bcd1d0d419a"
+    },
+    {
+      "path": "public/services/detail-commercial-v2.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ea87d7a343b7c67e5a52545fcda72de6e8dfb9f"
+    },
+    {
+      "path": "public/services/detail-kitchen-v2.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a57a2c8c1c6f8aebaad4d49633f19772640a5b53"
+    },
+    {
+      "path": "public/services/detail-large-v2.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e240edce6dd69fbbeb202c4a511ca6ac02481a5"
+    },
+    {
+      "path": "public/services/fireplace.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0cd35dff4187dfb9a41cc8e60e0e01cceb5a439d"
+    },
+    {
+      "path": "public/services/floor-tile-installation.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68f117b5336c330cbf76afcb38fc107e971e3174"
+    },
+    {
+      "path": "public/services/heated.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beeec727d1155eb8e55721ce3e3c8c6991e494c9"
+    },
+    {
+      "path": "public/services/home/backsplash-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e425bc307947f5616e840ec07722331c0a68e4f1"
+    },
+    {
+      "path": "public/services/home/backsplash-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c0562938f811127a4cad223997abfe0bcc2a895"
+    },
+    {
+      "path": "public/services/home/backsplash.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9571a839c56874203e075adb9df9a97aa3f6f92b"
+    },
+    {
+      "path": "public/services/home/bathroom-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "071283c86abb743ae3ab6a1cfda670a37d8611c9"
+    },
+    {
+      "path": "public/services/home/bathroom-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7a7c1ec5960c62bc501770b8796e5220167f32b7"
+    },
+    {
+      "path": "public/services/home/bathroom.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75bc84d8acf6e5cbf9d5c12b6bc976df1b42245b"
+    },
+    {
+      "path": "public/services/home/cleaning-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90914249d866267fd0e742b58bbc2f93ff8a417b"
+    },
+    {
+      "path": "public/services/home/cleaning-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb6060cc7b00248e32115f69ec2070c66fabc8a3"
+    },
+    {
+      "path": "public/services/home/cleaning.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54b544d66b66b35351d69a710e9265eabfff637d"
+    },
+    {
+      "path": "public/services/home/commercial-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fca1d03758c898fbc4d364cb7c26935184e6022"
+    },
+    {
+      "path": "public/services/home/commercial-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7aa4d5f253c18501cf65f69778d1be28f51037fb"
+    },
+    {
+      "path": "public/services/home/commercial.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e2d08353589c8787cbedb0b6a8056f64ae9d9a70"
+    },
+    {
+      "path": "public/services/home/fireplace-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57852c78547422c0be2fbf6e0baeec3c05f2f3d8"
+    },
+    {
+      "path": "public/services/home/fireplace-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4e61c1163df30486065e87de9c1a251dd3ad8a92"
+    },
+    {
+      "path": "public/services/home/fireplace.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72591194d7938b33603d80e5d10b81c01886cd8f"
+    },
+    {
+      "path": "public/services/home/floor-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1c408f8ae22616739b65f454649b5a0d3d09298"
+    },
+    {
+      "path": "public/services/home/floor-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "507fa6ee6ddb3d2793cff736f79e256984886880"
+    },
+    {
+      "path": "public/services/home/floor.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a25ea5a9b8744f8afd230d12e514bab50cbb33a"
+    },
+    {
+      "path": "public/services/home/heated-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "552efc4d4584e737e49b27fe0fa955f4539d4011"
+    },
+    {
+      "path": "public/services/home/heated-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d471107cfdc490a2301111042fd99361e8d4fd4a"
+    },
+    {
+      "path": "public/services/home/heated.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d29bbccbae898c31bc2c58bee227857375c5229"
+    },
+    {
+      "path": "public/services/home/large-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f01c8974c26080b4eb0b77ccfa0bcb32c4d9ab6"
+    },
+    {
+      "path": "public/services/home/large-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0796dcf35838facf4165a0edb991802089a2c9ee"
+    },
+    {
+      "path": "public/services/home/large.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfdef0fa00d24a3bd2bb7f960ce5090408cc132a"
+    },
+    {
+      "path": "public/services/home/outdoor-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7134cf698a0cb85fc72e3d1cbf820c3657d2eb0"
+    },
+    {
+      "path": "public/services/home/outdoor-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b456d6530f5f785a5cd7d5ef5f9b5e16703e490"
+    },
+    {
+      "path": "public/services/home/outdoor.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35f6048ea05a6496779afe4d39eb88ccbc39ecf6"
+    },
+    {
+      "path": "public/services/home/pool-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bf30b73d1a176e4e94ce31da1afb0759067682f"
+    },
+    {
+      "path": "public/services/home/pool-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91c213ce1eaa8eec9244ea9edd1ad76c2ebf4335"
+    },
+    {
+      "path": "public/services/home/pool.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "679ca05c753d893486d07a4e5c67f96544444e44"
+    },
+    {
+      "path": "public/services/home/removal-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f32a04d348e697741ea743e4b0df45de255995f"
+    },
+    {
+      "path": "public/services/home/removal-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c1c8c122b626923715f3c407e62b58e15f9cbfbd"
+    },
+    {
+      "path": "public/services/home/removal.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2dfcf01944bbf1df859e0fca313eedb1ffea01ed"
+    },
+    {
+      "path": "public/services/home/repair-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7c5415c114e9149722bf8328a5074e2f865f4fd7"
+    },
+    {
+      "path": "public/services/home/repair-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a810df09d3ba72a710ef97e8218060f0fe2066a"
+    },
+    {
+      "path": "public/services/home/repair.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c41ed2a895c19448a369430035749f94b87d7098"
+    },
+    {
+      "path": "public/services/home/rooftop-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b76830b000aedf3b48ed1d4bab0f31f8880d40fc"
+    },
+    {
+      "path": "public/services/home/rooftop-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a83b4edf645ee2441649a46126a364badfca10a7"
+    },
+    {
+      "path": "public/services/home/rooftop.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4dbe2e15a752ba0ad462251a0c69e8a4c1f7d1d"
+    },
+    {
+      "path": "public/services/home/stairs-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8aaa2a5042893e19c67c16feaf75f3bb09474b6f"
+    },
+    {
+      "path": "public/services/home/stairs-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "381f3a64fd0b164b51e3a38a6f0446794da89495"
+    },
+    {
+      "path": "public/services/home/stairs.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "315a0d116b6b5f06b8dd570af2bbc4a4f435138a"
+    },
+    {
+      "path": "public/services/home/supply-480.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c06cae2e68dbd4988a09285e6f34f0766a0ebcc"
+    },
+    {
+      "path": "public/services/home/supply-960.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "468f0fbdfaff6664a6c4602b14a43dcbc1d388fc"
+    },
+    {
+      "path": "public/services/home/supply.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e33b5ce23638e26ba9c19dc22cc645706a653ae"
+    },
+    {
+      "path": "public/services/kitchen-backsplash.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a8bbef861945c19d6b0f06bed5472d221e7d565"
+    },
+    {
+      "path": "public/services/large-format.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f7a4cc03b7dcd91f971c9de41b891ab6b2d54471"
+    },
+    {
+      "path": "public/services/outdoor.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9907fdbc8322e0c26ca3b0000acc8cbd4f1a265a"
+    },
+    {
+      "path": "public/services/pool.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd31ba1609cb5465712cb96e8a706effd1ce32f5"
+    },
+    {
+      "path": "public/services/removal.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2e6c1833a7cf09dbc8251dcfc818024d3325424"
+    },
+    {
+      "path": "public/services/rooftop.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91b947a5c8923f1e22ead34082e7091099135ad7"
+    },
+    {
+      "path": "public/services/stairs.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5928a55b65f075d6bf796795c6849ee4e819a7d2"
+    },
+    {
+      "path": "public/services/tile-repair-regrouting.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fabcef8bd2e4da33e02e6b2b6b2e7435e1c3cb95"
+    },
+    {
+      "path": "public/services/tile-supply-delivery.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a4f135371ad96ef0821d373a56dd60f37b00bd7"
+    },
+    {
+      "path": "public/site.webmanifest",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1923061f0689026f16003d1e593651a27ca6c926"
+    },
+    {
+      "path": "public/tile-detail.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61c27faf2a92afa85c67b578bc14702426c51643"
+    },
+    {
+      "path": "public/window.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d05e7a1bc066341298657dcc304dbadc4ddcab9d"
+    },
+    {
+      "path": "scripts/build-ontario-coverage.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73a157d392338b58919a99b7353a41f57f516ad2"
+    },
+    {
+      "path": "scripts/import-local-housing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "498532bb8ef2c739598fe0ab0407ed3505e2e5c5"
+    },
+    {
+      "path": "scripts/indexnow-batches.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fbed2583b2d3b1ed0f6c84619a282620f0e84b5d"
+    },
+    {
+      "path": "scripts/run-node.sh",
+      "mode": "100755",
+      "type": "blob",
+      "sha": "a323dd1c8166e060c9497443e2ee021d466269ef"
+    },
+    {
+      "path": "scripts/submit-indexnow.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2401d6a3757aac7d1b51ead93189702eb0b8fb3"
+    },
+    {
+      "path": "tests/audit-fixes.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16d48f7efadc277b59b8905b9e39c4464c173b1e"
+    },
+    {
+      "path": "tests/company-expansion.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "58881f8ea95ba5b197cad05534494c26f520388b"
+    },
+    {
+      "path": "tests/enquiry-events.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e2e0ac20981a9b1a7e18b00260ca5e777e002e1"
+    },
+    {
+      "path": "tests/enquiry-expansion.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6d2a6bee75e6725ec15ef7c544279fd0ce9c7845"
+    },
+    {
+      "path": "tests/form-values.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "902ca6925a480a902fda00dc8e230afeb846524b"
+    },
+    {
+      "path": "tests/french.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f14597792045d9aee7b39c760f27883e18f115b3"
+    },
+    {
+      "path": "tests/home-expansion.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b2772d5ee73886e7ec7b6cecb9298b2b5f9b95c"
+    },
+    {
+      "path": "tests/indexnow-batches.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edd25157c79ed727fcca1cdef40b85ef3d088525"
+    },
+    {
+      "path": "tests/location-rollout.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0f688ebf5e971d5853412bc92b72fc744e33e24"
+    },
+    {
+      "path": "tests/material-expansion.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "37ad22805a4f91cf8bbae2baad2b62ba73d00182"
+    },
+    {
+      "path": "tests/page-consolidation.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "90d18c23f3f1fbcdc137f52251d4fb31e7c6639a"
+    },
+    {
+      "path": "tests/planning-rendered.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5a970c97908b9d09381fe5b61663f967c35dea48"
+    },
+    {
+      "path": "tests/planning-tools.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "972d5551f232f278a35c20787eda10d59c6ebb7d"
+    },
+    {
+      "path": "tests/pricing-expansion.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f30725acdebbca5248a3fc9335286eef6c3a9c29"
+    },
+    {
+      "path": "tests/pricing-locations.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f9349963efd6dcbb3f5c3d882be643bd4b115d8"
+    },
+    {
+      "path": "tests/quote-submission.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "285e174c160f492d8ae5a1dc3ac95ec26d017c81"
+    },
+    {
+      "path": "tests/remaining-seo.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "94283ad8116cdaacb8332e52a4c90c02e70d5fc9"
+    },
+    {
+      "path": "tests/rendered-html.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f37bf46be268a7c124d43b6f644e67bae3f2692e"
+    },
+    {
+      "path": "tests/service-expansion.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "958f6bf08639e120efff805a0542ee7b85c40312"
+    },
+    {
+      "path": "tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9c891d210cdc0d919e050a331cbd410a5af53414"
+    },
+    {
+      "path": "vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d0e7ce297479aa7366b4fc8f2faf4f29abdd7b4"
+    },
+    {
+      "path": "worker/env.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d42c8a596689b1ddf8ea2f75ff022b5fe43d5ee1"
+    },
+    {
+      "path": "worker/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c30b0a64a6d931befa750dedcc10b500cb139ed3"
+    },
+    {
+      "path": "worker/quotes.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "39894629caf14085090193d848c473150fba5725"
+    },
+    {
+      "path": "worker/runtime.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3243f0d79a5fdf1aa49dbd02b02db7845bb2cbbe"
+    }
+  ],
+  "homepage": "unchanged; alternatives remain unpublished",
+  "sitemapUrls": 15256,
+  "newRetiredUrls": 196,
+  "totalRetiredUrls": 362
+}

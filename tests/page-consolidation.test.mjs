@@ -4,14 +4,15 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import worker from '../dist/server/index.js';
 const publication=JSON.parse(await readFile(new URL('../app/local-service-publication.json',import.meta.url)));
+const serviceNames=JSON.parse(await readFile(new URL('../app/quote-services.json',import.meta.url)));
 const env={ASSETS:{fetch:async()=>new Response('',{status:404})}},ctx={waitUntil(){},passThroughOnException(){}};
 const request=url=>worker.fetch(new Request(new URL(url,'https://tiling.ca'),{headers:{accept:'text/html','user-agent':'Googlebot'}}),env,ctx);
 const html=async path=>{const r=await request(path);assert.equal(r.status,200,path);return r.text();};
-const pilot=Object.entries(publication.mergedServices);
+const consolidated=Object.entries(publication.mergedServices);
 
-test('all 166 retired URLs redirect once to matching language, city, service section and selected form',async()=>{
+test('all 362 retired URLs redirect once to matching language, city, service section and selected form',async()=>{
  let count=0;
- for(const prefix of ['', '/fr']) for(const [area,services] of pilot){
+ for(const prefix of ['', '/fr']) for(const [area,services] of consolidated){
   const hub=await html(`${prefix}/areas/${area}`);
   for(const service of services){
    const old=`${prefix}/areas/${area}/${service}`;
@@ -27,6 +28,9 @@ test('all 166 retired URLs redirect once to matching language, city, service sec
    assert.ok(hub.includes(`${prefix}/request-a-quote?area=${area}&amp;service=${service}`),old);
    assert.ok(hub.includes(`${prefix}/services/${service}?area=${area}`),old);
    assert.ok(!hub.includes(`href="${old}"`),old);
+   const destination=await html(target.pathname+target.search);
+   const expectedService=serviceNames.find(item=>item.slug===service)[prefix ? 'fr' : 'en'];
+   assert.equal(formValue(destination,'service'),expectedService,old);
    count++;
   }
   const service=services[0];
@@ -40,7 +44,7 @@ test('all 166 retired URLs redirect once to matching language, city, service sec
   assert.equal((selected.match(/<form /g)||[]).length,1);
   assert.doesNotMatch(selected, /class="location-service-card-photo"/);
  }
- assert.equal(count,166);
+ assert.equal(count,362);
 });
 
 test('host normalization combines with consolidation and invalid URLs remain 404',async()=>{
@@ -58,7 +62,7 @@ test('host normalization combines with consolidation and invalid URLs remain 404
  for(const prefix of ['', '/fr'])assert.doesNotMatch(await html(`${prefix}/areas/arran-elderslie?service=unknown`),/<input[^>]*name="service"/);
 });
 
-test('core intents and all pilot city/service pairs with reported search activity remain live in both languages',async()=>{
+test('core intents and retained local service pages remain live in both languages',async()=>{
  const protectedPairs={
   kincardine:['tile-grout-stone-cleaning-sealing','tile-repair-regrouting','tile-stairs-steps'],
   'saugeen-shores':['tile-grout-stone-cleaning-sealing','tile-repair-regrouting','tile-stairs-steps'],
@@ -66,9 +70,15 @@ test('core intents and all pilot city/service pairs with reported search activit
   'northern-bruce-peninsula':['large-format-tile'],
   brockton:['tile-grout-stone-cleaning-sealing'],
   'south-bruce':['tile-removal-surface-preparation','tile-stairs-steps'],
-  'huron-kinloss':['tile-grout-stone-cleaning-sealing']
+  'huron-kinloss':['tile-grout-stone-cleaning-sealing'],
+  bluewater:['rooftop-terrace-pedestal-pavers'],
+  'central-huron':['pool-spa-tiling'],
+  goderich:['tile-removal-surface-preparation'],
+  'huron-east':['tile-grout-stone-cleaning-sealing','tile-removal-surface-preparation'],
+  'north-huron':['large-format-tile','tile-repair-regrouting'],
+  'south-huron':['tile-grout-stone-cleaning-sealing','tile-stairs-steps','tile-supply-delivery']
  };
- for(const prefix of ['', '/fr'])for(const [area] of pilot)for(const service of ['bathroom-shower-tile','floor-tile-installation','kitchen-backsplash',...(protectedPairs[area]||[])]){
+ for(const prefix of ['', '/fr'])for(const [area] of consolidated)for(const service of ['bathroom-shower-tile','floor-tile-installation','kitchen-backsplash',...(protectedPairs[area]||[])]){
   const path=`${prefix}/areas/${area}/${service}`,page=await html(path);
   assert.ok(page.split('</head>')[0].includes(`rel="canonical" href="https://tiling.ca${path}"`));
   assert.match(page,/<form /);
@@ -78,9 +88,9 @@ test('core intents and all pilot city/service pairs with reported search activit
 test('sitemap excludes merged URLs and preserves reciprocal language coverage without losing hubs or guides',async()=>{
  const xml=await html('/sitemap.xml');
  const urls=[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]),set=new Set(urls);
- assert.equal(urls.length,15452);assert.equal(set.size,urls.length);
+ assert.equal(urls.length,15256);assert.equal(set.size,urls.length);
  for(const url of urls.filter(u=>!new URL(u).pathname.startsWith('/fr'))){assert.ok(set.has('https://tiling.ca/fr'+url.slice('https://tiling.ca'.length)),url);}
- for(const prefix of ['', '/fr'])for(const [area,services] of pilot){
+ for(const prefix of ['', '/fr'])for(const [area,services] of consolidated){
   assert.ok(set.has(`https://tiling.ca${prefix}/areas/${area}`));
   for(const service of services)assert.ok(!set.has(`https://tiling.ca${prefix}/areas/${area}/${service}`));
  }
@@ -93,6 +103,27 @@ test('service and pricing backlinks reach the final local section with project c
    const page=await html(prefix+path);
    assert.ok(page.includes(`href="${prefix}/areas/arran-elderslie#service-pool-spa-tiling"`),path);
    assert.ok(!page.includes(`href="${prefix}/areas/arran-elderslie/pool-spa-tiling"`),path);
+  }
+ }
+});
+
+test('Huron rollout removes exactly 196 URLs and leaves later regions published',async()=>{
+ const expected={'ashfield-colborne-wawanosh':12,bluewater:11,'central-huron':11,goderich:11,howick:12,'huron-east':10,'morris-turnberry':12,'north-huron':10,'south-huron':9};
+ let count=0;
+ for(const [area,number] of Object.entries(expected)){
+  assert.equal(publication.mergedServices[area].length,number,area);
+  count+=number*2;
+ }
+ assert.equal(count,196);
+ for(const prefix of ['', '/fr']){
+  for(const area of ['owen-sound','stratford','guelph']){
+   assert.equal(publication.mergedServices[area],undefined);
+   await html(`${prefix}/areas/${area}/pool-spa-tiling`);
+  }
+  for(const path of ['/services/pool-spa-tiling?area=goderich','/pricing/pool-spa-tiling-cost?area=goderich&service=pool-spa-tiling']){
+   const page=await html(prefix+path);
+   assert.ok(page.includes(`href="${prefix}/areas/goderich#service-pool-spa-tiling"`));
+   assert.ok(!page.includes(`href="${prefix}/areas/goderich/pool-spa-tiling"`));
   }
  }
 });

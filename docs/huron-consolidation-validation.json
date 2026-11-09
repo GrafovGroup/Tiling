@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-08",
+  "baselineSourceCommit": "0a94d870c07aad1584cea236b6e303e9ece9c8aa",
+  "newRetiredUrls": 196,
+  "totalRetiredUrls": 362,
+  "sitemapUrls": 15256,
+  "newMunicipalities": 9,
+  "typecheck": "pass",
+  "productionBuild": "pass",
+  "renderedTestsPassed": 96,
+  "unitTestsPassed": 19,
+  "routeAudit": {
+    "pages": 15256,
+    "retired": 362,
+    "checked": 15256,
+    "uniqueTitles": 15256,
+    "uniqueDescriptions": 15256,
+    "failures": []
+  },
+  "homepageMainMarkup": {
+    "en": "byte-identical",
+    "fr": "byte-identical"
+  },
+  "browser": {
+    "englishMobileWidth": 390,
+    "frenchMobileWidth": 320,
+    "horizontalOverflow": false,
+    "cityServiceQuoteContext": "preserved",
+    "serviceChecklist": "opens",
+    "developmentOverlay": "browser extension injected DOM (LastPass/Grammarly); dismissed for QA"
+  },
+  "additionalEnquiriesSent": 0
+}

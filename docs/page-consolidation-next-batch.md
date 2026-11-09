@@ -1,6 +1,6 @@
 # Further location-page consolidation
 
-**Status: planning only.** This document does not activate redirects or change the site's publication policy. The current published implementation is the [first consolidation pilot](page-consolidation.md).
+**Status: planning only.** This document does not activate redirects or change the site's publication policy. The published implementation includes the [first consolidation pilot](page-consolidation.md) and the [Huron follow-up](huron-consolidation.md). Later regions remain staged.
 
 ## Review before each batch
 
