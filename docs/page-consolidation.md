@@ -1,6 +1,6 @@
 # Location-page consolidation — first batch
 
-Current rollout: the [Huron follow-up](huron-consolidation.md) adds 196 retired URLs, bringing the current sitemap to 15,256 URLs and total redirects to 362. The original inventory and first-batch counts below are historical; the Huron follow-up contains its additional redirect mapping.
+Current rollout: the [Grey, Perth and Wellington follow-up](regional-consolidation.md) adds 440 retired URLs after the [Huron batch](huron-consolidation.md), bringing the sitemap to 14,816 URLs and total redirects to 802. The original inventory and first-batch counts below are historical; each follow-up includes its additional redirect mapping.
 
 Reviewed November 8, 2026. Baseline: published version 62, source commit `35ebba574a0822df1b82eafc683c56b275e45f1b`.
 

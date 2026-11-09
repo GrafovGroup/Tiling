@@ -1,5 +1,7 @@
 # Huron location consolidation
 
+Historical release record. The subsequent [Grey, Perth and Wellington rollout](regional-consolidation.md) brings the current sitemap to 14,816 URLs. Counts and staged-region status below describe the Huron release.
+
 November 8, 2026. This release merges 196 English/French local-service URLs into 18 existing municipality hubs. The sitemap falls from 15,452 to 15,256 URLs. Together with the first batch, 362 of the original 15,618 URLs have been consolidated.
 
 The nine municipalities are Ashfield-Colborne-Wawanosh, Bluewater, Central Huron, Goderich, Howick, Huron East, Morris-Turnberry, North Huron and South Huron. [Exact redirect mapping](huron-consolidation-urls.csv).

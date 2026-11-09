@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-08",
+  "baselineSourceCommit": "e379aad804ae030d4f0e9be35004e0c9748a4f27",
+  "newRetiredUrls": 440,
+  "totalRetiredUrls": 802,
+  "sitemapUrls": 14816,
+  "newMunicipalities": 23,
+  "regionUrls": {
+    "Grey": 184,
+    "Perth": 110,
+    "Wellington": 146
+  },
+  "retainedException": "wellington-north/tile-supply-delivery in both languages",
+  "typecheck": "pass",
+  "productionBuild": "pass",
+  "renderedTestsPassed": 97,
+  "unitTestsPassed": 19,
+  "routeAudit": {
+    "pages": 14816,
+    "retired": 802,
+    "checked": 14816,
+    "uniqueTitles": 14816,
+    "uniqueDescriptions": 14816,
+    "failures": []
+  },
+  "homepageMainMarkup": {
+    "en": "byte-identical",
+    "fr": "byte-identical"
+  },
+  "browser": {
+    "englishMobileWidth": 390,
+    "frenchMobileWidth": 320,
+    "horizontalOverflow": false,
+    "cityServiceQuoteContext": "preserved",
+    "developmentOverlay": "browser extension injected DOM; dismissed for QA"
+  },
+  "additionalEnquiriesSent": 0
+}

@@ -23,7 +23,7 @@ test('calculators appear on installation and supply guides in both languages wit
    if(slug==='tile-installation-cost')for(const range of ['$13–$34','$8–$27','$8–$15']){if(!prefix)assert.ok(page.includes(range));}
   }
  }
- const xml=await html('/sitemap.xml');assert.equal((xml.match(/<loc>/g)||[]).length,15256);
+ const xml=await html('/sitemap.xml');assert.equal((xml.match(/<loc>/g)||[]).length,14816);
 });
 test('planning measurements reach the quote note with city/service context and clean canonical metadata',async()=>{
  for(const prefix of ['', '/fr']) {

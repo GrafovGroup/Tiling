@@ -1,8 +1,8 @@
 # Further location-page consolidation
 
-**Status: planning only.** This document does not activate redirects or change the site's publication policy. The published implementation includes the [first consolidation pilot](page-consolidation.md) and the [Huron follow-up](huron-consolidation.md). Later regions remain staged.
+**Status: reviewed cohorts complete.** Published Sites version 66 includes the [first pilot](page-consolidation.md), [Huron follow-up](huron-consolidation.md), and [Grey, Perth and Wellington consolidation](regional-consolidation.md). The final review consolidated 440 URLs and retained both Wellington North tile-supply URLs. The sitemap contains 14,816 URLs, with 802 consolidated across all reviewed batches. No candidates remain staged for automatic retirement.
 
-## Review before each batch
+## Review before any future batch
 
 - Define a small regional cohort and obtain scoped search reports that fit within export limits.
 - Retain pages with useful search queries, clicks, backlinks, enquiries, distinctive project evidence or a strong unmet local intent. Check both languages together.
@@ -12,9 +12,9 @@
 
 ## Publication checkpoint
 
-Allow the first pilot to be recrawled and verify destination indexing, canonical selection and redirect handling before expanding. Compare combined old/destination URL groups and useful service-query coverage. Sparse traffic alone cannot establish a ranking improvement.
+Let the published redirects be recrawled and verify destination indexing, canonical selection and redirect handling before considering more reductions. Compare combined old/destination URL groups and useful service-query coverage. Sparse traffic alone cannot establish a ranking improvement.
 
-Refresh search, backlink and enquiry evidence before activating each region. Apply one region at a time, then reassess using observed results.
+Refresh search, backlink and enquiry evidence before any future consolidation. Define and review its scope separately, then reassess using observed results. The completed reviewed cohorts do not authorize automatic expansion.
 
 ## Implementation checklist
 

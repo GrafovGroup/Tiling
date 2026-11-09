@@ -17,6 +17,21 @@ async function requestWorker(path, init={headers:{accept:"text/html"}}) {
   return worker.fetch(new Request(`http://localhost${path}`,init),{ASSETS:{fetch:async()=>new Response("Not found",{status:404})}},{waitUntil(){},passThroughOnException(){}});
 }
 async function render(path="/"){return requestWorker(path)}
+async function localDestination(area,service){
+  let path=`/areas/${area}/${service}`,response=await render(path);
+  if(merged(area,service)){
+    assert.equal(response.status,308,path);
+    const target=new URL(response.headers.get('location'),'https://tiling.ca');
+    assert.equal(target.pathname,`/areas/${area}`);
+    assert.equal(target.hash,`#service-${service}`);
+    assert.equal(target.searchParams.get('service'),service);
+    path=target.pathname;response=await render(path+target.search);
+  }
+  assert.equal(response.status,200,path);
+  const html=await response.text();
+  if(merged(area,service))assert.ok(html.includes(`id="service-${service}"`));
+  return {path,html};
+}
 
 test("positions Tiling.ca as an installation and supply company",async()=>{
   const response=await render(); assert.equal(response.status,200); const html=await response.text();
@@ -134,10 +149,17 @@ test("publishes local service pages for the direct contractor",async()=>{
   assert.doesNotMatch(serviceHtml,/referrals in|local referral network|matching availability/i);
 });
 
-test("renders every national city and service combination",async()=>{
+test("every national city and service combination reaches its retained page or matching hub section",async()=>{
   for(const city of citySlugs) for(const service of serviceSlugs){
-    const response=await render(`/areas/${city}/${service}`); assert.equal(response.status,200); const html=await response.text();
-    assert.match(html,/A project-specific local brief/i); assert.match(html,/Failure prevention/i); assert.match(html,/Quote checklist/i); assert.match(html,/Request a quote/i); assert.doesNotMatch(html,/noindex|matching is not open/i);
+    const {html}=await localDestination(city,service);
+    if(merged(city,service)){
+      assert.match(html,/Preparation and quote details/);
+      assert.ok(html.includes(`/services/${service}?area=${city}`));
+      assert.ok(html.includes(`/request-a-quote?area=${city}&amp;service=${service}`));
+    }else{
+      assert.match(html,/A project-specific local brief/i); assert.match(html,/Failure prevention/i); assert.match(html,/Quote checklist/i);
+    }
+    assert.match(html,/Request a quote/i); assert.doesNotMatch(html,/noindex|matching is not open/i);
   }
 });
 
@@ -146,16 +168,17 @@ test("sitemap contains current commercial pages and excludes legacy flows",async
   for(const path of ["/services","/materials","/locations","/how-it-works","/request-a-quote","/about","/contact","/editorial-standards","/privacy","/terms"]) assert.match(xml,new RegExp(`https://tiling\\.ca${path}`));
   for(const city of citySlugs){
     assert.match(xml,new RegExp(`https://tiling\\.ca/areas/${city}<`));
-    assert.match(xml,new RegExp(`https://tiling\\.ca/areas/${city}/tile-supply-delivery`));
+    const supply=new RegExp(`https://tiling\\.ca/areas/${city}/tile-supply-delivery`);
+    if(merged(city,'tile-supply-delivery'))assert.doesNotMatch(xml,supply);else assert.match(xml,supply);
   }
-  assert.equal((xml.match(/<loc>https:\/\/tiling\.ca\/areas\/[a-z-]+\/[a-z-]+<\/loc>/g)??[]).length,allAreaSlugs.length*serviceSlugs.length-181);
+  assert.equal((xml.match(/<loc>https:\/\/tiling\.ca\/areas\/[a-z-]+\/[a-z-]+<\/loc>/g)??[]).length,allAreaSlugs.length*serviceSlugs.length-401);
   assert.doesNotMatch(xml,/request-a-match|for-contractors|contractor-review-process/);
 });
 
 test("returns not found for unknown service and material slugs",async()=>{assert.equal((await render("/materials/vinyl")).status,404); assert.equal((await render("/services/unknown")).status,404); assert.equal((await render("/areas/newmarket/unknown")).status,404)});
 
  test("national coverage uses correct province, nearby communities and crawlable service links",async()=>{
-  for(const area of additionalAreas){const response=await render(`/areas/${area.slug}`);assert.equal(response.status,200);const html=await response.text();assert.ok(html.includes(area.province),`missing province ${area.slug}`);assert.ok(html.includes(`/areas/${area.slug}/commercial-tile`));assert.doesNotMatch(html,/independent contractor|supplier relationships|Ontario pilot/i);}
+  for(const area of additionalAreas){const response=await render(`/areas/${area.slug}`);assert.equal(response.status,200);const html=await response.text();assert.ok(html.includes(area.province),`missing province ${area.slug}`);assert.ok(html.includes(merged(area.slug,'commercial-tile')?`/areas/${area.slug}#service-commercial-tile`:`/areas/${area.slug}/commercial-tile`));assert.doesNotMatch(html,/independent contractor|supplier relationships|Ontario pilot/i);}
   const vancouver=await (await render("/areas/vancouver/floor-tile-installation")).text();assert.match(vancouver,/Vancouver, British Columbia/);assert.doesNotMatch(vancouver,/Vancouver, Ontario|Ontario conditions/);assert.match(vancouver,/North Vancouver/);
   const directory=await (await render("/locations")).text();for(const area of additionalAreas)assert.ok(directory.includes(`/areas/${area.slug}`));
  });
@@ -196,7 +219,7 @@ test("Ontario regional directories link every municipality and disambiguate shar
 
 test("Community service destinations include local content, canonical URL and direct enquiry",async()=>{
   for(const [area,community] of [["centre-wellington","elora"],["scugog","port-perry"],["greenstone","geraldton"],["west-grey","durham"],["king","king-city"]]){
-    for(const service of serviceSlugs){const response=await render(`/areas/${area}/${service}`);assert.equal(response.status,200);const html=await response.text();assert.ok(html.includes(`id="community-${community}"`));assert.ok(html.includes(`https://tiling.ca/areas/${area}/${service}`));assert.ok(html.includes('id="local-quote"'));assert.match(html,/action="https:\/\/formspree.io\/f\/xdeownaz"/);assert.ok(html.includes('name="city"'));}
+    for(const service of serviceSlugs){const {path,html}=await localDestination(area,service);assert.ok(html.includes(`id="community-${community}"`));assert.ok(html.includes(`rel="canonical" href="https://tiling.ca${path}"`));assert.ok(html.includes('id="local-quote"'));assert.match(html,/action="https:\/\/formspree.io\/f\/xdeownaz"/);assert.ok(html.includes('name="city"'));}
   }
 });
 
