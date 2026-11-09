@@ -1,0 +1,13 @@
+{
+  "reviewedOn": "2026-11-08",
+  "reason": "Single-municipality directories duplicate their existing location hub; reviewed before merging. Other regions remain published.",
+  "mergedRegions": {
+    "chatham-kent": "chatham-kent",
+    "haldimand": "haldimand-county",
+    "hamilton": "hamilton",
+    "kawartha-lakes": "kawartha-lakes",
+    "norfolk": "norfolk-county",
+    "prince-edward": "prince-edward-county",
+    "toronto": "toronto"
+  }
+}

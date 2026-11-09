@@ -113,7 +113,7 @@ test('reviewed retained local service pages remain live in both languages',async
 test('sitemap excludes merged URLs and preserves reciprocal language coverage without losing hubs or guides',async()=>{
  const xml=await html('/sitemap.xml');
  const urls=[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]),set=new Set(urls);
- assert.equal(urls.length,4152);assert.equal(set.size,urls.length);
+ assert.equal(urls.length,4138);assert.equal(set.size,urls.length);
  for(const url of urls.filter(u=>!new URL(u).pathname.startsWith('/fr'))){assert.ok(set.has('https://tiling.ca/fr'+url.slice('https://tiling.ca'.length)),url);}
  for(const prefix of ['', '/fr'])for(const [area,services] of consolidated){
   assert.ok(set.has(`https://tiling.ca${prefix}/areas/${area}`));

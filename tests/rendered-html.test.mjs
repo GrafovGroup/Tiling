@@ -1,3 +1,5 @@
+import { readFileSync as readRegionPolicy } from "node:fs";
+const { mergedRegions } = JSON.parse(readRegionPolicy(new URL("../app/region-publication.json",import.meta.url)));
 import { finalResponse, canonicalPath, localHref } from './local-route-helpers.mjs';
 import { formValue } from './form-values.mjs';
 import assert from "node:assert/strict";
@@ -199,13 +201,13 @@ test("Ontario covers the official local-municipality roster without duplicate ro
   for(const item of official)assert.ok(ontarioMunicipalities.some(m=>m.officialName===item.officialName),item.officialName);
   const xml=await (await requestWorker("/sitemap.xml")).text();
   for(const item of ontarioMunicipalities)for(const service of serviceSlugs)assert.equal(xml.includes(`https://tiling.ca/areas/${item.slug}/${service}</loc>`),!merged(item.slug,service),`${item.slug}/${service}`);
-  for(const slug of new Set(ontarioMunicipalities.map(item=>item.regionSlug)))assert.ok(xml.includes(`https://tiling.ca/locations/ontario/${slug}</loc>`));
+  for(const slug of new Set(ontarioMunicipalities.map(item=>item.regionSlug)))assert.equal(xml.includes(`https://tiling.ca/locations/ontario/${slug}</loc>`), !mergedRegions[slug]);
 });
 
 test("Ontario town pages expose every service and verified community destination",async()=>{
   for(const item of ontarioMunicipalities){
     const response=await render(`/areas/${item.slug}`);assert.equal(response.status,200,item.slug);const html=await response.text();
-    assert.ok(html.includes(`/locations/ontario/${item.regionSlug}`),item.slug);
+    assert.ok(html.includes(mergedRegions[item.regionSlug]?`href="/locations/ontario"`:`/locations/ontario/${item.regionSlug}`),item.slug);
     for(const service of serviceSlugs)assert.ok(html.includes(merged(item.slug,service)?`/areas/${item.slug}#service-${service}`:`/areas/${item.slug}/${service}`),`${item.slug}/${service}`);
     for(const community of item.communities)assert.ok(html.includes(`id="community-${community.id}"`),`${item.slug}:${community.name}`);
     assert.doesNotMatch(html,/independent contractor|Ontario pilot|matching is not open/i);
@@ -214,7 +216,7 @@ test("Ontario town pages expose every service and verified community destination
 
 test("Ontario regional directories link every municipality and disambiguate shared names",async()=>{
   for(const slug of new Set(ontarioMunicipalities.map(item=>item.regionSlug))){
-    const response=await render(`/locations/ontario/${slug}`);assert.equal(response.status,200,slug);const html=await response.text();
+    const response=await render(`/locations/ontario/${slug}`);if(mergedRegions[slug]){assert.equal(response.status,308);assert.equal(response.headers.get("location"),`/areas/${mergedRegions[slug]}`);continue;}assert.equal(response.status,200,slug);const html=await response.text();
     for(const item of ontarioMunicipalities.filter(item=>item.regionSlug===slug))assert.ok(html.includes(`/areas/${item.slug}`),item.slug);
   }
   const town=ontarioMunicipalities.find(item=>item.name==="Hamilton Township");assert.equal(town.region,"Northumberland");assert.notEqual(town.slug,"hamilton");

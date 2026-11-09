@@ -1,3 +1,4 @@
+import { hasRegionDirectory } from "../../region-publication";
 import { ConsolidatedLocalServices, LocalServiceMenu } from "../../consolidated-local-services";
 import { hasLocalServicePage, localServiceHref } from "../../local-service-publication";
 import { QuoteForm } from "../../quote-form";
@@ -60,7 +61,7 @@ export default async function AreaPage({ params, searchParams }: { params: Param
   return <>
     <Header />
     <main id="main-content">
-      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Locations", href: "/locations" }, ...(area.ontarioRegionSlug ? [{label:"Ontario",href:"/locations/ontario"},{label:area.region,href:`/locations/ontario/${area.ontarioRegionSlug}`}] : []), { label: area.name }]} />
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Locations", href: "/locations" }, ...(area.ontarioRegionSlug ? [{label:"Ontario",href:"/locations/ontario"},...(hasRegionDirectory(area.ontarioRegionSlug)?[{label:area.region,href:`/locations/ontario/${area.ontarioRegionSlug}`}]:[])] : []), { label: area.name }]} />
       <section className="inner-hero">
         <p className="eyebrow">{area.region} · Tile services</p>
         <h1>Tile installation and supply in {area.name}</h1>

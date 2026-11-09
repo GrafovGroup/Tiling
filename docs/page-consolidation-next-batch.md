@@ -26,3 +26,7 @@ Refresh search, backlink and enquiry evidence before any future consolidation. D
 6. Keep a rollback record. Restore a distinct page, links and sitemap entry together when new evidence supports it.
 
 Retain active redirects for at least a year, preferably indefinitely. The existing service, material and pricing guides continue to support the local hubs.
+
+## Subsequent regional-directory and URL review
+
+The [URL-structure review](url-structure-review.md) reduces the sitemap from 4,152 to 4,138 while retaining all 482 location hubs and 2,994 local-service URLs. Seven single-municipality region aliases redirect to their hubs in both languages; all remaining regions are retained. The nationwide municipal review is complete. Further reductions should follow recrawling and evidence review.

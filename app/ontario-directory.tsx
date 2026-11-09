@@ -1,6 +1,7 @@
 "use client";
 import { useState } from "react";
 import { hasLocalServicePage, localServiceHref } from "./local-service-publication";
+import { regionHref } from "./region-publication";
 import { municipalities, ontarioRegions } from "./ontario-data";
 import { services } from "./data";
 import { Link } from "./components";
@@ -28,6 +29,6 @@ export function OntarioDirectory({regionSlug}:{regionSlug?:string}) {
     <p className="coverage-count" role="status">{needle?`${results.length} matching ${results.length===1?"location":"locations"}${results.length>60?" · Showing the first 60. Refine your search for more specific results.":""}`:regionSlug?`${local.length} municipalities · Search also finds their named communities.`:"Search by the name you use locally, or browse a region below."}</p>
     {visible.length>0 && <div className="ontario-results">{visible.map(item=><Link key={item.key} href={item.href}><h3>{item.name}</h3><p>{item.name===item.municipality?item.region:`${item.municipality} · ${item.region}`}</p><span>{service?services.find(s=>s.slug===service)?.name:"VIEW TILE SERVICES"} →</span></Link>)}</div>}
     {needle&&!results.length&&<p className="coverage-empty">No exact entry yet. Browse the region covering your address or <Link href="/request-a-quote">send us your town and project</Link>. Named communities are examples within our wider municipal coverage.</p>}
-    {!regionSlug && <><h2 className="region-directory-title">Browse Ontario by region.</h2><div className="ontario-regions">{ontarioRegions.map(region=><Link key={region.slug} href={`/locations/ontario/${region.slug}`}><h3>{region.name}</h3><p>{region.municipalities.length} {region.municipalities.length===1?"municipality":"municipalities"}</p><span>EXPLORE AREA →</span></Link>)}</div></>}
+    {!regionSlug && <><h2 className="region-directory-title">Browse Ontario by region.</h2><div className="ontario-regions">{ontarioRegions.map(region=><Link key={region.slug} href={regionHref(region.slug)}><h3>{region.name}</h3><p>{region.municipalities.length} {region.municipalities.length===1?"municipality":"municipalities"}</p><span>EXPLORE AREA →</span></Link>)}</div></>}
   </>;
 }

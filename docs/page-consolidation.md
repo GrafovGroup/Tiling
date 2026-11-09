@@ -1,6 +1,6 @@
 # Location-page consolidation — first batch
 
-Current rollout: the [nationwide consolidation](nationwide-consolidation.md) reviews all 482 location areas, adds 10,664 permanent redirects, and brings the sitemap to 4,152 URLs. Total redirects: 11,466. The original inventory and regional counts below are historical.
+Current rollout: the [nationwide consolidation](nationwide-consolidation.md) reviewed all 482 location areas and brought the sitemap to 4,152 URLs. The subsequent [URL-structure review](url-structure-review.md) merges 14 duplicate regional-directory URLs, leaving **4,138 sitemap URLs** and **11,480 consolidation redirects**. The original inventory and regional counts below are historical.
 
 Reviewed November 8, 2026. Baseline: published version 62, source commit `35ebba574a0822df1b82eafc683c56b275e45f1b`.
 

@@ -1,12 +1,13 @@
 # GitHub production snapshot
 
-This repository includes published **Sites version 67**, source commit `6d8e6bff46b211dbc055ad2d4e820cf190a5573f`, and the separate [unpublished homepage concepts](docs/designs/homepage-alternatives-2026-11-08/README.md).
+This repository includes published **Sites version 68**, source commit `176ec577f2d53982d413e1cb2e48c4b8d453bddf`, and the separate [unpublished homepage concepts](docs/designs/homepage-alternatives-2026-11-08/README.md).
 
 - Inner-page quote forms now offer optional service/timing selections and photo/plan attachments. Twelve bilingual pricing guides include quantity calculators, and the floor guide includes source-specific budget calculations. The current homepage remains unchanged. [Implementation and validation](docs/quote-and-calculator-update.md).
-- The nationwide review covers all 482 location areas and consolidates another 10,664 bilingual local-service URLs into existing location hubs. The sitemap contains 4,152 URLs; 11,466 URLs have been consolidated across all releases. All location hubs and reviewed service-page exceptions remain published. Both homepages are unchanged. [Nationwide rollout](docs/nationwide-consolidation.md) · [Publication map](app/local-service-publication.json) · [Validation](docs/nationwide-consolidation-validation.json).
+- The nationwide review covers all 482 location areas and consolidates another 10,664 bilingual local-service URLs into existing location hubs. The nationwide rollout reduced the sitemap to 4,152 URLs; the subsequent region-directory review now leaves **4,138 URLs** and **11,480 consolidation redirects**. All location hubs and reviewed service-page exceptions remain published. Both homepages are unchanged. [Nationwide rollout](docs/nationwide-consolidation.md) · [Publication map](app/local-service-publication.json) · [Validation](docs/nationwide-consolidation-validation.json).
+- Seven duplicate Ontario regional directories now point directly to existing municipality hubs in both languages. Recognized URL aliases resolve in one permanent hop, and React navigation payloads are excluded from indexing. All 4,138 canonical pages and 23,170 internal path/anchor destinations passed validation; 123 regression and form tests passed. [URL review](docs/url-structure-review.md) · [Validation](docs/url-structure-validation.json).
 - Prior content, pricing, accessibility, image optimization, redirect, 404 and enquiry improvements are retained.
 - GA4 `G-83XS8KT8EM` remains a Sites runtime setting, with explicit visitor consent, Enhanced Measurement off and confirmed submissions tracked as `generate_lead`. No environment files or credentials are stored in this repository.
-- GitHub Actions validates code; it does not deploy the site. The homepage alternatives remain documentation only. [Source manifest](docs/github-sync-2026-11-08-national-consolidation.json).
+- GitHub Actions validates code; it does not deploy the site. The homepage alternatives remain documentation only. [Source manifest](docs/github-sync-2026-11-08-url-structure.json).
 
 The [consolidation review checklist](docs/page-consolidation-next-batch.md) now records the completed nationwide review. No municipality is awaiting rollout. Detailed account observations and URL-level review evidence remain in private working files.
 

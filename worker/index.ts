@@ -55,7 +55,15 @@ const worker = {
     requestHeaders.delete("x-tiling-ga4");
     if (validMeasurementId(env?.GA4_MEASUREMENT_ID)) requestHeaders.set("x-tiling-ga4", env.GA4_MEASUREMENT_ID);
     requestHeaders.set("x-tiling-locale", url.pathname === "/fr" || url.pathname.startsWith("/fr/") ? "fr" : "en");
-    return handler.fetch(new Request(request, { headers: requestHeaders }), env, ctx);
+    const response = await handler.fetch(new Request(request, { headers: requestHeaders }), env, ctx);
+    // React navigation payloads are transport data, not separate search pages.
+    // Detect the actual response type so HTML documents stay indexable.
+    if (response.headers.get("content-type")?.toLowerCase().startsWith("text/x-component")) {
+      const headers = new Headers(response.headers);
+      headers.set("x-robots-tag", "noindex");
+      return new Response(response.body, { status: response.status, statusText: response.statusText, headers });
+    }
+    return response;
   },
 };
 
