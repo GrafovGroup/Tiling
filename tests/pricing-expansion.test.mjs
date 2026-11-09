@@ -1,3 +1,4 @@
+import { finalResponse, isMerged, localHref } from './local-route-helpers.mjs';
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -12,7 +13,7 @@ const primary = [
 const guides = [...primary,...expansion.guides];
 const env={ASSETS:{fetch:async()=>new Response("Not found",{status:404})}};
 async function html(path){
-  const response=await worker.fetch(new Request("https://tiling.ca"+path,{headers:{accept:"text/html","user-agent":"Googlebot"}}),env,{waitUntil(){},passThroughOnException(){}});
+  const response=await finalResponse(p=>worker.fetch(new Request("https://tiling.ca"+p,{headers:{accept:"text/html","user-agent":"Googlebot"}}),env,{waitUntil(){},passThroughOnException(){}}),path);
   assert.equal(response.status,200,path);
   return response.text();
 }
@@ -70,14 +71,19 @@ test("national and city service pages link their own guide and preserve the sele
     for(const base of ["/services","/areas/vancouver","/areas/addington-highlands"]){
       const path=prefix+base+"/"+guide.service;
       const page=await html(path),links=cards(page);
-      assert.equal(links.length,1,path);
       const area=base.startsWith("/areas/")?base.split("/")[2]:undefined;
       const query=area?`area=${area}&amp;service=${guide.service}`:`service=${guide.service}`;
-      assert.equal(links[0],`${prefix}/pricing/${guide.slug}?${query}`,path);
+      if(area && isMerged(area,guide.service)) {
+        const section=page.split(`id="service-${guide.service}"`)[1]?.split("</article>")[0];
+        assert.ok(section?.includes(`href="${prefix}/pricing/${guide.slug}?${query}"`),path);
+      } else {
+        assert.equal(links.length,1,path);
+        assert.equal(links[0],`${prefix}/pricing/${guide.slug}?${query}`,path);
+      }
     }
     const guidePage=await html(`${prefix}/pricing/${guide.slug}?area=vancouver&service=${guide.service}`);
     assert.ok(guidePage.includes(`${prefix}/request-a-quote?service=${guide.service}&amp;area=vancouver`));
-    assert.ok(guidePage.includes(`${prefix}/areas/vancouver/${guide.service}`));
+    assert.ok(guidePage.includes(localHref("vancouver",guide.service,prefix)));
   }
 });
 

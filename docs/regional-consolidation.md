@@ -1,5 +1,7 @@
 # Grey, Perth and Wellington consolidation
 
+Historical release: the subsequent [nationwide consolidation](nationwide-consolidation.md) also reviews the previously retained core service pages. All redirects introduced here remain active.
+
 November 8, 2026. This release consolidates 440 English/French local-service URLs into 46 existing municipality hubs. The sitemap falls from 15,256 to 14,816 URLs. Across all reviewed batches, 802 of the original 15,618 URLs have been consolidated.
 
 | Region | Municipalities | Retired URLs |

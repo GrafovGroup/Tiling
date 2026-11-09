@@ -1,3 +1,4 @@
+import { finalResponse, canonicalPath, localHref } from './local-route-helpers.mjs';
 import { formValue } from './form-values.mjs';
 import assert from "node:assert/strict";
 import {readFile} from "node:fs/promises";
@@ -16,9 +17,9 @@ const {default:worker}=await import(new URL("../dist/server/index.js",import.met
 async function requestWorker(path, init={headers:{accept:"text/html"}}) {
   return worker.fetch(new Request(`http://localhost${path}`,init),{ASSETS:{fetch:async()=>new Response("Not found",{status:404})}},{waitUntil(){},passThroughOnException(){}});
 }
-async function render(path="/"){return requestWorker(path)}
+async function render(path="/"){return finalResponse(requestWorker,path)}
 async function localDestination(area,service){
-  let path=`/areas/${area}/${service}`,response=await render(path);
+  let path=`/areas/${area}/${service}`,response=await requestWorker(path);
   if(merged(area,service)){
     assert.equal(response.status,308,path);
     const target=new URL(response.headers.get('location'),'https://tiling.ca');
@@ -119,7 +120,10 @@ test("keeps primary photography distinct with approved reuse on location pages",
 
   for(const path of ["/areas/newmarket","/areas/newmarket/bathroom-shower-tile"]){
     const response=await render(path); assert.equal(response.status,200); const html=await response.text();
-    assert.match(html,/<img[^>]+src="\/services\//i,`${path} should display relevant service photography`);
+    if(path==="/areas/newmarket") {
+      assert.match(html,/class="local-service-menu"/);
+      assert.doesNotMatch(html,/class="location-service-card-photo"/);
+    } else assert.match(html,/<img[^>]+src="\/services\//i,`${path} should display relevant service photography`);
     assert.doesNotMatch(html,/class="(?:service-pattern|local-service-marker)/);
   }
 
@@ -171,7 +175,7 @@ test("sitemap contains current commercial pages and excludes legacy flows",async
     const supply=new RegExp(`https://tiling\\.ca/areas/${city}/tile-supply-delivery`);
     if(merged(city,'tile-supply-delivery'))assert.doesNotMatch(xml,supply);else assert.match(xml,supply);
   }
-  assert.equal((xml.match(/<loc>https:\/\/tiling\.ca\/areas\/[a-z-]+\/[a-z-]+<\/loc>/g)??[]).length,allAreaSlugs.length*serviceSlugs.length-401);
+  assert.equal((xml.match(/<loc>https:\/\/tiling\.ca\/areas\/[a-z-]+\/[a-z-]+<\/loc>/g)??[]).length,allAreaSlugs.length*serviceSlugs.length-5733);
   assert.doesNotMatch(xml,/request-a-match|for-contractors|contractor-review-process/);
 });
 
@@ -234,13 +238,13 @@ test("inherits browser-compatible favicons on every route family",async()=>{
 test("delivers route metadata in the initial head for visitors and search crawlers", async () => {
   for (const agent of ["Mozilla/5.0", "Googlebot", "OAI-SearchBot"]) {
     for (const path of ["/", "/areas/oshawa", "/areas/oshawa/kitchen-backsplash", "/services/commercial-tile", "/materials/porcelain-tile"]) {
-      const response = await requestWorker(path, {headers: {accept: "text/html", "user-agent": agent}});
+      const response = await finalResponse(p=>requestWorker(p, {headers: {accept: "text/html", "user-agent": agent}}),path);
       assert.equal(response.status, 200, path);
       const html = await response.text();
       const head = html.split("</head>")[0];
       assert.match(head, /<title>[^<]+<\/title>/, `${agent}: ${path}`);
       assert.match(head, /<meta name="description" content="[^"]+"/, `${agent}: ${path}`);
-      assert.ok(head.includes(`href="https://tiling.ca${path === "/" ? "" : path}"`), `${agent}: canonical ${path}`);
+      assert.ok(head.includes(`href="https://tiling.ca${path === "/" ? "" : canonicalPath(path)}"`), `${agent}: canonical ${path}`);
     }
   }
 });
@@ -257,9 +261,9 @@ test("retains valid city and service context without accepting arbitrary quote v
 test("places one local enquiry form before expandable planning guidance", async () => {
   const html = await (await render("/areas/oshawa/kitchen-backsplash")).text();
   assert.equal((html.match(/<form /g) || []).length, 1);
-  assert.ok(html.indexOf('id="local-quote"') < html.indexOf('class="planning-details"'));
-  assert.match(html, /<details class="planning-details"><summary>/);
-  assert.doesNotMatch(html, /launch-cta section-pad city-project-cta/);
+  assert.ok(html.indexOf('id="local-quote"') < html.indexOf('class="consolidated-services section-pad"'));
+  assert.match(html, /id="service-kitchen-backsplash"/);
+  assert.equal(formValue(html,'service'),'Kitchen Backsplash');
   assert.match(html, /href="\/request-a-quote\?area=oshawa&amp;service=kitchen-backsplash"/);
   assert.match(html, /aria-label="Quick contact"/);
   const quote = await (await render("/request-a-quote")).text();
@@ -275,11 +279,12 @@ test("simplifies sections while retaining services, local destinations and enqui
     assert.equal((html.match(/class="coverage-summary section-pad"/g) || []).length, 1);
     assert.doesNotMatch(html, /class="neighbourhoods section-pad"|class="city-links section-pad"|class="section-pad surrounding-section"/);
     assert.match(html, /Stonehaven/);
-    assert.match(html, /href="\/areas\/aurora(?:\/kitchen-backsplash)?"/);
+    const nearby=path.endsWith("/kitchen-backsplash")?localHref("aurora","kitchen-backsplash"):"/areas/aurora";
+    assert.ok(html.includes(`href="${nearby}"`));
   }
   const city = await (await render('/areas/newmarket')).text();
   assert.ok(city.indexOf('class="area-services section-pad"') < city.indexOf('class="local-context section-pad"'));
-  for (const slug of serviceSlugs) assert.ok(city.includes(`/areas/newmarket/${slug}`));
+  for (const slug of serviceSlugs) assert.ok(city.includes(localHref("newmarket",slug)));
   const commercial = await (await render('/services/commercial-tile')).text();
   assert.match(commercial, /id="commercial-quote"/);
   assert.doesNotMatch(commercial, /class="launch-cta section-pad"/);
@@ -296,7 +301,8 @@ test("offers fifteen services with distinct new scopes, imagery and quote contex
   ];
   const city = await (await render('/areas/oshawa')).text();
   assert.match(city, /15<!-- --> service categories/);
-  assert.equal((city.match(/class="location-service-card-photo"/g) || []).length, 15);
+  assert.equal((city.match(/class="location-service-card-photo"/g) || []).length, 0);
+  assert.match(city,/class="local-service-menu"/);
   for (const [slug, key, name, faq] of additions) {
     for (const asset of [`/services/${key}.webp`, `/services/cards/${key}.webp`, `/services/home/${key}.webp`]) {
       assert.ok((await readFile(new URL(`../public${asset}`, import.meta.url))).length > 1000, asset);
@@ -304,7 +310,7 @@ test("offers fifteen services with distinct new scopes, imagery and quote contex
     const detail = await (await render(`/services/${slug}`)).text();
     assert.ok(detail.includes(name)); assert.ok(detail.includes(faq));
     const local = await (await render(`/areas/oshawa/${slug}`)).text();
-    assert.ok(local.includes(`https://tiling.ca/areas/oshawa/${slug}`));
+    assert.ok(local.includes(`rel="canonical" href="https://tiling.ca${canonicalPath(`/areas/oshawa/${slug}`)}"`));
     assert.ok(local.includes('name="city"')); assert.ok(local.includes('id="local-quote"'));
     const quote = await (await render(`/request-a-quote?area=oshawa&service=${slug}`)).text();
     assert.match(quote, /name="city"[^>]*value="Oshawa"/);
@@ -314,11 +320,11 @@ test("offers fifteen services with distinct new scopes, imagery and quote contex
 
 test('social metadata describes the individual page and organization uses current logo',async()=>{
   for(const path of ['/about','/services/commercial-tile','/areas/oshawa/kitchen-backsplash']){
-    const response=await requestWorker(path,{headers:{accept:'text/html','user-agent':'Googlebot'}});
+    const response=await finalResponse(p=>requestWorker(p,{headers:{accept:'text/html','user-agent':'Googlebot'}}),path);
     const html=await response.text();const head=html.split('</head>')[0];
     const title=head.match(/<title>([^<]+)<\/title>/)?.[1];assert.ok(title);
     for(const field of ['og:title','twitter:title'])assert.ok(new RegExp(`<meta (?:property|name)="${field}" content="([^"]+)"`).exec(head)?.[1]===title.replace(/ \| Tiling\.ca$/, ""),`${field} should describe ${path}`);
-    assert.ok(head.includes(`https://tiling.ca${path}`));
+    assert.ok(head.includes(`https://tiling.ca${canonicalPath(path)}`));
   }
   const html=await (await render('/')).text();assert.match(html,/"logo":"https:\/\/tiling.ca\/brand\/tiling-herringbone-square-dot.png"/);
 });

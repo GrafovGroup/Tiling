@@ -1,0 +1,47 @@
+{
+  "reviewedOn": "2026-11-08",
+  "scope": "All 482 location areas, English and French",
+  "sitemapBefore": 14816,
+  "sitemapAfter": 4152,
+  "newRetiredUrls": 10664,
+  "totalRetiredUrls": 11466,
+  "retainedLocationHubs": 964,
+  "retainedLocalServiceUrls": 2994,
+  "areasWithConsolidation": 481,
+  "newlyAffectedAreas": 480,
+  "typecheck": "passed",
+  "productionBuild": "passed",
+  "renderedTestsPassed": 100,
+  "unitTestsPassed": 19,
+  "fullRouteAudit": {
+    "checked": 4152,
+    "uniqueTitles": 4152,
+    "uniqueDescriptions": 4152,
+    "uniqueInternalDestinations": 23198,
+    "failures": []
+  },
+  "homepages": {
+    "english": "main markup byte-identical",
+    "french": "main markup byte-identical"
+  },
+  "browser": {
+    "english": {
+      "width": 390,
+      "overflow": false,
+      "city": "Addington Highlands",
+      "service": "Floor Tile Installation",
+      "quoteContextRetained": true,
+      "attachmentAvailable": true
+    },
+    "french": {
+      "width": 320,
+      "overflow": false,
+      "city": "Montréal",
+      "service": "Pose de carrelage au sol",
+      "quoteContextRetained": true,
+      "attachmentAvailable": true,
+      "languageSwitchContextRetained": true
+    }
+  },
+  "note": "No production enquiry was submitted during this release's validation. Publication and search submission do not establish ranking gains."
+}

@@ -1,6 +1,6 @@
 # Further location-page consolidation
 
-**Status: reviewed cohorts complete.** Published Sites version 66 includes the [first pilot](page-consolidation.md), [Huron follow-up](huron-consolidation.md), and [Grey, Perth and Wellington consolidation](regional-consolidation.md). The final review consolidated 440 URLs and retained both Wellington North tile-supply URLs. The sitemap contains 14,816 URLs, with 802 consolidated across all reviewed batches. No candidates remain staged for automatic retirement.
+**Status: nationwide review complete.** Published Sites version 67 includes the [nationwide consolidation](nationwide-consolidation.md), following the first pilot and regional releases. All 482 location areas were reviewed in both languages; another 10,664 URLs were consolidated. The sitemap contains 4,152 URLs, with 11,466 consolidated across all releases. All municipality hubs and reviewed local-service exceptions remain published. No municipalities remain staged for rollout.
 
 ## Review before any future batch
 
@@ -14,7 +14,7 @@
 
 Let the published redirects be recrawled and verify destination indexing, canonical selection and redirect handling before considering more reductions. Compare combined old/destination URL groups and useful service-query coverage. Sparse traffic alone cannot establish a ranking improvement.
 
-Refresh search, backlink and enquiry evidence before any future consolidation. Define and review its scope separately, then reassess using observed results. The completed reviewed cohorts do not authorize automatic expansion.
+Refresh search, backlink and enquiry evidence before any future consolidation. Define and review its scope separately, then reassess using observed results. The nationwide review is complete; future publication decisions require their own evidence review.
 
 ## Implementation checklist
 

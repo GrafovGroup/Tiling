@@ -1,14 +1,14 @@
 # GitHub production snapshot
 
-This repository includes published **Sites version 66**, source commit `f30f4c31f5e1779fecba010919fa58b9cb2b9fae`, and the separate [unpublished homepage concepts](docs/designs/homepage-alternatives-2026-11-08/README.md).
+This repository includes published **Sites version 67**, source commit `6d8e6bff46b211dbc055ad2d4e820cf190a5573f`, and the separate [unpublished homepage concepts](docs/designs/homepage-alternatives-2026-11-08/README.md).
 
 - Inner-page quote forms now offer optional service/timing selections and photo/plan attachments. Twelve bilingual pricing guides include quantity calculators, and the floor guide includes source-specific budget calculations. The current homepage remains unchanged. [Implementation and validation](docs/quote-and-calculator-update.md).
-- The completed Grey, Perth and Wellington review consolidates another 440 bilingual URLs into 46 existing municipality hubs. The sitemap now contains 14,816 URLs; 802 URLs have been consolidated across all reviewed batches. Wellington North tile supply and other retained local pages remain published. Both homepages are unchanged. [Regional rollout](docs/regional-consolidation.md) · [Redirect mapping](docs/regional-consolidation-urls.csv) · [Validation](docs/regional-consolidation-validation.json).
+- The nationwide review covers all 482 location areas and consolidates another 10,664 bilingual local-service URLs into existing location hubs. The sitemap contains 4,152 URLs; 11,466 URLs have been consolidated across all releases. All location hubs and reviewed service-page exceptions remain published. Both homepages are unchanged. [Nationwide rollout](docs/nationwide-consolidation.md) · [Publication map](app/local-service-publication.json) · [Validation](docs/nationwide-consolidation-validation.json).
 - Prior content, pricing, accessibility, image optimization, redirect, 404 and enquiry improvements are retained.
 - GA4 `G-83XS8KT8EM` remains a Sites runtime setting, with explicit visitor consent, Enhanced Measurement off and confirmed submissions tracked as `generate_lead`. No environment files or credentials are stored in this repository.
-- GitHub Actions validates code; it does not deploy the site. The homepage alternatives remain documentation only. [Source manifest](docs/github-sync-2026-11-08-regional-consolidation.json).
+- GitHub Actions validates code; it does not deploy the site. The homepage alternatives remain documentation only. [Source manifest](docs/github-sync-2026-11-08-national-consolidation.json).
 
-The [consolidation review checklist](docs/page-consolidation-next-batch.md) records the completed cohorts and requirements for any future review. No remaining candidate is queued for automatic retirement. Detailed account observations and URL-level review evidence remain in private working files.
+The [consolidation review checklist](docs/page-consolidation-next-batch.md) now records the completed nationwide review. No municipality is awaiting rollout. Detailed account observations and URL-level review evidence remain in private working files.
 
 Later updates supersede historical notes below.
 

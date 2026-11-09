@@ -1,3 +1,4 @@
+import { finalResponse } from './local-route-helpers.mjs';
 import { formValue } from './form-values.mjs';
 const publication=JSON.parse(await readFile(new URL("../app/local-service-publication.json",import.meta.url),"utf8"));
 import test from 'node:test';
@@ -7,7 +8,7 @@ import worker from '../dist/server/index.js';
 const ctx={waitUntil(){},passThroughOnException(){}};
 const env={ASSETS:{fetch:async()=>new Response('Not found',{status:404})}};
 const request=(path)=>worker.fetch(new Request('https://tiling.ca'+path,{headers:{accept:'text/html','user-agent':'Googlebot'}}),env,ctx);
-async function html(path){const r=await request(path);assert.equal(r.status,200,path);return r.text();}
+async function html(path){const r=await finalResponse(request,path);assert.equal(r.status,200,path);return r.text();}
 const services=['bathroom-shower-tile','floor-tile-installation','kitchen-backsplash','large-format-tile','tile-repair-regrouting','commercial-tile','tile-supply-delivery','outdoor-balcony-tiling','fireplace-feature-wall-tiling','heated-tile-floors','pool-spa-tiling','tile-stairs-steps','tile-removal-surface-preparation','tile-grout-stone-cleaning-sealing','rooftop-terrace-pedestal-pavers'];
 test('French route families render localized content and reciprocal language metadata',async()=>{
  for(const path of ['','/services','/materials','/locations','/locations/ontario','/locations/ontario/haliburton','/about','/contact','/how-it-works','/request-a-quote','/privacy','/terms','/editorial-standards','/areas/montreal','/areas/dysart-et-al/kitchen-backsplash']){

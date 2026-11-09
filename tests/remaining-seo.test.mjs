@@ -19,7 +19,9 @@ test('host and historical redirects are permanent, preserve query values and com
   for (const path of ['/services/kitchen-backsplash','/fr/request-a-quote','/areas/oshawa/kitchen-backsplash']) {
     const response = await request('https://www.tiling.ca'+path+query);
     assert.equal(response.status, 308);
-    assert.equal(response.headers.get('location'), 'https://tiling.ca'+path+query);
+    const destination=path==='/areas/oshawa/kitchen-backsplash' ? 'https://tiling.ca/areas/oshawa'+query+'#service-kitchen-backsplash' : 'https://tiling.ca'+path+query;
+    assert.equal(response.headers.get('location'),destination);
+    assert.equal((await request(destination)).status,200);
   }
 });
 

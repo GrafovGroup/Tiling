@@ -22,7 +22,7 @@ export function ConsolidatedLocalServices({ areaSlug, locale = "en" }: { areaSlu
   const fr = locale === "fr", prefix = fr ? "/fr" : "";
   return <section className="consolidated-services section-pad" aria-labelledby="local-service-details">
     <p className="section-kicker">{fr ? "Préparer les travaux" : "Plan the work"}</p>
-    <h2 id="local-service-details">{fr ? `Vos autres projets de carrelage à ${area.name}` : `More tile projects in ${area.name}`}</h2>
+    <h2 id="local-service-details">{fr ? `Détails des services de carrelage à ${area.name}` : `Tile service details in ${area.name}`}</h2>
     <p>{fr ? "Consultez la portée du service, les repères de prix et les renseignements à préparer. Nous confirmons l’accès, les déplacements et les disponibilités pour votre propriété avant de convenir des travaux." : "Review the scope, pricing guide and details to prepare for your project. We confirm access, travel and availability for your property before agreeing the work."}</p>
     <div className="consolidated-service-list">{consolidated.map(service => {
       const copy = fr ? frenchServices.find(item => item.slug === service.slug)! : service;

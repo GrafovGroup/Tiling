@@ -1,3 +1,4 @@
+import { finalResponse, isMerged, localHref } from './local-route-helpers.mjs';
 import { formValue } from './form-values.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -5,7 +6,7 @@ import {readFileSync} from 'node:fs';
 import worker from '../dist/server/index.js';
 const guides=JSON.parse(readFileSync(new URL('../app/service-guides.json',import.meta.url),'utf8'));
 const env={ASSETS:{fetch:async()=>new Response('Not found',{status:404})}};
-async function html(path){const r=await worker.fetch(new Request('https://tiling.ca'+path,{headers:{accept:'text/html','user-agent':'Googlebot'}}),env,{waitUntil(){},passThroughOnException(){}});assert.equal(r.status,200,path);return r.text();}
+async function html(path){const r=await finalResponse(p=>worker.fetch(new Request('https://tiling.ca'+p,{headers:{accept:'text/html','user-agent':'Googlebot'}}),env,{waitUntil(){},passThroughOnException(){}}),path);assert.equal(r.status,200,path);return r.text();}
 function schemas(page){return [...page.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].flatMap(m=>{const json=JSON.parse(m[1]);return json['@graph']||[json]});}
 const decode=text=>text.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#x27;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>');
 
@@ -75,7 +76,7 @@ test('related service and material links resolve in the same language without li
 test('local service pages link to the deeper national service guide while keeping local quote context',async()=>{
  for(const prefix of ['','/fr'])for(const guide of guides){
   const page=await html(`${prefix}/areas/toronto/${guide.slug}`);
-  assert.ok(page.includes(`href="${prefix}/services/${guide.slug}?area=toronto#service-options"`));
+  assert.ok(page.includes(`href="${prefix}/services/${guide.slug}?area=toronto${isMerged("toronto",guide.slug)?"":"#service-options"}"`));
   assert.equal((page.match(/id="local-quote"/g)||[]).length,1);
   assert.match(page,/name="city"[^>]*value="Toronto"/);
   assert.ok(page.includes(`?area=toronto&amp;service=${guide.slug}`));
@@ -86,7 +87,7 @@ test('local service pages link to the deeper national service guide while keepin
 test('city context survives the detailed service guide while canonicals stay clean and unknown areas are ignored',async()=>{
  for(const prefix of ['','/fr'])for(const guide of guides){
   const path=prefix+'/services/'+guide.slug,page=await html(path+'?area=toronto');
-  assert.ok(page.includes(`href="${prefix}/areas/toronto/${guide.slug}"`));
+  assert.ok(page.includes(`href="${localHref("toronto",guide.slug,prefix)}"`));
   assert.ok(page.includes(`href="${prefix}/request-a-quote?service=${guide.slug}&amp;area=toronto"`));
   assert.match(page,/name="city"[^>]*value="Toronto"/);
   assert.ok(page.includes(`rel="canonical" href="https://tiling.ca${path}"`));

@@ -1,3 +1,4 @@
+import { finalResponse, localHref } from './local-route-helpers.mjs';
 import test from "node:test";
 import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
@@ -7,7 +8,7 @@ const housing = JSON.parse(readFileSync(new URL("../app/local-housing.json", imp
 const services = ["bathroom-shower-tile","floor-tile-installation","kitchen-backsplash","large-format-tile","tile-repair-regrouting","commercial-tile","tile-supply-delivery","outdoor-balcony-tiling","fireplace-feature-wall-tiling","heated-tile-floors","pool-spa-tiling","tile-stairs-steps","tile-removal-surface-preparation","tile-grout-stone-cleaning-sealing","rooftop-terrace-pedestal-pavers"];
 const env = {ASSETS:{fetch:async()=>new Response("Not found",{status:404})}};
 async function html(path) {
-  const response = await worker.fetch(new Request("https://tiling.ca"+path,{headers:{accept:"text/html","user-agent":"Googlebot"}}),env,{waitUntil(){},passThroughOnException(){}});
+  const response = await finalResponse(p => worker.fetch(new Request("https://tiling.ca"+p,{headers:{accept:"text/html","user-agent":"Googlebot"}}),env,{waitUntil(){},passThroughOnException(){}}),path);
   assert.equal(response.status,200,path);
   return response.text();
 }
@@ -93,7 +94,7 @@ test("related price guides retain the original service only when valid for that 
     for (const service of ["heated-tile-floors","large-format-tile","commercial-tile","tile-repair-regrouting","tile-supply-delivery"]) {
       const page = await html(`${prefix}/pricing/tile-installation-cost?area=vancouver&service=${service}`);
       assert.ok(page.includes(`${prefix}/request-a-quote?service=${service}&amp;area=vancouver`));
-      assert.ok(page.includes(`${prefix}/areas/vancouver/${service}`));
+      assert.ok(page.includes(localHref("vancouver",service,prefix)));
       assert.ok(page.split("</head>")[0].includes('rel="canonical" href="https://tiling.ca'+prefix+'/pricing/tile-installation-cost"'));
     }
     for (const service of ["no-such-service","pool-spa-tiling","%3Cscript%3E"]) {
