@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { headers } from "next/headers";
+import { QuoteNavigationProvider } from "./quote-navigation-context";
 import { EnquiryLinks } from "./enquiry-links";
 import { AnalyticsConsent } from "./analytics-consent";
 import { validMeasurementId } from "./analytics-config";
@@ -23,6 +24,7 @@ export default async function RootLayout({
 }>) {
   const requestHeaders = await headers();
   const locale = requestHeaders.get("x-tiling-locale") === "fr" ? "fr-CA" : "en-CA";
+  const quoteHref = requestHeaders.get("x-tiling-quote-href") || (locale === "fr-CA" ? "/fr/request-a-quote" : "/request-a-quote");
   const measurementId = requestHeaders.get("x-tiling-ga4");
   return (
     <html lang={locale}>
@@ -34,7 +36,7 @@ export default async function RootLayout({
         <link rel="shortcut icon" href="/favicon-v8.ico" />
         <link rel="apple-touch-icon" href="/apple-touch-icon-v8.png" sizes="180x180" />
       </head>
-      <body>{children}<EnquiryLinks/>{validMeasurementId(measurementId) && <AnalyticsConsent measurementId={measurementId} locale={locale === "fr-CA" ? "fr" : "en"}/>}</body>
+      <body><QuoteNavigationProvider href={quoteHref}>{children}</QuoteNavigationProvider><EnquiryLinks/>{validMeasurementId(measurementId) && <AnalyticsConsent measurementId={measurementId} locale={locale === "fr-CA" ? "fr" : "en"}/>}</body>
     </html>
   );
 }

@@ -30,11 +30,13 @@ test('timeout releases pending request without an automatic duplicate', async ()
 test('multipart submission keeps multiple optional files and project selections intact', async () => {
  const payload=new FormData();payload.set('service','Carpet Tile Installation');payload.set('timing','Within 1–3 months');
  payload.set('material','Carpet Tile');payload.set('project_scope','Supply and installation');
+ payload.set('product_reference','Sample label CT-42');
  payload.append('attachment',new File(['synthetic photo'], 'test.jpg', {type:'image/jpeg'}));
  payload.append('attachment',new File(['synthetic plan'], 'test.pdf', {type:'application/pdf'}));
  await submitQuoteRequest('https://example.invalid',payload,async (_,init)=>{
   assert.equal(init.body.get('service'),'Carpet Tile Installation');assert.equal(init.body.getAll('attachment').length,2);
   assert.equal(init.body.get('material'),'Carpet Tile');assert.equal(init.body.get('project_scope'),'Supply and installation');
+  assert.equal(init.body.get('product_reference'),'Sample label CT-42');
   assert.equal(init.body.getAll('attachment')[1].name,'test.pdf');assert.equal(init.headers['Content-Type'],undefined);
   return Response.json({ok:true});
  });

@@ -4,20 +4,12 @@ import { Logo } from "./logo";
 import { type AnchorHTMLAttributes, useState } from "react";
 import { usePathname } from "next/navigation";
 import { LanguageSwitch } from "./language-switch";
-import { business, getMaterial, materials, services } from "./data";
+import { useNavigationQuoteHref } from "./quote-navigation-context";
+import { business, materials, services } from "./data";
 
 export function Link({ href, children, ...props }: AnchorHTMLAttributes<HTMLAnchorElement> & { href: string }) {
-  const pathname = usePathname();
-  let destination = href;
-  if (href === "/request-a-quote") {
-    const parts = (pathname || "/").split("/");
-    const query = new URLSearchParams();
-    if (parts[1] === "areas" && parts[2]) query.set("area", parts[2]);
-    if (parts[1] === "areas" && parts[3]) query.set("service", parts[3]);
-    if (parts[1] === "services" && parts[2]) query.set("service", parts[2]);
-    if (parts[1] === "materials") { query.set("service", "tile-supply-delivery"); if (parts[2] && getMaterial(parts[2])) query.set("material", parts[2]); }
-    if (query.size) destination += `?${query}`;
-  }
+  const quoteHref = useNavigationQuoteHref();
+  const destination = href === "/request-a-quote" || href === "/fr/request-a-quote" ? quoteHref : href;
   return <a {...props} href={destination}>{children}</a>;
 }
 

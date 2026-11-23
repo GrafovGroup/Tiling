@@ -2,6 +2,7 @@
 import { handleImageOptimization, DEFAULT_DEVICE_SIZES, DEFAULT_IMAGE_SIZES } from "vinext/server/image-optimization";
 import handler from "vinext/server/app-router-entry";
 import { canonicalRedirect } from "../app/legacy-redirects";
+import { navigationQuoteHref } from "../app/quote-navigation";
 import { validMeasurementId } from "../app/analytics-config";
 
 interface Env {
@@ -54,6 +55,7 @@ const worker = {
     const requestHeaders = new Headers(request.headers);
     requestHeaders.delete("x-tiling-ga4");
     if (validMeasurementId(env?.GA4_MEASUREMENT_ID)) requestHeaders.set("x-tiling-ga4", env.GA4_MEASUREMENT_ID);
+    requestHeaders.set("x-tiling-quote-href", navigationQuoteHref(url));
     requestHeaders.set("x-tiling-locale", url.pathname === "/fr" || url.pathname.startsWith("/fr/") ? "fr" : "en");
     const response = await handler.fetch(new Request(request, { headers: requestHeaders }), env, ctx);
     // React navigation payloads are transport data, not separate search pages.

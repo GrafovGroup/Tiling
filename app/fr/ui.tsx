@@ -2,13 +2,12 @@
 import { Logo } from "../logo";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import { business, getMaterial } from "../data";
+import { useNavigationQuoteHref } from "../quote-navigation-context";
+import { business } from "../data";
 import { LanguageSwitch } from "../language-switch";
 export function FrenchHeader(){
  const [open,setOpen]=useState(false);const pathname=usePathname()||"/fr";
- const parts=pathname.slice(3).split('/');const q=new URLSearchParams();if(parts[1]==='areas'&&parts[2])q.set('area',parts[2]);if(parts[1]==='areas'&&parts[3])q.set('service',parts[3]);if(parts[1]==='services'&&parts[2])q.set('service',parts[2]);
- if(parts[1]==='materials'){q.set('service','tile-supply-delivery');if(parts[2]&&getMaterial(parts[2]))q.set('material',parts[2]);}
- const quote='/fr/request-a-quote'+(q.size?'?'+q:'');
+ const quote=useNavigationQuoteHref();
  const links=[['/fr/services','Services'],['/fr/materials','Matériaux'],['/fr/locations','Régions desservies'],['/fr/pricing','Prix'],['/fr/about','À propos']];
  return <><a className="skip-link" href="#main-content">Aller au contenu</a><header className="site-header french-header" onKeyDown={e=>{if(e.key==='Escape')setOpen(false)}}>
  <a className="brand" href="/fr" aria-label="Tiling.ca — accueil"><Logo header/></a>

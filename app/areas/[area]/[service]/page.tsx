@@ -7,7 +7,7 @@ import { withSocialMetadata } from "../../../seo";
 import { localSnippet, searchTitle } from "../../../search-snippets";
 import { AreaCoverage } from "../../../area-coverage";
 import { CommunityCoverage } from "../../../community-coverage";
-import { QuoteForm } from "../../../quote-form";
+import { LocalQuoteForm } from "../../../local-quote-form";
 import type { Metadata } from "next";
 import { notFound, permanentRedirect } from "next/navigation";
 import { areas, business, getArea, getService, services } from "../../../data";
@@ -44,7 +44,8 @@ export default async function LocalServicePage({ params, searchParams }: { param
   const service = getService(route.service);
   if (!area || !service) notFound();
 
-  const moved = localServiceRedirect(`/areas/${area.slug}/${service.slug}`, await searchParams);
+  const query = await searchParams;
+  const moved = localServiceRedirect(`/areas/${area.slug}/${service.slug}`, query);
   if (moved) permanentRedirect(moved);
 
   const url = `${business.domain}/areas/${area.slug}/${service.slug}`;
@@ -111,7 +112,7 @@ export default async function LocalServicePage({ params, searchParams }: { param
         </div>
       </section>
 
-      <section id="local-quote" className="quote-section"><div className="quote-copy"><p className="section-kicker">YOUR LOCAL PROJECT</p><h2>Let’s plan your {area.name} project.</h2><p>We’ll follow up about your {service.name.toLowerCase()} request. Add your village or community name if it differs from the municipality shown.</p><Link className="text-link" href={`/areas/${area.slug}`}>ALL {area.name} SERVICES →</Link></div><QuoteForm projectOptions defaultCity={area.name} serviceName={service.name}/></section>
+      <section id="local-quote" className="quote-section"><div className="quote-copy"><p className="section-kicker">YOUR LOCAL PROJECT</p><h2>Let’s plan your {area.name} project.</h2><p>We’ll follow up about your {service.name.toLowerCase()} request. Add your village or community name if it differs from the municipality shown.</p><Link className="text-link" href={`/areas/${area.slug}`}>ALL {area.name} SERVICES →</Link></div><LocalQuoteForm city={area.name} serviceSlug={service.slug} query={query}/></section>
 
       <LocalProjectBrief areaSlug={area.slug} service={service.slug}/>
       <PricingLinks area={area.slug} service={service.slug}/>

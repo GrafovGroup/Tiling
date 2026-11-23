@@ -34,6 +34,40 @@ test('all service pages publish distinct bilingual metadata and one correctly co
  }
 });
 
+test('floor choices keep the selected product, installation and city together in each language', async () => {
+ const selections = [
+  ['ceramic-tile','floor-tile-installation'], ['porcelain-tile','floor-tile-installation'], ['natural-stone-tile','floor-tile-installation'],
+  ['carpet-tile','carpet-tile-installation'], ['interlocking-floor-tile','interlocking-floor-tile-installation'], ['vinyl-tile','vinyl-tile-installation'],
+ ];
+ for (const prefix of ['', '/fr']) {
+  const path = prefix + '/services/floor-tile-installation';
+  const page = await html(path + '?area=toronto&material=granite-tile');
+  const choices = page.match(/<section[^>]*aria-labelledby="floor-materials"[\s\S]*?<\/section>/)?.[0];
+  assert.ok(choices);
+  assert.ok(page.indexOf(choices) < page.indexOf('class="service-detail section-pad"'));
+  assert.ok(page.includes(prefix ? 'Prix de pose de la céramique, de la porcelaine et de la pierre' : 'Ceramic, porcelain and stone installation costs'));
+  const links = [...choices.matchAll(/href="([^"]+)"/g)].map(match => new URL(decode(match[1]), 'https://tiling.ca'));
+  for (const [material, service] of selections) {
+   const product = links.find(link => link.pathname === prefix + '/materials/' + material);
+   assert.ok(product, material);
+   assert.equal(product.searchParams.get('service'), service);
+   assert.equal(product.searchParams.get('area'), 'toronto');
+   const productPage = await html(product.pathname + product.search);
+   assert.equal(formValue(productPage,'city'), 'Toronto');
+   if (service === 'floor-tile-installation') continue;
+   const installation = links.find(link => link.pathname === prefix + '/services/' + service);
+   assert.ok(installation, service);
+   assert.equal(installation.searchParams.get('material'), material);
+   assert.equal(installation.searchParams.get('area'), 'toronto');
+   const servicePage = await html(installation.pathname + installation.search);
+   for (const field of ['city','material','service']) {
+    assert.ok(formValue(productPage,field), field);
+    assert.equal(formValue(productPage,field), formValue(servicePage,field), field);
+   }
+  }
+ }
+});
+
 test('service enquiry buttons, inline forms and pricing guides retain the selected service in both languages',async()=>{
  for(const prefix of ['','/fr'])for(const guide of guides){
   const path=prefix+'/services/'+guide.slug,page=await html(path);

@@ -30,6 +30,8 @@ test('contact and quote pages have one concise, localized enquiry form and accur
   const forms=[...body.matchAll(/<form[\s\S]*?<\/form>/g)];assert.equal(forms.length,1);const form=forms[0][0];
   assert.ok(form.includes('action="https://formspree.io/f/xdeownaz"'));assert.ok(form.includes('name="language" value="'+(prefix?'fr-CA':'en-CA')+'"'));
   const fields=[...form.matchAll(/<(?:input|textarea)[^>]*>/g)].map(m=>m[0]);
+  assert.ok(fields.some(field=>field.includes('name="product_reference"')),path);
+  assert.ok(form.includes(prefix ? "Marque, modèle ou code du produit" : "Brand, style or product code"),path);
   assert.deepEqual(fields.filter(s=>/\brequired(?:=|\s|>)/.test(s)).map(s=>s.match(/name="([^"]+)"/)[1]),['name','email','city']);
   assert.ok(form.includes('type="file"'));assert.ok(form.includes('name="timing"'));assert.equal(formValue(form,'service'),'');assert.ok(!form.match(/name="(?:budget|consent)"/));
   assert.ok(body.includes('href="tel:+18335738453"'));assert.ok(body.includes('href="mailto:info@tiling.ca"'));
@@ -103,5 +105,64 @@ test('new tile products and installation services can be quoted together or sepa
 test('contact and quote sitemap dates match the bilingual update',async()=>{
  const xml=await html('/sitemap.xml');for(const prefix of ['','/fr'])for(const slug of ['contact','request-a-quote']){
   const entry=[...xml.matchAll(/<url>([\s\S]*?)<\/url>/g)].find(item=>item[1].includes('<loc>https://tiling.ca'+prefix+'/'+slug+'</loc>'))?.[1];assert.ok(entry?.includes('<lastmod>'+contentDates.pages[slug]+'</lastmod>'));
+ }
+});
+
+test('desktop, mobile menu, mobile bar and footer share validated project context in both languages', async () => {
+ const cases = [
+  ['/services/carpet-tile-installation?service=vinyl-tile-installation&material=carpet-tile&area=toronto', {area:'toronto',service:'carpet-tile-installation',material:'carpet-tile'}],
+  ['/materials/carpet-tile?area=toronto&service=carpet-tile-installation&material=vinyl-tile', {area:'toronto',service:'carpet-tile-installation',material:'carpet-tile'}],
+  ['/pricing/tile-installation-cost?service=carpet-tile-installation&area=oshawa&material=porcelain-tile', {area:'oshawa',service:'floor-tile-installation',material:'porcelain-tile'}],
+  ['/pricing/tile-installation-cost?service=commercial-tile', {service:'commercial-tile'}],
+  ['/contact?area=oshawa&service=carpet-tile-installation&material=carpet-tile&calc_area=240&calc_waste=10&calc_unit=m&tracking=omit', {area:'oshawa',service:'carpet-tile-installation',material:'carpet-tile',calc_area:'240',calc_waste:'10',calc_unit:'m'}],
+  ['/services/carpet-tile-installation?area=toronto&area=oshawa&material=nope&calc_waste=10&calc_area=12&calc_area=23&calc_unit=ft', {service:'carpet-tile-installation'}],
+  ['/materials/vinyl-tile?service=foo&service=kitchen-backsplash&area=missing', {service:'tile-supply-delivery',material:'vinyl-tile'}],
+  ['/areas/toronto?area=oshawa&service=carpet-tile-installation&material=carpet-tile', {area:'toronto', service:'carpet-tile-installation',material:'carpet-tile'}],
+  ['/request-a-quote?material=carpet-tile&calc_waste=7&calc_area=270&calc_unit=ft', {service:'tile-supply-delivery',material:'carpet-tile',calc_area:'270',calc_waste:'7',calc_unit:'ft'}],
+ ];
+ for (const prefix of ['', '/fr']) for (const [path,expected] of cases) {
+  const page = await html(prefix+path);
+  const links = [
+   page.match(/<a class="header-cta" href="([^"]+)"/)?.[1],
+   page.match(/<a class="footer-cta" href="([^"]+)"/)?.[1],
+   page.match(/<nav id="mobile-nav"[^>]*>[\s\S]*?href="([^"]*\/request-a-quote[^"]*)"/)?.[1],
+  ];
+  if (!path.startsWith('/request-a-quote')) links.push(page.match(/<nav class="mobile-enquiry-bar"[^>]*>[\s\S]*?href="([^"]*\/request-a-quote[^"]*)"/)?.[1]);
+  for (const href of links) {
+   assert.ok(href,path);
+   const url = new URL(decode(href),'https://tiling.ca');
+   assert.equal(url.pathname,prefix+'/request-a-quote',path);
+   assert.deepEqual(Object.fromEntries(url.searchParams),expected,path);
+  }
+  assert.ok(page.includes('rel="canonical" href="https://tiling.ca'+prefix+path.split('?')[0]+'"'),path);
+ }
+});
+
+test('the local mobile quote anchor keeps route identity, product and measurements in its form', async () => {
+ for(const prefix of ['','/fr']){
+  const path = prefix+'/areas/toronto/kitchen-backsplash?area=oshawa&service=vinyl-tile-installation&material=ceramic-tile&calc_area=80&calc_waste=10&calc_unit=ft';
+  const page = await html(path);
+  assert.match(page, /<nav class="mobile-enquiry-bar"[^>]*>[\s\S]*?href="#local-quote"/);
+  const form = page.split('id="local-quote"')[1]?.match(/<form[\s\S]*?<\/form>/)?.[0];
+  assert.ok(form,path);
+  assert.equal(formValue(form,'city'),'Toronto');
+  assert.equal(formValue(form,'service'),prefix?'Dosseret de cuisine':'Kitchen Backsplash');
+  assert.equal(formValue(form,'material'),prefix?'Carreaux de céramique':'Ceramic Tile');
+  assert.match(form, /80 (?:pi²|sq\. ft\.)/);
+  assert.match(form, /88 (?:pi²|sq\. ft\.)/);
+ }
+});
+
+test('React navigation transports the verified quote destination through hydration', async () => {
+ for (const prefix of ['', '/fr']) {
+  const path = prefix+'/services/carpet-tile-installation.rsc?area=toronto&material=carpet-tile';
+  const response = await worker.fetch(new Request('https://tiling.ca'+path, {
+   headers:{'x-tiling-quote-href':'https://outside.example/invalid'},
+  }), env, ctx);
+  assert.equal(response.status,200,path);
+  assert.match(response.headers.get('content-type'),/^text\/x-component/);
+  const payload = await response.text();
+  assert.ok(payload.includes('"href":"'+prefix+'/request-a-quote?area=toronto&service=carpet-tile-installation&material=carpet-tile","children":'),path);
+  assert.ok(!payload.includes('outside.example'),path);
  }
 });

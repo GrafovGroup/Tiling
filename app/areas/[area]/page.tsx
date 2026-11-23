@@ -1,7 +1,7 @@
 import { hasRegionDirectory } from "../../region-publication";
 import { ConsolidatedLocalServices, LocalServiceMenu } from "../../consolidated-local-services";
 import { hasLocalServiceSection, localServiceHref } from "../../local-service-publication";
-import { QuoteForm } from "../../quote-form";
+import { LocalQuoteForm } from "../../local-quote-form";
 import type { RouteQuery } from "../../legacy-redirects";
 import { LocalProjectBrief } from "../../local-project-brief";
 import { PricingLinks } from "../../pricing-content";
@@ -11,7 +11,7 @@ import { AreaCoverage } from "../../area-coverage";
 import { CommunityCoverage } from "../../community-coverage";
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { areas, business, getArea, getService, services } from "../../data";
+import { areas, business, getArea, services } from "../../data";
 import { Breadcrumbs, Footer, Header, Link, StructuredData } from "../../components";
 
 type Params = Promise<{ area: string }>;
@@ -42,7 +42,6 @@ export default async function AreaPage({ params, searchParams }: { params: Param
   if (!area) notFound();
 
   const query = await searchParams;
-  const selectedService = typeof query.service === "string" ? getService(query.service) : undefined;
   const hasConsolidatedServices = services.some(service => hasLocalServiceSection(area.slug, service.slug));
 
   const url = `${business.domain}/areas/${area.slug}`;
@@ -66,13 +65,13 @@ export default async function AreaPage({ params, searchParams }: { params: Param
         <p className="eyebrow">{area.region} · Tile services</p>
         <h1>Tile installation and supply in {area.name}</h1>
         <p>We install, repair and supply tile for homes and businesses in {area.name}. Work directly with Tiling.ca from the first assessment through preparation, installation and finishing.</p>
-        <Link className="button button-primary" href={`/request-a-quote?area=${area.slug}`}>Request a quote</Link>
+        <Link className="button button-primary" href="/request-a-quote">Request a quote</Link>
       </section>
 
 
 
       <LocalProjectBrief areaSlug={area.slug}/>
-      {hasConsolidatedServices && <section className="quote-section" id="local-quote"><div className="quote-copy"><p className="section-kicker">Your local project</p><h2>Let’s plan your {area.name} project.</h2><p>Send the room, approximate dimensions, access details and timing. We’ll confirm the scope and availability for your property.</p></div><QuoteForm projectOptions defaultCity={area.name} serviceName={selectedService?.name}/></section>}
+      {hasConsolidatedServices && <section className="quote-section" id="local-quote"><div className="quote-copy"><p className="section-kicker">Your local project</p><h2>Let’s plan your {area.name} project.</h2><p>Send the room, approximate dimensions, access details and timing. We’ll confirm the scope and availability for your property.</p></div><LocalQuoteForm city={area.name} query={query}/></section>}
       <section className="area-services section-pad">
         <div className="section-heading">
           <div><p className="section-kicker">{services.length} service categories</p><h2>Explore tile services in {area.name}.</h2></div>
@@ -108,7 +107,7 @@ export default async function AreaPage({ params, searchParams }: { params: Param
         <p className="section-kicker">Start a {area.name} project</p>
         <h2>Request installation, repair or tile supply.</h2>
         <p>Send the location, room, approximate size, material ideas and preferred timing. Tiling.ca will follow up about scope and current availability.</p>
-        <div><Link className="button button-primary" href={`/request-a-quote?area=${area.slug}`}>Request a quote</Link><Link className="text-link" href="/locations">See all service areas →</Link></div>
+        <div><Link className="button button-primary" href="/request-a-quote">Request a quote</Link><Link className="text-link" href="/locations">See all service areas →</Link></div>
       </section>
     </main>
     <Footer />

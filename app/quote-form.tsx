@@ -109,6 +109,11 @@ export function QuoteForm({ compact = false, defaultCity = "", serviceName = "",
           {materialOptions.map(name => <option key={name}>{name}</option>)}
         </select>
       </label>}
+      {(materialName || materialOptions?.length) ? <label className="full quote-project-option">
+        {fr ? "Marque, modèle ou code du produit" : "Brand, style or product code"}
+        <span className="optional-label">{fr ? "Facultatif" : "Optional"}</span>
+        <input type="text" name="product_reference" maxLength={160} />
+      </label> : null}
       <label className="full quote-project-option">{fr ? "Que souhaitez-vous obtenir?" : "What would you like quoted?"}<span className="optional-label">{fr ? "Facultatif" : "Optional"}</span>
         <select name="project_scope" defaultValue="">
           <option value="">{fr ? "À préciser" : "Not sure yet"}</option>

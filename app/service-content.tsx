@@ -2,6 +2,7 @@ import { hasLocalServicePage, hasLocalServiceSection, localServiceHref } from ".
 import { areas, business, getArea, getService, getMaterial, materials } from "./data";
 import { FAQ, Link, StructuredData } from "./components";
 import { CommercialExamples } from "./commercial-examples";
+import { FloorMaterialChoices } from "./floor-material-choices";
 import { QuoteForm } from "./quote-form";
 import { PricingLinks } from "./pricing-content";
 import { guidesForService, type Locale } from "./pricing-data";
@@ -22,6 +23,9 @@ export function ServiceLanding({ slug, locale = "en", areaSlug, materialSlug }: 
   const fr = locale === "fr", prefix = fr ? "/fr" : "";
   const copy = fr ? frenchServices.find(item => item.slug === slug)! : service;
   const pricing = guidesForService(slug)[0];
+  const pricingLabel = slug === "floor-tile-installation"
+    ? (fr ? "Prix de pose de la céramique, de la porcelaine et de la pierre →" : "Ceramic, porcelain and stone installation costs →")
+    : (fr ? "Consulter les repères de prix →" : "Explore pricing and cost factors →");
   const reviewed = getServiceReviewed(slug);
   const reviewDate = new Intl.DateTimeFormat(fr ? "fr-CA" : "en-CA", {
     dateStyle: "long", timeZone: "UTC",
@@ -43,13 +47,14 @@ export function ServiceLanding({ slug, locale = "en", areaSlug, materialSlug }: 
       <p className="eyebrow">{fr ? "TILING.CA · SERVICES DE CARRELAGE AU CANADA" : "TILING.CA · TILE SERVICES ACROSS CANADA"}</p>
       <h1>{copy.name}</h1><p>{copy.short}</p>{area && <p className="service-context">{fr ? "Votre projet : " : "Your project: "}<a href={hasLocalServicePage(area.slug,slug) || hasLocalServiceSection(area.slug,slug) ? localServiceHref(area.slug,slug,locale) : `${prefix}/areas/${area.slug}`}>{area.name} →</a></p>}
       {material && <p className="material-context">{fr ? "Matériau envisagé : " : "Material being considered: "}{materialName}</p>}
-      <div className="service-hero-actions"><Link className="button button-primary" href={quoteHref}>{fr ? "Demander une soumission" : "Request a quote"}</Link>{pricing && <a className="service-price-link" href={`${prefix}/pricing/${pricing.slug}?${quoteParams}`}>{fr ? "Consulter les repères de prix →" : "Explore pricing and cost factors →"}</a>}
+      <div className="service-hero-actions"><Link className="button button-primary" href={quoteHref}>{fr ? "Demander une soumission" : "Request a quote"}</Link>{pricing && <a className="service-price-link" href={`${prefix}/pricing/${pricing.slug}?${quoteParams}`}>{pricingLabel}</a>}
         {!pricing && selectedMaterials[0] && <a className="service-price-link" href={`${prefix}/materials/${selectedMaterials[0].slug}?service=${slug}${area ? "&area=" + area.slug : ""}`}>{fr ? "Voir les options de fourniture" : "View material supply options"}</a>}
       </div>
     </section>
     <nav className="guide-jump-links service-jump-links" aria-label={fr ? "Dans ce service" : "On this service page"}>
       {[["service-options", fr ? "Options" : "Project options"], ["service-planning", fr ? "Étapes" : "Preparation & process"], ...(pricing ? [["service-pricing", fr ? "Prix" : "Pricing"]] : []), [quoteId, fr ? "Votre soumission" : "Quote checklist"], ["service-faq", fr ? "Questions" : "FAQs"]].map(([id, label]) => <a href={`#${id}`} key={id}>{label}</a>)}
     </nav>
+    {slug === "floor-tile-installation" && <FloorMaterialChoices locale={locale} area={area?.slug}/>}
     <section className="service-detail section-pad">
       <figure className="service-photo"><img src={service.image} alt={fr ? copy.name : service.imageAlt} width="1536" height="1024" loading="lazy"/></figure>
       <div><p className="section-kicker">{fr ? "La portée des travaux" : "The project scope"}</p><h2>{fr ? "Un travail défini selon votre projet." : service.scopeHeading || "Plan the installation and materials together."}</h2><p>{copy.intro}</p>{!fr && <p>{service.scopeNote || "We assess the existing conditions, specify preparation and materials, and provide your quote. Our work includes the layout, installation, transitions and finishing details agreed for your project."}</p>}<ul className="check-list">{copy.features.map(item => <li key={item}>{item}</li>)}</ul></div>
