@@ -5,13 +5,15 @@ import assert from 'node:assert/strict';
 import {readFileSync} from 'node:fs';
 import worker from '../dist/server/index.js';
 const guides=JSON.parse(readFileSync(new URL('../app/service-guides.json',import.meta.url),'utf8'));
+const newServices = new Set(["carpet-tile-installation", "interlocking-floor-tile-installation", "interlocking-paver-installation", "vinyl-tile-installation"]);
 const env={ASSETS:{fetch:async()=>new Response('Not found',{status:404})}};
 async function html(path){const r=await finalResponse(p=>worker.fetch(new Request('https://tiling.ca'+p,{headers:{accept:'text/html','user-agent':'Googlebot'}}),env,{waitUntil(){},passThroughOnException(){}}),path);assert.equal(r.status,200,path);return r.text();}
 function schemas(page){return [...page.matchAll(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/g)].flatMap(m=>{const json=JSON.parse(m[1]);return json['@graph']||[json]});}
 const decode=text=>text.replaceAll('&amp;','&').replaceAll('&quot;','"').replaceAll('&#x27;',"'").replaceAll('&lt;','<').replaceAll('&gt;','>');
 
 test('all service pages publish distinct bilingual metadata and one correctly connected Service entity',async()=>{
- assert.equal(guides.length,15);assert.equal(new Set(guides.map(g=>g.slug)).size,15);
+ assert.equal(guides.length,19);assert.equal(new Set(guides.map(g=>g.slug)).size,guides.length);
+ for (const slug of newServices) assert.ok(guides.some(guide => guide.slug === slug));
  for(const prefix of ['','/fr']){
   const titles=new Set(),descriptions=new Set();
   for(const guide of guides){
@@ -28,7 +30,7 @@ test('all service pages publish distinct bilingual metadata and one correctly co
    assert.equal(json.find(item=>item['@type']==='WebPage').mainEntity['@id'],services[0]['@id']);
    assert.doesNotMatch(page,/"@type":"(?:Offer|AggregateOffer|AggregateRating)"/);
   }
-  assert.equal(titles.size,15);assert.equal(descriptions.size,15);
+  assert.equal(titles.size,guides.length);assert.equal(descriptions.size,guides.length);
  }
 });
 
@@ -42,9 +44,14 @@ test('service enquiry buttons, inline forms and pricing guides retain the select
   assert.ok(form.includes('name="language" value="'+(prefix?'fr-CA':'en-CA')+'"'));
   assert.ok(page.match(/<section class="inner-hero service-hero">[\s\S]*?<\/section>/)?.[0].includes(`href="${prefix}/request-a-quote?service=${guide.slug}"`),path);
   const priceLinks=[...page.matchAll(/class="pricing-card" href="([^"]+)"/g)].map(m=>m[1]);
-  assert.equal(priceLinks.length,1,path);assert.ok(priceLinks[0].endsWith('?service='+guide.slug));
-  const pricePage=await html(decode(priceLinks[0]));
-  assert.ok(pricePage.includes(`${prefix}/request-a-quote?service=${guide.slug}`));
+  if (newServices.has(guide.slug)) {
+   assert.equal(priceLinks.length,0,path);
+   assert.ok(!page.includes('href="#service-pricing"'),path);
+  } else {
+   assert.equal(priceLinks.length,1,path);assert.ok(priceLinks[0].endsWith('?service='+guide.slug));
+   const pricePage=await html(decode(priceLinks[0]));
+   assert.ok(pricePage.includes(`${prefix}/request-a-quote?service=${guide.slug}`));
+  }
   const quotePage=await html(`${prefix}/request-a-quote?service=${guide.slug}`);
   assert.ok(formValue(quotePage,'service'));
  }
@@ -75,6 +82,18 @@ test('related service and material links resolve in the same language without li
 
 test('local service pages link to the deeper national service guide while keeping local quote context',async()=>{
  for(const prefix of ['','/fr'])for(const guide of guides){
+  if (newServices.has(guide.slug)) {
+   const hub=await html(prefix+'/areas/toronto');
+   assert.ok(hub.includes(`href="${prefix}/services/${guide.slug}?area=toronto"`));
+   const legacyCityPath = `${prefix}/areas/toronto/${guide.slug}`;
+   const response = await worker.fetch(new Request('https://tiling.ca'+legacyCityPath+'?material='+guide.materials[0]), env, {waitUntil(){},passThroughOnException(){}});
+   assert.equal(response.status,308,legacyCityPath);
+   const destination = new URL(response.headers.get('location'), 'https://tiling.ca');
+   assert.equal(destination.pathname,`${prefix}/services/${guide.slug}`);
+   assert.equal(destination.searchParams.get('area'),'toronto');
+   assert.equal(destination.searchParams.get('material'),guide.materials[0]);
+   continue;
+  }
   const page=await html(`${prefix}/areas/toronto/${guide.slug}`);
   assert.ok(page.includes(`href="${prefix}/services/${guide.slug}?area=toronto${isMerged("toronto",guide.slug)?"":"#service-options"}"`));
   assert.equal((page.match(/id="local-quote"/g)||[]).length,1);
@@ -87,7 +106,8 @@ test('local service pages link to the deeper national service guide while keepin
 test('city context survives the detailed service guide while canonicals stay clean and unknown areas are ignored',async()=>{
  for(const prefix of ['','/fr'])for(const guide of guides){
   const path=prefix+'/services/'+guide.slug,page=await html(path+'?area=toronto');
-  assert.ok(page.includes(`href="${localHref("toronto",guide.slug,prefix)}"`));
+  const areaLink = newServices.has(guide.slug) ? prefix+'/areas/toronto' : localHref("toronto",guide.slug,prefix);
+  assert.ok(page.includes(`href="${areaLink}"`));
   assert.ok(page.includes(`href="${prefix}/request-a-quote?service=${guide.slug}&amp;area=toronto"`));
   assert.match(page,/name="city"[^>]*value="Toronto"/);
   assert.ok(page.includes(`rel="canonical" href="https://tiling.ca${path}"`));

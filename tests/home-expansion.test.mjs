@@ -13,8 +13,8 @@ test('both homepages connect all services, materials, pricing and local pages in
  for(const prefix of ['','/fr']){
   const page=await html(prefix||'/'),body=main(page);
   assert.equal((body.match(/<h1[ >]/g)||[]).length,1);
-  const serviceLinks=[...body.matchAll(/href="([^"?]*\/services\/[^"?]+)(?:\?[^\"]*)?"/g)].map(m=>m[1]);assert.equal(new Set(serviceLinks).size,15);
-  const materialLinks=[...body.matchAll(/href="([^"?]*\/materials\/[^"?]+)(?:\?[^\"]*)?"/g)].map(m=>m[1]);assert.equal(new Set(materialLinks).size,5);
+  const serviceLinks=[...body.matchAll(/href="([^"?]*\/services\/[^"?]+)(?:\?[^\"]*)?"/g)].map(m=>m[1]);assert.equal(new Set(serviceLinks).size,19);
+  const materialLinks=[...body.matchAll(/href="([^"?]*\/materials\/[^"?]+)(?:\?[^\"]*)?"/g)].map(m=>m[1]);assert.equal(new Set(materialLinks).size,9);
   for(const path of ['/services','/materials','/locations','/pricing'])assert.ok(body.includes('href="'+prefix+path+'"'),prefix+path);
   for(const path of ['/pricing/tile-installation-cost','/pricing/shower-tiling-cost','/pricing/backsplash-tiling-cost','/areas/toronto','/areas/montreal','/areas/vancouver','/locations/ontario'])assert.ok(body.includes('href="'+prefix+path+'"'),prefix+path);
   assert.equal((body.match(/<form /g)||[]).length,1);assert.ok(body.includes('action="https://formspree.io/f/xdeownaz"'));
@@ -43,7 +43,7 @@ test('homepage FAQs match visible answers and metadata identifies the bilingual 
   for(const field of ['og:title','twitter:title'])assert.ok(page.includes('="'+field+'"'));
   assert.ok(body.includes(prefix?'ni des tarifs ou soumissions de Tiling.ca':'not national averages or Tiling.ca rates or quotes'));
  }
- const xml=await html('/sitemap.xml');for(const prefix of ['','/fr'])assert.ok([...xml.matchAll(/<url>([\s\S]*?)<\/url>/g)].find(item=>item[1].includes('<loc>https://tiling.ca'+prefix+'</loc>'))?.[1].includes('<lastmod>2026-11-08</lastmod>'));
+ const xml=await html('/sitemap.xml');for(const prefix of ['','/fr'])assert.ok([...xml.matchAll(/<url>([\s\S]*?)<\/url>/g)].find(item=>item[1].includes('<loc>https://tiling.ca'+prefix+'</loc>'))?.[1].includes('<lastmod>2026-11-23</lastmod>'));
 });
 
 test('directory searches received from the homepage are localized, bounded and canonical',async()=>{

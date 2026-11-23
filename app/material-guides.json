@@ -1,6 +1,7 @@
 [
   {
     "slug": "marble-tile",
+    "careService": "tile-grout-stone-cleaning-sealing",
     "metaTitle": {
       "en": "Marble Tile: Finishes, Applications & Care",
       "fr": "Carreaux de marbre : finis, usages et entretien"
@@ -199,6 +200,7 @@
   },
   {
     "slug": "porcelain-tile",
+    "careService": "tile-grout-stone-cleaning-sealing",
     "metaTitle": {
       "en": "Porcelain Tile: Finishes, Uses & Selection Guide",
       "fr": "Carreaux de porcelaine : finis, usages et sélection"
@@ -397,6 +399,7 @@
   },
   {
     "slug": "ceramic-tile",
+    "careService": "tile-grout-stone-cleaning-sealing",
     "metaTitle": {
       "en": "Ceramic Tile: Wall Finishes, Floor Ratings & Care",
       "fr": "Carreaux de céramique : usages, finis et entretien"
@@ -595,6 +598,7 @@
   },
   {
     "slug": "natural-stone-tile",
+    "careService": "tile-grout-stone-cleaning-sealing",
     "metaTitle": {
       "en": "Natural Stone Tile: Limestone, Travertine & Slate",
       "fr": "Pierre naturelle : calcaire, travertin et ardoise"
@@ -793,6 +797,7 @@
   },
   {
     "slug": "granite-tile",
+    "careService": "tile-grout-stone-cleaning-sealing",
     "metaTitle": {
       "en": "Granite Tile: Finishes, Floor Uses & Care",
       "fr": "Carreaux de granit : finis, usages et entretien"
@@ -986,6 +991,696 @@
       {
         "name": "Natural Stone Institute — A Scientific Guide to Shopping for Natural Stone",
         "url": "https://usenaturalstone.org/scientific-guide-shopping-stone/"
+      }
+    ]
+  },
+  {
+    "slug": "carpet-tile",
+    "installationService": "carpet-tile-installation",
+    "reviewed": "2026-11-23",
+    "imageAlt": {
+      "en": "Modular carpet tiles laid across an interior floor",
+      "fr": "Plancher intérieur recouvert de dalles de moquette"
+    },
+    "metaTitle": {
+      "en": "Carpet Tile Supply & Installation",
+      "fr": "Dalles de moquette | Fourniture et pose"
+    },
+    "metaDescription": {
+      "en": "Order modular carpet tile for an office, corridor or finished room. Compare patterns, backing and replacement stock, then request supply or installation.",
+      "fr": "Commandez des dalles de moquette pour un bureau, un couloir ou une pièce aménagée. Comparez motifs et dossiers et demandez une soumission avec ou sans pose."
+    },
+    "category": {
+      "en": "Textile flooring",
+      "fr": "Revêtement textile"
+    },
+    "intro": {
+      "en": "A carpet tile has its own backing, so the pattern and pile direction of each piece help define the room. Set out a few samples beside the adjoining floor to see how the seams and colour will read in the light.",
+      "fr": "Chaque dalle possède son propre dossier. Le motif et le sens du velours influent sur l’apparence du plancher. Placez quelques échantillons près du revêtement voisin pour observer la couleur et les joints dans la lumière de la pièce."
+    },
+    "selectionHeading": {
+      "en": "Choose the layout and backing together.",
+      "fr": "Choisir ensemble la disposition et le dossier."
+    },
+    "choices": [
+      {
+        "title": {
+          "en": "Square or plank",
+          "fr": "Dalle carrée ou lame"
+        },
+        "text": {
+          "en": "Use a sample layout to compare a continuous pattern with alternating directions. Check which layouts the selected style allows.",
+          "fr": "Comparez un motif continu à des rangées alternées en disposant quelques échantillons. Vérifiez les orientations permises pour le modèle choisi."
+        }
+      },
+      {
+        "title": {
+          "en": "Backing and attachment",
+          "fr": "Dossier et fixation"
+        },
+        "text": {
+          "en": "The backing determines which adhesive or connector the installer can use. Identify the existing subfloor and any adhesive left by the previous covering.",
+          "fr": "Le dossier détermine le type d’adhésif ou de raccord à utiliser. Indiquez le type de sous-plancher et la présence de résidus de colle."
+        }
+      },
+      {
+        "title": {
+          "en": "Matching spares",
+          "fr": "Dalles de réserve"
+        },
+        "text": {
+          "en": "Order replacement pieces from the same dye lot when possible. Keep the product label so future repairs can be matched.",
+          "fr": "Prévoyez des dalles de réserve du même lot de teinture si possible. Conservez l’étiquette du produit pour les réparations futures."
+        }
+      }
+    ],
+    "applications": [
+      {
+        "title": {
+          "en": "Offices and meeting rooms",
+          "fr": "Bureaux et salles de réunion"
+        },
+        "text": {
+          "en": "Consider chair casters, desk locations and the junction with the corridor when selecting the pile and layout.",
+          "fr": "Tenez compte des roulettes de chaise, des postes de travail et du raccord avec le couloir lors du choix du velours et du motif."
+        },
+        "service": "carpet-tile-installation"
+      },
+      {
+        "title": {
+          "en": "Corridors and reception areas",
+          "fr": "Couloirs et réceptions"
+        },
+        "text": {
+          "en": "Pick a style rated for the expected traffic and allow for replacement tiles along frequently used paths.",
+          "fr": "Choisissez un modèle adapté à la fréquentation et prévoyez des dalles de réserve pour les passages les plus empruntés."
+        },
+        "service": "carpet-tile-installation"
+      }
+    ],
+    "care": {
+      "title": {
+        "en": "Routine vacuuming and spot treatment",
+        "fr": "Aspirateur et traitement des taches"
+      },
+      "text": {
+        "en": "Vacuum according to traffic. Blot spills promptly and use a spot cleaner approved for the fibre and backing. Keep spare tiles clean and dry.",
+        "fr": "Passez l’aspirateur selon la fréquentation. Épongez les liquides et utilisez un détachant compatible avec la fibre et le dossier. Conservez les dalles de réserve au sec."
+      }
+    },
+    "orderChecklist": [
+      {
+        "en": "Room dimensions and a sketch of doorways and fixed furniture",
+        "fr": "Dimensions des pièces et croquis des portes et des meubles fixes"
+      },
+      {
+        "en": "Preferred colour, pattern direction and sample or product code",
+        "fr": "Couleur, sens du motif et échantillon ou code du produit"
+      },
+      {
+        "en": "Existing floor, transition heights and spare tile quantity",
+        "fr": "Revêtement en place, hauteur des seuils et quantité de dalles de réserve"
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Can I purchase carpet tile without installation?",
+          "fr": "Puis-je acheter les dalles sans la pose?"
+        },
+        "a": {
+          "en": "Yes. Send the room dimensions, delivery location and preferred style. We confirm the product, box quantity and delivery details in the quote.",
+          "fr": "Oui. Envoyez les dimensions, le lieu de livraison et le modèle souhaité. La soumission précise le produit, le nombre de boîtes et la livraison."
+        }
+      },
+      {
+        "q": {
+          "en": "Can one damaged tile be replaced?",
+          "fr": "Peut-on remplacer une seule dalle endommagée?"
+        },
+        "a": {
+          "en": "Often, if the attachment system allows removal. A spare from the same lot helps match the colour, although surrounding carpet may show wear.",
+          "fr": "C’est souvent possible si le mode de fixation permet de la retirer. Une dalle du même lot facilite l’agencement des couleurs, mais les dalles voisines peuvent avoir pâli."
+        }
+      },
+      {
+        "q": {
+          "en": "Can we change the direction of each tile?",
+          "fr": "Peut-on alterner le sens des dalles?"
+        },
+        "a": {
+          "en": "Some styles support quarter-turn or staggered patterns. Check the backing arrows and the layout options for your selected product.",
+          "fr": "Certains modèles permettent un quart de tour ou une pose décalée. Vérifiez les flèches au dos et les motifs autorisés pour votre produit."
+        }
+      },
+      {
+        "q": {
+          "en": "What information helps you price installation?",
+          "fr": "Que faut-il fournir pour chiffrer la pose?"
+        },
+        "a": {
+          "en": "Include a floor plan or measurements, photos of the existing floor, the intended use and any hours when the room must stay open.",
+          "fr": "Joignez un plan ou les dimensions, des photos du plancher existant, l’usage prévu et les heures où la pièce doit rester accessible."
+        }
+      }
+    ],
+    "relatedServices": [
+      "carpet-tile-installation",
+      "tile-supply-delivery"
+    ],
+    "pricingServices": [],
+    "comparisons": [
+      {
+        "material": "vinyl-tile",
+        "text": {
+          "en": "Consider a smooth surface where frequent damp cleaning is part of the routine.",
+          "fr": "Envisagez une surface lisse lorsque l’entretien exige des nettoyages humides fréquents."
+        }
+      },
+      {
+        "material": "interlocking-floor-tile",
+        "text": {
+          "en": "Compare rubber and PVC modules for equipment areas with different load requirements.",
+          "fr": "Comparez les dalles de caoutchouc et de PVC si la pièce accueille des appareils lourds."
+        }
+      }
+    ],
+    "references": [
+      {
+        "name": "Interface — Carpet tile installation",
+        "url": "https://www.interface.com/CA/en-CA/carpet-tile/installation.html"
+      },
+      {
+        "name": "Interface — Carpet tile maintenance",
+        "url": "https://www.interface.com/CA/en-CA/carpet-tile/maintenance"
+      }
+    ]
+  },
+  {
+    "slug": "interlocking-floor-tile",
+    "installationService": "interlocking-floor-tile-installation",
+    "reviewed": "2026-11-23",
+    "imageAlt": {
+      "en": "Interlocking modular tiles covering an interior floor",
+      "fr": "Sol intérieur recouvert de dalles modulaires emboîtables"
+    },
+    "metaTitle": {
+      "en": "Interlocking Rubber & PVC Floor Tile | Supply and Installation",
+      "fr": "Dalles emboîtables en caoutchouc et PVC | Fourniture et pose"
+    },
+    "metaDescription": {
+      "en": "Select interlocking rubber or PVC tiles for a gym, garage or workshop. Request material supply, matching edge ramps and installation for your space.",
+      "fr": "Choisissez des dalles emboîtables en caoutchouc ou en PVC pour un gymnase, un garage ou un atelier. Demandez les dalles, les bordures et la pose."
+    },
+    "category": {
+      "en": "Modular flooring",
+      "fr": "Revêtement modulaire"
+    },
+    "intro": {
+      "en": "The edges of these tiles fit together across the floor. A home gym and a garage place different demands on the same joint, so start with the equipment, wheel traffic and temperature in the room.",
+      "fr": "Les bords de ces dalles s’emboîtent pour former le plancher. Les joints d’un gymnase et ceux d’un garage subissent des efforts différents. Précisez les appareils, le passage de roues et la température de la pièce."
+    },
+    "selectionHeading": {
+      "en": "Match the tile to what moves across it.",
+      "fr": "Choisir la dalle selon les charges et la circulation."
+    },
+    "choices": [
+      {
+        "title": {
+          "en": "Rubber or PVC",
+          "fr": "Caoutchouc ou PVC"
+        },
+        "text": {
+          "en": "Compare rubber surfaces intended for fitness use with PVC systems rated for work or garage traffic. Check the exact product against your equipment.",
+          "fr": "Comparez les surfaces de caoutchouc destinées à l’entraînement aux systèmes en PVC conçus pour un atelier ou un garage. Vérifiez la compatibilité avec vos appareils."
+        }
+      },
+      {
+        "title": {
+          "en": "Tile edges and ramps",
+          "fr": "Bords et rampes"
+        },
+        "text": {
+          "en": "Plan exposed sides, corners and door thresholds with the matching edge pieces. Tiles from different systems can have different joint profiles.",
+          "fr": "Prévoyez des bordures compatibles pour les côtés exposés, les angles et les seuils. Le profil des joints varie selon le système."
+        }
+      }
+    ],
+    "applications": [
+      {
+        "title": {
+          "en": "Home gyms and fitness rooms",
+          "fr": "Gymnases et salles d’entraînement"
+        },
+        "text": {
+          "en": "Describe the machines, free weights and activities planned so the tile can be selected for the impact and loading.",
+          "fr": "Précisez les appareils, les poids libres et les activités prévus pour choisir une dalle adaptée aux impacts et aux charges."
+        },
+        "service": "interlocking-floor-tile-installation"
+      },
+      {
+        "title": {
+          "en": "Garages and workshops",
+          "fr": "Garages et ateliers"
+        },
+        "text": {
+          "en": "Identify vehicles, tool carts, sunlight at the door and exposure to fluids. Each affects which flooring system suits the room.",
+          "fr": "Indiquez les véhicules, les chariots, l’ensoleillement au seuil et les liquides présents. Ces facteurs orientent le choix du revêtement."
+        },
+        "service": "interlocking-floor-tile-installation"
+      }
+    ],
+    "care": {
+      "title": {
+        "en": "Keep joints and entry ramps clear.",
+        "fr": "Garder les joints et les rampes dégagés."
+      },
+      "text": {
+        "en": "Remove grit and inspect exposed edges. Use a cleaner approved for the rubber or PVC product. Check the care sheet before using a powered scrubber or solvent.",
+        "fr": "Retirez les gravillons et inspectez les bordures exposées. Utilisez un nettoyant convenant au caoutchouc ou au PVC choisi. Consultez la fiche d’entretien avant d’utiliser une autolaveuse ou un solvant."
+      }
+    },
+    "orderChecklist": [
+      {
+        "en": "Dimensions, exposed edges and the length of open thresholds",
+        "fr": "Dimensions, bordures exposées et longueur des seuils ouverts"
+      },
+      {
+        "en": "Equipment weights, vehicle use and floor condition",
+        "fr": "Poids des appareils, passage de véhicules et état du plancher"
+      },
+      {
+        "en": "Colour, tile thickness and matching edge profiles",
+        "fr": "Couleur, épaisseur des dalles et profilés de bordure compatibles"
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Do you supply interlocking tiles for self-installation?",
+          "fr": "Offrez-vous des dalles pour que je les pose moi-même?"
+        },
+        "a": {
+          "en": "Yes. We can quote tile quantities and matching edge pieces once we know the room dimensions, surface and intended use.",
+          "fr": "Oui. Nous pouvons chiffrer les dalles et les bordures après avoir reçu les dimensions de la pièce, le type de surface et l’usage prévu."
+        }
+      },
+      {
+        "q": {
+          "en": "Can interlocking floor tiles go over concrete?",
+          "fr": "Peut-on poser les dalles sur du béton?"
+        },
+        "a": {
+          "en": "Many systems allow it. We check the slab condition, moisture, flatness and product requirements before confirming the scope.",
+          "fr": "De nombreux systèmes le permettent. Nous vérifions l’état de la dalle, l’humidité, la planéité et les exigences du produit avant de définir les travaux."
+        }
+      },
+      {
+        "q": {
+          "en": "Does an interlocking tile need adhesive?",
+          "fr": "Une dalle emboîtable exige-t-elle de la colle?"
+        },
+        "a": {
+          "en": "Some systems allow loose laying. Traffic, heat or turning loads can require adhesive in parts of the room. The selected installation instructions determine the method.",
+          "fr": "Certains systèmes permettent une pose libre. Le trafic, la chaleur ou les roues qui pivotent peuvent exiger un collage par endroits. La notice du produit dicte la méthode."
+        }
+      },
+      {
+        "q": {
+          "en": "What should I order for an exposed edge?",
+          "fr": "Que dois-je commander pour une bordure apparente?"
+        },
+        "a": {
+          "en": "Measure the open edge and note any changes in level. We check compatible ramp and corner pieces for the exact tile profile.",
+          "fr": "Mesurez le côté exposé et indiquez les différences de niveau. Nous vérifions les rampes et les coins compatibles avec le profil de la dalle."
+        }
+      }
+    ],
+    "relatedServices": [
+      "interlocking-floor-tile-installation",
+      "tile-supply-delivery"
+    ],
+    "pricingServices": [],
+    "comparisons": [
+      {
+        "material": "vinyl-tile",
+        "text": {
+          "en": "Vinyl tile offers stone- or wood-look finishes for indoor rooms where the product suits the traffic.",
+          "fr": "Le vinyle offre des finis imitation pierre ou bois pour les pièces où le produit convient à la circulation."
+        }
+      },
+      {
+        "material": "interlocking-pavers",
+        "text": {
+          "en": "For an outdoor walkway or driveway on grade, explore concrete paving units and their supporting base.",
+          "fr": "Pour un trottoir ou une entrée au niveau du sol, examinez les pavés de béton et leur fondation."
+        }
+      }
+    ],
+    "references": [
+      {
+        "name": "Ecotile — Interlocking flooring installation",
+        "url": "https://www.ecotileflooring.com/support/installation/"
+      },
+      {
+        "name": "Ecore — Rubber fitness flooring formats",
+        "url": "https://ecoreathletic.com/products/rubber/fit-collection"
+      }
+    ]
+  },
+  {
+    "slug": "interlocking-pavers",
+    "installationService": "interlocking-paver-installation",
+    "reviewed": "2026-11-23",
+    "imageAlt": {
+      "en": "An outdoor surface laid with interlocking concrete pavers",
+      "fr": "Aménagement extérieur en pavés de béton autobloquants"
+    },
+    "metaTitle": {
+      "en": "Interlocking Concrete Pavers | Supply & Installation",
+      "fr": "Pavés de béton autobloquants | Fourniture et pose"
+    },
+    "metaDescription": {
+      "en": "Select interlocking pavers for a patio, walkway or driveway. Compare shapes, borders and traffic ratings, then request paver supply or installation.",
+      "fr": "Choisissez des pavés autobloquants pour une terrasse, une allée ou une entrée de garage. Demandez une soumission pour la fourniture ou la pose."
+    },
+    "category": {
+      "en": "Exterior paving",
+      "fr": "Pavage extérieur"
+    },
+    "intro": {
+      "en": "The paver, border, joints and base work together. Tell us where rainwater goes and whether the surface will carry people, cars or heavier vehicles so we can scope the material and groundwork.",
+      "fr": "Les pavés, les bordures, les joints et la fondation forment un ensemble. Indiquez où s’écoule l’eau et si le pavage accueillera des piétons, des voitures ou des véhicules plus lourds pour définir les matériaux et les travaux préparatoires."
+    },
+    "selectionHeading": {
+      "en": "Choose the paver for the site and the load.",
+      "fr": "Choisir le pavé selon le terrain et les charges."
+    },
+    "choices": [
+      {
+        "title": {
+          "en": "Traffic and unit size",
+          "fr": "Circulation et dimensions"
+        },
+        "text": {
+          "en": "Select a paver format and thickness approved for the planned traffic. Bring a sample to the site to review colour and texture outdoors.",
+          "fr": "Choisissez un format et une épaisseur adaptés à la circulation prévue. Examinez un échantillon sur place pour juger de la couleur et de la texture à la lumière du jour."
+        }
+      },
+      {
+        "title": {
+          "en": "Pattern and edging",
+          "fr": "Motif et bordures"
+        },
+        "text": {
+          "en": "Plan turns, borders and cut pieces before ordering. The edge restraint helps keep the pattern in position under use.",
+          "fr": "Prévoyez les virages, les bordures et les coupes avant de commander. Les bordures de retenue maintiennent les pavés en place."
+        }
+      }
+    ],
+    "applications": [
+      {
+        "title": {
+          "en": "Ground-level patios and paths",
+          "fr": "Terrasses et allées au sol"
+        },
+        "text": {
+          "en": "Check door thresholds, transitions to lawn and how water drains around the seating or walking area.",
+          "fr": "Vérifiez les seuils, le raccord avec la pelouse et l’écoulement de l’eau autour de la terrasse ou de l’allée."
+        },
+        "service": "interlocking-paver-installation"
+      },
+      {
+        "title": {
+          "en": "Residential driveways",
+          "fr": "Entrées de garage résidentielles"
+        },
+        "text": {
+          "en": "Provide driveway dimensions, vehicle types and the location of turning or braking areas. The base and pavers need to suit those loads.",
+          "fr": "Indiquez les dimensions de l’entrée, le type de véhicules et les zones de virage ou de freinage. La fondation et les pavés doivent convenir à ces charges."
+        },
+        "service": "interlocking-paver-installation"
+      }
+    ],
+    "care": {
+      "title": {
+        "en": "Check joint fill and edging after winter.",
+        "fr": "Vérifier les joints et les bordures après l’hiver."
+      },
+      "text": {
+        "en": "Sweep loose grit and check for low spots, loose edging or missing joint material. Confirm that cleaners, de-icers and any joint refill suit the selected paver and joint system.",
+        "fr": "Balayez les gravillons et vérifiez les affaissements, les bordures mobiles et les joints dégarnis. Choisissez les nettoyants, les déglaçants et les matériaux de jointoiement selon le pavé et le système en place."
+      }
+    },
+    "orderChecklist": [
+      {
+        "en": "Paved area, border length, steps and threshold elevations",
+        "fr": "Surface à paver, longueur des bordures, marches et hauteur des seuils"
+      },
+      {
+        "en": "Foot or vehicle traffic, drainage and existing base condition",
+        "fr": "Circulation piétonne ou automobile, drainage et état de la fondation"
+      },
+      {
+        "en": "Paver style, pattern and access for pallet delivery",
+        "fr": "Modèle de pavé, motif de pose et accès pour la livraison des palettes"
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Can I order pavers for a patio without labour?",
+          "fr": "Puis-je commander les pavés d’une terrasse sans la pose?"
+        },
+        "a": {
+          "en": "Yes. Send the dimensions, border layout, delivery access and desired style so we can confirm quantities and availability.",
+          "fr": "Oui. Envoyez les dimensions, le plan des bordures, l’accès pour la livraison et le modèle choisi pour vérifier les quantités et la disponibilité."
+        }
+      },
+      {
+        "q": {
+          "en": "Can the same paver go on a path and driveway?",
+          "fr": "Le même pavé convient-il à une allée piétonne et à une entrée de garage?"
+        },
+        "a": {
+          "en": "It depends on the unit and the support below it. Confirm that the specific format is suitable for vehicles before using it on a driveway.",
+          "fr": "Cela dépend du pavé et de la fondation. Vérifiez que le format précis convient au passage de véhicules avant de le poser dans une entrée."
+        }
+      },
+      {
+        "q": {
+          "en": "Can an existing base be reused?",
+          "fr": "Peut-on conserver la fondation existante?"
+        },
+        "a": {
+          "en": "We assess its condition, depth, drainage and intended load. The quote identifies any excavation, removal and new base work needed.",
+          "fr": "Nous évaluons son état, sa profondeur, son drainage et les charges prévues. La soumission précise l’excavation, l’enlèvement et la préparation nécessaires."
+        }
+      },
+      {
+        "q": {
+          "en": "Are all interlocking pavers permeable?",
+          "fr": "Tous les pavages autobloquants sont-ils perméables?"
+        },
+        "a": {
+          "en": "Permeable paving needs compatible pavers, joints, base and drainage design. Tell us if managing runoff is a project requirement.",
+          "fr": "Un pavage perméable exige des pavés, des joints, une fondation et un drainage compatibles. Précisez si la gestion des eaux pluviales fait partie du projet."
+        }
+      }
+    ],
+    "relatedServices": [
+      "interlocking-paver-installation",
+      "tile-supply-delivery"
+    ],
+    "pricingServices": [],
+    "comparisons": [
+      {
+        "material": "porcelain-tile",
+        "text": {
+          "en": "Consider exterior-rated porcelain when the project calls for tile on a suitable terrace assembly.",
+          "fr": "Envisagez la porcelaine pour l’extérieur si vous souhaitez carreler une terrasse dont le support s’y prête."
+        }
+      },
+      {
+        "material": "interlocking-floor-tile",
+        "text": {
+          "en": "Explore rubber or PVC floor modules when you are choosing the surface inside a garage or workshop.",
+          "fr": "Examinez les dalles de caoutchouc ou de PVC pour le sol intérieur d’un garage ou d’un atelier."
+        }
+      }
+    ],
+    "references": [
+      {
+        "name": "Concrete Masonry & Hardscapes Association — Building your interlocking concrete pavement",
+        "url": "https://www.cmha.org/wp-content/uploads/2024/01/Free_Guide-Building-Your-Interlocking-Concrete-Pavement-to-Last-a-Lifetime.pdf"
+      }
+    ]
+  },
+  {
+    "slug": "vinyl-tile",
+    "installationService": "vinyl-tile-installation",
+    "reviewed": "2026-11-23",
+    "imageAlt": {
+      "en": "An interior floor finished with luxury vinyl tile",
+      "fr": "Plancher intérieur en carreaux de vinyle de luxe"
+    },
+    "metaTitle": {
+      "en": "Luxury Vinyl Tile (LVT) | Supply & Installation",
+      "fr": "Carreaux de vinyle de luxe (LVT) | Fourniture et pose"
+    },
+    "metaDescription": {
+      "en": "Compare glue-down and click luxury vinyl tile for indoor floors. Request LVT supply or installation with subfloor preparation and threshold transitions.",
+      "fr": "Comparez les carreaux de vinyle de luxe à coller ou à encliqueter. Demandez la fourniture du LVT ou une pose avec préparation du support et finition des seuils."
+    },
+    "category": {
+      "en": "Resilient flooring",
+      "fr": "Revêtement résilient"
+    },
+    "intro": {
+      "en": "Vinyl tile combines a printed design with a protective wear surface. Compare the finish in the room and check the product’s traffic rating and installation method before choosing a colour or quantity.",
+      "fr": "Le carreau de vinyle combine un motif imprimé et une couche d’usure. Examinez le fini dans la pièce et vérifiez le niveau de circulation admis ainsi que le mode de pose avant de choisir la couleur et la quantité."
+    },
+    "selectionHeading": {
+      "en": "Choose the installation method before the finish.",
+      "fr": "Choisir le mode de pose avant le fini."
+    },
+    "choices": [
+      {
+        "title": {
+          "en": "Glue-down or click",
+          "fr": "À coller ou à encliqueter"
+        },
+        "text": {
+          "en": "Glued tiles bond to a prepared surface. Click products connect at the edges and have their own details for perimeters and doorways. Floor height can help narrow the choice.",
+          "fr": "Les carreaux collés adhèrent à un support préparé. Les carreaux à encliqueter s’assemblent par leurs bords et demandent une finition précise aux murs et aux portes. La hauteur disponible oriente le choix."
+        }
+      },
+      {
+        "title": {
+          "en": "Wear surface and pattern",
+          "fr": "Couche d’usure et motif"
+        },
+        "text": {
+          "en": "Match the use rating to the room and review several tiles to see pattern repeats. Consider how the finished height meets nearby carpet or ceramic.",
+          "fr": "Vérifiez le classement d’usage et disposez plusieurs carreaux pour observer la répétition du motif. Prévoyez le raccord de hauteur avec la moquette ou la céramique voisine."
+        }
+      }
+    ],
+    "applications": [
+      {
+        "title": {
+          "en": "Residential kitchens and living areas",
+          "fr": "Cuisines et espaces de vie"
+        },
+        "text": {
+          "en": "Check the existing floor, clearance at appliances and transitions to adjoining rooms before ordering.",
+          "fr": "Vérifiez le plancher actuel, les dégagements près des appareils et les raccords avec les pièces voisines avant la commande."
+        },
+        "service": "vinyl-tile-installation"
+      },
+      {
+        "title": {
+          "en": "Offices and retail floors",
+          "fr": "Bureaux et commerces"
+        },
+        "text": {
+          "en": "Review foot traffic, rolling chairs and scheduled cleaning. Specify a commercial-rated product for those conditions.",
+          "fr": "Évaluez le passage, les sièges à roulettes et l’entretien prévu. Choisissez un produit de catégorie commerciale adapté à ces conditions."
+        },
+        "service": "vinyl-tile-installation"
+      }
+    ],
+    "care": {
+      "title": {
+        "en": "Protect the wear surface.",
+        "fr": "Protéger la couche d’usure."
+      },
+      "text": {
+        "en": "Remove grit regularly. Use a damp mop and cleaner approved for the chosen finish. Check the product instructions before using a polish or cleaning machine.",
+        "fr": "Enlevez régulièrement les saletés abrasives. Utilisez une vadrouille humide et un nettoyant adapté au fini. Consultez la notice avant d’appliquer un produit lustrant ou d’utiliser un appareil de nettoyage."
+      }
+    },
+    "orderChecklist": [
+      {
+        "en": "Room area, layout direction and selected tile code",
+        "fr": "Superficie, sens de pose et code du carreau choisi"
+      },
+      {
+        "en": "Subfloor type, moisture concerns and existing covering",
+        "fr": "Type de sous-plancher, humidité observée et revêtement en place"
+      },
+      {
+        "en": "Door clearances, trim pieces and extra tiles for future repairs",
+        "fr": "Dégagements des portes, profilés et carreaux de réserve"
+      }
+    ],
+    "faq": [
+      {
+        "q": {
+          "en": "Can I buy vinyl tile without installation?",
+          "fr": "Puis-je acheter le vinyle sans la pose?"
+        },
+        "a": {
+          "en": "Yes. Send a product code or preferred format, measured area and delivery location for a material quote.",
+          "fr": "Oui. Indiquez le code ou le format souhaité, la superficie et le lieu de livraison pour obtenir un prix."
+        }
+      },
+      {
+        "q": {
+          "en": "Can luxury vinyl tile cover an existing floor?",
+          "fr": "Le vinyle de luxe peut-il recouvrir un plancher existant?"
+        },
+        "a": {
+          "en": "A suitable existing surface may be retained if the product allows it. We check soundness, flatness, moisture and door clearances before recommending an overlay.",
+          "fr": "On peut conserver un revêtement approprié si le produit le permet. Nous vérifions la solidité, la planéité, l’humidité et le dégagement des portes."
+        }
+      },
+      {
+        "q": {
+          "en": "How do I choose between glued and click tile?",
+          "fr": "Comment choisir entre le vinyle collé et celui à encliqueter?"
+        },
+        "a": {
+          "en": "Compare the subfloor condition, floor height, room layout and loading with the product requirements. We can quote the preparation and installation for the selected method.",
+          "fr": "Comparez l’état du support, la hauteur, la configuration et les charges avec les exigences du produit. Nous chiffrons la préparation et la pose selon la méthode retenue."
+        }
+      },
+      {
+        "q": {
+          "en": "Can LVT be used in a bathroom?",
+          "fr": "Peut-on poser du LVT dans une salle de bain?"
+        },
+        "a": {
+          "en": "Check that the product and edge details suit the bathroom floor. A shower requires its own approved wet-area assembly.",
+          "fr": "Vérifiez que le produit et la finition des bords conviennent au plancher de la salle de bain. Une douche exige un assemblage distinct conçu pour les zones mouillées."
+        }
+      }
+    ],
+    "relatedServices": [
+      "vinyl-tile-installation",
+      "tile-supply-delivery"
+    ],
+    "pricingServices": [],
+    "comparisons": [
+      {
+        "material": "carpet-tile",
+        "text": {
+          "en": "Compare a textile surface for meeting rooms or office areas where softer flooring is preferred.",
+          "fr": "Comparez la surface textile des dalles de moquette pour les bureaux ou les salles de réunion."
+        }
+      },
+      {
+        "material": "porcelain-tile",
+        "text": {
+          "en": "Explore porcelain for a hard mineral finish and applications that call for a bonded tile assembly.",
+          "fr": "Explorez la porcelaine pour un fini minéral dur et les projets qui exigent un carrelage posé au mortier."
+        }
+      }
+    ],
+    "references": [
+      {
+        "name": "Karndean — Luxury vinyl tile installation guides",
+        "url": "https://www.karndean.com/en-ca/floors/services/installation-guides/"
       }
     ]
   }

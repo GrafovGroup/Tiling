@@ -2,7 +2,7 @@ import { areas, getArea, getService, materials, services } from "./data";
 import { pricingGuides } from "./pricing-data";
 import { ontarioRegions } from "./ontario-data";
 import { mergedRegionArea, regionHref } from "./region-publication";
-import { hasLocalServicePage } from "./local-service-publication";
+import { hasLocalServicePage, hasLocalServiceSection } from "./local-service-publication";
 
 export const legacyRoutes: Record<string, string> = {
   "/areas": "/locations",
@@ -33,6 +33,10 @@ export function localServiceRedirect(path: string, query: RouteQuery = {}): stri
   const search = new URLSearchParams();
   for (const [key, values] of Object.entries(query)) {
     for (const value of Array.isArray(values) ? values : values === undefined ? [] : [values]) search.append(key, value);
+  }
+  if (!hasLocalServiceSection(area, service)) {
+    search.set("area", area);
+    return `${prefix}/services/${service}?${search}`;
   }
   // The original service remains selected in the hub form. Marketing/material
   // context survives, while canonical and language links remain query-free.

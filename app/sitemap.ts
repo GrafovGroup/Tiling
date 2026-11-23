@@ -1,3 +1,5 @@
+import { getServiceReviewed } from "./service-guide-data";
+import { getMaterialGuide, materialReviewed } from "./material-guide-data";
 import { hasRegionDirectory } from "./region-publication";
 import { hasLocalServicePage } from "./local-service-publication";
 import { pricingGuides, pricingReviewed } from "./pricing-data";
@@ -23,14 +25,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
     {url:`${business.domain}/terms`,lastModified:dates.pages["terms"],changeFrequency:"yearly",priority:.3},
     {url:`${business.domain}/locations/ontario`,lastModified:dates.pages["locations/ontario"],changeFrequency:"monthly",priority:.8},
     ...ontarioRegions.filter(region=>hasRegionDirectory(region.slug)).map(region=>({url:`${business.domain}/locations/ontario/${region.slug}`,lastModified:dates.regions,changeFrequency:"monthly" as const,priority:.7})),
-    ...services.map(service=>({url:`${business.domain}/services/${service.slug}`,lastModified:dates.services,changeFrequency:"monthly" as const,priority:.8})),
-    ...materials.map(material=>({url:`${business.domain}/materials/${material.slug}`,lastModified:dates.materials,changeFrequency:"monthly" as const,priority:.8})),
+    ...services.map(service=>({url:`${business.domain}/services/${service.slug}`,lastModified:getServiceReviewed(service.slug),changeFrequency:"monthly" as const,priority:.8})),
+    ...materials.map(material=>({url:`${business.domain}/materials/${material.slug}`,lastModified:getMaterialGuide(material.slug)?.reviewed ?? materialReviewed,changeFrequency:"monthly" as const,priority:.8})),
     ...areas.map(area=>({url:`${business.domain}/areas/${area.slug}`,lastModified:dates.areas,changeFrequency:"monthly" as const,priority:.8})),
     ...areas.flatMap(area=>services.filter(service=>hasLocalServicePage(area.slug,service.slug)).map(service=>({url:`${business.domain}/areas/${area.slug}/${service.slug}`,lastModified:dates.localServices,changeFrequency:"monthly" as const,priority:.7}))),
   ];
   return english.flatMap(entry => {
     const frenchUrl = `${business.domain}/fr${entry.url.slice(business.domain.length)}`;
     const alternates = { languages: { "en-CA": entry.url, "fr-CA": frenchUrl, "x-default": entry.url } };
-    return [{ ...entry, alternates }, { ...entry, url: frenchUrl, lastModified: entry.url === business.domain || entry.url.endsWith("/locations/ontario") || entry.url.endsWith("/about") || entry.url.endsWith("/how-it-works") || entry.url.endsWith("/privacy") || entry.url.endsWith("/contact") || entry.url.endsWith("/request-a-quote") || entry.url.includes("/materials") ? entry.lastModified : entry.url.includes("/pricing") || entry.url.includes("/areas/") || entry.url.includes("/services/") ? pricingReviewed : "2026-10-25", alternates }];
+    return [{ ...entry, alternates }, { ...entry, url: frenchUrl, lastModified: entry.url === business.domain || entry.url.endsWith("/locations/ontario") || entry.url.endsWith("/about") || entry.url.endsWith("/how-it-works") || entry.url.endsWith("/privacy") || entry.url.endsWith("/contact") || entry.url.endsWith("/request-a-quote") || entry.url.includes("/materials") || entry.url.includes("/services") ? entry.lastModified : entry.url.includes("/pricing") || entry.url.includes("/areas/") ? pricingReviewed : "2026-10-25", alternates }];
   });
 }

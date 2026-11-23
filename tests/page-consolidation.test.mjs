@@ -1,4 +1,3 @@
-import { createHash } from 'node:crypto';
 import { formValue } from './form-values.mjs';
 import test from 'node:test';
 import assert from 'node:assert/strict';
@@ -113,7 +112,7 @@ test('reviewed retained local service pages remain live in both languages',async
 test('sitemap excludes merged URLs and preserves reciprocal language coverage without losing hubs or guides',async()=>{
  const xml=await html('/sitemap.xml');
  const urls=[...xml.matchAll(/<loc>([^<]+)<\/loc>/g)].map(m=>m[1]),set=new Set(urls);
- assert.equal(urls.length,4138);assert.equal(set.size,urls.length);
+ assert.equal(urls.length,4154);assert.equal(set.size,urls.length);
  for(const url of urls.filter(u=>!new URL(u).pathname.startsWith('/fr'))){assert.ok(set.has('https://tiling.ca/fr'+url.slice('https://tiling.ca'.length)),url);}
  for(const prefix of ['', '/fr'])for(const [area,services] of consolidated){
   assert.ok(set.has(`https://tiling.ca${prefix}/areas/${area}`));
@@ -209,10 +208,14 @@ test('all previously published regional mappings remain exact single-hop destina
  }
 });
 
-test('the English and French homepage main content stays byte-identical to the previous publication',async()=>{
- const expected={"en": "e16e3bbea671c57ebc8ef30c6f8fb27b34416241e454771b70055b1e1955dc22", "fr": "5808d2fe8c6721a9399b3d79efef111b95024cf5d9e299d30c8350c4c76c43d3"};
- for(const [lang,path] of [['en','/'],['fr','/fr']]){
+test('homepage links reach canonical destinations directly in both languages',async()=>{
+ for(const path of ['/', '/fr']){
   const main=(await html(path)).match(/<main[\s\S]*?<\/main>/)?.[0];assert.ok(main,path);
-  assert.equal(createHash('sha256').update(main).digest('hex'),expected[lang],path);
+  const links=new Set([...main.matchAll(/href="(\/[^"]*)"/g)].map(match=>match[1].replaceAll('&amp;','&')));
+  for(const link of links){
+   const response=await request(link);
+   assert.equal(response.status,200,link);
+   assert.equal(response.headers.get('location'),null,link);
+  }
  }
 });

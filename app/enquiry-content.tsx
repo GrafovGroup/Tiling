@@ -1,10 +1,11 @@
-import { business } from "./data";
+import { business, materials } from "./data";
+import contentDates from "./content-dates.json";
 import { frenchMaterials, frenchServices } from "./fr/content";
 import { FAQ, Link, StructuredData } from "./components";
 import { planningContext } from "./planning-calculations";
 import { QuoteForm } from "./quote-form";
 import { guidesForService, type Locale } from "./pricing-data";
-import { enquiryContext, enquiryFaq, enquiryGuidance, enquiryMeta, enquiryReviewed, type EnquiryPage, type EnquiryQuery } from "./enquiry-data";
+import { enquiryContext, enquiryFaq, enquiryGuidance, enquiryMeta, type EnquiryPage, type EnquiryQuery } from "./enquiry-data";
 
 export function EnquiryContent({ page, locale = "en", query = {} }: { page: EnquiryPage; locale?: Locale; query?: EnquiryQuery }) {
   const fr = locale === "fr", prefix = fr ? "/fr" : "", contact = page === "contact";
@@ -16,7 +17,7 @@ export function EnquiryContent({ page, locale = "en", query = {} }: { page: Enqu
   const resources = [
     { href: service ? `/services/${service.slug}${suffix}` : "/services", label: serviceName || (fr ? "Comparer les services" : "Compare services") },
     ...(material ? [{ href: `/materials/${material.slug}${suffix}`, label: materialName! }] : []),
-    { href: guide ? `/pricing/${guide.slug}${suffix}` : "/pricing", label: fr ? "Consulter les repères de prix" : "Explore pricing guides" },
+    ...(!service || guide ? [{ href: guide ? `/pricing/${guide.slug}${suffix}` : "/pricing", label: fr ? "Consulter les repères de prix" : "Explore pricing guides" }] : []),
     { href: area ? `/areas/${area.slug}` : "/locations", label: area ? (fr ? `Votre projet à ${area.name}` : `Planning in ${area.name}`) : (fr ? "Trouver votre région" : "Find your local page") },
   ];
   return <div className={`enquiry-content ${contact ? "enquiry-contact" : "enquiry-quote"}`}>
@@ -34,7 +35,7 @@ export function EnquiryContent({ page, locale = "en", query = {} }: { page: Enqu
     <section className="enquiry-layout" aria-label={fr ? "Votre demande de projet" : "Your project enquiry"}>
       <div className="enquiry-form-panel" id="project-enquiry-form" tabIndex={-1}>
         {contact && <h2>{fr ? "Les premiers détails de votre projet." : "Start with your project details."}</h2>}
-        <QuoteForm projectOptions initialDetails={planningContext(query, locale)?.summary} locale={locale} defaultCity={area?.name} serviceName={serviceName} materialName={materialName} guidance={enquiryGuidance(locale, service?.slug)}/>
+        <QuoteForm projectOptions initialDetails={planningContext(query, locale)?.summary} locale={locale} defaultCity={area?.name} serviceName={serviceName} materialName={materialName} materialOptions={materialName ? undefined : (fr ? frenchMaterials : materials).map(item => item.name)} guidance={enquiryGuidance(locale, service?.slug)}/>
       </div>
       <aside className="enquiry-aside">
         <div><p className="section-kicker">{fr ? "Après votre demande" : "After your enquiry"}</p><h2>{fr ? "La suite, en trois étapes." : "What happens next."}</h2>
@@ -44,10 +45,10 @@ export function EnquiryContent({ page, locale = "en", query = {} }: { page: Enqu
             <li><h3>{fr ? "Confirmation des prochaines étapes" : "Confirm the next steps"}</h3><p>{fr ? "Nous confirmons les disponibilités et ce qu’il faut pour préparer la soumission, y compris une évaluation au besoin." : "We confirm availability and what’s needed to prepare the quote, including an assessment when necessary."}</p></li>
           </ol><a href={`${prefix}/how-it-works`}>{fr ? "Notre démarche complète →" : "See the full project process →"}</a>
         </div>
-        <div className="enquiry-resources"><h2>{fr ? "Pour préparer la discussion." : "Plan the conversation."}</h2><ul>{resources.map(item => <li key={item.href}><a href={prefix + item.href}>{item.label} →</a></li>)}</ul><p>{fr ? "Les guides présentent des repères de l’industrie. Le prix et les dates sont confirmés pour votre projet." : "Guides provide industry benchmarks. Price and dates are confirmed for your project."}</p></div>
+        <div className="enquiry-resources"><h2>{fr ? "Pour préparer la discussion." : "Plan the conversation."}</h2><ul>{resources.map(item => <li key={item.href}><a href={prefix + item.href}>{item.label} →</a></li>)}</ul><p>{fr ? "Nous confirmerons les produits, le prix et les dates selon votre projet." : "We’ll confirm product availability, pricing and timing for your project."}</p></div>
       </aside>
     </section>
     <section className="enquiry-faq"><p className="section-kicker">{fr ? "Avant de nous écrire" : "Before you get in touch"}</p><h2>{fr ? "Quelques questions courantes." : "A few common questions."}</h2><FAQ items={enquiryFaq(page, locale)}/><p className="enquiry-other-page"><a href={`${prefix}/${contact ? "request-a-quote" : "contact"}${suffix}`}>{contact ? (fr ? "Ouvrir la page de soumission →" : "Open the dedicated quote page →") : (fr ? "Voir les façons de nous joindre →" : "View all contact options →")}</a></p></section>
-    <StructuredData data={{ "@context": "https://schema.org", "@type": contact ? "ContactPage" : "WebPage", "@id": `${business.domain}${prefix}/${page}#webpage`, url: `${business.domain}${prefix}/${page}`, name: meta.title, description: meta.description, inLanguage: fr ? "fr-CA" : "en-CA", dateModified: enquiryReviewed, about: { "@id": `${business.domain}/#organization` } }}/>
+    <StructuredData data={{ "@context": "https://schema.org", "@type": contact ? "ContactPage" : "WebPage", "@id": `${business.domain}${prefix}/${page}#webpage`, url: `${business.domain}${prefix}/${page}`, name: meta.title, description: meta.description, inLanguage: fr ? "fr-CA" : "en-CA", dateModified: contentDates.pages[page], about: { "@id": `${business.domain}/#organization` } }}/>
   </div>;
 }

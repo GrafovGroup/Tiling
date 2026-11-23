@@ -73,5 +73,25 @@
     "slug": "rooftop-terrace-pedestal-pavers",
     "en": "Rooftop Terrace & Pedestal Pavers",
     "fr": "Terrasses sur toit et dalles sur plots"
+  },
+  {
+    "slug": "carpet-tile-installation",
+    "en": "Carpet Tile Installation",
+    "fr": "Pose de dalles de moquette"
+  },
+  {
+    "slug": "interlocking-floor-tile-installation",
+    "en": "Interlocking Floor Tile Installation",
+    "fr": "Pose de dalles de plancher emboîtables"
+  },
+  {
+    "slug": "interlocking-paver-installation",
+    "en": "Interlocking Paver Installation",
+    "fr": "Pose de pavés autobloquants"
+  },
+  {
+    "slug": "vinyl-tile-installation",
+    "en": "Vinyl Tile Installation",
+    "fr": "Pose de carreaux de vinyle"
   }
 ]

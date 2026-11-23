@@ -23,7 +23,7 @@ test('calculators appear on installation and supply guides in both languages wit
    if(slug==='tile-installation-cost')for(const range of ['$13–$34','$8–$27','$8–$15']){if(!prefix)assert.ok(page.includes(range));}
   }
  }
- const xml=await html('/sitemap.xml');assert.equal((xml.match(/<loc>/g)||[]).length,4138);
+ const xml=await html('/sitemap.xml');assert.doesNotMatch(xml,/<loc>[^<]*(?:calculator|calc_area|calc_waste|calc_unit)/);
 });
 test('planning measurements reach the quote note with city/service context and clean canonical metadata',async()=>{
  for(const prefix of ['', '/fr']) {
@@ -34,7 +34,10 @@ test('planning measurements reach the quote note with city/service context and c
   const bad=await html(prefix+'/request-a-quote?calc_area=%3Cscript%3E&calc_waste=10&calc_unit=ft');assert.match(bad,/<textarea[^>]*name="details"[^>]*><\/textarea>/);
  }
 });
-test('compact service labels match existing published names in each language',()=>{
- const options=JSON.parse(fs.readFileSync(new URL('../app/quote-services.json',import.meta.url)));assert.equal(options.length,15);assert.equal(new Set(options.map(x=>x.slug)).size,15);
+test('compact service labels cover the published service guides in each language',()=>{
+ const options=JSON.parse(fs.readFileSync(new URL('../app/quote-services.json',import.meta.url)));
+ const guides=JSON.parse(fs.readFileSync(new URL('../app/service-guides.json',import.meta.url)));
+ assert.deepEqual(options.map(x=>x.slug).sort(),guides.map(x=>x.slug).sort());
+ assert.equal(new Set(options.map(x=>x.slug)).size,options.length);
  for(const option of options)assert.ok(option.en&&option.fr);
 });

@@ -12,8 +12,9 @@ const jsonld=page=>[...page.matchAll(/<script type="application\/ld\+json">([\s\
 const field=formValue;
 function section(page,name){const result=page.match(new RegExp('<section class="'+name+' section-pad"[\\s\\S]*?<\\/section>'))?.[0];assert.ok(result,name);return result;}
 
-test('all five material guides have distinct bilingual metadata, accessible sections and editorial schema',async()=>{
- assert.equal(guides.length,5);
+test('all material guides have distinct bilingual metadata, accessible sections and editorial schema',async()=>{
+ assert.equal(guides.length,9);
+ for(const slug of ['carpet-tile','interlocking-floor-tile','interlocking-pavers','vinyl-tile'])assert.ok(guides.some(guide=>guide.slug===slug),slug);
  for(const prefix of ['','/fr']){
   const titles=new Set(),descriptions=new Set();
   for(const guide of guides){
@@ -22,12 +23,12 @@ test('all five material guides have distinct bilingual metadata, accessible sect
    titles.add(head.match(/<title>(.*?)<\/title>/)[1]);descriptions.add(head.match(/<meta name="description" content="([^"]+)"/)[1]);
    assert.ok(head.includes(`rel="canonical" href="https://tiling.ca${path}"`));
    for(const alternate of ['','/fr'])assert.ok(head.includes(`href="https://tiling.ca${alternate}/materials/${guide.slug}"`));
-   const article=jsonld(page).filter(item=>item['@type']==='Article');assert.equal(article.length,1,path);assert.equal(article[0].url,'https://tiling.ca'+path);assert.equal(article[0].dateModified,'2026-11-08');
+   const article=jsonld(page).filter(item=>item['@type']==='Article');assert.equal(article.length,1,path);assert.equal(article[0].url,'https://tiling.ca'+path);assert.equal(article[0].dateModified,guide.reviewed??'2026-11-08');
    assert.doesNotMatch(page,/"@type":"(?:Product|Offer|AggregateOffer|AggregateRating)"/);
    for(const anchor of ['material-selection','material-applications','material-care','material-pricing','material-quote','material-faq']){assert.ok(page.includes('id="'+anchor+'"'));assert.ok(page.includes('href="#'+anchor+'"'));}
    for(const source of guide.references){assert.ok(source.url.startsWith('https://'));assert.ok(decode(page).includes(source.url));assert.ok(article[0].citation.includes(source.url));}
   }
-  assert.equal(titles.size,5);assert.equal(descriptions.size,5);
+  assert.equal(titles.size,guides.length);assert.equal(descriptions.size,guides.length);
  }
 });
 
@@ -46,7 +47,15 @@ test('material service and pricing links resolve and preserve the chosen materia
    const url=new URL(href,'https://tiling.ca');assert.ok(url.pathname.startsWith(prefix+'/services/'));assert.equal(url.searchParams.get('material'),guide.slug);assert.equal(url.searchParams.get('area'),'toronto');
    const destination=await html(href);assert.ok(field(destination,'material'));assert.equal(field(destination,'city'),'Toronto');
   }
-  const pricing=section(page,'material-pricing');assert.match(pricing,prefix?/ne constituent ni un tarif/:/do not establish a price for this specific material/);
+  const pricing=section(page,'material-pricing');
+  if(!guide.pricingServices.length){
+   assert.ok(links(pricing).includes('#material-quote'));
+   assert.ok(!links(pricing).some(href=>href.includes('/pricing/')));
+   assert.ok(!links(section(page,'material-care')).some(href=>href.includes('tile-grout-stone-cleaning-sealing')));
+   assert.ok(links(section(page,'material-related')).some(href=>new URL(href,'https://tiling.ca').pathname===prefix+'/services/'+guide.installationService));
+   continue;
+  }
+  assert.match(pricing,prefix?/ne constituent ni un tarif/:/do not establish a price for this specific material/);
   for(const href of links(pricing)){
    const url=new URL(href,'https://tiling.ca');assert.ok(url.pathname.startsWith(prefix+'/pricing/'));assert.equal(url.searchParams.get('material'),guide.slug);assert.equal(url.searchParams.get('area'),'toronto');
    const destination=await html(href);assert.ok(destination.includes('material-price-context'));
@@ -86,6 +95,6 @@ test('material comparison hubs and sitemap expose all guides with current biling
  for(const prefix of ['','/fr']){
   const page=await html(prefix+'/materials');assert.equal((page.match(/<h1[ >]/g)||[]).length,1);assert.match(page,/<caption>/);assert.match(page,/scope="col"/);assert.match(page,/scope="row"/);
   assert.ok(page.includes(prefix?"la famille des céramiques":"the ceramic family"));assert.ok(page.includes(prefix?"pierres naturelles":"natural stones"));
-  for(const guide of guides){const path=prefix+'/materials/'+guide.slug;assert.ok(page.includes('href="'+path+'"'));const entry=sitemap.match(new RegExp('<url>\\s*<loc>https://tiling.ca'+path+'<\\/loc>[\\s\\S]*?<\\/url>'))?.[0];assert.ok(entry,path);assert.ok(entry.includes('<lastmod>2026-11-08</lastmod>'));}
+  for(const guide of guides){const path=prefix+'/materials/'+guide.slug;assert.ok(page.includes('href="'+path+'"'));const entry=sitemap.match(new RegExp('<url>\\s*<loc>https://tiling.ca'+path+'<\\/loc>[\\s\\S]*?<\\/url>'))?.[0];assert.ok(entry,path);assert.ok(entry.includes('<lastmod>'+(guide.reviewed??'2026-11-08')+'</lastmod>'));}
  }
 });

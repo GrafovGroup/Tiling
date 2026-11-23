@@ -6,7 +6,7 @@ export const frenchServices: FrenchService[] = [
  {slug:"large-format-tile",name:"Carreaux de grand format",short:"Préparation précise et manipulation adaptée aux carreaux et panneaux de grande dimension.",intro:"Les grands formats demandent un support particulièrement bien préparé. Nous planifions les accès, la manipulation, les découpes et le positionnement pour obtenir un résultat cohérent sur toute la surface.",features:["Contrôle de la planéité du support","Planification des accès et de la manutention","Disposition des veines et des grandes lignes","Choix du système de pose et des finitions"],preparation:"Indiquez les dimensions et l’épaisseur du produit, les étages à desservir et les passages disponibles. Les escaliers, les ascenseurs et les ouvertures peuvent limiter les formats utilisables.",faq:[{q:"Peut-on supprimer les joints avec de grands carreaux?",a:"Non. Les joints entre carreaux et les joints de mouvement restent nécessaires. Leur largeur dépend du produit, des tolérances et du système de pose."},{q:"Un système de nivellement remplace-t-il la préparation?",a:"Non. Il peut aider à ajuster les bords pendant la pose, mais ne corrige pas un support inadéquat."}]},
  {slug:"tile-repair-regrouting",name:"Réparation de carrelage et réfection des joints",short:"Réparations ciblées pour les carreaux fissurés, le coulis usé et les joints détériorés.",intro:"Nous cherchons d’abord la cause du problème : choc, mouvement, adhérence insuffisante ou humidité. La solution peut aller d’une reprise locale des joints au remplacement de carreaux ou à une réparation du support.",features:["Évaluation des carreaux et des joints endommagés","Remplacement ciblé selon la disponibilité","Retrait et reprise du coulis défectueux","Remplacement des joints souples détériorés"],preparation:"Envoyez des photos générales et rapprochées. Signalez les fuites, les carreaux qui sonnent creux et les réparations antérieures; indiquez si vous avez des carreaux de rechange.",faq:[{q:"Faut-il nettoyer ou refaire les joints?",a:"Un coulis intact mais taché peut parfois être nettoyé. Un joint fissuré, friable ou manquant peut nécessiter une réfection et une recherche de la cause."},{q:"Le nouveau coulis arrêtera-t-il une fuite?",a:"Pas nécessairement. Une fuite peut provenir de l’étanchéité, de la plomberie ou d’un raccord. Il faut identifier le défaut avant de choisir la réparation."}]},
  {slug:"commercial-tile",name:"Carrelage commercial",short:"Installation coordonnée pour commerces, bureaux, hôtels, restaurants et espaces communs.",intro:"Nous organisons les travaux autour de l’usage du bâtiment, de la circulation et des contraintes d’exploitation. La soumission précise les surfaces, la préparation, les matériaux, les accès et les étapes de remise en service.",features:["Commerces, halls et espaces d’accueil","Restaurants, hôtels et cuisines de service","Toilettes, vestiaires et aires communes","Planification par zones selon les contraintes du site"],preparation:"Précisez les heures d’accès, les activités à maintenir, la circulation prévue et les produits d’entretien utilisés. Joignez les plans et les exigences du gestionnaire de l’immeuble, s’ils sont disponibles.",faq:[{q:"Peut-on réaliser les travaux par étapes?",a:"Nous pouvons étudier un phasage selon l’accès, la sécurité, les produits employés et le temps de cure. Les possibilités et les limites sont confirmées avant l’entente."},{q:"Comment choisissez-vous un carreau commercial?",a:"Nous examinons l’usage, l’humidité, les contaminants, l’entretien et les données du fabricant. Une apparence similaire ne garantit pas une performance équivalente."}]},
- {slug:"tile-supply-delivery",name:"Fourniture et livraison de carreaux",short:"Sélection de carreaux, de pierre et de produits de finition pour votre projet.",intro:"Nous vous aidons à définir les matériaux adaptés à l’usage et aux dimensions du chantier. Les quantités, les lots, les pièces de finition, la disponibilité et la livraison sont confirmés avant de finaliser la commande.",features:["Porcelaine, céramique et pierre naturelle","Sélection des formats, couleurs et finis","Quantités et marge pour les découpes","Coordination des accessoires et de la livraison"],preparation:"Envoyez les superficies, les références souhaitées et l’adresse de livraison. Mentionnez les restrictions de déchargement et la date à laquelle les matériaux seront nécessaires.",faq:[{q:"Peut-on commander uniquement les matériaux?",a:"Oui. Nous pouvons préparer une proposition de fourniture seule ou coordonner les matériaux avec la pose, selon la disponibilité."},{q:"La disponibilité affichée est-elle garantie?",a:"Les stocks, les lots et les délais sont vérifiés au moment de la soumission et de la confirmation de commande."}]},
+ {slug:"tile-supply-delivery",name:"Fourniture et livraison de carreaux",short:"Céramique, porcelaine, pierre, dalles de moquette, vinyle, dalles emboîtables et pavés de béton pour votre projet.",intro:"Nous fournissons des carreaux de céramique, de porcelaine, de pierre ou de vinyle, des dalles de moquette, des dalles emboîtables en caoutchouc ou en PVC et des pavés de béton. Vous pouvez commander les matériaux seuls ou nous confier également la pose. Les quantités, les lots, les pièces de finition, la disponibilité et la livraison sont confirmés avant de finaliser la commande.",features:["Porcelaine, céramique et pierre naturelle","Dalles de moquette et carreaux de vinyle","Dalles emboîtables et pavés autobloquants","Sélection des formats, couleurs et finis","Quantités et marge pour les découpes","Coordination des accessoires et de la livraison"],preparation:"Envoyez les superficies, les références souhaitées et l’adresse de livraison. Mentionnez les restrictions de déchargement et la date à laquelle les matériaux seront nécessaires.",faq:[{q:"Peut-on commander uniquement les matériaux?",a:"Oui. Nous pouvons préparer une proposition de fourniture seule ou coordonner les matériaux avec la pose, selon la disponibilité."},{q:"La disponibilité affichée est-elle garantie?",a:"Les stocks, les lots et les délais sont vérifiés au moment de la soumission et de la confirmation de commande."}]},
  {slug:"outdoor-balcony-tiling",name:"Carrelage extérieur et de balcon",short:"Surfaces extérieures planifiées selon l’exposition, l’écoulement de l’eau et le support.",intro:"Un balcon ou une terrasse exige un assemblage compatible avec l’environnement extérieur. Nous examinons le support, la pente, les raccords d’étanchéité et les caractéristiques des produits avant de proposer une pose collée.",features:["Évaluation du support et de la pente","Produits appropriés à l’exposition prévue","Joints de mouvement et raccords périphériques","Coordination des seuils et de l’évacuation de l’eau"],preparation:"Précisez si la surface se trouve au-dessus d’un espace habité. Signalez l’eau stagnante, les fissures et les problèmes de drainage; les réparations structurelles ou de toiture peuvent nécessiter une intervention distincte.",faq:[{q:"Tout carreau de porcelaine convient-il à l’extérieur?",a:"Non. Il faut vérifier les caractéristiques du produit, le fini, l’adhérence, l’exposition au gel et le système complet de pose."},{q:"Pouvez-vous poser directement sur une membrane existante?",a:"Seulement si son état, sa compatibilité et les détails de l’assemblage le permettent. Une membrane inconnue ou détériorée doit être évaluée."}]},
  {slug:"fireplace-feature-wall-tiling",name:"Carrelage de foyer et de mur décoratif",short:"Habillages, contours et murs d’accent aux découpes et aux arêtes soignées.",intro:"Nous définissons la disposition des carreaux autour du foyer ou des éléments du mur. Les dégagements et les matériaux près d’un appareil doivent respecter les instructions du fabricant et les exigences applicables au projet.",features:["Disposition des motifs et des veinures","Finition des coins et des bords visibles","Préparation des surfaces verticales","Coordination avec le foyer et les éléments intégrés"],preparation:"Fournissez les dimensions, des photos et le modèle du foyer, le cas échéant. Mentionnez les tablettes, niches ou appareils à intégrer.",faq:[{q:"N’importe quel carreau peut-il entourer un foyer?",a:"La compatibilité dépend de la chaleur, du support, des adhésifs et des dégagements prescrits. Nous vérifions ces contraintes pour le produit et l’appareil choisis."},{q:"Installez-vous le foyer lui-même?",a:"La portée de nos travaux de carrelage est précisée dans la soumission. Les raccordements et l’installation de l’appareil doivent être coordonnés avec les intervenants appropriés."}]},
  {slug:"heated-tile-floors",name:"Planchers chauffants carrelés",short:"Carrelage et chauffage au sol planifiés comme un ensemble.",intro:"Nous coordonnons le support, la couche chauffante, la membrane, les carreaux et la hauteur finale. La disposition des zones chauffées et du capteur doit être définie avant de fermer l’assemblage.",features:["Planification des zones et des hauteurs","Compatibilité des produits de pose","Coordination de la membrane et du chauffage","Finitions et transitions avec les pièces voisines"],preparation:"Indiquez le système souhaité ou existant, la superficie et les équipements fixes. Les raccordements électriques doivent être coordonnés avec un électricien qualifié selon les exigences applicables.",faq:[{q:"La porcelaine convient-elle au chauffage au sol?",a:"Oui, lorsqu’elle fait partie d’un assemblage compatible. La membrane, le mortier, les joints et les consignes de mise en service doivent aussi être respectés."},{q:"Peut-on allumer le chauffage immédiatement après la pose?",a:"Non. Le délai de cure et la procédure de mise en service sont ceux des fabricants du système et des matériaux."}]},
@@ -15,6 +15,98 @@ export const frenchServices: FrenchService[] = [
  {slug:"tile-removal-surface-preparation",name:"Dépose de carrelage et préparation des surfaces",short:"Retrait des anciens carreaux et préparation du support avant une nouvelle finition.",intro:"Nous définissons la protection des lieux, le retrait des matériaux et les corrections du support nécessaires au projet. La préparation dépend de ce qui est découvert après la dépose.",features:["Protection des zones et organisation de l’accès","Dépose des carreaux et retrait des résidus","Vérification du support mis à nu","Planification des corrections et de l’évacuation"],preparation:"Précisez l’âge approximatif du bâtiment et les matériaux présents. Des matériaux anciens ou suspects peuvent exiger une évaluation spécialisée avant toute perturbation.",faq:[{q:"Peut-on réserver seulement la dépose?",a:"Oui. La soumission peut couvrir la dépose et la préparation sans nouvelle pose, avec un état de surface final clairement défini."},{q:"La dépose garantit-elle un support prêt à carreler?",a:"Non. L’état réel apparaît souvent après le retrait. Les corrections supplémentaires doivent être évaluées et convenues."}]},
  {slug:"tile-grout-stone-cleaning-sealing",name:"Nettoyage et scellement du carrelage, des joints et de la pierre",short:"Nettoyage en profondeur et protection adaptée aux matériaux existants.",intro:"Nous choisissons la méthode selon le carreau, la pierre, le coulis et la nature des salissures. Un essai local peut être nécessaire pour confirmer le résultat et éviter d’endommager le fini.",features:["Évaluation des surfaces et des taches","Nettoyage adapté au matériau","Vérification du besoin de scellant","Conseils d’entretien après intervention"],preparation:"Envoyez des photos et les références des produits d’entretien déjà utilisés. Signalez les joints fissurés, les traces d’humidité et les traitements antérieurs.",faq:[{q:"Tous les carreaux et tous les joints doivent-ils être scellés?",a:"Non. Le besoin dépend de leur porosité et des recommandations du fabricant. Un scellant inadapté peut laisser un résidu ou modifier l’apparence."},{q:"Le scellement répare-t-il une douche qui fuit?",a:"Non. Un scellant peut réduire certaines taches, mais ne remplace pas l’étanchéité ni la réparation d’un joint ou d’un support défectueux."}]},
  {slug:"rooftop-terrace-pedestal-pavers",name:"Terrasses sur toit et dalles sur plots",short:"Surfaces accessibles avec dalles de porcelaine et systèmes de supports réglables.",intro:"Une terrasse sur plots doit être coordonnée avec la toiture, les charges admissibles, le drainage et les détails de rive. Nous définissons le revêtement et sa mise en œuvre selon les conditions du bâtiment et les produits approuvés.",features:["Disposition des dalles et des supports","Coordination des seuils et des hauteurs","Accès au drainage et protection de la toiture","Détails de rive et contraintes d’exposition"],preparation:"Fournissez les plans disponibles, les détails de toiture et les exigences du gestionnaire. Les vérifications de structure, de toiture et de résistance au vent doivent être réalisées par les professionnels appropriés lorsqu’elles sont requises.",faq:[{q:"Les dalles sur plots sont-elles une couverture de toiture?",a:"Non. Elles forment une surface de circulation au-dessus d’un assemblage de toiture distinct. L’étanchéité et le drainage doivent rester fonctionnels."},{q:"Peut-on utiliser n’importe quel carreau sur des plots?",a:"Non. Les dalles et les supports doivent être conçus et approuvés pour cet usage, avec les dimensions, les portées et les détails de sécurité appropriés."}]},
+  {
+    "slug": "carpet-tile-installation",
+    "name": "Pose de dalles de moquette",
+    "short": "Fourniture et pose de dalles et de lames de moquette dans les bureaux, corridors et espaces de travail à domicile.",
+    "intro": "Un bureau à aire ouverte, un long corridor et une petite salle de réunion demandent des calepinages différents. Nous prévoyons le sens du velours, la position des coupes et les accès à maintenir pendant les travaux.",
+    "features": [
+      "Dalles et lames de moquette",
+      "Motif et sens du velours",
+      "Travaux par zone et transitions",
+      "Dalles de réserve pour les remplacements"
+    ],
+    "faq": [
+      {
+        "q": "Pouvez-vous aussi fournir les dalles de moquette?",
+        "a": "Oui. Nous pouvons chiffrer les dalles seules, poser vos dalles ou réunir fourniture et main-d’œuvre dans la même soumission."
+      },
+      {
+        "q": "Peut-on remplacer une seule dalle usée?",
+        "a": "Souvent, oui. Nous vérifions le mode de fixation, le sens du motif ainsi que la couleur et le format des dalles disponibles."
+      }
+    ],
+    "preparation": "Dimensions, photos et revêtement en place."
+  },
+  {
+    "slug": "interlocking-floor-tile-installation",
+    "name": "Pose de dalles de plancher emboîtables",
+    "short": "Fourniture et pose de dalles modulaires en caoutchouc ou en PVC pour garages, ateliers, salles d’entraînement et pièces utilitaires.",
+    "intro": "Un seuil de garage et le pourtour d’une salle d’entraînement présentent des contraintes différentes. Nous vérifions les emboîtements du produit retenu, les charges prévues et les finitions aux portes, aux murs et aux changements de niveau.",
+    "features": [
+      "Systèmes en caoutchouc et en PVC",
+      "Vérification des charges des véhicules et des appareils",
+      "Bordures en rampe et dégagement des portes",
+      "Coupes au périmètre et dalles de remplacement"
+    ],
+    "faq": [
+      {
+        "q": "Puis-je acheter les dalles seules?",
+        "a": "Oui. Transmettez les dimensions de la pièce et son usage pour vérifier les quantités, les bordures et la disponibilité en fourniture seule."
+      },
+      {
+        "q": "Peut-on stationner un véhicule sur ces dalles?",
+        "a": "Il faut choisir un produit adapté au véhicule et aux charges prévues. Nous examinons ces charges, le seuil et les limites indiquées par le fabricant."
+      }
+    ],
+    "preparation": "Dimensions du plancher, largeur des portes et photos du support."
+  },
+  {
+    "slug": "interlocking-paver-installation",
+    "name": "Pose de pavés autobloquants",
+    "short": "Fourniture et pose de pavés de béton autobloquants pour terrasses au sol, allées piétonnes et entrées de garage.",
+    "intro": "Une allée piétonne et une entrée de garage ne supportent pas les mêmes charges. Nous prévoyons les pavés, la fondation, la pente, les joints et les bordures selon le terrain et l’usage. Le tracé tient compte des portillons, des marches et des seuils du bâtiment.",
+    "features": [
+      "Terrasses au sol et allées piétonnes",
+      "Sélection de pavés pour entrée de garage",
+      "Planification de la fondation, des pentes et du drainage",
+      "Bordures et finition des joints"
+    ],
+    "faq": [
+      {
+        "q": "Vendez-vous les pavés séparément?",
+        "a": "Oui. Pour un achat seul, indiquez la superficie, l’usage et le style souhaité. Nous pouvons aussi chiffrer la fourniture avec pose."
+      },
+      {
+        "q": "Est-ce le même service que pour un toit-terrasse?",
+        "a": "Le pavage au sol repose habituellement sur une fondation granulaire préparée. Un toit-terrasse exige des supports et un assemblage de toiture spécifiques."
+      }
+    ],
+    "preparation": "Dimensions, photos des seuils et endroits où l’eau s’accumule."
+  },
+  {
+    "slug": "vinyl-tile-installation",
+    "name": "Pose de carreaux de vinyle",
+    "short": "Fourniture et pose de carreaux de vinyle de luxe (LVT) à coller ou à encliqueter pour la maison et les locaux commerciaux.",
+    "intro": "Un carreau de vinyle aspect pierre offre une surface résiliente au fini minéral dans une cuisine, un commerce ou une réception. Nous vérifions le plancher actuel, le mode de pose du produit et la hauteur des seuils avant de tracer le premier rang.",
+    "features": [
+      "LVT à coller ou à encliqueter",
+      "Vérification du support et de l’humidité",
+      "Disposition du motif et des joints",
+      "Transitions et finition des rives"
+    ],
+    "faq": [
+      {
+        "q": "Puis-je fournir mes carreaux de vinyle?",
+        "a": "Oui. Transmettez la référence et la quantité. Nous vérifions le produit et la superficie disponible avant de chiffrer la pose de vos carreaux."
+      },
+      {
+        "q": "Puis-je commander le vinyle sans la pose?",
+        "a": "Oui. Nous pouvons chiffrer la fourniture seule ou y ajouter la pose. Indiquez la superficie, la disposition et le fini souhaités pour vérifier la commande."
+      }
+    ],
+    "preparation": "Superficie mesurée, photos du revêtement actuel et des seuils adjacents."
+  },
 ];
 export const provinceFr: Record<string,string> = {"Alberta":"Alberta","British Columbia":"Colombie-Britannique","Manitoba":"Manitoba","New Brunswick":"Nouveau-Brunswick","Newfoundland and Labrador":"Terre-Neuve-et-Labrador","Northwest Territories":"Territoires du Nord-Ouest","Nova Scotia":"Nouvelle-Écosse","Nunavut":"Nunavut","Ontario":"Ontario","Prince Edward Island":"Île-du-Prince-Édouard","Quebec":"Québec","Québec":"Québec","Saskatchewan":"Saskatchewan","Yukon":"Yukon"};
 export const frenchMaterials = [
@@ -23,4 +115,36 @@ export const frenchMaterials = [
  {slug:"ceramic-tile",name:"Carreaux de céramique",short:"Couleurs, textures et motifs pour les dosserets, les murs et certains planchers.",intro:"La céramique permet de créer des surfaces classiques ou expressives. Nous vérifions si le produit est destiné aux murs, aux planchers ou aux zones humides et planifions les bords visibles avec les pièces de finition disponibles.",features:["Dosserets de cuisine","Murs de salle de bain","Niches et murs décoratifs","Choix de motifs, de couleurs et de coulis"],care:"Tous les carreaux de céramique ne conviennent pas aux mêmes usages. Le classement du produit et les instructions du fabricant déterminent les applications possibles."},
  {slug:"natural-stone-tile",name:"Carreaux de pierre naturelle",short:"Calcaire, travertin, ardoise et autres pierres aux caractéristiques uniques.",intro:"La pierre varie d’une pièce à l’autre. Nous examinons la porosité, l’épaisseur, le fini et les besoins d’entretien pour choisir un assemblage compatible avec le lieu de pose.",features:["Sélection et répartition des variations naturelles","Vérification des épaisseurs et des supports","Produits de pose compatibles","Entretien et scellement selon la pierre"],care:"Une pierre qui convient à un mur sec n’est pas automatiquement adaptée à une douche ou à l’extérieur. Les propriétés du produit doivent être confirmées pour chaque usage."},
  {slug:"granite-tile",name:"Carreaux de granit",short:"Une pierre dense pour certaines entrées, certains planchers et les surfaces d’accent.",intro:"Le granit peut offrir une surface résistante lorsque le produit et le fini sont bien choisis. Nous planifions les raccords, les découpes et la disposition des nuances pour une apparence cohérente.",features:["Entrées et surfaces de circulation appropriées","Murs et éléments décoratifs","Choix du fini selon l’exposition à l’eau","Coordination des lots, des épaisseurs et des transitions"],care:"Le fini poli peut être moins approprié à certaines surfaces mouillées. La résistance aux taches et le besoin de scellant varient selon le produit."},
+  {
+    slug: "carpet-tile",
+    name: "Dalles de moquette",
+    short: "Des dalles et des lames de moquette pour les bureaux, les couloirs et les pièces aménagées. Nous offrons la fourniture seule ou avec pose.",
+    intro: "Chaque dalle possède son propre dossier. Le motif et le sens du velours influent sur l’apparence du plancher. Placez quelques échantillons près du revêtement voisin pour observer la couleur et les joints dans la lumière de la pièce.",
+    features: ["Dalle carrée ou lame","Dossier et fixation","Dalles de réserve"],
+    care: "Passez l’aspirateur selon la fréquentation. Épongez les liquides et utilisez un détachant compatible avec la fibre et le dossier. Conservez les dalles de réserve au sec.",
+  },
+  {
+    slug: "interlocking-floor-tile",
+    name: "Dalles de sol emboîtables",
+    short: "Dalles emboîtables en caoutchouc ou en PVC pour gymnases, garages et ateliers. Commandez les dalles seules ou confiez-nous la préparation et la pose.",
+    intro: "Les bords de ces dalles s’emboîtent pour former le plancher. Les joints d’un gymnase et ceux d’un garage subissent des efforts différents. Précisez les appareils, le passage de roues et la température de la pièce.",
+    features: ["Caoutchouc ou PVC","Bords et rampes"],
+    care: "Retirez les gravillons et inspectez les bordures exposées. Utilisez un nettoyant convenant au caoutchouc ou au PVC choisi. Consultez la fiche d’entretien avant d’utiliser une autolaveuse ou un solvant.",
+  },
+  {
+    slug: "interlocking-pavers",
+    name: "Pavés de béton autobloquants",
+    short: "Pavés de béton pour terrasses, allées piétonnes et entrées de garage au niveau du sol. Nous fournissons les pavés et offrons la préparation du terrain et la pose.",
+    intro: "Les pavés, les bordures, les joints et la fondation forment un ensemble. Indiquez où s’écoule l’eau et si le pavage accueillera des piétons, des voitures ou des véhicules plus lourds pour définir les matériaux et les travaux préparatoires.",
+    features: ["Circulation et dimensions","Motif et bordures"],
+    care: "Balayez les gravillons et vérifiez les affaissements, les bordures mobiles et les joints dégarnis. Choisissez les nettoyants, les déglaçants et les matériaux de jointoiement selon le pavé et le système en place.",
+  },
+  {
+    slug: "vinyl-tile",
+    name: "Carreaux de vinyle de luxe (LVT)",
+    short: "Carreaux de vinyle à motifs de pierre ou de bois pour les planchers intérieurs. Nous fournissons le vinyle et posons les modèles à coller ou à encliqueter adaptés à la pièce.",
+    intro: "Le carreau de vinyle combine un motif imprimé et une couche d’usure. Examinez le fini dans la pièce et vérifiez le niveau de circulation admis ainsi que le mode de pose avant de choisir la couleur et la quantité.",
+    features: ["À coller ou à encliqueter","Couche d’usure et motif"],
+    care: "Enlevez régulièrement les saletés abrasives. Utilisez une vadrouille humide et un nettoyant adapté au fini. Consultez la notice avant d’appliquer un produit lustrant ou d’utiliser un appareil de nettoyage.",
+  },
 ];

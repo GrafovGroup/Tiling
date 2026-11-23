@@ -120,6 +120,50 @@ export const materials: Material[] = [
       {q:"Does granite tile need sealing?",a:"Some granite benefits from sealing and some dense products absorb very little. Follow the stone supplier’s guidance and test when appropriate rather than assuming every granite needs the same treatment."},
     ],
   },
+  {
+    slug: "carpet-tile",
+    name: "Carpet Tile",
+    category: "Textile flooring",
+    short: "Modular carpet squares and planks for offices, corridors and finished rooms. Order the tile on its own or have us install it.",
+    intro: "A carpet tile has its own backing, so the pattern and pile direction of each piece help define the room. Set out a few samples beside the adjoining floor to see how the seams and colour will read in the light.",
+    character: "Vacuum according to traffic. Blot spills promptly and use a spot cleaner approved for the fibre and backing. Keep spare tiles clean and dry.",
+    bestFor: ["Offices and meeting rooms","Corridors and reception areas"],
+    considerations: ["Square or plank","Backing and attachment","Matching spares"],
+    faq: [{"q":"Can I purchase carpet tile without installation?","a":"Yes. Send the room dimensions, delivery location and preferred style. We confirm the product, box quantity and delivery details in the quote."},{"q":"Can one damaged tile be replaced?","a":"Often, if the attachment system allows removal. A spare from the same lot helps match the colour, although surrounding carpet may show wear."}],
+  },
+  {
+    slug: "interlocking-floor-tile",
+    name: "Interlocking Floor Tile",
+    category: "Modular flooring",
+    short: "Interlocking rubber and PVC floor tiles for gyms, garages and workshops. Choose supply only or ask us to prepare the floor and install the system.",
+    intro: "The edges of these tiles fit together across the floor. A home gym and a garage place different demands on the same joint, so start with the equipment, wheel traffic and temperature in the room.",
+    character: "Remove grit and inspect exposed edges. Use a cleaner approved for the rubber or PVC product. Check the care sheet before using a powered scrubber or solvent.",
+    bestFor: ["Home gyms and fitness rooms","Garages and workshops"],
+    considerations: ["Rubber or PVC","Tile edges and ramps"],
+    faq: [{"q":"Do you supply interlocking tiles for self-installation?","a":"Yes. We can quote tile quantities and matching edge pieces once we know the room dimensions, surface and intended use."},{"q":"Can interlocking floor tiles go over concrete?","a":"Many systems allow it. We check the slab condition, moisture, flatness and product requirements before confirming the scope."}],
+  },
+  {
+    slug: "interlocking-pavers",
+    name: "Interlocking Concrete Pavers",
+    category: "Exterior paving",
+    short: "Concrete pavers for patios, walkways and suitable driveways at ground level. We supply the pavers and offer base preparation and installation.",
+    intro: "The paver, border, joints and base work together. Tell us where rainwater goes and whether the surface will carry people, cars or heavier vehicles so we can scope the material and groundwork.",
+    character: "Sweep loose grit and check for low spots, loose edging or missing joint material. Confirm that cleaners, de-icers and any joint refill suit the selected paver and joint system.",
+    bestFor: ["Ground-level patios and paths","Residential driveways"],
+    considerations: ["Traffic and unit size","Pattern and edging"],
+    faq: [{"q":"Can I order pavers for a patio without labour?","a":"Yes. Send the dimensions, border layout, delivery access and desired style so we can confirm quantities and availability."},{"q":"Can the same paver go on a path and driveway?","a":"It depends on the unit and the support below it. Confirm that the specific format is suitable for vehicles before using it on a driveway."}],
+  },
+  {
+    slug: "vinyl-tile",
+    name: "Luxury Vinyl Tile (LVT)",
+    category: "Resilient flooring",
+    short: "Vinyl tiles in stone- and wood-look finishes for interior floors. We supply LVT and install glue-down or click products suited to the room.",
+    intro: "Vinyl tile combines a printed design with a protective wear surface. Compare the finish in the room and check the product’s traffic rating and installation method before choosing a colour or quantity.",
+    character: "Remove grit regularly. Use a damp mop and cleaner approved for the chosen finish. Check the product instructions before using a polish or cleaning machine.",
+    bestFor: ["Residential kitchens and living areas","Offices and retail floors"],
+    considerations: ["Glue-down or click","Wear surface and pattern"],
+    faq: [{"q":"Can I buy vinyl tile without installation?","a":"Yes. Send a product code or preferred format, measured area and delivery location for a material quote."},{"q":"Can luxury vinyl tile cover an existing floor?","a":"A suitable existing surface may be retained if the product allows it. We check soundness, flatness, moisture and door clearances before recommending an overlay."}],
+  },
 ];
 
 export const services: Service[] = [
@@ -197,9 +241,9 @@ export const services: Service[] = [
   },
   {
     slug: "tile-supply-delivery", name: "Tile Supply & Delivery",
-    short: "Porcelain, ceramic, marble and natural stone sourced for residential and commercial projects.",
-    intro: "Good tile supply begins with the application, not only the colour. We source the tile, confirm quantities and trim, and plan delivery alongside the installation. Samples, batch variation, lead times and replacement stock should be confirmed before an order is finalized.",
-    features: ["Porcelain and ceramic tile", "Marble and natural stone", "Large-format and specialty products", "Quantity and waste-factor planning", "Trim and setting-material coordination", "Delivery scheduling"],
+    short: "Ceramic, porcelain, stone, carpet tile, vinyl tile, interlocking floor tiles and concrete pavers for your project.",
+    intro: "We source ceramic, porcelain and stone for walls and floors, carpet and vinyl tiles for interiors, modular rubber and PVC tiles, and concrete pavers for outdoor projects. We can supply the materials alone or coordinate delivery with installation. Samples, batch variation, lead times and replacement stock should be confirmed before an order is finalized.",
+    features: ["Porcelain and ceramic tile", "Marble and natural stone", "Carpet tile and luxury vinyl tile", "Interlocking floor tiles and concrete pavers", "Large-format and specialty products", "Quantity and waste-factor planning", "Trim and setting-material coordination", "Delivery scheduling"],
     faq: [{q:"Can Tiling.ca supply tile without installation?",a:"Yes. Supply-only requests can be reviewed where suitable product and delivery options are available. Share the application, approximate quantity, preferred style and project location so the order can be assessed."},{q:"Can tile supply and installation be coordinated together?",a:"Yes. Coordinating both can reduce quantity, trim and scheduling surprises. The final quote should identify the selected product, allowance or purchase price, delivery responsibility and installation scope separately."}],
     image: "/services/tile-supply-delivery.jpg",
     cardImage: "/services/cards/tile-supply-delivery-card.jpg",
@@ -215,6 +259,114 @@ export const services: Service[] = [
   {"slug": "tile-removal-surface-preparation", "name": "Tile Removal & Surface Preparation", "short": "Existing tile removal, adhesive removal and substrate preparation for a fresh installation.", "intro": "We remove existing tile and prepare the exposed surface for the next finish. The scope starts with the floor or wall construction, bonded layers, access and the required finished height. We plan dust control, protection, debris handling and suitable patching or flattening before new tile work begins. Concealed damage or materials requiring specialist assessment are identified separately before further work.", "features": ["Floor and wall tile removal", "Adhesive and mortar residue removal", "Work-area protection and dust control", "Debris handling and disposal planning", "Substrate patching and flattening", "Preparation for replacement tile"], "faq": [{"q": "Can I book tile removal without new installation?", "a": "Yes. We can quote removal and preparation as a separate scope. Tell us the existing tile area, substrate if known, access route and the finish planned next so we can agree on the condition in which the surface will be left."}, {"q": "Does removing tile leave a floor ready for new tile?", "a": "Not always. Removal can reveal cracks, loose layers, moisture damage or uneven areas. We assess the exposed substrate and confirm the repairs or preparation needed before the next installation."}, {"q": "Does the quote include disposal?", "a": "Debris handling, removal from the property and disposal are identified in the written quote. Building access, elevator bookings, parking and disposal arrangements affect the scope."}], "scopeHeading": "Prepare a sound surface for the next finish.", "scopeNote": "We agree on protection, removal, debris handling and the required substrate condition before work starts.", "projectSummary": "We plan removal, protection and preparation around the existing surface and the finish you want next.", "imageAlt": "Prepared floor substrate with a straightedge beside remaining dark tiles", "homeImageAlt": "Kitchen renovation with removed terracotta tiles and exposed concrete substrate", "image": "/services/removal.webp", "cardImage": "/services/cards/removal.webp", "homeImage": "/services/home/removal.webp"},
   {"slug": "tile-grout-stone-cleaning-sealing", "name": "Tile, Grout & Stone Cleaning and Sealing", "short": "Deep cleaning and suitable sealing treatments for existing tile, grout and natural stone.", "intro": "We clean existing tiled and stone surfaces using methods matched to the material, finish and type of soiling. Before treatment, we identify the surface and grout, review any previous coating and test a small area where appropriate. Sealing is recommended only for materials that benefit from it. Cleaning and sealing improve care and stain resistance where suitable; they do not repair failed waterproofing, cracks or acid etching.", "features": ["Tile and grout deep cleaning", "Natural stone surface care", "Residue and stain assessment", "Existing sealer or coating review", "Suitable penetrating-sealer application", "Material-specific maintenance guidance"], "faq": [{"q": "Does every tile or grout need sealing?", "a": "No. Porcelain, glazed tile, epoxy grout and natural stone have different care requirements. We check the product, finish and absorbency before recommending a sealer, following the relevant manufacturer guidance."}, {"q": "Is cleaning the same as regrouting?", "a": "No. Cleaning treats dirt and residues on existing sound surfaces. Crumbling, missing or damaged grout may need repair or replacement, which is covered by our tile repair and regrouting service."}, {"q": "Will sealing make my shower waterproof?", "a": "No. A suitable sealer can help with stain resistance in absorbent materials, but it does not replace the waterproofing assembly or repair leaks behind the tile."}], "scopeHeading": "Choose the treatment for your tile and stone.", "scopeNote": "We confirm the surface, treatment, test area and drying or return-to-use requirements before cleaning or sealing.", "projectSummary": "We assess the surface and select a cleaning or sealing treatment suited to its material and condition.", "imageAlt": "Marble lobby floor with a cleaning trolley and floor scrubber at one side", "homeImageAlt": "Tiled entry floor with a compact cleaning machine and microfibre pads", "image": "/services/cleaning.webp", "cardImage": "/services/cards/cleaning.webp", "homeImage": "/services/home/cleaning.webp"},
   {"slug": "rooftop-terrace-pedestal-pavers", "name": "Rooftop Terrace & Pedestal Pavers", "short": "Walkable rooftop terraces with porcelain pavers and raised pedestal systems.", "intro": "We supply and install pavers for suitable rooftop terraces using a specified support system. Raised pedestals can create a level walking surface above a sloping roof while allowing drainage below and access to service points. We review the roof assembly, approved loading, wind exposure, edge restraint, threshold heights and material handling before finalizing the scope. Structural suitability, roof-membrane compatibility and required building approvals must be confirmed for the property.", "features": ["Rooftop porcelain paver supply", "Adjustable pedestal systems", "Paver layout and finished-height planning", "Drainage access and membrane protection", "Perimeter and edge-restraint coordination", "Delivery, lifting and access planning"], "faq": [{"q": "Are rooftop pavers the same as roofing tiles?", "a": "No. This service creates a walkable terrace above a suitable roof assembly. It does not cover pitched-roof clay or concrete roofing tiles, or replace the roof waterproofing system."}, {"q": "Can pedestal pavers be installed on any flat roof?", "a": "No. The roof structure, membrane, loading, wind exposure, drainage, thresholds and edge protection must support the proposed terrace. We confirm the applicable design and building requirements before quoting an installation."}, {"q": "Can you supply the pavers and pedestals?", "a": "Yes. We can include suitable pavers and the specified pedestal system in the quote. Quantities, edge details, delivery, unloading and lifting arrangements are agreed for the property."}], "scopeHeading": "Plan the terrace and its support system together.", "scopeNote": "We confirm the approved assembly, material supply, access, lifting and installation details before work starts.", "projectSummary": "We coordinate paver supply, pedestal layout and installation around the approved rooftop assembly.", "imageAlt": "Grey porcelain rooftop terrace with cedar seating and raised planters", "homeImageAlt": "Cream porcelain rooftop pavers beside planted borders and a glass balustrade", "image": "/services/rooftop.webp", "cardImage": "/services/cards/rooftop.webp", "homeImage": "/services/home/rooftop.webp"},
+  {
+    "slug": "carpet-tile-installation",
+    "name": "Carpet Tile Installation",
+    "short": "Carpet squares and planks supplied and installed in offices, corridors and home workspaces.",
+    "intro": "A bank of desks, a long corridor and a small meeting room each call for a different layout. We plan the direction of the pile, place cuts at the edges and agree on how to keep adjoining spaces accessible during the work.",
+    "features": [
+      "Carpet squares and planks",
+      "Pattern and pile direction",
+      "Office phasing and transitions",
+      "Spare tiles for future replacements"
+    ],
+    "faq": [
+      {
+        "q": "Can you supply the carpet tiles as well?",
+        "a": "Yes. We can quote carpet tiles on their own, install tiles you have selected, or include materials and labour in the same quote."
+      },
+      {
+        "q": "Can one worn square be replaced?",
+        "a": "Often, yes. We check the fixing method and match the tile, pattern direction and colour as closely as the available stock allows."
+      }
+    ],
+    "image": "/services/home/carpet-tile.webp",
+    "cardImage": "/services/home/carpet-tile.webp",
+    "homeImage": "/services/home/carpet-tile.webp",
+    "imageAlt": "Modular carpet tile flooring",
+    "homeImageAlt": "Modular carpet tile flooring"
+  },
+  {
+    "slug": "interlocking-floor-tile-installation",
+    "name": "Interlocking Floor Tile Installation",
+    "short": "Modular rubber and PVC floor tiles supplied and fitted for garages, workshops, gyms and utility rooms.",
+    "intro": "The room determines the system. A garage doorway has different edge and load requirements from a home gym. We confirm how the chosen product locks together, its use limits and the details at doors, walls and changes in floor height.",
+    "features": [
+      "Rubber and PVC systems",
+      "Vehicle and equipment use review",
+      "Edge ramps and door clearance",
+      "Perimeter cuts and replacement modules"
+    ],
+    "faq": [
+      {
+        "q": "Can I purchase the tiles without installation?",
+        "a": "Yes. Share the room size and use so we can review quantities, perimeter pieces and availability for supply only."
+      },
+      {
+        "q": "Can interlocking tiles support a car?",
+        "a": "Only products rated for the intended vehicle and loads should be selected. We review the vehicle, entry details and manufacturer’s limits when quoting."
+      }
+    ],
+    "image": "/services/home/interlocking-floor-tile.webp",
+    "cardImage": "/services/home/interlocking-floor-tile.webp",
+    "homeImage": "/services/home/interlocking-floor-tile.webp",
+    "imageAlt": "Interlocking modular floor tiles",
+    "homeImageAlt": "Interlocking modular floor tiles"
+  },
+  {
+    "slug": "interlocking-paver-installation",
+    "name": "Interlocking Paver Installation",
+    "short": "Interlocking concrete pavers supplied and laid for ground-level patios, walkways and driveways.",
+    "intro": "A path to the front door and a driveway carry very different loads. We plan the pavers with the base, grade, joint material and edge restraint for the site. The layout takes account of gates, steps and the levels where paving meets the house.",
+    "features": [
+      "Ground-level patios and walkways",
+      "Driveway paver selection",
+      "Base, grade and drainage planning",
+      "Borders and joint finish"
+    ],
+    "faq": [
+      {
+        "q": "Do you sell the pavers separately?",
+        "a": "Yes. For supply only, send the measured area, intended use and preferred style. We can also quote a complete supply-and-install project."
+      },
+      {
+        "q": "Is this the same as a roof terrace?",
+        "a": "Ground-level interlocking paving typically has a prepared aggregate base. A roof terrace uses a separately specified support and roof assembly."
+      }
+    ],
+    "image": "/services/home/interlocking-pavers.webp",
+    "cardImage": "/services/home/interlocking-pavers.webp",
+    "homeImage": "/services/home/interlocking-pavers.webp",
+    "imageAlt": "Ground-level interlocking concrete pavers",
+    "homeImageAlt": "Ground-level interlocking concrete pavers"
+  },
+  {
+    "slug": "vinyl-tile-installation",
+    "name": "Vinyl Tile Installation",
+    "short": "Luxury vinyl tile (LVT) supplied and installed with glue-down or click systems for homes and commercial interiors.",
+    "intro": "A stone-look vinyl tile can give a kitchen, shop or reception area a tiled pattern with a resilient surface. We check the existing floor, the product’s installation method and the finished height at doors before laying out the first row.",
+    "features": [
+      "Glue-down or click LVT",
+      "Subfloor and moisture checks",
+      "Pattern and seam layout",
+      "Transitions and edge details"
+    ],
+    "faq": [
+      {
+        "q": "Can I provide my own vinyl tile?",
+        "a": "Yes. Send the product reference and quantity. We check suitability and available coverage before quoting installation with customer-supplied tile."
+      },
+      {
+        "q": "Can I order the vinyl without the labour?",
+        "a": "Yes. We can quote supply only or include the installation. Tell us the floor area, layout and desired finish so we can check the order."
+      }
+    ],
+    "image": "/services/home/vinyl-tile.webp",
+    "cardImage": "/services/home/vinyl-tile.webp",
+    "homeImage": "/services/home/vinyl-tile.webp",
+    "imageAlt": "Vinyl tile flooring",
+    "homeImageAlt": "Vinyl tile flooring"
+  },
 ];
 
 export function getArea(slug: string) { return areas.find((area) => area.slug === slug); }

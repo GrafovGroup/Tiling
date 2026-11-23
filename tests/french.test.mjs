@@ -20,9 +20,10 @@ test('French route families render localized content and reciprocal language met
  assert.match(fr,/Aller au contenu/);assert.doesNotMatch(fr,/>Request a quote<|>Tile services<|>Your service:/);
  }
 });
-test('all fifteen French services and five materials have content and quote forms',async()=>{
- for(const service of services){const s=await html('/fr/services/'+service);assert.match(s,/Questions fréquentes/);assert.match(s,/name="language" value="fr-CA"/);assert.match(s,/action="https:\/\/formspree.io\/f\/xdeownaz"/);assert.match(s,/Demander une soumission/);}
- for(const material of ['marble-tile','porcelain-tile','ceramic-tile','natural-stone-tile','granite-tile']){const s=await html('/fr/materials/'+material);assert.match(s,/Avant de commander/);assert.match(s,/name="material" value="[^"]+"/);assert.equal(formValue(s,'service'),'Fourniture et livraison de carreaux');assert.match(s,/name="language" value="fr-CA"/);}
+const nationalServices = [...services, 'carpet-tile-installation', 'interlocking-floor-tile-installation', 'interlocking-paver-installation', 'vinyl-tile-installation'];
+test('all French services and materials have content and quote forms',async()=>{
+ for(const service of nationalServices){const s=await html('/fr/services/'+service);assert.match(s,/Questions fréquentes/);assert.match(s,/name="language" value="fr-CA"/);assert.match(s,/action="https:\/\/formspree.io\/f\/xdeownaz"/);assert.match(s,/Demander une soumission/);}
+ for(const material of ['marble-tile','porcelain-tile','ceramic-tile','natural-stone-tile','granite-tile','carpet-tile','interlocking-floor-tile','interlocking-pavers','vinyl-tile']){const s=await html('/fr/materials/'+material);assert.match(s,/Avant de commander/);assert.match(s,/name="material" value="[^"]+"/);assert.equal(formValue(s,'service'),'Fourniture et livraison de carreaux');assert.match(s,/name="language" value="fr-CA"/);}
 });
 test('French quote context validates area and service inputs',async()=>{
  const good=await html('/fr/request-a-quote?area=montreal&service=kitchen-backsplash');assert.match(good,/name="city"[^>]*value="Montréal"/);assert.equal(formValue(good,'service'),'Dosseret de cuisine');assert.match(good,/>Courriel</);assert.match(good,/href="\/fr\/privacy"/);

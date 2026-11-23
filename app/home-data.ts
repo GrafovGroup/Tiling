@@ -1,9 +1,9 @@
 export const homeMeta = {
-  en: { title: "Tile Installation & Tile Supply across Canada", description: "Plan tile installation, repairs and supply with Tiling.ca. Explore services, compare materials, read Canadian pricing guides and find your local service page." },
-  fr: { title: "Pose et fourniture de carrelage au Canada", description: "Préparez votre projet avec Tiling.ca : services de pose et réparation, choix de matériaux, guides de prix au Canada et pages de services dans votre région." },
+  en: { title: "Tile Installation & Tile Supply across Canada", description: "Explore tile supply and installation across Canada, from porcelain and natural stone to carpet tile, vinyl tile, interlocking floors and outdoor pavers." },
+  fr: { title: "Pose et fourniture de carrelage au Canada", description: "Fourniture et pose au Canada de porcelaine, de pierre, de dalles de tapis ou de vinyle, de dalles de plancher emboîtables et de pavés de béton." },
 };
 
-export const homeFeaturedServices = ["bathroom-shower-tile", "floor-tile-installation", "kitchen-backsplash", "tile-repair-regrouting", "commercial-tile", "tile-supply-delivery"];
+export const homeFeaturedServices = ["bathroom-shower-tile", "floor-tile-installation", "kitchen-backsplash", "carpet-tile-installation", "interlocking-floor-tile-installation", "interlocking-paver-installation"];
 export const homeFeaturedAreas = ["toronto", "montreal", "vancouver", "calgary", "ottawa", "halifax"];
 export const homePriceGuides = ["tile-installation-cost", "shower-tiling-cost", "backsplash-tiling-cost"];
 

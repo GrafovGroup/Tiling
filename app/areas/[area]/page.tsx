@@ -1,6 +1,6 @@
 import { hasRegionDirectory } from "../../region-publication";
 import { ConsolidatedLocalServices, LocalServiceMenu } from "../../consolidated-local-services";
-import { hasLocalServicePage, localServiceHref } from "../../local-service-publication";
+import { hasLocalServiceSection, localServiceHref } from "../../local-service-publication";
 import { QuoteForm } from "../../quote-form";
 import type { RouteQuery } from "../../legacy-redirects";
 import { LocalProjectBrief } from "../../local-project-brief";
@@ -43,7 +43,7 @@ export default async function AreaPage({ params, searchParams }: { params: Param
 
   const query = await searchParams;
   const selectedService = typeof query.service === "string" ? getService(query.service) : undefined;
-  const hasConsolidatedServices = services.some(service => !hasLocalServicePage(area.slug, service.slug));
+  const hasConsolidatedServices = services.some(service => hasLocalServiceSection(area.slug, service.slug));
 
   const url = `${business.domain}/areas/${area.slug}`;
   const pageSchema = {

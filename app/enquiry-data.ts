@@ -5,7 +5,6 @@ import type { Locale } from "./pricing-data";
 
 export type EnquiryPage = "contact" | "request-a-quote";
 export type EnquiryQuery = Record<string, string | string[] | undefined>;
-export const enquiryReviewed = "2026-11-08";
 export const enquiryMeta = {
   contact: {
     en: { title: "Contact Us for Tile Projects & Quotes", description: "Call, email or send Tiling.ca your tile project details. Get help with installation, repair, cleaning, tile supply and delivery across Canada." },
@@ -49,6 +48,10 @@ export function enquiryGuidance(locale: Locale, service?: string) {
     "tile-repair-regrouting": ["Where is the damage, how much is affected, and do you have spare tiles?", "Où se trouvent les dommages, quelle surface est touchée et avez-vous des carreaux de rechange?"],
     "tile-grout-stone-cleaning-sealing": ["Surface or stone type, approximate area and stains or previous treatments.", "Type de surface ou de pierre, superficie approximative, taches et traitements antérieurs."],
     "commercial-tile": ["Business use, approximate area, operating hours and access constraints.", "Usage commercial, superficie approximative, heures d’activité et contraintes d’accès."],
+    "carpet-tile-installation": ["Room use, approximate floor area, current flooring and any carpet tile you’ve chosen.", "Usage de la pièce, superficie approximative, revêtement actuel et dalles de moquette envisagées."],
+    "interlocking-floor-tile-installation": ["Where the tiles will be used, the existing floor, approximate area and product reference if known.", "Usage prévu, plancher existant, superficie approximative et référence des dalles emboîtables si vous la connaissez."],
+    "interlocking-paver-installation": ["Patio, walkway or driveway, approximate dimensions and current surface.", "Terrasse, allée piétonne ou entrée, dimensions approximatives et surface actuelle."],
+    "vinyl-tile-installation": ["Room use, approximate area, existing floor and preferred vinyl tile if known.", "Usage de la pièce, superficie approximative, revêtement actuel et carreau de vinyle souhaité, si connu."],
   };
   return { hints, placeholder: placeholders[service || ""]?.[fr ? 1 : 0] || (fr ? "Pièce, travaux souhaités, dimensions approximatives et dates envisagées." : "Room, work needed, approximate dimensions and preferred timing.") };
 }

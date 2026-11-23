@@ -2,14 +2,14 @@ import { getArea, services } from "./data";
 import { frenchServices } from "./fr/content";
 import { getServiceGuide } from "./service-guide-data";
 import { guidesForService } from "./pricing-data";
-import { hasLocalServicePage, localServiceHref } from "./local-service-publication";
+import { hasLocalServiceSection, localServiceHref } from "./local-service-publication";
 
 export function LocalServiceMenu({ areaSlug, locale = "en" }: { areaSlug: string; locale?: "en" | "fr" }) {
   const fr = locale === "fr";
   return <nav className="local-service-menu" aria-label={fr ? "Choisir un service local" : "Choose a local service"}>
     {services.map(service => <a key={service.slug} href={localServiceHref(areaSlug,service.slug,locale)}>
       <strong>{fr ? frenchServices.find(item=>item.slug===service.slug)!.name : service.name}</strong>
-      <span>{hasLocalServicePage(areaSlug,service.slug) ? (fr ? "Guide local →" : "Local guide →") : (fr ? "Détails sur cette page ↓" : "Details on this page ↓")}</span>
+      <span>{hasLocalServiceSection(areaSlug,service.slug) ? (fr ? "Détails sur cette page ↓" : "Details on this page ↓") : (fr ? "Guide du service →" : "Service guide →")}</span>
     </a>)}
   </nav>;
 }
@@ -17,7 +17,7 @@ export function LocalServiceMenu({ areaSlug, locale = "en" }: { areaSlug: string
 export function ConsolidatedLocalServices({ areaSlug, locale = "en" }: { areaSlug: string; locale?: "en" | "fr" }) {
   const area = getArea(areaSlug);
   if (!area) return null;
-  const consolidated = services.filter(service => !hasLocalServicePage(areaSlug, service.slug));
+  const consolidated = services.filter(service => hasLocalServiceSection(areaSlug, service.slug));
   if (!consolidated.length) return null;
   const fr = locale === "fr", prefix = fr ? "/fr" : "";
   return <section className="consolidated-services section-pad" aria-labelledby="local-service-details">

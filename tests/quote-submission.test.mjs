@@ -28,11 +28,13 @@ test('timeout releases pending request without an automatic duplicate', async ()
   await assert.rejects(submitQuoteRequest('https://example.invalid', form, async (_, { signal }) => new Promise((resolve, reject) => signal.addEventListener('abort', () => reject(new Error('Aborted')))), 5), /may have arrived/);
 });
 test('multipart submission keeps multiple optional files and project selections intact', async () => {
- const payload=new FormData();payload.set('service','Floor Tile Installation');payload.set('timing','Within 1–3 months');
+ const payload=new FormData();payload.set('service','Carpet Tile Installation');payload.set('timing','Within 1–3 months');
+ payload.set('material','Carpet Tile');payload.set('project_scope','Supply and installation');
  payload.append('attachment',new File(['synthetic photo'], 'test.jpg', {type:'image/jpeg'}));
  payload.append('attachment',new File(['synthetic plan'], 'test.pdf', {type:'application/pdf'}));
  await submitQuoteRequest('https://example.invalid',payload,async (_,init)=>{
-  assert.equal(init.body.get('service'),'Floor Tile Installation');assert.equal(init.body.getAll('attachment').length,2);
+  assert.equal(init.body.get('service'),'Carpet Tile Installation');assert.equal(init.body.getAll('attachment').length,2);
+  assert.equal(init.body.get('material'),'Carpet Tile');assert.equal(init.body.get('project_scope'),'Supply and installation');
   assert.equal(init.body.getAll('attachment')[1].name,'test.pdf');assert.equal(init.headers['Content-Type'],undefined);
   return Response.json({ok:true});
  });

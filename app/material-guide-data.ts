@@ -4,6 +4,7 @@ type Copy = Record<Locale,string>;
 type Item = {title:Copy;text:Copy};
 export type MaterialGuide = {
   slug:string;metaTitle:Copy;metaDescription:Copy;category:Copy;intro:Copy;selectionHeading:Copy;
+  reviewed?:string;imageAlt?:Copy;installationService?:string;careService?:string;
   choices:Item[];applications:(Item & {service:string})[];care:Item;orderChecklist:Copy[];
   faq:{q:Copy;a:Copy}[];relatedServices:string[];pricingServices:string[];
   comparisons:{material:string;text:Copy}[];references?:{name:string;url:string}[];

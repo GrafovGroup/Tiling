@@ -295,14 +295,14 @@ test("simplifies sections while retaining services, local destinations and enqui
   assert.match(material, /We confirm products, quantities, available batches, delivery and installation scope in the quote/);
 });
 
-test("offers fifteen services with distinct new scopes, imagery and quote context", async () => {
+test("publishes specialist service scopes, imagery and local quote context", async () => {
   const additions = [
     ['tile-removal-surface-preparation', 'removal', 'Tile Removal &amp; Surface Preparation', 'Can I book tile removal without new installation?'],
     ['tile-grout-stone-cleaning-sealing', 'cleaning', 'Tile, Grout &amp; Stone Cleaning and Sealing', 'Does every tile or grout need sealing?'],
     ['rooftop-terrace-pedestal-pavers', 'rooftop', 'Rooftop Terrace &amp; Pedestal Pavers', 'Are rooftop pavers the same as roofing tiles?'],
   ];
   const city = await (await render('/areas/oshawa')).text();
-  assert.match(city, /15<!-- --> service categories/);
+  assert.match(city, /19<!-- --> service categories/);
   assert.equal((city.match(/class="location-service-card-photo"/g) || []).length, 0);
   assert.match(city,/class="local-service-menu"/);
   for (const [slug, key, name, faq] of additions) {

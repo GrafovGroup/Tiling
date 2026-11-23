@@ -12,7 +12,13 @@ export function hasLocalServicePage(area: string, service: string): boolean {
     || (approvedAreas.has(area) && approvedServices.has(service)));
 }
 
+export function hasLocalServiceSection(area: string, service: string): boolean {
+  return !hasLocalServicePage(area, service) && (approvedServices.has(service) || !!merged[area]?.includes(service));
+}
+
 export function localServiceHref(area: string, service: string, locale: "en" | "fr" = "en"): string {
   const hub = `${locale === "fr" ? "/fr" : ""}/areas/${area}`;
-  return hasLocalServicePage(area, service) ? `${hub}/${service}` : `${hub}#service-${service}`;
+  if (hasLocalServicePage(area, service)) return `${hub}/${service}`;
+  if (hasLocalServiceSection(area, service)) return `${hub}#service-${service}`;
+  return `${locale === "fr" ? "/fr" : ""}/services/${service}?area=${area}`;
 }

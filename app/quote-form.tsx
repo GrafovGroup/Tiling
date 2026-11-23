@@ -7,7 +7,7 @@ import { submitQuoteRequest } from "./submit-quote";
 import quoteServices from "./quote-services.json";
 import { attachmentError, ATTACHMENT_ACCEPT } from "./quote-attachments";
 
-export function QuoteForm({ compact = false, defaultCity = "", serviceName = "", materialName = "", locale = "en", guidance, projectOptions = false, initialDetails = "" }: { compact?: boolean; defaultCity?: string; serviceName?: string; materialName?: string; locale?: "en" | "fr"; projectOptions?: boolean; initialDetails?: string; guidance?: { hints: string[]; placeholder: string } }) {
+export function QuoteForm({ compact = false, defaultCity = "", serviceName = "", materialName = "", materialOptions, locale = "en", guidance, projectOptions = false, initialDetails = "" }: { compact?: boolean; defaultCity?: string; serviceName?: string; materialName?: string; materialOptions?: string[]; locale?: "en" | "fr"; projectOptions?: boolean; initialDetails?: string; guidance?: { hints: string[]; placeholder: string } }) {
   const fr = locale === "fr";
   const [status, setStatus] = useState<"idle" | "submitting" | "succeeded" | "failed">("idle");
   const [error, setError] = useState("");
@@ -19,13 +19,16 @@ export function QuoteForm({ compact = false, defaultCity = "", serviceName = "",
   const focusNameOnReset = useRef(false);
   const helpId = useId();
   const attachmentHelpId = useId();
-  const [selectedService, setSelectedService] = useState(serviceName);
+  const [serviceSelection, setServiceSelection] = useState({ initial: serviceName, value: serviceName });
+  if (serviceSelection.initial !== serviceName) {
+    setServiceSelection({ initial: serviceName, value: serviceName });
+  }
+  const selectedService = serviceSelection.value;
   const [files, setFiles] = useState<File[]>([]);
   const [fileError, setFileError] = useState("");
   const [sentFiles, setSentFiles] = useState(0);
   const attachmentInput = useRef<HTMLInputElement>(null);
   const effectiveService = projectOptions ? selectedService : serviceName;
-  useEffect(() => { setSelectedService(serviceName); }, [serviceName]);
   const activeGuidance = guidance && projectOptions && selectedService !== serviceName ? {
     hints: fr ? ["La pièce ou la surface et les travaux souhaités.", "Les dimensions approximatives, en pieds ou en mètres.", "Le revêtement actuel et les travaux de préparation."] : ["The room or surface and the work you need.", "Approximate dimensions, in feet or metres.", "The existing finish and any preparation needed."],
     placeholder: fr ? "Pièce, travaux souhaités et dimensions approximatives." : "Room, work needed and approximate dimensions.",
@@ -59,7 +62,7 @@ export function QuoteForm({ compact = false, defaultCity = "", serviceName = "",
     try {
       await submitQuoteRequest(business.formspreeEndpoint, form, fetch, attached.length ? 30000 : 20000);
       formElement.reset();
-      setSentFiles(attached.length); setFiles([]); setFileError(""); setSelectedService(serviceName);
+      setSentFiles(attached.length); setFiles([]); setFileError(""); setServiceSelection({ initial: serviceName, value: serviceName });
       setStatus("succeeded");
       trackEnquiry("generate_lead", effectiveService);
     } catch (submissionError) {
@@ -95,9 +98,23 @@ export function QuoteForm({ compact = false, defaultCity = "", serviceName = "",
     <label className="full">{fr ? "Ville" : "City"}<input name="city" defaultValue={defaultCity} maxLength={120} autoComplete="address-level2" placeholder={fr ? "Où se trouve votre projet?" : "Where is your project?"} required /></label>
     {projectOptions && <>
       <label className="full quote-project-option">{fr ? "Type de travaux" : "Service needed"}<span className="optional-label">{fr ? "Facultatif" : "Optional"}</span>
-        <select name="service" value={selectedService} onChange={event => setSelectedService(event.target.value)}>
+        <select name="service" value={selectedService} onChange={event => setServiceSelection({ initial: serviceName, value: event.target.value })}>
           <option value="">{fr ? "À préciser / plusieurs services" : "Not sure / several services"}</option>
           {quoteServices.map(service => <option key={service.slug} value={service[locale]}>{service[locale]}</option>)}
+        </select>
+      </label>
+      {materialOptions && !materialName && <label className="full quote-project-option">{fr ? "Matériau souhaité" : "Product of interest"}<span className="optional-label">{fr ? "Facultatif" : "Optional"}</span>
+        <select name="material" defaultValue="">
+          <option value="">{fr ? "À préciser" : "Not sure yet"}</option>
+          {materialOptions.map(name => <option key={name}>{name}</option>)}
+        </select>
+      </label>}
+      <label className="full quote-project-option">{fr ? "Que souhaitez-vous obtenir?" : "What would you like quoted?"}<span className="optional-label">{fr ? "Facultatif" : "Optional"}</span>
+        <select name="project_scope" defaultValue="">
+          <option value="">{fr ? "À préciser" : "Not sure yet"}</option>
+          <option>{fr ? "Fourniture seulement" : "Supply only"}</option>
+          <option>{fr ? "Pose seulement" : "Installation only"}</option>
+          <option>{fr ? "Fourniture et pose" : "Supply and installation"}</option>
         </select>
       </label>
       <label className="full quote-project-option">{fr ? "Période souhaitée" : "Preferred timing"}<span className="optional-label">{fr ? "Facultatif" : "Optional"}</span>

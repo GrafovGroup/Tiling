@@ -1,4 +1,4 @@
-import { localServiceHref } from "./local-service-publication";
+import { hasLocalServicePage, hasLocalServiceSection, localServiceHref } from "./local-service-publication";
 import { areas, business, getArea, getService, getMaterial, materials } from "./data";
 import { FAQ, Link, StructuredData } from "./components";
 import { CommercialExamples } from "./commercial-examples";
@@ -6,7 +6,7 @@ import { QuoteForm } from "./quote-form";
 import { PricingLinks } from "./pricing-content";
 import { guidesForService, type Locale } from "./pricing-data";
 import { frenchServices, frenchMaterials, provinceFr } from "./fr/content";
-import { getServiceGuide, serviceReviewed } from "./service-guide-data";
+import { getServiceGuide, getServiceReviewed } from "./service-guide-data";
 
 export function ServiceReference({ slug, locale = "en", areaSlug }: { slug: string; locale?: Locale; areaSlug?: string }) {
   const guide = getServiceGuide(slug);
@@ -22,6 +22,10 @@ export function ServiceLanding({ slug, locale = "en", areaSlug, materialSlug }: 
   const fr = locale === "fr", prefix = fr ? "/fr" : "";
   const copy = fr ? frenchServices.find(item => item.slug === slug)! : service;
   const pricing = guidesForService(slug)[0];
+  const reviewed = getServiceReviewed(slug);
+  const reviewDate = new Intl.DateTimeFormat(fr ? "fr-CA" : "en-CA", {
+    dateStyle: "long", timeZone: "UTC",
+  }).format(new Date(reviewed));
   const url = `${business.domain}${prefix}/services/${slug}`;
   const area = areaSlug ? getArea(areaSlug) : undefined;
   const material = materialSlug ? getMaterial(materialSlug) : undefined;
@@ -37,12 +41,14 @@ export function ServiceLanding({ slug, locale = "en", areaSlug, materialSlug }: 
   return <>
     <section className="inner-hero service-hero">
       <p className="eyebrow">{fr ? "TILING.CA · SERVICES DE CARRELAGE AU CANADA" : "TILING.CA · TILE SERVICES ACROSS CANADA"}</p>
-      <h1>{copy.name}</h1><p>{copy.short}</p>{area && <p className="service-context">{fr ? "Votre projet : " : "Your project: "}<a href={localServiceHref(area.slug,slug,locale)}>{area.name} →</a></p>}
+      <h1>{copy.name}</h1><p>{copy.short}</p>{area && <p className="service-context">{fr ? "Votre projet : " : "Your project: "}<a href={hasLocalServicePage(area.slug,slug) || hasLocalServiceSection(area.slug,slug) ? localServiceHref(area.slug,slug,locale) : `${prefix}/areas/${area.slug}`}>{area.name} →</a></p>}
       {material && <p className="material-context">{fr ? "Matériau envisagé : " : "Material being considered: "}{materialName}</p>}
-      <div className="service-hero-actions"><Link className="button button-primary" href={quoteHref}>{fr ? "Demander une soumission" : "Request a quote"}</Link><a className="service-price-link" href={`${prefix}/pricing/${pricing.slug}?${quoteParams}`}>{fr ? "Consulter les repères de prix →" : "Explore pricing and cost factors →"}</a></div>
+      <div className="service-hero-actions"><Link className="button button-primary" href={quoteHref}>{fr ? "Demander une soumission" : "Request a quote"}</Link>{pricing && <a className="service-price-link" href={`${prefix}/pricing/${pricing.slug}?${quoteParams}`}>{fr ? "Consulter les repères de prix →" : "Explore pricing and cost factors →"}</a>}
+        {!pricing && selectedMaterials[0] && <a className="service-price-link" href={`${prefix}/materials/${selectedMaterials[0].slug}?service=${slug}${area ? "&area=" + area.slug : ""}`}>{fr ? "Voir les options de fourniture" : "View material supply options"}</a>}
+      </div>
     </section>
     <nav className="guide-jump-links service-jump-links" aria-label={fr ? "Dans ce service" : "On this service page"}>
-      {[["service-options", fr ? "Options" : "Project options"], ["service-planning", fr ? "Étapes" : "Preparation & process"], ["service-pricing", fr ? "Prix" : "Pricing"], [quoteId, fr ? "Votre soumission" : "Quote checklist"], ["service-faq", fr ? "Questions" : "FAQs"]].map(([id, label]) => <a href={`#${id}`} key={id}>{label}</a>)}
+      {[["service-options", fr ? "Options" : "Project options"], ["service-planning", fr ? "Étapes" : "Preparation & process"], ...(pricing ? [["service-pricing", fr ? "Prix" : "Pricing"]] : []), [quoteId, fr ? "Votre soumission" : "Quote checklist"], ["service-faq", fr ? "Questions" : "FAQs"]].map(([id, label]) => <a href={`#${id}`} key={id}>{label}</a>)}
     </nav>
     <section className="service-detail section-pad">
       <figure className="service-photo"><img src={service.image} alt={fr ? copy.name : service.imageAlt} width="1536" height="1024" loading="lazy"/></figure>
@@ -51,7 +57,7 @@ export function ServiceLanding({ slug, locale = "en", areaSlug, materialSlug }: 
     <section className="service-options section-pad" id="service-options"><p className="section-kicker">{fr ? "Choisir la portée adaptée" : "Choose the right scope"}</p><h2>{guide.optionsHeading[locale]}</h2><div className="service-option-grid">{guide.options.map(option => <article key={option.title.en}><h3>{option.title[locale]}</h3><p>{option.text[locale]}</p></article>)}</div></section>
     {slug === "commercial-tile" && (fr ? <section className="section-pad service-commercial" id="commercial-applications"><h2>Des applications adaptées à votre entreprise.</h2><div className="fr-grid">{[["restaurant","Restaurants et cafés"],["hotel","Hôtels"],["retail","Commerces"],["washroom","Toilettes et vestiaires"],["office","Bureaux"],["kitchen","Cuisines de service"]].map(([id,label]) => <article className="fr-card" id={id} key={id}><h3>{label}</h3><p>Nous précisons les surfaces, la circulation, l’exposition à l’eau, l’entretien et les périodes d’accès pour définir un assemblage et un calendrier adaptés à vos activités.</p><a href="#commercial-quote">Discuter de ce projet →</a></article>)}</div></section> : <CommercialExamples/>)}
     <section className="service-planning section-pad" id="service-planning"><p className="section-kicker">{fr ? "Préparer le chantier" : "Plan the work"}</p><h2>{guide.planningHeading[locale]}</h2><ol>{guide.steps.map(step => <li key={step.title.en}><h3>{step.title[locale]}</h3><p>{step.text[locale]}</p></li>)}</ol></section>
-    <div id="service-pricing" className="service-anchor"><PricingLinks locale={locale} service={slug} area={area?.slug} material={material?.slug}/></div>
+    {pricing && <div id="service-pricing" className="service-anchor"><PricingLinks locale={locale} service={slug} area={area?.slug} material={material?.slug}/></div>}
     <section className="quote-section service-quote" id={quoteId}>
       <div className="quote-copy"><p className="section-kicker">{fr ? "Votre projet" : "Your project"}</p><h2>{fr ? "Les détails qui préparent une bonne soumission." : "The details behind a useful quote."}</h2><p>{fr ? "Indiquez la ville et les travaux souhaités. Pour préciser le projet, préparez aussi :" : "Start with the city and the work you need. These details help us define your project:"}</p><ul>{guide.quoteChecklist.map(item => <li key={item.en}>{item[locale]}</li>)}</ul><p className="service-scope-note">{guide.scopeNote[locale]}</p></div>
       <QuoteForm projectOptions locale={locale} serviceName={copy.name} defaultCity={area?.name} materialName={materialName}/>
@@ -63,7 +69,7 @@ export function ServiceLanding({ slug, locale = "en", areaSlug, materialSlug }: 
       {selectedMaterials.length > 0 && <div className="service-material-links"><h3>{fr ? "Comprendre les matériaux" : "Understand the materials"}</h3><p>{fr ? "Le produit précis doit convenir à la surface et à l’usage prévus. Consultez ses caractéristiques et ses besoins d’entretien avant de choisir." : "The exact product must suit the surface and intended use. Compare material characteristics and care requirements before selecting."}</p><div className="coverage-tags">{selectedMaterials.map(item => <a key={item.slug} href={`${prefix}/materials/${item.slug}?service=${slug}${area ? "&area="+area.slug : ""}`}>{item.name} →</a>)}</div></div>}
     </section>
     <section className="service-area-links section-pad"><p className="section-kicker">{fr ? "Régions desservies au Canada" : "Canada-wide service areas"}</p><h2>{fr ? "Trouver les détails pour votre région." : "Find local details for your project."}</h2><p>{fr ? "Recherchez votre ville ou votre communauté, puis choisissez le service. Nous confirmons l’accès, les déplacements et les disponibilités pour votre propriété." : "Choose a province or territory, then find your city and the service you need. We confirm access, travel and scheduling for your property."}</p>{!fr && <nav className="coverage-tags" aria-label={fr ? "Parcourir les régions par province" : "Browse service areas by province"}>{[...new Set(areas.map(area => area.province))].sort().map(province => <a key={province} href={`${prefix}/locations#${province.toLowerCase().replace(/[^a-z]+/g,"-")}`}>{fr ? provinceFr[province] || province : province} →</a>)}</nav>}<a className="text-link" href={`${prefix}/locations`}>{fr ? "Rechercher toutes les villes et communautés →" : "Search all cities and communities →"}</a></section>
-    <div className="page-review"><span>{fr ? "Publié et révisé par Tiling.ca" : "Published and reviewed by Tiling.ca"}</span><span>{fr ? "Mis à jour le 8 novembre 2026" : "Updated November 8, 2026"}</span><a href={`${prefix}/editorial-standards`}>{fr ? "Nos normes éditoriales →" : "How we review content →"}</a></div>
-    <StructuredData data={{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":url+"#webpage",url,name:guide.metaTitle[locale],description:guide.metaDescription[locale],inLanguage:fr?"fr-CA":"en-CA",dateModified:serviceReviewed,mainEntity:{"@id":url+"#service"},author:{"@id":business.domain+"/#organization"}},{"@type":"Service","@id":url+"#service",url,name:copy.name,description:guide.metaDescription[locale],serviceType:copy.name,provider:{"@id":business.domain+"/#organization"},areaServed:{"@type":"Country",name:"Canada"}}]}}/>
+    <div className="page-review"><span>{fr ? "Publié et révisé par Tiling.ca" : "Published and reviewed by Tiling.ca"}</span><span>{fr ? "Mis à jour le " : "Updated "}{reviewDate}</span><a href={`${prefix}/editorial-standards`}>{fr ? "Nos normes éditoriales →" : "How we review content →"}</a></div>
+    <StructuredData data={{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":url+"#webpage",url,name:guide.metaTitle[locale],description:guide.metaDescription[locale],inLanguage:fr?"fr-CA":"en-CA",dateModified:reviewed,mainEntity:{"@id":url+"#service"},author:{"@id":business.domain+"/#organization"}},{"@type":"Service","@id":url+"#service",url,name:copy.name,description:guide.metaDescription[locale],serviceType:copy.name,provider:{"@id":business.domain+"/#organization"},areaServed:{"@type":"Country",name:"Canada"}}]}}/>
   </>;
 }
