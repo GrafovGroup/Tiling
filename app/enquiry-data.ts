@@ -1,4 +1,4 @@
-import { planningContext } from "./planning-calculations";
+import { planningContext, setPlanningParams } from "./planning-calculations";
 import { getArea, getMaterial, getService } from "./data";
 import { getServiceGuide } from "./service-guide-data";
 import type { Locale } from "./pricing-data";
@@ -26,7 +26,7 @@ export function enquiryContext(query: EnquiryQuery = {}) {
   if (service) params.set("service", service.slug);
   if (material) params.set("material", material.slug);
   const plan = planningContext(query, "en");
-  if (plan) { params.set("calc_area", String(plan.areaSqFt)); params.set("calc_waste", String(plan.waste)); params.set("calc_unit", plan.unit); }
+  if (plan) setPlanningParams(params, plan);
   return { area, material, service, suffix: params.size ? "?" + params.toString() : "" };
 }
 

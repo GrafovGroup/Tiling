@@ -1,5 +1,6 @@
 "use client";
 import { Logo } from "./logo";
+import { QuoteButton } from "./quote-button";
 
 import { type AnchorHTMLAttributes, useState } from "react";
 import { usePathname } from "next/navigation";
@@ -26,14 +27,14 @@ export function Header() {
       <div className="header-actions">
         <LanguageSwitch/>
         <Link className="header-phone" href={`tel:${business.phoneHref}`}>{business.phone}</Link>
-        <Link className="header-cta" href="/request-a-quote">Get a quote</Link>
+        <QuoteButton className="header-cta">Get a quote</QuoteButton>
       </div>
       <button className="menu-button" aria-expanded={open} aria-controls="mobile-nav" onClick={() => setOpen(!open)}><span /><span /><span /><b className="sr-only">Menu</b></button>
       <nav id="mobile-nav" className={`mobile-nav ${open ? "open" : ""}`} aria-label="Mobile navigation">
-        <Link onClick={() => setOpen(false)} href="/services">Tile services</Link><Link onClick={() => setOpen(false)} href="/materials">Tile supply</Link><Link onClick={() => setOpen(false)} href="/locations">Service areas</Link><Link onClick={() => setOpen(false)} href="/pricing">Pricing guides</Link><Link onClick={() => setOpen(false)} href="/about">About</Link><Link onClick={() => setOpen(false)} href="/how-it-works">Our process</Link><Link onClick={() => setOpen(false)} href="/request-a-quote">Get a quote</Link>
+        <Link onClick={() => setOpen(false)} href="/services">Tile services</Link><Link onClick={() => setOpen(false)} href="/materials">Tile supply</Link><Link onClick={() => setOpen(false)} href="/locations">Service areas</Link><Link onClick={() => setOpen(false)} href="/pricing">Pricing guides</Link><Link onClick={() => setOpen(false)} href="/about">About</Link><Link onClick={() => setOpen(false)} href="/how-it-works">Our process</Link><QuoteButton onClick={() => setOpen(false)}>Get a quote</QuoteButton>
       </nav>
     </header>
-    {pathname !== "/request-a-quote" && <nav className="mobile-enquiry-bar" aria-label="Quick contact"><Link href={`tel:${business.phoneHref}`}>CALL US</Link><Link href={localService ? "#local-quote" : "/request-a-quote"}>GET A QUOTE</Link></nav>}
+    {pathname !== "/request-a-quote" && <nav className="mobile-enquiry-bar" aria-label="Quick contact"><Link href={`tel:${business.phoneHref}`}>CALL US</Link><QuoteButton href={localService ? "#local-quote" : undefined}>Get a quote</QuoteButton></nav>}
     </>
   );
 }

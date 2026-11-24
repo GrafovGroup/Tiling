@@ -1,21 +1,20 @@
 "use client";
 import { Logo } from "../logo";
+import { QuoteButton } from "../quote-button";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
-import { useNavigationQuoteHref } from "../quote-navigation-context";
 import { business } from "../data";
 import { LanguageSwitch } from "../language-switch";
 export function FrenchHeader(){
  const [open,setOpen]=useState(false);const pathname=usePathname()||"/fr";
- const quote=useNavigationQuoteHref();
  const links=[['/fr/services','Services'],['/fr/materials','Matériaux'],['/fr/locations','Régions desservies'],['/fr/pricing','Prix'],['/fr/about','À propos']];
  return <><a className="skip-link" href="#main-content">Aller au contenu</a><header className="site-header french-header" onKeyDown={e=>{if(e.key==='Escape')setOpen(false)}}>
  <a className="brand" href="/fr" aria-label="Tiling.ca — accueil"><Logo header/></a>
  <nav className="desktop-nav" aria-label="Navigation principale">{links.map(([href,label])=><a key={href} href={href}>{label}</a>)}</nav>
- <div className="header-actions"><LanguageSwitch/><a className="header-phone" href={`tel:${business.phoneHref}`}>{business.phone}</a><a className="header-cta" href={quote}>Soumission</a></div>
+ <div className="header-actions"><LanguageSwitch/><a className="header-phone" href={`tel:${business.phoneHref}`}>{business.phone}</a><QuoteButton className="header-cta">Soumission</QuoteButton></div>
  <button className="menu-button" aria-expanded={open} aria-controls="mobile-nav" onClick={()=>setOpen(!open)}><span/><span/><span/><b className="sr-only">Menu</b></button>
- <nav id="mobile-nav" className={`mobile-nav ${open?'open':''}`} aria-label="Navigation mobile">{[...links,['/fr/how-it-works','Notre démarche'],[quote,'Demander une soumission']].map(([href,label])=><a key={href} href={href} onClick={()=>setOpen(false)}>{label}</a>)}</nav></header>
- {pathname!='/fr/request-a-quote'&&<nav className="mobile-enquiry-bar" aria-label="Contact rapide"><a href={`tel:${business.phoneHref}`}>APPELER</a><a href={/^\/fr\/areas\/[^/]+\/[^/]+\/?$/.test(pathname)?'#local-quote':quote}>SOUMISSION</a></nav>}</>;
+ <nav id="mobile-nav" className={`mobile-nav ${open?'open':''}`} aria-label="Navigation mobile">{[...links,['/fr/how-it-works','Notre démarche']].map(([href,label])=><a key={href} href={href} onClick={()=>setOpen(false)}>{label}</a>)}<QuoteButton onClick={()=>setOpen(false)}>Demander une soumission</QuoteButton></nav></header>
+ {pathname!='/fr/request-a-quote'&&<nav className="mobile-enquiry-bar" aria-label="Contact rapide"><a href={`tel:${business.phoneHref}`}>APPELER</a><QuoteButton href={/^\/fr\/areas\/[^/]+\/[^/]+\/?$/.test(pathname)?'#local-quote':undefined}>Soumission</QuoteButton></nav>}</>;
 }
 export function FrenchDirectory({items,initialQuery=""}:{initialQuery?:string;items:{slug:string;name:string;province:string;communities:string[];search?:string}[]}){
  const [query,setQuery]=useState(initialQuery);const normalize=(s:string)=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLocaleLowerCase('fr-CA');

@@ -1,6 +1,6 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { calculateQuantity, convertMeasurement, floorBudget, planningContext, parseAmount, SQ_FT_PER_SQ_M } from '../app/planning-calculations.ts';
+import { calculateQuantity, convertMeasurement, floorBudget, planningContext, setPlanningParams, parseAmount, SQ_FT_PER_SQ_M } from '../app/planning-calculations.ts';
 import { attachmentError, MAX_ATTACHMENT_BYTES, MAX_ATTACHMENT_TOTAL_BYTES } from '../app/quote-attachments.ts';
 const base={mode:'dimensions',unit:'ft',surfaces:[{length:'20',width:'10'}],area:'',waste:'10',boxCoverage:'11'};
 test('quantity sums surfaces, adds purchasing allowance and rounds full cartons without charging labour on waste',()=>{
@@ -35,4 +35,41 @@ test('switching units keeps exact-carton quantities stable',()=>{
  assert.equal(calculateQuantity(metric).cartons,20);
  const back={...metric,unit:'ft',surfaces:metric.surfaces.map(s=>({length:convertMeasurement(s.length,'m','ft'),width:convertMeasurement(s.width,'m','ft')})),boxCoverage:convertMeasurement(metric.boxCoverage,'m','ft',true)};
  assert.equal(calculateQuantity(back).cartons,20);
+});
+
+
+test('calculator handoff reproduces carton counts from coverage in the selected unit', () => {
+ const cases = [
+  { unit: 'ft', area: '120', waste: '10', coverage: '20', cartons: 7 },
+  { unit: 'm', area: '6,25', waste: '0', coverage: '1,25', cartons: 5 },
+  { unit: 'm', area: '1', waste: '0', coverage: '0.1', cartons: 10 },
+  { unit: 'ft', area: '0.0000002', waste: '0', coverage: '0.0000001', cartons: 2 },
+ ];
+ for (const item of cases) {
+  const result = calculateQuantity({...base,mode:'area',unit:item.unit,area:item.area,waste:item.waste,boxCoverage:item.coverage});
+  assert.equal(result.cartons,item.cartons);
+  const params = new URLSearchParams({ service:'tile-supply-delivery' });
+  setPlanningParams(params,result);
+  assert.equal(params.get('service'),'tile-supply-delivery');
+  const plan = planningContext(Object.fromEntries(params),'en');
+  assert.equal(plan.cartons,result.cartons);
+  assert.equal(plan.boxCoverage,result.boxCoverage);
+  assert.equal(plan.unit,item.unit);
+  assert.equal(plan.areaSqFt,result.areaSqFt);
+ }
+});
+
+test('old, repeated or invalid carton parameters do not replace valid measurements or invent box counts', () => {
+ const measurement = {calc_area:'120',calc_waste:'10',calc_unit:'ft'};
+ const legacy = planningContext(measurement,'en');
+ assert.equal(legacy.cartons,null);
+ for (const invalid of [['20','40'],'0','-2','10001','1e4','nope','0.00000000000000000001']) {
+  const plan = planningContext({...measurement,calc_box_coverage:invalid,calc_cartons:'99'},'en');
+  assert.equal(plan.summary,legacy.summary);
+  const params = new URLSearchParams({calc_box_coverage:'99'});
+  setPlanningParams(params,plan);
+  assert.equal(params.has('calc_box_coverage'),false);
+ }
+ const french = planningContext({calc_area:'10',calc_waste:'0',calc_unit:'ft',calc_box_coverage:'15',calc_cartons:'5000'},'fr');
+ assert.match(french.summary,/15 pi² par boîte, prévoir 1 boîte entière\./);
 });

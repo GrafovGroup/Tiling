@@ -1,7 +1,7 @@
 "use client";
 
 import { useId, useRef, useState, type FormEvent } from "react";
-import { calculateQuantity, convertMeasurement, floorBudget, type MeasurementUnit, type Surface } from "./planning-calculations";
+import { calculateQuantity, convertMeasurement, floorBudget, setPlanningParams, type MeasurementUnit, type Surface } from "./planning-calculations";
 
 type Benchmark = { id: string; name: string; region: string; scope: string; range: string; includes: string; url: string };
 export function PricingCalculator({ locale = "en", quoteHref, benchmarks = [] }: { locale?: "en" | "fr"; quoteHref: string; benchmarks?: Benchmark[] }) {
@@ -38,8 +38,7 @@ export function PricingCalculator({ locale = "en", quoteHref, benchmarks = [] }:
   if (valid) {
     const [path, query = ""] = quoteHref.split("?");
     const params = new URLSearchParams(query);
-    params.set("calc_area", String(Number(valid.areaSqFt.toFixed(6))));
-    params.set("calc_waste", String(valid.waste)); params.set("calc_unit", unit);
+    setPlanningParams(params, valid);
     plannedQuoteHref = path + "?" + params.toString();
   }
   const errors = fr ? {

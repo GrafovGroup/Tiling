@@ -41,3 +41,20 @@ test('compact service labels cover the published service guides in each language
  assert.equal(new Set(options.map(x=>x.slug)).size,options.length);
  for(const option of options)assert.ok(option.en&&option.fr);
 });
+
+
+test('carton details reach bilingual enquiry notes and survive links without changing their canonical', async () => {
+ for (const prefix of ['', '/fr']) {
+  const query = new URLSearchParams({service:'tile-supply-delivery',material:'porcelain-tile',area:'toronto',calc_area:'120',calc_unit:'ft',calc_waste:'10',calc_box_coverage:'20'});
+  const quote = await html(prefix+'/request-a-quote?'+query);
+  const contactHref = quote.match(/href="([^"]*\/contact\?[^"]*calc_box_coverage[^"]*)"/)?.[1].replaceAll('&amp;','&');
+  assert.ok(contactHref);
+  for (const [path,page] of [['/request-a-quote',quote],['/contact',await html(contactHref)]]) {
+   const note=page.match(/<textarea[^>]*name="details"[^>]*>([\s\S]*?)<\/textarea>/)?.[1];
+   assert.ok(note.includes(prefix ? '20 pi² par boîte, prévoir 7 boîtes entières' : '20 sq. ft. per box, allow for 7 full boxes'));
+   assert.equal(formValue(page,'city'),'Toronto');
+   assert.ok(formValue(page,'material'));
+   assert.ok(page.split('</head>')[0].includes('rel="canonical" href="https://tiling.ca'+prefix+path+'"'));
+  }
+ }
+});

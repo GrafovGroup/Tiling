@@ -504,3 +504,63 @@ main :is(.service-detail,.local-context,.feature-copy,.material-hero-copy) p+p:n
 @media(max-width:480px){.calculator-pair{grid-template-columns:minmax(0,1fr)}.calculator-form,.calculator-result{padding:18px}.calculator-result dl>div{flex-direction:column;gap:5px}.quote-attachments input{padding:10px 6px}}
 
 @media(max-width:820px){body:has(.quote-project-option select:focus,.calculator-form input:focus,.calculator-form select:focus) .mobile-enquiry-bar{display:none}}
+
+/* The quote link carries the same tile inlay in the hero and navigation. */
+:is(.hero-actions, .site-header, .mobile-enquiry-bar) a[data-quote-inlay] {
+  --inlay-width: 56px;
+  --quote-label-gutter: 19px;
+  --arrow-gutter: 17px;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0;
+  max-width: 100%;
+  min-height: 60px;
+  padding: 0;
+  overflow: hidden;
+  color: #fff9e9;
+  background: var(--forest);
+  border: 1px solid #102c26;
+  border-radius: 4px;
+  box-shadow: 0 3px 0 #0e2821;
+  font: 600 18px/1.2 var(--font-body), sans-serif;
+  letter-spacing: normal;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+.quote-button-inlay {
+  flex: 0 0 var(--inlay-width);
+  align-self: stretch;
+  border-inline-end: 2px solid #d8cfab;
+  background: #c4bca1 url("/brand/quote-herringbone.svg") center / cover no-repeat;
+}
+.quote-button-label { flex: 1; min-width: 0; padding: 10px var(--quote-label-gutter); }
+.quote-button-arrow { padding-inline-end: var(--arrow-gutter); font: 24px/1 Arial, sans-serif; }
+:is(.site-header, .mobile-enquiry-bar) a[data-quote-inlay] {
+  --inlay-width: 36px;
+  --quote-label-gutter: 10px;
+  --arrow-gutter: 10px;
+  min-height: 48px;
+  font-size: 15px;
+}
+.mobile-nav a[data-quote-inlay] { display: flex; margin-top: 8px; }
+:is(.site-header, .mobile-enquiry-bar) .quote-button-arrow { font-size: 20px; }
+a[data-quote-inlay]:focus-visible {
+  outline: 3px solid #fff9e9;
+  outline-offset: 1px;
+  box-shadow: 0 0 0 6px #173f36;
+}
+@media (max-width: 350px) {
+  .hero-actions a[data-quote-inlay] { --inlay-width: 44px; --quote-label-gutter: 10px; --arrow-gutter: 12px; }
+  .mobile-enquiry-bar a[data-quote-inlay] { --inlay-width: 30px; --quote-label-gutter: 6px; --arrow-gutter: 6px; }
+}
+@media (prefers-reduced-motion: no-preference) and (hover: hover) {
+  a[data-quote-inlay]:hover { transform: translateY(-2px); }
+}
+@media (prefers-reduced-motion: no-preference) {
+  a[data-quote-inlay]:active { transform: translateY(2px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  :is(.hero-actions, .site-header, .mobile-enquiry-bar) a[data-quote-inlay] { transition: none; transform: none; }
+}

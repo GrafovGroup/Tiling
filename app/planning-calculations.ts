@@ -7,6 +7,13 @@ export function parseAmount(value: string): number | null {
   const n = Number(clean);
   return Number.isFinite(n) ? n : null;
 }
+function fullCartons(orderArea: number, boxCoverage: number | null): number | null {
+  if (boxCoverage === null || boxCoverage <= 0 || boxCoverage > 10000) return null;
+  // Remove machine-precision noise at exact carton boundaries, then round up.
+  const cartons = Math.ceil(Number((orderArea / boxCoverage).toPrecision(12)));
+  return Number.isSafeInteger(cartons) && cartons > 0 ? cartons : null;
+}
+
 export function calculateQuantity(input: { mode: "dimensions" | "area"; unit: MeasurementUnit; surfaces: Surface[]; area: string; waste: string; boxCoverage: string }) {
   const waste = parseAmount(input.waste);
   if (waste === null || waste < 0 || waste > 30) return { error: "waste" as const };
@@ -28,10 +35,9 @@ export function calculateQuantity(input: { mode: "dimensions" | "area"; unit: Me
   if (!Number.isFinite(areaSqFt) || areaSqFt > 1_000_000) return { error: "area" as const };
   const orderArea = area * (1 + waste / 100);
   const boxCoverage = input.boxCoverage.trim() ? parseAmount(input.boxCoverage) : null;
-  if (input.boxCoverage.trim() && (boxCoverage === null || boxCoverage <= 0 || boxCoverage > 10000)) return { error: "box" as const };
-  // Remove machine-precision noise at exact carton boundaries, then round up.
-  const cartons = boxCoverage ? Math.ceil(Number((orderArea / boxCoverage).toPrecision(12))) : null;
-  return { area, areaSqFt, waste, orderArea, cartons };
+  const cartons = fullCartons(orderArea, boxCoverage);
+  if (input.boxCoverage.trim() && cartons === null) return { error: "box" as const };
+  return { area, areaSqFt, waste, orderArea, cartons, boxCoverage, unit: input.unit };
 }
 export function convertMeasurement(value: string, from: MeasurementUnit, to: MeasurementUnit, squared = false) {
   const n = parseAmount(value);
@@ -49,6 +55,19 @@ export function floorBudget(areaSqFt: number, source: string) {
   if (!rate || !Number.isFinite(areaSqFt) || areaSqFt <= 0 || areaSqFt > 1_000_000) return null;
   return { low: areaSqFt * rate.low, high: areaSqFt * rate.high };
 }
+type PlanMeasurements = { areaSqFt: number; waste: number; unit: MeasurementUnit; boxCoverage: number | null };
+const queryNumber = new Intl.NumberFormat("en-US", { useGrouping: false, maximumSignificantDigits: 17 });
+
+export function setPlanningParams(params: URLSearchParams, plan: PlanMeasurements) {
+  // Keep enough precision for the destination to reproduce a whole-box boundary.
+  // Area travels in square feet; box coverage is per box in the user's chosen unit.
+  params.set("calc_area", queryNumber.format(plan.areaSqFt));
+  params.set("calc_waste", queryNumber.format(plan.waste));
+  params.set("calc_unit", plan.unit);
+  if (plan.boxCoverage !== null) params.set("calc_box_coverage", queryNumber.format(plan.boxCoverage));
+  else params.delete("calc_box_coverage");
+}
+
 export function planningContext(query: Record<string, string | string[] | undefined>, locale: "en" | "fr") {
   if (typeof query.calc_area !== "string" || typeof query.calc_waste !== "string" || (typeof query.calc_unit !== "string" || !["ft", "m"].includes(query.calc_unit))) return null;
   const areaSqFt = parseAmount(query.calc_area), waste = parseAmount(query.calc_waste);
@@ -56,8 +75,19 @@ export function planningContext(query: Record<string, string | string[] | undefi
   const unit = query.calc_unit as MeasurementUnit, fr = locale === "fr";
   const n = (value: number) => new Intl.NumberFormat(fr ? "fr-CA" : "en-CA", { maximumFractionDigits: 2 }).format(value);
   const area = areaSqFt / (unit === "m" ? SQ_FT_PER_SQ_M : 1), label = unit === "m" ? "m²" : fr ? "pi²" : "sq. ft.";
-  return {
-    areaSqFt, waste, unit,
-    summary: fr ? `Mesures indicatives du calculateur : ${n(area)} ${label} de surface; avec ${n(waste)} % de pertes, ${n(area * (1 + waste / 100))} ${label} de carreaux avant l’arrondi aux boîtes. À vérifier sur place; il ne s’agit pas d’une soumission.` : `Planning measurements from the calculator: ${n(area)} ${label} of surface; with ${n(waste)}% allowance, ${n(area * (1 + waste / 100))} ${label} of tile before rounding to full boxes. Measurements need verification; this is not a quote.`,
-  };
+  const orderArea = area * (1 + waste / 100);
+  const coverage = typeof query.calc_box_coverage === "string" ? parseAmount(query.calc_box_coverage) : null;
+  const cartons = fullCartons(orderArea, coverage);
+  const boxCoverage = cartons !== null ? coverage : null;
+  let summary = fr
+    ? `Mesures indicatives du calculateur : ${n(area)} ${label} de surface; avec ${n(waste)} % de pertes, ${n(orderArea)} ${label} de carreaux avant l’arrondi aux boîtes.`
+    : `Planning measurements from the calculator: ${n(area)} ${label} of surface; with ${n(waste)}% allowance, ${n(orderArea)} ${label} of tile before rounding to full boxes.`;
+  if (boxCoverage !== null && cartons !== null) {
+    const coverageLabel = new Intl.NumberFormat(fr ? "fr-CA" : "en-CA", { maximumSignificantDigits: 17 }).format(boxCoverage);
+    summary += fr
+      ? ` À ${coverageLabel} ${label} par boîte, prévoir ${n(cartons)} ${cartons === 1 ? "boîte entière" : "boîtes entières"}.`
+      : ` At ${coverageLabel} ${label} per box, allow for ${n(cartons)} ${cartons === 1 ? "full box" : "full boxes"}.`;
+  }
+  summary += fr ? " À vérifier sur place; il ne s’agit pas d’une soumission." : " Measurements need verification; this is not a quote.";
+  return { areaSqFt, waste, unit, boxCoverage, cartons, summary };
 }
